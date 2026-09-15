@@ -1,7 +1,7 @@
 {
- "aggiornato_il": "2026-09-15T10:35:46",
- "concorsi": 7334,
- "estrazioni": 76549,
+ "aggiornato_il": "2026-09-15T12:08:46",
+ "concorsi": 7382,
+ "estrazioni": 77077,
  "metodi": {
   "ambosecco_caotico": "Ambo Secco Caotico — Antonio Longo",
   "fulmine": "Fulmine — Osvaldo Manara",
@@ -11,9 +11,9 @@
   "unsoloambosecco": "Un Solo Ambo Secco"
  },
  "ordine_di_estrazione": true,
- "previsioni": 1753,
+ "previsioni": 2253,
  "prima_estrazione": "1939-01-07",
- "quota_crescenti": 0.0083,
+ "quota_crescenti": 0.0082,
  "ruote": {
   "BA": "Bari",
   "CA": "Cagliari",
@@ -26,5 +26,5 @@
   "TO": "Torino",
   "VE": "Venezia"
  },
- "ultima_estrazione": "2026-06-20"
+ "ultima_estrazione": "2026-09-12"
 }
