@@ -18,44 +18,35 @@
   </header>
 
   <div class="schede" role="tablist">
-    <button role="tab" data-vista="stasera" aria-selected="true">Stasera</button>
+    <button role="tab" data-vista="schedina" aria-selected="true">Schedina</button>
     <button role="tab" data-vista="corso" aria-selected="false">In corso</button>
     <button role="tab" data-vista="bilancio" aria-selected="false">Bilancio</button>
-    <button role="tab" data-vista="schedina" aria-selected="false">Schedina</button>
     <button role="tab" data-vista="estrazioni" aria-selected="false">Estrazioni</button>
   </div>
 
-  <div id="stasera">
-    <article class="carta prossima" id="concorso">
-      <div class="quando">caricamento…</div>
-    </article>
+  <div id="schedina">
+    <section class="concorso" id="concorso">
+      <p class="quando">caricamento…</p>
+    </section>
 
-    <article class="carta">
-      <div class="campo">
-        <div class="etichetta">
-          <span>Quanto vuoi spendere in tutto</span>
-          <span class="conta" id="nota-budget"></span>
-        </div>
+    <section class="budget">
+      <label for="budget">Quanto vuoi spendere</label>
+      <div class="budget-riga">
+        <div class="scelte-rapide" id="scelte-budget"></div>
         <div class="importo">
-          <input type="number" id="budget" value="20" min="1" step="1" inputmode="decimal">
-          <span style="color:var(--tenue)">euro</span>
+          <input type="number" id="budget" value="20" min="1" step="1" inputmode="decimal"
+                 aria-label="budget in euro">
+          <span>euro</span>
         </div>
       </div>
-    </article>
+      <p class="nota-budget" id="nota-budget"></p>
+    </section>
 
     <div id="consiglio"></div>
-  </div>
 
-  <div id="corso" hidden></div>
-  <div id="bilancio" hidden></div>
-  <div id="estrazioni" hidden></div>
+    <details class="tuoi-numeri" id="tuoi-numeri">
+      <summary>Preferisci giocare numeri tuoi?</summary>
 
-  <div id="schedina" hidden>
-    <article class="carta prossima" id="prossima">
-      <div class="quando">caricamento…</div>
-    </article>
-
-    <article class="carta">
       <div class="campo">
         <div class="etichetta">
           <span>Numeri</span>
@@ -64,7 +55,7 @@
         <select class="da-previsione" id="da-previsione">
           <option value="">parti da una previsione in corso…</option>
         </select>
-        <div class="griglia" id="griglia" style="margin-top:12px"></div>
+        <div class="griglia" id="griglia"></div>
       </div>
 
       <div class="campo">
@@ -83,14 +74,19 @@
       <div class="campo">
         <div class="etichetta"><span>Quanto punti in tutto</span></div>
         <div class="importo">
-          <input type="number" id="importo" value="5" min="0.5" step="0.5" inputmode="decimal">
-          <span style="color:var(--tenue)">euro</span>
+          <input type="number" id="importo" value="5" min="0.5" step="0.5" inputmode="decimal"
+                 aria-label="importo in euro">
+          <span>euro</span>
         </div>
       </div>
-    </article>
 
-    <div id="risultato"></div>
+      <div id="risultato"></div>
+    </details>
   </div>
+
+  <div id="corso" hidden></div>
+  <div id="bilancio" hidden></div>
+  <div id="estrazioni" hidden></div>
 
   <footer>
     <p>Le previsioni vengono da sei metodi pubblicati su fascicoli degli anni
@@ -98,8 +94,7 @@
     essi è in grado di prevedere l'estrazione: sul backtest di vent'anni ogni
     euro giocato ne restituisce in media <b>meno di settanta centesimi</b>, ed è
     il margine del banco, non un difetto di questo o quel metodo. La scheda
-    <b>Bilancio</b> mostra i conti veri, quella <b>Schedina</b> la probabilità
-    accanto a ogni vincita possibile. Il gioco può causare dipendenza
+    <b>Bilancio</b> mostra i conti veri. Il gioco può causare dipendenza
     patologica.</p>
     <p id="sorgente"></p>
   </footer>

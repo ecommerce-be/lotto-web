@@ -154,75 +154,73 @@ A(P("Il Lotto non si estrae tutti i giorni: al momento sono quattro estrazioni "
 
 # ---------------------------------------------------------------- 2
 A(P("Le quattro pagine", "h1"))
-A(P("In alto ci sono quattro pulsanti: <b>In corso</b>, <b>Bilancio</b>, "
-    "<b>Schedina</b>, <b>Estrazioni</b>. Sono quattro modi di guardare la stessa "
-    "cosa."))
+A(P("In alto ci sono quattro pulsanti: <b>Schedina</b>, <b>In corso</b>, "
+    "<b>Bilancio</b>, <b>Estrazioni</b>. Sono quattro modi di guardare la "
+    "stessa cosa."))
 
-A(P("1. In corso — che cosa è ancora in gioco", "h2"))
-A(P("È la pagina da guardare per prima se vuoi giocare. Contiene tutte le "
-    "previsioni ancora valide, cioè quelle a cui restano dei colpi. Ogni "
-    "riquadro è una previsione, e dice quattro cose:"))
-A(punti([
-    "<b>Il metodo</b> che l’ha prodotta, con accanto scritto quanto spesso "
-    "quel metodo scatta in un anno.",
-    "<b>Il giorno</b> in cui è stata rilevata e <b>su quali ruote</b> si gioca. "
-    "La ruota non è un dettaglio: fa parte della previsione. Se c’è "
-    "scritto “anche a Tutte”, il fascicolo prevede la possibilità di "
-    "giocarla su tutte le ruote, ma è facoltativo.",
-    "<b>Quanti colpi restano</b>, a destra in grande. “8 colpi su 12” vuol "
-    "dire che sono già passate quattro estrazioni senza esito e ne restano otto.",
-    "<b>I numeri</b>, divisi per tipo di giocata: ambata, ambo, terzina, quartina.",
-]))
-A(P("Le previsioni sono raggruppate per metodo, e i gruppi sono ordinati "
-    "<b>dal metodo che scatta più di rado a quello che scatta più spesso</b>, "
-    "non per data. È una scelta voluta: “Lotto Facile — Il Metodo "
-    "Vincente” produce più di mille rilevamenti l’anno, “Fulmine” "
-    "meno di cento. Ordinando per data, il metodo raro finirebbe sepolto sotto "
-    "quello prolifico e sembrerebbe che valgano uguale. I gruppi più affollati "
-    "partono chiusi: si aprono con un tocco."))
+A(P("1. Schedina \u2014 che cosa giocare al prossimo concorso", "h2"))
+A(P("\u00c8 la pagina che si apre per prima. In cima dice quand\u2019\u00e8 "
+    "la prossima estrazione e quanto manca. Sotto scrivi quanto vuoi spendere, "
+    "e il sito compone una giocata concreta: queste sorti, su queste ruote, due "
+    "euro l\u2019una, con il costo totale, la probabilit\u00e0 di portare a "
+    "casa qualcosa e quanto torna indietro in media."))
+A(P("Le giocate sono in ordine di <b>rarit\u00e0 del metodo</b>: prima quelle "
+    "che capitano poche volte l\u2019anno. A parit\u00e0 di metodo viene "
+    "prima ci\u00f2 che scade (le giocate all\u2019ultimo colpo sono segnate), "
+    "e prima la sorte che rende di pi\u00f9 \u2014 cos\u00ec, se il budget non "
+    "basta per tutto, a restare fuori sono i terni e non gli ambi."))
 
-A(P("2. Bilancio — quanto è costato e quanto ha reso", "h2"))
-A(P("È la pagina scomoda, ed è quella che rende questo sito diverso da un "
-    "volantino. Per ogni metodo dice quante previsioni ha prodotto, quanto sarebbe "
-    "costato giocarle tutte, quanto avrebbero fruttato alle quote ufficiali, e il "
-    "saldo. Il conto segue le convenzioni dei fascicoli: un euro per ogni sorte, "
-    "per ogni ruota, per ogni colpo, e la sorte si sospende quando si verifica. "
-    "Le vincite sono al netto della ritenuta dell’8%."))
-A(P("Dove c’è scritto <i>campione troppo piccolo per essere indicativo</i>, "
-    "quel saldo non vuol dire niente: le previsioni sono troppo poche e un solo "
-    "terno ne ribalta il segno. È il caso, per esempio, di “Un Solo Ambo "
-    "Secco”, che con quattro previsioni in tutto mostra un ritorno dell’821% "
-    "— un numero che non significa nulla."))
-
-A(P("3. Schedina — quanto punti e quanto puoi vincere", "h2"))
-A(P("In cima dice quand’è la prossima estrazione. Sotto c’è una "
-    "griglia con i novanta numeri: si toccano quelli che si vogliono giocare (fino "
-    "a dieci), si scelgono le ruote e le sorti, si scrive quanto si vuole puntare, "
-    "e il sito calcola tutto. C’è anche un menù che riempie la griglia "
-    "partendo direttamente da una previsione in corso."))
-A(P("La parte che conta è la tabella che compare sotto, perché dice "
-    "<b>quanto si sta puntando davvero</b>, che è il punto in cui quasi tutti "
-    "si sbagliano. La posta si divide fra le ruote, fra le sorti scelte e fra le "
-    "combinazioni:"))
 A(riquadro([
-    "Venti euro su dieci ruote, chiedendo ambo e terno, non sono venti euro di "
-    "ambo: sono un euro per ogni ruota e per ogni sorte. E se i numeri giocati "
-    "sono cinque, per ambo quelle combinazioni sono dieci — quindi su ogni "
-    "singolo ambo vanno dieci centesimi.",
-    "È il motivo per cui allargare la giocata non moltiplica la vincita come "
-    "sembra: aumenta le occasioni di vincere qualcosa e riduce nella stessa misura "
-    "quanto si vince ogni volta.",
+    "<b>Sui numeri il sito non d\u00e0 nessun consiglio, e non \u00e8 una "
+    "reticenza.</b> Nel Lotto le quote sono fissate per legge e la "
+    "probabilit\u00e0 \u00e8 la stessa per qualunque combinazione: a "
+    "parit\u00e0 di sorte il ritorno atteso di ogni giocata possibile \u00e8 "
+    "identico. Mettere i numeri in classifica dal migliore al peggiore "
+    "significherebbe inventare un ordine che non esiste. Le uniche scelte che "
+    "cambiano davvero qualcosa sono quante giocate fare, su quante ruote, e "
+    "per quale sorte \u2014 ed \u00e8 su quelle che la pagina lavora.",
 ]))
-A(P("Accanto a ogni vincita possibile c’è la sua probabilità. È "
-    "l’informazione che i fascicoli non danno mai: “potresti vincere 575 "
-    "euro” da solo è pubblicità, “575 euro, una volta su 400,5” "
-    "è un’informazione con cui si può decidere."))
 
-A(P("4. Estrazioni — che cosa è uscito", "h2"))
-A(P("Gli ultimi otto concorsi, con tutte e dieci le ruote, nell’ordine di "
-    "estrazione. Serve per un controllo veloce senza andare a cercare altrove."))
+A(P("In fondo compaiono i numeri chiesti da pi\u00f9 previsioni insieme. Non "
+    "li rende pi\u00f9 probabili: significa solo che coprendoli si soddisfano "
+    "pi\u00f9 previsioni con meno giocate distinte, che \u00e8 un risparmio "
+    "vero. E, chiusa, c\u2019\u00e8 la voce <i>\u201cPreferisci giocare "
+    "numeri tuoi?\u201d</i>: apre la griglia dei novanta numeri per dare un "
+    "prezzo a una giocata qualunque, anche una che non viene da nessun metodo."))
 
-# ---------------------------------------------------------------- 3
+A(P("2. In corso \u2014 tutto quello che \u00e8 ancora in gioco", "h2"))
+A(P("La stessa materia della Schedina, ma senza il filtro del budget: tutte le "
+    "previsioni ancora valide, raggruppate per metodo. Ogni riquadro dice il "
+    "giorno del rilevamento, su quali ruote si gioca, quanti colpi restano "
+    "(\u201c8 colpi su 12\u201d vuol dire che ne sono gi\u00e0 passati "
+    "quattro), e i numeri divisi per tipo di giocata. Se c\u2019\u00e8 "
+    "scritto \u201canche a Tutte\u201d, il fascicolo prevede di poterla "
+    "giocare su tutte le ruote, ma \u00e8 facoltativo."))
+A(P("I gruppi pi\u00f9 affollati partono chiusi e si aprono con un tocco. "
+    "Anche qui l\u2019ordine \u00e8 per rarit\u00e0: \u201cLotto Facile "
+    "\u2014 Il Metodo Vincente\u201d produce pi\u00f9 di mille rilevamenti "
+    "l\u2019anno e \u201cFulmine\u201d meno di cento, e ordinando per data "
+    "il secondo finirebbe sepolto sotto il primo."))
+
+A(P("3. Bilancio \u2014 quanto \u00e8 costato e quanto ha reso", "h2"))
+A(P("\u00c8 la pagina scomoda, ed \u00e8 quella che rende questo sito diverso "
+    "da un volantino. Per ogni metodo dice quante previsioni ha prodotto, "
+    "quanto sarebbe costato giocarle tutte, quanto avrebbero fruttato alle "
+    "quote ufficiali, e il saldo. Il conto segue le convenzioni dei fascicoli: "
+    "un euro per ogni sorte, per ogni ruota, per ogni colpo, e la sorte si "
+    "sospende quando si verifica. Le vincite sono al netto della ritenuta "
+    "dell\u20198%."))
+A(P("Dove c\u2019\u00e8 scritto <i>campione troppo piccolo per essere "
+    "indicativo</i>, quel saldo non vuol dire niente: le previsioni sono troppo "
+    "poche e un solo terno ne ribalta il segno. \u00c8 il caso, per esempio, di "
+    "\u201cUn Solo Ambo Secco\u201d, che con quattro previsioni in tutto "
+    "mostra un ritorno dell\u2019821% \u2014 un numero che non significa nulla."))
+
+A(P("4. Estrazioni \u2014 che cosa \u00e8 uscito", "h2"))
+A(P("Gli ultimi otto concorsi, con tutte e dieci le ruote, "
+    "nell\u2019ordine di estrazione. Serve per un controllo veloce senza "
+    "andare a cercare altrove."))
+
 A(P("I sei metodi", "h1"))
 A(P("Sono quelli dei fascicoli, applicati alla lettera. La colonna "
     "“Rilevamenti” dice quante volte l’anno ciascun metodo trova la "

@@ -21,7 +21,7 @@ stesso qualunque numero si giochi. I metodi scelgono *quali* numeri giocare, non
 *quanto paga* il gioco.
 
 Questa app esiste per rendere quel fatto visibile invece di nasconderlo. La
-scheda **Bilancio** mostra speso, incassato e saldo reali. La scheda
+scheda **Bilancio** mostra speso, incassato e saldo reali; la scheda
 **Schedina** mette la probabilità accanto a ogni vincita possibile, perché
 "potresti vincere 575 €" da solo è pubblicità, mentre "575 €, una volta su
 400,5" è un'informazione.
@@ -116,6 +116,65 @@ Le selettività sono molto diverse — il primo scatta più di mille volte l'ann
 ordina per data ma **per rarità del metodo**, con accanto scritto quanto spesso
 capita. Ordinare per data significherebbe seppellire il metodo raro sotto quello
 prolifico, dando l'impressione che valgano uguale.
+
+## Le quattro schede
+
+**Schedina** — che cosa giocare al prossimo concorso. In cima il concorso in
+arrivo con quanto manca; si scrive quanto si vuole spendere e la pagina compone
+una giocata concreta, con costo, probabilità di vincere qualcosa e ritorno
+atteso.
+
+*Perché non consiglia dei numeri, e non è una reticenza.* In un'app di scommesse
+sportive il consiglio ha senso perché le quote si muovono e possono sbagliare:
+si cerca lo scarto fra il prezzo del bookmaker e il rischio vero. Nel Lotto non
+esiste niente del genere — le quote sono fissate per legge, la probabilità è la
+stessa per qualunque combinazione, e **a parità di sorte il ritorno atteso di
+ogni giocata possibile è identico**. Una pagina che ordinasse i numeri dal
+"migliore" al "peggiore" inventerebbe una classifica che non esiste.
+
+Quello che invece si ottimizza davvero:
+
+1. **quale sorte** — ambo e ambata rendono 57 centesimi per euro, il terno 35,
+   la quaterna 22. È dimostrabile, e le righe che rendono meno sono attenuate e
+   dichiarano quanto rendono;
+2. **quanto spendere** — coprire tutte le previsioni vive costa centinaia di
+   euro, e la pagina dice quanto;
+3. **cosa tenere quando il budget non basta** — prima il **metodo più raro**,
+   poi ciò che scade prima, poi la sorte che rende di più. Così il taglio
+   colpisce i terni e non gli ambi, e non lascia fuori il metodo che scatta
+   quattro volte l'anno per far posto a quello che ne fa mille.
+
+In fondo compaiono i **numeri chiesti da più previsioni**: non li rende più
+probabili, significa che coprendoli si soddisfano più previsioni con meno
+giocate distinte. E, chiuso, il **compositore manuale** — griglia dei novanta
+numeri, ruote, sorti, importo — per dare un prezzo a una giocata qualunque.
+
+Costo e ritorno atteso sono esatti (il valore atteso è additivo anche fra
+giocate dipendenti); la probabilità di vincere qualcosa è approssimata, perché
+le giocate insistono sullo stesso concorso e condividono numeri e ruote — per
+questo la pagina scrive "circa".
+
+**In corso** — tutte le previsioni ancora giocabili, raggruppate per metodo e
+ordinate **per rarità**, non per data: ordinare per data seppellisce il metodo
+che scatta ottanta volte l'anno sotto quello che ne fa mille.
+
+**Bilancio** — speso, incassato, saldo e ritorno per metodo, col riferimento del
+backtest ventennale e il flag sui campioni troppo piccoli.
+
+**Estrazioni** — gli ultimi otto concorsi, tutte le ruote, in ordine di
+estrazione.
+
+### La data del prossimo concorso
+
+È **proiettata** dai giorni della settimana in cui si è estratto negli ultimi
+mesi, e dichiarata come proiezione. Il motivo è una trappola che vale la pena
+conoscere: l'endpoint `calendario-estrazioni-del-lotto` elenca i giorni in cui un
+concorso **si è già tenuto**, non quelli programmati, quindi interrogato sul
+futuro risponde con una lista vuota. In sviluppo sembrava funzionare, perché con
+l'archivio fermo a giugno i giorni "già avvenuti" erano comunque nel futuro
+rispetto all'ultimo concorso caricato; si è visto solo alla prima esecuzione con
+i dati aggiornati. La fonte viene interrogata lo stesso, prima: se un giorno
+pubblicasse il calendario in anticipo, quella risposta avrebbe la precedenza.
 
 ## Farlo girare
 
