@@ -9,7 +9,7 @@ un'azione di GitHub scarica l'estrazione, ricalcola tutto e riscrive i file che
 la pagina legge. Si apre da qualunque telefono, non ha bisogno di manutenzione,
 e continua a funzionare anche a computer spento.
 
-**Il sito:** https://ecommerce-be.github.io/lotto-web/
+**Il sito:** `https://<tuo-utente>.github.io/<nome-repo>/`
 
 ## La cosa da sapere prima di tutto il resto
 
@@ -184,18 +184,9 @@ lavoro a metà.
 2. Dalla cartella del progetto:
 
    ```powershell
-   git remote add origin https://github.com/ecommerce-be/lotto-web.git
+   git remote add origin https://github.com/<tuo-utente>/<nome-repo>.git
    git branch -M main
    git push -u origin main
-   ```
-
-   Se git risponde **"detected dubious ownership"**: la cartella e' stata
-   copiata dal profilo `pierr` e risulta ancora sua, mentre git gira come
-   `39347`. E' un controllo di sicurezza pensato per le cartelle condivise, non
-   per questo caso; si dichiara l'eccezione una volta sola:
-
-   ```powershell
-   git config --global --add safe.directory C:/Dev/App_Lotto
    ```
 
 3. Su GitHub: **Settings → Pages → Source: Deploy from a branch**, ramo `main`,

@@ -74,26 +74,45 @@ def rarita(previsioni: list[dict], arch: Archivio) -> dict[str, dict]:
 
 def prossime_estrazioni(arch: Archivio, quante: int = 3) -> dict:
     """
-    Le prossime date di concorso, dal calendario ufficiale.
+    Le prossime date di concorso.
 
-    Non si deducono dal giorno della settimana: i giorni di concorso sono
-    cambiati piu' volte nella storia del Lotto e saltano per le feste. Se la
-    fonte non risponde si ripiega sull'archivio, ma la stima viene **dichiarata
-    come tale**, perche' una data sbagliata data per certa e' peggio di un "non
-    lo so".
+    Attenzione a cosa e' il "calendario ufficiale": l'endpoint
+    calendario-estrazioni-del-lotto elenca i giorni del mese in cui un concorso
+    **si e' gia' tenuto**, non quelli programmati. Interrogato per i giorni
+    futuri risponde con una lista vuota - cosa che si scopre solo in produzione,
+    perche' in sviluppo l'archivio era vecchio e sembrava funzionare.
+
+    Quindi la data del prossimo concorso si **proietta** dai giorni della
+    settimana in cui si e' estratto negli ultimi mesi. E' affidabile ma non
+    infallibile: le feste possono spostare o saltare un concorso. Per questo la
+    proiezione viene sempre dichiarata come tale invece di essere spacciata per
+    un dato ufficiale - una data sbagliata data per certa e' peggio di una
+    dichiarata incerta.
+
+    La fonte viene interrogata lo stesso, prima: se un giorno cominciasse a
+    pubblicare il calendario in anticipo, quella risposta ha la precedenza.
     """
     adesso = datetime.now()
     da = adesso.date() if adesso.time() < ORA_ESTRAZIONE \
         else adesso.date() + timedelta(days=1)
+    ora = ORA_ESTRAZIONE.strftime("%H:%M")
+
+    irraggiungibile = None
     try:
-        date_ = fonte.calendario(da)[:quante]
-        return {"date": [d.isoformat() for d in date_], "stimato": False,
-                "motivo": None, "ora": ORA_ESTRAZIONE.strftime("%H:%M")}
+        ufficiali = [d for d in fonte.calendario(da, mesi=2) if d >= da][:quante]
     except fonte.FonteNonDisponibile as e:
-        return {"date": [d.isoformat() for d in _stimate(arch, da, quante)],
-                "stimato": True, "ora": ORA_ESTRAZIONE.strftime("%H:%M"),
-                "motivo": f"Calendario ufficiale non raggiungibile ({e}); "
-                          "date dedotte dai giorni di concorso recenti."}
+        ufficiali, irraggiungibile = [], str(e)
+    if ufficiali:
+        return {"date": [d.isoformat() for d in ufficiali], "stimato": False,
+                "motivo": None, "ora": ora}
+
+    motivo = (f"Calendario ufficiale non raggiungibile ({irraggiungibile})."
+              if irraggiungibile else
+              "Il calendario ufficiale elenca solo i concorsi gia' avvenuti.")
+    return {"date": [d.isoformat() for d in _stimate(arch, da, quante)],
+            "stimato": True, "ora": ora,
+            "motivo": motivo + " Date proiettate dai giorni di concorso "
+                               "recenti: le feste possono spostarle."}
 
 
 def _stimate(arch: Archivio, da: date, quante: int) -> list[date]:

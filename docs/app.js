@@ -204,7 +204,7 @@ function mostraProssima(p) {
     <div>
       <div class="quando">Prossima estrazione <span class="fra">${fra}</span></div>
       <div class="meta">${giorno} alle ${p.ora}${
-        p.stimato ? ' · data stimata, il calendario ufficiale non rispondeva' : ''}</div>
+        p.stimato ? ' · proiettata dal calendario recente, una festa può spostarla' : ''}</div>
     </div>
     ${poi.length ? `<div class="poi">poi ${poi.map(dataBreve).join(' · ')}</div>` : ''}`;
 }

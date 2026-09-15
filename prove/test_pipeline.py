@@ -167,8 +167,30 @@ prossime = pubblica.prossime_estrazioni(arch)
 check("propone delle date", len(prossime["date"]) >= 1, str(prossime))
 check("le date proposte sono nel futuro",
       all(d >= date.today().isoformat() for d in prossime["date"]), str(prossime["date"]))
-check("se sono stimate lo dichiara",
+check("se sono proiettate lo dichiara",
       (not prossime["stimato"]) or bool(prossime["motivo"]))
+
+# Il caso che ci ha fregato in produzione: la fonte risponde ma non ha date
+# future, perche' l'endpoint elenca i concorsi GIA' AVVENUTI. In sviluppo non si
+# vedeva, perche' con l'archivio vecchio le date "gia' avvenute" erano comunque
+# nel futuro rispetto all'ultimo concorso caricato.
+vera = pubblica.fonte.calendario
+try:
+    pubblica.fonte.calendario = lambda da, mesi=3: []
+    muta = pubblica.prossime_estrazioni(arch)
+    check("fonte senza date future: le proietta comunque",
+          len(muta["date"]) >= 1, str(muta))
+    check("e dichiara che sono proiettate", muta["stimato"] is True)
+    check("spiegando perche'", "gia' avvenuti" in (muta["motivo"] or ""), str(muta["motivo"]))
+
+    def esplode(da, mesi=3):
+        raise pubblica.fonte.FonteNonDisponibile("prova")
+    pubblica.fonte.calendario = esplode
+    giu = pubblica.prossime_estrazioni(arch)
+    check("fonte irraggiungibile: le proietta comunque", len(giu["date"]) >= 1, str(giu))
+    check("e lo dice", "non raggiungibile" in (giu["motivo"] or ""), str(giu["motivo"]))
+finally:
+    pubblica.fonte.calendario = vera
 
 dati = RADICE / "docs" / "dati"
 attesi = {"stato.json", "in-corso.json", "bilancio.json", "calendario.json",
