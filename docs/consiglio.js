@@ -138,3 +138,55 @@ export function convergenze(giocate) {
     .map(([numero, chiavi]) => ({ numero, previsioni: chiavi.size }))
     .sort((a, b) => b.previsioni - a.previsioni || a.numero - b.numero);
 }
+
+
+/* ---------------------------------------------------------------- calendario
+   Le date dei prossimi concorsi le calcola il motore e arrivano in
+   calendario.json. Ma quel file e' generato: se la pipeline non e' ancora
+   girata da quando il codice e' cambiato, o se quella sera qualcosa e' andato
+   storto, la pagina si ritrova con una lista vuota e non sa che dire.
+   Succede - e' successo.
+
+   Qui c'e' la stessa proiezione, fatta con quello che il browser ha comunque
+   sotto mano: gli ultimi concorsi. Non sostituisce il calcolo del motore, che
+   ha dietro tutto l'archivio e prova prima a chiedere alla fonte ufficiale:
+   entra in scena solo quando l'altro non ha risposto. */
+
+/** Una data locale come 'AAAA-MM-GG', senza passare per UTC (che di sera
+ *  sposterebbe il giorno indietro per chi sta in Italia). */
+function comeIso(d) {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`
+       + `-${String(d.getDate()).padStart(2, '0')}`;
+}
+
+/** Il primo giorno in cui un concorso puo' ancora tenersi: oggi se l'estrazione
+ *  non c'e' stata, domani se e' gia' passata. */
+export function primoGiornoUtile(adesso = new Date(), ora = '20:00') {
+  const [h, m] = ora.split(':').map(Number);
+  const limite = new Date(adesso);
+  limite.setHours(h, m, 0, 0);
+  const d = new Date(adesso);
+  if (adesso >= limite) d.setDate(d.getDate() + 1);
+  return comeIso(d);
+}
+
+/** Proietta i prossimi concorsi dai giorni della settimana in cui si e'
+ *  estratto di recente. Con meno di due riscontri per un giorno non si
+ *  conclude niente: un recupero straordinario non fa un calendario. */
+export function proiettaConcorsi(giorniEstratti, { da, quante = 3, finestra = 30 } = {}) {
+  const conta = new Map();
+  for (const g of giorniEstratti ?? []) {
+    const n = new Date(g + 'T00:00:00').getDay();
+    conta.set(n, (conta.get(n) ?? 0) + 1);
+  }
+  const settimanali = new Set([...conta].filter(([, n]) => n >= 2).map(([n]) => n));
+  if (!settimanali.size) return [];
+
+  const fuori = [];
+  const cursore = new Date((da ?? primoGiornoUtile()) + 'T00:00:00');
+  for (let i = 0; i < finestra && fuori.length < quante; i++) {
+    if (settimanali.has(cursore.getDay())) fuori.push(comeIso(cursore));
+    cursore.setDate(cursore.getDate() + 1);
+  }
+  return fuori;
+}
