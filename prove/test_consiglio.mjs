@@ -20,7 +20,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import {
   componi, convergenze, giocate, riepilogo, resaSorte, probAlmeno,
-  etichettaGiocata, SOGLIA_RESA,
+  etichettaGiocata, SOGLIA_RESA, primoGiornoUtile, proiettaConcorsi,
 } from '../docs/consiglio.js';
 
 const QUI = dirname(fileURLToPath(import.meta.url));
@@ -153,6 +153,37 @@ check('una previsione sola non converge con se stessa', solo.length === 0, JSON.
 const tre = convergenze(componi([a, b, c], 1000, quote).dentro);
 check('con tre previsioni conta le previsioni, non le giocate',
   tre[0].numero === 7 && tre[0].previsioni === 3, JSON.stringify(tre));
+
+console.log('\nCALENDARIO DI RISERVA');
+// Il martedi', giovedi', venerdi' e sabato di due settimane: il ritmo vero del
+// Lotto di oggi. La proiezione deve ritrovarlo senza che glielo si dica.
+const ULTIMI = ['2026-09-01', '2026-09-03', '2026-09-04', '2026-09-05',
+                '2026-09-08', '2026-09-10', '2026-09-11', '2026-09-12'];
+let d = proiettaConcorsi(ULTIMI, { da: '2026-09-13' });   // domenica
+check('da domenica il primo concorso e\' il martedi\'', d[0] === '2026-09-15', d.join(' '));
+check('poi giovedi\' e venerdi\'', d[1] === '2026-09-17' && d[2] === '2026-09-18', d.join(' '));
+check('mai di domenica o di lunedi\'',
+  proiettaConcorsi(ULTIMI, { da: '2026-09-13', quante: 8 })
+    .every(g => ![0, 1].includes(new Date(g + 'T00:00:00').getDay())),
+  proiettaConcorsi(ULTIMI, { da: '2026-09-13', quante: 8 }).join(' '));
+check('se il giorno stesso e\' di concorso, e\' il primo proposto',
+  proiettaConcorsi(ULTIMI, { da: '2026-09-15' })[0] === '2026-09-15');
+check('ne propone quante gliene chiedi',
+  proiettaConcorsi(ULTIMI, { da: '2026-09-13', quante: 6 }).length === 6);
+check('senza storia non inventa niente', proiettaConcorsi([], { da: '2026-09-13' }).length === 0);
+check('un solo concorso isolato non fa un calendario',
+  proiettaConcorsi(['2026-09-03'], { da: '2026-09-13' }).length === 0);
+
+check('alle 18 il giorno utile e\' oggi',
+  primoGiornoUtile(new Date(2026, 8, 15, 18, 0)) === '2026-09-15');
+check('alle 20:30 e\' domani',
+  primoGiornoUtile(new Date(2026, 8, 15, 20, 30)) === '2026-09-16');
+check('alle 20 in punto e\' gia\' domani',
+  primoGiornoUtile(new Date(2026, 8, 15, 20, 0)) === '2026-09-16');
+check('a fine mese passa al mese dopo',
+  primoGiornoUtile(new Date(2026, 8, 30, 21, 0)) === '2026-10-01');
+check('la data non slitta per il fuso: resta quella locale',
+  primoGiornoUtile(new Date(2026, 8, 15, 23, 59)) === '2026-09-16');
 
 console.log(`\n${'='.repeat(60)}\nRISULTATO: ${ok} OK, ${fail} FAIL`);
 process.exit(fail ? 1 : 0);
