@@ -18,13 +18,35 @@
   </header>
 
   <div class="schede" role="tablist">
-    <button role="tab" data-vista="corso" aria-selected="true">In corso</button>
+    <button role="tab" data-vista="stasera" aria-selected="true">Stasera</button>
+    <button role="tab" data-vista="corso" aria-selected="false">In corso</button>
     <button role="tab" data-vista="bilancio" aria-selected="false">Bilancio</button>
     <button role="tab" data-vista="schedina" aria-selected="false">Schedina</button>
     <button role="tab" data-vista="estrazioni" aria-selected="false">Estrazioni</button>
   </div>
 
-  <div id="corso"></div>
+  <div id="stasera">
+    <article class="carta prossima" id="concorso">
+      <div class="quando">caricamento…</div>
+    </article>
+
+    <article class="carta">
+      <div class="campo">
+        <div class="etichetta">
+          <span>Quanto vuoi spendere in tutto</span>
+          <span class="conta" id="nota-budget"></span>
+        </div>
+        <div class="importo">
+          <input type="number" id="budget" value="20" min="1" step="1" inputmode="decimal">
+          <span style="color:var(--tenue)">euro</span>
+        </div>
+      </div>
+    </article>
+
+    <div id="consiglio"></div>
+  </div>
+
+  <div id="corso" hidden></div>
   <div id="bilancio" hidden></div>
   <div id="estrazioni" hidden></div>
 

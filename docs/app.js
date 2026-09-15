@@ -7,6 +7,8 @@
  * un numero non torna, la risposta sta in motore/, non in questo file.
  */
 import { simula, GiocataNonValida, NUMERI_PER_SORTE } from './schedina.js';
+import { componi, convergenze, riepilogo, etichettaGiocata, SOGLIA_RESA }
+  from './consiglio.js';
 
 const NOMI_RUOTE = {
   BA: 'Bari', CA: 'Cagliari', FI: 'Firenze', GE: 'Genova', MI: 'Milano',
@@ -126,6 +128,129 @@ function mostraInCorso(lista) {
        mille rilevamenti l'anno e uno che ne produce ottanta non meritano lo
        stesso spazio solo perché sono usciti lo stesso giorno. I gruppi più
        affollati partono chiusi — si aprono con un clic.</p>`;
+}
+
+/* ------------------------------------------------------------- stasera
+   Il consiglio per il concorso in arrivo. Il ragionamento (quali giocate, in
+   che ordine, quanto costano, quanto rendono) sta in consiglio.js, che non
+   tocca la pagina e si puo' provare con Node. Qui resta solo il disegno. */
+let inCorso = [], calendario = null, resePerMetodo = {};
+
+function mostraConcorso() {
+  const box = document.getElementById('concorso');
+  if (!calendario?.date?.length) {
+    box.innerHTML = `<div class="quando">Non riesco a leggere il calendario delle estrazioni.</div>`;
+    return;
+  }
+  const g = giorniDa(calendario.date[0]);
+  const quando = g <= 0 ? 'Stasera' : g === 1 ? 'Domani' : `Fra ${g} giorni`;
+  const giorno = new Date(calendario.date[0] + 'T00:00:00')
+    .toLocaleDateString('it-IT', { weekday: 'long', day: 'numeric', month: 'long' });
+  box.innerHTML = `
+    <div>
+      <div class="quando">${quando} si gioca</div>
+      <div class="meta">${giorno} alle ${calendario.ora}${
+        calendario.stimato ? ' · data proiettata dal calendario recente' : ''}</div>
+    </div>`;
+}
+
+function mostraConsiglio() {
+  const fuoriBox = document.getElementById('consiglio');
+  const budget = Number(document.getElementById('budget').value);
+  if (!quote || !inCorso.length) {
+    fuoriBox.innerHTML = `<p class="vuoto">Nessuna previsione in gioco per il prossimo concorso.</p>`;
+    return;
+  }
+  if (!(budget > 0)) {
+    fuoriBox.innerHTML = `<p class="vuoto">Scrivi quanto vuoi spendere.</p>`;
+    return;
+  }
+
+  const { dentro, fuori, speso, mancano } = componi(inCorso, budget, quote);
+  if (!dentro.length) {
+    fuoriBox.innerHTML = `<div class="carta"><p class="errore">Con ${euro(budget)} non si
+      copre nemmeno una giocata: la piu' piccola in gioco ne costa
+      ${euro(Math.min(...fuori.map(g => g.costo)))}, perché va giocata su
+      ${Math.min(...fuori.map(g => g.ruote.length))} ruote.</p></div>`;
+    document.getElementById('nota-budget').textContent = '';
+    return;
+  }
+
+  const { attesa, qualcosa: pQualcosa, per_euro } = riepilogo(dentro);
+  const resaMigliore = Math.max(...dentro.map(g => g.resa));
+  const conv = convergenze(dentro);
+
+  const gruppi = new Map();
+  for (const g of dentro) {
+    const m = g.previsione.metodo;
+    if (!gruppi.has(m)) gruppi.set(m, []);
+    gruppi.get(m).push(g);
+  }
+
+  const riga = g => `
+    <div class="linea${g.resa < resaMigliore - SOGLIA_RESA ? ' scarsa' : ''}">
+      <span class="sorte-nome">${etichettaGiocata(g)}</span>
+      ${g.numeri.map(n => `<span class="n">${n}</span>`).join('')}
+      ${g.resa >= resaMigliore - SOGLIA_RESA
+        ? '<span class="consigliata">consigliata</span>'
+        : `<span class="resa">rende ${Math.round(g.resa * 100)} cent. per euro</span>`}
+      <span class="dove">${g.ruote.map(r => NOMI_RUOTE[r] ?? r).join(' · ')}${
+        g.colpi_residui === 1 ? ' · <b>ultimo colpo</b>' : ''}</span>
+      <span class="costo">${euro(g.costo)}</span>
+    </div>`;
+
+  fuoriBox.innerHTML = `
+    <div class="carta">
+      <div class="somme">
+        <div><span class="valore">${euro(speso)}</span>
+          <span class="didascalia">${dentro.length} giocate su
+            ${gruppi.size} metod${gruppi.size === 1 ? 'o' : 'i'}</span></div>
+        <div><span class="valore">${unaSu(pQualcosa)}</span>
+          <span class="didascalia">circa, di vincere qualcosa${percentuale(pQualcosa)}</span></div>
+        <div><span class="valore neg">${euro(attesa)}</span>
+          <span class="didascalia">ritorno atteso: ${Math.round(attesa / speso * 100)}
+            centesimi per ogni euro</span></div>
+      </div>
+    </div>
+
+    ${[...gruppi.values()].map(g => {
+      const p = g[0].previsione;
+      const resa = resePerMetodo[p.metodo];
+      return `
+      <div class="carta gruppo-stasera">
+        <h3>${p.nome_metodo}
+          <span class="rarita">scatta ${p.per_anno} volte l'anno</span>
+          ${resa != null ? `<span class="rarita">finora ${percento(resa, 0)} di ritorno</span>` : ''}
+        </h3>
+        ${g.map(riga).join('')}
+      </div>`;
+    }).join('')}
+
+    ${conv.length ? `<div class="carta">
+      <div class="convergenze"><b>Numeri su cui più previsioni convergono:</b>
+        ${conv.slice(0, 8).map(c => `<span class="n">${c.numero}</span>`).join('')}</div>
+      <p class="resa" style="margin:8px 0 0">Non aumenta di un millesimo la
+        probabilità che escano: significa solo che coprendoli si soddisfano più
+        previsioni con meno giocate distinte.</p>
+    </div>` : ''}
+
+    ${fuori.length ? `<p class="fuori">Restano fuori ${fuori.length} giocate:
+      servirebbero altri ${euro(mancano)} per coprirle tutte.</p>` : ''}
+
+    <p class="avvertenza">Le giocate sono in ordine di rarità del metodo: prima
+      quelle che capitano poche volte l'anno, perché sono la ragione per cui i
+      metodi sono sei e non uno. A parità di metodo viene prima ciò che scade
+      prima, e prima la sorte che rende di più — così, se il budget taglia,
+      taglia i terni e non gli ambi.<br><br>
+      <b>Sui numeri non c'è nessun consiglio da dare, e non è una reticenza.</b>
+      Nel Lotto le quote sono fissate per legge e la probabilità è la stessa per
+      qualunque combinazione: il ritorno atteso di questa giocata sarebbe
+      identico con novanta numeri scelti a caso. Le uniche scelte che cambiano
+      qualcosa sono quante ne giochi, su quante ruote, e per quale sorte — ed è
+      su quelle che questa pagina lavora.</p>`;
+
+  document.getElementById('nota-budget').textContent =
+    `coprire tutto costerebbe ${euro(speso + mancano)}`;
 }
 
 /* ------------------------------------------------------------- bilancio */
@@ -388,11 +513,12 @@ for (const b of document.querySelectorAll('[data-vista]')) {
   b.onclick = () => {
     for (const x of document.querySelectorAll('[data-vista]'))
       x.setAttribute('aria-selected', String(x === b));
-    for (const v of ['corso', 'bilancio', 'schedina', 'estrazioni'])
+    for (const v of ['stasera', 'corso', 'bilancio', 'schedina', 'estrazioni'])
       document.getElementById(v).hidden = b.dataset.vista !== v;
   };
 }
 
+document.getElementById('budget').oninput = mostraConsiglio;
 costruisciSchedina();
 
 (async () => {
@@ -402,11 +528,16 @@ costruisciSchedina();
       prendi('calendario.json'), prendi('ultime-estrazioni.json'), prendi('quote.json'),
     ]);
     quote = q;
+    inCorso = corso;
+    calendario = cal;
+    resePerMetodo = Object.fromEntries(bil.per_metodo.map(r => [r.metodo, r.ritorno]));
     mostraStato(stato, cal);
     mostraInCorso(corso);
     mostraBilancio(bil);
     mostraEstrazioni(ultime);
     mostraProssima(cal);
+    mostraConcorso();
+    mostraConsiglio();
     preparaSuggerimenti(corso);
     disegnaScelte();
   } catch (e) {

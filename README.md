@@ -47,10 +47,12 @@ archivio/        lo stato, versionato insieme al codice
 
 docs/            il sito (è la cartella che GitHub Pages pubblica)
   index.html  stile.css  app.js
-  schedina.js      il simulatore, l'unica logica che vive nel browser
+  schedina.js      il simulatore: poste, vincite, probabilità
+  consiglio.js     che cosa giocare stasera con un certo budget
   dati/*.json      generati dal motore, non si scrivono a mano
 
-prove/           test_motore.py  test_pipeline.py  test_schedina.mjs
+prove/           test_motore.py  test_pipeline.py
+                 test_schedina.mjs  test_consiglio.mjs
 fascicoli/       le scansioni dei fascicoli originali — NON versionate
 ```
 
@@ -145,6 +147,7 @@ Le prove:
 python prove/test_motore.py       # i metodi riproducono gli esempi dei fascicoli
 python prove/test_pipeline.py     # determinismo, idempotenza, stabilità su file
 node prove/test_schedina.mjs      # le probabilità note del Lotto
+node prove/test_consiglio.mjs     # ordine, budget, etichette del consiglio
 ```
 
 ## L'aggiornamento serale

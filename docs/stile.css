@@ -114,6 +114,30 @@ select.da-previsione{font:inherit;font-size:.86rem;padding:6px 10px;max-width:10
 .verdetto .valore{font-size:1.2rem;font-weight:660;letter-spacing:-.02em;display:block}
 .verdetto .didascalia{color:var(--tenue);font-size:.78rem}
 
+/* --- stasera --- */
+.somme{display:flex;gap:18px;flex-wrap:wrap;margin-bottom:4px}
+.somme > div{flex:1 1 150px}
+.somme .valore{font-size:1.25rem;font-weight:660;letter-spacing:-.02em;display:block}
+.somme .didascalia{color:var(--tenue);font-size:.78rem}
+.linea{display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+  padding:8px 0;border-top:1px dashed var(--bordo)}
+.linea:first-of-type{border-top:none}
+.linea .sorte-nome{font-size:.71rem;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--tenue);min-width:112px;line-height:1.25}
+.linea .dove{color:var(--tenue);font-size:.8rem}
+.linea .costo{margin-left:auto;font-variant-numeric:tabular-nums;font-size:.86rem;
+  white-space:nowrap}
+.linea.scarsa{opacity:.62}
+.consigliata{font-size:.68rem;letter-spacing:.04em;text-transform:uppercase;
+  color:var(--verde);border:1px solid var(--verde);border-radius:99px;padding:0 7px}
+.resa{font-size:.72rem;color:var(--tenue)}
+.gruppo-stasera{margin-bottom:14px}
+.gruppo-stasera > h3{font-size:.95rem;font-weight:640;margin:0 0 2px;
+  display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.convergenze{display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+  font-size:.84rem;color:var(--tenue)}
+.fuori{color:var(--tenue);font-size:.84rem;margin-top:10px}
+
 /* --- estrazioni --- */
 .quadro{display:flex;align-items:center;gap:10px;flex-wrap:wrap;
   padding:10px 0;border-top:1px dashed var(--bordo)}
