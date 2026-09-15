@@ -2,6 +2,8 @@
 # Servono solo per riprendere in mano i metodi, restano sul disco di casa.
 fascicoli/
 *.pdf
+# ...tranne la guida per chi usa il sito, che e' roba nostra
+!guida/*.pdf
 
 # file con la password del database: non entra mai in un repository pubblico
 .env
