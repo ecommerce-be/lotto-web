@@ -275,14 +275,16 @@ function disegnaScelte() {
     b.setAttribute('aria-pressed', String(b.dataset.r === 'TUTTE'
       ? giocata.ruote.size === 10 : giocata.ruote.has(b.dataset.r)));
 
+  // Una sorte scelta ma non ancora giocabile (il terno con due numeri) resta
+  // scelta invece di essere cancellata: e' un'intenzione, e appena arriva il
+  // terzo numero deve tornare attiva da sola. Cancellarla costringerebbe a
+  // ricliccarla, e nel frattempo farebbe sparire in silenzio la scelta iniziale.
   const quanti = giocata.numeri.size;
   for (const b of document.querySelectorAll('#sorti button')) {
-    b.disabled = Number(b.dataset.k) > quanti;
-    if (b.disabled) giocata.sorti.delete(b.dataset.s);
+    const attiva = Number(b.dataset.k) <= quanti;
+    b.disabled = !attiva;
+    b.setAttribute('aria-pressed', String(attiva && giocata.sorti.has(b.dataset.s)));
   }
-  if (!giocata.sorti.size && quanti) giocata.sorti.add(quanti === 1 ? 'estratto' : 'ambo');
-  for (const b of document.querySelectorAll('#sorti button'))
-    b.setAttribute('aria-pressed', String(giocata.sorti.has(b.dataset.s)));
 
   document.getElementById('conta-numeri').textContent = quanti
     ? [...giocata.numeri].sort((a, b) => a - b).join(' · ') : 'nessuno scelto';
@@ -293,9 +295,13 @@ function disegnaScelte() {
   attesaSimula = setTimeout(calcola, 120);
 }
 
+function sortiGiocabili() {
+  return [...giocata.sorti].filter(s => NUMERI_PER_SORTE[s] <= giocata.numeri.size);
+}
+
 function calcola() {
   const fuori = document.getElementById('risultato');
-  if (!giocata.numeri.size || !giocata.sorti.size || !(giocata.importo > 0)) {
+  if (!giocata.numeri.size || !sortiGiocabili().length || !(giocata.importo > 0)) {
     fuori.innerHTML = `<p class="vuoto">Scegli i numeri e l'importo: qui comparirà
       quanto puoi vincere, e con quale probabilità.</p>`;
     return;
@@ -304,7 +310,7 @@ function calcola() {
   try {
     r = simula({
       numeri: [...giocata.numeri], ruote: [...giocata.ruote],
-      sorti: [...giocata.sorti], importo: giocata.importo, quote,
+      sorti: sortiGiocabili(), importo: giocata.importo, quote,
     });
   } catch (e) {
     fuori.innerHTML = `<div class="carta"><p class="errore">${
