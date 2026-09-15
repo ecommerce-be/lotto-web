@@ -140,6 +140,27 @@ export function convergenze(giocate) {
 }
 
 
+/* ------------------------------------------------------------------ per ruota
+   Le giocate raccolte per ruota, invece che per metodo.
+
+   E' il modo in cui si ragiona davanti al botteghino: non si va a giocare "il
+   Fulmine", si va a giocare "su Napoli". E c'e' una conseguenza concreta che la
+   vista per metodo nasconde: una previsione su due ruote costa due euro, ma se
+   si sceglie di giocare una ruota sola ne costa uno. Qui ogni giocata compare
+   sotto ciascuna delle sue ruote, con il costo di quella ruota soltanto. */
+export function perRuota(previsioni, quote) {
+  const mappa = new Map();
+  for (const g of giocate(previsioni, quote))
+    for (const r of g.ruote) {
+      if (!mappa.has(r)) mappa.set(r, []);
+      // `altre` sono le altre ruote che la previsione prevede: serve a dire
+      // "la stessa giocata la copri anche su Bari", che e' un'informazione, non
+      // una ripetizione
+      mappa.get(r).push({ ...g, ruote: [r], altre: g.ruote.filter(x => x !== r), costo: 1 });
+    }
+  return mappa;
+}
+
 /* ---------------------------------------------------------------- calendario
    Le date dei prossimi concorsi le calcola il motore e arrivano in
    calendario.json. Ma quel file e' generato: se la pipeline non e' ancora

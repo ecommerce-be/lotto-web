@@ -20,7 +20,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import {
   componi, convergenze, giocate, riepilogo, resaSorte, probAlmeno,
-  etichettaGiocata, SOGLIA_RESA, primoGiornoUtile, proiettaConcorsi,
+  etichettaGiocata, perRuota, SOGLIA_RESA, primoGiornoUtile, proiettaConcorsi,
 } from '../docs/consiglio.js';
 
 const QUI = dirname(fileURLToPath(import.meta.url));
@@ -153,6 +153,33 @@ check('una previsione sola non converge con se stessa', solo.length === 0, JSON.
 const tre = convergenze(componi([a, b, c], 1000, quote).dentro);
 check('con tre previsioni conta le previsioni, non le giocate',
   tre[0].numero === 7 && tre[0].previsioni === 3, JSON.stringify(tre));
+
+console.log('\nRUOTA PER RUOTA');
+const mappa = perRuota([COMUNE, RARO, MEDIO], quote);
+check('compaiono solo le ruote che hanno qualcosa in gioco',
+  [...mappa.keys()].sort().join(' ') === 'BA CA GE MI NA VE',
+  [...mappa.keys()].sort().join(' '));
+check('una ruota senza previsioni non c\'e\'', !mappa.has('RM'));
+check('ogni giocata compare sotto tutte le sue ruote',
+  mappa.get('CA').length === mappa.get('GE').length,
+  `CA ${mappa.get('CA').length}, GE ${mappa.get('GE').length}`);
+check('sulla singola ruota costa un euro',
+  mappa.get('NA').every(g => g.costo === 1),
+  mappa.get('NA').map(g => g.costo).join(','));
+check('e la ruota e\' una sola', mappa.get('NA').every(g => g.ruote.length === 1));
+check('"altre" dice dove la stessa giocata e\' prevista',
+  mappa.get('CA')[0].altre.join('') === 'GE', mappa.get('CA')[0].altre.join(','));
+check('l\'ordine dentro la ruota resta quello del consiglio: prima il raro',
+  mappa.get('CA')[0].previsione.metodo === 'unsoloambosecco',
+  mappa.get('CA')[0].previsione.metodo);
+check('giocare una ruota sola costa la meta\' di giocarne due',
+  riepilogo(mappa.get('CA')).speso * 2
+  === riepilogo(componi([RARO], 1000, quote).dentro).speso,
+  `${riepilogo(mappa.get('CA')).speso} contro ${riepilogo(componi([RARO], 1000, quote).dentro).speso}`);
+check('ma il ritorno per euro non cambia: e\' sempre la stessa sorte',
+  vicino(riepilogo(mappa.get('CA')).per_euro,
+         riepilogo(componi([RARO], 1000, quote).dentro).per_euro, 1e-12));
+check('senza previsioni la mappa e\' vuota', perRuota([], quote).size === 0);
 
 console.log('\nCALENDARIO DI RISERVA');
 // Il martedi', giovedi', venerdi' e sabato di due settimane: il ritmo vero del

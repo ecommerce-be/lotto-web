@@ -7,8 +7,10 @@
  * un numero non torna, la risposta sta in motore/, non in questo file.
  */
 import { simula, GiocataNonValida, NUMERI_PER_SORTE } from './schedina.js';
-import { componi, convergenze, riepilogo, etichettaGiocata, SOGLIA_RESA }
-  from './consiglio.js';
+import {
+  componi, convergenze, riepilogo, etichettaGiocata, perRuota, SOGLIA_RESA,
+  primoGiornoUtile, proiettaConcorsi,
+} from './consiglio.js';
 
 const NOMI_RUOTE = {
   BA: 'Bari', CA: 'Cagliari', FI: 'Firenze', GE: 'Genova', MI: 'Milano',
@@ -173,6 +175,107 @@ function mostraConcorso() {
         { weekday: 'long', day: 'numeric', month: 'long' })))}.</p>` : ''}`;
 }
 
+/** La riga di una giocata. `conMetodo` decide che cosa scrivere sotto i numeri:
+ *  nella vista per metodo serve sapere le ruote, in quella per ruota il metodo. */
+function rigaGiocata(g, resaMigliore, conRuote = true) {
+  const magra = g.resa < resaMigliore - SOGLIA_RESA;
+  return `
+    <div class="giocata${magra ? ' magra' : ''}">
+      <span class="tipo-giocata">${etichettaGiocata(g)}</span>
+      <span class="numeri">${g.numeri.map(n => `<span class="n">${n}</span>`).join('')}</span>
+      <span class="sotto">
+        <span class="dove">${conRuote
+          ? 'su ' + elenco(g.ruote.map(r => NOMI_RUOTE[r] ?? r))
+          : (g.altre?.length
+              ? 'prevista anche su ' + elenco(g.altre.map(r => NOMI_RUOTE[r] ?? r))
+              : 'solo su questa ruota')}</span>
+        ${g.colpi_residui === 1 ? '<span class="ultimo">ultimo colpo</span>' : ''}
+        ${magra ? `<span class="rende-meno">rende ${Math.round(g.resa * 100)}
+          centesimi per euro</span>` : ''}
+      </span>
+      <span class="costo">${euro(g.costo)}</span>
+    </div>`;
+}
+
+function raggruppaPerMetodo(giocate) {
+  const gruppi = new Map();
+  for (const g of giocate) {
+    if (!gruppi.has(g.previsione.metodo)) gruppi.set(g.previsione.metodo, []);
+    gruppi.get(g.previsione.metodo).push(g);
+  }
+  return gruppi;
+}
+
+/* ---------------------------------------------------- le ruote del concorso */
+let ruotaScelta = null;
+
+function mostraRuote() {
+  const sezione = document.getElementById('ruote-giorno');
+  if (!quote || !inCorso.length) { sezione.hidden = true; return; }
+  sezione.hidden = false;
+
+  const mappa = perRuota(inCorso, quote);
+  if (!mappa.has(ruotaScelta)) {
+    // si parte dalla ruota con piu' giocate: una sezione che si apre vuota
+    // costringe a un clic per capire se c'e' qualcosa
+    ruotaScelta = [...mappa.entries()]
+      .sort((a, b) => b[1].length - a[1].length)[0]?.[0] ?? null;
+  }
+
+  document.getElementById('scelta-ruota').innerHTML =
+    Object.entries(NOMI_RUOTE).map(([sigla, nome]) => {
+      const n = mappa.get(sigla)?.length ?? 0;
+      return `<button type="button" data-r="${sigla}" ${n ? '' : 'disabled'}
+        aria-pressed="${sigla === ruotaScelta}">${nome}
+        ${n ? `<span class="quante">${n}</span>` : ''}</button>`;
+    }).join('');
+
+  const giocate = mappa.get(ruotaScelta) ?? [];
+  const fuori = document.getElementById('giocate-ruota');
+  if (!giocate.length) {
+    fuori.innerHTML = `<p class="scelta-ruota-vuota">Su questa ruota non c'è
+      niente in gioco per il prossimo concorso.</p>`;
+    return;
+  }
+
+  const { speso, attesa: resa, qualcosa, per_euro } = riepilogo(giocate);
+  const resaMigliore = Math.max(...giocate.map(g => g.resa));
+  fuori.innerHTML = `
+    <div class="riepilogo" style="margin-top:16px">
+      <div><span class="cifra">${euro(speso)}</span>
+        <span class="glossa">${giocate.length} giocate su
+          ${NOMI_RUOTE[ruotaScelta]}, un euro l'una</span></div>
+      <div><span class="cifra">${qualcosa >= 0.01 ? percento(qualcosa, 0) : unaSu(qualcosa)}</span>
+        <span class="glossa">la probabilità di vincere qualcosa giocandole
+          tutte: circa ${unaSu(qualcosa)} volte</span></div>
+      <div><span class="cifra perde">${euro(resa)}</span>
+        <span class="glossa">quanto torna indietro in media:
+          ${Math.round(per_euro * 100)} centesimi per ogni euro</span></div>
+    </div>
+    ${[...raggruppaPerMetodo(giocate).values()].map(gruppo => {
+      const p = gruppo[0].previsione;
+      return `
+      <details class="gruppo"${gruppo.length <= 6 ? ' open' : ''}>
+        <summary>
+          <span class="metodo">${p.nome_metodo}</span>
+          <span class="rarita">scatta ${p.per_anno} volte l'anno</span>
+          <span class="conta">${gruppo.length} giocat${gruppo.length === 1 ? 'a' : 'e'}
+            · ${euro(gruppo.length)}</span>
+        </summary>
+        ${gruppo.map(g => rigaGiocata(g, resaMigliore, false)).join('')}
+      </details>`;
+    }).join('')}`;
+}
+
+function costruisciRuote() {
+  document.getElementById('scelta-ruota').onclick = e => {
+    const b = e.target.closest('button[data-r]');
+    if (!b || b.disabled) return;
+    ruotaScelta = b.dataset.r;
+    mostraRuote();
+  };
+}
+
 function costruisciBudget() {
   const box = document.getElementById('scelte-budget');
   box.innerHTML = SCELTE_BUDGET.map(v =>
@@ -218,29 +321,11 @@ function mostraConsiglio() {
   const resaMigliore = Math.max(...dentro.map(g => g.resa));
   const conv = convergenze(dentro);
 
-  const gruppi = new Map();
-  for (const g of dentro) {
-    if (!gruppi.has(g.previsione.metodo)) gruppi.set(g.previsione.metodo, []);
-    gruppi.get(g.previsione.metodo).push(g);
-  }
+  const gruppi = raggruppaPerMetodo(dentro);
 
   // Niente bollino "consigliata" su venticinque righe su trenta: sarebbe rumore.
   // Si segnala l'eccezione, cioe' le poche righe che rendono meno delle altre.
-  const riga = g => {
-    const magra = g.resa < resaMigliore - SOGLIA_RESA;
-    return `
-    <div class="giocata${magra ? ' magra' : ''}">
-      <span class="tipo-giocata">${etichettaGiocata(g)}</span>
-      <span class="numeri">${g.numeri.map(n => `<span class="n">${n}</span>`).join('')}</span>
-      <span class="sotto">
-        <span class="dove">su ${elenco(g.ruote.map(r => NOMI_RUOTE[r] ?? r))}</span>
-        ${g.colpi_residui === 1 ? '<span class="ultimo">ultimo colpo</span>' : ''}
-        ${magra ? `<span class="rende-meno">rende ${Math.round(g.resa * 100)}
-          centesimi per euro</span>` : ''}
-      </span>
-      <span class="costo">${euro(g.costo)}</span>
-    </div>`;
-  };
+  const riga = g => rigaGiocata(g, resaMigliore);
 
   fuoriBox.innerHTML = `
     <div class="riepilogo">
@@ -539,6 +624,7 @@ for (const b of document.querySelectorAll('[data-vista]')) {
 }
 
 costruisciBudget();
+costruisciRuote();
 costruisciSchedina();
 
 (async () => {
@@ -549,7 +635,14 @@ costruisciSchedina();
     ]);
     quote = q;
     inCorso = corso;
-    calendario = cal;
+    // Se il calendario pubblicato e' vuoto - la pipeline non e' ancora girata,
+    // o quella sera e' andata male - la pagina se lo ricava dagli ultimi
+    // concorsi invece di alzare le mani.
+    calendario = cal?.date?.length ? cal : {
+      date: proiettaConcorsi(ultime.map(e => e.giorno), { da: primoGiornoUtile() }),
+      stimato: true, ora: cal?.ora ?? '20:00',
+      motivo: 'Date proiettate dagli ultimi concorsi.',
+    };
     resePerMetodo = Object.fromEntries(bil.per_metodo.map(r => [r.metodo, r.ritorno]));
     mostraStato(stato);
     mostraInCorso(corso);
@@ -557,6 +650,7 @@ costruisciSchedina();
     mostraEstrazioni(ultime);
     mostraConcorso();
     mostraConsiglio();
+    mostraRuote();
     preparaSuggerimenti(corso);
     disegnaScelte();
   } catch (e) {

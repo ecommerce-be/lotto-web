@@ -185,6 +185,16 @@ select.da-previsione{font:inherit;font-size:.86rem;padding:7px 10px;max-width:10
   .concorso .quando{font-size:1.35rem}
 }
 
+/* --- ruota per ruota --- */
+.ruote-giorno{margin-top:26px;padding-top:20px;border-top:1px solid var(--bordo)}
+.ruote-giorno > h2{margin:0 0 6px}
+.ruote-giorno .spiega{margin:0 0 14px;color:var(--tenue);font-size:.88rem;max-width:64ch}
+.ruote-giorno .pillole button{display:flex;align-items:baseline;gap:7px}
+.ruote-giorno .pillole button .quante{font-size:.78rem;opacity:.75;
+  font-variant-numeric:tabular-nums}
+.ruote-giorno .pillole button:disabled{opacity:.3}
+.scelta-ruota-vuota{color:var(--tenue);font-size:.88rem;margin:16px 0 0}
+
 /* --- il compositore manuale, secondario --- */
 .tuoi-numeri{margin-top:26px;border-top:1px solid var(--bordo);padding-top:6px}
 .tuoi-numeri > summary{cursor:pointer;list-style:none;padding:12px 0;

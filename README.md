@@ -146,8 +146,18 @@ Quello che invece si ottimizza davvero:
 
 In fondo compaiono i **numeri chiesti da più previsioni**: non li rende più
 probabili, significa che coprendoli si soddisfano più previsioni con meno
-giocate distinte. E, chiuso, il **compositore manuale** — griglia dei novanta
-numeri, ruote, sorti, importo — per dare un prezzo a una giocata qualunque.
+giocate distinte.
+
+Poi **Ruota per ruota**: le stesse previsioni raccolte per ruota invece che per
+metodo, che è come si ragiona davanti al botteghino — non si gioca "il Fulmine",
+si gioca "su Napoli". Accanto a ogni ruota quante giocate ha in gioco; scelta
+una, il costo per giocarle tutte, la probabilità e il ritorno atteso, e sotto le
+giocate raggruppate per metodo. Qui una previsione che prevede due ruote costa
+**un euro invece di due**, perché la si porta su una ruota sola: il ritorno per
+euro non cambia, la spesa sì.
+
+Infine, chiuso, il **compositore manuale** — griglia dei novanta numeri, ruote,
+sorti, importo — per dare un prezzo a una giocata qualunque.
 
 Costo e ritorno atteso sono esatti (il valore atteso è additivo anche fra
 giocate dipendenti); la probabilità di vincere qualcosa è approssimata, perché
