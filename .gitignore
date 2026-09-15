@@ -1,0 +1,22 @@
+# Le scansioni dei fascicoli originali: materiale protetto, non va pubblicato.
+# Servono solo per riprendere in mano i metodi, restano sul disco di casa.
+fascicoli/
+*.pdf
+
+# file con la password del database: non entra mai in un repository pubblico
+.env
+
+# cartella creata dall'app desktop di Claude per le immagini di lavoro
+Claude outputs/
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# file temporanei della scrittura atomica: se ne resta uno in giro e'
+# un'esecuzione interrotta, non una cosa da versionare
+*.tmp
+
+.DS_Store
+Thumbs.db

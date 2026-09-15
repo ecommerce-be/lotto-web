@@ -1,0 +1,37 @@
+# PostgreSQL per App Lotto.
+#
+# La porta e' la 5433 e non la 5432 perche' su questa macchina c'e' gia' un
+# PostgreSQL installato nativamente in ascolto sulla 5432: usarla farebbe
+# fallire il bind del container con "port is already allocated".
+#
+#   docker compose up -d          avvia
+#   docker compose logs -f db     segui l'avvio
+#   docker compose down           ferma (i dati restano nel volume)
+#   docker compose down -v        ferma e cancella anche i dati
+#
+# In .env:  DATABASE_URL=postgresql+psycopg://lotto:lotto@localhost:5433/lotto
+
+services:
+  db:
+    image: postgres:16
+    container_name: lotto-db
+    environment:
+      POSTGRES_USER: lotto
+      POSTGRES_PASSWORD: lotto
+      POSTGRES_DB: lotto
+      # confronto delle stringhe indipendente dal locale: rende gli indici
+      # e gli ordinamenti identici fra la tua macchina e qualunque altra
+      POSTGRES_INITDB_ARGS: "--locale-provider=icu --icu-locale=it-IT"
+    ports:
+      - "5433:5432"
+    volumes:
+      - lotto-dati:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U lotto -d lotto"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+
+volumes:
+  lotto-dati:
