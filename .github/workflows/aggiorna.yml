@@ -1,0 +1,67 @@
+name: Aggiornamento serale
+
+# Scarica l'estrazione, ricalcola previsioni ed esiti, riscrive i file del sito
+# e li committa. E' quello che prima faceva l'utilita' di pianificazione di
+# Windows - che su quel PC non e' accessibile - e lo fa meglio: gira anche a
+# computer spento.
+
+on:
+  schedule:
+    # Orari UTC. L'estrazione e' alle 20:00 italiane, cioe' le 18:00 UTC d'estate
+    # e le 19:00 d'inverno: partire alle 20:00 UTC significa essere sempre almeno
+    # un'ora dopo, in qualunque stagione, senza doversi inventare conti sull'ora
+    # legale che poi sbagliano due volte l'anno.
+    - cron: "0 20 * * *"
+    # Rete di sicurezza del mattino dopo: se la sera la fonte non rispondeva, o
+    # se GitHub ha saltato l'esecuzione (le schedule sono "best effort" e possono
+    # slittare o essere ignorate quando la piattaforma e' carica), qui si
+    # recupera. Se non c'e' niente di nuovo non committa e non costa nulla.
+    - cron: "0 6 * * *"
+  workflow_dispatch:        # avvio a mano dal pulsante "Run workflow"
+
+# Il workflow scrive nel repository: senza questo permesso il push viene rifiutato.
+permissions:
+  contents: write
+
+# Se un'esecuzione e' ancora in corso, la nuova aspetta invece di sovrapporsi:
+# due processi che committano lo stesso file finirebbero in conflitto.
+concurrency:
+  group: aggiornamento
+  cancel-in-progress: false
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Non c'e' nessun "pip install": il motore usa solo la libreria standard.
+      # E' una scelta, non un caso - meno dipendenze significa meno cose che si
+      # rompono da sole mentre nessuno guarda.
+      - name: Aggiorna archivio, previsioni e sito
+        run: python -m motore.aggiorna
+
+      - name: Committa se qualcosa e' cambiato
+        run: |
+          if git diff --quiet -- archivio docs; then
+            echo "Niente di nuovo: nessun commit."
+            exit 0
+          fi
+          git config user.name  "aggiornamento automatico"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add archivio docs
+          git commit -m "Estrazioni e previsioni aggiornate al $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Prove
+        # Girano dopo il commit, non prima: se una prova fallisce si vuole
+        # comunque che il sito abbia i dati di stasera, e il fallimento si vede
+        # come esecuzione rossa nella scheda Actions.
+        run: |
+          python prove/test_motore.py
+          python prove/test_pipeline.py
+          node prove/test_schedina.mjs

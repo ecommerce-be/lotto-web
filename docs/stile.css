@@ -1,0 +1,140 @@
+/* App Lotto — foglio di stile unico.
+   Nessun framework e nessuna dipendenza esterna: la pagina deve aprirsi in
+   fretta anche su un telefono vecchio e su una rete lenta, e continuare a
+   funzionare fra cinque anni senza che nessuno aggiorni niente. */
+
+:root{
+  --sfondo:#f6f5f3; --carta:#fff; --testo:#1a1a19; --tenue:#6b6a66;
+  --bordo:#e3e1dc; --accento:#8a5a2b; --verde:#2f6b46; --rosso:#a33a2e;
+  --allarme:#c2410c;
+  --ombra:0 1px 2px rgba(0,0,0,.05), 0 4px 12px rgba(0,0,0,.04);
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --sfondo:#17171a; --carta:#1f1f23; --testo:#eceae6; --tenue:#9a978f;
+    --bordo:#31313a; --accento:#d3a06a; --verde:#7fc79b; --rosso:#e58e80;
+    --allarme:#f0925f; --ombra:none;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--sfondo);color:var(--testo);
+  font:15px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  padding:0 16px 64px}
+.contenitore{max-width:880px;margin:0 auto}
+a{color:var(--accento)}
+
+header{padding-block:28px 20px;border-bottom:1px solid var(--bordo);margin-bottom:22px}
+h1{margin:0;font-size:1.45rem;letter-spacing:-.02em;font-weight:640}
+h2{font-size:1rem;font-weight:640;letter-spacing:-.01em;margin:0 0 12px}
+.stato{color:var(--tenue);font-size:.86rem;margin-top:6px}
+.stato .allarme{color:var(--allarme);font-weight:600}
+
+.schede{display:flex;gap:4px;margin:18px 0 22px;flex-wrap:wrap}
+.schede button{border:1px solid var(--bordo);background:var(--carta);color:var(--tenue);
+  padding:7px 15px;border-radius:99px;cursor:pointer;font:inherit;font-size:.88rem}
+.schede button[aria-selected="true"]{background:var(--accento);border-color:var(--accento);color:#fff}
+
+.carta{background:var(--carta);border:1px solid var(--bordo);border-radius:12px;
+  padding:16px 18px;margin-bottom:12px;box-shadow:var(--ombra)}
+.riga{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.metodo{font-weight:620;letter-spacing:-.01em}
+.meta{color:var(--tenue);font-size:.83rem}
+.colpi{font-variant-numeric:tabular-nums;font-size:.83rem;color:var(--tenue);white-space:nowrap}
+.colpi b{color:var(--accento);font-size:1.05rem}
+.rarita{display:inline-block;font-size:.72rem;letter-spacing:.03em;color:var(--tenue);
+  border:1px solid var(--bordo);border-radius:99px;padding:1px 9px;margin-left:6px;
+  white-space:nowrap;vertical-align:2px}
+.sorte{display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+  padding:9px 0;border-top:1px dashed var(--bordo)}
+.sorte:first-of-type{margin-top:12px}
+.tipo{font-size:.74rem;text-transform:uppercase;letter-spacing:.06em;color:var(--tenue);
+  min-width:72px}
+.n{display:inline-grid;place-items:center;min-width:30px;height:30px;padding:0 6px;
+  border-radius:50%;background:var(--sfondo);border:1px solid var(--bordo);
+  font-variant-numeric:tabular-nums;font-weight:600;font-size:.9rem}
+.avviso{margin-top:10px;font-size:.82rem;color:var(--accento)}
+.vuoto{color:var(--tenue);padding:28px 0;text-align:center}
+.gruppo{margin-bottom:18px}
+.gruppo > summary{cursor:pointer;list-style:none;display:flex;align-items:baseline;
+  gap:8px;flex-wrap:wrap;padding:10px 2px;border-bottom:1px solid var(--bordo);
+  margin-bottom:10px}
+.gruppo > summary::-webkit-details-marker{display:none}
+.gruppo > summary::before{content:'▸';color:var(--tenue);font-size:.8rem;
+  transition:transform .12s}
+.gruppo[open] > summary::before{content:'▾'}
+.gruppo > summary .conta{margin-left:auto;color:var(--tenue);font-size:.8rem;
+  font-variant-numeric:tabular-nums}
+.gruppo > summary:hover .metodo{color:var(--accento)}
+
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th,td{text-align:right;padding:9px 8px;border-bottom:1px solid var(--bordo);font-size:.88rem}
+th:first-child,td:first-child{text-align:left}
+th{color:var(--tenue);font-weight:500;font-size:.78rem;text-transform:uppercase;letter-spacing:.05em}
+tfoot td{font-weight:650;border-bottom:none}
+.pos{color:var(--verde)} .neg{color:var(--rosso)}
+.scarso{color:var(--tenue);font-size:.74rem;display:block;font-weight:400;
+  letter-spacing:0;text-transform:none}
+.tabella-scroll{overflow-x:auto}
+.avvertenza{margin-top:18px;padding:14px 16px;border-left:3px solid var(--accento);
+  background:var(--carta);border-radius:0 8px 8px 0;font-size:.86rem;color:var(--tenue)}
+
+/* --- schedina --- */
+.prossima{display:flex;align-items:baseline;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.prossima .quando{font-size:1.1rem;font-weight:640;letter-spacing:-.01em}
+.prossima .fra{color:var(--accento)}
+.prossima .poi{color:var(--tenue);font-size:.82rem}
+.campo{padding:15px 0;border-top:1px dashed var(--bordo)}
+.campo:first-child{border-top:none;padding-top:0}
+.campo .etichetta{display:flex;justify-content:space-between;align-items:baseline;gap:10px;
+  font-size:.74rem;text-transform:uppercase;letter-spacing:.06em;color:var(--tenue);
+  margin-bottom:10px}
+.campo .etichetta .conta{text-transform:none;letter-spacing:0;font-size:.8rem}
+.griglia{display:grid;grid-template-columns:repeat(10,1fr);gap:5px}
+@media (max-width:520px){.griglia{grid-template-columns:repeat(6,1fr)}}
+.griglia button{aspect-ratio:1;border:1px solid var(--bordo);background:var(--carta);
+  color:var(--testo);border-radius:8px;font:inherit;font-size:.82rem;font-weight:600;
+  font-variant-numeric:tabular-nums;cursor:pointer;padding:0}
+.griglia button[aria-pressed="true"]{background:var(--accento);border-color:var(--accento);color:#fff}
+.pillole{display:flex;flex-wrap:wrap;gap:6px}
+.pillole button{border:1px solid var(--bordo);background:var(--carta);color:var(--tenue);
+  border-radius:99px;padding:5px 13px;font:inherit;font-size:.84rem;cursor:pointer}
+.pillole button[aria-pressed="true"]{background:var(--accento);border-color:var(--accento);color:#fff}
+.pillole button:disabled{opacity:.35;cursor:default}
+.importo{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.importo input{width:120px;font:inherit;font-size:1.05rem;font-weight:640;padding:7px 10px;
+  border:1px solid var(--bordo);border-radius:8px;background:var(--sfondo);color:var(--testo);
+  font-variant-numeric:tabular-nums}
+select.da-previsione{font:inherit;font-size:.86rem;padding:6px 10px;max-width:100%;width:100%;
+  border:1px solid var(--bordo);border-radius:8px;background:var(--sfondo);color:var(--testo)}
+.ripartizione{color:var(--tenue);font-size:.84rem;margin:0 0 14px}
+.errore{color:var(--rosso);font-size:.88rem;margin:0}
+.verdetto{display:flex;gap:20px;flex-wrap:wrap;margin-top:16px;
+  padding-top:14px;border-top:1px dashed var(--bordo)}
+.verdetto > div{flex:1 1 190px}
+.verdetto .valore{font-size:1.2rem;font-weight:660;letter-spacing:-.02em;display:block}
+.verdetto .didascalia{color:var(--tenue);font-size:.78rem}
+
+/* --- estrazioni --- */
+.quadro{display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+  padding:10px 0;border-top:1px dashed var(--bordo)}
+.quadro:first-of-type{border-top:none}
+.quadro .ruota{min-width:96px;font-size:.84rem;color:var(--tenue)}
+
+footer{margin-top:34px;padding-top:18px;border-top:1px solid var(--bordo);
+  color:var(--tenue);font-size:.8rem}
+
+/* Sotto i 640px una tabella a sei colonne diventa illeggibile: ogni riga si
+   trasforma in una scheda, con l'etichetta accanto al valore. */
+@media (max-width:640px){
+  .tabella-scroll{overflow-x:visible}
+  table,tbody,tfoot,tr,td{display:block;width:100%}
+  thead{display:none}
+  tbody tr,tfoot tr{border:1px solid var(--bordo);border-radius:10px;
+    padding:10px 12px;margin-bottom:10px}
+  td{display:flex;justify-content:space-between;align-items:baseline;gap:14px;
+    border:none;padding:4px 0;text-align:right}
+  td:first-child{display:block;text-align:left;font-weight:620;
+    padding-bottom:8px;margin-bottom:6px;border-bottom:1px dashed var(--bordo)}
+  td[data-et]::before{content:attr(data-et);color:var(--tenue);font-size:.78rem;
+    text-transform:uppercase;letter-spacing:.05em;font-weight:500}
+}

@@ -20,3 +20,7 @@ venv/
 
 .DS_Store
 Thumbs.db
+
+# resti del vecchio ambiente virtuale: una ventina di .pyd e .exe che non si
+# lasciano cancellare da qui. Vanno rimossi a mano da Esplora risorse.
+api/

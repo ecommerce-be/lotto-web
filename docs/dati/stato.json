@@ -1,0 +1,30 @@
+{
+ "aggiornato_il": "2026-09-15T10:35:46",
+ "concorsi": 7334,
+ "estrazioni": 76549,
+ "metodi": {
+  "ambosecco_caotico": "Ambo Secco Caotico — Antonio Longo",
+  "fulmine": "Fulmine — Osvaldo Manara",
+  "lottofacile1": "Lotto Facile — Il Metodo Vincente",
+  "lottofacile4": "Lotto Facile 4 — Ciclo-Pondometria",
+  "lottofacile5": "Lotto Facile 5 — Rita Calone",
+  "unsoloambosecco": "Un Solo Ambo Secco"
+ },
+ "ordine_di_estrazione": true,
+ "previsioni": 1753,
+ "prima_estrazione": "1939-01-07",
+ "quota_crescenti": 0.0083,
+ "ruote": {
+  "BA": "Bari",
+  "CA": "Cagliari",
+  "FI": "Firenze",
+  "GE": "Genova",
+  "MI": "Milano",
+  "NA": "Napoli",
+  "PA": "Palermo",
+  "RM": "Roma",
+  "TO": "Torino",
+  "VE": "Venezia"
+ },
+ "ultima_estrazione": "2026-06-20"
+}

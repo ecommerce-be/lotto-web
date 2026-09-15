@@ -1,0 +1,15 @@
+{
+  "_commento": [
+    "Risultato del backtest su vent'anni di archivio reale (2005-2026), calcolato",
+    "una volta sola e non ricalcolato a ogni aggiornamento: e' un riferimento",
+    "storico, non un dato vivo. Serve a dare la misura giusta al bilancio corrente,",
+    "che su pochi mesi e' troppo corto per significare qualcosa.",
+    "Il dettaglio completo, controlli placebo compresi, sta in backtest-20-anni.md."
+  ],
+  "periodo": "2005-2026",
+  "rilevamenti": 23853,
+  "ritorno_minimo": 0.62,
+  "ritorno_massimo": 0.74,
+  "ritorno_medio": 0.677,
+  "soglia_campione": 300
+}

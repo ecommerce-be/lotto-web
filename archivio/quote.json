@@ -1,0 +1,19 @@
+{
+  "_commento": [
+    "Quote ufficiali del Lotto italiano e ritenuta erariale.",
+    "Questo file esiste perche' gli stessi numeri servono in due posti: al motore",
+    "Python, che calcola il bilancio di quello che e' gia' successo, e alla pagina",
+    "web, che simula una giocata futura. Scritti due volte, prima o poi una delle",
+    "due copie resta indietro e l'app comincia a raccontare due storie diverse.",
+    "Il moltiplicatore e' riferito a una posta di 1 euro su una singola ruota."
+  ],
+  "moltiplicatori": {
+    "estratto": 11.232,
+    "ambo": 250,
+    "terno": 4500,
+    "quaterna": 120000,
+    "cinquina": 6000000
+  },
+  "ritenuta": 0.08,
+  "verificate_il": "2026-09-15"
+}

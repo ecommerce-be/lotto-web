@@ -1,0 +1,10 @@
+{
+ "date": [
+  "2026-09-15",
+  "2026-09-17",
+  "2026-09-18"
+ ],
+ "motivo": "Calendario ufficiale non raggiungibile (https://www.lotto-italia.it/gdl/estrazioni-e-vincite/calendario-estrazioni-del-lotto.json non raggiungibile: Tunnel connection failed: 403 Forbidden); date dedotte dai giorni di concorso recenti.",
+ "ora": "20:00",
+ "stimato": true
+}
