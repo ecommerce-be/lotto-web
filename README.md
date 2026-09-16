@@ -117,7 +117,7 @@ ordina per data ma **per rarità del metodo**, con accanto scritto quanto spesso
 capita. Ordinare per data significherebbe seppellire il metodo raro sotto quello
 prolifico, dando l'impressione che valgano uguale.
 
-## Le quattro schede
+## Le cinque schede
 
 **Schedina** — che cosa giocare al prossimo concorso. In cima il concorso in
 arrivo con quanto manca; si scrive quanto si vuole spendere e la pagina compone
@@ -164,6 +164,9 @@ giocate dipendenti); la probabilità di vincere qualcosa è approssimata, perch�
 le giocate insistono sullo stesso concorso e condividono numeri e ruote — per
 questo la pagina scrive "circa".
 
+**Previsioni** — i numeri in comune fra i metodi, e la ricerca delle
+ripetizioni. Sono le due cose descritte qui sotto.
+
 **In corso** — tutte le previsioni ancora giocabili, raggruppate per metodo e
 ordinate **per rarità**, non per data: ordinare per data seppellisce il metodo
 che scatta ottanta volte l'anno sotto quello che ne fa mille.
@@ -174,12 +177,11 @@ backtest ventennale e il flag sui campioni troppo piccoli.
 **Estrazioni** — gli ultimi otto concorsi, tutte le ruote, in ordine di
 estrazione.
 
-### La fascia "I numeri in comune"
+### "I numeri in comune", in cima a Previsioni
 
-Sotto le schede, visibile da qualunque scheda, una fascia raccoglie i numeri
-chiesti **da più di un metodo** contemporaneamente e ne compone una **previsione
-unica**: i cinque più richiesti, giocati per ambo sulla ruota su cui quel gruppo
-è chiesto più spesso.
+Raccoglie i numeri chiesti **da più di un metodo** contemporaneamente e ne
+compone una **previsione unica**: i cinque più richiesti, giocati per ambo sulla
+ruota su cui quel gruppo è chiesto più spesso.
 
 Va letta per quello che è. L'accordo fra metodi **non alza la probabilità**: il
 Lotto non ha memoria, e un ambo resta 1 su 400,5 anche se sei metodi lo indicano
@@ -193,6 +195,48 @@ condividono una concordano *per costruzione*, non perché si siano trovati
 d'accordo. Per questo il conteggio è sui **metodi** e non sulle previsioni: due
 previsioni dello stesso metodo non sono due pareri, e le prove in
 `prove/test_consiglio.mjs` difendono proprio questa distinzione.
+
+### "Si è mai ripetuta?"
+
+Si sceglie un concorso qualunque dal 1939 in poi e una ruota; il programma
+scorre tutte le estrazioni da quel giorno a oggi e conta quante volte quei
+cinque numeri sono tornati fuori insieme — due, tre, quattro o tutti e cinque.
+Una casella allarga la ricerca a tutte e dieci le ruote. Le date senza concorso
+scattano al concorso più vicino invece di dare errore, e la tendina delle ruote
+offre solo quelle che quel giorno hanno estratto davvero.
+
+**Accanto ai trovati c'è sempre il numero degli attesi**, ed è la parte che
+rende la sezione onesta invece di suggestiva. «45 ambi» da solo sembra un
+segnale; «45 trovati contro 38,2 attesi dal caso» dice che è andata come doveva
+andare. Il conto degli attesi è esatto, non stimato: è l'ipergeometrica di
+cinque numeri su novanta moltiplicata per i concorsi esaminati (le ruote sono
+indipendenti, quindi cercarne dieci moltiplica per dieci sia i trovati sia gli
+attesi e il confronto regge). Sotto i cinque attesi non si dichiara nessuno
+scarto, perché con numeri così piccoli non vorrebbe dire niente.
+
+Resta il fatto che nulla di tutto questo riguarda il concorso di domani: le
+estrazioni sono indipendenti, e quarantacinque ritorni già avvenuti non ne
+promettono un quarantaseiesimo. La pagina lo scrive.
+
+#### Come fa un sito statico a cercare in ottantasette anni di estrazioni
+
+Non c'è nessuno a cui chiedere: o i dati stanno nel browser o la ricerca non
+esiste. Il CSV di partenza però è di due mega e mezzo. `motore/pubblica.py` lo
+riscrive in `docs/dati/storico.txt`: una riga per concorso, data senza trattini
+e dieci ruote da cinque numeri a due cifre, `--` dove una ruota non ha estratto.
+Sono 108 caratteri per riga invece di circa 350; il file sta sotto il mega e,
+servito compresso come qualunque testo, arriva a poco più di trecento
+chilobyte. Resta leggibile a occhio, che qui conta: un file che nessuno può
+controllare è un file di cui bisogna fidarsi.
+
+`docs/ripetizioni.js` lo tiene in un solo `Uint8Array` invece che in
+settemila oggetti annidati, e la pagina lo scarica **solo alla prima apertura
+della scheda Previsioni** — chi guarda la Schedina e basta non lo prende mai.
+Una ricerca su tutte e dieci le ruote dal 1939 a oggi impegna il telefono per
+una manciata di millisecondi.
+
+Il file viene ricommittato ogni sera insieme al resto: cresce in fondo e basta,
+quindi git lo comprime bene fra una versione e l'altra.
 
 ### La data del prossimo concorso
 

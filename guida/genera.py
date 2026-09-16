@@ -155,10 +155,10 @@ A(P("Il Lotto non si estrae tutti i giorni: al momento sono quattro estrazioni "
     "è tutto normale.", "piede"))
 
 # ---------------------------------------------------------------- 2
-A(P("Le quattro pagine", "h1"))
-A(P("In alto ci sono quattro pulsanti: <b>Schedina</b>, <b>In corso</b>, "
-    "<b>Bilancio</b>, <b>Estrazioni</b>. Sono quattro modi di guardare la "
-    "stessa cosa."))
+A(P("Le cinque pagine", "h1"))
+A(P("In alto ci sono cinque pulsanti: <b>Schedina</b>, <b>Previsioni</b>, "
+    "<b>In corso</b>, <b>Bilancio</b>, <b>Estrazioni</b>. Sono cinque modi di "
+    "guardare la stessa cosa."))
 
 A(P("1. Schedina \u2014 che cosa giocare al prossimo concorso", "h2"))
 A(P("\u00c8 la pagina che si apre per prima. In cima dice quand\u2019\u00e8 "
@@ -190,7 +190,49 @@ A(P("In fondo compaiono i numeri chiesti da pi\u00f9 previsioni insieme. Non "
     "numeri tuoi?\u201d</i>: apre la griglia dei novanta numeri per dare un "
     "prezzo a una giocata qualunque, anche una che non viene da nessun metodo."))
 
-A(P("2. In corso \u2014 tutto quello che \u00e8 ancora in gioco", "h2"))
+A(P("2. Previsioni \u2014 i numeri in comune, e le ripetizioni", "h2"))
+A(P("In cima alla pagina c\u2019\u00e8 un elenco che raccoglie i numeri chiesti <b>da pi\u00f9 di un metodo</b> nello "
+    "stesso momento, e ne fa una <b>previsione unica</b>: i cinque pi\u00f9 "
+    "richiesti, giocati per ambo sulla ruota su cui quel gruppo torna pi\u00f9 "
+    "spesso. Per ogni numero dice da quanti metodi \u00e8 chiesto, da quante "
+    "previsioni e su quali ruote."))
+A(riquadro([
+    "<b>Che due metodi indichino lo stesso numero non lo rende pi\u00f9 "
+    "probabile.</b> Il Lotto non ha memoria: un ambo resta uno su 400,5 anche "
+    "se lo indicano tutti e sei. Serve a un\u2019altra cosa \u2014 con "
+    "dieci ambi si coprono parecchie previsioni vive invece di giocarle una "
+    "per una.",
+    "E c\u2019\u00e8 un secondo motivo per non leggerci un pronostico, ed \u00e8 "
+    "spiegato pi\u00f9 avanti in questa guida: <b>i sei metodi non sono sei pareri "
+    "indipendenti</b>. Le loro condizioni di ricerca si riducono a tre, quindi "
+    "due metodi che ne condividono una vanno d\u2019accordo per costruzione, non "
+    "perch\u00e9 si siano trovati d\u2019accordo. Per questo la pagina conta i "
+    "<b>metodi</b> e non le previsioni: due previsioni dello stesso metodo non "
+    "sono due pareri.",
+]))
+
+A(P("Sotto, <b>\u201cSi \u00e8 mai ripetuta?\u201d</b>. Si sceglie un concorso "
+    "qualunque \u2014 anche del 1939, ci sono tutti \u2014 e una ruota, si preme "
+    "<i>Cerca le ripetizioni</i>, e il programma guarda tutte le estrazioni da "
+    "quel giorno a oggi per contare quante volte quei cinque numeri sono "
+    "tornati fuori insieme: due, tre, quattro o tutti e cinque. Se si spunta "
+    "la casella, guarda anche sulle altre nove ruote. I pulsanti "
+    "<i>10 anni fa</i>, <i>20 anni fa</i> e gli altri portano indietro in un "
+    "colpo solo; se il giorno scelto non era di concorso, il programma prende "
+    "il pi\u00f9 vicino e lo dice."))
+A(riquadro([
+    "<b>Accanto a quante se ne sono trovate c\u2019\u00e8 sempre quante se ne "
+    "aspettavano</b>, ed \u00e8 la colonna da guardare per prima. "
+    "\u00abQuarantacinque ambi\u00bb da solo sembra un segnale; "
+    "\u00ab45 trovati contro 38 attesi dal caso\u00bb dice che \u00e8 andata "
+    "come doveva andare. Il conto degli attesi \u00e8 esatto, non una stima.",
+    "E vale la pena ripeterlo: nulla di tutto questo riguarda il concorso di "
+    "domani. Le estrazioni sono indipendenti \u2014 quarantacinque ritorni "
+    "gi\u00e0 avvenuti non ne promettono un quarantaseiesimo. La pagina serve "
+    "a guardare il passato, non a leggerci dentro il futuro.",
+]))
+
+A(P("3. In corso \u2014 tutto quello che \u00e8 ancora in gioco", "h2"))
 A(P("La stessa materia della Schedina, ma senza il filtro del budget: tutte le "
     "previsioni ancora valide, raggruppate per metodo. Ogni riquadro dice il "
     "giorno del rilevamento, su quali ruote si gioca, quanti colpi restano "
@@ -204,7 +246,7 @@ A(P("I gruppi pi\u00f9 affollati partono chiusi e si aprono con un tocco. "
     "l\u2019anno e \u201cFulmine\u201d meno di cento, e ordinando per data "
     "il secondo finirebbe sepolto sotto il primo."))
 
-A(P("3. Bilancio \u2014 quanto \u00e8 costato e quanto ha reso", "h2"))
+A(P("4. Bilancio \u2014 quanto \u00e8 costato e quanto ha reso", "h2"))
 A(P("\u00c8 la pagina scomoda, ed \u00e8 quella che rende questo sito diverso "
     "da un volantino. Per ogni metodo dice quante previsioni ha prodotto, "
     "quanto sarebbe costato giocarle tutte, quanto avrebbero fruttato alle "
@@ -218,32 +260,10 @@ A(P("Dove c\u2019\u00e8 scritto <i>campione troppo piccolo per essere "
     "\u201cUn Solo Ambo Secco\u201d, che con quattro previsioni in tutto "
     "mostra un ritorno dell\u2019821% \u2014 un numero che non significa nulla."))
 
-A(P("4. Estrazioni \u2014 che cosa \u00e8 uscito", "h2"))
+A(P("5. Estrazioni \u2014 che cosa \u00e8 uscito", "h2"))
 A(P("Gli ultimi otto concorsi, con tutte e dieci le ruote, "
     "nell\u2019ordine di estrazione. Serve per un controllo veloce senza "
     "andare a cercare altrove."))
-
-A(P("La fascia in fondo \u2014 i numeri in comune", "h2"))
-A(P("Sotto i quattro pulsanti, e visibile da qualunque pagina, c\u2019\u00e8 una "
-    "fascia che raccoglie i numeri chiesti <b>da pi\u00f9 di un metodo</b> nello "
-    "stesso momento, e ne fa una <b>previsione unica</b>: i cinque pi\u00f9 "
-    "richiesti, giocati per ambo sulla ruota su cui quel gruppo torna pi\u00f9 "
-    "spesso. Per ogni numero dice da quanti metodi \u00e8 chiesto, da quante "
-    "previsioni e su quali ruote."))
-A(riquadro([
-    "<b>Che due metodi indichino lo stesso numero non lo rende pi\u00f9 "
-    "probabile.</b> Il Lotto non ha memoria: un ambo resta uno su 400,5 anche "
-    "se lo indicano tutti e sei. La fascia serve a un\u2019altra cosa \u2014 con "
-    "dieci ambi si coprono parecchie previsioni vive invece di giocarle una "
-    "per una.",
-    "E c\u2019\u00e8 un secondo motivo per non leggerci un pronostico, ed \u00e8 "
-    "spiegato nella pagina seguente: <b>i sei metodi non sono sei pareri "
-    "indipendenti</b>. Le loro condizioni di ricerca si riducono a tre, quindi "
-    "due metodi che ne condividono una vanno d\u2019accordo per costruzione, non "
-    "perch\u00e9 si siano trovati d\u2019accordo. Per questo la fascia conta i "
-    "<b>metodi</b> e non le previsioni: due previsioni dello stesso metodo non "
-    "sono due pareri.",
-]))
 
 A(P("I sei metodi", "h1"))
 A(P("Sono quelli dei fascicoli, applicati alla lettera. La colonna "

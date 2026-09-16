@@ -12,6 +12,8 @@ import {
   componi, convergenze, riepilogo, etichettaGiocata, perRuota, SOGLIA_RESA,
   numeriInComune, previsioneUnica, primoGiornoUtile, proiettaConcorsi,
 } from './consiglio.js';
+import { leggiStorico, quadro, concorsoVicino, cerca, confronto }
+  from './ripetizioni.js';
 
 const NOMI_RUOTE = {
   BA: 'Bari', CA: 'Cagliari', FI: 'Firenze', GE: 'Genova', MI: 'Milano',
@@ -451,6 +453,208 @@ function mostraComuni() {
     </div>`;
 }
 
+/* ------------------------------------------------- si e' mai ripetuta? */
+/* L'archivio intero pesa trecentosessanta chilobyte compressi: si scarica solo
+ * quando si apre questa scheda, e una volta sola. Chi guarda la Schedina e
+ * basta non lo prende mai. */
+let storico = null, inArrivo = null;
+
+const NOMI_MISURA = { 2: 'ambi', 3: 'terni', 4: 'quaterne', 5: 'cinquine' };
+const NOME_MISURA = { 2: 'un ambo', 3: 'un terno', 4: 'una quaterna', 5: 'la cinquina' };
+
+async function prendiStorico() {
+  if (storico) return storico;
+  if (!inArrivo) inArrivo = fetch(`dati/storico.txt?v=${Date.now()}`)
+    .then(r => {
+      if (!r.ok) throw new Error(`dati/storico.txt → ${r.status}`);
+      return r.text();
+    })
+    .then(t => { storico = leggiStorico(t); return storico; })
+    .catch(e => { inArrivo = null; throw e; });
+  return inArrivo;
+}
+
+function costruisciRicerca() {
+  document.getElementById('cerca').onclick = eseguiRicerca;
+  document.getElementById('data-ricerca').onchange = aggiornaRuoteDelGiorno;
+  document.getElementById('ruota-ricerca').onchange = aggiornaRuoteDelGiorno;
+  document.getElementById('cerca').disabled = true;
+}
+
+/** Prepara i campi appena l'archivio e' in memoria. */
+function preparaRicerca() {
+  const campo = document.getElementById('data-ricerca');
+  const primo = storico.giorni[0], ultimo = storico.giorni.at(-1);
+  campo.min = primo;
+  campo.max = ultimo;
+  if (!campo.value) {
+    // Un punto di partenza che ha senso: dieci anni fa. Da li' in poi ci sono
+    // abbastanza concorsi perche' il confronto con gli attesi voglia dire
+    // qualcosa, e chi apre la pagina vede subito un risultato invece di un
+    // modulo vuoto.
+    const d = new Date(ultimo + 'T00:00:00');
+    d.setFullYear(d.getFullYear() - 10);
+    campo.value = concorsoVicino(storico, d.toISOString().slice(0, 10));
+  }
+
+  const anni = [10, 20, 30, 40].filter(a => {
+    const d = new Date(ultimo + 'T00:00:00');
+    d.setFullYear(d.getFullYear() - a);
+    return d.toISOString().slice(0, 10) >= primo;
+  });
+  document.getElementById('date-rapide').innerHTML =
+    anni.map(a => `<button type="button" data-anni="${a}">${a} anni fa</button>`).join('')
+    + `<button type="button" data-giorno="${primo}">il primo concorso (${primo.slice(0, 4)})</button>`;
+  for (const b of document.querySelectorAll('#date-rapide button')) {
+    b.onclick = () => {
+      if (b.dataset.giorno) campo.value = b.dataset.giorno;
+      else {
+        const d = new Date(ultimo + 'T00:00:00');
+        d.setFullYear(d.getFullYear() - Number(b.dataset.anni));
+        campo.value = concorsoVicino(storico, d.toISOString().slice(0, 10));
+      }
+      aggiornaRuoteDelGiorno();
+    };
+  }
+  document.getElementById('cerca').disabled = false;
+  aggiornaRuoteDelGiorno();
+}
+
+/** Mostra il concorso scelto e lascia scegliere solo fra le ruote che quel
+ *  giorno hanno davvero estratto. */
+function aggiornaRuoteDelGiorno() {
+  if (!storico) return;
+  const campo = document.getElementById('data-ricerca');
+  const scelta = document.getElementById('ruota-ricerca');
+  const nota = document.getElementById('nota-data');
+  if (!campo.value) { nota.textContent = ''; return; }
+
+  const giorno = concorsoVicino(storico, campo.value);
+  const spostata = giorno !== campo.value;
+  if (spostata) campo.value = giorno;
+
+  const q = quadro(storico, giorno) ?? {};
+  const disponibili = Object.keys(q);
+  const prima = scelta.value;
+  scelta.innerHTML = disponibili
+    .map(r => `<option value="${r}">${NOMI_RUOTE[r]}</option>`).join('');
+  scelta.value = disponibili.includes(prima) ? prima
+    : (disponibili.includes('NA') ? 'NA' : disponibili[0] ?? '');
+
+  const numeri = q[scelta.value];
+  nota.innerHTML = (spostata
+    ? `Quel giorno non c'era concorso: il più vicino è <b>${dataIt(giorno)}</b>. `
+    : `<b>${dataIt(giorno)}</b>. `)
+    + (numeri
+      ? `Su ${NOMI_RUOTE[scelta.value]} uscirono ${numeri.join(' · ')}.`
+      : 'Nessuna ruota ha estratto in questo giorno.');
+  document.getElementById('cerca').disabled = !numeri;
+}
+
+async function eseguiRicerca() {
+  const avviso = document.getElementById('stato-ricerca');
+  const bottone = document.getElementById('cerca');
+  const giorno = document.getElementById('data-ricerca').value;
+  const ruota = document.getElementById('ruota-ricerca').value;
+  const tutteLeRuote = document.getElementById('tutte-ruote').checked;
+  if (!giorno || !ruota) return;
+
+  bottone.disabled = true;
+  avviso.textContent = 'cerco…';
+  // un respiro prima di lavorare, se no il browser non ridisegna e sembra
+  // che il tasto non abbia fatto niente
+  await new Promise(r => setTimeout(r, 0));
+  try {
+    const esito = cerca(storico, { giorno, ruota, tutteLeRuote });
+    avviso.textContent = '';
+    mostraRicerca(esito);
+  } catch (e) {
+    avviso.textContent = `La ricerca non è riuscita: ${e.message}`;
+  } finally {
+    bottone.disabled = false;
+  }
+}
+
+function mostraRicerca(esito) {
+  const fuori = document.getElementById('esito-ricerca');
+  if (!esito) { fuori.innerHTML = '<p class="nota">Quel concorso non c\'è.</p>'; return; }
+  if (!esito.concorsi) {
+    fuori.innerHTML = `<p class="nota">Dopo il ${dataIt(esito.origine.giorno)} non
+      c'è ancora nessun concorso da guardare: è l'ultimo dell'archivio.</p>`;
+    return;
+  }
+
+  const o = esito.origine;
+  const dove = esito.tutteLeRuote ? 'su tutte e dieci le ruote'
+    : `su ${NOMI_RUOTE[o.ruota]}`;
+
+  const righe = [5, 4, 3, 2].map((q) => {
+    const trovati = esito.conteggio[q], att = esito.attesi[q];
+    const c = confronto(trovati, att);
+    return `
+      <tr class="${trovati ? '' : 'spento'}">
+        <td>${NOMI_MISURA[q]}<span class="quanti-num">${q} numeri insieme</span></td>
+        <td class="num" data-et="trovate"><b>${numero(trovati)}</b></td>
+        <td class="num" data-et="attese dal caso">${
+          att < 0.1 && att > 0 ? att.toFixed(2).replace('.', ',')
+          : att.toLocaleString('it-IT', { maximumFractionDigits: 1 })}</td>
+        <td class="verso" data-et="com'è andata">${
+          c.scarto === null ? '—' : c.parola}</td>
+      </tr>`;
+  }).join('');
+
+  const grossi = esito.trovati.filter(t => t.quanti >= 3);
+  const ambi = esito.trovati.filter(t => t.quanti === 2);
+  const voce = t => `
+    <li>
+      <span class="quando">${dataIt(t.giorno)}</span>
+      ${esito.tutteLeRuote ? `<span class="dove">${NOMI_RUOTE[t.ruota]}</span>` : ''}
+      <span class="numeri">${t.numeri.map(n => `<b>${n}</b>`).join(' ')}</span>
+    </li>`;
+
+  fuori.innerHTML = `
+    <div class="esito">
+      <p class="partenza">Concorso del <b>${dataIt(o.giorno)}</b> su
+        <b>${NOMI_RUOTE[o.ruota]}</b>:${o.numeri.map(n =>
+          ` <span class="n">${n}</span>`).join('')}</p>
+      <p class="conti">Da quel giorno a ${dataIt(esito.ultimo)} si è estratto
+        <b>${numero(esito.concorsi)}</b> volte. Guardando ${dove}, ecco quante
+        volte quei numeri sono tornati fuori insieme.</p>
+
+      <table class="ripetizioni">
+        <thead><tr>
+          <th>quanti insieme</th><th class="num">trovate</th>
+          <th class="num">attese dal caso</th><th></th>
+        </tr></thead>
+        <tbody>${righe}</tbody>
+      </table>
+
+      <p class="avvertenza">La colonna <b>attese dal caso</b> è il conto esatto
+        di quante ripetizioni sarebbero venute fuori da ${numero(esito.concorsi)}
+        estrazioni a caso. Serve a leggere l'altra colonna: da sola, «${numero(
+          esito.conteggio[2])} ambi» sembra un segnale, ma accanto a
+        ${esito.attesi[2].toLocaleString('it-IT', { maximumFractionDigits: 0 })}
+        attesi dice solo che è andata come doveva andare. E comunque nulla di
+        tutto ciò riguarda il prossimo concorso: le estrazioni non hanno memoria
+        di quelle prima.</p>
+
+      ${grossi.length ? `
+        <h3>${grossi.length === 1 ? 'L\'unica ripetizione da tre numeri in su'
+          : 'Le ripetizioni da tre numeri in su'}</h3>
+        <ul class="ritrovamenti">${grossi.map(voce).join('')}</ul>`
+        : `<p class="nota">Da quel giorno in poi non è mai tornato fuori
+           ${NOME_MISURA[3]} di quei cinque numeri${esito.tutteLeRuote ? ''
+           : `, almeno su ${NOMI_RUOTE[o.ruota]}`}.</p>`}
+
+      ${ambi.length ? `
+        <details class="elenco-ambi">
+          <summary>${numero(esito.conteggio[2])} volte è tornato un ambo${
+            esito.troncato ? ` (ne elenco ${numero(ambi.length)})` : ''}</summary>
+          <ul class="ritrovamenti">${ambi.map(voce).join('')}</ul>
+        </details>` : ''}
+    </div>`;
+}
+
 /* ------------------------------------------------------------- bilancio */
 function mostraBilancio(b) {
   const segno = v => v >= 0 ? 'pos' : 'neg';
@@ -687,18 +891,36 @@ function preparaSuggerimenti(lista) {
 }
 
 /* ------------------------------------------------------------- avvio */
+const VISTE = ['schedina', 'previsioni', 'corso', 'bilancio', 'estrazioni'];
 for (const b of document.querySelectorAll('[data-vista]')) {
   b.onclick = () => {
     for (const x of document.querySelectorAll('[data-vista]'))
       x.setAttribute('aria-selected', String(x === b));
-    for (const v of ['schedina', 'corso', 'bilancio', 'estrazioni'])
+    for (const v of VISTE)
       document.getElementById(v).hidden = b.dataset.vista !== v;
+    if (b.dataset.vista === 'previsioni') apriPrevisioni();
   };
+}
+
+/** L'archivio si scarica alla prima apertura della scheda, non prima. */
+async function apriPrevisioni() {
+  if (storico) return;
+  const avviso = document.getElementById('stato-ricerca');
+  avviso.textContent = 'sto caricando lo storico delle estrazioni…';
+  try {
+    await prendiStorico();
+    avviso.textContent = '';
+    preparaRicerca();
+  } catch (e) {
+    avviso.textContent = `Non riesco a caricare lo storico: ${e.message}. `
+      + 'La ricerca delle ripetizioni non è disponibile; il resto della pagina sì.';
+  }
 }
 
 costruisciBudget();
 costruisciRuote();
 costruisciSchedina();
+costruisciRicerca();
 
 (async () => {
   try {

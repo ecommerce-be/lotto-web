@@ -19,6 +19,7 @@
 
   <div class="schede" role="tablist">
     <button role="tab" data-vista="schedina" aria-selected="true">Schedina</button>
+    <button role="tab" data-vista="previsioni" aria-selected="false">Previsioni</button>
     <button role="tab" data-vista="corso" aria-selected="false">In corso</button>
     <button role="tab" data-vista="bilancio" aria-selected="false">Bilancio</button>
     <button role="tab" data-vista="estrazioni" aria-selected="false">Estrazioni</button>
@@ -93,16 +94,50 @@
     </details>
   </div>
 
+  <div id="previsioni" hidden>
+    <section class="comuni" id="comuni" hidden>
+      <h2>I numeri in comune</h2>
+      <p class="spiega" id="comuni-spiega"></p>
+      <div id="comuni-giocata"></div>
+      <div id="comuni-numeri"></div>
+    </section>
+
+    <section class="ricerca" id="ricerca">
+      <h2>Si è mai ripetuta?</h2>
+      <p class="spiega">Scegli un concorso del passato — anche di trent'anni fa —
+      e il programma guarda tutte le estrazioni da quel giorno a oggi per vedere
+      quante volte quei cinque numeri sono tornati fuori insieme: due, tre,
+      quattro o tutti e cinque.</p>
+
+      <div class="campi-ricerca">
+        <div class="campo">
+          <label for="data-ricerca">Giorno</label>
+          <input type="date" id="data-ricerca">
+          <p class="nota" id="nota-data"></p>
+        </div>
+        <div class="campo">
+          <label for="ruota-ricerca">Ruota</label>
+          <select id="ruota-ricerca"></select>
+        </div>
+      </div>
+
+      <div class="rapidi" id="date-rapide"></div>
+
+      <label class="spunta">
+        <input type="checkbox" id="tutte-ruote">
+        <span>cerca anche sulle altre nove ruote</span>
+      </label>
+
+      <button class="cerca" id="cerca">Cerca le ripetizioni</button>
+      <p class="nota" id="stato-ricerca"></p>
+
+      <div id="esito-ricerca"></div>
+    </section>
+  </div>
+
   <div id="corso" hidden></div>
   <div id="bilancio" hidden></div>
   <div id="estrazioni" hidden></div>
-
-  <section class="comuni" id="comuni" hidden>
-    <h2>I numeri in comune</h2>
-    <p class="spiega" id="comuni-spiega"></p>
-    <div id="comuni-numeri"></div>
-    <div id="comuni-giocata"></div>
-  </section>
 
   <footer>
     <p>Le previsioni vengono da sei metodi pubblicati su fascicoli degli anni

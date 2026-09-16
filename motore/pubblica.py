@@ -49,6 +49,43 @@ def _scrivi(nome: str, contenuto) -> Path:
     return percorso
 
 
+def storico(arch: Archivio) -> str:
+    """Tutto l'archivio in un file di testo che il browser sa scorrere.
+
+    La ricerca delle ripetizioni deve poter guardare all'indietro di decenni, e
+    un sito statico non ha nessuno a cui chiedere: o i dati sono nel browser o
+    la ricerca non esiste. Il CSV di partenza pero' e' due mega e mezzo, e il
+    telefono di chi usa questo sito non merita due mega e mezzo.
+
+    Da qui il formato: una riga per giorno, la data senza trattini, poi le dieci
+    ruote in ordine fisso, cinque numeri a due cifre l'uno, le ruote mancanti
+    scritte come trattini. Sono 108 caratteri per riga invece di circa 350, il
+    file scende sotto il mega e, servito compresso come qualunque testo, arriva
+    a poche centinaia di chilobyte. Resta leggibile a occhio, che in questo
+    progetto conta: un file che nessuno puo' controllare e' un file di cui
+    bisogna fidarsi.
+
+    La pagina lo carica solo quando si apre la scheda Previsioni: chi guarda
+    soltanto la Schedina non lo scarica mai.
+    """
+    righe = [
+        "# Storico delle estrazioni del Lotto.",
+        "# Una riga per concorso: data (AAAAMMGG), poi le ruote "
+        + " ".join(RUOTE) + ",",
+        "# cinque numeri a due cifre ciascuna; '--' se quella ruota non ha estratto.",
+        f"# {len(arch.date)} concorsi, dal {arch.date[0]} al {arch.ultima}."
+        if arch.date else "# Archivio vuoto.",
+    ]
+    for giorno in arch.date:
+        quadro = arch.quadri.get(giorno, {})
+        pezzi = [giorno.strftime("%Y%m%d")]
+        for ruota in RUOTE:
+            numeri = quadro.get(ruota)
+            pezzi.append("".join(f"{n:02d}" for n in numeri) if numeri else "-" * 10)
+        righe.append("".join(pezzi))
+    return "\n".join(righe) + "\n"
+
+
 def concorsi_per_anno(arch: Archivio) -> int:
     """Quanti concorsi si tengono in un anno, misurati sull'ultimo anno reale."""
     if not arch.date:
@@ -195,4 +232,8 @@ def tutto(arch: Archivio, previsioni: list[dict], *, aggiornato_il=None) -> list
         _scrivi("ultime-estrazioni.json", ultime).name,
         _scrivi("quote.json", json.loads((DATI / "quote.json").read_text(encoding="utf-8"))).name,
     ]
+
+    USCITA.mkdir(parents=True, exist_ok=True)
+    (USCITA / "storico.txt").write_text(storico(arch), encoding="utf-8")
+    scritti.append("storico.txt")
     return scritti

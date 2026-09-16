@@ -210,7 +210,7 @@ select.da-previsione{font:inherit;font-size:.86rem;padding:7px 10px;max-width:10
 .quadro:first-of-type{border-top:none}
 .quadro .ruota{min-width:96px;font-size:.84rem;color:var(--tenue)}
 
-.comuni{margin-top:34px;padding-top:22px;border-top:1px solid var(--bordo)}
+.comuni{margin-bottom:34px}
 .comuni > h2{margin:0 0 6px}
 .comuni .spiega{margin:0 0 16px;color:var(--tenue);font-size:.88rem;max-width:64ch}
 /* Il numero e' la cosa: grande quanto il consenso che ha dietro, con sotto
@@ -228,6 +228,70 @@ select.da-previsione{font:inherit;font-size:.86rem;padding:7px 10px;max-width:10
 .comuni .giocata-unica h3{margin:0 0 4px;font-size:1rem;font-weight:640}
 .comuni .giocata-unica .numeri{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0}
 .comuni .giocata-unica .conti{color:var(--tenue);font-size:.86rem;margin:0}
+
+/* --------------------------------------------------- si e' mai ripetuta? */
+.ricerca{padding-top:24px;border-top:1px solid var(--bordo)}
+.ricerca > h2{margin:0 0 6px}
+.ricerca .spiega{margin:0 0 18px;color:var(--tenue);font-size:.88rem;max-width:64ch}
+.campi-ricerca{display:flex;gap:14px;flex-wrap:wrap;align-items:flex-start}
+.campi-ricerca .campo{display:flex;flex-direction:column;gap:6px;min-width:190px;flex:1 1 190px}
+.campi-ricerca label{font-size:.82rem;color:var(--tenue);font-weight:600;
+  text-transform:uppercase;letter-spacing:.05em}
+.ricerca input[type=date],.ricerca select{font:inherit;padding:9px 11px;
+  border:1px solid var(--bordo);border-radius:9px;background:var(--carta);
+  color:var(--testo);width:100%}
+.ricerca .nota{color:var(--tenue);font-size:.82rem;margin:0;line-height:1.45}
+.ricerca #nota-data{min-height:1.2em}
+.rapidi{display:flex;gap:6px;flex-wrap:wrap;margin:14px 0 16px}
+.rapidi button{border:1px solid var(--bordo);background:var(--carta);color:var(--tenue);
+  padding:5px 12px;border-radius:99px;cursor:pointer;font:inherit;font-size:.82rem}
+.rapidi button:hover{border-color:var(--accento);color:var(--accento)}
+.spunta{display:flex;align-items:center;gap:9px;font-size:.88rem;
+  color:var(--tenue);cursor:pointer;margin-bottom:16px}
+.spunta input{width:17px;height:17px;accent-color:var(--accento);cursor:pointer}
+button.cerca{border:1px solid var(--accento);background:var(--accento);color:#fff;
+  padding:10px 22px;border-radius:99px;cursor:pointer;font:inherit;font-size:.9rem;
+  font-weight:600}
+button.cerca:disabled{background:var(--carta);color:var(--tenue);
+  border-color:var(--bordo);cursor:default}
+.ricerca #stato-ricerca{margin-top:10px}
+
+.esito{margin-top:22px;background:var(--carta);border:1px solid var(--bordo);
+  border-radius:12px;padding:18px;box-shadow:var(--ombra)}
+.esito .partenza{margin:0 0 10px;font-size:.92rem;line-height:2.1}
+.esito .partenza .n{display:inline-flex;align-items:center;justify-content:center;
+  min-width:30px;height:30px;padding:0 6px;border:1px solid var(--bordo);
+  border-radius:99px;font-weight:660;font-variant-numeric:tabular-nums;
+  font-size:.88rem}
+.esito .conti{margin:0 0 16px;color:var(--tenue);font-size:.86rem}
+table.ripetizioni{width:100%;border-collapse:collapse;margin-bottom:14px}
+table.ripetizioni th{text-align:left;font-size:.72rem;text-transform:uppercase;
+  letter-spacing:.05em;color:var(--tenue);font-weight:600;padding:0 8px 7px 0;
+  border-bottom:1px solid var(--bordo)}
+table.ripetizioni th.num,table.ripetizioni td.num{text-align:right;
+  font-variant-numeric:tabular-nums}
+table.ripetizioni td{padding:9px 8px 9px 0;border-bottom:1px solid var(--bordo);
+  font-size:.9rem}
+table.ripetizioni tr.spento td{color:var(--tenue)}
+table.ripetizioni .quanti-num{display:block;font-size:.74rem;color:var(--tenue);
+  font-weight:400}
+table.ripetizioni .verso{color:var(--tenue);font-size:.82rem}
+.esito .avvertenza{margin:0;color:var(--tenue);font-size:.82rem;max-width:66ch;
+  line-height:1.5}
+.esito h3{font-size:.95rem;font-weight:640;margin:20px 0 10px}
+ul.ritrovamenti{list-style:none;margin:0;padding:0;display:flex;
+  flex-direction:column;gap:2px}
+ul.ritrovamenti li{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;
+  padding:7px 0;border-bottom:1px solid var(--bordo);font-size:.88rem}
+ul.ritrovamenti li:last-child{border-bottom:none}
+ul.ritrovamenti .quando{color:var(--tenue);min-width:13ch;font-size:.84rem}
+ul.ritrovamenti .dove{color:var(--accento);font-size:.8rem;font-weight:600;
+  min-width:8ch}
+ul.ritrovamenti .numeri{font-variant-numeric:tabular-nums;letter-spacing:.04em}
+.elenco-ambi{margin-top:18px;border-top:1px solid var(--bordo);padding-top:14px}
+.elenco-ambi summary{cursor:pointer;font-size:.88rem;color:var(--accento);
+  font-weight:600}
+.elenco-ambi ul{margin-top:10px;max-height:340px;overflow-y:auto}
 
 footer{margin-top:34px;padding-top:18px;border-top:1px solid var(--bordo);
   color:var(--tenue);font-size:.8rem}
