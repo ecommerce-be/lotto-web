@@ -4,7 +4,7 @@
   "2026-09-18",
   "2026-09-19"
  ],
- "motivo": "Calendario ufficiale non raggiungibile (https://www.lotto-italia.it/gdl/estrazioni-e-vincite/calendario-estrazioni-del-lotto.json non raggiungibile: Tunnel connection failed: 403 Forbidden). Date proiettate dai giorni di concorso recenti: le feste possono spostarle.",
+ "motivo": "Il calendario ufficiale elenca solo i concorsi gia' avvenuti. Date proiettate dai giorni di concorso recenti: le feste possono spostarle.",
  "ora": "20:00",
  "stimato": true
 }
