@@ -1,0 +1,10 @@
+# Il repository si scrive da due parti: il PC di casa (Windows) e GitHub Actions
+# (Linux). Senza questa riga git di Windows converte i file in CRLF quando li
+# tira fuori, e alla prima modifica il diff mostra l'intero file riscritto
+# invece delle tre righe cambiate davvero. Qui dentro si tiene LF e basta.
+* text=auto eol=lf
+
+# I binari non si toccano: convertirli li rovina.
+*.pdf binary
+*.png binary
+*.jpg binary
