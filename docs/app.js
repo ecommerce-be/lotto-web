@@ -6,10 +6,11 @@
  * GitHub che li pubblica. Qui non c'e' nessuna logica di Lotto - se un giorno
  * un numero non torna, la risposta sta in motore/, non in questo file.
  */
-import { simula, GiocataNonValida, NUMERI_PER_SORTE } from './schedina.js';
+import { simula, combinazioni, GiocataNonValida, NUMERI_PER_SORTE }
+  from './schedina.js';
 import {
   componi, convergenze, riepilogo, etichettaGiocata, perRuota, SOGLIA_RESA,
-  primoGiornoUtile, proiettaConcorsi,
+  numeriInComune, previsioneUnica, primoGiornoUtile, proiettaConcorsi,
 } from './consiglio.js';
 
 const NOMI_RUOTE = {
@@ -378,6 +379,78 @@ function mostraConsiglio() {
       che questa pagina lavora.</p>`;
 }
 
+/* ------------------------------------------------ i numeri in comune
+   Vive fuori dalle schede, sopra il piede: e' una lettura trasversale di tutte
+   le previsioni in gioco, non appartiene a nessuna delle quattro viste. */
+function mostraComuni() {
+  const sezione = document.getElementById('comuni');
+  if (!quote || !inCorso.length) { sezione.hidden = true; return; }
+
+  const comuni = numeriInComune(inCorso);
+  if (!comuni.length) {
+    sezione.hidden = false;
+    document.getElementById('comuni-spiega').textContent =
+      'In questo momento nessun numero è chiesto da più di un metodo: '
+      + 'le previsioni in gioco non si sovrappongono.';
+    document.getElementById('comuni-numeri').innerHTML = '';
+    document.getElementById('comuni-giocata').innerHTML = '';
+    return;
+  }
+  sezione.hidden = false;
+
+  const quantiMetodi = new Set(inCorso.map(p => p.metodo)).size;
+  document.getElementById('comuni-spiega').innerHTML =
+    `Dei ${quantiMetodi} metodi che hanno qualcosa in gioco, questi numeri sono
+     chiesti da più d'uno contemporaneamente. Non li rende più probabili — il
+     Lotto non ha memoria — ma coprirli soddisfa molte previsioni con poche
+     giocate.`;
+
+  document.getElementById('comuni-numeri').innerHTML = `
+    <div class="elenco">
+      ${comuni.slice(0, 12).map(c => `
+        <div class="voce">
+          <div class="capo">
+            <span class="cifra-numero">${c.numero}</span>
+            <span class="quanti">${c.metodi} metodi</span>
+          </div>
+          <span class="dettaglio">${c.previsioni} prevision${
+            c.previsioni === 1 ? 'e' : 'i'}, su ${elenco(c.ruote.slice(0, 3)
+              .map(r => NOMI_RUOTE[r.ruota] ?? r.ruota))}</span>
+        </div>`).join('')}
+    </div>`;
+
+  const unica = previsioneUnica(comuni);
+  const fuori = document.getElementById('comuni-giocata');
+  if (!unica) { fuori.innerHTML = ''; return; }
+
+  let conti = null;
+  try {
+    conti = simula({
+      numeri: unica.numeri, ruote: [unica.ruota], sorti: ['ambo'],
+      importo: combinazioni(unica.numeri.length, 2), quote,
+    });
+  } catch { /* una giocata impossibile non deve far sparire la sezione */ }
+
+  fuori.innerHTML = `
+    <div class="giocata-unica">
+      <h3>La previsione unica</h3>
+      <p class="conti">I ${unica.numeri.length} numeri più richiesti, giocati per
+        ambo su ${NOMI_RUOTE[unica.ruota] ?? unica.ruota} — la ruota su cui
+        questo gruppo è chiesto più spesso.</p>
+      <div class="numeri">${unica.numeri.map(n => `<span class="n">${n}</span>`).join('')}</div>
+      ${conti ? `<p class="conti">Sono ${conti.righe[0].combinazioni} ambi. A un euro
+        l'uno costano ${euro(conti.importo)}, e uno di essi esce
+        ${unaSu(conti.qualcosaPerRuota)} volte${percentuale(conti.qualcosaPerRuota)}.
+        Ne tornano indietro ${euro(conti.ritornoAtteso)} in media, come per
+        qualunque altra giocata di ambo.</p>` : ''}
+      <p class="conti">I sei metodi non sono sei pareri indipendenti: le loro
+        condizioni di ricerca si riducono a tre, e due metodi che ne condividono
+        una concordano anche per costruzione. Per questo qui si contano i
+        <b>metodi</b> e non le previsioni — due previsioni dello stesso metodo
+        non sono due pareri.</p>
+    </div>`;
+}
+
 /* ------------------------------------------------------------- bilancio */
 function mostraBilancio(b) {
   const segno = v => v >= 0 ? 'pos' : 'neg';
@@ -651,6 +724,7 @@ costruisciSchedina();
     mostraConcorso();
     mostraConsiglio();
     mostraRuote();
+    mostraComuni();
     preparaSuggerimenti(corso);
     disegnaScelte();
   } catch (e) {

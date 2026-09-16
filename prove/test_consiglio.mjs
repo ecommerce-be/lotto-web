@@ -21,7 +21,9 @@ import { dirname, join } from 'node:path';
 import {
   componi, convergenze, giocate, riepilogo, resaSorte, probAlmeno,
   etichettaGiocata, perRuota, SOGLIA_RESA, primoGiornoUtile, proiettaConcorsi,
+  numeriInComune, previsioneUnica,
 } from '../docs/consiglio.js';
+import { simula, combinazioni } from '../docs/schedina.js';
 
 const QUI = dirname(fileURLToPath(import.meta.url));
 const quote = JSON.parse(readFileSync(join(QUI, '..', 'archivio', 'quote.json'), 'utf8'));
@@ -211,6 +213,84 @@ check('a fine mese passa al mese dopo',
   primoGiornoUtile(new Date(2026, 8, 30, 21, 0)) === '2026-10-01');
 check('la data non slitta per il fuso: resta quella locale',
   primoGiornoUtile(new Date(2026, 8, 15, 23, 59)) === '2026-09-16');
+
+console.log('\nI NUMERI IN COMUNE');
+// La sezione promette una cosa sola: questi numeri sono chiesti da piu' di un
+// METODO. Non da piu' di una previsione: due previsioni dello stesso metodo
+// nascono dalla stessa condizione di ricerca e concordano per costruzione, non
+// perche' si siano trovate d'accordo. Le prove qui sotto difendono questa
+// distinzione, che e' l'unica cosa onesta che la sezione possa dire.
+const A = previsione({ chiave: 'a', metodo: 'fulmine', per_anno: 89,
+  ruote: ['NA', 'MI'], sorti: [sorte('ambo', [7, 23])] });
+const B = previsione({ chiave: 'b', metodo: 'lottofacile1', per_anno: 1062,
+  ruote: ['NA'], sorti: [sorte('ambata', [23]), sorte('ambo', [23, 41])] });
+const C = previsione({ chiave: 'c', metodo: 'lottofacile1', per_anno: 1062,
+  ruote: ['NA'], sorti: [sorte('ambo', [23, 55])] });
+const D = previsione({ chiave: 'd', metodo: 'ambosecco', per_anno: 12,
+  ruote: ['BA'], sorti: [sorte('ambo', [41, 7])] });
+
+const com = numeriInComune([A, B, C, D]);
+const trova = (lista, n) => lista.find(v => v.numero === n);
+
+check('un numero chiesto da un metodo solo non compare',
+  trova(com, 55) === undefined, JSON.stringify(com.map(v => v.numero)));
+check('il 23 e\' chiesto da due metodi', trova(com, 23)?.metodi === 2,
+  String(trova(com, 23)?.metodi));
+check('e da tre previsioni diverse', trova(com, 23)?.previsioni === 3,
+  String(trova(com, 23)?.previsioni));
+check('due previsioni dello stesso metodo non contano per due',
+  trova(com, 23).nomi.length === 2 && new Set(trova(com, 23).nomi).size === 2,
+  trova(com, 23).nomi.join(' '));
+check('il 7 e il 41 pure ci sono, con due metodi ciascuno',
+  trova(com, 7)?.metodi === 2 && trova(com, 41)?.metodi === 2);
+check('in testa c\'e\' chi ha piu\' previsioni, a pari metodi',
+  com[0].numero === 23, com.map(v => `${v.numero}:${v.previsioni}`).join(' '));
+check('a pari tutto vince il numero piu\' piccolo',
+  com[1].numero === 7 && com[2].numero === 41,
+  com.map(v => v.numero).join(' '));
+check('le ruote sono contate, non solo elencate',
+  trova(com, 23).ruote[0].ruota === 'NA' && trova(com, 23).ruote[0].previsioni === 3,
+  JSON.stringify(trova(com, 23).ruote));
+check('chiedendo tre metodi d\'accordo non resta piu\' niente',
+  numeriInComune([A, B, C, D], { minimoMetodi: 3 }).length === 0);
+check('chiedendone uno solo torna ogni numero in gioco',
+  numeriInComune([A, B, C, D], { minimoMetodi: 1 }).map(v => v.numero).sort((a, b) => a - b)
+    .join(',') === '7,23,41,55');
+check('senza previsioni non c\'e\' niente in comune', numeriInComune([]).length === 0);
+check('una previsione sola non e\' un accordo', numeriInComune([A]).length === 0);
+
+const unica = previsioneUnica(com);
+check('la previsione unica prende i numeri in comune',
+  unica.numeri.join(',') === '7,23,41', unica.numeri.join(','));
+check('e li mette in ordine crescente',
+  unica.numeri.every((n, i) => i === 0 || n > unica.numeri[i - 1]));
+check('la ruota e\' quella dove il gruppo e\' chiesto piu\' spesso',
+  unica.ruota === 'NA', unica.ruota);
+check('dichiara da quali metodi viene',
+  new Set(unica.metodi).size === unica.metodi.length && unica.metodi.length === 3,
+  unica.metodi.join(' '));
+check('non tiene piu\' numeri di quanti gliene chiedi',
+  previsioneUnica(com, { quanti: 2 }).numeri.length === 2);
+check('con un numero solo non c\'e\' previsione da fare',
+  previsioneUnica(com, { quanti: 1 }) === null);
+check('senza numeri in comune non inventa una giocata',
+  previsioneUnica([]) === null);
+// La sezione non si limita a mostrare i numeri: ne fa una giocata di ambo e ne
+// stampa il costo. Se la schedina rifiutasse quei numeri, la pagina mostrerebbe
+// una giocata che al banco nessuno accetterebbe.
+const giocabile = (numeri) => {
+  try {
+    const c = simula({ numeri, ruote: [unica.ruota], sorti: ['ambo'],
+                       importo: combinazioni(numeri.length, 2), quote });
+    return c.righe[0].combinazioni === combinazioni(numeri.length, 2);
+  } catch { return false; }
+};
+check('i numeri della previsione unica sono giocabili sul serio',
+  giocabile(unica.numeri), unica.numeri.join(','));
+check('e un euro per ambo vuol dire un euro per ambo',
+  simula({ numeri: unica.numeri, ruote: [unica.ruota], sorti: ['ambo'],
+           importo: combinazioni(unica.numeri.length, 2), quote }).importo
+  === combinazioni(unica.numeri.length, 2));
 
 console.log(`\n${'='.repeat(60)}\nRISULTATO: ${ok} OK, ${fail} FAIL`);
 process.exit(fail ? 1 : 0);

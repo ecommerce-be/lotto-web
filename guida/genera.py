@@ -1,4 +1,6 @@
 """Genera la guida di App Lotto in PDF."""
+from pathlib import Path
+
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_JUSTIFY
 from reportlab.lib.pagesizes import A4
@@ -221,6 +223,28 @@ A(P("Gli ultimi otto concorsi, con tutte e dieci le ruote, "
     "nell\u2019ordine di estrazione. Serve per un controllo veloce senza "
     "andare a cercare altrove."))
 
+A(P("La fascia in fondo \u2014 i numeri in comune", "h2"))
+A(P("Sotto i quattro pulsanti, e visibile da qualunque pagina, c\u2019\u00e8 una "
+    "fascia che raccoglie i numeri chiesti <b>da pi\u00f9 di un metodo</b> nello "
+    "stesso momento, e ne fa una <b>previsione unica</b>: i cinque pi\u00f9 "
+    "richiesti, giocati per ambo sulla ruota su cui quel gruppo torna pi\u00f9 "
+    "spesso. Per ogni numero dice da quanti metodi \u00e8 chiesto, da quante "
+    "previsioni e su quali ruote."))
+A(riquadro([
+    "<b>Che due metodi indichino lo stesso numero non lo rende pi\u00f9 "
+    "probabile.</b> Il Lotto non ha memoria: un ambo resta uno su 400,5 anche "
+    "se lo indicano tutti e sei. La fascia serve a un\u2019altra cosa \u2014 con "
+    "dieci ambi si coprono parecchie previsioni vive invece di giocarle una "
+    "per una.",
+    "E c\u2019\u00e8 un secondo motivo per non leggerci un pronostico, ed \u00e8 "
+    "spiegato nella pagina seguente: <b>i sei metodi non sono sei pareri "
+    "indipendenti</b>. Le loro condizioni di ricerca si riducono a tre, quindi "
+    "due metodi che ne condividono una vanno d\u2019accordo per costruzione, non "
+    "perch\u00e9 si siano trovati d\u2019accordo. Per questo la fascia conta i "
+    "<b>metodi</b> e non le previsioni: due previsioni dello stesso metodo non "
+    "sono due pareri.",
+]))
+
 A(P("I sei metodi", "h1"))
 A(P("Sono quelli dei fascicoli, applicati alla lettera. La colonna "
     "“Rilevamenti” dice quante volte l’anno ciascun metodo trova la "
@@ -391,7 +415,7 @@ A(riquadro([
 ]))
 
 doc = SimpleDocTemplate(
-    "/home/claude/App_Lotto_guida.pdf", pagesize=A4,
+    str(Path(__file__).with_name("App_Lotto_guida.pdf")), pagesize=A4,
     leftMargin=2.3 * cm, rightMargin=2.3 * cm,
     topMargin=2.1 * cm, bottomMargin=2.1 * cm,
     title="App Lotto — guida", author="Pierre")

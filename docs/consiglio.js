@@ -140,6 +140,80 @@ export function convergenze(giocate) {
 }
 
 
+/* --------------------------------------------------------- numeri in comune
+   I numeri che piu' metodi diversi chiedono contemporaneamente, raccolti in
+   un'unica previsione.
+
+   Due avvertenze che vanno tenute insieme al calcolo, non a parte.
+
+   La prima: **l'accordo fra metodi non rende un numero piu' probabile**. Il
+   Lotto non ha memoria e la probabilita' di un ambo resta una su 400,5 che lo
+   chieda un metodo o che lo chiedano tutti e sei.
+
+   La seconda e' piu' sottile e riguarda proprio questo calcolo: **i sei metodi
+   non sono sei osservatori indipendenti**. Guardando le condizioni di ricerca
+   a monte delle formule, si riducono a tre scanner - "Lotto Facile 1" cerca
+   due ambi con la stessa somma dentro ciascuna ruota; "Fulmine" e "Un Solo
+   Ambo Secco" cercano numeri che si accoppiano incrociando le due ruote;
+   "Lotto Facile 4" cerca numeri a distanza trenta. Due metodi che condividono
+   lo scanner concordano anche per costruzione, non perche' si confermino a
+   vicenda. Per questo si conta quanti *metodi* chiedono un numero, non quante
+   previsioni: due previsioni dello stesso metodo non sono due pareri.
+
+   Quello che resta vero, ed e' il motivo per cui la sezione esiste: coprire i
+   numeri piu' richiesti soddisfa molte previsioni con poche giocate. E' un
+   risparmio, non un presagio. */
+
+export function numeriInComune(previsioni, { minimoMetodi = 2 } = {}) {
+  const conta = new Map();
+  for (const p of previsioni)
+    for (const s of p.sorti)
+      for (const n of s.numeri) {
+        if (!conta.has(n))
+          conta.set(n, { numero: n, metodi: new Set(), previsioni: new Set(), ruote: new Map() });
+        const v = conta.get(n);
+        v.metodi.add(p.metodo);
+        v.previsioni.add(p.chiave);
+        // Una previsione che chiede lo stesso numero per due sorti diverse
+        // resta una previsione sola: la ruota conta le previsioni, non le righe.
+        for (const r of p.ruote) {
+          if (!v.ruote.has(r)) v.ruote.set(r, new Set());
+          v.ruote.get(r).add(p.chiave);
+        }
+      }
+
+  return [...conta.values()]
+    .filter(v => v.metodi.size >= minimoMetodi)
+    .map(v => ({
+      numero: v.numero,
+      metodi: v.metodi.size,
+      nomi: [...v.metodi],
+      previsioni: v.previsioni.size,
+      ruote: [...v.ruote.entries()]
+        .map(([ruota, chiavi]) => ({ ruota, previsioni: chiavi.size }))
+        .sort((a, b) => b.previsioni - a.previsioni || a.ruota.localeCompare(b.ruota)),
+    }))
+    .sort((a, b) => b.metodi - a.metodi || b.previsioni - a.previsioni || a.numero - b.numero);
+}
+
+/** La previsione unica: i numeri piu' richiesti e la ruota su cui il gruppo e'
+ *  chiesto di piu'. Serve una ruota perche' una giocata senza ruota non esiste. */
+export function previsioneUnica(comuni, { quanti = 5 } = {}) {
+  const scelti = comuni.slice(0, quanti);
+  if (scelti.length < 2) return null;
+  const punteggio = new Map();
+  for (const c of scelti)
+    for (const r of c.ruote)
+      punteggio.set(r.ruota, (punteggio.get(r.ruota) ?? 0) + r.previsioni);
+  const [ruota] = [...punteggio.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))[0];
+  return {
+    numeri: scelti.map(c => c.numero).sort((a, b) => a - b),
+    ruota,
+    metodi: [...new Set(scelti.flatMap(c => c.nomi))],
+  };
+}
+
 /* ------------------------------------------------------------------ per ruota
    Le giocate raccolte per ruota, invece che per metodo.
 

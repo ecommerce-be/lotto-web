@@ -174,6 +174,26 @@ backtest ventennale e il flag sui campioni troppo piccoli.
 **Estrazioni** — gli ultimi otto concorsi, tutte le ruote, in ordine di
 estrazione.
 
+### La fascia "I numeri in comune"
+
+Sotto le schede, visibile da qualunque scheda, una fascia raccoglie i numeri
+chiesti **da più di un metodo** contemporaneamente e ne compone una **previsione
+unica**: i cinque più richiesti, giocati per ambo sulla ruota su cui quel gruppo
+è chiesto più spesso.
+
+Va letta per quello che è. L'accordo fra metodi **non alza la probabilità**: il
+Lotto non ha memoria, e un ambo resta 1 su 400,5 anche se sei metodi lo indicano
+insieme. Serve a un'altra cosa — con dieci ambi si coprono molte previsioni vive
+invece di giocarle una per una.
+
+E c'è un limite che la fascia dichiara da sola, in fondo: **i sei metodi non sono
+sei pareri indipendenti**. Le loro condizioni di ricerca si riducono a tre
+scansioni (è nel documento `kb-metodi-lotto`), quindi due metodi che ne
+condividono una concordano *per costruzione*, non perché si siano trovati
+d'accordo. Per questo il conteggio è sui **metodi** e non sulle previsioni: due
+previsioni dello stesso metodo non sono due pareri, e le prove in
+`prove/test_consiglio.mjs` difendono proprio questa distinzione.
+
 ### La data del prossimo concorso
 
 È **proiettata** dai giorni della settimana in cui si è estratto negli ultimi
