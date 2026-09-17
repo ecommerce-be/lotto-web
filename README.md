@@ -196,47 +196,72 @@ d'accordo. Per questo il conteggio è sui **metodi** e non sulle previsioni: due
 previsioni dello stesso metodo non sono due pareri, e le prove in
 `prove/test_consiglio.mjs` difendono proprio questa distinzione.
 
-### "Si è mai ripetuta?"
+### "Che cosa avrebbero detto i metodi"
 
-Si sceglie un concorso qualunque dal 1939 in poi e una ruota; il programma
-scorre tutte le estrazioni da quel giorno a oggi e conta quante volte quei
-cinque numeri sono tornati fuori insieme — due, tre, quattro o tutti e cinque.
-Una casella allarga la ricerca a tutte e dieci le ruote. Le date senza concorso
-scattano al concorso più vicino invece di dare errore, e la tendina delle ruote
-offre solo quelle che quel giorno hanno estratto davvero.
+Si sceglie un concorso qualunque dal 1939 in poi e una ruota. La pagina mostra
+tre cose, nell'ordine:
 
-**Accanto ai trovati c'è sempre il numero degli attesi**, ed è la parte che
-rende la sezione onesta invece di suggestiva. «45 ambi» da solo sembra un
-segnale; «45 trovati contro 38,2 attesi dal caso» dice che è andata come doveva
-andare. Il conto degli attesi è esatto, non stimato: è l'ipergeometrica di
-cinque numeri su novanta moltiplicata per i concorsi esaminati (le ruote sono
-indipendenti, quindi cercarne dieci moltiplica per dieci sia i trovati sia gli
-attesi e il confronto regge). Sotto i cinque attesi non si dichiara nessuno
-scarto, perché con numeri così piccoli non vorrebbe dire niente.
+1. **i cinque numeri usciti** su quella ruota quel giorno;
+2. **le previsioni che i sei metodi hanno rilevato**, quelle che toccano la
+   ruota scelta per prime, ciascuna col suo verdetto: dentro i colpi che il
+   fascicolo prescrive, su quale ruota e a che colpo è uscita, oppure scaduta
+   senza esito — e in quel caso, a parte e dichiarata come fuori giocata, la
+   prima volta che si sarebbe verificata dopo la scadenza;
+3. **i numeri derivati dai cinque** — complemento, diametrale, vertibile,
+   terzina simmetrica, figura, cadenza — e su quali ruote sono usciti nei dodici
+   concorsi successivi.
 
-Resta il fatto che nulla di tutto questo riguarda il concorso di domani: le
-estrazioni sono indipendenti, e quarantacinque ritorni già avvenuti non ne
-promettono un quarantaseiesimo. La pagina lo scrive.
+Il terzo blocco è separato dal secondo, e con un avviso, perché **non sono
+previsioni**. I sei metodi non partono da cinque numeri: partono da una
+condizione su tutto il concorso, e solo quando quella scatta dicono che cosa
+giocare. Applicare le loro formule a cinque numeri qualunque produce sempre un
+risultato, per costruzione: sono numeri derivati, e chiamarli previsione
+sarebbe l'unica vera bugia che questo sito potrebbe raccontare.
 
-#### Come fa un sito statico a cercare in ottantasette anni di estrazioni
+Su nove date-ruota su dieci c'è almeno una previsione vera. Nell'altro caso la
+pagina lo dice e spiega perché: i metodi cercano una configurazione, non dei
+numeri, e quasi sempre quella configurazione non c'è.
 
-Non c'è nessuno a cui chiedere: o i dati stanno nel browser o la ricerca non
-esiste. Il CSV di partenza però è di due mega e mezzo. `motore/pubblica.py` lo
-riscrive in `docs/dati/storico.txt`: una riga per concorso, data senza trattini
-e dieci ruote da cinque numeri a due cifre, `--` dove una ruota non ha estratto.
-Sono 108 caratteri per riga invece di circa 350; il file sta sotto il mega e,
-servito compresso come qualunque testo, arriva a poco più di trecento
-chilobyte. Resta leggibile a occhio, che qui conta: un file che nessuno può
-controllare è un file di cui bisogna fidarsi.
+#### Perché le previsioni storiche non si ricalcolano nel browser
 
-`docs/ripetizioni.js` lo tiene in un solo `Uint8Array` invece che in
-settemila oggetti annidati, e la pagina lo scarica **solo alla prima apertura
-della scheda Previsioni** — chi guarda la Schedina e basta non lo prende mai.
-Una ricerca su tutte e dieci le ruote dal 1939 a oggi impegna il telefono per
-una manciata di millisecondi.
+Erano tre le strade, e non si equivalgono:
 
-Il file viene ricommittato ogni sera insieme al resto: cresce in fondo e basta,
-quindi git lo comprime bene fra una versione e l'altra.
+- **rifare i sei metodi in JavaScript** significa avere due implementazioni
+  della stessa cosa. Prima o poi divergono, e il giorno in cui divergono nessuno
+  se ne accorge: la pagina direbbe una cosa e il Bilancio un'altra;
+- **mandare al browser tutte le previsioni della storia** sono settantatremila
+  righe, per leggerne dieci;
+- **dividerle per anno** costa un file di ottanta chilobyte a domanda, e il
+  calcolo resta quello vero, fatto dal motore Python.
+
+Si è scelta la terza. `motore/storia.py` scrive `docs/dati/previsioni/AAAA.txt`,
+una riga per previsione (`giorno|metodo|ruote|colpi|anche_tutte|sorti|nota|avviso`),
+più un `indice.json` che dice quali anni esistono. Il conto completo sull'intero
+archivio dura un paio di minuti — `python -m motore.aggiorna --tutti-gli-anni` —
+mentre la sera si riscrive solo l'anno dell'ultimo concorso, che sono due secondi.
+
+C'è però **una** regola che resta scritta due volte: il controllo delle uscite.
+`motore/valutazione.py` la applica per il Bilancio, `docs/storico.js` la rifà per
+questa pagina. Non si poteva evitare — gli esiti dipendono dalla ruota e dai
+colpi scelti a schermo — quindi si è messo un guinzaglio: `prove/test_pipeline.py`
+scrive in `prove/dati/esiti-riferimento.json` quello che ha calcolato Python su
+trecento previsioni vere, e `prove/test_storico.mjs` pretende che JavaScript
+produca gli stessi stati e gli stessi esiti, colpo per colpo e ruota per ruota.
+Se un giorno le due si allontanano, la prova diventa rossa.
+
+#### E l'archivio delle estrazioni
+
+Stesso problema, stessa soluzione. Il CSV di partenza è di due mega e mezzo;
+`motore/pubblica.py` lo riscrive in `docs/dati/storico.txt`, una riga per
+concorso, data senza trattini e dieci ruote da cinque numeri a due cifre, `--`
+dove una ruota non ha estratto. Sono 108 caratteri per riga invece di circa 350;
+il file sta sotto il mega e, servito compresso come qualunque testo, arriva a
+poco più di trecento chilobyte. Resta leggibile a occhio, che qui conta: un file
+che nessuno può controllare è un file di cui bisogna fidarsi.
+
+`docs/storico.js` lo tiene in un solo `Uint8Array` invece che in settemila
+oggetti annidati, e la pagina lo scarica **solo alla prima apertura della scheda
+Previsioni** — chi guarda la Schedina e basta non lo prende mai.
 
 ### La data del prossimo concorso
 
@@ -264,6 +289,10 @@ python -m motore.aggiorna --senza-rete
 
 # ricostruire le previsioni da una certa data (non crea doppioni)
 python -m motore.aggiorna --ricostruisci 2025-09-01
+
+# riscrivere le previsioni storiche di TUTTI gli anni (un paio di minuti):
+# serve solo se cambia un metodo, o la prima volta su un repository nuovo
+python -m motore.aggiorna --tutti-gli-anni
 ```
 
 Per guardare il sito in locale — aprendo `index.html` col doppio clic **non
@@ -273,6 +302,20 @@ funziona**, perché il browser non lascia leggere file locali a una pagina:
 python -m http.server 8000 --directory docs
 # poi http://127.0.0.1:8000
 ```
+
+Le prove, tutte e cinque:
+
+```powershell
+python prove\test_motore.py
+python prove\test_pipeline.py
+node prove\test_schedina.mjs
+node prove\test_consiglio.mjs
+node prove\test_storico.mjs
+```
+
+`test_pipeline.py` riscrive `prove/dati/esiti-riferimento.json`, che
+`test_storico.mjs` rilegge: se si lancia solo quello JavaScript dopo aver
+cambiato il motore, va rilanciato prima quello Python.
 
 Le prove:
 

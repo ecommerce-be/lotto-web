@@ -190,7 +190,7 @@ A(P("In fondo compaiono i numeri chiesti da pi\u00f9 previsioni insieme. Non "
     "numeri tuoi?\u201d</i>: apre la griglia dei novanta numeri per dare un "
     "prezzo a una giocata qualunque, anche una che non viene da nessun metodo."))
 
-A(P("2. Previsioni \u2014 i numeri in comune, e le ripetizioni", "h2"))
+A(P("2. Previsioni \u2014 i numeri in comune, e i concorsi del passato", "h2"))
 A(P("In cima alla pagina c\u2019\u00e8 un elenco che raccoglie i numeri chiesti <b>da pi\u00f9 di un metodo</b> nello "
     "stesso momento, e ne fa una <b>previsione unica</b>: i cinque pi\u00f9 "
     "richiesti, giocati per ambo sulla ruota su cui quel gruppo torna pi\u00f9 "
@@ -211,25 +211,35 @@ A(riquadro([
     "sono due pareri.",
 ]))
 
-A(P("Sotto, <b>\u201cSi \u00e8 mai ripetuta?\u201d</b>. Si sceglie un concorso "
-    "qualunque \u2014 anche del 1939, ci sono tutti \u2014 e una ruota, si preme "
-    "<i>Cerca le ripetizioni</i>, e il programma guarda tutte le estrazioni da "
-    "quel giorno a oggi per contare quante volte quei cinque numeri sono "
-    "tornati fuori insieme: due, tre, quattro o tutti e cinque. Se si spunta "
-    "la casella, guarda anche sulle altre nove ruote. I pulsanti "
-    "<i>10 anni fa</i>, <i>20 anni fa</i> e gli altri portano indietro in un "
-    "colpo solo; se il giorno scelto non era di concorso, il programma prende "
-    "il pi\u00f9 vicino e lo dice."))
+A(P("Sotto, <b>\u201cChe cosa avrebbero detto i metodi\u201d</b>. Si sceglie un "
+    "concorso qualunque \u2014 anche del 1939, ci sono tutti \u2014 e una ruota, "
+    "si preme <i>Guarda quel concorso</i>, e la pagina risponde tre cose in "
+    "fila. I pulsanti <i>10 anni fa</i>, <i>20 anni fa</i> e gli altri portano "
+    "indietro in un colpo solo; se il giorno scelto non era di concorso, il "
+    "programma prende il pi\u00f9 vicino e lo dice."))
+A(punti([
+    "<b>I cinque numeri usciti</b> su quella ruota quel giorno.",
+    "<b>Le previsioni che i sei metodi hanno rilevato</b>, con davanti quelle "
+    "che toccano la ruota scelta. Ognuna dice com\u2019\u00e8 finita: dentro i "
+    "colpi che il fascicolo prescrive, a che colpo e su quale ruota \u00e8 "
+    "uscita, oppure <i>scaduta senza esito</i>. In quel caso, in fondo e in "
+    "corsivo, c\u2019\u00e8 anche quando si sarebbe verificata <i>dopo</i> la "
+    "scadenza \u2014 ma a giocata chiusa, quindi senza vincere niente.",
+    "<b>I numeri derivati dai cinque</b>: complemento, diametrale, vertibile, "
+    "terzina simmetrica, figura e cadenza, e su quali ruote sono usciti nei "
+    "dodici concorsi successivi.",
+]))
 A(riquadro([
-    "<b>Accanto a quante se ne sono trovate c\u2019\u00e8 sempre quante se ne "
-    "aspettavano</b>, ed \u00e8 la colonna da guardare per prima. "
-    "\u00abQuarantacinque ambi\u00bb da solo sembra un segnale; "
-    "\u00ab45 trovati contro 38 attesi dal caso\u00bb dice che \u00e8 andata "
-    "come doveva andare. Il conto degli attesi \u00e8 esatto, non una stima.",
-    "E vale la pena ripeterlo: nulla di tutto questo riguarda il concorso di "
-    "domani. Le estrazioni sono indipendenti \u2014 quarantacinque ritorni "
-    "gi\u00e0 avvenuti non ne promettono un quarantaseiesimo. La pagina serve "
-    "a guardare il passato, non a leggerci dentro il futuro.",
+    "<b>Il terzo blocco non sono previsioni, ed \u00e8 scritto anche l\u00ec.</b> "
+    "I sei metodi non partono da cinque numeri: partono da una condizione su "
+    "tutto il concorso \u2014 due ambi con la stessa somma, quattro numeri della "
+    "stessa figura, un ambo diametrale \u2014 e solo quando quella scatta dicono "
+    "che cosa giocare. Applicare le loro formule a cinque numeri qualunque d\u00e0 "
+    "sempre un risultato, per costruzione. Sono numeri derivati, e chiamarli "
+    "previsione sarebbe l\u2019unica vera bugia che questo sito potrebbe dire.",
+    "Su nove date-ruota su dieci una previsione vera c\u2019\u00e8. Quando non "
+    "c\u2019\u00e8, la pagina lo dice: i metodi cercano una configurazione, non "
+    "dei numeri, e quasi sempre quella configurazione non si presenta.",
 ]))
 
 A(P("3. In corso \u2014 tutto quello che \u00e8 ancora in gioco", "h2"))

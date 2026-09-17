@@ -229,7 +229,7 @@ select.da-previsione{font:inherit;font-size:.86rem;padding:7px 10px;max-width:10
 .comuni .giocata-unica .numeri{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0}
 .comuni .giocata-unica .conti{color:var(--tenue);font-size:.86rem;margin:0}
 
-/* --------------------------------------------------- si e' mai ripetuta? */
+/* ------------------------------ che cosa avrebbero detto i metodi */
 .ricerca{padding-top:24px;border-top:1px solid var(--bordo)}
 .ricerca > h2{margin:0 0 6px}
 .ricerca .spiega{margin:0 0 18px;color:var(--tenue);font-size:.88rem;max-width:64ch}
@@ -241,14 +241,11 @@ select.da-previsione{font:inherit;font-size:.86rem;padding:7px 10px;max-width:10
   border:1px solid var(--bordo);border-radius:9px;background:var(--carta);
   color:var(--testo);width:100%}
 .ricerca .nota{color:var(--tenue);font-size:.82rem;margin:0;line-height:1.45}
-.ricerca #nota-data{min-height:1.2em}
-.rapidi{display:flex;gap:6px;flex-wrap:wrap;margin:14px 0 16px}
+.ricerca #nota-data{min-height:1.2em;margin-bottom:16px}
+.rapidi{display:flex;gap:6px;flex-wrap:wrap;margin:14px 0 6px}
 .rapidi button{border:1px solid var(--bordo);background:var(--carta);color:var(--tenue);
   padding:5px 12px;border-radius:99px;cursor:pointer;font:inherit;font-size:.82rem}
 .rapidi button:hover{border-color:var(--accento);color:var(--accento)}
-.spunta{display:flex;align-items:center;gap:9px;font-size:.88rem;
-  color:var(--tenue);cursor:pointer;margin-bottom:16px}
-.spunta input{width:17px;height:17px;accent-color:var(--accento);cursor:pointer}
 button.cerca{border:1px solid var(--accento);background:var(--accento);color:#fff;
   padding:10px 22px;border-radius:99px;cursor:pointer;font:inherit;font-size:.9rem;
   font-weight:600}
@@ -256,42 +253,74 @@ button.cerca:disabled{background:var(--carta);color:var(--tenue);
   border-color:var(--bordo);cursor:default}
 .ricerca #stato-ricerca{margin-top:10px}
 
-.esito{margin-top:22px;background:var(--carta);border:1px solid var(--bordo);
-  border-radius:12px;padding:18px;box-shadow:var(--ombra)}
-.esito .partenza{margin:0 0 10px;font-size:.92rem;line-height:2.1}
+.esito{margin-top:22px}
+.esito .partenza{margin:0 0 20px;font-size:.95rem;line-height:2.1}
 .esito .partenza .n{display:inline-flex;align-items:center;justify-content:center;
   min-width:30px;height:30px;padding:0 6px;border:1px solid var(--bordo);
   border-radius:99px;font-weight:660;font-variant-numeric:tabular-nums;
-  font-size:.88rem}
-.esito .conti{margin:0 0 16px;color:var(--tenue);font-size:.86rem}
-table.ripetizioni{width:100%;border-collapse:collapse;margin-bottom:14px}
-table.ripetizioni th{text-align:left;font-size:.72rem;text-transform:uppercase;
-  letter-spacing:.05em;color:var(--tenue);font-weight:600;padding:0 8px 7px 0;
-  border-bottom:1px solid var(--bordo)}
-table.ripetizioni th.num,table.ripetizioni td.num{text-align:right;
-  font-variant-numeric:tabular-nums}
-table.ripetizioni td{padding:9px 8px 9px 0;border-bottom:1px solid var(--bordo);
-  font-size:.9rem}
-table.ripetizioni tr.spento td{color:var(--tenue)}
-table.ripetizioni .quanti-num{display:block;font-size:.74rem;color:var(--tenue);
-  font-weight:400}
-table.ripetizioni .verso{color:var(--tenue);font-size:.82rem}
-.esito .avvertenza{margin:0;color:var(--tenue);font-size:.82rem;max-width:66ch;
+  font-size:.88rem;background:var(--carta)}
+.esito h3{font-size:1rem;font-weight:640;margin:26px 0 8px}
+.esito h4{font-size:.92rem;font-weight:640;margin:22px 0 6px}
+.esito .conti{margin:0 0 14px;color:var(--tenue);font-size:.86rem}
+.esito .nota{margin:0 0 14px;color:var(--tenue);font-size:.86rem;max-width:64ch;
   line-height:1.5}
-.esito h3{font-size:.95rem;font-weight:640;margin:20px 0 10px}
-ul.ritrovamenti{list-style:none;margin:0;padding:0;display:flex;
-  flex-direction:column;gap:2px}
-ul.ritrovamenti li{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;
-  padding:7px 0;border-bottom:1px solid var(--bordo);font-size:.88rem}
-ul.ritrovamenti li:last-child{border-bottom:none}
-ul.ritrovamenti .quando{color:var(--tenue);min-width:13ch;font-size:.84rem}
-ul.ritrovamenti .dove{color:var(--accento);font-size:.8rem;font-weight:600;
-  min-width:8ch}
-ul.ritrovamenti .numeri{font-variant-numeric:tabular-nums;letter-spacing:.04em}
-.elenco-ambi{margin-top:18px;border-top:1px solid var(--bordo);padding-top:14px}
-.elenco-ambi summary{cursor:pointer;font-size:.88rem;color:var(--accento);
-  font-weight:600}
-.elenco-ambi ul{margin-top:10px;max-height:340px;overflow-y:auto}
+.esito .avvertenza{margin:0 0 16px;color:var(--tenue);font-size:.82rem;
+  max-width:66ch;line-height:1.5;border-left:2px solid var(--bordo);
+  padding-left:14px}
+
+/* Una previsione del passato, col suo verdetto. Quella che tocca la ruota
+   scelta si distingue: e' la ragione per cui si e' scelta quella ruota. */
+.carta.passata{padding:14px 16px}
+.carta.passata.sua{border-left:3px solid var(--accento)}
+.carta.passata .metodo{font-weight:620;font-size:.92rem}
+.carta.passata .colpi{color:var(--tenue);font-size:.82rem;white-space:nowrap}
+.sorte-esito{border-top:1px solid var(--bordo);padding-top:10px;margin-top:10px}
+.sorte-esito:first-of-type{border-top:none}
+.sorte-esito .capo{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.sorte-esito .tipo{font-size:.74rem;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--tenue);font-weight:600;min-width:7ch}
+.sorte-esito .n{display:inline-flex;align-items:center;justify-content:center;
+  min-width:27px;height:27px;padding:0 5px;border:1px solid var(--bordo);
+  border-radius:99px;font-weight:620;font-variant-numeric:tabular-nums;
+  font-size:.84rem}
+.sorte-esito .come-finita{margin-left:auto;font-size:.8rem;font-weight:600}
+.sorte-esito .come-finita.pos{color:var(--verde)}
+.sorte-esito .come-finita.neg{color:var(--tenue);font-weight:400}
+ul.uscite{list-style:none;margin:8px 0 0;padding:0}
+ul.uscite li{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;
+  padding:4px 0;font-size:.84rem}
+ul.uscite li.a-tutte{color:var(--tenue)}
+ul.uscite .colpo{color:var(--accento);font-weight:600;min-width:7ch;font-size:.8rem}
+ul.uscite .quando{color:var(--tenue);min-width:10ch}
+ul.uscite .dove{font-weight:600;min-width:8ch}
+ul.uscite .numeri{font-variant-numeric:tabular-nums;letter-spacing:.04em}
+ul.uscite .postilla{color:var(--tenue);font-size:.76rem;font-style:italic}
+.sorte-esito .altrove{margin-top:6px}
+.sorte-esito .altrove summary{cursor:pointer;font-size:.8rem;color:var(--tenue)}
+.sorte-esito .oltre{margin:8px 0 0;font-size:.8rem;color:var(--tenue);font-style:italic}
+.altre-ruote{margin:16px 0}
+.altre-ruote summary{cursor:pointer;font-size:.88rem;color:var(--accento);
+  font-weight:600;margin-bottom:10px}
+
+table.derivati{width:100%;border-collapse:collapse;margin-bottom:14px;
+  font-variant-numeric:tabular-nums}
+table.derivati th{text-align:left;font-size:.7rem;text-transform:uppercase;
+  letter-spacing:.04em;color:var(--tenue);font-weight:600;padding:0 10px 7px 0;
+  border-bottom:1px solid var(--bordo)}
+table.derivati td{padding:8px 10px 8px 0;border-bottom:1px solid var(--bordo);
+  font-size:.88rem;text-align:left}
+table.derivati td:first-child b{font-size:1rem}
+
+ul.derivati-uscite{list-style:none;margin:0 0 16px;padding:0;display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:2px 20px}
+ul.derivati-uscite li{display:grid;grid-template-columns:2.6ch 1fr;gap:2px 9px;
+  padding:7px 0;border-bottom:1px solid var(--bordo);font-size:.82rem;
+  align-items:baseline}
+ul.derivati-uscite .cifra{grid-row:1/3;font-weight:660;
+  font-variant-numeric:tabular-nums;font-size:1.05rem}
+ul.derivati-uscite .dove{color:var(--testo);line-height:1.4}
+ul.derivati-uscite .quante{color:var(--tenue);font-size:.76rem;line-height:1.4}
+ul.derivati-uscite .mai{color:var(--tenue);font-style:italic}
 
 footer{margin-top:34px;padding-top:18px;border-top:1px solid var(--bordo);
   color:var(--tenue);font-size:.8rem}

@@ -1,0 +1,1570 @@
+# Previsioni dei sei metodi sui concorsi del 2021.
+# giorno|metodo|ruote|colpi|anche_tutte|sorti|nota|avviso
+20210102|ambosecco_caotico|CA,FI,VE|2|1|ambo:19-59;ambo:69-87|A=21 su CA/FI, B=69 su VE|
+20210102|ambosecco_caotico|FI,VE,CA|2|1|ambo:74-77;ambo:77-81|A=83 su FI/VE, B=7 su CA|
+20210102|ambosecco_caotico|NA,PA,TO|2|1|ambo:43-62;ambo:62-85|A=48 su NA/PA, B=42 su TO|
+20210102|ambosecco_caotico|PA,TO,NA|2|1|ambo:28-38;ambo:38-85|A=42 su PA/TO, B=48 su NA|
+20210102|lottofacile5|GE|9|0|ambata:51;ambo:49-51;ambo:4-51;quartina:19-49-51-79;quartina:4-34-51-64|rilevamento 20-65|
+20210102|lottofacile5|VE|9|0|ambata:24;ambata:69;ambo:24-67;ambo:22-24;ambo:67-69;ambo:22-69;quartina:7-24-37-67;quartina:22-24-52-82;quartina:7-37-67-69;quartina:22-52-69-82|rilevamento 38-83|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210102|lottofacile1|BA,NA|6|0|ambata:6;ambo:6-48;ambo:6-84;terzina:6-48-84|pos 3-5 somma 42|
+20210102|lottofacile1|BA,RM|6|0|ambata:52;ambo:46-52;ambo:52-64;terzina:46-52-64|pos 2-4 somma 44|
+20210102|lottofacile1|BA,VE|6|0|ambata:76;ambo:72-76;ambo:27-76;terzina:27-72-76|pos 1-4 somma 18|
+20210102|lottofacile1|BA,VE|6|0|ambata:76;ambo:59-76;ambo:55-76;terzina:55-59-76|pos 1-5 somma 31|
+20210102|lottofacile1|CA,GE|6|0|ambata:40;ambo:33-40;ambo:39-40;terzina:33-39-40|pos 1-5 somma 57|
+20210102|lottofacile1|CA,NA|6|0|ambata:72;ambo:6-72;ambo:60-72;terzina:6-60-72|pos 2-3 somma 84|
+20210102|lottofacile1|CA,NA|6|0|ambata:72;ambo:72-84;ambo:48-72;terzina:48-72-84|pos 2-4 somma 6|
+20210102|lottofacile1|CA,PA|6|0|ambata:4;ambo:4-55;ambo:4-59;terzina:4-55-59|pos 4-5 somma 35|
+20210102|lottofacile1|FI,GE|6|0|ambata:54;ambo:54-71;ambo:17-54;terzina:17-54-71|pos 3-5 somma 19|
+20210102|lottofacile4|FI,NA|14|1|ambata:29;ambo:29-74;ambo:29-59;ambo:29-89;terzina:59-74-89|pos 1-3 orizzontale|
+20210102|lottofacile1|FI,RM|6|0|ambata:66;ambo:66-76;ambo:66-67;terzina:66-67-76|pos 1-2 somma 14|
+20210102|fulmine|FI,RM|12|0|ambata:83;ambo:53-83;ambo:33-83;ambo:63-83;quartina:33-53-63-83|cadenza, coppie ((83, 33), (53, 63))|
+20210102|lottofacile1|MI,NA|6|0|ambata:72;ambo:60-72;ambo:6-72;terzina:6-60-72|pos 2-5 somma 30|
+20210102|lottofacile1|MI,PA|6|0|ambata:84;ambo:60-84;ambo:6-84;terzina:6-60-84|pos 2-5 somma 30|
+20210102|lottofacile1|MI,TO|6|0|ambata:42;ambo:42-60;ambo:6-42;terzina:6-42-60|pos 2-5 somma 30|
+20210102|lottofacile1|NA,PA|6|0|ambata:84;ambo:60-84;ambo:6-84;terzina:6-60-84|pos 2-5 somma 30|
+20210102|unsoloambosecco|NA,PA|4|1|ambo:36-72|S=36 su|42, 48, 48, 78, 78, 84
+20210102|lottofacile4|NA,TO|14|1|ambata:75;ambo:30-75;ambo:15-75;ambo:45-75;terzina:15-30-45|pos 2-5 verticale|
+20210102|lottofacile1|NA,TO|6|0|ambata:42;ambo:42-60;ambo:6-42;terzina:6-42-60|pos 2-5 somma 30|
+20210102|lottofacile1|PA,RM|6|0|ambata:52;ambo:52-63;ambo:36-52;terzina:36-52-63|pos 2-3 somma 27|
+20210102|lottofacile1|PA,TO|6|0|ambata:42;ambo:42-60;ambo:6-42;terzina:6-42-60|pos 2-5 somma 30|
+20210105|ambosecco_caotico|GE,MI,PA,TO|2|1|ambo:36-50;ambo:50-86|A=40 su GE/MI, B=50 su PA/TO|
+20210105|ambosecco_caotico|PA,TO,GE,MI|2|1|ambo:40-45;ambo:40-85|A=50 su PA/TO, B=40 su GE/MI|
+20210105|lottofacile5|BA|9|0|ambata:72;ambata:27;ambo:39-72;ambo:72-84;ambo:27-39;ambo:27-84;quartina:9-39-69-72;quartina:24-54-72-84;quartina:9-27-39-69;quartina:24-27-54-84|rilevamento 24-69|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210105|lottofacile1|CA,VE|6|0|ambata:26;ambo:26-85;ambo:26-58;terzina:26-58-85|pos 2-4 somma 5|
+20210105|lottofacile1|FI,MI|6|0|ambata:80;ambo:42-80;ambo:24-80;terzina:24-42-80|pos 2-4 somma 48|
+20210105|lottofacile4|NA,TO|14|1|ambata:17;ambo:17-62;ambo:17-47;ambo:17-77;terzina:47-62-77|pos 2-4 verticale|
+20210107|ambosecco_caotico|BA,FI,RM|2|1|ambo:41-53;ambo:41-84|A=59 su BA/FI, B=31 su RM|
+20210107|lottofacile1|BA,NA|6|0|ambata:70;ambo:70-74;ambo:47-70;terzina:47-70-74|pos 1-3 somma 16|
+20210107|lottofacile1|MI,PA|6|0|ambata:46;ambo:46-50;ambo:5-46;terzina:5-46-50|pos 4-5 somma 40|
+20210107|lottofacile1|PA,VE|6|0|ambata:12;ambo:12-65;ambo:12-56;terzina:12-56-65|pos 1-5 somma 25|
+20210109|ambosecco_caotico|CA,GE,TO|2|1|ambo:53-60;ambo:53-83|A=67 su CA/GE, B=23 su TO|
+20210109|ambosecco_caotico|FI,GE,RM|2|1|ambo:55-76;ambo:55-81|A=85 su FI/GE, B=5 su RM|
+20210109|ambosecco_caotico|MI,RM,FI|2|1|ambo:26-71;ambo:71-87|A=29 su MI/RM, B=61 su FI|
+20210109|ambosecco_caotico|RM,VE,NA|2|1|ambo:44-77;ambo:44-81|A=86 su RM/VE, B=4 su NA|
+20210109|lottofacile5|GE|9|0|ambata:54;ambo:54-75;ambo:30-54;quartina:15-45-54-75;quartina:30-54-60-90|rilevamento 6-51|
+20210109|lottofacile1|BA,CA|6|0|ambata:16;ambo:16-68;ambo:16-86;terzina:16-68-86|pos 1-2 somma 22|
+20210109|lottofacile1|BA,GE|6|0|ambata:12;ambo:12-44;ambo:12-49;terzina:12-44-49|pos 3-4 somma 46|
+20210109|lottofacile1|CA,PA|6|0|ambata:56;ambo:13-56;ambo:31-56;terzina:13-31-56|pos 1-4 somma 77|
+20210109|lottofacile1|FI,TO|6|0|ambata:90;ambo:77-90;ambo:79-90;terzina:77-79-90|pos 2-4 somma 13|
+20210109|lottofacile1|MI,RM|6|0|ambata:58;ambo:58-83;ambo:38-58;terzina:38-58-83|pos 3-5 somma 7|
+20210112|ambosecco_caotico|BA,VE,CA,TO|2|1|ambo:65-67;ambo:65-82|A=75 su BA/VE, B=15 su CA/TO|
+20210112|ambosecco_caotico|CA,TO,BA,VE|2|1|ambo:14-25;ambo:35-88|A=15 su CA/TO, B=75 su BA/VE|
+20210112|ambosecco_caotico|FI,RM,VE|2|1|ambo:22-79;ambo:22-81|A=88 su FI/RM, B=2 su VE|
+20210112|ambosecco_caotico|FI,RM,BA|2|1|ambo:5-35;ambo:45-89|A=5 su FI/RM, B=85 su BA|
+20210112|lottofacile1|BA,TO|6|0|ambata:84;ambo:12-84;ambo:21-84;terzina:12-21-84|pos 1-3 somma 78|
+20210112|lottofacile1|CA,GE|6|0|ambata:78;ambo:58-78;ambo:78-85;terzina:58-78-85|pos 1-4 somma 32|
+20210112|lottofacile1|CA,MI|6|0|ambata:10;ambo:10-58;ambo:10-85;terzina:10-58-85|pos 1-4 somma 32|
+20210112|lottofacile1|GE,MI|6|0|ambata:10;ambo:10-58;ambo:10-85;terzina:10-58-85|pos 1-4 somma 32|
+20210112|lottofacile1|GE,NA|6|0|ambata:16;ambo:16-71;ambo:16-17;terzina:16-17-71|pos 4-5 somma 19|
+20210112|lottofacile1|MI,NA|6|0|ambata:26;ambo:24-26;ambo:26-42;terzina:24-26-42|pos 3-4 somma 66|
+20210112|lottofacile1|NA,RM|6|0|ambata:56;ambo:41-56;ambo:14-56;terzina:14-41-56|pos 1-2 somma 49|
+20210114|ambosecco_caotico|CA,TO,RM|2|1|ambo:16-31;ambo:26-86|A=34 su CA/TO, B=56 su RM|
+20210114|ambosecco_caotico|CA,RM,BA|2|1|ambo:57-86;ambo:83-86|A=64 su CA/RM, B=26 su BA|
+20210114|ambosecco_caotico|FI,GE,NA|2|1|ambo:58-75;ambo:75-83|A=65 su FI/GE, B=25 su NA|
+20210114|ambosecco_caotico|GE,PA,RM|2|1|ambo:26-71;ambo:71-87|A=29 su GE/PA, B=61 su RM|
+20210114|ambosecco_caotico|MI,NA,TO|2|1|ambo:66-75;ambo:66-81|A=84 su MI/NA, B=6 su TO|
+20210114|ambosecco_caotico|MI,PA,FI|2|1|ambo:52-52;ambo:52-84|A=58 su MI/PA, B=32 su FI|
+20210114|lottofacile1|BA,GE|6|0|ambata:40;ambo:34-40;ambo:40-43;terzina:34-40-43|pos 1-3 somma 56|
+20210114|lottofacile1|BA,NA|6|0|ambata:82;ambo:24-82;ambo:42-82;terzina:24-42-82|pos 2-4 somma 66|
+20210114|lottofacile1|BA,PA|6|0|ambata:26;ambo:3-26;ambo:26-30;terzina:3-26-30|pos 2-3 somma 87|
+20210114|lottofacile4|BA,TO|14|1|ambata:7;ambo:7-52;ambo:7-37;ambo:7-67;terzina:37-52-67|pos 1-5 diagonale|
+20210114|lottofacile1|BA,TO|6|0|ambata:38;ambo:32-38;ambo:23-38;terzina:23-32-38|pos 1-5 somma 58|
+20210114|fulmine|GE,TO|12|0|ambata:28;ambo:10-28;ambo:19-28;ambo:1-28;quartina:1-10-19-28|figura, coppie ((10, 19), (28, 1))|
+20210114|fulmine|PA,TO|12|0|ambata:39;ambo:29-39;ambo:9-39;ambo:19-39;quartina:9-19-29-39|cadenza, coppie ((29, 19), (9, 39))|
+20210114|lottofacile1|TO,VE|6|0|ambata:16;ambo:16-37;ambo:16-73;terzina:16-37-73|pos 1-4 somma 53|
+20210116|ambosecco_caotico|BA,VE,GE|2|1|ambo:1-79;ambo:89-89|A=1 su BA/VE, B=89 su GE|
+20210116|ambosecco_caotico|CA,NA,FI,RM|2|1|ambo:6-40;ambo:16-85|A=44 su CA/NA, B=46 su FI/RM|
+20210116|ambosecco_caotico|FI,RM,CA,NA|2|1|ambo:41-84;ambo:84-85|A=46 su FI/RM, B=44 su CA/NA|
+20210116|ambosecco_caotico|FI,NA,PA|2|1|ambo:4-46;ambo:56-89|A=4 su FI/NA, B=86 su PA|
+20210116|lottofacile5|MI|9|0|ambata:36;ambata:81;ambo:36-54;ambo:9-36;ambo:54-81;ambo:9-81;quartina:24-36-54-84;quartina:9-36-39-69;quartina:24-54-81-84;quartina:9-39-69-81|rilevamento 45-90|
+20210116|lottofacile1|BA,FI|6|0|ambata:2;ambo:2-39;ambo:2-33;terzina:2-33-39|pos 2-5 somma 51|
+20210116|lottofacile1|BA,TO|6|0|ambata:90;ambo:64-90;ambo:46-90;terzina:46-64-90|pos 1-4 somma 26|
+20210116|lottofacile1|BA,TO|6|0|ambata:62;ambo:62-76;ambo:62-67;terzina:62-67-76|pos 2-3 somma 14|
+20210116|lottofacile1|CA,TO|6|0|ambata:90;ambo:14-90;ambo:41-90;terzina:14-41-90|pos 1-2 somma 76|
+20210116|lottofacile1|GE,MI|6|0|ambata:90;ambo:18-90;ambo:81-90;terzina:18-81-90|pos 3-5 somma 72|
+20210116|fulmine|GE,MI|12|0|ambata:90;ambo:72-90;ambo:45-90;ambo:27-90;quartina:27-45-72-90|figura, coppie ((72, 45), (90, 27))|
+20210116|lottofacile1|GE,NA|6|0|ambata:46;ambo:18-46;ambo:46-81;terzina:18-46-81|pos 3-5 somma 72|
+20210116|lottofacile1|MI,NA|6|0|ambata:46;ambo:18-46;ambo:46-81;terzina:18-46-81|pos 3-5 somma 72|
+20210119|ambosecco_caotico|MI,TO,VE|2|1|ambo:42-61;ambo:42-83|A=68 su MI/TO, B=22 su VE|
+20210119|ambosecco_caotico|MI,PA,RM|2|1|ambo:14-25;ambo:35-88|A=15 su MI/PA, B=75 su RM|
+20210119|ambosecco_caotico|RM,VE,TO|2|1|ambo:74-77;ambo:77-81|A=83 su RM/VE, B=7 su TO|
+20210119|lottofacile5|PA|9|0|ambata:51;ambata:6;ambo:49-51;ambo:4-51;ambo:6-49;ambo:4-6;quartina:19-49-51-79;quartina:4-34-51-64;quartina:6-19-49-79;quartina:4-6-34-64|rilevamento 20-65|
+20210119|lottofacile4|BA,FI|14|1|ambata:73;ambo:28-73;ambo:13-73;ambo:43-73;terzina:13-28-43|pos 2-3 diagonale|
+20210119|lottofacile1|CA,FI|6|0|ambata:40;ambo:40-53;ambo:35-40;terzina:35-40-53|pos 2-3 somma 37|
+20210119|lottofacile1|CA,TO|6|0|ambata:28;ambo:28-53;ambo:28-35;terzina:28-35-53|pos 2-3 somma 37|
+20210119|lottofacile1|FI,TO|6|0|ambata:28;ambo:28-53;ambo:28-35;terzina:28-35-53|pos 2-3 somma 37|
+20210119|lottofacile1|MI,NA|6|0|ambata:4;ambo:4-81;ambo:4-18;terzina:4-18-81|pos 1-5 somma 9|
+20210119|lottofacile1|MI,PA|6|0|ambata:40;ambo:5-40;ambo:40-50;terzina:5-40-50|pos 4-5 somma 85|
+20210119|lottofacile1|PA,VE|6|0|ambata:44;ambo:44-75;ambo:44-57;terzina:44-57-75|pos 2-4 somma 15|
+20210121|ambosecco_caotico|CA,RM,TO,NA|2|1|ambo:3-16;ambo:13-88|A=17 su CA/RM/TO, B=73 su NA|
+20210121|ambosecco_caotico|CA,FI,RM,TO|2|1|ambo:19-55;ambo:29-83|A=61 su CA/FI, B=29 su RM/TO|
+20210121|ambosecco_caotico|PA,VE,MI|2|1|ambo:2-8;ambo:12-89|A=8 su PA/VE, B=82 su MI|
+20210121|ambosecco_caotico|RM,TO,CA,FI|2|1|ambo:26-71;ambo:71-87|A=29 su RM/TO, B=61 su CA/FI|
+20210121|lottofacile5|GE|9|0|ambata:54;ambo:45-54;ambo:54-90;quartina:15-45-54-75;quartina:30-54-60-90|rilevamento 36-81|
+20210121|lottofacile5|TO|9|0|ambata:78;ambata:33;ambo:58-78;ambo:13-78;ambo:33-58;ambo:13-33;quartina:28-58-78-88;quartina:13-43-73-78;quartina:28-33-58-88;quartina:13-33-43-73|rilevamento 29-74|
+20210121|lottofacile1|BA,GE|6|0|ambata:14;ambo:2-14;ambo:14-20;terzina:2-14-20|pos 3-4 somma 88|
+20210121|fulmine|CA,FI|12|0|ambata:81;ambo:27-81;ambo:9-81;ambo:63-81;quartina:9-27-63-81|figura, coppie ((27, 63), (9, 81))|
+20210121|lottofacile1|CA,NA|6|0|ambata:16;ambo:16-54;ambo:16-45;terzina:16-45-54|pos 2-4 somma 36|
+20210121|lottofacile1|GE,NA|6|0|ambata:14;ambo:10-14;ambo:1-14;terzina:1-10-14|pos 1-4 somma 80|
+20210121|lottofacile1|GE,VE|6|0|ambata:16;ambo:16-84;ambo:16-48;terzina:16-48-84|pos 1-3 somma 6|
+20210121|lottofacile1|MI,PA|6|0|ambata:26;ambo:24-26;ambo:26-42;terzina:24-26-42|pos 2-3 somma 66|
+20210121|lottofacile1|NA,PA|6|0|ambata:14;ambo:14-19;ambo:11-14;terzina:11-14-19|pos 4-5 somma 71|
+20210121|lottofacile1|NA,TO|6|0|ambata:42;ambo:42-85;ambo:42-58;terzina:42-58-85|pos 1-5 somma 5|
+20210121|lottofacile1|NA,VE|6|0|ambata:16;ambo:16-85;ambo:16-58;terzina:16-58-85|pos 1-5 somma 5|
+20210121|lottofacile1|PA,RM|6|0|ambata:34;ambo:34-44;ambo:34-49;terzina:34-44-49|pos 1-5 somma 46|
+20210121|lottofacile1|TO,VE|6|0|ambata:16;ambo:16-85;ambo:16-58;terzina:16-58-85|pos 1-5 somma 5|
+20210123|ambosecco_caotico|BA,TO,NA|2|1|ambo:15-23;ambo:25-87|A=25 su BA/TO, B=65 su NA|
+20210123|ambosecco_caotico|FI,RM,PA|2|1|ambo:41-84;ambo:84-85|A=46 su FI/RM, B=44 su PA|
+20210123|lottofacile5|BA|9|0|ambata:90;ambo:42-90;ambo:87-90;quartina:12-42-72-90;quartina:27-57-87-90|rilevamento 3-48|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210123|lottofacile5|RM|9|0|ambata:51;ambata:6;ambo:25-51;ambo:51-70;ambo:6-25;ambo:6-70;quartina:25-51-55-85;quartina:10-40-51-70;quartina:6-25-55-85;quartina:6-10-40-70|rilevamento 17-62|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210123|lottofacile1|BA,MI|6|0|ambata:60;ambo:9-60;ambo:60-90;terzina:9-60-90|pos 3-4 somma 81|
+20210123|lottofacile1|CA,GE|6|0|ambata:44;ambo:44-84;ambo:44-48;terzina:44-48-84|pos 1-3 somma 6|
+20210123|lottofacile1|NA,RM|6|0|ambata:34;ambo:34-72;ambo:27-34;terzina:27-34-72|pos 1-3 somma 18|
+20210123|lottofacile1|PA,RM|6|0|ambata:34;ambo:11-34;ambo:19-34;terzina:11-19-34|pos 1-2 somma 79|
+20210126|ambosecco_caotico|BA,NA,MI|2|1|ambo:28-38;ambo:38-85|A=42 su BA/NA, B=48 su MI|
+20210126|ambosecco_caotico|FI,TO,MI|2|1|ambo:7-48;ambo:17-84|A=53 su FI/TO, B=37 su MI|
+20210126|ambosecco_caotico|FI,TO,BA|2|1|ambo:5-32;ambo:15-86|A=35 su FI/TO, B=55 su BA|
+20210126|ambosecco_caotico|GE,PA,VE|2|1|ambo:57-86;ambo:83-86|A=64 su GE/PA, B=26 su VE|
+20210126|lottofacile5|NA|9|0|ambata:27;ambo:21-27;ambo:27-66;quartina:21-27-51-81;quartina:6-27-36-66|rilevamento 42-87|
+20210126|lottofacile1|CA,PA|6|0|ambata:80;ambo:17-80;ambo:71-80;terzina:17-71-80|pos 1-5 somma 73|
+20210126|lottofacile1|FI,TO|6|0|ambata:70;ambo:2-70;ambo:20-70;terzina:2-20-70|pos 1-3 somma 88|
+20210126|lottofacile1|FI,TO|6|0|ambata:70;ambo:44-70;ambo:49-70;terzina:44-49-70|pos 1-5 somma 46|
+20210126|unsoloambosecco|FI,TO|4|1|ambo:2-46|S=46 su|11, 35, 53, 53, 83, 83
+20210126|lottofacile1|MI,NA|6|0|ambata:84;ambo:51-84;ambo:15-84;terzina:15-51-84|pos 1-4 somma 39|
+20210128|ambosecco_caotico|FI,NA,BA|2|1|ambo:34-72;ambo:72-86|A=38 su FI/NA, B=52 su BA|
+20210128|ambosecco_caotico|MI,RM,PA|2|1|ambo:25-82;ambo:82-87|A=28 su MI/RM, B=62 su PA|
+20210128|lottofacile4|FI,VE|14|1|ambata:85;ambo:40-85;ambo:25-85;ambo:55-85;terzina:25-40-55|pos 2-4 diagonale|
+20210128|lottofacile1|FI,VE|6|0|ambata:34;ambo:34-80;ambo:8-34;terzina:8-34-80|pos 2-4 somma 10|
+20210128|lottofacile1|GE,MI|6|0|ambata:58;ambo:58-71;ambo:17-58;terzina:17-58-71|pos 1-2 somma 19|
+20210128|lottofacile4|GE,PA|14|1|ambata:79;ambo:34-79;ambo:19-79;ambo:49-79;terzina:19-34-49|pos 3-5 diagonale|
+20210128|lottofacile1|GE,TO|6|0|ambata:86;ambo:5-86;ambo:50-86;terzina:5-50-86|pos 1-3 somma 85|
+20210128|lottofacile1|GE,VE|6|0|ambata:24;ambo:24-29;ambo:22-24;terzina:22-24-29|pos 3-5 somma 61|
+20210130|ambosecco_caotico|BA,PA,RM|2|1|ambo:27-60;ambo:60-87|A=30 su BA/PA, B=60 su RM|
+20210130|ambosecco_caotico|CA,NA,GE|2|1|ambo:33-83;ambo:83-86|A=37 su CA/NA, B=53 su GE|
+20210130|ambosecco_caotico|MI,NA,PA|2|1|ambo:66-75;ambo:66-81|A=84 su MI/NA, B=6 su PA|
+20210130|lottofacile1|FI,VE|6|0|ambata:72;ambo:4-72;ambo:40-72;terzina:4-40-72|pos 1-5 somma 86|
+20210130|lottofacile1|GE,NA|6|0|ambata:6;ambo:6-78;ambo:6-87;terzina:6-78-87|pos 1-2 somma 12|
+20210130|fulmine|NA,RM|12|0|ambata:74;ambo:54-74;ambo:44-74;ambo:64-74;quartina:44-54-64-74|cadenza, coppie ((54, 64), (44, 74))|
+20210202|ambosecco_caotico|CA,FI,GE|2|1|ambo:8-56;ambo:18-83|A=62 su CA/FI, B=28 su GE|
+20210202|ambosecco_caotico|CA,FI,GE|2|1|ambo:43-69;ambo:43-82|A=77 su CA/FI, B=13 su GE|
+20210202|ambosecco_caotico|CA,RM,NA|2|1|ambo:37-39;ambo:49-85|A=41 su CA/RM, B=49 su NA|
+20210202|ambosecco_caotico|CA,GE,FI|2|1|ambo:25-82;ambo:82-87|A=28 su CA/GE, B=62 su FI|
+20210202|ambosecco_caotico|NA,RM,BA|2|1|ambo:28-49;ambo:59-86|A=31 su NA/RM, B=59 su BA|
+20210202|lottofacile5|VE|9|0|ambata:54;ambo:54-75;ambo:30-54;quartina:15-45-54-75;quartina:30-54-60-90|rilevamento 6-51|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210202|lottofacile1|CA,PA|6|0|ambata:6;ambo:6-77;ambo:6-79;terzina:6-77-79|pos 1-4 somma 13|
+20210202|lottofacile1|CA,RM|6|0|ambata:54;ambo:54-77;ambo:54-79;terzina:54-77-79|pos 1-4 somma 13|
+20210202|lottofacile1|GE,NA|6|0|ambata:62;ambo:62-67;ambo:62-76;terzina:62-67-76|pos 2-4 somma 23|
+20210202|lottofacile1|GE,NA|6|0|ambata:74;ambo:49-74;ambo:44-74;terzina:44-49-74|pos 4-5 somma 41|
+20210202|lottofacile1|GE,TO|6|0|ambata:48;ambo:48-65;ambo:48-56;terzina:48-56-65|pos 3-5 somma 25|
+20210202|lottofacile1|NA,TO|6|0|ambata:50;ambo:19-50;ambo:11-50;terzina:11-19-50|pos 1-5 somma 71|
+20210202|lottofacile1|PA,RM|6|0|ambata:54;ambo:54-77;ambo:54-79;terzina:54-77-79|pos 1-4 somma 13|
+20210202|lottofacile1|PA,VE|6|0|ambata:12;ambo:12-30;ambo:3-12;terzina:3-12-30|pos 2-3 somma 60|
+20210202|lottofacile1|PA,VE|6|0|ambata:12;ambo:9-12;ambo:12-90;terzina:9-12-90|pos 2-5 somma 81|
+20210204|ambosecco_caotico|BA,CA,FI|2|1|ambo:19-55;ambo:29-83|A=61 su BA/CA, B=29 su FI|
+20210204|ambosecco_caotico|CA,NA,PA,FI|2|1|ambo:43-69;ambo:43-82|A=77 su CA/NA/PA, B=13 su FI|
+20210204|ambosecco_caotico|GE,VE,NA|2|1|ambo:27-60;ambo:60-87|A=30 su GE/VE, B=60 su NA|
+20210204|lottofacile5|TO|9|0|ambata:9;ambata:54;ambo:9-75;ambo:9-30;ambo:54-75;ambo:30-54;quartina:9-15-45-75;quartina:9-30-60-90;quartina:15-45-54-75;quartina:30-54-60-90|rilevamento 6-51|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210204|lottofacile1|BA,CA|6|0|ambata:64;ambo:27-64;ambo:64-72;terzina:27-64-72|pos 2-5 somma 63|
+20210204|lottofacile1|BA,PA|6|0|ambata:66;ambo:66-84;ambo:48-66;terzina:48-66-84|pos 1-4 somma 6|
+20210204|lottofacile1|CA,NA|6|0|ambata:64;ambo:57-64;ambo:64-75;terzina:57-64-75|pos 1-3 somma 33|
+20210204|lottofacile1|CA,RM|6|0|ambata:36;ambo:36-75;ambo:36-57;terzina:36-57-75|pos 1-4 somma 15|
+20210204|lottofacile1|FI,GE|6|0|ambata:60;ambo:52-60;ambo:25-60;terzina:25-52-60|pos 1-4 somma 38|
+20210204|lottofacile1|NA,RM|6|0|ambata:8;ambo:8-74;ambo:8-47;terzina:8-47-74|pos 2-3 somma 16|
+20210206|ambosecco_caotico|BA,MI,RM|2|1|ambo:20-48;ambo:58-87|A=22 su BA/MI, B=68 su RM|
+20210206|ambosecco_caotico|FI,NA,GE|2|1|ambo:17-81;ambo:81-88|A=19 su FI/NA, B=71 su GE|
+20210206|lottofacile5|CA|9|0|ambata:21;ambata:66;ambo:5-21;ambo:21-50;ambo:5-66;ambo:50-66;quartina:5-21-35-65;quartina:20-21-50-80;quartina:5-35-65-66;quartina:20-50-66-80|rilevamento 7-52|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210206|lottofacile5|VE|9|0|ambata:6;ambata:51;ambo:6-85;ambo:6-40;ambo:51-85;ambo:40-51;quartina:6-25-55-85;quartina:6-10-40-70;quartina:25-51-55-85;quartina:10-40-51-70|rilevamento 2-47|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210206|lottofacile1|BA,GE|6|0|ambata:84;ambo:22-84;ambo:29-84;terzina:22-29-84|pos 3-5 somma 68|
+20210206|lottofacile1|CA,GE|6|0|ambata:14;ambo:11-14;ambo:14-19;terzina:11-14-19|pos 2-4 somma 79|
+20210206|lottofacile4|CA,VE|14|1|ambata:11;ambo:11-56;ambo:11-41;ambo:11-71;terzina:41-56-71|pos 4-5 verticale|
+20210206|lottofacile1|CA,VE|6|0|ambata:24;ambo:24-31;ambo:13-24;terzina:13-24-31|pos 4-5 somma 59|
+20210206|lottofacile4|GE,MI|14|1|ambata:61;ambo:16-61;ambo:1-61;ambo:31-61;terzina:1-16-31|pos 2-3 verticale|
+20210206|lottofacile1|GE,MI|6|0|ambata:44;ambo:41-44;ambo:14-44;terzina:14-41-44|pos 2-3 somma 49|
+20210206|lottofacile1|GE,PA|6|0|ambata:72;ambo:62-72;ambo:26-72;terzina:26-62-72|pos 1-3 somma 28|
+20210206|lottofacile1|GE,PA|6|0|ambata:66;ambo:57-66;ambo:66-75;terzina:57-66-75|pos 2-5 somma 33|
+20210206|fulmine|MI,VE|12|0|ambata:32;ambo:22-32;ambo:2-32;ambo:12-32;quartina:2-12-22-32|cadenza, coppie ((32, 2), (22, 12))|
+20210206|lottofacile1|NA,TO|6|0|ambata:52;ambo:43-52;ambo:34-52;terzina:34-43-52|pos 1-5 somma 47|
+20210206|lottofacile1|RM,VE|6|0|ambata:8;ambo:8-39;ambo:8-33;terzina:8-33-39|pos 1-3 somma 51|
+20210209|ambosecco_caotico|BA,GE,RM|2|1|ambo:10-69;ambo:79-88|A=11 su BA/GE, B=79 su RM|
+20210209|ambosecco_caotico|BA,FI,VE,CA,GE|2|1|ambo:57-86;ambo:83-86|A=64 su BA/FI/VE, B=26 su CA/GE|
+20210209|ambosecco_caotico|CA,GE,BA,FI,VE|2|1|ambo:4-24;ambo:14-87|A=26 su CA/GE, B=64 su BA/FI/VE|
+20210209|ambosecco_caotico|NA,PA,TO|2|1|ambo:30-54;ambo:30-84|A=60 su NA/PA, B=30 su TO|
+20210209|lottofacile5|GE|9|0|ambata:72;ambata:27;ambo:36-72;ambo:72-81;ambo:27-36;ambo:27-81;quartina:6-36-66-72;quartina:21-51-72-81;quartina:6-27-36-66;quartina:21-27-51-81|rilevamento 27-72|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210209|lottofacile5|NA|9|0|ambata:36;ambata:81;ambo:36-84;ambo:36-39;ambo:81-84;ambo:39-81;quartina:24-36-54-84;quartina:9-36-39-69;quartina:24-54-81-84;quartina:9-39-69-81|rilevamento 15-60|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210209|lottofacile1|CA,PA|6|0|ambata:30;ambo:30-57;ambo:30-75;terzina:30-57-75|pos 3-5 somma 33|
+20210209|lottofacile1|PA,VE|6|0|ambata:46;ambo:35-46;ambo:46-53;terzina:35-46-53|pos 2-3 somma 55|
+20210211|ambosecco_caotico|CA,PA,VE|2|1|ambo:35-61;ambo:61-86|A=39 su CA/PA, B=51 su VE|
+20210211|ambosecco_caotico|FI,GE,NA|2|1|ambo:26-71;ambo:71-87|A=29 su FI/GE, B=61 su NA|
+20210211|ambosecco_caotico|MI,PA,BA|2|1|ambo:43-62;ambo:62-85|A=48 su MI/PA, B=42 su BA|
+20210211|ambosecco_caotico|NA,PA,RM,MI|2|1|ambo:5-35;ambo:45-89|A=5 su NA/PA/RM, B=85 su MI|
+20210211|lottofacile5|FI|9|0|ambata:33;ambo:33-58;ambo:13-33;quartina:28-33-58-88;quartina:13-33-43-73|rilevamento 29-74|
+20210211|lottofacile5|RM|9|0|ambata:54;ambata:9;ambo:54-60;ambo:15-54;ambo:9-60;ambo:9-15;quartina:30-54-60-90;quartina:15-45-54-75;quartina:9-30-60-90;quartina:9-15-45-75|rilevamento 21-66|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210211|lottofacile1|BA,MI|6|0|ambata:82;ambo:80-82;ambo:8-82;terzina:8-80-82|pos 4-5 somma 10|
+20210211|lottofacile1|FI,TO|6|0|ambata:76;ambo:75-76;ambo:57-76;terzina:57-75-76|pos 2-4 somma 15|
+20210211|lottofacile1|GE,MI|6|0|ambata:6;ambo:1-6;ambo:6-10;terzina:1-6-10|pos 1-4 somma 89|
+20210211|lottofacile1|GE,PA|6|0|ambata:78;ambo:47-78;ambo:74-78;terzina:47-74-78|pos 2-4 somma 43|
+20210211|lottofacile1|GE,PA|6|0|ambata:6;ambo:6-37;ambo:6-73;terzina:6-37-73|pos 3-5 somma 53|
+20210211|lottofacile1|MI,VE|6|0|ambata:60;ambo:47-60;ambo:60-74;terzina:47-60-74|pos 1-3 somma 43|
+20210211|lottofacile1|MI,VE|6|0|ambata:26;ambo:26-54;ambo:26-45;terzina:26-45-54|pos 3-4 somma 36|
+20210211|lottofacile1|NA,PA|6|0|ambata:6;ambo:6-38;ambo:6-83;terzina:6-38-83|pos 3-4 somma 52|
+20210211|lottofacile1|NA,VE|6|0|ambata:12;ambo:12-62;ambo:12-26;terzina:12-26-62|pos 2-5 somma 28|
+20210213|ambosecco_caotico|CA,NA,MI|2|1|ambo:11-80;ambo:11-81|A=89 su CA/NA, B=1 su MI|
+20210213|ambosecco_caotico|GE,PA,RM|2|1|ambo:14-15;ambo:24-88|A=16 su GE/PA, B=74 su RM|
+20210213|ambosecco_caotico|MI,NA,CA|2|1|ambo:1-79;ambo:89-89|A=1 su MI/NA, B=89 su CA|
+20210213|ambosecco_caotico|MI,VE,RM|2|1|ambo:26-71;ambo:71-87|A=29 su MI/VE, B=61 su RM|
+20210213|ambosecco_caotico|MI,TO,PA|2|1|ambo:14-25;ambo:35-88|A=15 su MI/TO, B=75 su PA|
+20210213|lottofacile5|NA|9|0|ambata:84;ambo:20-84;ambo:65-84;quartina:20-50-80-84;quartina:5-35-65-84|rilevamento 1-46|
+20210213|lottofacile5|RM|9|0|ambata:33;ambata:78;ambo:13-33;ambo:33-58;ambo:13-78;ambo:58-78;quartina:13-33-43-73;quartina:28-33-58-88;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 11-56|
+20210213|lottofacile1|CA,MI|6|0|ambata:58;ambo:46-58;ambo:58-64;terzina:46-58-64|pos 3-4 somma 44|
+20210213|lottofacile4|CA,VE|14|1|ambata:53;ambo:8-53;ambo:53-83;ambo:23-53;terzina:8-23-83|pos 2-5 verticale|
+20210213|lottofacile1|CA,VE|6|0|ambata:36;ambo:36-43;ambo:34-36;terzina:34-36-43|pos 2-5 somma 47|
+20210213|lottofacile1|MI,PA|6|0|ambata:68;ambo:52-68;ambo:25-68;terzina:25-52-68|pos 3-5 somma 38|
+20210213|lottofacile1|NA,RM|6|0|ambata:32;ambo:32-45;ambo:32-54;terzina:32-45-54|pos 1-5 somma 45|
+20210213|lottofacile1|NA,RM|6|0|ambata:22;ambo:22-23;ambo:22-32;terzina:22-23-32|pos 3-4 somma 67|
+20210213|lottofacile1|NA,VE|6|0|ambata:68;ambo:25-68;ambo:52-68;terzina:25-52-68|pos 1-4 somma 65|
+20210213|lottofacile1|PA,TO|6|0|ambata:84;ambo:62-84;ambo:26-84;terzina:26-62-84|pos 2-4 somma 28|
+20210216|lottofacile5|FI|9|0|ambata:36;ambata:81;ambo:36-54;ambo:9-36;ambo:54-81;ambo:9-81;quartina:24-36-54-84;quartina:9-36-39-69;quartina:24-54-81-84;quartina:9-39-69-81|rilevamento 45-90|
+20210216|lottofacile1|BA,TO|6|0|ambata:22;ambo:22-65;ambo:22-56;terzina:22-56-65|pos 1-2 somma 25|
+20210216|lottofacile1|FI,PA|6|0|ambata:8;ambo:8-41;ambo:8-14;terzina:8-14-41|pos 4-5 somma 49|
+20210216|lottofacile1|PA,VE|6|0|ambata:14;ambo:14-72;ambo:14-27;terzina:14-27-72|pos 3-5 somma 18|
+20210218|ambosecco_caotico|BA,TO,NA|2|1|ambo:58-75;ambo:75-83|A=65 su BA/TO, B=25 su NA|
+20210218|ambosecco_caotico|FI,VE,NA,RM|2|1|ambo:32-70;ambo:32-82|A=78 su FI/VE, B=12 su NA/RM|
+20210218|ambosecco_caotico|MI,RM,TO|2|1|ambo:7-13;ambo:23-89|A=7 su MI/RM, B=83 su TO|
+20210218|ambosecco_caotico|MI,TO,RM|2|1|ambo:74-77;ambo:77-81|A=83 su MI/TO, B=7 su RM|
+20210218|ambosecco_caotico|NA,RM,FI,VE|2|1|ambo:11-58;ambo:68-88|A=12 su NA/RM, B=78 su FI/VE|
+20210218|lottofacile5|BA|9|0|ambata:51;ambata:6;ambo:49-51;ambo:4-51;ambo:6-49;ambo:4-6;quartina:19-49-51-79;quartina:4-34-51-64;quartina:6-19-49-79;quartina:4-6-34-64|rilevamento 20-65|
+20210218|lottofacile5|MI|9|0|ambata:69;ambo:67-69;ambo:22-69;quartina:7-37-67-69;quartina:22-52-69-82|rilevamento 38-83|
+20210218|lottofacile1|BA,MI|6|0|ambata:76;ambo:5-76;ambo:50-76;terzina:5-50-76|pos 2-5 somma 85|
+20210218|lottofacile1|GE,MI|6|0|ambata:76;ambo:59-76;ambo:55-76;terzina:55-59-76|pos 2-4 somma 31|
+20210218|lottofacile1|GE,NA|6|0|ambata:18;ambo:18-24;ambo:18-42;terzina:18-24-42|pos 1-3 somma 66|
+20210220|ambosecco_caotico|FI,PA,CA|2|1|ambo:9-80;ambo:80-89|A=10 su FI/PA, B=80 su CA|
+20210220|ambosecco_caotico|GE,TO,VE,MI|2|1|ambo:53-60;ambo:53-83|A=67 su GE/TO/VE, B=23 su MI|
+20210220|ambosecco_caotico|GE,RM,TO|2|1|ambo:31-62;ambo:31-83|A=69 su GE/RM, B=21 su TO|
+20210220|ambosecco_caotico|PA,VE,CA|2|1|ambo:26-71;ambo:71-87|A=29 su PA/VE, B=61 su CA|
+20210220|ambosecco_caotico|RM,TO,GE|2|1|ambo:19-59;ambo:69-87|A=21 su RM/TO, B=69 su GE|
+20210220|lottofacile5|GE|9|0|ambata:72;ambata:27;ambo:39-72;ambo:72-84;ambo:27-39;ambo:27-84;quartina:9-39-69-72;quartina:24-54-72-84;quartina:9-27-39-69;quartina:24-27-54-84|rilevamento 24-69|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210220|lottofacile1|FI,MI|6|0|ambata:58;ambo:58-63;ambo:36-58;terzina:36-58-63|pos 1-4 somma 27|
+20210220|lottofacile4|GE,NA|14|1|ambata:27;ambo:27-72;ambo:27-57;ambo:27-87;terzina:57-72-87|pos 1-3 orizzontale|
+20210220|lottofacile1|GE,TO|6|0|ambata:24;ambo:24-65;ambo:24-56;terzina:24-56-65|pos 1-2 somma 25|
+20210220|lottofacile1|MI,RM|6|0|ambata:48;ambo:48-84;ambo:48-48|pos 2-5 somma 6|
+20210220|lottofacile4|NA,RM|14|1|ambata:7;ambo:7-52;ambo:7-37;ambo:7-67;terzina:37-52-67|pos 1-2 diagonale|
+20210220|lottofacile1|NA,RM|6|0|ambata:68;ambo:68-77;ambo:68-79;terzina:68-77-79|pos 1-2 somma 13|
+20210220|lottofacile1|NA,VE|6|0|ambata:58;ambo:5-58;ambo:50-58;terzina:5-50-58|pos 2-4 somma 85|
+20210223|ambosecco_caotico|BA,FI,GE,NA|2|1|ambo:28-38;ambo:38-85|A=42 su BA/FI/GE, B=48 su NA|
+20210223|ambosecco_caotico|CA,TO,PA|2|1|ambo:28-49;ambo:59-86|A=31 su CA/TO, B=59 su PA|
+20210223|lottofacile5|MI|9|0|ambata:51;ambata:6;ambo:49-51;ambo:4-51;ambo:6-49;ambo:4-6;quartina:19-49-51-79;quartina:4-34-51-64;quartina:6-19-49-79;quartina:4-6-34-64|rilevamento 20-65|
+20210223|lottofacile1|CA,MI|6|0|ambata:36;ambo:36-75;ambo:36-57;terzina:36-57-75|pos 2-5 somma 15|
+20210223|lottofacile1|FI,NA|6|0|ambata:32;ambo:26-32;ambo:32-62;terzina:26-32-62|pos 1-3 somma 64|
+20210223|lottofacile1|GE,MI|6|0|ambata:40;ambo:28-40;ambo:40-82;terzina:28-40-82|pos 4-5 somma 62|
+20210223|lottofacile1|NA,VE|6|0|ambata:74;ambo:4-74;ambo:40-74;terzina:4-40-74|pos 3-4 somma 86|
+20210223|lottofacile1|PA,VE|6|0|ambata:16;ambo:16-78;ambo:16-87;terzina:16-78-87|pos 2-4 somma 12|
+20210225|ambosecco_caotico|CA,NA,TO|2|1|ambo:42-73;ambo:73-85|A=47 su CA/NA, B=43 su TO|
+20210225|ambosecco_caotico|CA,NA,FI,GE,VE|2|1|ambo:43-62;ambo:62-85|A=48 su CA/NA, B=42 su FI/GE/VE|
+20210225|ambosecco_caotico|FI,GE,VE,CA,NA|2|1|ambo:28-38;ambo:38-85|A=42 su FI/GE/VE, B=48 su CA/NA|
+20210225|lottofacile5|TO|9|0|ambata:21;ambata:66;ambo:21-89;ambo:21-44;ambo:66-89;ambo:44-66;quartina:21-29-59-89;quartina:14-21-44-74;quartina:29-59-66-89;quartina:14-44-66-74|rilevamento 40-85|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210225|lottofacile5|TO|9|0|ambata:30;ambo:30-32;ambo:30-77;quartina:2-30-32-62;quartina:17-30-47-77|rilevamento 43-88|
+20210225|lottofacile4|BA,NA|14|1|ambata:19;ambo:19-64;ambo:19-49;ambo:19-79;terzina:49-64-79|pos 2-3 orizzontale|
+20210225|lottofacile1|CA,GE|6|0|ambata:84;ambo:84-87;ambo:78-84;terzina:78-84-87|pos 1-5 somma 3|
+20210225|lottofacile1|CA,MI|6|0|ambata:68;ambo:68-85;ambo:58-68;terzina:58-68-85|pos 4-5 somma 5|
+20210225|lottofacile4|FI,MI|14|1|ambata:71;ambo:26-71;ambo:11-71;ambo:41-71;terzina:11-26-41|pos 1-5 orizzontale|
+20210225|lottofacile1|GE,VE|6|0|ambata:52;ambo:52-86;ambo:52-68;terzina:52-68-86|pos 1-2 somma 4|
+20210225|lottofacile1|MI,NA|6|0|ambata:6;ambo:6-25;ambo:6-52;terzina:6-25-52|pos 1-4 somma 65|
+20210225|lottofacile1|MI,NA|6|0|ambata:4;ambo:4-56;ambo:4-65;terzina:4-56-65|pos 2-3 somma 34|
+20210225|fulmine|MI,RM|12|0|ambata:70;ambo:34-70;ambo:52-70;ambo:16-70;quartina:16-34-52-70|figura, coppie ((70, 16), (34, 52))|
+20210225|lottofacile1|MI,TO|6|0|ambata:86;ambo:49-86;ambo:44-86;terzina:44-49-86|pos 3-5 somma 41|
+20210225|lottofacile1|RM,VE|6|0|ambata:52;ambo:22-52;ambo:29-52;terzina:22-29-52|pos 1-5 somma 68|
+20210227|ambosecco_caotico|BA,PA,CA|2|1|ambo:3-16;ambo:13-88|A=17 su BA/PA, B=73 su CA|
+20210227|ambosecco_caotico|BA,CA,TO|2|1|ambo:27-60;ambo:60-87|A=30 su BA/CA, B=60 su TO|
+20210227|ambosecco_caotico|BA,PA,TO,FI|2|1|ambo:57-86;ambo:83-86|A=64 su BA/PA/TO, B=26 su FI|
+20210227|lottofacile5|BA|9|0|ambata:90;ambata:45;ambo:51-90;ambo:6-90;ambo:45-51;ambo:6-45;quartina:21-51-81-90;quartina:6-36-66-90;quartina:21-45-51-81;quartina:6-36-45-66|rilevamento 30-75|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210227|lottofacile1|MI,TO|6|0|ambata:68;ambo:68-82;ambo:28-68;terzina:28-68-82|pos 2-4 somma 8|
+20210302|ambosecco_caotico|BA,VE,MI|2|1|ambo:65-67;ambo:65-82|A=75 su BA/VE, B=15 su MI|
+20210302|ambosecco_caotico|CA,RM,FI|2|1|ambo:15-23;ambo:25-87|A=25 su CA/RM, B=65 su FI|
+20210302|ambosecco_caotico|CA,VE,NA|2|1|ambo:30-54;ambo:30-84|A=60 su CA/VE, B=30 su NA|
+20210302|ambosecco_caotico|FI,PA,MI|2|1|ambo:41-84;ambo:84-85|A=46 su FI/PA, B=44 su MI|
+20210302|ambosecco_caotico|FI,RM,PA|2|1|ambo:1-79;ambo:89-89|A=1 su FI/RM, B=89 su PA|
+20210302|ambosecco_caotico|NA,TO,VE|2|1|ambo:33-83;ambo:83-86|A=37 su NA/TO, B=53 su VE|
+20210302|lottofacile5|FI|9|0|ambata:84;ambo:20-84;ambo:65-84;quartina:20-50-80-84;quartina:5-35-65-84|rilevamento 1-46|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210302|lottofacile4|FI,GE|14|1|ambata:77;ambo:32-77;ambo:17-77;ambo:47-77;terzina:17-32-47|pos 1-3 orizzontale|
+20210302|lottofacile1|FI,TO|6|0|ambata:74;ambo:20-74;ambo:2-74;terzina:2-20-74|pos 1-3 somma 70|
+20210302|lottofacile1|MI,VE|6|0|ambata:30;ambo:30-67;ambo:30-76;terzina:30-67-76|pos 1-3 somma 23|
+20210302|lottofacile1|NA,RM|6|0|ambata:42;ambo:23-42;ambo:32-42;terzina:23-32-42|pos 3-4 somma 67|
+20210304|ambosecco_caotico|GE,NA,RM|2|1|ambo:40-45;ambo:40-85|A=50 su GE/NA, B=40 su RM|
+20210304|lottofacile5|BA|9|0|ambata:27;ambo:27-39;ambo:27-84;quartina:9-27-39-69;quartina:24-27-54-84|rilevamento 24-69|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210304|lottofacile5|CA|9|0|ambata:9;ambata:54;ambo:9-45;ambo:9-90;ambo:45-54;ambo:54-90;quartina:9-15-45-75;quartina:9-30-60-90;quartina:15-45-54-75;quartina:30-54-60-90|rilevamento 36-81|
+20210304|lottofacile1|CA,NA|6|0|ambata:62;ambo:9-62;ambo:62-90;terzina:9-62-90|pos 1-3 somma 81|
+20210304|lottofacile1|FI,PA|6|0|ambata:58;ambo:58-69;ambo:58-66;terzina:58-66-69|pos 2-3 somma 21|
+20210304|lottofacile1|GE,NA|6|0|ambata:10;ambo:10-10;ambo:1-10|pos 3-4 somma 80|
+20210304|lottofacile4|MI,RM|14|1|ambata:51;ambo:6-51;ambo:51-81;ambo:21-51;terzina:6-21-81|pos 2-4 verticale|
+20210306|ambosecco_caotico|BA,FI,MI,TO,GE|2|1|ambo:29-46;ambo:39-84|A=51 su BA/FI/MI/TO, B=39 su GE|
+20210306|ambosecco_caotico|FI,PA,RM|2|1|ambo:74-77;ambo:77-81|A=83 su FI/PA, B=7 su RM|
+20210306|ambosecco_caotico|NA,VE,CA|2|1|ambo:65-87;ambo:82-87|A=73 su NA/VE, B=17 su CA|
+20210306|lottofacile5|BA|9|0|ambata:54;ambo:54-75;ambo:30-54;quartina:15-45-54-75;quartina:30-54-60-90|rilevamento 6-51|
+20210306|lottofacile5|BA|9|0|ambata:6;ambata:51;ambo:6-34;ambo:6-79;ambo:34-51;ambo:51-79;quartina:4-6-34-64;quartina:6-19-49-79;quartina:4-34-51-64;quartina:19-49-51-79|rilevamento 35-80|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210306|lottofacile5|TO|9|0|ambata:39;ambo:20-39;ambo:39-65;quartina:20-39-50-80;quartina:5-35-39-65|rilevamento 1-46|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210306|lottofacile1|CA,FI|6|0|ambata:36;ambo:36-79;ambo:36-77;terzina:36-77-79|pos 1-2 somma 11|
+20210306|lottofacile1|FI,GE|6|0|ambata:90;ambo:68-90;ambo:86-90;terzina:68-86-90|pos 1-4 somma 22|
+20210306|lottofacile1|FI,RM|6|0|ambata:14;ambo:14-68;ambo:14-86;terzina:14-68-86|pos 1-4 somma 22|
+20210306|lottofacile4|GE,RM|14|1|ambata:43;ambo:43-88;ambo:43-73;ambo:13-43;terzina:13-73-88|pos 1-4 diagonale|
+20210306|lottofacile1|GE,RM|6|0|ambata:14;ambo:14-68;ambo:14-86;terzina:14-68-86|pos 1-4 somma 22|
+20210306|lottofacile1|NA,TO|6|0|ambata:2;ambo:2-26;ambo:2-62;terzina:2-26-62|pos 2-4 somma 64|
+20210309|ambosecco_caotico|NA,PA,MI|2|1|ambo:44-77;ambo:44-81|A=86 su NA/PA, B=4 su MI|
+20210309|ambosecco_caotico|NA,RM,GE|2|1|ambo:6-40;ambo:16-85|A=44 su NA/RM, B=46 su GE|
+20210309|lottofacile5|BA|9|0|ambata:27;ambo:27-51;ambo:6-27;quartina:21-27-51-81;quartina:6-27-36-66|rilevamento 12-57|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210309|lottofacile1|BA,PA|6|0|ambata:60;ambo:60-63;ambo:36-60;terzina:36-60-63|pos 2-5 somma 27|
+20210309|lottofacile1|BA,TO|6|0|ambata:84;ambo:9-84;ambo:84-90;terzina:9-84-90|pos 2-3 somma 81|
+20210309|lottofacile1|CA,VE|6|0|ambata:12;ambo:12-70;ambo:7-12;terzina:7-12-70|pos 4-5 somma 20|
+20210309|lottofacile4|FI,GE|14|1|ambata:51;ambo:6-51;ambo:51-81;ambo:21-51;terzina:6-21-81|pos 2-3 verticale|
+20210309|lottofacile1|FI,GE|6|0|ambata:34;ambo:34-66;ambo:34-69;terzina:34-66-69|pos 2-3 somma 24|
+20210309|lottofacile1|MI,RM|6|0|ambata:22;ambo:22-53;ambo:22-35;terzina:22-35-53|pos 2-5 somma 37|
+20210309|lottofacile1|NA,RM|6|0|ambata:88;ambo:20-88;ambo:2-88;terzina:2-20-88|pos 4-5 somma 70|
+20210311|ambosecco_caotico|NA,PA,CA|2|1|ambo:5-32;ambo:15-86|A=35 su NA/PA, B=55 su CA|
+20210311|lottofacile5|FI|9|0|ambata:6;ambata:51;ambo:6-85;ambo:6-40;ambo:51-85;ambo:40-51;quartina:6-25-55-85;quartina:6-10-40-70;quartina:25-51-55-85;quartina:10-40-51-70|rilevamento 2-47|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210311|lottofacile5|GE|9|0|ambata:87;ambata:42;ambo:1-87;ambo:46-87;ambo:1-42;ambo:42-46;quartina:1-31-61-87;quartina:16-46-76-87;quartina:1-31-42-61;quartina:16-42-46-76|rilevamento 32-77|
+20210311|lottofacile1|CA,NA|6|0|ambata:32;ambo:32-38;ambo:32-83;terzina:32-38-83|pos 1-3 somma 52|
+20210311|lottofacile1|CA,TO|6|0|ambata:6;ambo:6-49;ambo:6-44;terzina:6-44-49|pos 2-4 somma 41|
+20210311|lottofacile1|GE,PA|6|0|ambata:18;ambo:18-62;ambo:18-26;terzina:18-26-62|pos 1-4 somma 28|
+20210311|fulmine|GE,RM|12|0|ambata:86;ambo:32-86;ambo:77-86;ambo:23-86;quartina:23-32-77-86|figura, coppie ((32, 77), (86, 23))|
+20210311|lottofacile1|MI,VE|6|0|ambata:18;ambo:15-18;ambo:18-51;terzina:15-18-51|pos 4-5 somma 75|
+20210313|ambosecco_caotico|CA,MI,PA|2|1|ambo:30-54;ambo:30-84|A=60 su CA/MI, B=30 su PA|
+20210313|ambosecco_caotico|CA,GE,BA|2|1|ambo:41-53;ambo:41-84|A=59 su CA/GE, B=31 su BA|
+20210313|ambosecco_caotico|FI,NA,RM|2|1|ambo:28-38;ambo:38-85|A=42 su FI/NA, B=48 su RM|
+20210313|ambosecco_caotico|GE,NA,TO|2|1|ambo:29-38;ambo:48-86|A=32 su GE/NA, B=58 su TO|
+20210313|ambosecco_caotico|PA,RM,BA|2|1|ambo:12-47;ambo:57-88|A=13 su PA/RM, B=77 su BA|
+20210313|lottofacile5|BA|9|0|ambata:78;ambata:33;ambo:58-78;ambo:13-78;ambo:33-58;ambo:13-33;quartina:28-58-78-88;quartina:13-43-73-78;quartina:28-33-58-88;quartina:13-33-43-73|rilevamento 29-74|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210313|lottofacile5|GE|9|0|ambata:78;ambo:43-78;ambo:78-88;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 26-71|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210313|lottofacile1|BA,MI|6|0|ambata:12;ambo:12-29;ambo:12-22;terzina:12-22-29|pos 3-4 somma 61|
+20210313|lottofacile1|BA,PA|6|0|ambata:6;ambo:6-74;ambo:6-47;terzina:6-47-74|pos 1-3 somma 16|
+20210313|lottofacile1|BA,PA|6|0|ambata:60;ambo:47-60;ambo:60-74;terzina:47-60-74|pos 2-3 somma 43|
+20210313|lottofacile1|CA,GE|6|0|ambata:36;ambo:36-58;ambo:36-85;terzina:36-58-85|pos 2-5 somma 32|
+20210313|lottofacile4|CA,MI|14|1|ambata:5;ambo:5-50;ambo:5-35;ambo:5-65;terzina:35-50-65|pos 2-3 orizzontale|
+20210313|lottofacile4|CA,VE|14|1|ambata:61;ambo:16-61;ambo:1-61;ambo:31-61;terzina:1-16-31|pos 3-4 orizzontale|
+20210313|lottofacile1|GE,TO|6|0|ambata:26;ambo:26-85;ambo:26-58;terzina:26-58-85|pos 2-3 somma 5|
+20210313|lottofacile1|NA,PA|6|0|ambata:24;ambo:24-67;ambo:24-76;terzina:24-67-76|pos 4-5 somma 23|
+20210313|lottofacile4|NA,VE|14|1|ambata:73;ambo:28-73;ambo:13-73;ambo:43-73;terzina:13-28-43|pos 1-2 verticale|
+20210313|lottofacile1|NA,VE|6|0|ambata:6;ambo:6-38;ambo:6-83;terzina:6-38-83|pos 1-2 somma 52|
+20210313|lottofacile1|RM,TO|6|0|ambata:74;ambo:29-74;ambo:22-74;terzina:22-29-74|pos 3-5 somma 61|
+20210316|ambosecco_caotico|BA,MI,GE|2|1|ambo:29-46;ambo:39-84|A=51 su BA/MI, B=39 su GE|
+20210316|ambosecco_caotico|GE,MI,RM,VE|2|1|ambo:15-23;ambo:25-87|A=25 su GE/MI/RM, B=65 su VE|
+20210316|lottofacile1|CA,TO|6|0|ambata:58;ambo:58-72;ambo:27-58;terzina:27-58-72|pos 1-5 somma 18|
+20210316|lottofacile1|CA,TO|6|0|ambata:26;ambo:26-89;ambo:26-88;terzina:26-88-89|pos 3-4 somma 1|
+20210316|lottofacile4|CA,VE|14|1|ambata:31;ambo:31-76;ambo:31-61;ambo:1-31;terzina:1-61-76|pos 3-5 verticale|
+20210316|lottofacile1|CA,VE|6|0|ambata:52;ambo:26-52;ambo:52-62;terzina:26-52-62|pos 3-5 somma 64|
+20210316|lottofacile1|MI,VE|6|0|ambata:60;ambo:60-67;ambo:60-76;terzina:60-67-76|pos 4-5 somma 23|
+20210316|lottofacile1|NA,TO|6|0|ambata:58;ambo:57-58;ambo:58-75;terzina:57-58-75|pos 1-2 somma 33|
+20210318|ambosecco_caotico|FI,PA,RM,NA|2|1|ambo:55-76;ambo:55-81|A=85 su FI/PA/RM, B=5 su NA|
+20210318|ambosecco_caotico|GE,MI,CA|2|1|ambo:13-36;ambo:46-88|A=14 su GE/MI, B=76 su CA|
+20210318|ambosecco_caotico|TO,VE,RM|2|1|ambo:27-60;ambo:60-87|A=30 su TO/VE, B=60 su RM|
+20210318|lottofacile5|TO|9|0|ambata:33;ambo:33-58;ambo:13-33;quartina:28-33-58-88;quartina:13-33-43-73|rilevamento 29-74|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210318|lottofacile1|FI,MI|6|0|ambata:26;ambo:26-50;ambo:5-26;terzina:5-26-50|pos 1-4 somma 40|
+20210318|lottofacile1|GE,MI|6|0|ambata:20;ambo:20-66;ambo:20-69;terzina:20-66-69|pos 3-5 somma 24|
+20210318|lottofacile1|GE,RM|6|0|ambata:80;ambo:41-80;ambo:14-80;terzina:14-41-80|pos 3-4 somma 49|
+20210318|fulmine|GE,TO|12|0|ambata:57;ambo:39-57;ambo:12-57;ambo:30-57;quartina:12-30-39-57|figura, coppie ((57, 12), (39, 30))|
+20210318|lottofacile1|MI,NA|6|0|ambata:18;ambo:18-49;ambo:18-44;terzina:18-44-49|pos 4-5 somma 41|
+20210318|fulmine|PA,TO|12|0|ambata:70;ambo:50-70;ambo:10-70;ambo:30-70;quartina:10-30-50-70|cadenza, coppie ((70, 10), (50, 30))|
+20210320|ambosecco_caotico|FI,NA,RM|2|1|ambo:3-16;ambo:13-88|A=17 su FI/NA, B=73 su RM|
+20210320|lottofacile1|CA,NA|6|0|ambata:26;ambo:26-60;ambo:6-26;terzina:6-26-60|pos 1-5 somma 30|
+20210320|lottofacile1|FI,GE|6|0|ambata:74;ambo:27-74;ambo:72-74;terzina:27-72-74|pos 1-3 somma 63|
+20210320|lottofacile1|GE,VE|6|0|ambata:30;ambo:30-32;ambo:23-30;terzina:23-30-32|pos 2-5 somma 58|
+20210323|ambosecco_caotico|BA,TO,RM|2|1|ambo:7-48;ambo:17-84|A=53 su BA/TO, B=37 su RM|
+20210323|ambosecco_caotico|FI,VE,PA|2|1|ambo:3-57;ambo:67-89|A=3 su FI/VE, B=87 su PA|
+20210323|ambosecco_caotico|FI,NA,VE|2|1|ambo:12-47;ambo:57-88|A=13 su FI/NA, B=77 su VE|
+20210323|lottofacile5|CA|9|0|ambata:63;ambo:12-63;ambo:57-63;quartina:12-42-63-72;quartina:27-57-63-87|rilevamento 39-84|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210323|lottofacile1|BA,GE|6|0|ambata:68;ambo:68-75;ambo:57-68;terzina:57-68-75|pos 2-3 somma 15|
+20210323|lottofacile1|FI,RM|6|0|ambata:78;ambo:59-78;ambo:55-78;terzina:55-59-78|pos 2-5 somma 31|
+20210323|lottofacile1|MI,NA|6|0|ambata:26;ambo:4-26;ambo:26-40;terzina:4-26-40|pos 2-5 somma 86|
+20210323|lottofacile1|MI,VE|6|0|ambata:18;ambo:18-49;ambo:18-44;terzina:18-44-49|pos 2-3 somma 41|
+20210323|lottofacile1|NA,TO|6|0|ambata:46;ambo:46-67;ambo:46-76;terzina:46-67-76|pos 1-5 somma 23|
+20210325|ambosecco_caotico|BA,FI,GE|2|1|ambo:40-45;ambo:40-85|A=50 su BA/FI, B=40 su GE|
+20210325|lottofacile5|MI|9|0|ambata:18;ambata:63;ambo:12-18;ambo:18-57;ambo:12-63;ambo:57-63;quartina:12-18-42-72;quartina:18-27-57-87;quartina:12-42-63-72;quartina:27-57-63-87|rilevamento 9-54|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210325|lottofacile1|BA,FI|6|0|ambata:36;ambo:36-75;ambo:36-57;terzina:36-57-75|pos 1-2 somma 15|
+20210325|lottofacile4|CA,RM|14|1|ambata:39;ambo:39-84;ambo:39-69;ambo:9-39;terzina:9-69-84|pos 3-5 diagonale|
+20210325|lottofacile1|CA,RM|6|0|ambata:8;ambo:8-69;ambo:8-66;terzina:8-66-69|pos 3-5 somma 21|
+20210325|lottofacile4|FI,PA|14|1|ambata:81;ambo:36-81;ambo:21-81;ambo:51-81;terzina:21-36-51|pos 1-5 diagonale|
+20210325|lottofacile1|FI,VE|6|0|ambata:70;ambo:31-70;ambo:13-70;terzina:13-31-70|pos 2-3 somma 59|
+20210325|lottofacile1|NA,PA|6|0|ambata:72;ambo:21-72;ambo:12-72;terzina:12-21-72|pos 1-5 somma 69|
+20210325|lottofacile1|NA,RM|6|0|ambata:12;ambo:12-80;ambo:8-12;terzina:8-12-80|pos 2-3 somma 10|
+20210327|ambosecco_caotico|CA,TO,RM|2|1|ambo:42-61;ambo:42-83|A=68 su CA/TO, B=22 su RM|
+20210327|ambosecco_caotico|RM,VE,BA|2|1|ambo:13-36;ambo:46-88|A=14 su RM/VE, B=76 su BA|
+20210327|lottofacile1|BA,CA|6|0|ambata:84;ambo:22-84;ambo:29-84;terzina:22-29-84|pos 1-2 somma 68|
+20210327|lottofacile1|CA,GE|6|0|ambata:90;ambo:70-90;ambo:7-90;terzina:7-70-90|pos 1-4 somma 20|
+20210327|lottofacile1|CA,GE|6|0|ambata:2;ambo:2-11;ambo:2-19;terzina:2-11-19|pos 2-5 somma 79|
+20210327|lottofacile1|CA,TO|6|0|ambata:30;ambo:7-30;ambo:30-70;terzina:7-30-70|pos 3-4 somma 83|
+20210327|lottofacile1|FI,NA|6|0|ambata:52;ambo:52-71;ambo:17-52;terzina:17-52-71|pos 4-5 somma 19|
+20210327|fulmine|MI,TO|12|0|ambata:80;ambo:30-80;ambo:20-80;ambo:70-80;quartina:20-30-70-80|cadenza, coppie ((80, 20), (30, 70))|
+20210327|lottofacile1|PA,TO|6|0|ambata:46;ambo:42-46;ambo:24-46;terzina:24-42-46|pos 4-5 somma 48|
+20210330|ambosecco_caotico|FI,VE,CA|2|1|ambo:17-39;ambo:27-85|A=43 su FI/VE, B=47 su CA|
+20210330|ambosecco_caotico|GE,PA,FI|2|1|ambo:19-59;ambo:69-87|A=21 su GE/PA, B=69 su FI|
+20210330|lottofacile5|GE|9|0|ambata:54;ambo:54-60;ambo:15-54;quartina:30-54-60-90;quartina:15-45-54-75|rilevamento 21-66|
+20210330|lottofacile5|RM|9|0|ambata:6;ambata:51;ambo:6-64;ambo:6-19;ambo:51-64;ambo:19-51;quartina:4-6-34-64;quartina:6-19-49-79;quartina:4-34-51-64;quartina:19-49-51-79|rilevamento 5-50|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210330|lottofacile1|CA,VE|6|0|ambata:22;ambo:22-83;ambo:22-38;terzina:22-38-83|pos 1-2 somma 7|
+20210330|lottofacile1|FI,GE|6|0|ambata:42;ambo:14-42;ambo:41-42;terzina:14-41-42|pos 1-3 somma 76|
+20210330|lottofacile1|GE,PA|6|0|ambata:44;ambo:44-55;ambo:44-59;terzina:44-55-59|pos 1-5 somma 35|
+20210330|lottofacile1|GE,VE|6|0|ambata:82;ambo:10-82;ambo:1-82;terzina:1-10-82|pos 2-5 somma 80|
+20210330|lottofacile1|GE,VE|6|0|ambata:86;ambo:8-86;ambo:80-86;terzina:8-80-86|pos 4-5 somma 82|
+20210330|lottofacile1|MI,TO|6|0|ambata:62;ambo:32-62;ambo:23-62;terzina:23-32-62|pos 2-5 somma 58|
+20210401|ambosecco_caotico|CA,NA,RM|2|1|ambo:52-52;ambo:52-84|A=58 su CA/NA, B=32 su RM|
+20210401|ambosecco_caotico|CA,NA,MI|2|1|ambo:42-73;ambo:73-85|A=47 su CA/NA, B=43 su MI|
+20210401|lottofacile1|BA,CA|6|0|ambata:26;ambo:9-26;ambo:26-90;terzina:9-26-90|pos 1-4 somma 81|
+20210401|lottofacile1|CA,GE|6|0|ambata:60;ambo:52-60;ambo:25-60;terzina:25-52-60|pos 1-5 somma 38|
+20210401|lottofacile1|CA,MI|6|0|ambata:70;ambo:44-70;ambo:49-70;terzina:44-49-70|pos 2-3 somma 46|
+20210401|lottofacile1|FI,VE|6|0|ambata:68;ambo:48-68;ambo:68-84;terzina:48-68-84|pos 3-5 somma 42|
+20210401|lottofacile1|NA,RM|6|0|ambata:66;ambo:42-66;ambo:24-66;terzina:24-42-66|pos 1-3 somma 48|
+20210401|lottofacile1|PA,TO|6|0|ambata:66;ambo:16-66;ambo:61-66;terzina:16-61-66|pos 2-5 somma 74|
+20210403|ambosecco_caotico|BA,MI,VE,PA|2|1|ambo:14-25;ambo:35-88|A=15 su BA/MI/VE, B=75 su PA|
+20210403|ambosecco_caotico|CA,VE,FI,RM|2|1|ambo:35-61;ambo:61-86|A=39 su CA/VE, B=51 su FI/RM|
+20210403|ambosecco_caotico|FI,RM,CA,VE|2|1|ambo:29-46;ambo:39-84|A=51 su FI/RM, B=39 su CA/VE|
+20210403|lottofacile5|NA|9|0|ambata:78;ambo:73-78;ambo:28-78;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 41-86|
+20210403|lottofacile1|BA,NA|6|0|ambata:82;ambo:53-82;ambo:35-82;terzina:35-53-82|pos 2-3 somma 37|
+20210403|lottofacile1|CA,RM|6|0|ambata:74;ambo:74-84;ambo:48-74;terzina:48-74-84|pos 3-4 somma 6|
+20210403|lottofacile1|GE,PA|6|0|ambata:60;ambo:60-78;ambo:60-87;terzina:60-78-87|pos 1-4 somma 12|
+20210403|lottofacile1|GE,TO|6|0|ambata:34;ambo:34-36;ambo:34-63;terzina:34-36-63|pos 2-5 somma 54|
+20210403|lottofacile1|MI,RM|6|0|ambata:12;ambo:2-12;ambo:12-20;terzina:2-12-20|pos 1-3 somma 88|
+20210406|ambosecco_caotico|MI,VE,RM|2|1|ambo:10-69;ambo:79-88|A=11 su MI/VE, B=79 su RM|
+20210406|lottofacile5|TO|9|0|ambata:78;ambata:33;ambo:58-78;ambo:13-78;ambo:33-58;ambo:13-33;quartina:28-58-78-88;quartina:13-43-73-78;quartina:28-33-58-88;quartina:13-33-43-73|rilevamento 29-74|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210406|lottofacile1|BA,MI|6|0|ambata:64;ambo:64-89;ambo:64-88;terzina:64-88-89|pos 1-3 somma 1|
+20210406|fulmine|CA,MI|12|0|ambata:51;ambo:41-51;ambo:21-51;ambo:11-51;quartina:11-21-41-51|cadenza, coppie ((51, 11), (41, 21))|
+20210406|fulmine|CA,VE|12|0|ambata:51;ambo:41-51;ambo:1-51;ambo:11-51;quartina:1-11-41-51|cadenza, coppie ((51, 1), (41, 11))|
+20210406|fulmine|CA,VE|12|0|ambata:51;ambo:41-51;ambo:21-51;ambo:11-51;quartina:11-21-41-51|cadenza, coppie ((51, 11), (41, 21))|
+20210406|lottofacile1|FI,RM|6|0|ambata:82;ambo:60-82;ambo:6-82;terzina:6-60-82|pos 2-3 somma 30|
+20210406|lottofacile1|GE,MI|6|0|ambata:64;ambo:64-76;ambo:64-67;terzina:64-67-76|pos 1-4 somma 14|
+20210406|lottofacile1|NA,TO|6|0|ambata:46;ambo:46-83;ambo:38-46;terzina:38-46-83|pos 1-3 somma 7|
+20210408|ambosecco_caotico|BA,MI,RM|2|1|ambo:51-63;ambo:63-84|A=57 su BA/MI, B=33 su RM|
+20210408|ambosecco_caotico|FI,PA,GE,VE|2|1|ambo:11-58;ambo:68-88|A=12 su FI/PA, B=78 su GE/VE|
+20210408|ambosecco_caotico|GE,VE,FI,PA|2|1|ambo:32-70;ambo:32-82|A=78 su GE/VE, B=12 su FI/PA|
+20210408|ambosecco_caotico|NA,PA,RM,VE|2|1|ambo:50-74;ambo:74-84|A=56 su NA/PA, B=34 su RM/VE|
+20210408|ambosecco_caotico|RM,VE,NA,PA|2|1|ambo:16-31;ambo:26-86|A=34 su RM/VE, B=56 su NA/PA|
+20210408|lottofacile5|PA|9|0|ambata:78;ambo:13-78;ambo:58-78;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 11-56|
+20210408|lottofacile5|TO|9|0|ambata:60;ambata:15;ambo:60-82;ambo:37-60;ambo:15-82;ambo:15-37;quartina:22-52-60-82;quartina:7-37-60-67;quartina:15-22-52-82;quartina:7-15-37-67|rilevamento 23-68|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210408|fulmine|CA,GE|12|0|ambata:81;ambo:54-81;ambo:45-81;ambo:72-81;quartina:45-54-72-81|figura, coppie ((81, 45), (54, 72))|
+20210408|lottofacile4|FI,GE|14|1|ambata:3;ambo:3-48;ambo:3-33;ambo:3-63;terzina:33-48-63|pos 4-5 diagonale|
+20210408|lottofacile1|FI,PA|6|0|ambata:22;ambo:22-22;ambo:22-29|pos 2-3 somma 68|
+20210408|lottofacile1|GE,NA|6|0|ambata:14;ambo:14-14;ambo:14-41|pos 2-4 somma 76|
+20210410|ambosecco_caotico|NA,VE,CA|2|1|ambo:20-63;ambo:20-83|A=70 su NA/VE, B=20 su CA|
+20210410|lottofacile5|BA|9|0|ambata:78;ambo:13-78;ambo:58-78;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 11-56|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210410|lottofacile1|BA,PA|6|0|ambata:88;ambo:6-88;ambo:60-88;terzina:6-60-88|pos 3-4 somma 84|
+20210410|lottofacile1|BA,RM|6|0|ambata:60;ambo:58-60;ambo:60-85;terzina:58-60-85|pos 1-3 somma 32|
+20210410|lottofacile1|FI,GE|6|0|ambata:84;ambo:22-84;ambo:29-84;terzina:22-29-84|pos 1-5 somma 68|
+20210410|lottofacile4|FI,TO|14|1|ambata:63;ambo:18-63;ambo:3-63;ambo:33-63;terzina:3-18-33|pos 1-4 orizzontale|
+20210410|lottofacile1|FI,VE|6|0|ambata:50;ambo:50-78;ambo:50-87;terzina:50-78-87|pos 1-4 somma 12|
+20210410|lottofacile1|GE,NA|6|0|ambata:50;ambo:50-53;ambo:35-50;terzina:35-50-53|pos 1-3 somma 37|
+20210410|fulmine|MI,NA|12|0|ambata:90;ambo:80-90;ambo:60-90;ambo:70-90;quartina:60-70-80-90|cadenza, coppie ((80, 70), (60, 90))|
+20210413|ambosecco_caotico|BA,FI,CA,NA,PA,TO|2|1|ambo:11-58;ambo:68-88|A=12 su BA/FI, B=78 su CA/NA/PA/TO|
+20210413|ambosecco_caotico|BA,GE,RM|2|1|ambo:43-62;ambo:62-85|A=48 su BA/GE, B=42 su RM|
+20210413|ambosecco_caotico|CA,NA,PA,TO,BA,FI|2|1|ambo:32-70;ambo:32-82|A=78 su CA/NA/PA/TO, B=12 su BA/FI|
+20210413|ambosecco_caotico|FI,PA,MI,TO|2|1|ambo:65-67;ambo:65-82|A=75 su FI/PA, B=15 su MI/TO|
+20210413|ambosecco_caotico|MI,TO,FI,PA|2|1|ambo:14-25;ambo:35-88|A=15 su MI/TO, B=75 su FI/PA|
+20210413|ambosecco_caotico|PA,VE,MI|2|1|ambo:20-48;ambo:58-87|A=22 su PA/VE, B=68 su MI|
+20210413|lottofacile4|BA,CA|14|1|ambata:43;ambo:43-88;ambo:43-73;ambo:13-43;terzina:13-73-88|pos 4-5 verticale|
+20210413|lottofacile1|BA,CA|6|0|ambata:66;ambo:66-68;ambo:66-86;terzina:66-68-86|pos 4-5 somma 22|
+20210413|lottofacile4|CA,GE|14|1|ambata:5;ambo:5-50;ambo:5-35;ambo:5-65;terzina:35-50-65|pos 2-4 diagonale|
+20210413|lottofacile1|CA,GE|6|0|ambata:6;ambo:6-55;ambo:6-59;terzina:6-55-59|pos 2-4 somma 35|
+20210413|lottofacile1|CA,VE|6|0|ambata:74;ambo:37-74;ambo:73-74;terzina:37-73-74|pos 3-5 somma 53|
+20210413|lottofacile1|MI,VE|6|0|ambata:2;ambo:2-7;ambo:2-70;terzina:2-7-70|pos 1-3 somma 83|
+20210413|lottofacile4|PA,VE|14|1|ambata:17;ambo:17-62;ambo:17-47;ambo:17-77;terzina:47-62-77|pos 1-5 orizzontale|
+20210415|ambosecco_caotico|BA,NA,FI|2|1|ambo:6-24;ambo:34-89|A=6 su BA/NA, B=84 su FI|
+20210415|ambosecco_caotico|CA,NA,TO|2|1|ambo:65-87;ambo:82-87|A=73 su CA/NA, B=17 su TO|
+20210415|ambosecco_caotico|CA,TO,PA|2|1|ambo:54-68;ambo:54-82|A=76 su CA/TO, B=14 su PA|
+20210415|ambosecco_caotico|CA,FI,MI|2|1|ambo:14-25;ambo:35-88|A=15 su CA/FI, B=75 su MI|
+20210415|ambosecco_caotico|FI,NA,BA|2|1|ambo:66-75;ambo:66-81|A=84 su FI/NA, B=6 su BA|
+20210415|lottofacile5|BA|9|0|ambata:9;ambo:9-75;ambo:9-30;quartina:9-15-45-75;quartina:9-30-60-90|rilevamento 6-51|
+20210415|lottofacile1|BA,FI|6|0|ambata:36;ambo:33-36;ambo:36-39;terzina:33-36-39|pos 4-5 somma 57|
+20210415|lottofacile4|BA,RM|14|1|ambata:15;ambo:15-60;ambo:15-45;ambo:15-75;terzina:45-60-75|pos 1-3 orizzontale|
+20210415|lottofacile1|BA,TO|6|0|ambata:34;ambo:33-34;ambo:34-39;terzina:33-34-39|pos 4-5 somma 57|
+20210415|lottofacile1|BA,VE|6|0|ambata:50;ambo:28-50;ambo:50-82;terzina:28-50-82|pos 3-5 somma 62|
+20210415|lottofacile1|FI,MI|6|0|ambata:52;ambo:52-79;ambo:52-77;terzina:52-77-79|pos 1-3 somma 11|
+20210415|lottofacile1|FI,NA|6|0|ambata:68;ambo:12-68;ambo:21-68;terzina:12-21-68|pos 2-4 somma 78|
+20210415|lottofacile1|FI,TO|6|0|ambata:34;ambo:33-34;ambo:34-39;terzina:33-34-39|pos 4-5 somma 57|
+20210415|lottofacile1|RM,TO|6|0|ambata:90;ambo:49-90;ambo:44-90;terzina:44-49-90|pos 2-3 somma 41|
+20210417|ambosecco_caotico|BA,MI,TO,RM|2|1|ambo:29-38;ambo:48-86|A=32 su BA/MI/TO, B=58 su RM|
+20210417|ambosecco_caotico|GE,NA,RM|2|1|ambo:6-40;ambo:16-85|A=44 su GE/NA, B=46 su RM|
+20210417|lottofacile1|BA,MI|6|0|ambata:44;ambo:44-80;ambo:8-44;terzina:8-44-80|pos 1-3 somma 10|
+20210417|lottofacile1|GE,MI|6|0|ambata:86;ambo:60-86;ambo:6-86;terzina:6-60-86|pos 2-5 somma 30|
+20210417|lottofacile1|GE,PA|6|0|ambata:30;ambo:16-30;ambo:30-61;terzina:16-30-61|pos 1-2 somma 74|
+20210417|lottofacile1|NA,RM|6|0|ambata:2;ambo:2-56;ambo:2-65;terzina:2-56-65|pos 1-4 somma 34|
+20210417|lottofacile1|NA,VE|6|0|ambata:72;ambo:5-72;ambo:50-72;terzina:5-50-72|pos 1-2 somma 85|
+20210417|lottofacile1|RM,TO|6|0|ambata:18;ambo:18-66;ambo:18-69;terzina:18-66-69|pos 1-2 somma 24|
+20210420|ambosecco_caotico|CA,VE,NA,PA|2|1|ambo:10-72;ambo:10-82|A=80 su CA/VE, B=10 su NA/PA|
+20210420|ambosecco_caotico|NA,PA,CA,VE|2|1|ambo:9-80;ambo:80-89|A=10 su NA/PA, B=80 su CA/VE|
+20210420|ambosecco_caotico|NA,RM,VE|2|1|ambo:31-62;ambo:31-83|A=69 su NA/RM, B=21 su VE|
+20210420|ambosecco_caotico|PA,TO,GE|2|1|ambo:17-39;ambo:27-85|A=43 su PA/TO, B=47 su GE|
+20210420|ambosecco_caotico|RM,VE,NA|2|1|ambo:19-59;ambo:69-87|A=21 su RM/VE, B=69 su NA|
+20210420|lottofacile1|BA,NA|6|0|ambata:20;ambo:3-20;ambo:20-30;terzina:3-20-30|pos 3-5 somma 87|
+20210420|lottofacile1|GE,NA|6|0|ambata:88;ambo:81-88;ambo:18-88;terzina:18-81-88|pos 1-3 somma 9|
+20210420|lottofacile1|GE,PA|6|0|ambata:86;ambo:37-86;ambo:73-86;terzina:37-73-86|pos 2-5 somma 53|
+20210420|lottofacile1|GE,TO|6|0|ambata:78;ambo:8-78;ambo:78-80;terzina:8-78-80|pos 1-2 somma 82|
+20210420|lottofacile1|RM,VE|6|0|ambata:6;ambo:6-52;ambo:6-25;terzina:6-25-52|pos 3-5 somma 38|
+20210420|fulmine|RM,VE|12|0|ambata:57;ambo:21-57;ambo:48-57;ambo:12-57;quartina:12-21-48-57|figura, coppie ((57, 12), (21, 48))|
+20210420|fulmine|TO,VE|12|0|ambata:66;ambo:39-66;ambo:21-66;ambo:48-66;quartina:21-39-48-66|figura, coppie ((39, 48), (66, 21))|
+20210422|ambosecco_caotico|BA,FI,CA|2|1|ambo:19-59;ambo:69-87|A=21 su BA/FI, B=69 su CA|
+20210422|ambosecco_caotico|CA,RM,NA|2|1|ambo:19-55;ambo:29-83|A=61 su CA/RM, B=29 su NA|
+20210422|ambosecco_caotico|NA,VE,RM,TO|2|1|ambo:21-37;ambo:47-87|A=23 su NA/VE, B=67 su RM/TO|
+20210422|ambosecco_caotico|NA,TO,MI|2|1|ambo:4-24;ambo:14-87|A=26 su NA/TO, B=64 su MI|
+20210422|ambosecco_caotico|NA,RM,FI|2|1|ambo:22-26;ambo:36-87|A=24 su NA/RM, B=66 su FI|
+20210422|ambosecco_caotico|RM,TO,NA,VE|2|1|ambo:53-60;ambo:53-83|A=67 su RM/TO, B=23 su NA/VE|
+20210422|lottofacile5|BA|9|0|ambata:6;ambata:51;ambo:6-85;ambo:6-40;ambo:51-85;ambo:40-51;quartina:6-25-55-85;quartina:6-10-40-70;quartina:25-51-55-85;quartina:10-40-51-70|rilevamento 2-47|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210422|lottofacile5|FI|9|0|ambata:9;ambo:9-60;ambo:9-15;quartina:9-30-60-90;quartina:9-15-45-75|rilevamento 21-66|
+20210422|lottofacile5|TO|9|0|ambata:78;ambata:33;ambo:43-78;ambo:78-88;ambo:33-43;ambo:33-88;quartina:13-43-73-78;quartina:28-58-78-88;quartina:13-33-43-73;quartina:28-33-58-88|rilevamento 26-71|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210422|lottofacile5|VE|9|0|ambata:36;ambata:81;ambo:36-54;ambo:9-36;ambo:54-81;ambo:9-81;quartina:24-36-54-84;quartina:9-36-39-69;quartina:24-54-81-84;quartina:9-39-69-81|rilevamento 45-90|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210422|lottofacile1|BA,GE|6|0|ambata:4;ambo:4-73;ambo:4-37;terzina:4-37-73|pos 1-5 somma 17|
+20210422|lottofacile1|BA,TO|6|0|ambata:2;ambo:2-22;ambo:2-29;terzina:2-22-29|pos 1-4 somma 68|
+20210422|lottofacile1|BA,VE|6|0|ambata:46;ambo:22-46;ambo:29-46;terzina:22-29-46|pos 1-4 somma 68|
+20210422|lottofacile1|CA,FI|6|0|ambata:42;ambo:42-63;ambo:36-42;terzina:36-42-63|pos 1-5 somma 27|
+20210422|lottofacile1|CA,FI|6|0|ambata:6;ambo:6-12;ambo:6-21;terzina:6-12-21|pos 2-3 somma 78|
+20210422|lottofacile1|FI,MI|6|0|ambata:64;ambo:64-84;ambo:48-64;terzina:48-64-84|pos 3-4 somma 6|
+20210422|fulmine|FI,PA|12|0|ambata:48;ambo:3-48;ambo:21-48;ambo:30-48;quartina:3-21-30-48|figura, coppie ((3, 48), (21, 30))|
+20210422|lottofacile1|GE,MI|6|0|ambata:50;ambo:15-50;ambo:50-51;terzina:15-50-51|pos 1-2 somma 75|
+20210422|lottofacile4|NA,VE|14|1|ambata:65;ambo:20-65;ambo:5-65;ambo:35-65;terzina:5-20-35|pos 2-3 verticale|
+20210422|lottofacile1|NA,VE|6|0|ambata:82;ambo:40-82;ambo:4-82;terzina:4-40-82|pos 2-3 somma 50|
+20210422|lottofacile1|RM,TO|6|0|ambata:2;ambo:2-63;ambo:2-36;terzina:2-36-63|pos 1-3 somma 27|
+20210422|lottofacile1|TO,VE|6|0|ambata:46;ambo:22-46;ambo:29-46;terzina:22-29-46|pos 1-4 somma 68|
+20210424|ambosecco_caotico|BA,PA,FI,GE|2|1|ambo:9-80;ambo:80-89|A=10 su BA/PA, B=80 su FI/GE|
+20210424|ambosecco_caotico|FI,GE,BA,PA|2|1|ambo:10-72;ambo:10-82|A=80 su FI/GE, B=10 su BA/PA|
+20210424|lottofacile5|CA|9|0|ambata:78;ambata:33;ambo:43-78;ambo:78-88;ambo:33-43;ambo:33-88;quartina:13-43-73-78;quartina:28-58-78-88;quartina:13-33-43-73;quartina:28-33-58-88|rilevamento 26-71|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210424|lottofacile4|CA,FI|14|1|ambata:25;ambo:25-70;ambo:25-55;ambo:25-85;terzina:55-70-85|pos 1-4 orizzontale|
+20210424|lottofacile1|CA,FI|6|0|ambata:90;ambo:83-90;ambo:38-90;terzina:38-83-90|pos 2-3 somma 7|
+20210424|lottofacile1|CA,PA|6|0|ambata:76;ambo:54-76;ambo:45-76;terzina:45-54-76|pos 4-5 somma 36|
+20210424|lottofacile4|NA,PA|14|1|ambata:31;ambo:31-76;ambo:31-61;ambo:1-31;terzina:1-61-76|pos 3-5 orizzontale|
+20210424|lottofacile1|NA,PA|6|0|ambata:20;ambo:7-20;ambo:20-70;terzina:7-20-70|pos 1-3 somma 83|
+20210424|lottofacile1|NA,TO|6|0|ambata:52;ambo:52-65;ambo:52-56;terzina:52-56-65|pos 1-4 somma 25|
+20210424|lottofacile1|RM,TO|6|0|ambata:72;ambo:53-72;ambo:35-72;terzina:35-53-72|pos 2-3 somma 37|
+20210427|ambosecco_caotico|CA,PA,BA|2|1|ambo:16-31;ambo:26-86|A=34 su CA/PA, B=56 su BA|
+20210427|ambosecco_caotico|FI,PA,NA|2|1|ambo:20-63;ambo:20-83|A=70 su FI/PA, B=20 su NA|
+20210429|ambosecco_caotico|BA,FI,RM,GE|2|1|ambo:9-80;ambo:80-89|A=10 su BA/FI/RM, B=80 su GE|
+20210429|ambosecco_caotico|CA,MI,PA|2|1|ambo:54-68;ambo:54-82|A=76 su CA/MI, B=14 su PA|
+20210429|ambosecco_caotico|CA,FI,MI|2|1|ambo:59-64;ambo:64-83|A=66 su CA/FI, B=24 su MI|
+20210429|ambosecco_caotico|CA,MI,FI|2|1|ambo:22-26;ambo:36-87|A=24 su CA/MI, B=66 su FI|
+20210429|lottofacile5|CA|9|0|ambata:72;ambo:39-72;ambo:72-84;quartina:9-39-69-72;quartina:24-54-72-84|rilevamento 24-69|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210429|lottofacile5|GE|9|0|ambata:6;ambata:51;ambo:6-34;ambo:6-79;ambo:34-51;ambo:51-79;quartina:4-6-34-64;quartina:6-19-49-79;quartina:4-34-51-64;quartina:19-49-51-79|rilevamento 35-80|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210429|lottofacile1|BA,CA|6|0|ambata:62;ambo:62-80;ambo:8-62;terzina:8-62-80|pos 3-5 somma 10|
+20210429|lottofacile1|BA,GE|6|0|ambata:70;ambo:29-70;ambo:22-70;terzina:22-29-70|pos 4-5 somma 61|
+20210429|lottofacile1|BA,MI|6|0|ambata:62;ambo:62-80;ambo:8-62;terzina:8-62-80|pos 3-5 somma 10|
+20210429|lottofacile1|BA,NA|6|0|ambata:60;ambo:42-60;ambo:24-60;terzina:24-42-60|pos 1-5 somma 48|
+20210429|lottofacile1|CA,FI|6|0|ambata:86;ambo:37-86;ambo:73-86;terzina:37-73-86|pos 2-3 somma 53|
+20210429|lottofacile1|CA,MI|6|0|ambata:62;ambo:62-80;ambo:8-62;terzina:8-62-80|pos 3-5 somma 10|
+20210429|lottofacile1|CA,NA|6|0|ambata:56;ambo:38-56;ambo:56-83;terzina:38-56-83|pos 3-4 somma 52|
+20210429|lottofacile1|CA,TO|6|0|ambata:32;ambo:32-38;ambo:32-83;terzina:32-38-83|pos 3-4 somma 52|
+20210429|lottofacile1|GE,MI|6|0|ambata:36;ambo:36-86;ambo:36-68;terzina:36-68-86|pos 1-3 somma 4|
+20210429|lottofacile1|GE,MI|6|0|ambata:62;ambo:62-88;ambo:62-89;terzina:62-88-89|pos 3-4 somma 2|
+20210429|lottofacile1|GE,NA|6|0|ambata:2;ambo:2-65;ambo:2-56;terzina:2-56-65|pos 2-4 somma 25|
+20210429|lottofacile1|GE,PA|6|0|ambata:52;ambo:27-52;ambo:52-72;terzina:27-52-72|pos 1-5 somma 63|
+20210429|lottofacile1|GE,RM|6|0|ambata:56;ambo:56-63;ambo:36-56;terzina:36-56-63|pos 1-2 somma 27|
+20210429|lottofacile4|MI,VE|14|1|ambata:11;ambo:11-56;ambo:11-41;ambo:11-71;terzina:41-56-71|pos 3-4 orizzontale|
+20210429|lottofacile1|NA,TO|6|0|ambata:32;ambo:32-38;ambo:32-83;terzina:32-38-83|pos 3-4 somma 52|
+20210429|lottofacile1|PA,RM|6|0|ambata:20;ambo:20-84;ambo:20-48;terzina:20-48-84|pos 3-5 somma 6|
+20210429|lottofacile1|PA,VE|6|0|ambata:40;ambo:2-40;ambo:20-40;terzina:2-20-40|pos 1-2 somma 88|
+20210503|ambosecco_caotico|CA,FI,VE,PA|2|1|ambo:40-45;ambo:40-85|A=50 su CA/FI/VE, B=40 su PA|
+20210503|lottofacile5|FI|9|0|ambata:51;ambo:51-64;ambo:19-51;quartina:4-34-51-64;quartina:19-49-51-79|rilevamento 5-50|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210503|lottofacile5|MI|9|0|ambata:27;ambo:27-51;ambo:6-27;quartina:21-27-51-81;quartina:6-27-36-66|rilevamento 12-57|
+20210503|lottofacile1|BA,FI|6|0|ambata:50;ambo:50-60;ambo:6-50;terzina:6-50-60|pos 1-3 somma 30|
+20210503|lottofacile1|CA,TO|6|0|ambata:8;ambo:8-35;ambo:8-53;terzina:8-35-53|pos 1-5 somma 55|
+20210503|lottofacile1|FI,GE|6|0|ambata:34;ambo:34-35;ambo:34-53;terzina:34-35-53|pos 3-4 somma 55|
+20210503|lottofacile1|FI,RM|6|0|ambata:76;ambo:38-76;ambo:76-83;terzina:38-76-83|pos 3-5 somma 52|
+20210503|lottofacile1|GE,MI|6|0|ambata:24;ambo:2-24;ambo:20-24;terzina:2-20-24|pos 2-3 somma 88|
+20210503|unsoloambosecco|GE,VE|4|1|ambo:22-44|S=22 su|23, 29, 50, 62, 83, 89
+20210503|unsoloambosecco|GE,VE|4|1|ambo:25-50|S=25 su|2, 23, 26, 29, 86, 89
+20210503|lottofacile4|MI,PA|14|1|ambata:87;ambo:42-87;ambo:27-87;ambo:57-87;terzina:27-42-57|pos 1-4 verticale|
+20210503|lottofacile1|NA,TO|6|0|ambata:46;ambo:46-61;ambo:16-46;terzina:16-46-61|pos 4-5 somma 29|
+20210503|fulmine|NA,VE|12|0|ambata:83;ambo:56-83;ambo:29-83;ambo:2-83;quartina:2-29-56-83|figura, coppie ((83, 2), (56, 29))|
+20210504|ambosecco_caotico|BA,GE,PA|2|1|ambo:57-86;ambo:83-86|A=64 su BA/GE, B=26 su PA|
+20210504|ambosecco_caotico|MI,NA,TO,GE|2|1|ambo:7-48;ambo:17-84|A=53 su MI/NA/TO, B=37 su GE|
+20210504|ambosecco_caotico|NA,TO,FI|2|1|ambo:21-71;ambo:21-82|A=79 su NA/TO, B=11 su FI|
+20210504|ambosecco_caotico|PA,RM,CA|2|1|ambo:58-75;ambo:75-83|A=65 su PA/RM, B=25 su CA|
+20210504|lottofacile5|MI|9|0|ambata:45;ambo:42-45;ambo:45-87;quartina:12-42-45-72;quartina:27-45-57-87|rilevamento 3-48|
+20210504|unsoloambosecco|CA,GE|4|1|ambo:34-62|S=62 su|25, 37, 64, 67, 85, 88
+20210504|lottofacile1|CA,NA|6|0|ambata:16;ambo:16-48;ambo:16-84;terzina:16-48-84|pos 1-2 somma 42|
+20210504|lottofacile1|FI,RM|6|0|ambata:62;ambo:19-62;ambo:11-62;terzina:11-19-62|pos 1-4 somma 71|
+20210504|lottofacile4|GE,VE|14|1|ambata:5;ambo:5-50;ambo:5-35;ambo:5-65;terzina:35-50-65|pos 1-2 orizzontale|
+20210504|lottofacile1|MI,PA|6|0|ambata:40;ambo:39-40;ambo:33-40;terzina:33-39-40|pos 4-5 somma 51|
+20210506|ambosecco_caotico|FI,GE,BA|2|1|ambo:34-72;ambo:72-86|A=38 su FI/GE, B=52 su BA|
+20210506|lottofacile5|FI|9|0|ambata:72;ambo:51-72;ambo:6-72;quartina:21-51-72-81;quartina:6-36-66-72|rilevamento 12-57|
+20210506|lottofacile5|PA|9|0|ambata:51;ambo:51-64;ambo:19-51;quartina:4-34-51-64;quartina:19-49-51-79|rilevamento 5-50|
+20210506|lottofacile1|BA,PA|6|0|ambata:50;ambo:50-57;ambo:50-75;terzina:50-57-75|pos 2-4 somma 33|
+20210506|lottofacile1|CA,GE|6|0|ambata:76;ambo:63-76;ambo:36-76;terzina:36-63-76|pos 2-3 somma 27|
+20210506|fulmine|CA,VE|12|0|ambata:81;ambo:41-81;ambo:71-81;ambo:31-81;quartina:31-41-71-81|cadenza, coppie ((81, 31), (41, 71))|
+20210506|fulmine|CA,VE|12|0|ambata:71;ambo:1-71;ambo:41-71;ambo:31-71;quartina:1-31-41-71|cadenza, coppie ((1, 71), (41, 31))|
+20210506|lottofacile1|FI,RM|6|0|ambata:2;ambo:2-42;ambo:2-24;terzina:2-24-42|pos 1-5 somma 48|
+20210506|lottofacile1|GE,PA|6|0|ambata:10;ambo:10-35;ambo:10-53;terzina:10-35-53|pos 3-5 somma 55|
+20210506|lottofacile1|GE,PA|6|0|ambata:16;ambo:16-77;ambo:16-79;terzina:16-77-79|pos 4-5 somma 13|
+20210506|lottofacile4|RM,VE|14|1|ambata:37;ambo:37-82;ambo:37-67;ambo:7-37;terzina:7-67-82|pos 1-3 diagonale|
+20210508|ambosecco_caotico|CA,PA,MI|2|1|ambo:7-48;ambo:17-84|A=53 su CA/PA, B=37 su MI|
+20210508|ambosecco_caotico|FI,NA,TO,MI|2|1|ambo:15-23;ambo:25-87|A=25 su FI/NA/TO, B=65 su MI|
+20210508|ambosecco_caotico|GE,TO,FI|2|1|ambo:27-60;ambo:60-87|A=30 su GE/TO, B=60 su FI|
+20210508|lottofacile1|FI,RM|6|0|ambata:72;ambo:56-72;ambo:65-72;terzina:56-65-72|pos 2-3 somma 34|
+20210508|lottofacile1|PA,VE|6|0|ambata:2;ambo:2-30;ambo:2-3;terzina:2-3-30|pos 1-5 somma 60|
+20210511|ambosecco_caotico|BA,TO,PA|2|1|ambo:65-87;ambo:82-87|A=73 su BA/TO, B=17 su PA|
+20210511|ambosecco_caotico|CA,FI,MI,VE|2|1|ambo:28-49;ambo:59-86|A=31 su CA/FI, B=59 su MI/VE|
+20210511|ambosecco_caotico|GE,VE,NA|2|1|ambo:7-48;ambo:17-84|A=53 su GE/VE, B=37 su NA|
+20210511|ambosecco_caotico|MI,VE,CA,FI|2|1|ambo:41-53;ambo:41-84|A=59 su MI/VE, B=31 su CA/FI|
+20210511|lottofacile5|BA|9|0|ambata:30;ambo:30-47;ambo:2-30;quartina:17-30-47-77;quartina:2-30-32-62|rilevamento 28-73|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210511|lottofacile5|RM|9|0|ambata:36;ambo:36-84;ambo:36-39;quartina:24-36-54-84;quartina:9-36-39-69|rilevamento 15-60|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210511|lottofacile1|BA,CA|6|0|ambata:38;ambo:38-40;ambo:4-38;terzina:4-38-40|pos 1-5 somma 50|
+20210511|lottofacile1|CA,MI|6|0|ambata:18;ambo:18-40;ambo:4-18;terzina:4-18-40|pos 2-4 somma 50|
+20210511|lottofacile4|CA,NA|14|1|ambata:51;ambo:6-51;ambo:51-81;ambo:21-51;terzina:6-21-81|pos 1-4 diagonale|
+20210511|lottofacile1|CA,NA|6|0|ambata:40;ambo:21-40;ambo:12-40;terzina:12-21-40|pos 1-4 somma 69|
+20210511|lottofacile1|GE,PA|6|0|ambata:58;ambo:58-89;ambo:58-88;terzina:58-88-89|pos 1-3 somma 1|
+20210511|lottofacile1|GE,RM|6|0|ambata:56;ambo:11-56;ambo:19-56;terzina:11-19-56|pos 3-4 somma 79|
+20210511|lottofacile1|PA,TO|6|0|ambata:74;ambo:62-74;ambo:26-74;terzina:26-62-74|pos 4-5 somma 28|
+20210513|ambosecco_caotico|FI,MI,NA,GE|2|1|ambo:42-73;ambo:73-85|A=47 su FI/MI/NA, B=43 su GE|
+20210513|lottofacile1|BA,FI|6|0|ambata:26;ambo:26-58;ambo:26-85;terzina:26-58-85|pos 1-4 somma 32|
+20210513|lottofacile1|CA,FI|6|0|ambata:34;ambo:9-34;ambo:34-90;terzina:9-34-90|pos 2-4 somma 81|
+20210513|fulmine|MI,NA|12|0|ambata:89;ambo:80-89;ambo:53-89;ambo:44-89;quartina:44-53-80-89|figura, coppie ((89, 44), (80, 53))|
+20210515|ambosecco_caotico|BA,RM,NA|2|1|ambo:22-79;ambo:22-81|A=88 su BA/RM, B=2 su NA|
+20210515|ambosecco_caotico|CA,MI,TO|2|1|ambo:30-54;ambo:30-84|A=60 su CA/MI, B=30 su TO|
+20210515|ambosecco_caotico|FI,NA,CA|2|1|ambo:44-77;ambo:44-81|A=86 su FI/NA, B=4 su CA|
+20210515|ambosecco_caotico|TO,VE,GE|2|1|ambo:25-82;ambo:82-87|A=28 su TO/VE, B=62 su GE|
+20210515|lottofacile5|BA|9|0|ambata:30;ambo:30-32;ambo:30-77;quartina:2-30-32-62;quartina:17-30-47-77|rilevamento 43-88|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210515|lottofacile5|FI|9|0|ambata:33;ambo:33-73;ambo:28-33;quartina:13-33-43-73;quartina:28-33-58-88|rilevamento 41-86|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210515|lottofacile5|MI|9|0|ambata:36;ambo:36-84;ambo:36-39;quartina:24-36-54-84;quartina:9-36-39-69|rilevamento 15-60|
+20210515|lottofacile1|CA,RM|6|0|ambata:88;ambo:51-88;ambo:15-88;terzina:15-51-88|pos 3-5 somma 39|
+20210515|lottofacile1|MI,VE|6|0|ambata:12;ambo:12-71;ambo:12-17;terzina:12-17-71|pos 2-5 somma 19|
+20210518|ambosecco_caotico|BA,NA,RM|2|1|ambo:17-81;ambo:81-88|A=19 su BA/NA, B=71 su RM|
+20210518|ambosecco_caotico|GE,RM,FI|2|1|ambo:43-69;ambo:43-82|A=77 su GE/RM, B=13 su FI|
+20210518|lottofacile5|GE|9|0|ambata:87;ambata:42;ambo:1-87;ambo:46-87;ambo:1-42;ambo:42-46;quartina:1-31-61-87;quartina:16-46-76-87;quartina:1-31-42-61;quartina:16-42-46-76|rilevamento 32-77|
+20210518|lottofacile5|VE|9|0|ambata:12;ambo:12-89;ambo:12-44;quartina:12-29-59-89;quartina:12-14-44-74|rilevamento 4-49|
+20210518|fulmine|BA,NA|12|0|ambata:46;ambo:19-46;ambo:1-46;ambo:28-46;quartina:1-19-28-46|figura, coppie ((19, 28), (46, 1))|
+20210518|lottofacile1|BA,VE|6|0|ambata:20;ambo:20-85;ambo:20-58;terzina:20-58-85|pos 4-5 somma 5|
+20210518|lottofacile1|CA,TO|6|0|ambata:16;ambo:8-16;ambo:16-80;terzina:8-16-80|pos 2-4 somma 82|
+20210518|lottofacile1|MI,NA|6|0|ambata:56;ambo:38-56;ambo:56-83;terzina:38-56-83|pos 4-5 somma 52|
+20210518|lottofacile1|MI,RM|6|0|ambata:68;ambo:30-68;ambo:3-68;terzina:3-30-68|pos 1-5 somma 60|
+20210518|lottofacile1|RM,VE|6|0|ambata:36;ambo:32-36;ambo:23-36;terzina:23-32-36|pos 3-5 somma 58|
+20210518|lottofacile1|TO,VE|6|0|ambata:8;ambo:8-23;ambo:8-32;terzina:8-23-32|pos 1-3 somma 67|
+20210520|ambosecco_caotico|PA,RM,VE|2|1|ambo:9-64;ambo:19-82|A=71 su PA/RM, B=19 su VE|
+20210520|lottofacile5|NA|9|0|ambata:78;ambo:13-78;ambo:58-78;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 11-56|
+20210520|lottofacile1|BA,MI|6|0|ambata:44;ambo:10-44;ambo:1-44;terzina:1-10-44|pos 1-4 somma 80|
+20210520|lottofacile1|FI,MI|6|0|ambata:14;ambo:14-33;ambo:14-39;terzina:14-33-39|pos 3-5 somma 57|
+20210520|fulmine|MI,TO|12|0|ambata:67;ambo:13-67;ambo:58-67;ambo:4-67;quartina:4-13-58-67|figura, coppie ((67, 4), (13, 58))|
+20210520|lottofacile1|PA,RM|6|0|ambata:90;ambo:55-90;ambo:59-90;terzina:55-59-90|pos 3-4 somma 35|
+20210520|lottofacile1|TO,VE|6|0|ambata:20;ambo:20-30;ambo:3-20;terzina:3-20-30|pos 3-4 somma 60|
+20210522|ambosecco_caotico|BA,PA,TO,CA,MI|2|1|ambo:16-31;ambo:26-86|A=34 su BA/PA/TO, B=56 su CA/MI|
+20210522|ambosecco_caotico|CA,MI,BA,PA,TO|2|1|ambo:50-74;ambo:74-84|A=56 su CA/MI, B=34 su BA/PA/TO|
+20210522|ambosecco_caotico|GE,PA,FI|2|1|ambo:8-56;ambo:18-83|A=62 su GE/PA, B=28 su FI|
+20210522|lottofacile1|BA,NA|6|0|ambata:6;ambo:6-59;ambo:6-55;terzina:6-55-59|pos 4-5 somma 31|
+20210522|lottofacile1|BA,VE|6|0|ambata:16;ambo:16-40;ambo:4-16;terzina:4-16-40|pos 1-3 somma 50|
+20210522|lottofacile1|FI,MI|6|0|ambata:90;ambo:32-90;ambo:23-90;terzina:23-32-90|pos 4-5 somma 58|
+20210522|lottofacile1|FI,VE|6|0|ambata:30;ambo:30-33;ambo:30-39;terzina:30-33-39|pos 2-3 somma 57|
+20210525|ambosecco_caotico|CA,PA,FI|2|1|ambo:40-45;ambo:40-85|A=50 su CA/PA, B=40 su FI|
+20210525|lottofacile5|VE|9|0|ambata:12;ambo:12-56;ambo:11-12;quartina:12-26-56-86;quartina:11-12-41-71|rilevamento 37-82|
+20210525|lottofacile1|BA,PA|6|0|ambata:50;ambo:50-74;ambo:47-50;terzina:47-50-74|pos 1-5 somma 16|
+20210525|lottofacile4|CA,PA|14|1|ambata:71;ambo:26-71;ambo:11-71;ambo:41-71;terzina:11-26-41|pos 3-4 diagonale|
+20210525|lottofacile1|CA,PA|6|0|ambata:48;ambo:48-61;ambo:16-48;terzina:16-48-61|pos 3-4 somma 29|
+20210525|lottofacile1|FI,MI|6|0|ambata:36;ambo:6-36;ambo:36-60;terzina:6-36-60|pos 2-3 somma 84|
+20210525|lottofacile1|FI,NA|6|0|ambata:18;ambo:6-18;ambo:18-60;terzina:6-18-60|pos 2-3 somma 84|
+20210525|lottofacile1|GE,PA|6|0|ambata:50;ambo:41-50;ambo:14-50;terzina:14-41-50|pos 1-3 somma 49|
+20210525|lottofacile1|GE,VE|6|0|ambata:74;ambo:30-74;ambo:3-74;terzina:3-30-74|pos 1-2 somma 60|
+20210525|lottofacile1|MI,NA|6|0|ambata:18;ambo:6-18;ambo:18-60;terzina:6-18-60|pos 2-3 somma 84|
+20210525|fulmine|PA,TO|12|0|ambata:46;ambo:16-46;ambo:36-46;ambo:26-46;quartina:16-26-36-46|cadenza, coppie ((16, 46), (36, 26))|
+20210525|fulmine|PA,TO|12|0|ambata:36;ambo:16-36;ambo:26-36;ambo:6-36;quartina:6-16-26-36|cadenza, coppie ((16, 26), (36, 6))|
+20210525|lottofacile1|RM,TO|6|0|ambata:52;ambo:52-62;ambo:26-52;terzina:26-52-62|pos 1-3 somma 28|
+20210527|ambosecco_caotico|FI,VE,PA,TO|2|1|ambo:54-68;ambo:54-82|A=76 su FI/VE, B=14 su PA/TO|
+20210527|ambosecco_caotico|FI,GE,BA|2|1|ambo:74-77;ambo:77-81|A=83 su FI/GE, B=7 su BA|
+20210527|ambosecco_caotico|FI,VE,BA|2|1|ambo:18-47;ambo:28-84|A=52 su FI/VE, B=38 su BA|
+20210527|ambosecco_caotico|PA,TO,FI,VE|2|1|ambo:13-36;ambo:46-88|A=14 su PA/TO, B=76 su FI/VE|
+20210527|lottofacile1|BA,GE|6|0|ambata:58;ambo:45-58;ambo:54-58;terzina:45-54-58|pos 1-2 somma 45|
+20210527|lottofacile1|BA,GE|6|0|ambata:50;ambo:27-50;ambo:50-72;terzina:27-50-72|pos 3-5 somma 63|
+20210527|lottofacile4|FI,RM|14|1|ambata:25;ambo:25-70;ambo:25-55;ambo:25-85;terzina:55-70-85|pos 1-3 diagonale|
+20210527|lottofacile1|FI,RM|6|0|ambata:48;ambo:5-48;ambo:48-50;terzina:5-48-50|pos 1-3 somma 85|
+20210527|lottofacile1|MI,PA|6|0|ambata:86;ambo:86-86;ambo:68-86|pos 2-5 somma 4|
+20210527|lottofacile1|NA,VE|6|0|ambata:72;ambo:23-72;ambo:32-72;terzina:23-32-72|pos 3-4 somma 67|
+20210527|lottofacile4|PA,VE|14|1|ambata:65;ambo:20-65;ambo:5-65;ambo:35-65;terzina:5-20-35|pos 1-2 verticale|
+20210529|ambosecco_caotico|CA,RM,FI,TO|2|1|ambo:49-85;ambo:84-85|A=55 su CA/RM, B=35 su FI/TO|
+20210529|ambosecco_caotico|FI,TO,CA,RM|2|1|ambo:5-32;ambo:15-86|A=35 su FI/TO, B=55 su CA/RM|
+20210529|ambosecco_caotico|GE,TO,NA|2|1|ambo:18-47;ambo:28-84|A=52 su GE/TO, B=38 su NA|
+20210529|ambosecco_caotico|MI,RM,BA|2|1|ambo:43-69;ambo:43-82|A=77 su MI/RM, B=13 su BA|
+20210529|lottofacile1|BA,FI|6|0|ambata:56;ambo:8-56;ambo:56-80;terzina:8-56-80|pos 2-5 somma 82|
+20210529|lottofacile4|BA,GE|14|1|ambata:19;ambo:19-64;ambo:19-49;ambo:19-79;terzina:49-64-79|pos 1-4 verticale|
+20210529|fulmine|BA,GE|12|0|ambata:53;ambo:13-53;ambo:43-53;ambo:3-53;quartina:3-13-43-53|cadenza, coppie ((13, 43), (53, 3))|
+20210529|lottofacile1|BA,NA|6|0|ambata:18;ambo:14-18;ambo:18-41;terzina:14-18-41|pos 1-4 somma 76|
+20210529|lottofacile1|BA,RM|6|0|ambata:64;ambo:48-64;ambo:64-84;terzina:48-64-84|pos 1-2 somma 42|
+20210529|lottofacile1|CA,VE|6|0|ambata:80;ambo:42-80;ambo:24-80;terzina:24-42-80|pos 1-5 somma 48|
+20210529|lottofacile1|FI,RM|6|0|ambata:64;ambo:64-85;ambo:58-64;terzina:58-64-85|pos 1-5 somma 5|
+20210529|lottofacile1|MI,PA|6|0|ambata:48;ambo:15-48;ambo:48-51;terzina:15-48-51|pos 1-4 somma 75|
+20210529|lottofacile4|NA,TO|14|1|ambata:33;ambo:33-78;ambo:33-63;ambo:3-33;terzina:3-63-78|pos 4-5 verticale|
+20210529|lottofacile1|NA,TO|6|0|ambata:14;ambo:3-14;ambo:14-30;terzina:3-14-30|pos 4-5 somma 87|
+20210601|ambosecco_caotico|GE,RM,FI|2|1|ambo:49-85;ambo:84-85|A=55 su GE/RM, B=35 su FI|
+20210601|lottofacile1|BA,TO|6|0|ambata:26;ambo:21-26;ambo:12-26;terzina:12-21-26|pos 1-5 somma 69|
+20210601|lottofacile1|FI,MI|6|0|ambata:14;ambo:14-78;ambo:14-87;terzina:14-78-87|pos 1-3 somma 12|
+20210601|lottofacile1|PA,RM|6|0|ambata:4;ambo:4-44;ambo:4-49;terzina:4-44-49|pos 2-4 somma 46|
+20210603|ambosecco_caotico|GE,TO,BA|2|1|ambo:4-46;ambo:56-89|A=4 su GE/TO, B=86 su BA|
+20210603|lottofacile1|BA,CA|6|0|ambata:28;ambo:3-28;ambo:28-30;terzina:3-28-30|pos 1-4 somma 87|
+20210603|lottofacile1|CA,MI|6|0|ambata:8;ambo:8-78;ambo:8-87;terzina:8-78-87|pos 2-4 somma 12|
+20210603|lottofacile1|CA,VE|6|0|ambata:24;ambo:24-42;ambo:24-24|pos 3-4 somma 48|
+20210603|lottofacile1|MI,PA|6|0|ambata:58;ambo:57-58;ambo:58-75;terzina:57-58-75|pos 1-3 somma 33|
+20210603|lottofacile1|MI,PA|6|0|ambata:14;ambo:14-83;ambo:14-38;terzina:14-38-83|pos 2-5 somma 7|
+20210603|fulmine|RM,TO|12|0|ambata:90;ambo:50-90;ambo:40-90;ambo:80-90;quartina:40-50-80-90|cadenza, coppie ((90, 40), (50, 80))|
+20210605|ambosecco_caotico|BA,CA,PA,NA|2|1|ambo:58-75;ambo:75-83|A=65 su BA/CA/PA, B=25 su NA|
+20210605|ambosecco_caotico|FI,NA,PA,RM|2|1|ambo:6-24;ambo:34-89|A=6 su FI/NA/PA, B=84 su RM|
+20210605|ambosecco_caotico|FI,RM,NA,PA|2|1|ambo:66-75;ambo:66-81|A=84 su FI/RM, B=6 su NA/PA|
+20210605|ambosecco_caotico|NA,TO,BA|2|1|ambo:10-69;ambo:79-88|A=11 su NA/TO, B=79 su BA|
+20210605|lottofacile5|GE|9|0|ambata:81;ambo:81-84;ambo:39-81;quartina:24-54-81-84;quartina:9-39-69-81|rilevamento 15-60|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210605|lottofacile5|TO|9|0|ambata:21;ambata:66;ambo:21-29;ambo:21-74;ambo:29-66;ambo:66-74;quartina:21-29-59-89;quartina:14-21-44-74;quartina:29-59-66-89;quartina:14-44-66-74|rilevamento 10-55|
+20210605|lottofacile1|CA,RM|6|0|ambata:60;ambo:60-66;ambo:60-69;terzina:60-66-69|pos 3-5 somma 24|
+20210605|lottofacile1|FI,PA|6|0|ambata:40;ambo:2-40;ambo:20-40;terzina:2-20-40|pos 1-2 somma 88|
+20210605|lottofacile1|FI,PA|6|0|ambata:46;ambo:4-46;ambo:40-46;terzina:4-40-46|pos 2-3 somma 86|
+20210605|lottofacile1|MI,RM|6|0|ambata:14;ambo:8-14;ambo:14-80;terzina:8-14-80|pos 1-3 somma 82|
+20210605|lottofacile1|TO,VE|6|0|ambata:46;ambo:46-69;ambo:46-66;terzina:46-66-69|pos 3-5 somma 21|
+20210608|ambosecco_caotico|BA,RM,PA|2|1|ambo:6-24;ambo:34-89|A=6 su BA/RM, B=84 su PA|
+20210608|ambosecco_caotico|FI,VE,TO|2|1|ambo:59-64;ambo:64-83|A=66 su FI/VE, B=24 su TO|
+20210608|lottofacile5|VE|9|0|ambata:6;ambo:6-49;ambo:4-6;quartina:6-19-49-79;quartina:4-6-34-64|rilevamento 20-65|
+20210608|lottofacile5|VE|9|0|ambata:87;ambo:79-87;ambo:34-87;quartina:19-49-79-87;quartina:4-34-64-87|rilevamento 44-89|
+20210608|lottofacile1|BA,FI|6|0|ambata:8;ambo:2-8;ambo:8-20;terzina:2-8-20|pos 1-5 somma 88|
+20210608|lottofacile1|BA,PA|6|0|ambata:16;ambo:16-43;ambo:16-34;terzina:16-34-43|pos 2-5 somma 47|
+20210608|lottofacile1|FI,TO|6|0|ambata:26;ambo:26-75;ambo:26-57;terzina:26-57-75|pos 2-5 somma 15|
+20210608|lottofacile1|GE,NA|6|0|ambata:56;ambo:54-56;ambo:45-56;terzina:45-54-56|pos 2-5 somma 36|
+20210608|lottofacile1|MI,RM|6|0|ambata:84;ambo:75-84;ambo:57-84;terzina:57-75-84|pos 3-5 somma 15|
+20210608|lottofacile4|PA,RM|14|1|ambata:87;ambo:42-87;ambo:27-87;ambo:57-87;terzina:27-42-57|pos 1-3 verticale|
+20210608|lottofacile1|PA,TO|6|0|ambata:62;ambo:1-62;ambo:10-62;terzina:1-10-62|pos 1-2 somma 89|
+20210610|ambosecco_caotico|CA,NA,PA,RM,TO|2|1|ambo:27-60;ambo:60-87|A=30 su CA/NA/PA, B=60 su RM/TO|
+20210610|ambosecco_caotico|PA,TO,BA|2|1|ambo:4-46;ambo:56-89|A=4 su PA/TO, B=86 su BA|
+20210610|ambosecco_caotico|RM,TO,CA,NA,PA|2|1|ambo:30-54;ambo:30-84|A=60 su RM/TO, B=30 su CA/NA/PA|
+20210610|lottofacile5|MI|9|0|ambata:45;ambo:12-45;ambo:45-57;quartina:12-42-45-72;quartina:27-45-57-87|rilevamento 33-78|
+20210610|lottofacile4|BA,PA|14|1|ambata:21;ambo:21-66;ambo:21-51;ambo:21-81;terzina:51-66-81|pos 2-3 verticale|
+20210610|lottofacile1|FI,VE|6|0|ambata:50;ambo:30-50;ambo:3-50;terzina:3-30-50|pos 1-3 somma 60|
+20210610|lottofacile1|GE,TO|6|0|ambata:30;ambo:26-30;ambo:30-62;terzina:26-30-62|pos 2-5 somma 64|
+20210610|lottofacile1|GE,VE|6|0|ambata:50;ambo:11-50;ambo:19-50;terzina:11-19-50|pos 1-5 somma 79|
+20210610|lottofacile1|MI,TO|6|0|ambata:30;ambo:30-69;ambo:30-66;terzina:30-66-69|pos 2-4 somma 21|
+20210610|lottofacile1|PA,TO|6|0|ambata:32;ambo:25-32;ambo:32-52;terzina:25-32-52|pos 1-5 somma 65|
+20210612|ambosecco_caotico|GE,VE,RM|2|1|ambo:7-13;ambo:23-89|A=7 su GE/VE, B=83 su RM|
+20210612|ambosecco_caotico|GE,VE,FI|2|1|ambo:40-45;ambo:40-85|A=50 su GE/VE, B=40 su FI|
+20210612|ambosecco_caotico|MI,VE,FI|2|1|ambo:34-72;ambo:72-86|A=38 su MI/VE, B=52 su FI|
+20210612|fulmine|MI,NA|12|0|ambata:71;ambo:44-71;ambo:62-71;ambo:35-71;quartina:35-44-62-71|figura, coppie ((44, 62), (71, 35))|
+20210612|lottofacile1|MI,TO|6|0|ambata:72;ambo:71-72;ambo:17-72;terzina:17-71-72|pos 3-5 somma 19|
+20210612|lottofacile1|NA,VE|6|0|ambata:10;ambo:10-69;ambo:10-66;terzina:10-66-69|pos 1-2 somma 21|
+20210612|lottofacile1|TO,VE|6|0|ambata:32;ambo:32-47;ambo:32-74;terzina:32-47-74|pos 2-4 somma 43|
+20210615|ambosecco_caotico|CA,NA,PA|2|1|ambo:10-69;ambo:79-88|A=11 su CA/NA, B=79 su PA|
+20210615|ambosecco_caotico|FI,RM,GE|2|1|ambo:8-56;ambo:18-83|A=62 su FI/RM, B=28 su GE|
+20210615|ambosecco_caotico|NA,TO,VE|2|1|ambo:30-54;ambo:30-84|A=60 su NA/TO, B=30 su VE|
+20210615|lottofacile5|CA|9|0|ambata:78;ambo:13-78;ambo:58-78;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 11-56|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210615|lottofacile5|MI|9|0|ambata:15;ambata:60;ambo:7-15;ambo:15-52;ambo:7-60;ambo:52-60;quartina:7-15-37-67;quartina:15-22-52-82;quartina:7-37-60-67;quartina:22-52-60-82|rilevamento 8-53|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210615|lottofacile1|BA,PA|6|0|ambata:18;ambo:2-18;ambo:18-20;terzina:2-18-20|pos 1-5 somma 88|
+20210615|lottofacile1|FI,TO|6|0|ambata:26;ambo:15-26;ambo:26-51;terzina:15-26-51|pos 1-3 somma 75|
+20210615|lottofacile1|NA,PA|6|0|ambata:18;ambo:18-31;ambo:13-18;terzina:13-18-31|pos 1-3 somma 59|
+20210615|lottofacile1|PA,RM|6|0|ambata:42;ambo:42-43;ambo:34-42;terzina:34-42-43|pos 1-2 somma 47|
+20210617|ambosecco_caotico|BA,TO,CA|2|1|ambo:9-64;ambo:19-82|A=71 su BA/TO, B=19 su CA|
+20210617|ambosecco_caotico|BA,GE,PA,TO|2|1|ambo:14-25;ambo:35-88|A=15 su BA/GE, B=75 su PA/TO|
+20210617|ambosecco_caotico|FI,MI,RM,VE|2|1|ambo:11-58;ambo:68-88|A=12 su FI/MI/RM, B=78 su VE|
+20210617|ambosecco_caotico|NA,PA,VE,GE|2|1|ambo:66-76;ambo:76-82|A=74 su NA/PA/VE, B=16 su GE|
+20210617|ambosecco_caotico|PA,TO,BA,GE|2|1|ambo:65-67;ambo:65-82|A=75 su PA/TO, B=15 su BA/GE|
+20210617|lottofacile1|BA,PA|6|0|ambata:60;ambo:25-60;ambo:52-60;terzina:25-52-60|pos 1-2 somma 65|
+20210617|lottofacile1|CA,NA|6|0|ambata:58;ambo:43-58;ambo:34-58;terzina:34-43-58|pos 2-3 somma 47|
+20210617|lottofacile1|FI,GE|6|0|ambata:22;ambo:5-22;ambo:22-50;terzina:5-22-50|pos 3-4 somma 85|
+20210617|fulmine|FI,NA|12|0|ambata:90;ambo:18-90;ambo:45-90;ambo:63-90;quartina:18-45-63-90|figura, coppie ((18, 90), (45, 63))|
+20210617|lottofacile1|FI,TO|6|0|ambata:52;ambo:27-52;ambo:52-72;terzina:27-52-72|pos 2-4 somma 63|
+20210617|lottofacile1|GE,MI|6|0|ambata:24;ambo:24-45;ambo:24-54;terzina:24-45-54|pos 4-5 somma 45|
+20210617|lottofacile1|GE,VE|6|0|ambata:58;ambo:58-59;ambo:55-58;terzina:55-58-59|pos 1-5 somma 31|
+20210617|lottofacile1|MI,NA|6|0|ambata:54;ambo:54-79;ambo:54-77;terzina:54-77-79|pos 1-2 somma 11|
+20210619|ambosecco_caotico|BA,FI,RM,GE|2|1|ambo:14-25;ambo:35-88|A=15 su BA/FI/RM, B=75 su GE|
+20210619|ambosecco_caotico|CA,GE,VE|2|1|ambo:7-48;ambo:17-84|A=53 su CA/GE, B=37 su VE|
+20210619|lottofacile5|MI|9|0|ambata:75;ambo:62-75;ambo:17-75;quartina:2-32-62-75;quartina:17-47-75-77|rilevamento 13-58|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210619|lottofacile1|CA,NA|6|0|ambata:54;ambo:12-54;ambo:21-54;terzina:12-21-54|pos 1-5 somma 78|
+20210619|lottofacile1|CA,RM|6|0|ambata:90;ambo:12-90;ambo:21-90;terzina:12-21-90|pos 1-5 somma 78|
+20210619|lottofacile1|FI,GE|6|0|ambata:18;ambo:18-51;ambo:15-18;terzina:15-18-51|pos 1-4 somma 39|
+20210619|lottofacile1|MI,NA|6|0|ambata:90;ambo:39-90;ambo:33-90;terzina:33-39-90|pos 4-5 somma 51|
+20210619|lottofacile1|NA,RM|6|0|ambata:90;ambo:12-90;ambo:21-90;terzina:12-21-90|pos 1-5 somma 78|
+20210619|lottofacile1|PA,TO|6|0|ambata:20;ambo:11-20;ambo:19-20;terzina:11-19-20|pos 4-5 somma 79|
+20210622|ambosecco_caotico|BA,FI,GE|2|1|ambo:41-84;ambo:84-85|A=46 su BA/FI, B=44 su GE|
+20210622|ambosecco_caotico|FI,RM,PA,TO|2|1|ambo:74-77;ambo:77-81|A=83 su FI/RM, B=7 su PA/TO|
+20210622|ambosecco_caotico|MI,TO,FI|2|1|ambo:11-80;ambo:11-81|A=89 su MI/TO, B=1 su FI|
+20210622|ambosecco_caotico|NA,VE,CA|2|1|ambo:7-48;ambo:17-84|A=53 su NA/VE, B=37 su CA|
+20210622|ambosecco_caotico|PA,VE,BA|2|1|ambo:19-59;ambo:69-87|A=21 su PA/VE, B=69 su BA|
+20210622|ambosecco_caotico|PA,TO,FI,RM|2|1|ambo:7-13;ambo:23-89|A=7 su PA/TO, B=83 su FI/RM|
+20210622|lottofacile5|FI|9|0|ambata:84;ambata:39;ambo:20-84;ambo:65-84;ambo:20-39;ambo:39-65;quartina:20-50-80-84;quartina:5-35-65-84;quartina:20-39-50-80;quartina:5-35-39-65|rilevamento 1-46|
+20210622|lottofacile1|BA,FI|6|0|ambata:76;ambo:76-89;ambo:76-88;terzina:76-88-89|pos 2-4 somma 1|
+20210622|lottofacile1|BA,NA|6|0|ambata:86;ambo:6-86;ambo:60-86;terzina:6-60-86|pos 1-5 somma 84|
+20210622|lottofacile1|BA,VE|6|0|ambata:38;ambo:38-89;ambo:38-88;terzina:38-88-89|pos 2-4 somma 1|
+20210622|lottofacile1|FI,VE|6|0|ambata:38;ambo:38-89;ambo:38-88;terzina:38-88-89|pos 2-4 somma 1|
+20210622|lottofacile1|GE,NA|6|0|ambata:64;ambo:62-64;ambo:26-64;terzina:26-62-64|pos 2-5 somma 28|
+20210622|fulmine|GE,TO|12|0|ambata:74;ambo:44-74;ambo:54-74;ambo:64-74;quartina:44-54-64-74|cadenza, coppie ((44, 74), (54, 64))|
+20210622|lottofacile1|NA,TO|6|0|ambata:90;ambo:38-90;ambo:83-90;terzina:38-83-90|pos 1-4 somma 52|
+20210622|lottofacile1|NA,VE|6|0|ambata:38;ambo:5-38;ambo:38-50;terzina:5-38-50|pos 2-3 somma 85|
+20210622|lottofacile1|PA,VE|6|0|ambata:42;ambo:16-42;ambo:42-61;terzina:16-42-61|pos 3-5 somma 74|
+20210624|ambosecco_caotico|BA,PA,MI,NA|2|1|ambo:43-69;ambo:43-82|A=77 su BA/PA, B=13 su MI/NA|
+20210624|ambosecco_caotico|CA,VE,RM|2|1|ambo:28-38;ambo:38-85|A=42 su CA/VE, B=48 su RM|
+20210624|ambosecco_caotico|MI,NA,BA,PA|2|1|ambo:12-47;ambo:57-88|A=13 su MI/NA, B=77 su BA/PA|
+20210624|lottofacile5|GE|9|0|ambata:27;ambata:72;ambo:27-51;ambo:6-27;ambo:51-72;ambo:6-72;quartina:21-27-51-81;quartina:6-27-36-66;quartina:21-51-72-81;quartina:6-36-66-72|rilevamento 12-57|
+20210624|lottofacile5|MI|9|0|ambata:21;ambata:66;ambo:21-29;ambo:21-74;ambo:29-66;ambo:66-74;quartina:21-29-59-89;quartina:14-21-44-74;quartina:29-59-66-89;quartina:14-44-66-74|rilevamento 10-55|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210624|lottofacile1|BA,NA|6|0|ambata:84;ambo:78-84;ambo:84-87;terzina:78-84-87|pos 1-5 somma 12|
+20210624|fulmine|CA,FI|12|0|ambata:69;ambo:42-69;ambo:33-69;ambo:6-69;quartina:6-33-42-69|figura, coppie ((42, 33), (69, 6))|
+20210624|lottofacile1|CA,RM|6|0|ambata:50;ambo:50-69;ambo:50-66;terzina:50-66-69|pos 2-3 somma 21|
+20210624|lottofacile1|FI,GE|6|0|ambata:24;ambo:21-24;ambo:12-24;terzina:12-21-24|pos 1-2 somma 69|
+20210624|lottofacile1|MI,NA|6|0|ambata:32;ambo:14-32;ambo:32-41;terzina:14-32-41|pos 2-5 somma 76|
+20210624|lottofacile4|NA,PA|14|1|ambata:67;ambo:22-67;ambo:7-67;ambo:37-67;terzina:7-22-37|pos 4-5 verticale|
+20210624|lottofacile1|NA,PA|6|0|ambata:56;ambo:56-62;ambo:26-56;terzina:26-56-62|pos 4-5 somma 28|
+20210624|lottofacile1|RM,VE|6|0|ambata:28;ambo:28-79;ambo:28-77;terzina:28-77-79|pos 2-5 somma 11|
+20210626|ambosecco_caotico|BA,PA,NA|2|1|ambo:1-79;ambo:89-89|A=1 su BA/PA, B=89 su NA|
+20210626|ambosecco_caotico|BA,NA,RM|2|1|ambo:11-58;ambo:68-88|A=12 su BA/NA, B=78 su RM|
+20210626|ambosecco_caotico|RM,TO,VE|2|1|ambo:13-36;ambo:46-88|A=14 su RM/TO, B=76 su VE|
+20210626|lottofacile5|PA|9|0|ambata:72;ambata:27;ambo:39-72;ambo:72-84;ambo:27-39;ambo:27-84;quartina:9-39-69-72;quartina:24-54-72-84;quartina:9-27-39-69;quartina:24-27-54-84|rilevamento 24-69|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210626|lottofacile1|BA,RM|6|0|ambata:28;ambo:18-28;ambo:28-81;terzina:18-28-81|pos 2-3 somma 72|
+20210626|lottofacile1|BA,VE|6|0|ambata:12;ambo:12-60;ambo:6-12;terzina:6-12-60|pos 1-3 somma 30|
+20210626|lottofacile1|CA,TO|6|0|ambata:12;ambo:12-25;ambo:12-52;terzina:12-25-52|pos 2-4 somma 65|
+20210626|lottofacile4|FI,VE|14|1|ambata:31;ambo:31-76;ambo:31-61;ambo:1-31;terzina:1-61-76|pos 3-5 orizzontale|
+20210626|lottofacile1|GE,MI|6|0|ambata:26;ambo:26-77;ambo:26-79;terzina:26-77-79|pos 2-5 somma 13|
+20210626|lottofacile1|GE,RM|6|0|ambata:26;ambo:13-26;ambo:26-31;terzina:13-26-31|pos 3-5 somma 77|
+20210626|fulmine|GE,VE|12|0|ambata:33;ambo:15-33;ambo:6-33;ambo:24-33;quartina:6-15-24-33|figura, coppie ((15, 24), (33, 6))|
+20210626|lottofacile1|MI,RM|6|0|ambata:28;ambo:28-88;ambo:28-89;terzina:28-88-89|pos 2-4 somma 2|
+20210626|lottofacile1|NA,TO|6|0|ambata:88;ambo:10-88;ambo:1-88;terzina:1-10-88|pos 1-3 somma 80|
+20210626|lottofacile1|PA,VE|6|0|ambata:48;ambo:48-55;ambo:48-59;terzina:48-55-59|pos 3-4 somma 35|
+20210626|fulmine|TO,VE|12|0|ambata:54;ambo:44-54;ambo:14-54;ambo:24-54;quartina:14-24-44-54|cadenza, coppie ((44, 24), (14, 54))|
+20210629|ambosecco_caotico|BA,FI,GE,MI,VE|2|1|ambo:66-75;ambo:66-81|A=84 su BA/FI/GE, B=6 su MI/VE|
+20210629|ambosecco_caotico|CA,PA,RM|2|1|ambo:49-85;ambo:84-85|A=55 su CA/PA, B=35 su RM|
+20210629|ambosecco_caotico|MI,VE,BA,FI,GE|2|1|ambo:6-24;ambo:34-89|A=6 su MI/VE, B=84 su BA/FI/GE|
+20210629|ambosecco_caotico|NA,RM,FI|2|1|ambo:73-88;ambo:81-88|A=82 su NA/RM, B=8 su FI|
+20210629|lottofacile1|BA,MI|6|0|ambata:10;ambo:10-34;ambo:10-43;terzina:10-34-43|pos 2-5 somma 56|
+20210629|lottofacile1|BA,NA|6|0|ambata:8;ambo:8-46;ambo:8-64;terzina:8-46-64|pos 1-2 somma 44|
+20210629|lottofacile1|CA,TO|6|0|ambata:60;ambo:7-60;ambo:60-70;terzina:7-60-70|pos 2-5 somma 83|
+20210629|lottofacile1|FI,RM|6|0|ambata:76;ambo:15-76;ambo:51-76;terzina:15-51-76|pos 2-5 somma 75|
+20210629|lottofacile1|FI,VE|6|0|ambata:4;ambo:4-16;ambo:4-61;terzina:4-16-61|pos 4-5 somma 74|
+20210629|fulmine|GE,NA|12|0|ambata:85;ambo:4-85;ambo:40-85;ambo:49-85;quartina:4-40-49-85|figura, coppie ((4, 85), (40, 49))|
+20210629|lottofacile1|GE,PA|6|0|ambata:82;ambo:2-82;ambo:20-82;terzina:2-20-82|pos 2-3 somma 88|
+20210701|ambosecco_caotico|BA,MI,VE|2|1|ambo:34-72;ambo:72-86|A=38 su BA/MI, B=52 su VE|
+20210701|ambosecco_caotico|CA,TO,GE|2|1|ambo:31-62;ambo:31-83|A=69 su CA/TO, B=21 su GE|
+20210701|ambosecco_caotico|FI,NA,RM|2|1|ambo:5-32;ambo:15-86|A=35 su FI/NA, B=55 su RM|
+20210701|ambosecco_caotico|GE,NA,RM,VE|2|1|ambo:28-49;ambo:59-86|A=31 su GE/NA, B=59 su RM/VE|
+20210701|ambosecco_caotico|GE,NA,BA|2|1|ambo:4-46;ambo:56-89|A=4 su GE/NA, B=86 su BA|
+20210701|ambosecco_caotico|RM,VE,GE,NA|2|1|ambo:41-53;ambo:41-84|A=59 su RM/VE, B=31 su GE/NA|
+20210701|lottofacile1|BA,RM|6|0|ambata:50;ambo:50-51;ambo:15-50;terzina:15-50-51|pos 1-3 somma 39|
+20210701|lottofacile1|MI,VE|6|0|ambata:56;ambo:3-56;ambo:30-56;terzina:3-30-56|pos 1-2 somma 87|
+20210701|lottofacile1|NA,VE|6|0|ambata:56;ambo:51-56;ambo:15-56;terzina:15-51-56|pos 1-4 somma 39|
+20210701|lottofacile1|RM,VE|6|0|ambata:28;ambo:20-28;ambo:2-28;terzina:2-20-28|pos 2-4 somma 70|
+20210701|lottofacile1|TO,VE|6|0|ambata:28;ambo:28-69;ambo:28-66;terzina:28-66-69|pos 2-3 somma 21|
+20210703|ambosecco_caotico|FI,NA,PA|2|1|ambo:7-13;ambo:23-89|A=7 su FI/NA, B=83 su PA|
+20210703|ambosecco_caotico|PA,VE,CA|2|1|ambo:9-64;ambo:19-82|A=71 su PA/VE, B=19 su CA|
+20210703|lottofacile5|MI|9|0|ambata:60;ambo:60-82;ambo:37-60;quartina:22-52-60-82;quartina:7-37-60-67|rilevamento 23-68|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210703|lottofacile1|CA,GE|6|0|ambata:76;ambo:62-76;ambo:26-76;terzina:26-62-76|pos 2-4 somma 28|
+20210703|lottofacile1|CA,PA|6|0|ambata:56;ambo:12-56;ambo:21-56;terzina:12-21-56|pos 1-5 somma 78|
+20210703|lottofacile1|GE,TO|6|0|ambata:22;ambo:22-66;ambo:22-69;terzina:22-66-69|pos 2-3 somma 24|
+20210703|lottofacile1|RM,TO|6|0|ambata:22;ambo:22-87;ambo:22-78;terzina:22-78-87|pos 2-4 somma 3|
+20210706|ambosecco_caotico|BA,VE,RM|2|1|ambo:20-63;ambo:20-83|A=70 su BA/VE, B=20 su RM|
+20210706|ambosecco_caotico|CA,MI,NA,VE|2|1|ambo:28-38;ambo:38-85|A=42 su CA/MI/NA, B=48 su VE|
+20210706|ambosecco_caotico|MI,RM,TO|2|1|ambo:14-15;ambo:24-88|A=16 su MI/RM, B=74 su TO|
+20210706|lottofacile1|BA,GE|6|0|ambata:20;ambo:20-82;ambo:20-28;terzina:20-28-82|pos 1-2 somma 8|
+20210706|lottofacile1|BA,NA|6|0|ambata:64;ambo:61-64;ambo:16-64;terzina:16-61-64|pos 1-4 somma 29|
+20210706|lottofacile1|FI,NA|6|0|ambata:58;ambo:19-58;ambo:11-58;terzina:11-19-58|pos 2-4 somma 71|
+20210706|lottofacile1|FI,VE|6|0|ambata:6;ambo:6-41;ambo:6-14;terzina:6-14-41|pos 1-4 somma 49|
+20210708|ambosecco_caotico|BA,VE,GE,NA|2|1|ambo:6-40;ambo:16-85|A=44 su BA/VE, B=46 su GE/NA|
+20210708|ambosecco_caotico|GE,NA,VE,BA|2|1|ambo:41-84;ambo:84-85|A=46 su GE/NA/VE, B=44 su BA|
+20210708|lottofacile1|BA,GE|6|0|ambata:90;ambo:24-90;ambo:42-90;terzina:24-42-90|pos 2-3 somma 66|
+20210708|lottofacile1|CA,RM|6|0|ambata:8;ambo:8-30;ambo:3-8;terzina:3-8-30|pos 2-3 somma 60|
+20210708|lottofacile1|FI,RM|6|0|ambata:8;ambo:8-83;ambo:8-38;terzina:8-38-83|pos 2-4 somma 7|
+20210708|lottofacile1|GE,VE|6|0|ambata:58;ambo:58-62;ambo:26-58;terzina:26-58-62|pos 3-5 somma 28|
+20210710|ambosecco_caotico|CA,TO,PA|2|1|ambo:65-87;ambo:82-87|A=73 su CA/TO, B=17 su PA|
+20210710|ambosecco_caotico|FI,NA,GE|2|1|ambo:43-69;ambo:43-82|A=77 su FI/NA, B=13 su GE|
+20210710|ambosecco_caotico|GE,MI,BA|2|1|ambo:21-71;ambo:21-82|A=79 su GE/MI, B=11 su BA|
+20210710|ambosecco_caotico|NA,VE,MI|2|1|ambo:15-23;ambo:25-87|A=25 su NA/VE, B=65 su MI|
+20210710|lottofacile1|BA,MI|6|0|ambata:88;ambo:26-88;ambo:62-88;terzina:26-62-88|pos 3-4 somma 64|
+20210710|lottofacile1|CA,TO|6|0|ambata:58;ambo:31-58;ambo:13-58;terzina:13-31-58|pos 1-4 somma 59|
+20210710|lottofacile1|FI,VE|6|0|ambata:8;ambo:8-68;ambo:8-86;terzina:8-68-86|pos 2-4 somma 22|
+20210710|lottofacile1|PA,TO|6|0|ambata:58;ambo:15-58;ambo:51-58;terzina:15-51-58|pos 1-5 somma 75|
+20210713|ambosecco_caotico|CA,MI,RM,FI|2|1|ambo:66-75;ambo:66-81|A=84 su CA/MI/RM, B=6 su FI|
+20210713|ambosecco_caotico|FI,PA,VE|2|1|ambo:30-54;ambo:30-84|A=60 su FI/PA, B=30 su VE|
+20210713|lottofacile5|BA|9|0|ambata:81;ambo:54-81;ambo:9-81;quartina:24-54-81-84;quartina:9-39-69-81|rilevamento 45-90|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210713|lottofacile5|PA|9|0|ambata:36;ambata:81;ambo:36-84;ambo:36-39;ambo:81-84;ambo:39-81;quartina:24-36-54-84;quartina:9-36-39-69;quartina:24-54-81-84;quartina:9-39-69-81|rilevamento 15-60|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210713|lottofacile5|TO|9|0|ambata:27;ambata:72;ambo:21-27;ambo:27-66;ambo:21-72;ambo:66-72;quartina:21-27-51-81;quartina:6-27-36-66;quartina:21-51-72-81;quartina:6-36-66-72|rilevamento 42-87|
+20210713|lottofacile1|CA,FI|6|0|ambata:62;ambo:62-89;ambo:62-88;terzina:62-88-89|pos 2-3 somma 1|
+20210713|fulmine|CA,MI|12|0|ambata:84;ambo:12-84;ambo:3-84;ambo:75-84;quartina:3-12-75-84|figura, coppie ((12, 75), (84, 3))|
+20210713|lottofacile1|FI,VE|6|0|ambata:8;ambo:8-24;ambo:8-42;terzina:8-24-42|pos 1-3 somma 66|
+20210713|lottofacile1|GE,NA|6|0|ambata:76;ambo:60-76;ambo:6-76;terzina:6-60-76|pos 1-4 somma 30|
+20210713|lottofacile1|GE,TO|6|0|ambata:84;ambo:46-84;ambo:64-84;terzina:46-64-84|pos 2-3 somma 44|
+20210713|lottofacile1|NA,PA|6|0|ambata:56;ambo:52-56;ambo:25-56;terzina:25-52-56|pos 3-4 somma 38|
+20210713|fulmine|PA,TO|12|0|ambata:87;ambo:15-87;ambo:60-87;ambo:42-87;quartina:15-42-60-87|figura, coppie ((15, 87), (60, 42))|
+20210713|lottofacile4|TO,VE|14|1|ambata:79;ambo:34-79;ambo:19-79;ambo:49-79;terzina:19-34-49|pos 3-5 verticale|
+20210713|lottofacile1|TO,VE|6|0|ambata:34;ambo:14-34;ambo:34-41;terzina:14-34-41|pos 3-5 somma 76|
+20210715|lottofacile1|CA,PA|6|0|ambata:40;ambo:40-76;ambo:40-67;terzina:40-67-76|pos 4-5 somma 14|
+20210715|lottofacile1|MI,VE|6|0|ambata:70;ambo:69-70;ambo:66-70;terzina:66-69-70|pos 1-3 somma 21|
+20210715|lottofacile4|NA,PA|14|1|ambata:53;ambo:8-53;ambo:53-83;ambo:23-53;terzina:8-23-83|pos 2-5 verticale|
+20210715|lottofacile1|NA,PA|6|0|ambata:16;ambo:16-43;ambo:16-34;terzina:16-34-43|pos 2-5 somma 47|
+20210715|lottofacile1|PA,VE|6|0|ambata:70;ambo:63-70;ambo:36-70;terzina:36-63-70|pos 1-5 somma 27|
+20210717|ambosecco_caotico|CA,FI,GE,PA|2|1|ambo:19-59;ambo:69-87|A=21 su CA/FI, B=69 su GE/PA|
+20210717|ambosecco_caotico|CA,RM,TO|2|1|ambo:5-32;ambo:15-86|A=35 su CA/RM, B=55 su TO|
+20210717|ambosecco_caotico|GE,PA,CA,FI|2|1|ambo:31-62;ambo:31-83|A=69 su GE/PA, B=21 su CA/FI|
+20210717|ambosecco_caotico|MI,VE,NA|2|1|ambo:22-79;ambo:22-81|A=88 su MI/VE, B=2 su NA|
+20210717|lottofacile5|MI|9|0|ambata:75;ambo:32-75;ambo:75-77;quartina:2-32-62-75;quartina:17-47-75-77|rilevamento 43-88|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210717|lottofacile1|CA,GE|6|0|ambata:50;ambo:50-86;ambo:50-68;terzina:50-68-86|pos 2-4 somma 4|
+20210717|lottofacile1|FI,PA|6|0|ambata:48;ambo:48-74;ambo:47-48;terzina:47-48-74|pos 1-5 somma 16|
+20210717|fulmine|MI,TO|12|0|ambata:55;ambo:19-55;ambo:1-55;ambo:37-55;quartina:1-19-37-55|figura, coppie ((19, 37), (1, 55))|
+20210717|lottofacile1|NA,RM|6|0|ambata:72;ambo:72-83;ambo:38-72;terzina:38-72-83|pos 1-3 somma 7|
+20210717|lottofacile1|PA,RM|6|0|ambata:70;ambo:70-89;ambo:70-88;terzina:70-88-89|pos 2-5 somma 1|
+20210720|ambosecco_caotico|BA,VE,CA|2|1|ambo:11-80;ambo:11-81|A=89 su BA/VE, B=1 su CA|
+20210720|ambosecco_caotico|BA,VE,FI|2|1|ambo:55-76;ambo:55-81|A=85 su BA/VE, B=5 su FI|
+20210720|ambosecco_caotico|GE,PA,FI|2|1|ambo:33-78;ambo:33-81|A=87 su GE/PA, B=3 su FI|
+20210720|lottofacile1|BA,PA|6|0|ambata:78;ambo:78-88;ambo:78-89;terzina:78-88-89|pos 3-5 somma 2|
+20210720|lottofacile1|CA,MI|6|0|ambata:24;ambo:24-71;ambo:17-24;terzina:17-24-71|pos 2-4 somma 19|
+20210720|lottofacile1|CA,NA|6|0|ambata:8;ambo:8-80;ambo:8-8|pos 3-4 somma 10|
+20210720|lottofacile1|CA,VE|6|0|ambata:50;ambo:25-50;ambo:50-52;terzina:25-50-52|pos 3-5 somma 65|
+20210720|lottofacile1|GE,NA|6|0|ambata:56;ambo:56-58;ambo:56-85;terzina:56-58-85|pos 2-3 somma 32|
+20210720|lottofacile1|GE,TO|6|0|ambata:4;ambo:4-22;ambo:4-29;terzina:4-22-29|pos 2-5 somma 68|
+20210720|lottofacile1|GE,VE|6|0|ambata:38;ambo:38-76;ambo:38-67;terzina:38-67-76|pos 4-5 somma 14|
+20210720|lottofacile1|MI,PA|6|0|ambata:88;ambo:83-88;ambo:38-88;terzina:38-83-88|pos 2-5 somma 7|
+20210720|lottofacile1|RM,TO|6|0|ambata:22;ambo:22-65;ambo:22-56;terzina:22-56-65|pos 1-3 somma 25|
+20210722|ambosecco_caotico|CA,RM,GE,VE|2|1|ambo:41-53;ambo:41-84|A=59 su CA/RM, B=31 su GE/VE|
+20210722|ambosecco_caotico|GE,VE,CA,RM|2|1|ambo:28-49;ambo:59-86|A=31 su GE/VE, B=59 su CA/RM|
+20210722|ambosecco_caotico|NA,RM,GE|2|1|ambo:20-63;ambo:20-83|A=70 su NA/RM, B=20 su GE|
+20210722|lottofacile5|FI|9|0|ambata:9;ambata:54;ambo:9-45;ambo:9-90;ambo:45-54;ambo:54-90;quartina:9-15-45-75;quartina:9-30-60-90;quartina:15-45-54-75;quartina:30-54-60-90|rilevamento 36-81|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210722|lottofacile1|CA,PA|6|0|ambata:46;ambo:46-74;ambo:46-47;terzina:46-47-74|pos 2-3 somma 16|
+20210722|lottofacile1|FI,MI|6|0|ambata:40;ambo:40-82;ambo:28-40;terzina:28-40-82|pos 1-4 somma 8|
+20210724|ambosecco_caotico|CA,TO,VE|2|1|ambo:19-55;ambo:29-83|A=61 su CA/TO, B=29 su VE|
+20210724|ambosecco_caotico|CA,RM,GE|2|1|ambo:50-74;ambo:74-84|A=56 su CA/RM, B=34 su GE|
+20210724|ambosecco_caotico|FI,TO,VE|2|1|ambo:5-35;ambo:45-89|A=5 su FI/TO, B=85 su VE|
+20210724|ambosecco_caotico|FI,PA,BA|2|1|ambo:5-32;ambo:15-86|A=35 su FI/PA, B=55 su BA|
+20210724|ambosecco_caotico|GE,MI,RM|2|1|ambo:11-58;ambo:68-88|A=12 su GE/MI, B=78 su RM|
+20210724|ambosecco_caotico|MI,PA,VE|2|1|ambo:21-37;ambo:47-87|A=23 su MI/PA, B=67 su VE|
+20210724|ambosecco_caotico|NA,PA,TO|2|1|ambo:15-23;ambo:25-87|A=25 su NA/PA, B=65 su TO|
+20210724|lottofacile1|BA,NA|6|0|ambata:44;ambo:44-44;ambo:44-49|pos 1-4 somma 46|
+20210724|lottofacile1|CA,PA|6|0|ambata:84;ambo:25-84;ambo:52-84;terzina:25-52-84|pos 2-5 somma 65|
+20210724|lottofacile1|CA,VE|6|0|ambata:90;ambo:50-90;ambo:5-90;terzina:5-50-90|pos 4-5 somma 40|
+20210724|lottofacile4|PA,VE|14|1|ambata:27;ambo:27-72;ambo:27-57;ambo:27-87;terzina:57-72-87|pos 3-5 diagonale|
+20210727|ambosecco_caotico|BA,TO,VE|2|1|ambo:4-24;ambo:14-87|A=26 su BA/TO, B=64 su VE|
+20210727|ambosecco_caotico|CA,TO,VE,RM|2|1|ambo:41-53;ambo:41-84|A=59 su CA/TO/VE, B=31 su RM|
+20210727|ambosecco_caotico|FI,NA,RM,CA|2|1|ambo:52-52;ambo:52-84|A=58 su FI/NA/RM, B=32 su CA|
+20210727|lottofacile5|FI|9|0|ambata:33;ambo:33-73;ambo:28-33;quartina:13-33-43-73;quartina:28-33-58-88|rilevamento 41-86|
+20210727|lottofacile5|RM|9|0|ambata:84;ambo:80-84;ambo:35-84;quartina:20-50-80-84;quartina:5-35-65-84|rilevamento 31-76|
+20210727|lottofacile1|BA,GE|6|0|ambata:38;ambo:38-65;ambo:38-56;terzina:38-56-65|pos 1-2 somma 25|
+20210727|lottofacile1|GE,MI|6|0|ambata:20;ambo:20-26;ambo:20-62;terzina:20-26-62|pos 1-5 somma 64|
+20210727|lottofacile1|GE,VE|6|0|ambata:28;ambo:3-28;ambo:28-30;terzina:3-28-30|pos 3-5 somma 87|
+20210727|lottofacile1|NA,TO|6|0|ambata:68;ambo:68-75;ambo:57-68;terzina:57-68-75|pos 1-2 somma 15|
+20210727|lottofacile1|NA,TO|6|0|ambata:26;ambo:20-26;ambo:2-26;terzina:2-20-26|pos 4-5 somma 70|
+20210729|ambosecco_caotico|BA,CA,TO,RM|2|1|ambo:49-85;ambo:84-85|A=55 su BA/CA/TO, B=35 su RM|
+20210729|ambosecco_caotico|CA,MI,VE|2|1|ambo:13-36;ambo:46-88|A=14 su CA/MI, B=76 su VE|
+20210729|ambosecco_caotico|FI,RM,CA|2|1|ambo:22-26;ambo:36-87|A=24 su FI/RM, B=66 su CA|
+20210729|lottofacile1|BA,TO|6|0|ambata:74;ambo:74-80;ambo:8-74;terzina:8-74-80|pos 4-5 somma 10|
+20210729|lottofacile1|GE,PA|6|0|ambata:90;ambo:78-90;ambo:87-90;terzina:78-87-90|pos 3-5 somma 12|
+20210729|lottofacile1|GE,RM|6|0|ambata:48;ambo:41-48;ambo:14-48;terzina:14-41-48|pos 1-4 somma 49|
+20210729|lottofacile1|MI,PA|6|0|ambata:22;ambo:22-67;ambo:22-76;terzina:22-67-76|pos 4-5 somma 23|
+20210731|ambosecco_caotico|BA,CA,TO|2|1|ambo:17-81;ambo:81-88|A=19 su BA/CA, B=71 su TO|
+20210731|ambosecco_caotico|FI,NA,VE|2|1|ambo:30-54;ambo:30-84|A=60 su FI/NA, B=30 su VE|
+20210731|ambosecco_caotico|FI,GE,VE,BA|2|1|ambo:10-72;ambo:10-82|A=80 su FI/GE/VE, B=10 su BA|
+20210731|ambosecco_caotico|GE,MI,RM|2|1|ambo:2-8;ambo:12-89|A=8 su GE/MI, B=82 su RM|
+20210731|lottofacile5|RM|9|0|ambata:30;ambata:75;ambo:30-62;ambo:17-30;ambo:62-75;ambo:17-75;quartina:2-30-32-62;quartina:17-30-47-77;quartina:2-32-62-75;quartina:17-47-75-77|rilevamento 13-58|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210731|lottofacile1|CA,NA|6|0|ambata:72;ambo:72-82;ambo:28-72;terzina:28-72-82|pos 4-5 somma 8|
+20210803|ambosecco_caotico|BA,CA,PA|2|1|ambo:31-62;ambo:31-83|A=69 su BA/CA, B=21 su PA|
+20210803|ambosecco_caotico|GE,RM,BA|2|1|ambo:34-72;ambo:72-86|A=38 su GE/RM, B=52 su BA|
+20210803|ambosecco_caotico|NA,PA,FI|2|1|ambo:29-38;ambo:48-86|A=32 su NA/PA, B=58 su FI|
+20210803|lottofacile5|RM|9|0|ambata:24;ambo:24-67;ambo:22-24;quartina:7-24-37-67;quartina:22-24-52-82|rilevamento 38-83|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210803|lottofacile5|VE|9|0|ambata:6;ambo:6-85;ambo:6-40;quartina:6-25-55-85;quartina:6-10-40-70|rilevamento 2-47|
+20210803|lottofacile5|VE|9|0|ambata:15;ambata:60;ambo:7-15;ambo:15-52;ambo:7-60;ambo:52-60;quartina:7-15-37-67;quartina:15-22-52-82;quartina:7-37-60-67;quartina:22-52-60-82|rilevamento 8-53|
+20210803|lottofacile1|BA,GE|6|0|ambata:32;ambo:32-59;ambo:32-55;terzina:32-55-59|pos 2-3 somma 31|
+20210803|lottofacile1|BA,RM|6|0|ambata:76;ambo:59-76;ambo:55-76;terzina:55-59-76|pos 2-3 somma 31|
+20210803|lottofacile1|BA,TO|6|0|ambata:52;ambo:52-82;ambo:28-52;terzina:28-52-82|pos 1-2 somma 8|
+20210803|fulmine|CA,FI|12|0|ambata:90;ambo:54-90;ambo:81-90;ambo:45-90;quartina:45-54-81-90|figura, coppie ((90, 45), (54, 81))|
+20210803|lottofacile1|FI,NA|6|0|ambata:52;ambo:52-59;ambo:52-55;terzina:52-55-59|pos 3-4 somma 31|
+20210803|lottofacile1|FI,NA|6|0|ambata:52;ambo:52-77;ambo:52-79;terzina:52-77-79|pos 3-5 somma 13|
+20210803|lottofacile1|FI,RM|6|0|ambata:76;ambo:20-76;ambo:2-76;terzina:2-20-76|pos 2-5 somma 70|
+20210803|lottofacile1|GE,PA|6|0|ambata:42;ambo:37-42;ambo:42-73;terzina:37-42-73|pos 1-3 somma 53|
+20210803|lottofacile1|GE,RM|6|0|ambata:76;ambo:59-76;ambo:55-76;terzina:55-59-76|pos 2-3 somma 31|
+20210803|lottofacile1|PA,VE|6|0|ambata:16;ambo:16-80;ambo:8-16;terzina:8-16-80|pos 1-2 somma 10|
+20210805|ambosecco_caotico|CA,FI,MI,TO|2|1|ambo:2-8;ambo:12-89|A=8 su CA/FI/MI, B=82 su TO|
+20210805|ambosecco_caotico|FI,NA,VE|2|1|ambo:19-55;ambo:29-83|A=61 su FI/NA, B=29 su VE|
+20210805|ambosecco_caotico|GE,VE,RM|2|1|ambo:27-30;ambo:37-86|A=33 su GE/VE, B=57 su RM|
+20210805|lottofacile5|RM|9|0|ambata:84;ambo:20-84;ambo:65-84;quartina:20-50-80-84;quartina:5-35-65-84|rilevamento 1-46|
+20210805|lottofacile5|TO|9|0|ambata:57;ambo:56-57;ambo:11-57;quartina:26-56-57-86;quartina:11-41-57-71|rilevamento 37-82|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210805|lottofacile1|BA,NA|6|0|ambata:40;ambo:4-40;ambo:40-40|pos 3-5 somma 86|
+20210805|lottofacile1|CA,TO|6|0|ambata:74;ambo:74-76;ambo:67-74;terzina:67-74-76|pos 4-5 somma 14|
+20210805|lottofacile1|CA,VE|6|0|ambata:80;ambo:3-80;ambo:30-80;terzina:3-30-80|pos 3-4 somma 87|
+20210805|lottofacile1|FI,PA|6|0|ambata:80;ambo:44-80;ambo:49-80;terzina:44-49-80|pos 2-3 somma 46|
+20210805|lottofacile1|GE,NA|6|0|ambata:30;ambo:10-30;ambo:1-30;terzina:1-10-30|pos 1-3 somma 80|
+20210805|lottofacile1|NA,PA|6|0|ambata:36;ambo:36-53;ambo:35-36;terzina:35-36-53|pos 4-5 somma 37|
+20210807|ambosecco_caotico|FI,PA,NA|2|1|ambo:3-16;ambo:13-88|A=17 su FI/PA, B=73 su NA|
+20210807|ambosecco_caotico|GE,TO,FI|2|1|ambo:53-60;ambo:53-83|A=67 su GE/TO, B=23 su FI|
+20210807|lottofacile5|MI|9|0|ambata:12;ambata:57;ambo:12-59;ambo:12-14;ambo:57-59;ambo:14-57;quartina:12-29-59-89;quartina:12-14-44-74;quartina:29-57-59-89;quartina:14-44-57-74|rilevamento 34-79|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210807|lottofacile4|BA,MI|14|1|ambata:67;ambo:22-67;ambo:7-67;ambo:37-67;terzina:7-22-37|pos 2-4 orizzontale|
+20210807|lottofacile4|CA,FI|14|1|ambata:19;ambo:19-64;ambo:19-49;ambo:19-79;terzina:49-64-79|pos 3-4 diagonale|
+20210807|lottofacile1|CA,FI|6|0|ambata:34;ambo:29-34;ambo:22-34;terzina:22-29-34|pos 3-4 somma 61|
+20210807|fulmine|CA,FI|12|0|ambata:89;ambo:62-89;ambo:17-89;ambo:44-89;quartina:17-44-62-89|figura, coppie ((89, 17), (62, 44))|
+20210807|lottofacile1|CA,TO|6|0|ambata:48;ambo:44-48;ambo:48-49;terzina:44-48-49|pos 1-4 somma 46|
+20210807|lottofacile1|MI,TO|6|0|ambata:62;ambo:62-82;ambo:28-62;terzina:28-62-82|pos 2-4 somma 8|
+20210810|ambosecco_caotico|BA,MI,RM|2|1|ambo:59-64;ambo:64-83|A=66 su BA/MI, B=24 su RM|
+20210810|ambosecco_caotico|CA,MI,PA,BA|2|1|ambo:32-70;ambo:32-82|A=78 su CA/MI/PA, B=12 su BA|
+20210810|ambosecco_caotico|NA,VE,TO|2|1|ambo:18-47;ambo:28-84|A=52 su NA/VE, B=38 su TO|
+20210810|ambosecco_caotico|PA,RM,FI|2|1|ambo:12-47;ambo:57-88|A=13 su PA/RM, B=77 su FI|
+20210810|lottofacile1|FI,GE|6|0|ambata:16;ambo:6-16;ambo:16-60;terzina:6-16-60|pos 2-3 somma 84|
+20210810|lottofacile4|NA,VE|14|1|ambata:49;ambo:4-49;ambo:49-79;ambo:19-49;terzina:4-19-79|pos 1-2 diagonale|
+20210812|ambosecco_caotico|CA,VE,GE,PA|2|1|ambo:30-54;ambo:30-84|A=60 su CA/VE, B=30 su GE/PA|
+20210812|ambosecco_caotico|FI,VE,GE|2|1|ambo:50-74;ambo:74-84|A=56 su FI/VE, B=34 su GE|
+20210812|ambosecco_caotico|GE,PA,CA,VE|2|1|ambo:27-60;ambo:60-87|A=30 su GE/PA, B=60 su CA/VE|
+20210812|lottofacile5|CA|9|0|ambata:36;ambo:36-84;ambo:36-39;quartina:24-36-54-84;quartina:9-36-39-69|rilevamento 15-60|
+20210812|lottofacile5|MI|9|0|ambata:78;ambata:33;ambo:43-78;ambo:78-88;ambo:33-43;ambo:33-88;quartina:13-43-73-78;quartina:28-58-78-88;quartina:13-33-43-73;quartina:28-33-58-88|rilevamento 26-71|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210812|lottofacile4|BA,VE|14|1|ambata:37;ambo:37-82;ambo:37-67;ambo:7-37;terzina:7-67-82|pos 3-4 verticale|
+20210812|lottofacile1|FI,PA|6|0|ambata:20;ambo:3-20;ambo:20-30;terzina:3-20-30|pos 3-4 somma 87|
+20210812|lottofacile1|GE,NA|6|0|ambata:74;ambo:54-74;ambo:45-74;terzina:45-54-74|pos 1-3 somma 36|
+20210812|lottofacile1|GE,PA|6|0|ambata:4;ambo:4-58;ambo:4-85;terzina:4-58-85|pos 1-2 somma 32|
+20210812|lottofacile1|GE,RM|6|0|ambata:72;ambo:26-72;ambo:62-72;terzina:26-62-72|pos 1-5 somma 64|
+20210814|ambosecco_caotico|BA,MI,CA,NA,VE|2|1|ambo:58-75;ambo:75-83|A=65 su BA/MI, B=25 su CA/NA/VE|
+20210814|ambosecco_caotico|CA,NA,VE,BA,MI|2|1|ambo:15-23;ambo:25-87|A=25 su CA/NA/VE, B=65 su BA/MI|
+20210814|ambosecco_caotico|GE,MI,RM|2|1|ambo:19-55;ambo:29-83|A=61 su GE/MI, B=29 su RM|
+20210814|ambosecco_caotico|GE,RM,MI|2|1|ambo:26-71;ambo:71-87|A=29 su GE/RM, B=61 su MI|
+20210814|lottofacile1|BA,FI|6|0|ambata:80;ambo:30-80;ambo:3-80;terzina:3-30-80|pos 3-4 somma 60|
+20210814|lottofacile1|BA,NA|6|0|ambata:70;ambo:30-70;ambo:3-70;terzina:3-30-70|pos 3-4 somma 60|
+20210814|lottofacile1|BA,VE|6|0|ambata:70;ambo:10-70;ambo:1-70;terzina:1-10-70|pos 2-3 somma 80|
+20210814|lottofacile1|FI,NA|6|0|ambata:70;ambo:30-70;ambo:3-70;terzina:3-30-70|pos 3-4 somma 60|
+20210814|lottofacile1|NA,TO|6|0|ambata:26;ambo:26-63;ambo:26-36;terzina:26-36-63|pos 2-5 somma 27|
+20210814|lottofacile1|NA,VE|6|0|ambata:52;ambo:52-64;ambo:46-52;terzina:46-52-64|pos 1-3 somma 26|
+20210817|ambosecco_caotico|BA,CA,NA,RM|2|1|ambo:43-62;ambo:62-85|A=48 su BA/CA/NA, B=42 su RM|
+20210817|ambosecco_caotico|GE,MI,VE|2|1|ambo:35-61;ambo:61-86|A=39 su GE/MI, B=51 su VE|
+20210817|lottofacile5|RM|9|0|ambata:78;ambo:43-78;ambo:78-88;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 26-71|
+20210817|lottofacile1|BA,PA|6|0|ambata:20;ambo:20-89;ambo:20-88;terzina:20-88-89|pos 3-4 somma 1|
+20210817|lottofacile1|FI,NA|6|0|ambata:76;ambo:49-76;ambo:44-76;terzina:44-49-76|pos 1-2 somma 41|
+20210817|lottofacile1|GE,TO|6|0|ambata:80;ambo:37-80;ambo:73-80;terzina:37-73-80|pos 1-5 somma 53|
+20210817|fulmine|MI,TO|12|0|ambata:43;ambo:23-43;ambo:33-43;ambo:13-43;quartina:13-23-33-43|cadenza, coppie ((23, 33), (43, 13))|
+20210817|lottofacile1|PA,TO|6|0|ambata:80;ambo:17-80;ambo:71-80;terzina:17-71-80|pos 1-4 somma 73|
+20210817|lottofacile1|RM,TO|6|0|ambata:14;ambo:14-16;ambo:14-61;terzina:14-16-61|pos 2-3 somma 74|
+20210817|lottofacile1|RM,TO|6|0|ambata:44;ambo:44-55;ambo:44-59;terzina:44-55-59|pos 3-5 somma 35|
+20210819|ambosecco_caotico|BA,PA,VE|2|1|ambo:7-48;ambo:17-84|A=53 su BA/PA, B=37 su VE|
+20210819|ambosecco_caotico|FI,MI,GE|2|1|ambo:43-62;ambo:62-85|A=48 su FI/MI, B=42 su GE|
+20210819|lottofacile5|GE|9|0|ambata:72;ambata:27;ambo:36-72;ambo:72-81;ambo:27-36;ambo:27-81;quartina:6-36-66-72;quartina:21-51-72-81;quartina:6-27-36-66;quartina:21-27-51-81|rilevamento 27-72|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210819|lottofacile4|BA,NA|14|1|ambata:55;ambo:10-55;ambo:55-85;ambo:25-55;terzina:10-25-85|pos 3-5 verticale|
+20210819|lottofacile1|BA,NA|6|0|ambata:76;ambo:65-76;ambo:56-76;terzina:56-65-76|pos 3-5 somma 25|
+20210819|lottofacile4|CA,FI|14|1|ambata:61;ambo:16-61;ambo:1-61;ambo:31-61;terzina:1-16-31|pos 1-2 orizzontale|
+20210819|lottofacile4|CA,GE|14|1|ambata:71;ambo:26-71;ambo:11-71;ambo:41-71;terzina:11-26-41|pos 1-2 orizzontale|
+20210819|lottofacile4|FI,GE|14|1|ambata:41;ambo:41-86;ambo:41-71;ambo:11-41;terzina:11-71-86|pos 1-2 orizzontale|
+20210819|lottofacile1|FI,VE|6|0|ambata:74;ambo:61-74;ambo:16-74;terzina:16-61-74|pos 3-5 somma 29|
+20210819|lottofacile1|MI,TO|6|0|ambata:2;ambo:2-39;ambo:2-33;terzina:2-33-39|pos 4-5 somma 51|
+20210819|lottofacile1|PA,TO|6|0|ambata:54;ambo:54-58;ambo:54-85;terzina:54-58-85|pos 1-5 somma 32|
+20210819|fulmine|RM,VE|12|0|ambata:59;ambo:50-59;ambo:14-59;ambo:23-59;quartina:14-23-50-59|figura, coppie ((50, 23), (59, 14))|
+20210819|fulmine|TO,VE|12|0|ambata:50;ambo:41-50;ambo:14-50;ambo:23-50;quartina:14-23-41-50|figura, coppie ((41, 23), (50, 14))|
+20210821|ambosecco_caotico|BA,NA,MI|2|1|ambo:66-76;ambo:76-82|A=74 su BA/NA, B=16 su MI|
+20210821|ambosecco_caotico|BA,TO,VE|2|1|ambo:14-25;ambo:35-88|A=15 su BA/TO, B=75 su VE|
+20210821|ambosecco_caotico|PA,TO,NA|2|1|ambo:66-75;ambo:66-81|A=84 su PA/TO, B=6 su NA|
+20210821|lottofacile5|NA|9|0|ambata:33;ambo:33-58;ambo:13-33;quartina:28-33-58-88;quartina:13-33-43-73|rilevamento 29-74|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210821|lottofacile1|FI,GE|6|0|ambata:60;ambo:60-74;ambo:47-60;terzina:47-60-74|pos 4-5 somma 16|
+20210821|lottofacile1|FI,RM|6|0|ambata:86;ambo:74-86;ambo:47-86;terzina:47-74-86|pos 4-5 somma 16|
+20210821|lottofacile4|GE,PA|14|1|ambata:35;ambo:35-80;ambo:35-65;ambo:5-35;terzina:5-65-80|pos 1-4 verticale|
+20210821|fulmine|GE,PA|12|0|ambata:80;ambo:50-80;ambo:30-80;ambo:60-80;quartina:30-50-60-80|cadenza, coppie ((50, 60), (30, 80))|
+20210821|lottofacile1|GE,RM|6|0|ambata:86;ambo:74-86;ambo:47-86;terzina:47-74-86|pos 4-5 somma 16|
+20210821|lottofacile1|PA,VE|6|0|ambata:36;ambo:16-36;ambo:36-61;terzina:16-36-61|pos 1-3 somma 74|
+20210824|ambosecco_caotico|CA,VE,TO|2|1|ambo:3-57;ambo:67-89|A=3 su CA/VE, B=87 su TO|
+20210824|ambosecco_caotico|FI,RM,PA|2|1|ambo:40-45;ambo:40-85|A=50 su FI/RM, B=40 su PA|
+20210824|ambosecco_caotico|GE,TO,PA|2|1|ambo:73-88;ambo:81-88|A=82 su GE/TO, B=8 su PA|
+20210824|ambosecco_caotico|GE,MI,RM,CA|2|1|ambo:10-69;ambo:79-88|A=11 su GE/MI/RM, B=79 su CA|
+20210824|ambosecco_caotico|NA,TO,RM|2|1|ambo:19-59;ambo:69-87|A=21 su NA/TO, B=69 su RM|
+20210824|lottofacile5|FI|9|0|ambata:87;ambo:1-87;ambo:46-87;quartina:1-31-61-87;quartina:16-46-76-87|rilevamento 32-77|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210824|lottofacile1|CA,RM|6|0|ambata:22;ambo:22-29;ambo:22-22|pos 1-5 somma 61|
+20210824|lottofacile1|CA,TO|6|0|ambata:84;ambo:66-84;ambo:69-84;terzina:66-69-84|pos 2-4 somma 24|
+20210824|lottofacile1|FI,NA|6|0|ambata:42;ambo:42-69;ambo:42-66;terzina:42-66-69|pos 4-5 somma 21|
+20210824|lottofacile1|PA,TO|6|0|ambata:74;ambo:71-74;ambo:17-74;terzina:17-71-74|pos 3-4 somma 19|
+20210824|lottofacile1|TO,VE|6|0|ambata:20;ambo:8-20;ambo:20-80;terzina:8-20-80|pos 1-5 somma 82|
+20210826|ambosecco_caotico|CA,TO,BA|2|1|ambo:65-67;ambo:65-82|A=75 su CA/TO, B=15 su BA|
+20210826|ambosecco_caotico|CA,FI,RM,VE|2|1|ambo:44-51;ambo:51-85|A=49 su CA/FI, B=41 su RM/VE|
+20210826|ambosecco_caotico|RM,VE,CA,FI|2|1|ambo:37-39;ambo:49-85|A=41 su RM/VE, B=49 su CA/FI|
+20210826|lottofacile5|MI|9|0|ambata:6;ambo:6-34;ambo:6-79;quartina:4-6-34-64;quartina:6-19-49-79|rilevamento 35-80|
+20210826|lottofacile4|FI,GE|14|1|ambata:29;ambo:29-74;ambo:29-59;ambo:29-89;terzina:59-74-89|pos 1-2 verticale|
+20210826|lottofacile1|FI,GE|6|0|ambata:14;ambo:14-49;ambo:14-44;terzina:14-44-49|pos 1-2 somma 41|
+20210826|lottofacile1|FI,MI|6|0|ambata:18;ambo:18-49;ambo:18-44;terzina:18-44-49|pos 1-2 somma 41|
+20210826|lottofacile1|GE,MI|6|0|ambata:18;ambo:18-49;ambo:18-44;terzina:18-44-49|pos 1-2 somma 41|
+20210826|lottofacile1|GE,MI|6|0|ambata:18;ambo:18-43;ambo:18-34;terzina:18-34-43|pos 1-5 somma 47|
+20210826|lottofacile1|GE,PA|6|0|ambata:10;ambo:10-51;ambo:10-15;terzina:10-15-51|pos 3-5 somma 39|
+20210826|lottofacile1|GE,VE|6|0|ambata:86;ambo:51-86;ambo:15-86;terzina:15-51-86|pos 3-5 somma 39|
+20210826|lottofacile1|MI,VE|6|0|ambata:44;ambo:23-44;ambo:32-44;terzina:23-32-44|pos 2-4 somma 67|
+20210826|lottofacile1|NA,TO|6|0|ambata:74;ambo:21-74;ambo:12-74;terzina:12-21-74|pos 4-5 somma 69|
+20210826|lottofacile1|PA,VE|6|0|ambata:86;ambo:51-86;ambo:15-86;terzina:15-51-86|pos 3-5 somma 39|
+20210828|ambosecco_caotico|BA,FI,RM|2|1|ambo:42-61;ambo:42-83|A=68 su BA/FI, B=22 su RM|
+20210828|ambosecco_caotico|CA,MI,PA,RM|2|1|ambo:30-54;ambo:30-84|A=60 su CA/MI, B=30 su PA/RM|
+20210828|ambosecco_caotico|PA,RM,CA,MI|2|1|ambo:27-60;ambo:60-87|A=30 su PA/RM, B=60 su CA/MI|
+20210828|lottofacile5|BA|9|0|ambata:15;ambo:15-82;ambo:15-37;quartina:15-22-52-82;quartina:7-15-37-67|rilevamento 23-68|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210828|lottofacile5|RM|9|0|ambata:90;ambata:45;ambo:51-90;ambo:6-90;ambo:45-51;ambo:6-45;quartina:21-51-81-90;quartina:6-36-66-90;quartina:21-45-51-81;quartina:6-36-45-66|rilevamento 30-75|
+20210828|lottofacile1|BA,FI|6|0|ambata:24;ambo:24-26;ambo:24-62;terzina:24-26-62|pos 4-5 somma 64|
+20210828|lottofacile1|CA,TO|6|0|ambata:74;ambo:12-74;ambo:21-74;terzina:12-21-74|pos 3-4 somma 78|
+20210828|lottofacile1|GE,RM|6|0|ambata:44;ambo:44-83;ambo:38-44;terzina:38-44-83|pos 2-5 somma 7|
+20210828|lottofacile1|GE,TO|6|0|ambata:60;ambo:23-60;ambo:32-60;terzina:23-32-60|pos 1-3 somma 67|
+20210828|lottofacile1|PA,TO|6|0|ambata:56;ambo:25-56;ambo:52-56;terzina:25-52-56|pos 2-3 somma 65|
+20210828|lottofacile1|RM,VE|6|0|ambata:42;ambo:5-42;ambo:42-50;terzina:5-42-50|pos 1-3 somma 85|
+20210831|ambosecco_caotico|CA,TO,MI,VE|2|1|ambo:17-81;ambo:81-88|A=19 su CA/TO, B=71 su MI/VE|
+20210831|ambosecco_caotico|MI,VE,CA,TO|2|1|ambo:9-64;ambo:19-82|A=71 su MI/VE, B=19 su CA/TO|
+20210831|ambosecco_caotico|RM,VE,TO|2|1|ambo:3-16;ambo:13-88|A=17 su RM/VE, B=73 su TO|
+20210831|ambosecco_caotico|TO,VE,RM|2|1|ambo:65-87;ambo:82-87|A=73 su TO/VE, B=17 su RM|
+20210831|lottofacile5|FI|9|0|ambata:15;ambata:60;ambo:7-15;ambo:15-52;ambo:7-60;ambo:52-60;quartina:7-15-37-67;quartina:15-22-52-82;quartina:7-37-60-67;quartina:22-52-60-82|rilevamento 8-53|
+20210831|lottofacile5|NA|9|0|ambata:87;ambata:42;ambo:1-87;ambo:46-87;ambo:1-42;ambo:42-46;quartina:1-31-61-87;quartina:16-46-76-87;quartina:1-31-42-61;quartina:16-42-46-76|rilevamento 32-77|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210831|lottofacile5|VE|9|0|ambata:51;ambo:25-51;ambo:51-70;quartina:25-51-55-85;quartina:10-40-51-70|rilevamento 17-62|
+20210831|lottofacile1|BA,PA|6|0|ambata:82;ambo:58-82;ambo:82-85;terzina:58-82-85|pos 4-5 somma 32|
+20210831|lottofacile4|BA,TO|14|1|ambata:23;ambo:23-68;ambo:23-53;ambo:23-83;terzina:53-68-83|pos 4-5 diagonale|
+20210831|lottofacile1|BA,TO|6|0|ambata:4;ambo:4-11;ambo:4-19;terzina:4-11-19|pos 1-2 somma 79|
+20210831|fulmine|FI,VE|12|0|ambata:62;ambo:8-62;ambo:53-62;ambo:17-62;quartina:8-17-53-62|figura, coppie ((8, 62), (53, 17))|
+20210831|lottofacile4|NA,PA|14|1|ambata:5;ambo:5-50;ambo:5-35;ambo:5-65;terzina:35-50-65|pos 2-3 diagonale|
+20210831|lottofacile1|NA,PA|6|0|ambata:32;ambo:10-32;ambo:1-32;terzina:1-10-32|pos 2-3 somma 80|
+20210902|ambosecco_caotico|GE,TO,NA|2|1|ambo:18-70;ambo:70-88|A=20 su GE/TO, B=70 su NA|
+20210902|ambosecco_caotico|GE,MI,PA|2|1|ambo:26-71;ambo:71-87|A=29 su GE/MI, B=61 su PA|
+20210902|ambosecco_caotico|MI,NA,CA|2|1|ambo:54-68;ambo:54-82|A=76 su MI/NA, B=14 su CA|
+20210902|lottofacile1|BA,PA|6|0|ambata:76;ambo:76-84;ambo:48-76;terzina:48-76-84|pos 1-2 somma 6|
+20210902|lottofacile1|FI,GE|6|0|ambata:80;ambo:66-80;ambo:69-80;terzina:66-69-80|pos 1-5 somma 24|
+20210902|lottofacile1|GE,RM|6|0|ambata:74;ambo:54-74;ambo:45-74;terzina:45-54-74|pos 3-4 somma 36|
+20210902|lottofacile1|MI,RM|6|0|ambata:2;ambo:2-45;ambo:2-54;terzina:2-45-54|pos 1-4 somma 45|
+20210902|lottofacile1|NA,TO|6|0|ambata:40;ambo:40-62;ambo:26-40;terzina:26-40-62|pos 2-3 somma 28|
+20210902|lottofacile1|PA,TO|6|0|ambata:10;ambo:10-36;ambo:10-63;terzina:10-36-63|pos 1-4 somma 54|
+20210902|lottofacile1|RM,VE|6|0|ambata:70;ambo:70-76;ambo:67-70;terzina:67-70-76|pos 3-5 somma 14|
+20210904|ambosecco_caotico|BA,TO,GE|2|1|ambo:15-23;ambo:25-87|A=25 su BA/TO, B=65 su GE|
+20210904|ambosecco_caotico|BA,CA,MI,PA|2|1|ambo:42-73;ambo:73-85|A=47 su BA/CA/MI, B=43 su PA|
+20210904|ambosecco_caotico|GE,VE,MI|2|1|ambo:14-25;ambo:35-88|A=15 su GE/VE, B=75 su MI|
+20210904|ambosecco_caotico|PA,RM,VE|2|1|ambo:41-53;ambo:41-84|A=59 su PA/RM, B=31 su VE|
+20210904|ambosecco_caotico|PA,VE,CA|2|1|ambo:16-31;ambo:26-86|A=34 su PA/VE, B=56 su CA|
+20210904|lottofacile1|BA,GE|6|0|ambata:40;ambo:10-40;ambo:1-40;terzina:1-10-40|pos 2-5 somma 80|
+20210904|lottofacile1|BA,PA|6|0|ambata:28;ambo:28-87;ambo:28-78;terzina:28-78-87|pos 3-4 somma 3|
+20210904|fulmine|CA,NA|12|0|ambata:83;ambo:47-83;ambo:56-83;ambo:74-83;quartina:47-56-74-83|figura, coppie ((47, 83), (56, 74))|
+20210904|lottofacile1|CA,PA|6|0|ambata:60;ambo:1-60;ambo:10-60;terzina:1-10-60|pos 2-3 somma 89|
+20210907|lottofacile1|BA,CA|6|0|ambata:72;ambo:37-72;ambo:72-73;terzina:37-72-73|pos 1-5 somma 53|
+20210907|lottofacile1|CA,MI|6|0|ambata:30;ambo:30-75;ambo:30-57;terzina:30-57-75|pos 1-3 somma 15|
+20210907|lottofacile1|FI,PA|6|0|ambata:12;ambo:2-12;ambo:12-20;terzina:2-12-20|pos 3-4 somma 88|
+20210907|lottofacile1|FI,RM|6|0|ambata:90;ambo:21-90;ambo:12-90;terzina:12-21-90|pos 2-5 somma 69|
+20210909|ambosecco_caotico|BA,PA,FI|2|1|ambo:26-71;ambo:71-87|A=29 su BA/PA, B=61 su FI|
+20210909|ambosecco_caotico|MI,RM,TO|2|1|ambo:52-52;ambo:52-84|A=58 su MI/RM, B=32 su TO|
+20210909|ambosecco_caotico|RM,TO,PA|2|1|ambo:43-62;ambo:62-85|A=48 su RM/TO, B=42 su PA|
+20210909|lottofacile5|RM|9|0|ambata:18;ambata:63;ambo:12-18;ambo:18-57;ambo:12-63;ambo:57-63;quartina:12-18-42-72;quartina:18-27-57-87;quartina:12-42-63-72;quartina:27-57-63-87|rilevamento 9-54|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210909|lottofacile1|CA,GE|6|0|ambata:90;ambo:47-90;ambo:74-90;terzina:47-74-90|pos 1-3 somma 43|
+20210909|lottofacile1|FI,TO|6|0|ambata:6;ambo:6-10;ambo:1-6;terzina:1-6-10|pos 1-4 somma 80|
+20210909|lottofacile1|GE,NA|6|0|ambata:8;ambo:8-58;ambo:8-85;terzina:8-58-85|pos 1-2 somma 32|
+20210909|lottofacile4|GE,TO|14|1|ambata:15;ambo:15-60;ambo:15-45;ambo:15-75;terzina:45-60-75|pos 3-4 verticale|
+20210909|lottofacile1|GE,TO|6|0|ambata:56;ambo:30-56;ambo:3-56;terzina:3-30-56|pos 3-4 somma 60|
+20210909|lottofacile1|MI,TO|6|0|ambata:6;ambo:6-50;ambo:5-6;terzina:5-6-50|pos 1-2 somma 40|
+20210909|lottofacile1|NA,PA|6|0|ambata:58;ambo:19-58;ambo:11-58;terzina:11-19-58|pos 1-5 somma 71|
+20210911|ambosecco_caotico|FI,TO,BA|2|1|ambo:21-37;ambo:47-87|A=23 su FI/TO, B=67 su BA|
+20210911|ambosecco_caotico|GE,PA,MI,RM|2|1|ambo:42-73;ambo:73-85|A=47 su GE/PA, B=43 su MI/RM|
+20210911|ambosecco_caotico|MI,PA,VE|2|1|ambo:33-83;ambo:83-86|A=37 su MI/PA, B=53 su VE|
+20210911|ambosecco_caotico|MI,RM,GE,PA|2|1|ambo:17-39;ambo:27-85|A=43 su MI/RM, B=47 su GE/PA|
+20210911|lottofacile5|BA|9|0|ambata:18;ambata:63;ambo:12-18;ambo:18-57;ambo:12-63;ambo:57-63;quartina:12-18-42-72;quartina:18-27-57-87;quartina:12-42-63-72;quartina:27-57-63-87|rilevamento 9-54|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210911|lottofacile1|BA,FI|6|0|ambata:82;ambo:78-82;ambo:82-87;terzina:78-82-87|pos 1-4 somma 12|
+20210911|lottofacile1|FI,TO|6|0|ambata:46;ambo:46-71;ambo:17-46;terzina:17-46-71|pos 1-2 somma 19|
+20210911|lottofacile4|MI,TO|14|1|ambata:53;ambo:8-53;ambo:53-83;ambo:23-53;terzina:8-23-83|pos 2-3 verticale|
+20210911|lottofacile4|TO,VE|14|1|ambata:83;ambo:38-83;ambo:23-83;ambo:53-83;terzina:23-38-53|pos 1-4 diagonale|
+20210914|lottofacile1|BA,NA|6|0|ambata:18;ambo:8-18;ambo:18-80;terzina:8-18-80|pos 1-4 somma 82|
+20210914|lottofacile1|CA,GE|6|0|ambata:12;ambo:12-89;ambo:12-88;terzina:12-88-89|pos 1-5 somma 1|
+20210914|lottofacile4|FI,NA|14|1|ambata:79;ambo:34-79;ambo:19-79;ambo:49-79;terzina:19-34-49|pos 2-3 diagonale|
+20210914|lottofacile1|FI,RM|6|0|ambata:74;ambo:65-74;ambo:56-74;terzina:56-65-74|pos 1-4 somma 25|
+20210914|lottofacile1|GE,VE|6|0|ambata:2;ambo:2-72;ambo:2-27;terzina:2-27-72|pos 1-3 somma 18|
+20210916|ambosecco_caotico|CA,TO,BA|2|1|ambo:52-52;ambo:52-84|A=58 su CA/TO, B=32 su BA|
+20210916|ambosecco_caotico|FI,NA,GE|2|1|ambo:36-50;ambo:50-86|A=40 su FI/NA, B=50 su GE|
+20210916|ambosecco_caotico|GE,PA,FI|2|1|ambo:35-61;ambo:61-86|A=39 su GE/PA, B=51 su FI|
+20210916|ambosecco_caotico|TO,VE,CA|2|1|ambo:9-64;ambo:19-82|A=71 su TO/VE, B=19 su CA|
+20210916|lottofacile5|GE|9|0|ambata:63;ambo:12-63;ambo:57-63;quartina:12-42-63-72;quartina:27-57-63-87|rilevamento 39-84|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210916|lottofacile1|BA,RM|6|0|ambata:8;ambo:8-74;ambo:8-47;terzina:8-47-74|pos 1-4 somma 16|
+20210916|lottofacile1|GE,VE|6|0|ambata:62;ambo:33-62;ambo:39-62;terzina:33-39-62|pos 2-5 somma 57|
+20210916|lottofacile4|NA,RM|14|1|ambata:7;ambo:7-52;ambo:7-37;ambo:7-67;terzina:37-52-67|pos 2-4 diagonale|
+20210916|lottofacile1|PA,TO|6|0|ambata:24;ambo:24-78;ambo:24-87;terzina:24-78-87|pos 2-3 somma 12|
+20210918|ambosecco_caotico|FI,TO,GE|2|1|ambo:10-69;ambo:79-88|A=11 su FI/TO, B=79 su GE|
+20210918|ambosecco_caotico|MI,RM,TO,VE|2|1|ambo:2-68;ambo:78-89|A=2 su MI/RM, B=88 su TO/VE|
+20210918|ambosecco_caotico|MI,VE,TO|2|1|ambo:18-47;ambo:28-84|A=52 su MI/VE, B=38 su TO|
+20210918|ambosecco_caotico|TO,VE,MI,RM|2|1|ambo:22-79;ambo:22-81|A=88 su TO/VE, B=2 su MI/RM|
+20210918|lottofacile5|MI|9|0|ambata:66;ambo:66-89;ambo:44-66;quartina:29-59-66-89;quartina:14-44-66-74|rilevamento 40-85|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210918|lottofacile5|PA|9|0|ambata:36;ambata:81;ambo:36-54;ambo:9-36;ambo:54-81;ambo:9-81;quartina:24-36-54-84;quartina:9-36-39-69;quartina:24-54-81-84;quartina:9-39-69-81|rilevamento 45-90|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210918|lottofacile1|CA,GE|6|0|ambata:90;ambo:56-90;ambo:65-90;terzina:56-65-90|pos 1-2 somma 34|
+20210918|lottofacile4|FI,RM|14|1|ambata:73;ambo:28-73;ambo:13-73;ambo:43-73;terzina:13-28-43|pos 2-5 verticale|
+20210918|lottofacile1|FI,RM|6|0|ambata:32;ambo:32-38;ambo:32-83;terzina:32-38-83|pos 2-5 somma 52|
+20210918|lottofacile1|GE,PA|6|0|ambata:62;ambo:59-62;ambo:55-62;terzina:55-59-62|pos 3-4 somma 31|
+20210918|lottofacile1|GE,RM|6|0|ambata:4;ambo:4-52;ambo:4-25;terzina:4-25-52|pos 1-5 somma 38|
+20210918|lottofacile4|MI,NA|14|1|ambata:23;ambo:23-68;ambo:23-53;ambo:23-83;terzina:53-68-83|pos 1-4 diagonale|
+20210918|lottofacile1|NA,TO|6|0|ambata:76;ambo:43-76;ambo:34-76;terzina:34-43-76|pos 3-5 somma 47|
+20210918|fulmine|TO,VE|12|0|ambata:56;ambo:11-56;ambo:38-56;ambo:29-56;quartina:11-29-38-56|figura, coppie ((11, 56), (38, 29))|
+20210921|ambosecco_caotico|BA,FI,VE,PA|2|1|ambo:44-51;ambo:51-85|A=49 su BA/FI/VE, B=41 su PA|
+20210921|ambosecco_caotico|CA,PA,TO|2|1|ambo:7-13;ambo:23-89|A=7 su CA/PA, B=83 su TO|
+20210921|ambosecco_caotico|MI,NA,VE,RM|2|1|ambo:34-72;ambo:72-86|A=38 su MI/NA/VE, B=52 su RM|
+20210921|lottofacile5|BA|9|0|ambata:63;ambo:12-63;ambo:57-63;quartina:12-42-63-72;quartina:27-57-63-87|rilevamento 39-84|
+20210921|lottofacile1|BA,RM|6|0|ambata:14;ambo:14-84;ambo:14-48;terzina:14-48-84|pos 4-5 somma 6|
+20210921|lottofacile4|BA,TO|14|1|ambata:83;ambo:38-83;ambo:23-83;ambo:53-83;terzina:23-38-53|pos 2-3 diagonale|
+20210921|lottofacile4|GE,NA|14|1|ambata:85;ambo:40-85;ambo:25-85;ambo:55-85;terzina:25-40-55|pos 4-5 verticale|
+20210921|lottofacile1|GE,NA|6|0|ambata:34;ambo:34-80;ambo:8-34;terzina:8-34-80|pos 4-5 somma 10|
+20210921|lottofacile1|GE,RM|6|0|ambata:58;ambo:26-58;ambo:58-62;terzina:26-58-62|pos 2-3 somma 64|
+20210921|lottofacile1|NA,VE|6|0|ambata:80;ambo:46-80;ambo:64-80;terzina:46-64-80|pos 1-5 somma 44|
+20210921|lottofacile1|RM,VE|6|0|ambata:46;ambo:3-46;ambo:30-46;terzina:3-30-46|pos 3-4 somma 87|
+20210923|ambosecco_caotico|BA,NA,FI,GE|2|1|ambo:44-51;ambo:51-85|A=49 su BA/NA, B=41 su FI/GE|
+20210923|ambosecco_caotico|FI,GE,BA,NA|2|1|ambo:37-39;ambo:49-85|A=41 su FI/GE, B=49 su BA/NA|
+20210923|ambosecco_caotico|MI,TO,FI|2|1|ambo:3-16;ambo:13-88|A=17 su MI/TO, B=73 su FI|
+20210923|lottofacile5|BA|9|0|ambata:12;ambata:57;ambo:12-89;ambo:12-44;ambo:57-89;ambo:44-57;quartina:12-29-59-89;quartina:12-14-44-74;quartina:29-57-59-89;quartina:14-44-57-74|rilevamento 4-49|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210923|lottofacile5|GE|9|0|ambata:18;ambata:63;ambo:12-18;ambo:18-57;ambo:12-63;ambo:57-63;quartina:12-18-42-72;quartina:18-27-57-87;quartina:12-42-63-72;quartina:27-57-63-87|rilevamento 9-54|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210923|lottofacile5|MI|9|0|ambata:6;ambo:6-25;ambo:6-70;quartina:6-25-55-85;quartina:6-10-40-70|rilevamento 17-62|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210923|lottofacile5|RM|9|0|ambata:84;ambata:39;ambo:80-84;ambo:35-84;ambo:39-80;ambo:35-39;quartina:20-50-80-84;quartina:5-35-65-84;quartina:20-39-50-80;quartina:5-35-39-65|rilevamento 31-76|
+20210923|fulmine|CA,FI|12|0|ambata:73;ambo:53-73;ambo:13-73;ambo:33-73;quartina:13-33-53-73|cadenza, coppie ((53, 33), (13, 73))|
+20210923|lottofacile1|FI,NA|6|0|ambata:86;ambo:16-86;ambo:61-86;terzina:16-61-86|pos 3-4 somma 74|
+20210923|lottofacile4|GE,PA|14|1|ambata:27;ambo:27-72;ambo:27-57;ambo:27-87;terzina:57-72-87|pos 1-5 diagonale|
+20210923|lottofacile1|GE,PA|6|0|ambata:78;ambo:27-78;ambo:72-78;terzina:27-72-78|pos 1-5 somma 63|
+20210923|lottofacile1|NA,TO|6|0|ambata:30;ambo:30-67;ambo:30-76;terzina:30-67-76|pos 1-5 somma 23|
+20210925|ambosecco_caotico|FI,MI,NA|2|1|ambo:54-68;ambo:54-82|A=76 su FI/MI, B=14 su NA|
+20210925|lottofacile5|RM|9|0|ambata:12;ambo:12-89;ambo:12-44;quartina:12-29-59-89;quartina:12-14-44-74|rilevamento 4-49|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20210925|lottofacile1|FI,TO|6|0|ambata:64;ambo:27-64;ambo:64-72;terzina:27-64-72|pos 2-4 somma 63|
+20210925|lottofacile1|MI,VE|6|0|ambata:58;ambo:58-78;ambo:58-87;terzina:58-78-87|pos 1-2 somma 12|
+20210925|lottofacile4|NA,RM|14|1|ambata:39;ambo:39-84;ambo:39-69;ambo:9-39;terzina:9-69-84|pos 3-5 diagonale|
+20210928|ambosecco_caotico|CA,RM,GE,MI|2|1|ambo:3-16;ambo:13-88|A=17 su CA/RM, B=73 su GE/MI|
+20210928|ambosecco_caotico|GE,MI,CA,RM|2|1|ambo:65-87;ambo:82-87|A=73 su GE/MI, B=17 su CA/RM|
+20210928|lottofacile5|VE|9|0|ambata:75;ambo:41-75;ambo:75-86;quartina:11-41-71-75;quartina:26-56-75-86|rilevamento 25-70|
+20210928|lottofacile1|CA,NA|6|0|ambata:90;ambo:51-90;ambo:15-90;terzina:15-51-90|pos 1-2 somma 39|
+20210928|lottofacile1|CA,RM|6|0|ambata:34;ambo:34-82;ambo:28-34;terzina:28-34-82|pos 2-5 somma 8|
+20210928|lottofacile1|FI,NA|6|0|ambata:90;ambo:5-90;ambo:50-90;terzina:5-50-90|pos 1-4 somma 85|
+20210928|lottofacile1|FI,PA|6|0|ambata:60;ambo:52-60;ambo:25-60;terzina:25-52-60|pos 3-5 somma 38|
+20210928|lottofacile1|GE,RM|6|0|ambata:34;ambo:34-64;ambo:34-46;terzina:34-46-64|pos 2-4 somma 26|
+20210928|lottofacile1|NA,TO|6|0|ambata:16;ambo:16-25;ambo:16-52;terzina:16-25-52|pos 2-5 somma 65|
+20210930|ambosecco_caotico|FI,GE,PA,RM|2|1|ambo:36-50;ambo:50-86|A=40 su FI/GE/PA, B=50 su RM|
+20210930|ambosecco_caotico|FI,TO,BA|2|1|ambo:5-35;ambo:45-89|A=5 su FI/TO, B=85 su BA|
+20210930|ambosecco_caotico|PA,TO,VE|2|1|ambo:27-60;ambo:60-87|A=30 su PA/TO, B=60 su VE|
+20210930|lottofacile4|BA,RM|14|1|ambata:73;ambo:28-73;ambo:13-73;ambo:43-73;terzina:13-28-43|pos 2-4 diagonale|
+20210930|lottofacile1|BA,RM|6|0|ambata:10;ambo:10-38;ambo:10-83;terzina:10-38-83|pos 2-4 somma 52|
+20210930|lottofacile1|BA,TO|6|0|ambata:22;ambo:4-22;ambo:22-40;terzina:4-22-40|pos 1-3 somma 86|
+20210930|lottofacile4|FI,NA|14|1|ambata:15;ambo:15-60;ambo:15-45;ambo:15-75;terzina:45-60-75|pos 3-4 verticale|
+20210930|lottofacile1|FI,NA|6|0|ambata:50;ambo:30-50;ambo:3-50;terzina:3-30-50|pos 3-4 somma 60|
+20210930|lottofacile1|MI,VE|6|0|ambata:66;ambo:66-89;ambo:66-88;terzina:66-88-89|pos 1-4 somma 1|
+20210930|lottofacile1|MI,VE|6|0|ambata:26;ambo:26-85;ambo:26-58;terzina:26-58-85|pos 4-5 somma 5|
+20210930|lottofacile1|NA,TO|6|0|ambata:22;ambo:22-29;ambo:22-22|pos 1-5 somma 61|
+20211002|ambosecco_caotico|BA,PA,FI|2|1|ambo:14-25;ambo:35-88|A=15 su BA/PA, B=75 su FI|
+20211002|ambosecco_caotico|CA,NA,PA|2|1|ambo:17-81;ambo:81-88|A=19 su CA/NA, B=71 su PA|
+20211002|ambosecco_caotico|FI,TO,PA|2|1|ambo:51-63;ambo:63-84|A=57 su FI/TO, B=33 su PA|
+20211002|ambosecco_caotico|RM,TO,VE,BA|2|1|ambo:32-70;ambo:32-82|A=78 su RM/TO/VE, B=12 su BA|
+20211002|lottofacile5|RM|9|0|ambata:27;ambata:72;ambo:21-27;ambo:27-66;ambo:21-72;ambo:66-72;quartina:21-27-51-81;quartina:6-27-36-66;quartina:21-51-72-81;quartina:6-36-66-72|rilevamento 42-87|
+20211002|lottofacile1|BA,MI|6|0|ambata:42;ambo:42-46;ambo:42-64;terzina:42-46-64|pos 1-5 somma 44|
+20211002|lottofacile1|CA,VE|6|0|ambata:70;ambo:22-70;ambo:29-70;terzina:22-29-70|pos 1-3 somma 68|
+20211002|lottofacile4|GE,VE|14|1|ambata:41;ambo:41-86;ambo:41-71;ambo:11-41;terzina:11-71-86|pos 2-4 diagonale|
+20211002|lottofacile1|GE,VE|6|0|ambata:76;ambo:1-76;ambo:10-76;terzina:1-10-76|pos 2-4 somma 89|
+20211002|lottofacile1|MI,RM|6|0|ambata:26;ambo:26-56;ambo:26-65;terzina:26-56-65|pos 1-3 somma 34|
+20211002|lottofacile1|RM,VE|6|0|ambata:76;ambo:15-76;ambo:51-76;terzina:15-51-76|pos 2-5 somma 75|
+20211005|ambosecco_caotico|BA,PA,FI|2|1|ambo:17-81;ambo:81-88|A=19 su BA/PA, B=71 su FI|
+20211005|ambosecco_caotico|BA,NA,FI|2|1|ambo:7-13;ambo:23-89|A=7 su BA/NA, B=83 su FI|
+20211005|ambosecco_caotico|CA,GE,BA|2|1|ambo:6-40;ambo:16-85|A=44 su CA/GE, B=46 su BA|
+20211005|ambosecco_caotico|GE,TO,CA|2|1|ambo:31-62;ambo:31-83|A=69 su GE/TO, B=21 su CA|
+20211005|lottofacile5|GE|9|0|ambata:72;ambata:27;ambo:39-72;ambo:72-84;ambo:27-39;ambo:27-84;quartina:9-39-69-72;quartina:24-54-72-84;quartina:9-27-39-69;quartina:24-27-54-84|rilevamento 24-69|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211005|lottofacile4|BA,CA|14|1|ambata:45;ambo:45-90;ambo:45-75;ambo:15-45;terzina:15-75-90|pos 1-4 orizzontale|
+20211005|lottofacile4|BA,RM|14|1|ambata:79;ambo:34-79;ambo:19-79;ambo:49-79;terzina:19-34-49|pos 2-3 diagonale|
+20211005|lottofacile1|BA,RM|6|0|ambata:84;ambo:59-84;ambo:55-84;terzina:55-59-84|pos 2-3 somma 31|
+20211005|lottofacile1|BA,RM|6|0|ambata:68;ambo:68-71;ambo:17-68;terzina:17-68-71|pos 3-5 somma 19|
+20211005|lottofacile1|BA,TO|6|0|ambata:48;ambo:48-55;ambo:48-59;terzina:48-55-59|pos 2-4 somma 35|
+20211005|lottofacile1|CA,FI|6|0|ambata:10;ambo:10-44;ambo:10-49;terzina:10-44-49|pos 2-3 somma 46|
+20211005|lottofacile4|CA,MI|14|1|ambata:77;ambo:32-77;ambo:17-77;ambo:47-77;terzina:17-32-47|pos 3-5 diagonale|
+20211005|lottofacile1|CA,MI|6|0|ambata:34;ambo:34-82;ambo:28-34;terzina:28-34-82|pos 3-5 somma 8|
+20211005|lottofacile1|MI,NA|6|0|ambata:40;ambo:40-66;ambo:40-69;terzina:40-66-69|pos 1-4 somma 24|
+20211005|lottofacile1|NA,VE|6|0|ambata:88;ambo:1-88;ambo:10-88;terzina:1-10-88|pos 4-5 somma 89|
+20211007|ambosecco_caotico|BA,CA,NA|2|1|ambo:59-64;ambo:64-83|A=66 su BA/CA, B=24 su NA|
+20211007|ambosecco_caotico|BA,NA,CA|2|1|ambo:22-26;ambo:36-87|A=24 su BA/NA, B=66 su CA|
+20211007|ambosecco_caotico|CA,GE,PA,TO,VE|2|1|ambo:11-80;ambo:11-81|A=89 su CA/GE, B=1 su PA/TO/VE|
+20211007|ambosecco_caotico|FI,PA,RM|2|1|ambo:18-70;ambo:70-88|A=20 su FI/PA, B=70 su RM|
+20211007|ambosecco_caotico|FI,MI,BA|2|1|ambo:25-82;ambo:82-87|A=28 su FI/MI, B=62 su BA|
+20211007|ambosecco_caotico|PA,TO,VE,CA,GE|2|1|ambo:1-79;ambo:89-89|A=1 su PA/TO/VE, B=89 su CA/GE|
+20211007|lottofacile1|BA,NA|6|0|ambata:58;ambo:10-58;ambo:1-58;terzina:1-10-58|pos 1-5 somma 80|
+20211007|lottofacile1|FI,TO|6|0|ambata:66;ambo:26-66;ambo:62-66;terzina:26-62-66|pos 3-5 somma 64|
+20211007|lottofacile1|MI,VE|6|0|ambata:2;ambo:2-66;ambo:2-69;terzina:2-66-69|pos 3-5 somma 24|
+20211007|lottofacile1|NA,RM|6|0|ambata:66;ambo:5-66;ambo:50-66;terzina:5-50-66|pos 2-5 somma 85|
+20211009|ambosecco_caotico|GE,RM,PA|2|1|ambo:14-15;ambo:24-88|A=16 su GE/RM, B=74 su PA|
+20211009|lottofacile1|CA,FI|6|0|ambata:40;ambo:40-72;ambo:27-40;terzina:27-40-72|pos 3-4 somma 18|
+20211009|lottofacile1|CA,GE|6|0|ambata:22;ambo:18-22;ambo:22-81;terzina:18-22-81|pos 1-5 somma 72|
+20211009|lottofacile1|MI,PA|6|0|ambata:84;ambo:69-84;ambo:66-84;terzina:66-69-84|pos 2-4 somma 21|
+20211009|lottofacile1|PA,VE|6|0|ambata:18;ambo:3-18;ambo:18-30;terzina:3-18-30|pos 1-2 somma 87|
+20211012|ambosecco_caotico|BA,PA,RM|2|1|ambo:9-64;ambo:19-82|A=71 su BA/PA, B=19 su RM|
+20211012|ambosecco_caotico|CA,PA,GE|2|1|ambo:9-80;ambo:80-89|A=10 su CA/PA, B=80 su GE|
+20211012|ambosecco_caotico|FI,MI,CA|2|1|ambo:19-55;ambo:29-83|A=61 su FI/MI, B=29 su CA|
+20211012|ambosecco_caotico|NA,VE,FI|2|1|ambo:73-88;ambo:81-88|A=82 su NA/VE, B=8 su FI|
+20211012|lottofacile5|FI|9|0|ambata:27;ambo:27-39;ambo:27-84;quartina:9-27-39-69;quartina:24-27-54-84|rilevamento 24-69|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211012|lottofacile5|PA|9|0|ambata:33;ambo:33-43;ambo:33-88;quartina:13-33-43-73;quartina:28-33-58-88|rilevamento 26-71|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211012|lottofacile4|BA,NA|14|1|ambata:27;ambo:27-72;ambo:27-57;ambo:27-87;terzina:57-72-87|pos 2-4 verticale|
+20211012|lottofacile1|BA,NA|6|0|ambata:52;ambo:52-72;ambo:27-52;terzina:27-52-72|pos 2-4 somma 18|
+20211012|lottofacile1|CA,VE|6|0|ambata:8;ambo:4-8;ambo:8-40;terzina:4-8-40|pos 1-2 somma 86|
+20211012|lottofacile1|FI,PA|6|0|ambata:52;ambo:21-52;ambo:12-52;terzina:12-21-52|pos 3-5 somma 69|
+20211012|lottofacile1|FI,TO|6|0|ambata:8;ambo:8-58;ambo:8-85;terzina:8-58-85|pos 2-5 somma 32|
+20211012|lottofacile1|FI,VE|6|0|ambata:62;ambo:50-62;ambo:5-62;terzina:5-50-62|pos 3-4 somma 40|
+20211012|lottofacile1|GE,MI|6|0|ambata:50;ambo:4-50;ambo:40-50;terzina:4-40-50|pos 2-4 somma 86|
+20211012|lottofacile1|MI,VE|6|0|ambata:74;ambo:22-74;ambo:29-74;terzina:22-29-74|pos 2-3 somma 68|
+20211012|lottofacile1|NA,PA|6|0|ambata:60;ambo:50-60;ambo:5-60;terzina:5-50-60|pos 1-4 somma 40|
+20211014|ambosecco_caotico|CA,VE,GE|2|1|ambo:42-73;ambo:73-85|A=47 su CA/VE, B=43 su GE|
+20211014|lottofacile4|BA,CA|14|1|ambata:41;ambo:41-86;ambo:41-71;ambo:11-41;terzina:11-71-86|pos 4-5 verticale|
+20211014|lottofacile1|BA,CA|6|0|ambata:22;ambo:1-22;ambo:10-22;terzina:1-10-22|pos 4-5 somma 89|
+20211014|lottofacile1|CA,PA|6|0|ambata:22;ambo:22-31;ambo:13-22;terzina:13-22-31|pos 1-2 somma 59|
+20211014|lottofacile1|FI,PA|6|0|ambata:64;ambo:31-64;ambo:13-64;terzina:13-31-64|pos 3-5 somma 59|
+20211014|lottofacile1|FI,VE|6|0|ambata:90;ambo:9-90;ambo:90-90|pos 2-5 somma 81|
+20211014|lottofacile1|NA,VE|6|0|ambata:68;ambo:9-68;ambo:68-90;terzina:9-68-90|pos 3-4 somma 81|
+20211016|ambosecco_caotico|RM,VE,MI|2|1|ambo:17-81;ambo:81-88|A=19 su RM/VE, B=71 su MI|
+20211016|lottofacile5|BA|9|0|ambata:21;ambata:66;ambo:21-29;ambo:21-74;ambo:29-66;ambo:66-74;quartina:21-29-59-89;quartina:14-21-44-74;quartina:29-59-66-89;quartina:14-44-66-74|rilevamento 10-55|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211016|lottofacile5|BA|9|0|ambata:54;ambata:9;ambo:54-60;ambo:15-54;ambo:9-60;ambo:9-15;quartina:30-54-60-90;quartina:15-45-54-75;quartina:9-30-60-90;quartina:9-15-45-75|rilevamento 21-66|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211016|lottofacile5|MI|9|0|ambata:78;ambo:43-78;ambo:78-88;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 26-71|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211016|lottofacile5|RM|9|0|ambata:63;ambo:12-63;ambo:57-63;quartina:12-42-63-72;quartina:27-57-63-87|rilevamento 9-54|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211016|lottofacile1|BA,CA|6|0|ambata:6;ambo:6-17;ambo:6-71;terzina:6-17-71|pos 4-5 somma 73|
+20211016|lottofacile1|BA,PA|6|0|ambata:82;ambo:51-82;ambo:15-82;terzina:15-51-82|pos 3-5 somma 39|
+20211016|lottofacile1|CA,MI|6|0|ambata:76;ambo:28-76;ambo:76-82;terzina:28-76-82|pos 2-4 somma 62|
+20211016|lottofacile1|CA,NA|6|0|ambata:54;ambo:54-57;ambo:54-75;terzina:54-57-75|pos 1-4 somma 33|
+20211016|lottofacile1|CA,NA|6|0|ambata:26;ambo:26-26;ambo:26-62|pos 3-4 somma 64|
+20211016|lottofacile1|FI,PA|6|0|ambata:82;ambo:25-82;ambo:52-82;terzina:25-52-82|pos 3-4 somma 65|
+20211016|lottofacile1|NA,PA|6|0|ambata:62;ambo:18-62;ambo:62-81;terzina:18-62-81|pos 2-3 somma 72|
+20211016|lottofacile1|NA,PA|6|0|ambata:62;ambo:61-62;ambo:16-62;terzina:16-61-62|pos 2-5 somma 29|
+20211016|lottofacile4|PA,RM|14|1|ambata:85;ambo:40-85;ambo:25-85;ambo:55-85;terzina:25-40-55|pos 2-4 diagonale|
+20211016|lottofacile1|PA,RM|6|0|ambata:18;ambo:18-35;ambo:18-53;terzina:18-35-53|pos 2-4 somma 55|
+20211016|lottofacile1|RM,TO|6|0|ambata:46;ambo:46-80;ambo:8-46;terzina:8-46-80|pos 1-4 somma 10|
+20211019|ambosecco_caotico|BA,VE,GE|2|1|ambo:27-30;ambo:37-86|A=33 su BA/VE, B=57 su GE|
+20211019|ambosecco_caotico|GE,VE,BA|2|1|ambo:58-75;ambo:75-83|A=65 su GE/VE, B=25 su BA|
+20211019|ambosecco_caotico|NA,RM,MI|2|1|ambo:32-70;ambo:32-82|A=78 su NA/RM, B=12 su MI|
+20211019|ambosecco_caotico|RM,VE,NA|2|1|ambo:34-72;ambo:72-86|A=38 su RM/VE, B=52 su NA|
+20211019|lottofacile1|BA,TO|6|0|ambata:4;ambo:3-4;ambo:4-30;terzina:3-4-30|pos 1-2 somma 87|
+20211019|lottofacile1|FI,MI|6|0|ambata:24;ambo:24-82;ambo:24-28;terzina:24-28-82|pos 3-5 somma 8|
+20211019|lottofacile1|FI,NA|6|0|ambata:22;ambo:22-70;ambo:7-22;terzina:7-22-70|pos 1-5 somma 20|
+20211019|lottofacile1|FI,PA|6|0|ambata:56;ambo:8-56;ambo:56-80;terzina:8-56-80|pos 1-3 somma 82|
+20211019|lottofacile1|MI,TO|6|0|ambata:80;ambo:46-80;ambo:64-80;terzina:46-64-80|pos 2-5 somma 44|
+20211019|fulmine|PA,VE|12|0|ambata:65;ambo:29-65;ambo:2-65;ambo:38-65;quartina:2-29-38-65|figura, coppie ((29, 38), (2, 65))|
+20211019|lottofacile1|RM,VE|6|0|ambata:40;ambo:30-40;ambo:3-40;terzina:3-30-40|pos 1-5 somma 60|
+20211021|ambosecco_caotico|CA,RM,GE,NA|2|1|ambo:20-63;ambo:20-83|A=70 su CA/RM, B=20 su GE/NA|
+20211021|ambosecco_caotico|GE,NA,CA,RM|2|1|ambo:18-70;ambo:70-88|A=20 su GE/NA, B=70 su CA/RM|
+20211021|ambosecco_caotico|MI,RM,GE|2|1|ambo:32-70;ambo:32-82|A=78 su MI/RM, B=12 su GE|
+20211021|lottofacile1|BA,CA|6|0|ambata:80;ambo:25-80;ambo:52-80;terzina:25-52-80|pos 1-2 somma 65|
+20211021|lottofacile1|BA,GE|6|0|ambata:18;ambo:12-18;ambo:18-21;terzina:12-18-21|pos 3-4 somma 78|
+20211021|lottofacile1|CA,FI|6|0|ambata:64;ambo:61-64;ambo:16-64;terzina:16-61-64|pos 1-5 somma 29|
+20211021|lottofacile1|CA,FI|6|0|ambata:28;ambo:28-79;ambo:28-77;terzina:28-77-79|pos 3-5 somma 11|
+20211021|lottofacile1|MI,RM|6|0|ambata:54;ambo:2-54;ambo:20-54;terzina:2-20-54|pos 1-4 somma 88|
+20211023|ambosecco_caotico|BA,PA,CA|2|1|ambo:52-52;ambo:52-84|A=58 su BA/PA, B=32 su CA|
+20211023|ambosecco_caotico|BA,CA,PA|2|1|ambo:21-71;ambo:21-82|A=79 su BA/CA, B=11 su PA|
+20211023|ambosecco_caotico|GE,NA,PA|2|1|ambo:50-74;ambo:74-84|A=56 su GE/NA, B=34 su PA|
+20211023|ambosecco_caotico|GE,NA,RM|2|1|ambo:4-46;ambo:56-89|A=4 su GE/NA, B=86 su RM|
+20211023|lottofacile1|BA,CA|6|0|ambata:48;ambo:48-77;ambo:48-79;terzina:48-77-79|pos 1-3 somma 13|
+20211023|lottofacile1|CA,GE|6|0|ambata:34;ambo:34-75;ambo:34-57;terzina:34-57-75|pos 4-5 somma 15|
+20211023|lottofacile1|CA,PA|6|0|ambata:44;ambo:34-44;ambo:43-44;terzina:34-43-44|pos 1-5 somma 56|
+20211023|lottofacile1|CA,RM|6|0|ambata:40;ambo:29-40;ambo:22-40;terzina:22-29-40|pos 2-3 somma 61|
+20211023|lottofacile1|FI,VE|6|0|ambata:90;ambo:63-90;ambo:36-90;terzina:36-63-90|pos 4-5 somma 27|
+20211023|lottofacile4|GE,PA|14|1|ambata:53;ambo:8-53;ambo:53-83;ambo:23-53;terzina:8-23-83|pos 2-5 diagonale|
+20211023|lottofacile1|GE,PA|6|0|ambata:26;ambo:26-88;ambo:26-89;terzina:26-88-89|pos 2-5 somma 2|
+20211023|lottofacile1|GE,TO|6|0|ambata:24;ambo:15-24;ambo:24-51;terzina:15-24-51|pos 3-5 somma 75|
+20211026|ambosecco_caotico|BA,VE,RM|2|1|ambo:29-38;ambo:48-86|A=32 su BA/VE, B=58 su RM|
+20211026|ambosecco_caotico|BA,VE,CA|2|1|ambo:43-62;ambo:62-85|A=48 su BA/VE, B=42 su CA|
+20211026|ambosecco_caotico|CA,FI,VE|2|1|ambo:5-32;ambo:15-86|A=35 su CA/FI, B=55 su VE|
+20211026|ambosecco_caotico|MI,NA,PA|2|1|ambo:43-69;ambo:43-82|A=77 su MI/NA, B=13 su PA|
+20211026|lottofacile5|MI|9|0|ambata:72;ambata:27;ambo:36-72;ambo:72-81;ambo:27-36;ambo:27-81;quartina:6-36-66-72;quartina:21-51-72-81;quartina:6-27-36-66;quartina:21-27-51-81|rilevamento 27-72|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211026|lottofacile1|FI,GE|6|0|ambata:40;ambo:32-40;ambo:23-40;terzina:23-32-40|pos 3-5 somma 58|
+20211026|lottofacile1|FI,NA|6|0|ambata:62;ambo:32-62;ambo:23-62;terzina:23-32-62|pos 3-5 somma 58|
+20211026|lottofacile1|GE,NA|6|0|ambata:62;ambo:32-62;ambo:23-62;terzina:23-32-62|pos 3-5 somma 58|
+20211026|lottofacile1|GE,VE|6|0|ambata:34;ambo:34-41;ambo:14-34;terzina:14-34-41|pos 1-4 somma 49|
+20211026|lottofacile1|MI,VE|6|0|ambata:90;ambo:35-90;ambo:53-90;terzina:35-53-90|pos 2-5 somma 55|
+20211026|lottofacile1|RM,VE|6|0|ambata:90;ambo:42-90;ambo:24-90;terzina:24-42-90|pos 2-3 somma 48|
+20211028|ambosecco_caotico|CA,GE,RM|2|1|ambo:66-75;ambo:66-81|A=84 su CA/GE, B=6 su RM|
+20211028|ambosecco_caotico|CA,GE,NA|2|1|ambo:21-37;ambo:47-87|A=23 su CA/GE, B=67 su NA|
+20211028|ambosecco_caotico|CA,FI,NA|2|1|ambo:32-70;ambo:32-82|A=78 su CA/FI, B=12 su NA|
+20211028|ambosecco_caotico|FI,RM,GE,MI,NA,VE|2|1|ambo:22-79;ambo:22-81|A=88 su FI/RM, B=2 su GE/MI/NA/VE|
+20211028|ambosecco_caotico|GE,MI,NA,VE,FI,RM|2|1|ambo:2-68;ambo:78-89|A=2 su GE/MI/NA/VE, B=88 su FI/RM|
+20211028|ambosecco_caotico|PA,TO,VE|2|1|ambo:51-63;ambo:63-84|A=57 su PA/TO, B=33 su VE|
+20211028|lottofacile5|BA|9|0|ambata:72;ambo:21-72;ambo:66-72;quartina:21-51-72-81;quartina:6-36-66-72|rilevamento 42-87|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211028|lottofacile4|CA,GE|14|1|ambata:5;ambo:5-50;ambo:5-35;ambo:5-65;terzina:35-50-65|pos 2-5 orizzontale|
+20211028|lottofacile1|CA,RM|6|0|ambata:12;ambo:12-54;ambo:12-45;terzina:12-45-54|pos 2-5 somma 36|
+20211028|lottofacile1|CA,VE|6|0|ambata:64;ambo:64-70;ambo:7-64;terzina:7-64-70|pos 3-4 somma 20|
+20211030|ambosecco_caotico|BA,GE,MI,FI,TO|2|1|ambo:19-55;ambo:29-83|A=61 su BA/GE/MI, B=29 su FI/TO|
+20211030|ambosecco_caotico|FI,MI,TO,BA,GE|2|1|ambo:26-71;ambo:71-87|A=29 su FI/MI/TO, B=61 su BA/GE|
+20211030|ambosecco_caotico|TO,VE,GE|2|1|ambo:44-77;ambo:44-81|A=86 su TO/VE, B=4 su GE|
+20211030|lottofacile5|TO|9|0|ambata:33;ambata:78;ambo:33-73;ambo:28-33;ambo:73-78;ambo:28-78;quartina:13-33-43-73;quartina:28-33-58-88;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 41-86|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211030|lottofacile1|BA,MI|6|0|ambata:82;ambo:20-82;ambo:2-82;terzina:2-20-82|pos 1-4 somma 70|
+20211030|lottofacile1|FI,MI|6|0|ambata:82;ambo:78-82;ambo:82-87;terzina:78-82-87|pos 1-3 somma 12|
+20211030|lottofacile4|MI,NA|14|1|ambata:23;ambo:23-68;ambo:23-53;ambo:23-83;terzina:53-68-83|pos 1-5 verticale|
+20211030|lottofacile1|MI,NA|6|0|ambata:52;ambo:52-73;ambo:37-52;terzina:37-52-73|pos 1-5 somma 17|
+20211102|ambosecco_caotico|BA,RM,VE|2|1|ambo:43-62;ambo:62-85|A=48 su BA/RM, B=42 su VE|
+20211102|ambosecco_caotico|BA,PA,RM|2|1|ambo:44-77;ambo:44-81|A=86 su BA/PA, B=4 su RM|
+20211102|ambosecco_caotico|BA,TO,RM|2|1|ambo:5-32;ambo:15-86|A=35 su BA/TO, B=55 su RM|
+20211102|ambosecco_caotico|BA,FI,GE|2|1|ambo:52-52;ambo:52-84|A=58 su BA/FI, B=32 su GE|
+20211102|ambosecco_caotico|CA,TO,GE|2|1|ambo:14-15;ambo:24-88|A=16 su CA/TO, B=74 su GE|
+20211102|ambosecco_caotico|NA,VE,RM|2|1|ambo:55-76;ambo:55-81|A=85 su NA/VE, B=5 su RM|
+20211102|ambosecco_caotico|PA,TO,BA|2|1|ambo:65-67;ambo:65-82|A=75 su PA/TO, B=15 su BA|
+20211102|lottofacile5|VE|9|0|ambata:21;ambo:21-89;ambo:21-44;quartina:21-29-59-89;quartina:14-21-44-74|rilevamento 40-85|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211102|lottofacile4|BA,FI|14|1|ambata:57;ambo:12-57;ambo:57-87;ambo:27-57;terzina:12-27-87|pos 1-2 diagonale|
+20211102|lottofacile1|BA,TO|6|0|ambata:32;ambo:32-40;ambo:4-32;terzina:4-32-40|pos 1-4 somma 50|
+20211102|lottofacile1|GE,PA|6|0|ambata:64;ambo:17-64;ambo:64-71;terzina:17-64-71|pos 2-5 somma 73|
+20211104|ambosecco_caotico|BA,TO,CA|2|1|ambo:66-75;ambo:66-81|A=84 su BA/TO, B=6 su CA|
+20211104|ambosecco_caotico|MI,VE,RM|2|1|ambo:42-61;ambo:42-83|A=68 su MI/VE, B=22 su RM|
+20211104|lottofacile5|CA|9|0|ambata:21;ambata:66;ambo:21-29;ambo:21-74;ambo:29-66;ambo:66-74;quartina:21-29-59-89;quartina:14-21-44-74;quartina:29-59-66-89;quartina:14-44-66-74|rilevamento 10-55|
+20211104|lottofacile5|NA|9|0|ambata:6;ambata:51;ambo:6-85;ambo:6-40;ambo:51-85;ambo:40-51;quartina:6-25-55-85;quartina:6-10-40-70;quartina:25-51-55-85;quartina:10-40-51-70|rilevamento 2-47|
+20211104|lottofacile1|BA,CA|6|0|ambata:12;ambo:12-29;ambo:12-22;terzina:12-22-29|pos 2-4 somma 61|
+20211104|lottofacile4|FI,RM|14|1|ambata:5;ambo:5-50;ambo:5-35;ambo:5-65;terzina:35-50-65|pos 4-5 verticale|
+20211104|lottofacile1|FI,RM|6|0|ambata:8;ambo:8-10;ambo:1-8;terzina:1-8-10|pos 4-5 somma 80|
+20211104|lottofacile1|GE,NA|6|0|ambata:72;ambo:72-88;ambo:72-89;terzina:72-88-89|pos 1-2 somma 2|
+20211104|lottofacile1|MI,RM|6|0|ambata:44;ambo:44-82;ambo:28-44;terzina:28-44-82|pos 3-5 somma 8|
+20211106|ambosecco_caotico|FI,RM,CA|2|1|ambo:4-24;ambo:14-87|A=26 su FI/RM, B=64 su CA|
+20211106|ambosecco_caotico|FI,PA,MI|2|1|ambo:22-26;ambo:36-87|A=24 su FI/PA, B=66 su MI|
+20211106|ambosecco_caotico|GE,MI,RM|2|1|ambo:51-63;ambo:63-84|A=57 su GE/MI, B=33 su RM|
+20211106|lottofacile1|CA,GE|6|0|ambata:90;ambo:19-90;ambo:11-90;terzina:11-19-90|pos 3-4 somma 71|
+20211106|lottofacile1|CA,RM|6|0|ambata:52;ambo:21-52;ambo:12-52;terzina:12-21-52|pos 1-4 somma 69|
+20211106|lottofacile1|FI,PA|6|0|ambata:66;ambo:66-72;ambo:27-66;terzina:27-66-72|pos 1-5 somma 18|
+20211106|lottofacile1|GE,NA|6|0|ambata:28;ambo:28-37;ambo:28-73;terzina:28-37-73|pos 2-5 somma 53|
+20211106|lottofacile1|GE,VE|6|0|ambata:14;ambo:4-14;ambo:14-40;terzina:4-14-40|pos 2-3 somma 86|
+20211106|lottofacile1|MI,RM|6|0|ambata:66;ambo:39-66;ambo:33-66;terzina:33-39-66|pos 3-5 somma 51|
+20211106|lottofacile1|PA,VE|6|0|ambata:14;ambo:14-52;ambo:14-25;terzina:14-25-52|pos 2-4 somma 38|
+20211109|ambosecco_caotico|BA,PA,NA|2|1|ambo:54-68;ambo:54-82|A=76 su BA/PA, B=14 su NA|
+20211109|ambosecco_caotico|FI,RM,TO|2|1|ambo:25-82;ambo:82-87|A=28 su FI/RM, B=62 su TO|
+20211109|ambosecco_caotico|RM,TO,FI|2|1|ambo:8-56;ambo:18-83|A=62 su RM/TO, B=28 su FI|
+20211109|ambosecco_caotico|RM,TO,BA|2|1|ambo:18-70;ambo:70-88|A=20 su RM/TO, B=70 su BA|
+20211111|ambosecco_caotico|BA,MI,TO|2|1|ambo:21-71;ambo:21-82|A=79 su BA/MI, B=11 su TO|
+20211111|ambosecco_caotico|GE,RM,MI|2|1|ambo:51-63;ambo:63-84|A=57 su GE/RM, B=33 su MI|
+20211111|lottofacile5|CA|9|0|ambata:78;ambo:73-78;ambo:28-78;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 41-86|
+20211111|lottofacile1|CA,PA|6|0|ambata:76;ambo:76-80;ambo:8-76;terzina:8-76-80|pos 2-3 somma 10|
+20211111|lottofacile1|GE,RM|6|0|ambata:24;ambo:24-80;ambo:8-24;terzina:8-24-80|pos 1-2 somma 10|
+20211111|lottofacile4|MI,PA|14|1|ambata:27;ambo:27-72;ambo:27-57;ambo:27-87;terzina:57-72-87|pos 3-4 diagonale|
+20211111|lottofacile1|MI,PA|6|0|ambata:34;ambo:27-34;ambo:34-72;terzina:27-34-72|pos 3-4 somma 63|
+20211111|lottofacile1|NA,TO|6|0|ambata:48;ambo:23-48;ambo:32-48;terzina:23-32-48|pos 2-3 somma 67|
+20211113|ambosecco_caotico|FI,TO,GE|2|1|ambo:42-73;ambo:73-85|A=47 su FI/TO, B=43 su GE|
+20211113|ambosecco_caotico|GE,NA,BA|2|1|ambo:4-46;ambo:56-89|A=4 su GE/NA, B=86 su BA|
+20211113|ambosecco_caotico|MI,RM,NA|2|1|ambo:6-24;ambo:34-89|A=6 su MI/RM, B=84 su NA|
+20211113|lottofacile1|CA,TO|6|0|ambata:66;ambo:66-85;ambo:58-66;terzina:58-66-85|pos 1-3 somma 5|
+20211113|lottofacile1|FI,GE|6|0|ambata:10;ambo:10-87;ambo:10-78;terzina:10-78-87|pos 1-4 somma 3|
+20211113|lottofacile1|FI,PA|6|0|ambata:86;ambo:5-86;ambo:50-86;terzina:5-50-86|pos 3-4 somma 85|
+20211113|lottofacile1|GE,PA|6|0|ambata:2;ambo:2-36;ambo:2-63;terzina:2-36-63|pos 1-2 somma 54|
+20211116|ambosecco_caotico|MI,TO,RM|2|1|ambo:14-15;ambo:24-88|A=16 su MI/TO, B=74 su RM|
+20211116|lottofacile5|RM|9|0|ambata:30;ambo:30-32;ambo:30-77;quartina:2-30-32-62;quartina:17-30-47-77|rilevamento 43-88|
+20211116|lottofacile1|BA,PA|6|0|ambata:6;ambo:6-11;ambo:6-19;terzina:6-11-19|pos 1-3 somma 79|
+20211116|lottofacile1|CA,MI|6|0|ambata:40;ambo:32-40;ambo:23-40;terzina:23-32-40|pos 3-5 somma 58|
+20211118|ambosecco_caotico|BA,GE,CA|2|1|ambo:13-36;ambo:46-88|A=14 su BA/GE, B=76 su CA|
+20211118|ambosecco_caotico|BA,MI,PA|2|1|ambo:65-67;ambo:65-82|A=75 su BA/MI, B=15 su PA|
+20211118|ambosecco_caotico|MI,PA,BA|2|1|ambo:14-25;ambo:35-88|A=15 su MI/PA, B=75 su BA|
+20211118|lottofacile5|PA|9|0|ambata:36;ambo:36-84;ambo:36-39;quartina:24-36-54-84;quartina:9-36-39-69|rilevamento 15-60|
+20211118|lottofacile1|BA,CA|6|0|ambata:38;ambo:38-80;ambo:8-38;terzina:8-38-80|pos 3-4 somma 10|
+20211118|lottofacile1|CA,TO|6|0|ambata:52;ambo:40-52;ambo:4-52;terzina:4-40-52|pos 2-3 somma 50|
+20211118|lottofacile1|FI,VE|6|0|ambata:36;ambo:36-74;ambo:36-47;terzina:36-47-74|pos 2-3 somma 16|
+20211118|lottofacile4|MI,VE|14|1|ambata:7;ambo:7-52;ambo:7-37;ambo:7-67;terzina:37-52-67|pos 3-4 orizzontale|
+20211118|lottofacile1|NA,RM|6|0|ambata:82;ambo:46-82;ambo:64-82;terzina:46-64-82|pos 1-4 somma 44|
+20211118|lottofacile1|NA,TO|6|0|ambata:48;ambo:2-48;ambo:20-48;terzina:2-20-48|pos 3-4 somma 88|
+20211118|lottofacile1|PA,TO|6|0|ambata:68;ambo:32-68;ambo:23-68;terzina:23-32-68|pos 1-3 somma 58|
+20211120|ambosecco_caotico|GE,NA,BA|2|1|ambo:53-60;ambo:53-83|A=67 su GE/NA, B=23 su BA|
+20211120|ambosecco_caotico|MI,TO,CA|2|1|ambo:44-77;ambo:44-81|A=86 su MI/TO, B=4 su CA|
+20211120|lottofacile4|BA,RM|14|1|ambata:11;ambo:11-56;ambo:11-41;ambo:11-71;terzina:41-56-71|pos 1-3 orizzontale|
+20211120|lottofacile1|GE,TO|6|0|ambata:4;ambo:4-61;ambo:4-16;terzina:4-16-61|pos 1-4 somma 29|
+20211120|lottofacile1|MI,NA|6|0|ambata:62;ambo:42-62;ambo:24-62;terzina:24-42-62|pos 1-4 somma 48|
+20211120|lottofacile1|RM,TO|6|0|ambata:4;ambo:4-7;ambo:4-70;terzina:4-7-70|pos 1-5 somma 83|
+20211123|ambosecco_caotico|CA,MI,PA,GE|2|1|ambo:40-45;ambo:40-85|A=50 su CA/MI/PA, B=40 su GE|
+20211123|lottofacile5|PA|9|0|ambata:48;ambo:38-48;ambo:48-83;quartina:8-38-48-68;quartina:23-48-53-83|rilevamento 19-64|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211123|lottofacile5|TO|9|0|ambata:24;ambata:69;ambo:24-67;ambo:22-24;ambo:67-69;ambo:22-69;quartina:7-24-37-67;quartina:22-24-52-82;quartina:7-37-67-69;quartina:22-52-69-82|rilevamento 38-83|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211123|lottofacile1|BA,NA|6|0|ambata:4;ambo:4-10;ambo:1-4;terzina:1-4-10|pos 2-3 somma 80|
+20211123|lottofacile4|BA,TO|14|1|ambata:21;ambo:21-66;ambo:21-51;ambo:21-81;terzina:51-66-81|pos 3-4 diagonale|
+20211123|lottofacile1|BA,VE|6|0|ambata:6;ambo:6-38;ambo:6-83;terzina:6-38-83|pos 1-5 somma 52|
+20211123|lottofacile1|CA,GE|6|0|ambata:80;ambo:14-80;ambo:41-80;terzina:14-41-80|pos 2-3 somma 76|
+20211123|lottofacile1|GE,RM|6|0|ambata:54;ambo:43-54;ambo:34-54;terzina:34-43-54|pos 1-3 somma 47|
+20211125|ambosecco_caotico|CA,GE,BA|2|1|ambo:55-76;ambo:55-81|A=85 su CA/GE, B=5 su BA|
+20211125|ambosecco_caotico|FI,PA,TO|2|1|ambo:7-48;ambo:17-84|A=53 su FI/PA, B=37 su TO|
+20211125|lottofacile5|FI|9|0|ambata:60;ambo:7-60;ambo:52-60;quartina:7-37-60-67;quartina:22-52-60-82|rilevamento 8-53|
+20211125|lottofacile5|MI|9|0|ambata:12;ambata:57;ambo:12-89;ambo:12-44;ambo:57-89;ambo:44-57;quartina:12-29-59-89;quartina:12-14-44-74;quartina:29-57-59-89;quartina:14-44-57-74|rilevamento 4-49|
+20211125|lottofacile1|FI,PA|6|0|ambata:64;ambo:1-64;ambo:10-64;terzina:1-10-64|pos 2-3 somma 89|
+20211125|lottofacile1|MI,TO|6|0|ambata:84;ambo:37-84;ambo:73-84;terzina:37-73-84|pos 1-4 somma 53|
+20211125|lottofacile1|NA,VE|6|0|ambata:16;ambo:16-79;ambo:16-77;terzina:16-77-79|pos 1-2 somma 11|
+20211127|ambosecco_caotico|CA,MI,NA|2|1|ambo:27-30;ambo:37-86|A=33 su CA/MI, B=57 su NA|
+20211127|ambosecco_caotico|GE,NA,PA|2|1|ambo:37-39;ambo:49-85|A=41 su GE/NA, B=49 su PA|
+20211127|ambosecco_caotico|TO,VE,NA|2|1|ambo:2-8;ambo:12-89|A=8 su TO/VE, B=82 su NA|
+20211127|lottofacile5|PA|9|0|ambata:12;ambata:57;ambo:12-89;ambo:12-44;ambo:57-89;ambo:44-57;quartina:12-29-59-89;quartina:12-14-44-74;quartina:29-57-59-89;quartina:14-44-57-74|rilevamento 4-49|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211127|lottofacile5|TO|9|0|ambata:15;ambata:60;ambo:7-15;ambo:15-52;ambo:7-60;ambo:52-60;quartina:7-15-37-67;quartina:15-22-52-82;quartina:7-37-60-67;quartina:22-52-60-82|rilevamento 8-53|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211127|lottofacile1|FI,MI|6|0|ambata:74;ambo:73-74;ambo:37-74;terzina:37-73-74|pos 2-3 somma 17|
+20211127|lottofacile1|FI,NA|6|0|ambata:54;ambo:54-57;ambo:54-75;terzina:54-57-75|pos 3-4 somma 33|
+20211127|lottofacile1|NA,PA|6|0|ambata:8;ambo:8-71;ambo:8-17;terzina:8-17-71|pos 3-5 somma 19|
+20211127|lottofacile1|PA,TO|6|0|ambata:38;ambo:38-63;ambo:36-38;terzina:36-38-63|pos 3-4 somma 27|
+20211130|ambosecco_caotico|CA,VE,GE|2|1|ambo:44-77;ambo:44-81|A=86 su CA/VE, B=4 su GE|
+20211130|ambosecco_caotico|FI,MI,CA|2|1|ambo:58-75;ambo:75-83|A=65 su FI/MI, B=25 su CA|
+20211130|lottofacile5|MI|9|0|ambata:33;ambata:78;ambo:33-73;ambo:28-33;ambo:73-78;ambo:28-78;quartina:13-33-43-73;quartina:28-33-58-88;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 14-59|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211130|lottofacile5|VE|9|0|ambata:33;ambata:78;ambo:33-73;ambo:28-33;ambo:73-78;ambo:28-78;quartina:13-33-43-73;quartina:28-33-58-88;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 41-86|
+20211130|lottofacile1|CA,GE|6|0|ambata:20;ambo:13-20;ambo:20-31;terzina:13-20-31|pos 2-3 somma 77|
+20211130|lottofacile1|GE,RM|6|0|ambata:6;ambo:6-31;ambo:6-13;terzina:6-13-31|pos 2-4 somma 59|
+20211130|lottofacile1|MI,NA|6|0|ambata:16;ambo:16-17;ambo:16-71;terzina:16-17-71|pos 3-4 somma 73|
+20211130|lottofacile1|MI,VE|6|0|ambata:82;ambo:56-82;ambo:65-82;terzina:56-65-82|pos 2-3 somma 34|
+20211130|fulmine|PA,TO|12|0|ambata:88;ambo:61-88;ambo:52-88;ambo:79-88;quartina:52-61-79-88|figura, coppie ((61, 79), (88, 52))|
+20211202|ambosecco_caotico|CA,MI,PA,TO,FI|2|1|ambo:30-54;ambo:30-84|A=60 su CA/MI/PA/TO, B=30 su FI|
+20211202|ambosecco_caotico|CA,MI,RM,BA|2|1|ambo:17-39;ambo:27-85|A=43 su CA/MI/RM, B=47 su BA|
+20211202|ambosecco_caotico|FI,NA,BA|2|1|ambo:20-48;ambo:58-87|A=22 su FI/NA, B=68 su BA|
+20211202|lottofacile5|MI|9|0|ambata:75;ambo:32-75;ambo:75-77;quartina:2-32-62-75;quartina:17-47-75-77|rilevamento 43-88|
+20211202|lottofacile1|BA,FI|6|0|ambata:68;ambo:26-68;ambo:62-68;terzina:26-62-68|pos 1-2 somma 64|
+20211202|lottofacile1|BA,GE|6|0|ambata:36;ambo:26-36;ambo:36-62;terzina:26-36-62|pos 1-2 somma 64|
+20211202|lottofacile1|FI,GE|6|0|ambata:36;ambo:26-36;ambo:36-62;terzina:26-36-62|pos 1-2 somma 64|
+20211202|lottofacile1|FI,NA|6|0|ambata:24;ambo:11-24;ambo:19-24;terzina:11-19-24|pos 4-5 somma 79|
+20211202|lottofacile1|FI,RM|6|0|ambata:58;ambo:3-58;ambo:30-58;terzina:3-30-58|pos 2-5 somma 87|
+20211202|lottofacile1|MI,RM|6|0|ambata:64;ambo:32-64;ambo:23-64;terzina:23-32-64|pos 1-4 somma 58|
+20211204|ambosecco_caotico|BA,GE,PA|2|1|ambo:26-71;ambo:71-87|A=29 su BA/GE, B=61 su PA|
+20211204|ambosecco_caotico|BA,PA,CA,RM|2|1|ambo:9-80;ambo:80-89|A=10 su BA/PA, B=80 su CA/RM|
+20211204|ambosecco_caotico|CA,RM,BA,PA|2|1|ambo:10-72;ambo:10-82|A=80 su CA/RM, B=10 su BA/PA|
+20211204|ambosecco_caotico|NA,VE,FI|2|1|ambo:5-35;ambo:45-89|A=5 su NA/VE, B=85 su FI|
+20211204|ambosecco_caotico|RM,VE,MI|2|1|ambo:29-38;ambo:48-86|A=32 su RM/VE, B=58 su MI|
+20211204|lottofacile5|BA|9|0|ambata:21;ambo:21-29;ambo:21-74;quartina:21-29-59-89;quartina:14-21-44-74|rilevamento 10-55|
+20211204|lottofacile5|FI|9|0|ambata:84;ambata:39;ambo:80-84;ambo:35-84;ambo:39-80;ambo:35-39;quartina:20-50-80-84;quartina:5-35-65-84;quartina:20-39-50-80;quartina:5-35-39-65|rilevamento 31-76|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211204|lottofacile5|GE|9|0|ambata:78;ambata:33;ambo:58-78;ambo:13-78;ambo:33-58;ambo:13-33;quartina:28-58-78-88;quartina:13-43-73-78;quartina:28-33-58-88;quartina:13-33-43-73|rilevamento 29-74|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211204|lottofacile4|BA,NA|14|1|ambata:61;ambo:16-61;ambo:1-61;ambo:31-61;terzina:1-16-31|pos 3-4 diagonale|
+20211204|fulmine|BA,NA|12|0|ambata:84;ambo:64-84;ambo:54-84;ambo:74-84;quartina:54-64-74-84|cadenza, coppie ((64, 74), (54, 84))|
+20211204|lottofacile1|MI,PA|6|0|ambata:20;ambo:15-20;ambo:20-51;terzina:15-20-51|pos 2-4 somma 75|
+20211207|ambosecco_caotico|FI,NA,GE|2|1|ambo:6-24;ambo:34-89|A=6 su FI/NA, B=84 su GE|
+20211207|ambosecco_caotico|GE,NA,FI|2|1|ambo:66-75;ambo:66-81|A=84 su GE/NA, B=6 su FI|
+20211207|ambosecco_caotico|NA,TO,CA|2|1|ambo:14-25;ambo:35-88|A=15 su NA/TO, B=75 su CA|
+20211207|lottofacile1|CA,GE|6|0|ambata:56;ambo:49-56;ambo:44-56;terzina:44-49-56|pos 2-4 somma 41|
+20211207|lottofacile1|CA,TO|6|0|ambata:72;ambo:51-72;ambo:15-72;terzina:15-51-72|pos 2-5 somma 39|
+20211207|lottofacile1|FI,RM|6|0|ambata:86;ambo:78-86;ambo:86-87;terzina:78-86-87|pos 3-5 somma 12|
+20211207|lottofacile1|MI,RM|6|0|ambata:54;ambo:49-54;ambo:44-54;terzina:44-49-54|pos 4-5 somma 41|
+20211209|ambosecco_caotico|CA,MI,RM|2|1|ambo:19-55;ambo:29-83|A=61 su CA/MI, B=29 su RM|
+20211209|ambosecco_caotico|CA,FI,RM|2|1|ambo:33-78;ambo:33-81|A=87 su CA/FI, B=3 su RM|
+20211209|ambosecco_caotico|PA,RM,BA|2|1|ambo:20-63;ambo:20-83|A=70 su PA/RM, B=20 su BA|
+20211209|ambosecco_caotico|TO,VE,BA|2|1|ambo:5-35;ambo:45-89|A=5 su TO/VE, B=85 su BA|
+20211209|lottofacile4|CA,FI|14|1|ambata:29;ambo:29-74;ambo:29-59;ambo:29-89;terzina:59-74-89|pos 1-2 orizzontale/verticale|
+20211209|lottofacile1|CA,NA|6|0|ambata:88;ambo:56-88;ambo:65-88;terzina:56-65-88|pos 3-4 somma 34|
+20211209|lottofacile4|CA,TO|14|1|ambata:21;ambo:21-66;ambo:21-51;ambo:21-81;terzina:51-66-81|pos 1-2 orizzontale|
+20211209|lottofacile1|CA,TO|6|0|ambata:16;ambo:16-30;ambo:3-16;terzina:3-16-30|pos 3-5 somma 60|
+20211209|lottofacile4|FI,TO|14|1|ambata:51;ambo:6-51;ambo:51-81;ambo:21-51;terzina:6-21-81|pos 1-2 orizzontale|
+20211209|fulmine|MI,NA|12|0|ambata:89;ambo:69-89;ambo:59-89;ambo:79-89;quartina:59-69-79-89|cadenza, coppie ((69, 79), (59, 89))|
+20211209|lottofacile4|MI,VE|14|1|ambata:39;ambo:39-84;ambo:39-69;ambo:9-39;terzina:9-69-84|pos 4-5 orizzontale|
+20211209|lottofacile1|NA,PA|6|0|ambata:72;ambo:14-72;ambo:41-72;terzina:14-41-72|pos 1-3 somma 76|
+20211209|lottofacile1|NA,RM|6|0|ambata:50;ambo:50-66;ambo:50-69;terzina:50-66-69|pos 4-5 somma 24|
+20211211|ambosecco_caotico|BA,MI,GE|2|1|ambo:11-80;ambo:11-81|A=89 su BA/MI, B=1 su GE|
+20211211|ambosecco_caotico|BA,MI,FI|2|1|ambo:66-76;ambo:76-82|A=74 su BA/MI, B=16 su FI|
+20211211|ambosecco_caotico|BA,NA,MI|2|1|ambo:50-74;ambo:74-84|A=56 su BA/NA, B=34 su MI|
+20211211|ambosecco_caotico|CA,GE,TO|2|1|ambo:41-53;ambo:41-84|A=59 su CA/GE, B=31 su TO|
+20211211|ambosecco_caotico|FI,PA,VE|2|1|ambo:5-32;ambo:15-86|A=35 su FI/PA, B=55 su VE|
+20211211|ambosecco_caotico|NA,VE,RM|2|1|ambo:29-46;ambo:39-84|A=51 su NA/VE, B=39 su RM|
+20211211|ambosecco_caotico|PA,VE,BA|2|1|ambo:33-83;ambo:83-86|A=37 su PA/VE, B=53 su BA|
+20211211|lottofacile5|FI|9|0|ambata:48;ambata:3;ambo:23-48;ambo:48-68;ambo:3-23;ambo:3-68;quartina:23-48-53-83;quartina:8-38-48-68;quartina:3-23-53-83;quartina:3-8-38-68|rilevamento 16-61|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211211|lottofacile1|BA,NA|6|0|ambata:22;ambo:14-22;ambo:22-41;terzina:14-22-41|pos 1-3 somma 76|
+20211211|lottofacile1|FI,PA|6|0|ambata:26;ambo:26-87;ambo:26-78;terzina:26-78-87|pos 3-5 somma 3|
+20211211|lottofacile4|FI,TO|14|1|ambata:39;ambo:39-84;ambo:39-69;ambo:9-39;terzina:9-69-84|pos 2-5 verticale|
+20211214|ambosecco_caotico|BA,GE,RM|2|1|ambo:36-50;ambo:50-86|A=40 su BA/GE, B=50 su RM|
+20211214|ambosecco_caotico|CA,NA,RM|2|1|ambo:50-74;ambo:74-84|A=56 su CA/NA, B=34 su RM|
+20211214|ambosecco_caotico|FI,PA,VE,MI|2|1|ambo:26-71;ambo:71-87|A=29 su FI/PA/VE, B=61 su MI|
+20211214|ambosecco_caotico|MI,RM,GE|2|1|ambo:3-57;ambo:67-89|A=3 su MI/RM, B=87 su GE|
+20211214|ambosecco_caotico|NA,RM,FI|2|1|ambo:11-80;ambo:11-81|A=89 su NA/RM, B=1 su FI|
+20211214|lottofacile5|PA|9|0|ambata:78;ambata:33;ambo:58-78;ambo:13-78;ambo:33-58;ambo:13-33;quartina:28-58-78-88;quartina:13-43-73-78;quartina:28-33-58-88;quartina:13-33-43-73|rilevamento 29-74|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211214|lottofacile1|BA,CA|6|0|ambata:48;ambo:48-60;ambo:6-48;terzina:6-48-60|pos 1-5 somma 30|
+20211214|lottofacile1|BA,NA|6|0|ambata:70;ambo:33-70;ambo:39-70;terzina:33-39-70|pos 2-3 somma 57|
+20211214|lottofacile1|FI,VE|6|0|ambata:46;ambo:38-46;ambo:46-83;terzina:38-46-83|pos 3-4 somma 52|
+20211214|lottofacile1|GE,RM|6|0|ambata:40;ambo:40-65;ambo:40-56;terzina:40-56-65|pos 1-2 somma 25|
+20211214|lottofacile1|GE,VE|6|0|ambata:90;ambo:53-90;ambo:35-90;terzina:35-53-90|pos 2-5 somma 37|
+20211214|lottofacile4|NA,PA|14|1|ambata:69;ambo:24-69;ambo:9-69;ambo:39-69;terzina:9-24-39|pos 1-3 verticale|
+20211214|lottofacile1|PA,TO|6|0|ambata:52;ambo:52-54;ambo:45-52;terzina:45-52-54|pos 3-5 somma 36|
+20211216|ambosecco_caotico|BA,PA,VE|2|1|ambo:6-40;ambo:16-85|A=44 su BA/PA, B=46 su VE|
+20211216|ambosecco_caotico|FI,MI,VE,BA|2|1|ambo:19-55;ambo:29-83|A=61 su FI/MI/VE, B=29 su BA|
+20211216|ambosecco_caotico|GE,TO,PA|2|1|ambo:42-73;ambo:73-85|A=47 su GE/TO, B=43 su PA|
+20211216|ambosecco_caotico|MI,PA,RM|2|1|ambo:33-78;ambo:33-81|A=87 su MI/PA, B=3 su RM|
+20211216|ambosecco_caotico|NA,RM,CA|2|1|ambo:21-71;ambo:21-82|A=79 su NA/RM, B=11 su CA|
+20211216|lottofacile5|FI|9|0|ambata:12;ambata:57;ambo:12-89;ambo:12-44;ambo:57-89;ambo:44-57;quartina:12-29-59-89;quartina:12-14-44-74;quartina:29-57-59-89;quartina:14-44-57-74|rilevamento 4-49|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211216|lottofacile5|GE|9|0|ambata:36;ambata:81;ambo:36-54;ambo:9-36;ambo:54-81;ambo:9-81;quartina:24-36-54-84;quartina:9-36-39-69;quartina:24-54-81-84;quartina:9-39-69-81|rilevamento 45-90|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211216|lottofacile4|BA,FI|14|1|ambata:53;ambo:8-53;ambo:53-83;ambo:23-53;terzina:8-23-83|pos 2-4 orizzontale|
+20211216|lottofacile1|FI,VE|6|0|ambata:44;ambo:7-44;ambo:44-70;terzina:7-44-70|pos 1-4 somma 83|
+20211216|lottofacile1|PA,VE|6|0|ambata:44;ambo:22-44;ambo:29-44;terzina:22-29-44|pos 1-2 somma 68|
+20211218|fulmine|BA,TO|12|0|ambata:63;ambo:33-63;ambo:43-63;ambo:53-63;quartina:33-43-53-63|cadenza, coppie ((33, 63), (43, 53))|
+20211218|lottofacile1|RM,TO|6|0|ambata:34;ambo:1-34;ambo:10-34;terzina:1-10-34|pos 2-5 somma 89|
+20211221|ambosecco_caotico|CA,NA,RM,BA|2|1|ambo:34-72;ambo:72-86|A=38 su CA/NA/RM, B=52 su BA|
+20211221|ambosecco_caotico|CA,MI,NA|2|1|ambo:18-70;ambo:70-88|A=20 su CA/MI, B=70 su NA|
+20211221|ambosecco_caotico|GE,TO,FI|2|1|ambo:65-87;ambo:82-87|A=73 su GE/TO, B=17 su FI|
+20211221|ambosecco_caotico|GE,NA,TO|2|1|ambo:51-63;ambo:63-84|A=57 su GE/NA, B=33 su TO|
+20211221|lottofacile5|CA|9|0|ambata:51;ambata:6;ambo:49-51;ambo:4-51;ambo:6-49;ambo:4-6;quartina:19-49-51-79;quartina:4-34-51-64;quartina:6-19-49-79;quartina:4-6-34-64|rilevamento 20-65|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211221|lottofacile1|CA,MI|6|0|ambata:64;ambo:64-83;ambo:38-64;terzina:38-64-83|pos 1-3 somma 7|
+20211221|lottofacile1|FI,VE|6|0|ambata:52;ambo:50-52;ambo:5-52;terzina:5-50-52|pos 2-3 somma 40|
+20211221|lottofacile1|MI,TO|6|0|ambata:86;ambo:17-86;ambo:71-86;terzina:17-71-86|pos 3-4 somma 73|
+20211223|ambosecco_caotico|BA,RM,NA|2|1|ambo:14-15;ambo:24-88|A=16 su BA/RM, B=74 su NA|
+20211223|ambosecco_caotico|MI,PA,TO,GE|2|1|ambo:41-84;ambo:84-85|A=46 su MI/PA/TO, B=44 su GE|
+20211223|ambosecco_caotico|NA,TO,FI|2|1|ambo:58-75;ambo:75-83|A=65 su NA/TO, B=25 su FI|
+20211223|lottofacile5|FI|9|0|ambata:75;ambata:30;ambo:41-75;ambo:75-86;ambo:30-41;ambo:30-86;quartina:11-41-71-75;quartina:26-56-75-86;quartina:11-30-41-71;quartina:26-30-56-86|rilevamento 25-70|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211223|lottofacile5|MI|9|0|ambata:54;ambo:45-54;ambo:54-90;quartina:15-45-54-75;quartina:30-54-60-90|rilevamento 36-81|
+20211223|lottofacile5|PA|9|0|ambata:27;ambo:27-51;ambo:6-27;quartina:21-27-51-81;quartina:6-27-36-66|rilevamento 12-57|
+20211223|lottofacile1|CA,VE|6|0|ambata:20;ambo:20-33;ambo:20-39;terzina:20-33-39|pos 2-3 somma 57|
+20211223|lottofacile1|FI,NA|6|0|ambata:84;ambo:69-84;ambo:66-84;terzina:66-69-84|pos 2-3 somma 21|
+20211223|lottofacile1|GE,PA|6|0|ambata:62;ambo:13-62;ambo:31-62;terzina:13-31-62|pos 1-4 somma 77|
+20211223|lottofacile4|GE,VE|14|1|ambata:17;ambo:17-62;ambo:17-47;ambo:17-77;terzina:47-62-77|pos 2-5 diagonale|
+20211223|lottofacile1|GE,VE|6|0|ambata:20;ambo:20-52;ambo:20-25;terzina:20-25-52|pos 2-5 somma 38|
+20211223|fulmine|NA,TO|12|0|ambata:74;ambo:65-74;ambo:29-74;ambo:38-74;quartina:29-38-65-74|figura, coppie ((65, 38), (74, 29))|
+20211227|ambosecco_caotico|MI,PA,BA|2|1|ambo:41-84;ambo:84-85|A=46 su MI/PA, B=44 su BA|
+20211227|lottofacile5|RM|9|0|ambata:9;ambo:9-45;ambo:9-90;quartina:9-15-45-75;quartina:9-30-60-90|rilevamento 36-81|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211227|lottofacile5|VE|9|0|ambata:33;ambo:33-73;ambo:28-33;quartina:13-33-43-73;quartina:28-33-58-88|rilevamento 14-59|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211227|lottofacile1|BA,CA|6|0|ambata:72;ambo:11-72;ambo:19-72;terzina:11-19-72|pos 3-5 somma 79|
+20211227|lottofacile4|BA,FI|14|1|ambata:35;ambo:35-80;ambo:35-65;ambo:5-35;terzina:5-65-80|pos 1-3 verticale|
+20211227|lottofacile1|CA,RM|6|0|ambata:84;ambo:75-84;ambo:57-84;terzina:57-75-84|pos 2-5 somma 15|
+20211227|lottofacile1|GE,TO|6|0|ambata:30;ambo:30-33;ambo:30-39;terzina:30-33-39|pos 4-5 somma 57|
+20211227|lottofacile1|PA,VE|6|0|ambata:28;ambo:23-28;ambo:28-32;terzina:23-28-32|pos 2-4 somma 67|
+20211227|lottofacile1|RM,TO|6|0|ambata:24;ambo:24-36;ambo:24-63;terzina:24-36-63|pos 3-5 somma 54|
+20211228|ambosecco_caotico|BA,RM,NA|2|1|ambo:19-55;ambo:29-83|A=61 su BA/RM, B=29 su NA|
+20211228|ambosecco_caotico|FI,NA,RM,TO|2|1|ambo:66-75;ambo:66-81|A=84 su FI/NA, B=6 su RM/TO|
+20211228|ambosecco_caotico|FI,TO,MI|2|1|ambo:51-63;ambo:63-84|A=57 su FI/TO, B=33 su MI|
+20211228|ambosecco_caotico|RM,TO,FI,NA|2|1|ambo:6-24;ambo:34-89|A=6 su RM/TO, B=84 su FI/NA|
+20211228|lottofacile5|MI|9|0|ambata:69;ambo:67-69;ambo:22-69;quartina:7-37-67-69;quartina:22-52-69-82|rilevamento 38-83|
+20211228|lottofacile1|BA,CA|6|0|ambata:74;ambo:40-74;ambo:4-74;terzina:4-40-74|pos 1-5 somma 50|
+20211228|lottofacile1|GE,NA|6|0|ambata:78;ambo:28-78;ambo:78-82;terzina:28-78-82|pos 1-5 somma 62|
+20211228|lottofacile1|GE,NA|6|0|ambata:90;ambo:54-90;ambo:45-90;terzina:45-54-90|pos 2-3 somma 36|
+20211230|ambosecco_caotico|CA,RM,TO,PA,VE|2|1|ambo:20-63;ambo:20-83|A=70 su CA/RM/TO, B=20 su PA/VE|
+20211230|ambosecco_caotico|MI,RM,BA|2|1|ambo:65-67;ambo:65-82|A=75 su MI/RM, B=15 su BA|
+20211230|ambosecco_caotico|PA,VE,CA,RM,TO|2|1|ambo:18-70;ambo:70-88|A=20 su PA/VE, B=70 su CA/RM/TO|
+20211230|lottofacile5|CA|9|0|ambata:45;ambo:42-45;ambo:45-87;quartina:12-42-45-72;quartina:27-45-57-87|rilevamento 3-48|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20211230|lottofacile4|BA,NA|14|1|ambata:51;ambo:6-51;ambo:51-81;ambo:21-51;terzina:6-21-81|pos 2-3 verticale|
+20211230|lottofacile1|BA,NA|6|0|ambata:90;ambo:66-90;ambo:69-90;terzina:66-69-90|pos 2-3 somma 24|
+20211230|lottofacile1|CA,NA|6|0|ambata:48;ambo:17-48;ambo:48-71;terzina:17-48-71|pos 3-4 somma 73|
+20211230|fulmine|FI,PA|12|0|ambata:54;ambo:9-54;ambo:27-54;ambo:36-54;quartina:9-27-36-54|figura, coppie ((9, 54), (27, 36))|
+20211230|lottofacile1|FI,VE|6|0|ambata:12;ambo:12-13;ambo:12-31;terzina:12-13-31|pos 1-5 somma 77|
+20211230|lottofacile1|NA,PA|6|0|ambata:72;ambo:41-72;ambo:14-72;terzina:14-41-72|pos 2-4 somma 49|
+20211230|fulmine|PA,RM|12|0|ambata:80;ambo:20-80;ambo:70-80;ambo:10-80;quartina:10-20-70-80|cadenza, coppie ((80, 10), (20, 70))|
+20211230|lottofacile4|PA,VE|14|1|ambata:15;ambo:15-60;ambo:15-45;ambo:15-75;terzina:45-60-75|pos 1-2 diagonale|

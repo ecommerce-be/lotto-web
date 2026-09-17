@@ -66,4 +66,4 @@ jobs:
           python prove/test_pipeline.py
           node prove/test_schedina.mjs
           node prove/test_consiglio.mjs
-          node prove/test_ripetizioni.mjs
+          node prove/test_storico.mjs

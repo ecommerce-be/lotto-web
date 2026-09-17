@@ -216,5 +216,78 @@ check("le quote pubblicate sono quelle che usa il motore",
       quote_sito["moltiplicatori"]["ambo"] == economia.MOLTIPLICATORI["ambo"]
       and quote_sito["ritenuta"] == economia.RITENUTA)
 
+# --------------------------------------------------------------- riferimento
+# La pagina rifa' in JavaScript il controllo delle uscite (docs/storico.js), e
+# due implementazioni della stessa regola divergono sempre, prima o poi. Qui si
+# scrive quello che ha calcolato Python su un campione di previsioni vere;
+# prove/test_storico.mjs lo rilegge e pretende di ottenere lo stesso. Se un
+# giorno le due si allontanano, la prova diventa rossa invece di lasciare che la
+# pagina racconti una storia e il bilancio un'altra.
+from motore import storia                                      # noqa: E402
+
+CAMPIONE = 300
+riferimento = []
+giorni_utili = [d for d in arch.date if d >= arch.date[-400]]
+viste = 0
+for giorno in giorni_utili:
+    for prev in rileva(arch, giorno):
+        if viste >= CAMPIONE:
+            break
+        viste += 1
+        copia = json.loads(json.dumps(prev))
+        valuta([copia], arch)
+        riferimento.append({
+            "previsione": storia._riga(prev),
+            "sorti": [{"tipo": s["tipo"], "numeri": s["numeri"], "stato": s["stato"],
+                       "esiti": s["esiti"]} for s in copia["sorti"]],
+        })
+    if viste >= CAMPIONE:
+        break
+
+fixture = RADICE / "prove" / "dati" / "esiti-riferimento.json"
+fixture.parent.mkdir(parents=True, exist_ok=True)
+fixture.write_text(json.dumps(riferimento, ensure_ascii=False, indent=1,
+                              sort_keys=True) + "\n", encoding="utf-8")
+check("il riferimento per le prove JavaScript contiene qualcosa",
+      len(riferimento) == CAMPIONE, str(len(riferimento)))
+check("e almeno una sorte si e' verificata, se no non proverebbe niente",
+      any(s["stato"] == "vinta" for r in riferimento for s in r["sorti"]))
+
+# --------------------------------------------------------- previsioni per anno
+with tempfile.TemporaryDirectory() as tmp:
+    cartella = Path(tmp)
+    anno = arch.ultima.year
+    ind = storia.scrivi(arch, cartella, [anno])
+    righe = [r for r in (cartella / f"{anno}.txt").read_text(encoding="utf-8")
+             .split("\n") if r and not r.startswith("#")]
+    check("il file dell'anno contiene le previsioni di quell'anno",
+          len(righe) == ind["anni"][str(anno)] > 0, str(len(righe)))
+    check("ogni riga ha otto campi", all(r.count("|") == 7 for r in righe))
+    rilette = [storia.leggi_riga(r) for r in righe]
+    attese = [p for g in arch.date if g.year == anno for p in rileva(arch, g)]
+    check("rileggere una riga rida' la previsione di partenza",
+          all(a["metodo"] == b["metodo"] and a["ruote"] == b["ruote"]
+              and a["colpi"] == b["colpi"] and a["giorno"] == b["giorno"]
+              and [s["numeri"] for s in a["sorti"]] == [s["numeri"] for s in b["sorti"]]
+              for a, b in zip(rilette, attese)))
+    check("l'indice elenca ogni anno dell'archivio",
+          set(ind["anni"]) == {str(d.year) for d in arch.date})
+    prima = (cartella / f"{anno}.txt").read_bytes()
+    storia.scrivi(arch, cartella, [anno])
+    check("riscrivere lo stesso anno da' un file identico byte per byte",
+          (cartella / f"{anno}.txt").read_bytes() == prima)
+
+    # L'indice si ricava dai file, non dall'indice di prima: se sparisce, i
+    # conteggi degli altri anni non devono azzerarsi in silenzio.
+    altro = arch.date[0].year
+    storia.scrivi(arch, cartella, [altro])
+    (cartella / "indice.json").unlink()
+    rifatto = storia.scrivi(arch, cartella, [anno])
+    check("senza indice i conteggi si rileggono dai file invece di azzerarsi",
+          rifatto["anni"][str(altro)] > 0, str(rifatto["anni"][str(altro)]))
+    check("e gli anni di cui non c'e' il file valgono zero, non spariscono",
+          set(rifatto["anni"]) == {str(d.year) for d in arch.date}
+          and rifatto["anni"][str(arch.date[0].year + 1)] == 0)
+
 print(f"\n{'=' * 60}\nRISULTATO: {ok} OK, {fail} FAIL")
 sys.exit(1 if fail else 0)

@@ -103,17 +103,16 @@
     </section>
 
     <section class="ricerca" id="ricerca">
-      <h2>Si è mai ripetuta?</h2>
-      <p class="spiega">Scegli un concorso del passato — anche di trent'anni fa —
-      e il programma guarda tutte le estrazioni da quel giorno a oggi per vedere
-      quante volte quei cinque numeri sono tornati fuori insieme: due, tre,
-      quattro o tutti e cinque.</p>
+      <h2>Che cosa avrebbero detto i metodi</h2>
+      <p class="spiega">Scegli un concorso del passato — anche del 1939, ci sono
+      tutti — e una ruota. Vedi i cinque numeri usciti, le previsioni che i sei
+      metodi hanno rilevato quel giorno, e su quali ruote quei numeri sono poi
+      usciti davvero.</p>
 
       <div class="campi-ricerca">
         <div class="campo">
           <label for="data-ricerca">Giorno</label>
           <input type="date" id="data-ricerca">
-          <p class="nota" id="nota-data"></p>
         </div>
         <div class="campo">
           <label for="ruota-ricerca">Ruota</label>
@@ -122,13 +121,9 @@
       </div>
 
       <div class="rapidi" id="date-rapide"></div>
+      <p class="nota" id="nota-data"></p>
 
-      <label class="spunta">
-        <input type="checkbox" id="tutte-ruote">
-        <span>cerca anche sulle altre nove ruote</span>
-      </label>
-
-      <button class="cerca" id="cerca">Cerca le ripetizioni</button>
+      <button class="cerca" id="cerca">Guarda quel concorso</button>
       <p class="nota" id="stato-ricerca"></p>
 
       <div id="esito-ricerca"></div>

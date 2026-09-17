@@ -25,7 +25,7 @@ from pathlib import Path
 if __package__ in (None, ""):                      # lanciato come file, non come modulo
     sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from motore import fonte, pubblica, stato                      # noqa: E402
+from motore import fonte, pubblica, stato, storia              # noqa: E402
 from motore.archivio import Archivio, ArchivioNonTrovato       # noqa: E402
 from motore.rilevamento import rileva                          # noqa: E402
 from motore.valutazione import valuta                          # noqa: E402
@@ -33,6 +33,7 @@ from motore.valutazione import valuta                          # noqa: E402
 RADICE = Path(__file__).resolve().parent.parent
 ESTRAZIONI = RADICE / "archivio" / "estrazioni.csv"
 PREVISIONI = RADICE / "archivio" / "previsioni.jsonl"
+CARTELLA_STORIA = RADICE / "docs" / "dati" / "previsioni"
 MAX_CONCORSI = 200        # un tetto: se l'archivio e' fermo da anni non si scarica mezzo secolo
 
 
@@ -72,6 +73,8 @@ def main(argv=None) -> int:
                     help="ultima data da scaricare (default: oggi)")
     ap.add_argument("--ricostruisci", type=date.fromisoformat, metavar="AAAA-MM-GG",
                     help="rileva da capo su tutti i concorsi a partire da questa data")
+    ap.add_argument("--tutti-gli-anni", action="store_true",
+                    help="riscrive le previsioni storiche di ogni anno (un paio di minuti)")
     args = ap.parse_args(argv)
 
     avvio = datetime.now()
@@ -123,6 +126,18 @@ def main(argv=None) -> int:
 
     scritti = pubblica.tutto(arch, previsioni, aggiornato_il=avvio)
     print(f"sito aggiornato     {', '.join(scritti)}")
+
+    # Le previsioni storiche stanno in un file per anno. Rifarli tutti sono due
+    # minuti; ogni sera cambia solo l'anno dell'ultimo concorso, e nei primi
+    # giorni di gennaio anche quello prima, perche' un concorso del 31 dicembre
+    # scaricato in ritardo finisce nel file dell'anno vecchio.
+    anni = sorted({d.year for d in (nuovi or arch.date[-1:])}
+                  | {d.year for d in da_rilevare})
+    if args.tutti_gli_anni:
+        anni = None
+    ind = storia.scrivi(arch, CARTELLA_STORIA, anni)
+    quali = "tutti" if anni is None else " ".join(map(str, anni))
+    print(f"previsioni storiche {ind['previsioni']} in totale (riscritti: {quali})")
     print(f"esito: OK  (durata {(datetime.now()-avvio).total_seconds():.0f}s)")
     return 0
 

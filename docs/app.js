@@ -12,8 +12,11 @@ import {
   componi, convergenze, riepilogo, etichettaGiocata, perRuota, SOGLIA_RESA,
   numeriInComune, previsioneUnica, primoGiornoUtile, proiettaConcorsi,
 } from './consiglio.js';
-import { leggiStorico, quadro, concorsoVicino, cerca, confronto }
-  from './ripetizioni.js';
+import {
+  leggiStorico, leggiPrevisioni, previsioniDi, estrazione, quadro,
+  concorsoVicino, verifica, usciteDi,
+} from './storico.js';
+import { trasformazioni, gruppi, insieme } from './derivati.js';
 
 const NOMI_RUOTE = {
   BA: 'Bari', CA: 'Cagliari', FI: 'Firenze', GE: 'Genova', MI: 'Milano',
@@ -24,6 +27,9 @@ const MAX_NUMERI = 10;
 
 const giocata = { numeri: new Set(), ruote: new Set(['NA']), sorti: new Set(['ambo']), importo: 5 };
 let quote = null, suggerite = [], attesaSimula = null;
+// I nomi per esteso dei sei metodi arrivano da dati/stato.json: stanno in un
+// posto solo, motore/pubblica.py, e non vanno ricopiati qui.
+let NOMI_METODI = {};
 
 /* ------------------------------------------------------------- formattazione */
 const euro = n => n.toLocaleString('it-IT', {
@@ -36,6 +42,10 @@ const dataIt = s => new Date(s + 'T00:00:00')
   .toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' });
 const dataBreve = s => new Date(s + 'T00:00:00')
   .toLocaleDateString('it-IT', { weekday: 'short', day: 'numeric', month: 'short' });
+// Nella scheda Previsioni si guardano concorsi di trent'anni fa: senza l'anno
+// "sab 1 lug" sembra la settimana scorsa, ed e' il 2017.
+const dataConAnno = s => new Date(s + 'T00:00:00')
+  .toLocaleDateString('it-IT', { day: 'numeric', month: 'short', year: 'numeric' });
 // sotto il migliaio il decimale conta: l'ambo secco e' 1 su 400,5, e
 // arrotondarlo a 400 e' mezzo punto di errore su quattrocento
 const unaSu = p => p ? `1 su ${(1 / p).toLocaleString('it-IT',
@@ -58,6 +68,7 @@ async function prendi(nome) {
 
 /* ------------------------------------------------------------- intestazione */
 function mostraStato(s) {
+  NOMI_METODI = s.metodi ?? {};
   const giorni = -giorniDa(s.ultima_estrazione);
   document.getElementById('stato').innerHTML =
     `${numero(s.concorsi)} concorsi in archivio · ultimo del ${dataIt(s.ultima_estrazione)}`
@@ -453,25 +464,35 @@ function mostraComuni() {
     </div>`;
 }
 
-/* ------------------------------------------------- si e' mai ripetuta? */
-/* L'archivio intero pesa trecentosessanta chilobyte compressi: si scarica solo
- * quando si apre questa scheda, e una volta sola. Chi guarda la Schedina e
- * basta non lo prende mai. */
-let storico = null, inArrivo = null;
-
-const NOMI_MISURA = { 2: 'ambi', 3: 'terni', 4: 'quaterne', 5: 'cinquine' };
-const NOME_MISURA = { 2: 'un ambo', 3: 'un terno', 4: 'una quaterna', 5: 'la cinquina' };
+/* ------------------------------- che cosa avrebbero detto i metodi */
+/* Un concorso del passato, e tre risposte:
+ *   1. i cinque numeri usciti sulla ruota scelta;
+ *   2. le previsioni che i sei metodi hanno rilevato quel giorno — non
+ *      ricalcolate qui, ma lette dai file che motore/storia.py scrive con lo
+ *      stesso motore che gira ogni sera: due implementazioni della stessa cosa
+ *      divergono sempre, e il giorno in cui divergono nessuno se ne accorge;
+ *   3. su quali ruote quei numeri sono poi usciti davvero.
+ * L'archivio e il file dell'anno si scaricano solo aprendo questa scheda. */
+let storico = null, inArrivo = null, indiceAnni = null;
+const anniInMemoria = new Map();
 
 async function prendiStorico() {
   if (storico) return storico;
   if (!inArrivo) inArrivo = fetch(`dati/storico.txt?v=${Date.now()}`)
-    .then(r => {
-      if (!r.ok) throw new Error(`dati/storico.txt → ${r.status}`);
-      return r.text();
-    })
+    .then(r => { if (!r.ok) throw new Error(`storico.txt → ${r.status}`); return r.text(); })
     .then(t => { storico = leggiStorico(t); return storico; })
     .catch(e => { inArrivo = null; throw e; });
   return inArrivo;
+}
+
+async function prendiAnno(anno) {
+  if (anniInMemoria.has(anno)) return anniInMemoria.get(anno);
+  const p = fetch(`dati/previsioni/${anno}.txt?v=${Date.now()}`)
+    .then(r => { if (!r.ok) throw new Error(`previsioni/${anno}.txt → ${r.status}`); return r.text(); })
+    .then(leggiPrevisioni)
+    .catch(e => { anniInMemoria.delete(anno); throw e; });
+  anniInMemoria.set(anno, p);
+  return p;
 }
 
 function costruisciRicerca() {
@@ -481,38 +502,25 @@ function costruisciRicerca() {
   document.getElementById('cerca').disabled = true;
 }
 
-/** Prepara i campi appena l'archivio e' in memoria. */
 function preparaRicerca() {
   const campo = document.getElementById('data-ricerca');
   const primo = storico.giorni[0], ultimo = storico.giorni.at(-1);
   campo.min = primo;
   campo.max = ultimo;
-  if (!campo.value) {
-    // Un punto di partenza che ha senso: dieci anni fa. Da li' in poi ci sono
-    // abbastanza concorsi perche' il confronto con gli attesi voglia dire
-    // qualcosa, e chi apre la pagina vede subito un risultato invece di un
-    // modulo vuoto.
+  const indietro = (anni) => {
     const d = new Date(ultimo + 'T00:00:00');
-    d.setFullYear(d.getFullYear() - 10);
-    campo.value = concorsoVicino(storico, d.toISOString().slice(0, 10));
-  }
+    d.setFullYear(d.getFullYear() - anni);
+    return d.toISOString().slice(0, 10);
+  };
+  if (!campo.value) campo.value = concorsoVicino(storico, indietro(10));
 
-  const anni = [10, 20, 30, 40].filter(a => {
-    const d = new Date(ultimo + 'T00:00:00');
-    d.setFullYear(d.getFullYear() - a);
-    return d.toISOString().slice(0, 10) >= primo;
-  });
+  const scelte = [10, 20, 30, 40].filter(a => indietro(a) >= primo);
   document.getElementById('date-rapide').innerHTML =
-    anni.map(a => `<button type="button" data-anni="${a}">${a} anni fa</button>`).join('')
+    scelte.map(a => `<button type="button" data-anni="${a}">${a} anni fa</button>`).join('')
     + `<button type="button" data-giorno="${primo}">il primo concorso (${primo.slice(0, 4)})</button>`;
   for (const b of document.querySelectorAll('#date-rapide button')) {
     b.onclick = () => {
-      if (b.dataset.giorno) campo.value = b.dataset.giorno;
-      else {
-        const d = new Date(ultimo + 'T00:00:00');
-        d.setFullYear(d.getFullYear() - Number(b.dataset.anni));
-        campo.value = concorsoVicino(storico, d.toISOString().slice(0, 10));
-      }
+      campo.value = b.dataset.giorno ?? concorsoVicino(storico, indietro(Number(b.dataset.anni)));
       aggiornaRuoteDelGiorno();
     };
   }
@@ -556,102 +564,173 @@ async function eseguiRicerca() {
   const bottone = document.getElementById('cerca');
   const giorno = document.getElementById('data-ricerca').value;
   const ruota = document.getElementById('ruota-ricerca').value;
-  const tutteLeRuote = document.getElementById('tutte-ruote').checked;
   if (!giorno || !ruota) return;
 
   bottone.disabled = true;
   avviso.textContent = 'cerco…';
-  // un respiro prima di lavorare, se no il browser non ridisegna e sembra
-  // che il tasto non abbia fatto niente
-  await new Promise(r => setTimeout(r, 0));
   try {
-    const esito = cerca(storico, { giorno, ruota, tutteLeRuote });
+    const previsioni = await prendiAnno(giorno.slice(0, 4));
     avviso.textContent = '';
-    mostraRicerca(esito);
+    mostraConcorsoPassato(giorno, ruota, previsioni);
   } catch (e) {
-    avviso.textContent = `La ricerca non è riuscita: ${e.message}`;
+    avviso.textContent = `Non riesco a leggere le previsioni di quell'anno: ${e.message}`;
   } finally {
     bottone.disabled = false;
   }
 }
 
-function mostraRicerca(esito) {
+const ESITO = {
+  vinta: { parola: 'si è verificata', classe: 'pos' },
+  scaduta: { parola: 'scaduta senza esito', classe: 'neg' },
+  aperta: { parola: 'colpi non ancora finiti', classe: '' },
+};
+
+function rigaUscita(e) {
+  return `<li class="${e.a_tutte ? 'a-tutte' : ''}">
+    <span class="colpo">${e.colpo}° colpo</span>
+    <span class="quando">${dataConAnno(e.giorno)}</span>
+    <span class="dove">${NOMI_RUOTE[e.ruota] ?? e.ruota}</span>
+    <span class="numeri">${e.usciti.map(n => `<b>${n}</b>`).join(' ')}</span>
+    ${e.a_tutte ? '<span class="postilla">solo perché vale anche a Tutte</span>' : ''}
+  </li>`;
+}
+
+function schedaPassata(p, ruotaScelta) {
+  const nome = NOMI_METODI[p.metodo] ?? p.metodo;
+  const sua = p.ruote.includes(ruotaScelta);
+  return `
+    <article class="carta passata ${sua ? 'sua' : ''}">
+      <div class="riga">
+        <div>
+          <div class="metodo">${nome}</div>
+          <div class="meta">${p.ruote.map(r => NOMI_RUOTE[r] ?? r).join(' · ')}${
+            p.anche_tutte ? ' · anche a Tutte' : ''}${p.nota ? ' · ' + p.nota : ''}</div>
+        </div>
+        <div class="colpi">${p.colpi} colpi</div>
+      </div>
+      ${p.avviso ? `<div class="avviso">${p.avviso}</div>` : ''}
+      ${p.sorti.map(s => `
+        <div class="sorte-esito">
+          <div class="capo">
+            <span class="tipo">${s.tipo}</span>
+            ${s.numeri.map(n => `<span class="n">${n}</span>`).join('')}
+            <span class="come-finita ${ESITO[s.stato].classe}">${ESITO[s.stato].parola}</span>
+          </div>
+          ${s.esiti.length ? `<ul class="uscite">${s.esiti.map(rigaUscita).join('')}</ul>` : ''}
+          ${!s.esiti.length && s.altrove.length ? `
+            <details class="altrove">
+              <summary>nessuna uscita sulle ruote di gioco, ma ${s.altrove.length}
+                su altre ruote</summary>
+              <ul class="uscite">${s.altrove.map(rigaUscita).join('')}</ul>
+            </details>` : ''}
+          ${s.oltre ? `<p class="oltre">Fuori giocata: sarebbe uscita il
+            ${dataConAnno(s.oltre.giorno)} su ${NOMI_RUOTE[s.oltre.ruota]}
+            (${s.oltre.usciti.join(' e ')}) — ${s.oltre.colpo - p.colpi} concorsi
+            dopo la scadenza, quindi a giocata chiusa.</p>` : ''}
+        </div>`).join('')}
+    </article>`;
+}
+
+function mostraConcorsoPassato(giorno, ruota, previsioni) {
   const fuori = document.getElementById('esito-ricerca');
-  if (!esito) { fuori.innerHTML = '<p class="nota">Quel concorso non c\'è.</p>'; return; }
-  if (!esito.concorsi) {
-    fuori.innerHTML = `<p class="nota">Dopo il ${dataIt(esito.origine.giorno)} non
-      c'è ancora nessun concorso da guardare: è l'ultimo dell'archivio.</p>`;
-    return;
-  }
+  const numeri = estrazione(storico, giorno, ruota);
+  if (!numeri) { fuori.innerHTML = ''; return; }
 
-  const o = esito.origine;
-  const dove = esito.tutteLeRuote ? 'su tutte e dieci le ruote'
-    : `su ${NOMI_RUOTE[o.ruota]}`;
+  const delGiorno = previsioniDi(previsioni, giorno, ruota).map(p => verifica(storico, p));
+  const sue = delGiorno.filter(p => p.ruote.includes(ruota));
+  const altre = delGiorno.filter(p => !p.ruote.includes(ruota));
+  const vinte = sue.reduce((n, p) => n + p.sorti.filter(s => s.stato === 'vinta').length, 0);
+  const sorti = sue.reduce((n, p) => n + p.sorti.length, 0);
 
-  const righe = [5, 4, 3, 2].map((q) => {
-    const trovati = esito.conteggio[q], att = esito.attesi[q];
-    const c = confronto(trovati, att);
-    return `
-      <tr class="${trovati ? '' : 'spento'}">
-        <td>${NOMI_MISURA[q]}<span class="quanti-num">${q} numeri insieme</span></td>
-        <td class="num" data-et="trovate"><b>${numero(trovati)}</b></td>
-        <td class="num" data-et="attese dal caso">${
-          att < 0.1 && att > 0 ? att.toFixed(2).replace('.', ',')
-          : att.toLocaleString('it-IT', { maximumFractionDigits: 1 })}</td>
-        <td class="verso" data-et="com'è andata">${
-          c.scarto === null ? '—' : c.parola}</td>
-      </tr>`;
-  }).join('');
-
-  const grossi = esito.trovati.filter(t => t.quanti >= 3);
-  const ambi = esito.trovati.filter(t => t.quanti === 2);
-  const voce = t => `
-    <li>
-      <span class="quando">${dataIt(t.giorno)}</span>
-      ${esito.tutteLeRuote ? `<span class="dove">${NOMI_RUOTE[t.ruota]}</span>` : ''}
-      <span class="numeri">${t.numeri.map(n => `<b>${n}</b>`).join(' ')}</span>
-    </li>`;
+  // I numeri derivati: le formule dei metodi applicate comunque ai cinque
+  // numeri. Vanno in un blocco a parte, e dichiarato, perche' non sono
+  // previsioni: nessun fascicolo le prescrive senza la sua condizione.
+  const derivati = insieme(numeri);
+  const uscite = usciteDi(storico, derivati, giorno, { concorsi: 12 });
+  const T = trasformazioni(numeri);
+  const G = gruppi(numeri);
 
   fuori.innerHTML = `
     <div class="esito">
-      <p class="partenza">Concorso del <b>${dataIt(o.giorno)}</b> su
-        <b>${NOMI_RUOTE[o.ruota]}</b>:${o.numeri.map(n =>
+      <p class="partenza">Concorso del <b>${dataIt(giorno)}</b> su
+        <b>${NOMI_RUOTE[ruota]}</b>:${numeri.map(n =>
           ` <span class="n">${n}</span>`).join('')}</p>
-      <p class="conti">Da quel giorno a ${dataIt(esito.ultimo)} si è estratto
-        <b>${numero(esito.concorsi)}</b> volte. Guardando ${dove}, ecco quante
-        volte quei numeri sono tornati fuori insieme.</p>
 
-      <table class="ripetizioni">
-        <thead><tr>
-          <th>quanti insieme</th><th class="num">trovate</th>
-          <th class="num">attese dal caso</th><th></th>
-        </tr></thead>
-        <tbody>${righe}</tbody>
-      </table>
+      <h3>Le previsioni di quel giorno</h3>
+      ${sue.length ? `
+        <p class="conti">I sei metodi hanno rilevato <b>${sue.length}</b>
+          prevision${sue.length === 1 ? 'e' : 'i'} che
+          ${sue.length === 1 ? 'tocca' : 'toccano'}
+          ${NOMI_RUOTE[ruota]}, per un totale di ${sorti}
+          sort${sorti === 1 ? 'e' : 'i'}: ${vinte === 0 ? 'nessuna si è verificata'
+            : `${vinte} si ${vinte === 1 ? 'è' : 'sono'} verificat${vinte === 1 ? 'a' : 'e'}`}
+          entro i colpi previsti.</p>
+        ${sue.map(p => schedaPassata(p, ruota)).join('')}`
+        : `<p class="nota">Quel giorno nessuna delle condizioni dei sei metodi è
+           scattata su ${NOMI_RUOTE[ruota]}. Capita una volta su dieci: i metodi
+           non cercano dei numeri, cercano una configurazione, e quasi sempre
+           quella configurazione non c'è.</p>`}
 
-      <p class="avvertenza">La colonna <b>attese dal caso</b> è il conto esatto
-        di quante ripetizioni sarebbero venute fuori da ${numero(esito.concorsi)}
-        estrazioni a caso. Serve a leggere l'altra colonna: da sola, «${numero(
-          esito.conteggio[2])} ambi» sembra un segnale, ma accanto a
-        ${esito.attesi[2].toLocaleString('it-IT', { maximumFractionDigits: 0 })}
-        attesi dice solo che è andata come doveva andare. E comunque nulla di
-        tutto ciò riguarda il prossimo concorso: le estrazioni non hanno memoria
-        di quelle prima.</p>
-
-      ${grossi.length ? `
-        <h3>${grossi.length === 1 ? 'L\'unica ripetizione da tre numeri in su'
-          : 'Le ripetizioni da tre numeri in su'}</h3>
-        <ul class="ritrovamenti">${grossi.map(voce).join('')}</ul>`
-        : `<p class="nota">Da quel giorno in poi non è mai tornato fuori
-           ${NOME_MISURA[3]} di quei cinque numeri${esito.tutteLeRuote ? ''
-           : `, almeno su ${NOMI_RUOTE[o.ruota]}`}.</p>`}
-
-      ${ambi.length ? `
-        <details class="elenco-ambi">
-          <summary>${numero(esito.conteggio[2])} volte è tornato un ambo${
-            esito.troncato ? ` (ne elenco ${numero(ambi.length)})` : ''}</summary>
-          <ul class="ritrovamenti">${ambi.map(voce).join('')}</ul>
+      ${altre.length ? `
+        <details class="altre-ruote">
+          <summary>${altre.length} altre previsioni di quel giorno, su altre ruote</summary>
+          ${altre.map(p => schedaPassata(p, ruota)).join('')}
         </details>` : ''}
+
+      <h3>I numeri derivati dai cinque</h3>
+      <p class="avvertenza"><b>Questi non sono previsioni.</b> I sei metodi non
+        partono da cinque numeri: partono da una condizione su tutto il concorso
+        — due ambi con la stessa somma, quattro numeri della stessa figura, un
+        ambo diametrale — e solo quando quella scatta dicono che cosa giocare.
+        Qui le loro formule sono applicate comunque ai numeri usciti, quindi
+        viene sempre fuori qualcosa, per costruzione. Sono numeri derivati, ed è
+        tutto quello che sono.</p>
+
+      <div class="tabella-scroll">
+        <table class="derivati">
+          <thead><tr>
+            <th>uscito</th><th>complemento</th><th>diametrale</th>
+            <th>vertibile</th><th>terzina simmetrica</th><th>fig.</th><th>cad.</th>
+          </tr></thead>
+          <tbody>${T.map(r => `
+            <tr>
+              <td><b>${r.numero}</b></td>
+              <td data-et="complemento">${r.complemento}</td>
+              <td data-et="diametrale">${r.diametrale}</td>
+              <td data-et="vertibile">${r.vertibile}</td>
+              <td data-et="terzina">${r.terzina.join(' · ')}</td>
+              <td data-et="figura">${r.figura}</td>
+              <td data-et="cadenza">${r.cadenza}</td>
+            </tr>`).join('')}
+          </tbody>
+        </table>
+      </div>
+
+      ${G.figure.length || G.cadenze.length ? `
+        <p class="conti">${[
+          ...G.figure.map(g => `di figura ${g.chiave}: ${g.numeri.join(', ')}`),
+          ...G.cadenze.map(g => `di cadenza ${g.chiave}: ${g.numeri.join(', ')}`),
+        ].join(' · ')}</p>` : ''}
+
+      <h4>Dove sono usciti, nei dodici concorsi dopo</h4>
+      <p class="conti">I ${derivati.length} numeri derivati, cercati su tutte e
+        dieci le ruote nei dodici concorsi successivi al
+        ${dataConAnno(giorno)}.</p>
+      <ul class="derivati-uscite">
+        ${uscite.map(u => `
+          <li>
+            <span class="cifra">${u.numero}</span>
+            ${u.uscite.length ? `
+              <span class="dove">${u.ruote.map(r => NOMI_RUOTE[r]).join(', ')}</span>
+              <span class="quante">${u.uscite.length} volt${u.uscite.length === 1 ? 'a' : 'e'}
+                · prima il ${dataConAnno(u.prima.giorno)} su ${NOMI_RUOTE[u.prima.ruota]}</span>`
+              : '<span class="mai">mai uscito</span>'}
+          </li>`).join('')}
+      </ul>
+      <p class="avvertenza">Un numero qualunque esce su una ruota qualunque circa
+        una volta ogni diciotto concorsi: su dieci ruote e dodici concorsi ci si
+        aspetta di trovarlo circa sei volte, e infatti si trova. Nessuno di questi
+        conteggi dice niente sul concorso che verrà.</p>
     </div>`;
 }
 
