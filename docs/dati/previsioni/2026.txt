@@ -1554,3 +1554,12 @@
 20260915|lottofacile1|NA,TO|6|0|ambata:16;ambo:2-16;ambo:16-20;terzina:2-16-20|pos 2-3 somma 88|
 20260915|lottofacile1|PA,VE|6|0|ambata:48;ambo:37-48;ambo:48-73;terzina:37-48-73|pos 3-5 somma 53|
 20260915|lottofacile1|RM,TO|6|0|ambata:16;ambo:16-47;ambo:16-74;terzina:16-47-74|pos 1-3 somma 43|
+20260917|ambosecco_caotico|BA,PA,FI|2|1|ambo:10-69;ambo:79-88|A=11 su BA/PA, B=79 su FI|
+20260917|ambosecco_caotico|FI,MI,BA|2|1|ambo:2-68;ambo:78-89|A=2 su FI/MI, B=88 su BA|
+20260917|ambosecco_caotico|GE,NA,VE|2|1|ambo:66-75;ambo:66-81|A=84 su GE/NA, B=6 su VE|
+20260917|lottofacile5|RM|9|0|ambata:9;ambata:54;ambo:9-45;ambo:9-90;ambo:45-54;ambo:54-90;quartina:9-15-45-75;quartina:9-30-60-90;quartina:15-45-54-75;quartina:30-54-60-90|rilevamento 36-81|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20260917|lottofacile4|BA,MI|14|1|ambata:69;ambo:24-69;ambo:9-69;ambo:39-69;terzina:9-24-39|pos 1-3 orizzontale|
+20260917|lottofacile1|BA,PA|6|0|ambata:70;ambo:70-81;ambo:18-70;terzina:18-70-81|pos 1-4 somma 9|
+20260917|lottofacile1|CA,TO|6|0|ambata:6;ambo:6-60;ambo:6-6|pos 3-5 somma 30|
+20260917|lottofacile1|FI,GE|6|0|ambata:42;ambo:42-63;ambo:36-42;terzina:36-42-63|pos 2-4 somma 27|
+20260917|lottofacile1|MI,NA|6|0|ambata:38;ambo:38-83;ambo:38-38|pos 2-5 somma 7|
