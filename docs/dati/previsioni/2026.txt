@@ -1563,3 +1563,10 @@
 20260917|lottofacile1|CA,TO|6|0|ambata:6;ambo:6-60;ambo:6-6|pos 3-5 somma 30|
 20260917|lottofacile1|FI,GE|6|0|ambata:42;ambo:42-63;ambo:36-42;terzina:36-42-63|pos 2-4 somma 27|
 20260917|lottofacile1|MI,NA|6|0|ambata:38;ambo:38-83;ambo:38-38|pos 2-5 somma 7|
+20260918|ambosecco_caotico|FI,MI,PA|2|1|ambo:7-13;ambo:23-89|A=7 su FI/MI, B=83 su PA|
+20260918|lottofacile1|CA,NA|6|0|ambata:18;ambo:18-28;ambo:18-82;terzina:18-28-82|pos 3-5 somma 62|
+20260918|lottofacile1|CA,RM|6|0|ambata:10;ambo:10-74;ambo:10-47;terzina:10-47-74|pos 2-4 somma 16|
+20260918|lottofacile1|FI,GE|6|0|ambata:36;ambo:36-41;ambo:14-36;terzina:14-36-41|pos 1-4 somma 49|
+20260918|lottofacile1|GE,MI|6|0|ambata:70;ambo:21-70;ambo:12-70;terzina:12-21-70|pos 1-5 somma 69|
+20260918|lottofacile1|GE,PA|6|0|ambata:48;ambo:8-48;ambo:48-80;terzina:8-48-80|pos 4-5 somma 82|
+20260918|lottofacile1|MI,VE|6|0|ambata:56;ambo:32-56;ambo:23-56;terzina:23-32-56|pos 2-4 somma 58|
