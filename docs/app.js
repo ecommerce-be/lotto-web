@@ -760,11 +760,25 @@ const breve = m => (NOMI_METODI[m] ?? m).split(' — ')[0];
 
 let elencoAnno = null, elencoRighe = [], elencoFiltrate = [], elencoPagina = 1;
 
+const FILTRI = ['ruota-elenco', 'metodo-elenco', 'sorte-elenco', 'esito-elenco'];
+
 function costruisciElenco() {
   document.getElementById('anno-elenco').onchange = cambiaAnnoElenco;
-  for (const id of ['ruota-elenco', 'metodo-elenco', 'sorte-elenco', 'esito-elenco'])
+  for (const id of FILTRI)
     document.getElementById(id).onchange = () => { elencoPagina = 1; applicaFiltri(); };
   document.getElementById('scarica-elenco').onclick = scaricaElenco;
+  bloccaFiltri();
+}
+
+/** Finche' non si sceglie un anno le tendine non hanno niente dentro, e una
+ *  tendina vuota ma cliccabile sembra un programma rotto: meglio spenta e con
+ *  scritto perche'. */
+function bloccaFiltri(testo = 'scegli l\'anno') {
+  for (const id of FILTRI) {
+    const s = document.getElementById(id);
+    s.innerHTML = `<option value="">${testo}</option>`;
+    s.disabled = true;
+  }
 }
 
 /** Riempie la tendina degli anni dall'indice pubblicato. */
@@ -781,6 +795,9 @@ function preparaElenco() {
   }
   scelta.innerHTML = '<option value="">scegli un anno…</option>'
     + anni.map(a => `<option value="${a}">${a}</option>`).join('');
+  document.getElementById('stato-elenco').textContent =
+    `Scegli un anno — ce ne sono ${anni.length}, dal ${anni.at(-1)} a oggi. `
+    + 'Le altre tendine si riempiono da sole.';
 }
 
 async function cambiaAnnoElenco() {
@@ -789,6 +806,7 @@ async function cambiaAnnoElenco() {
   if (!anno) return;
   avviso.textContent = `sto leggendo il ${anno}…`;
   svuotaElenco();
+  bloccaFiltri('un momento…');
   try {
     const previsioni = await prendiAnno(anno);
     // un respiro prima del conto, se no il browser non ridisegna l'avviso
@@ -800,6 +818,7 @@ async function cambiaAnnoElenco() {
     applicaFiltri();
   } catch (e) {
     avviso.textContent = `Non riesco a leggere il ${anno}: ${e.message}`;
+    bloccaFiltri();
   }
 }
 
@@ -827,6 +846,7 @@ function riempiFiltri() {
   tieni('sorte-elenco', opzioni(p.tipi, NOMI_TIPO));
   tieni('esito-elenco', '<option value="">tutte</option>'
     + ESITI.map(e => `<option value="${e}">${NOMI_ESITO[e]}</option>`).join(''));
+  for (const id of FILTRI) document.getElementById(id).disabled = false;
 }
 
 function applicaFiltri() {
