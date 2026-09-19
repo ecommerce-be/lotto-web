@@ -30,7 +30,8 @@ import {
   f90, complemento, diametrale, vertibile, figura, cadenza, terzinaDi,
   trasformazioni, gruppi, insieme,
 } from '../docs/derivati.js';
-import { righe, filtra, conteggio, pagina, presenti, csv } from '../docs/elenco.js';
+import { righe, filtra, conteggio, pagina, presenti, csv, giorni, giornoVicino }
+  from '../docs/elenco.js';
 
 const QUI = dirname(fileURLToPath(import.meta.url));
 const DOCS = join(QUI, '..', 'docs');
@@ -287,6 +288,24 @@ check('per esito', filtra(R, { esito: 'uscita' }).length === 1);
 check('e i filtri si sommano',
   filtra(R, { ruota: 'NA', tipo: 'ambata', esito: 'uscita' }).length === 1);
 check('nessun filtro vuol dire tutte le righe', filtra(R, {}).length === R.length);
+check('si filtra per giorno preciso',
+  filtra(R, { giorno: '2000-01-11' }).length === 1
+  && filtra(R, { giorno: '2000-01-04' }).length === 4,
+  JSON.stringify(filtra(R, { giorno: '2000-01-11' }).map(x => x.giorno)));
+check('il giorno si somma agli altri filtri',
+  filtra(R, { giorno: '2000-01-04', ruota: 'BA' }).length === 2);
+check('un giorno senza previsioni da\' zero righe',
+  filtra(R, { giorno: '2000-01-06' }).length === 0);
+
+check('i giorni di concorso presenti sono in ordine e senza doppioni',
+  giorni(R).join(',') === '2000-01-04,2000-01-11', giorni(R).join(','));
+check('un giorno che c\'e\' resta quello', giornoVicino(R, '2000-01-11') === '2000-01-11');
+check('altrimenti si prende il piu\' vicino',
+  giornoVicino(R, '2000-01-05') === '2000-01-04', giornoVicino(R, '2000-01-05'));
+check('e si guarda anche in avanti',
+  giornoVicino(R, '2000-01-10') === '2000-01-11');
+check('senza righe non si inventa un giorno', giornoVicino([], '2000-01-04') === null);
+check('senza data non si propone niente', giornoVicino(R, '') === null);
 check('un filtro che non trova niente da\' zero righe, non tutte',
   filtra(R, { ruota: 'TO' }).length === 0);
 

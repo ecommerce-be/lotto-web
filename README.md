@@ -235,6 +235,12 @@ che è quello che Excel in italiano si aspetta).
 La riga è la terna **previsione · sorte · ruota**, non la previsione: filtrare
 per Napoli deve dare davvero solo Napoli.
 
+Accanto all'anno c'è il campo **Giorno**, per il concorso preciso: chi la data
+ce l'ha già non deve mettersi a cercarla dentro sedicimila righe d'annata. Se la
+data cade in un altro anno, quell'anno si carica da solo; se quel giorno non si
+è estratto, scatta al concorso più vicino **e lo scrive**, invece di mostrare un
+elenco vuoto senza spiegazione.
+
 **L'esito per ruota ha tre stati e non due**, ed è la cosa meno ovvia della
 sezione. Come da fascicoli la sorte si sospende quando si verifica su una ruota
 di gioco, e da quel momento non si gioca più *nemmeno sulle altre ruote della

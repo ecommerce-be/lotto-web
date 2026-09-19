@@ -329,15 +329,22 @@ ul.derivati-uscite .mai{color:var(--tenue);font-style:italic}
 .elenco-tutto{padding-top:24px;border-top:1px solid var(--bordo);margin-top:30px}
 .elenco-tutto > h2{margin:0 0 6px}
 .elenco-tutto .spiega{margin:0 0 18px;color:var(--tenue);font-size:.88rem;max-width:64ch}
-.elenco-tutto .campi-ricerca .campo{min-width:140px;flex:1 1 140px}
+/* sei campi in fila: sotto i 132px la tendina non ci sta, sopra va a capo
+   "com'e' andata" da sola e la riga sembra sbilenca */
+.elenco-tutto .campi-ricerca .campo{min-width:132px;flex:1 1 132px}
 .elenco-tutto .nota{color:var(--tenue);font-size:.84rem;margin:14px 0 0}
 .elenco-tutto .conti{margin:14px 0 6px;color:var(--tenue);font-size:.86rem;
   max-width:70ch;line-height:1.5}
 .elenco-tutto select{font:inherit;padding:9px 11px;border:1px solid var(--bordo);
   border-radius:9px;background:var(--carta);color:var(--testo);width:100%}
-.elenco-tutto select:disabled{background:var(--sfondo);color:var(--tenue);
-  cursor:not-allowed;opacity:.7}
-.elenco-tutto .campo:has(select:disabled) label{opacity:.55}
+.elenco-tutto input[type=date]{font:inherit;padding:9px 11px;
+  border:1px solid var(--bordo);border-radius:9px;background:var(--carta);
+  color:var(--testo);width:100%}
+.elenco-tutto select:disabled,.elenco-tutto input:disabled{background:var(--sfondo);
+  color:var(--tenue);cursor:not-allowed;opacity:.7}
+.elenco-tutto #rapidi-elenco{margin:14px 0 0}
+.elenco-tutto .campo:has(select:disabled) label,
+.elenco-tutto .campo:has(input:disabled) label{opacity:.55}
 /* l'anno e' il campo da cui si parte: gli altri quattro non fanno niente
    finche' non e' scelto, e si vede */
 .elenco-tutto .campi-ricerca .campo:first-child select{border-color:var(--accento)}

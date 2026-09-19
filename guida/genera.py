@@ -250,6 +250,11 @@ A(P("Pi\u00f9 in fondo, <b>\u201cL\u2019elenco di tutto\u201d</b>: ogni numero c
     "sfoglia cento righe per volta, e il tasto in fondo salva in un file per "
     "Excel <b>esattamente le righe rimaste</b>, cos\u00ec te le riordini come "
     "vuoi."))
+A(P("Accanto all\u2019anno c\u2019\u00e8 il campo <b>Giorno</b>: se la data la sai gi\u00e0, "
+    "mettila l\u00ec e vedi solo quel concorso invece di tutto l\u2019anno. Se la data "
+    "\u00e8 di un altro anno, l\u2019anno cambia da solo; se quel giorno non si \u00e8 "
+    "estratto, il programma prende il concorso pi\u00f9 vicino e te lo scrive. Il "
+    "tasto <i>tutto l\u2019anno</i> riporta indietro."))
 A(P("Nella colonna <i>com\u2019\u00e8 andata</i> ci sono quattro risposte, e "
     "vale la pena distinguerle:", "lista"))
 A(punti([

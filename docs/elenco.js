@@ -71,13 +71,35 @@ export function righe(storico, previsioni, { oltreColpi = 0 } = {}) {
   return fuori;
 }
 
-/** I filtri della pagina. Un valore vuoto vuol dire "non filtrare". */
-export function filtra(tutte, { ruota = '', metodo = '', tipo = '', esito = '' } = {}) {
+/** I filtri della pagina. Un valore vuoto vuol dire "non filtrare".
+ *  `giorno` e' il concorso preciso: chi la data ce l'ha gia' non deve mettersi
+ *  a cercarla dentro sedicimila righe d'annata. */
+export function filtra(tutte, {
+  giorno = '', ruota = '', metodo = '', tipo = '', esito = '',
+} = {}) {
   return tutte.filter(r =>
-    (!ruota || r.ruota === ruota)
+    (!giorno || r.giorno === giorno)
+    && (!ruota || r.ruota === ruota)
     && (!metodo || r.metodo === metodo)
     && (!tipo || r.tipo === tipo)
     && (!esito || r.esito === esito));
+}
+
+/** I giorni di concorso presenti nelle righe, in ordine. Serve a dire quanti
+ *  concorsi ha l'anno e a trovare il piu' vicino a una data qualunque. */
+export function giorni(tutte) {
+  return [...new Set(tutte.map(r => r.giorno))].sort();
+}
+
+/** Il concorso piu' vicino a una data, fra quelli che hanno righe.
+ *  Il calendario del Lotto salta i giorni, e chi sceglie una domenica non deve
+ *  trovarsi davanti a un elenco vuoto senza capire perche'. */
+export function giornoVicino(tutte, giorno) {
+  const g = giorni(tutte);
+  if (!g.length || !giorno) return null;
+  if (g.includes(giorno)) return giorno;
+  const scarto = a => Math.abs(Date.parse(a + 'T00:00:00') - Date.parse(giorno + 'T00:00:00'));
+  return g.reduce((m, x) => (scarto(x) < scarto(m) ? x : m), g[0]);
 }
 
 /** Quante righe per ciascun esito: il riassunto sopra la tabella. */

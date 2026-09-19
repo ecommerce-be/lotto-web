@@ -19,7 +19,7 @@ import {
 import { trasformazioni, gruppi, insieme } from './derivati.js';
 import {
   righe as righeElenco, filtra as filtraElenco, conteggio, pagina, presenti,
-  csv, ESITI,
+  csv, ESITI, giorni as giorniElenco, giornoVicino,
 } from './elenco.js';
 
 const NOMI_RUOTE = {
@@ -759,6 +759,7 @@ const PER_PAGINA = 100;
 const breve = m => (NOMI_METODI[m] ?? m).split(' — ')[0];
 
 let elencoAnno = null, elencoRighe = [], elencoFiltrate = [], elencoPagina = 1;
+let elencoGiorno = '', spostata = null;
 
 const FILTRI = ['ruota-elenco', 'metodo-elenco', 'sorte-elenco', 'esito-elenco'];
 
@@ -767,7 +768,43 @@ function costruisciElenco() {
   for (const id of FILTRI)
     document.getElementById(id).onchange = () => { elencoPagina = 1; applicaFiltri(); };
   document.getElementById('scarica-elenco').onclick = scaricaElenco;
+  document.getElementById('data-elenco').onchange = cambiaGiornoElenco;
   bloccaFiltri();
+}
+
+/** Il campo data: si sceglie il concorso preciso invece di cercarselo dentro
+ *  sedicimila righe d'annata. Se la data cade in un altro anno si carica
+ *  quell'anno da solo, e se quel giorno non c'era concorso scatta al piu'
+ *  vicino e lo dice, invece di mostrare un elenco vuoto. */
+async function cambiaGiornoElenco() {
+  const campo = document.getElementById('data-elenco');
+  const scelta = campo.value;
+  // Se il campo ci ridice la data su cui ci eravamo gia' spostati, la
+  // spiegazione dello spostamento non va cancellata: e' lo stesso concorso.
+  if (scelta && scelta === elencoGiorno) return;
+  spostata = null;
+  if (!scelta) { elencoGiorno = ''; elencoPagina = 1; applicaFiltri(); return; }
+
+  const anno = scelta.slice(0, 4);
+  if (anno !== elencoAnno) {
+    const tendina = document.getElementById('anno-elenco');
+    if (![...tendina.options].some(o => o.value === anno)) {
+      document.getElementById('stato-elenco').textContent =
+        `Il ${anno} non è fra gli anni disponibili.`;
+      return;
+    }
+    tendina.value = anno;
+    await cambiaAnnoElenco({ tieniIlGiorno: true });
+    if (elencoAnno !== anno) return;        // il caricamento e' fallito
+  }
+  const vicino = giornoVicino(elencoRighe, scelta);
+  elencoGiorno = vicino ?? '';
+  // se quel giorno non si e' estratto si scatta al concorso piu' vicino, ma
+  // va detto: se no sembra che la data scelta sia stata ignorata
+  spostata = Boolean(vicino) && vicino !== scelta ? scelta : null;
+  if (vicino) campo.value = vicino;
+  elencoPagina = 1;
+  applicaFiltri();
 }
 
 /** Finche' non si sceglie un anno le tendine non hanno niente dentro, e una
@@ -779,6 +816,8 @@ function bloccaFiltri(testo = 'scegli l\'anno') {
     s.innerHTML = `<option value="">${testo}</option>`;
     s.disabled = true;
   }
+  document.getElementById('data-elenco').disabled = true;
+  document.getElementById('rapidi-elenco').innerHTML = '';
 }
 
 /** Riempie la tendina degli anni dall'indice pubblicato. */
@@ -797,13 +836,21 @@ function preparaElenco() {
     + anni.map(a => `<option value="${a}">${a}</option>`).join('');
   document.getElementById('stato-elenco').textContent =
     `Scegli un anno — ce ne sono ${anni.length}, dal ${anni.at(-1)} a oggi. `
-    + 'Le altre tendine si riempiono da sole.';
+    + 'Poi, se la data la sai già, mettila nel campo Giorno: il resto si '
+    + 'riempie da solo.';
 }
 
-async function cambiaAnnoElenco() {
+async function cambiaAnnoElenco({ tieniIlGiorno = false } = {}) {
   const anno = document.getElementById('anno-elenco').value;
   const avviso = document.getElementById('stato-elenco');
   if (!anno) return;
+  if (!tieniIlGiorno) {
+    // scegliere un anno vuol dire "fammi vedere l'anno": la data di prima
+    // resterebbe appiccicata e mostrerebbe un solo concorso senza spiegazione
+    elencoGiorno = '';
+    spostata = null;
+    document.getElementById('data-elenco').value = '';
+  }
   avviso.textContent = `sto leggendo il ${anno}…`;
   svuotaElenco();
   bloccaFiltri('un momento…');
@@ -814,11 +861,34 @@ async function cambiaAnnoElenco() {
     elencoAnno = anno;
     elencoRighe = righeElenco(storico, previsioni);
     riempiFiltri();
+    preparaGiorni();
     elencoPagina = 1;
     applicaFiltri();
   } catch (e) {
     avviso.textContent = `Non riesco a leggere il ${anno}: ${e.message}`;
     bloccaFiltri();
+  }
+}
+
+/** Limiti del campo data e i due tasti sotto: primo e ultimo concorso
+ *  dell'anno, e il ritorno a tutto l'anno. */
+function preparaGiorni() {
+  const g = giorniElenco(elencoRighe);
+  const campo = document.getElementById('data-elenco');
+  campo.disabled = !g.length;
+  if (!g.length) { document.getElementById('rapidi-elenco').innerHTML = ''; return; }
+  campo.min = g[0];
+  campo.max = g.at(-1);
+
+  document.getElementById('rapidi-elenco').innerHTML = `
+    <button type="button" data-giorno="">tutto l'anno</button>
+    <button type="button" data-giorno="${g[0]}">primo concorso (${dataConAnno(g[0])})</button>
+    <button type="button" data-giorno="${g.at(-1)}">ultimo (${dataConAnno(g.at(-1))})</button>`;
+  for (const b of document.querySelectorAll('#rapidi-elenco button')) {
+    b.onclick = () => {
+      campo.value = b.dataset.giorno;
+      cambiaGiornoElenco();
+    };
   }
 }
 
@@ -851,6 +921,7 @@ function riempiFiltri() {
 
 function applicaFiltri() {
   elencoFiltrate = filtraElenco(elencoRighe, {
+    giorno: elencoGiorno,
     ruota: document.getElementById('ruota-elenco').value,
     metodo: document.getElementById('metodo-elenco').value,
     tipo: document.getElementById('sorte-elenco').value,
@@ -867,7 +938,9 @@ function mostraElenco() {
 
   if (!elencoFiltrate.length) {
     avviso.textContent = elencoRighe.length
-      ? 'Nessuna riga con questi filtri.'
+      ? (elencoGiorno
+        ? `Nessuna riga il ${dataIt(elencoGiorno)} con questi filtri.`
+        : 'Nessuna riga con questi filtri.')
       : `Il ${elencoAnno} non ha previsioni.`;
     tabella.innerHTML = '';
     riassunto.innerHTML = '';
@@ -876,7 +949,9 @@ function mostraElenco() {
     return;
   }
 
-  avviso.textContent = '';
+  avviso.textContent = spostata
+    ? `Il ${dataIt(spostata)} non c'era concorso: ti mostro il ${dataIt(elencoGiorno)}.`
+    : '';
   // Le voci a zero non si scrivono: "0 sospese (0,0%)" e' rumore, e quando si
   // filtra per un solo esito resterebbero tre zeri su quattro.
   const quota = n => c.totale ? ` (${percento(n / c.totale, 1)})` : '';
@@ -887,8 +962,11 @@ function mostraElenco() {
     [c.scaduta, `${numero(c.scaduta)} scadute senza esito${quota(c.scaduta)}`],
     [c.aperta, `${numero(c.aperta)} ancora in gioco${quota(c.aperta)}`],
   ].filter(([n]) => n > 0).map(([, testo]) => testo);
+  const dove = elencoGiorno
+    ? `nel concorso del <b>${dataIt(elencoGiorno)}</b>`
+    : `nel ${elencoAnno}`;
   riassunto.innerHTML = `
-    <p class="conti"><b>${numero(c.totale)}</b> righe nel ${elencoAnno}${
+    <p class="conti"><b>${numero(c.totale)}</b> righe ${dove}${
       elencoFiltrate.length < elencoRighe.length
         ? ` (su ${numero(elencoRighe.length)} dell'anno)` : ''}${
       voci.length > 1 ? ': ' + elenco(voci) : ''}.</p>`;
@@ -952,7 +1030,7 @@ function descriviEsito(r) {
 
 function scaricaElenco() {
   const testo = csv(elencoFiltrate, { nomiRuote: NOMI_RUOTE, nomiMetodi: NOMI_METODI });
-  const pezzi = ['lotto', elencoAnno];
+  const pezzi = ['lotto', elencoGiorno || elencoAnno];
   for (const [id, nomi] of [['ruota-elenco', NOMI_RUOTE], ['metodo-elenco', NOMI_METODI],
                             ['sorte-elenco', NOMI_TIPO], ['esito-elenco', NOMI_ESITO]]) {
     const v = document.getElementById(id).value;
