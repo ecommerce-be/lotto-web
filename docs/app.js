@@ -810,13 +810,16 @@ async function cambiaGiornoElenco() {
 /** Finche' non si sceglie un anno le tendine non hanno niente dentro, e una
  *  tendina vuota ma cliccabile sembra un programma rotto: meglio spenta e con
  *  scritto perche'. */
-function bloccaFiltri(testo = 'scegli l\'anno') {
+function bloccaFiltri(testo = 'scegli sopra') {
   for (const id of FILTRI) {
     const s = document.getElementById(id);
     s.innerHTML = `<option value="">${testo}</option>`;
     s.disabled = true;
   }
-  document.getElementById('data-elenco').disabled = true;
+  // il campo data NON si spegne: e' la porta d'ingresso della sezione, e l'anno
+  // lo porta gia' dentro. Chiedere l'anno prima di una data che contiene l'anno
+  // sarebbe far pagare a chi legge un dettaglio nostro (i dati stanno in un
+  // file per anno).
   document.getElementById('rapidi-elenco').innerHTML = '';
 }
 
@@ -834,10 +837,15 @@ function preparaElenco() {
   }
   scelta.innerHTML = '<option value="">scegli un anno…</option>'
     + anni.map(a => `<option value="${a}">${a}</option>`).join('');
+  const campo = document.getElementById('data-elenco');
+  campo.min = storico.giorni[0];
+  campo.max = storico.giorni.at(-1);
+  campo.disabled = false;
+
   document.getElementById('stato-elenco').textContent =
-    `Scegli un anno — ce ne sono ${anni.length}, dal ${anni.at(-1)} a oggi. `
-    + 'Poi, se la data la sai già, mettila nel campo Giorno: il resto si '
-    + 'riempie da solo.';
+    'Metti una data e vedi quel concorso, oppure scegli un anno intero: '
+    + `ce ne sono ${anni.length}, dal ${anni.at(-1)} a oggi. `
+    + 'Gli altri filtri si riempiono da soli.';
 }
 
 async function cambiaAnnoElenco({ tieniIlGiorno = false } = {}) {
@@ -874,12 +882,10 @@ async function cambiaAnnoElenco({ tieniIlGiorno = false } = {}) {
  *  dell'anno, e il ritorno a tutto l'anno. */
 function preparaGiorni() {
   const g = giorniElenco(elencoRighe);
-  const campo = document.getElementById('data-elenco');
-  campo.disabled = !g.length;
   if (!g.length) { document.getElementById('rapidi-elenco').innerHTML = ''; return; }
-  campo.min = g[0];
-  campo.max = g.at(-1);
-
+  // i limiti restano quelli di tutto l'archivio: restringerli all'anno caricato
+  // impedirebbe di saltare a un altro anno scrivendo la data, che e' il modo
+  // piu' veloce di arrivarci
   document.getElementById('rapidi-elenco').innerHTML = `
     <button type="button" data-giorno="">tutto l'anno</button>
     <button type="button" data-giorno="${g[0]}">primo concorso (${dataConAnno(g[0])})</button>

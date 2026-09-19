@@ -226,20 +226,23 @@ numeri, e quasi sempre quella configurazione non c'è.
 ### "L'elenco di tutto"
 
 Ogni numero che i sei metodi hanno giocato, su ogni ruota, a ogni concorso, con
-com'è andata. Un anno alla volta — sedicimila righe l'anno, un milione e quattro
-in tutto l'archivio — con i filtri per ruota, metodo, sorte ed esito, la tabella
-a pagine da cento righe e un bottone che salva in CSV **esattamente le righe
-filtrate**, apribile in Excel (punto e virgola come separatore e BOM davanti,
-che è quello che Excel in italiano si aspetta).
+com'è andata — un milione e quattro di righe in tutto l'archivio, sedicimila
+l'anno. Si entra da una **data**, e si vede quel concorso; oppure si sceglie un
+**anno intero**, per sfogliarlo. Poi i filtri per ruota, metodo, sorte ed
+esito, la tabella a pagine da cento righe e un bottone che salva in CSV
+**esattamente le righe filtrate**, apribile in Excel (punto e virgola come
+separatore e BOM davanti, che è quello che Excel in italiano si aspetta).
 
 La riga è la terna **previsione · sorte · ruota**, non la previsione: filtrare
 per Napoli deve dare davvero solo Napoli.
 
-Accanto all'anno c'è il campo **Giorno**, per il concorso preciso: chi la data
-ce l'ha già non deve mettersi a cercarla dentro sedicimila righe d'annata. Se la
-data cade in un altro anno, quell'anno si carica da solo; se quel giorno non si
-è estratto, scatta al concorso più vicino **e lo scrive**, invece di mostrare un
-elenco vuoto senza spiegazione.
+**La data non chiede l'anno prima.** I dati stanno in un file per anno — è un
+dettaglio di come sono pubblicati, e per un po' è finito in faccia a chi usa il
+sito: bisognava scegliere l'anno da una tendina *e poi* una data che l'anno lo
+contiene già. Ora il campo Giorno funziona da subito: la data dice quale anno
+caricare, la tendina si allinea da sola, e se quel giorno non si è estratto
+scatta al concorso più vicino **e lo scrive**, invece di mostrare un elenco
+vuoto senza spiegazione.
 
 **L'esito per ruota ha tre stati e non due**, ed è la cosa meno ovvia della
 sezione. Come da fascicoli la sorte si sospende quando si verifica su una ruota

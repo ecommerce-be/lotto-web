@@ -244,17 +244,18 @@ A(riquadro([
 
 A(P("Pi\u00f9 in fondo, <b>\u201cL\u2019elenco di tutto\u201d</b>: ogni numero che i sei "
     "metodi hanno giocato, su ogni ruota, a ogni concorso, con com\u2019\u00e8 "
-    "andata. Si sceglie un anno \u2014 sono sedicimila righe l\u2019anno, tutte "
-    "insieme non starebbero in un telefono \u2014 e poi si restringe con le "
+    "andata. Si entra in due modi: <b>metti una data</b> e vedi quel concorso, "
+    "oppure scegli un <b>anno intero</b> e lo sfogli. Poi si restringe con le "
     "tendine: ruota, metodo, sorte, e <i>com\u2019\u00e8 andata</i>. La tabella si "
     "sfoglia cento righe per volta, e il tasto in fondo salva in un file per "
     "Excel <b>esattamente le righe rimaste</b>, cos\u00ec te le riordini come "
     "vuoi."))
-A(P("Accanto all\u2019anno c\u2019\u00e8 il campo <b>Giorno</b>: se la data la sai gi\u00e0, "
-    "mettila l\u00ec e vedi solo quel concorso invece di tutto l\u2019anno. Se la data "
-    "\u00e8 di un altro anno, l\u2019anno cambia da solo; se quel giorno non si \u00e8 "
-    "estratto, il programma prende il concorso pi\u00f9 vicino e te lo scrive. Il "
-    "tasto <i>tutto l\u2019anno</i> riporta indietro."))
+A(P("Il campo <b>Giorno</b> non ti chiede l\u2019anno prima: la data l\u2019anno ce "
+    "l\u2019ha gi\u00e0 dentro, e il programma si sistema da solo, anche se salti da "
+    "un anno all\u2019altro. Se quel giorno non si \u00e8 estratto \u2014 una domenica, per "
+    "dire \u2014 prende il concorso pi\u00f9 vicino e te lo scrive, invece di lasciarti "
+    "davanti a un elenco vuoto. Sotto ci sono tre tasti: <i>tutto l\u2019anno</i>, "
+    "<i>primo concorso</i> e <i>ultimo</i>."))
 A(P("Nella colonna <i>com\u2019\u00e8 andata</i> ci sono quattro risposte, e "
     "vale la pena distinguerle:", "lista"))
 A(punti([

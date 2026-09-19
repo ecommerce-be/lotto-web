@@ -239,7 +239,8 @@ select.da-previsione{font:inherit;font-size:.86rem;padding:7px 10px;max-width:10
 .campi-ricerca .campo{display:flex;flex-direction:column;gap:6px;min-width:190px;
   flex:1 1 190px;padding:0;border-top:none}
 .campi-ricerca label{font-size:.82rem;color:var(--tenue);font-weight:600;
-  text-transform:uppercase;letter-spacing:.05em}
+  text-transform:uppercase;letter-spacing:.05em;white-space:nowrap;
+  overflow:hidden;text-overflow:ellipsis}
 .ricerca input[type=date],.ricerca select{font:inherit;padding:9px 11px;
   border:1px solid var(--bordo);border-radius:9px;background:var(--carta);
   color:var(--testo);width:100%}
@@ -345,9 +346,11 @@ ul.derivati-uscite .mai{color:var(--tenue);font-style:italic}
 .elenco-tutto #rapidi-elenco{margin:14px 0 0}
 .elenco-tutto .campo:has(select:disabled) label,
 .elenco-tutto .campo:has(input:disabled) label{opacity:.55}
-/* l'anno e' il campo da cui si parte: gli altri quattro non fanno niente
-   finche' non e' scelto, e si vede */
-.elenco-tutto .campi-ricerca .campo:first-child select{border-color:var(--accento)}
+/* le due porte d'ingresso - un giorno preciso o un anno intero - hanno il
+   bordo dell'accento: gli altri quattro filtri non fanno niente finche' non si
+   e' scelto l'uno o l'altro, e si vede perche' sono spenti */
+.elenco-tutto .campi-ricerca .campo:nth-child(-n+2) select,
+.elenco-tutto .campi-ricerca .campo:nth-child(-n+2) input{border-color:var(--accento)}
 
 table.tutto{width:100%;border-collapse:collapse;margin-top:10px}
 table.tutto th{text-align:left;font-size:.7rem;text-transform:uppercase;
