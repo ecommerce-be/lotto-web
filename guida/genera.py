@@ -242,6 +242,29 @@ A(riquadro([
     "dei numeri, e quasi sempre quella configurazione non si presenta.",
 ]))
 
+A(P("Pi\u00f9 in fondo, <b>\u201cL\u2019elenco di tutto\u201d</b>: ogni numero che i sei "
+    "metodi hanno giocato, su ogni ruota, a ogni concorso, con com\u2019\u00e8 "
+    "andata. Si sceglie un anno \u2014 sono sedicimila righe l\u2019anno, tutte "
+    "insieme non starebbero in un telefono \u2014 e poi si restringe con le "
+    "tendine: ruota, metodo, sorte, e <i>com\u2019\u00e8 andata</i>. La tabella si "
+    "sfoglia cento righe per volta, e il tasto in fondo salva in un file per "
+    "Excel <b>esattamente le righe rimaste</b>, cos\u00ec te le riordini come "
+    "vuoi."))
+A(P("Nella colonna <i>com\u2019\u00e8 andata</i> ci sono quattro risposte, e "
+    "vale la pena distinguerle:", "lista"))
+A(punti([
+    "<b>uscita</b> \u2014 su quella ruota, entro i colpi previsti. \u00c8 la riga "
+    "che avrebbe pagato, e dice a che colpo.",
+    "<b>sospesa</b> \u2014 i numeri non sono usciti su questa ruota, ma la "
+    "giocata si era gi\u00e0 chiusa su un\u2019altra ruota della stessa previsione. "
+    "Come dicono i fascicoli, quando la sorte si verifica si sospende: da l\u00ec "
+    "in avanti non si gioca e non si spende, nemmeno sulle altre ruote. Dire "
+    "\u201cscaduta\u201d sarebbe falso, e la riga dice dove e quando si \u00e8 chiusa.",
+    "<b>scaduta</b> \u2014 i colpi sono finiti e non \u00e8 uscita da nessuna parte. "
+    "Se qualche numero era uscito da solo, la riga lo segnala.",
+    "<b>ancora in gioco</b> \u2014 i colpi non sono ancora finiti: si sapr\u00e0.",
+]))
+
 A(P("3. In corso \u2014 tutto quello che \u00e8 ancora in gioco", "h2"))
 A(P("La stessa materia della Schedina, ma senza il filtro del budget: tutte le "
     "previsioni ancora valide, raggruppate per metodo. Ogni riquadro dice il "

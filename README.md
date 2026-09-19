@@ -164,8 +164,9 @@ giocate dipendenti); la probabilità di vincere qualcosa è approssimata, perch�
 le giocate insistono sullo stesso concorso e condividono numeri e ruote — per
 questo la pagina scrive "circa".
 
-**Previsioni** — i numeri in comune fra i metodi, e la ricerca delle
-ripetizioni. Sono le due cose descritte qui sotto.
+**Previsioni** — i numeri in comune fra i metodi, che cosa i metodi avrebbero
+detto su un concorso qualunque del passato, e l'elenco completo di tutto quello
+che hanno giocato. Sono le tre cose descritte qui sotto.
 
 **In corso** — tutte le previsioni ancora giocabili, raggruppate per metodo e
 ordinate **per rarità**, non per data: ordinare per data seppellisce il metodo
@@ -221,6 +222,38 @@ sarebbe l'unica vera bugia che questo sito potrebbe raccontare.
 Su nove date-ruota su dieci c'è almeno una previsione vera. Nell'altro caso la
 pagina lo dice e spiega perché: i metodi cercano una configurazione, non dei
 numeri, e quasi sempre quella configurazione non c'è.
+
+### "L'elenco di tutto"
+
+Ogni numero che i sei metodi hanno giocato, su ogni ruota, a ogni concorso, con
+com'è andata. Un anno alla volta — sedicimila righe l'anno, un milione e quattro
+in tutto l'archivio — con i filtri per ruota, metodo, sorte ed esito, la tabella
+a pagine da cento righe e un bottone che salva in CSV **esattamente le righe
+filtrate**, apribile in Excel (punto e virgola come separatore e BOM davanti,
+che è quello che Excel in italiano si aspetta).
+
+La riga è la terna **previsione · sorte · ruota**, non la previsione: filtrare
+per Napoli deve dare davvero solo Napoli.
+
+**L'esito per ruota ha tre stati e non due**, ed è la cosa meno ovvia della
+sezione. Come da fascicoli la sorte si sospende quando si verifica su una ruota
+di gioco, e da quel momento non si gioca più *nemmeno sulle altre ruote della
+stessa previsione*. Così una riga su Cagliari può finire senza esito non perché
+i numeri non siano usciti, ma perché la giocata si era già chiusa su Bari due
+colpi prima. Chiamarla «scaduta» sarebbe falso e «uscita» pure: si chiama
+**sospesa** e dice dove e quando. Gli stati sono quattro:
+
+| stato | vuol dire |
+|---|---|
+| `uscita` | su **questa** ruota, entro i colpi. È la riga che ha pagato. |
+| `sospesa` | la giocata si è chiusa su un'altra ruota prima che qui uscisse. |
+| `scaduta` | i colpi sono finiti e non è uscita da nessuna parte. |
+| `aperta` | i colpi non sono ancora finiti. |
+
+Il conto di un anno intero è qualche centinaio di millisecondi, quindi si fa una
+volta sola quando cambia l'anno; cambiare una tendina filtra quello che è già in
+memoria ed è istantaneo. Gli esiti non si ricalcolano in `elenco.js`: li dà
+`verifica()` di `storico.js`, che è la regola provata contro Python.
 
 #### Perché le previsioni storiche non si ricalcolano nel browser
 

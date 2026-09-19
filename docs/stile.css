@@ -234,7 +234,10 @@ select.da-previsione{font:inherit;font-size:.86rem;padding:7px 10px;max-width:10
 .ricerca > h2{margin:0 0 6px}
 .ricerca .spiega{margin:0 0 18px;color:var(--tenue);font-size:.88rem;max-width:64ch}
 .campi-ricerca{display:flex;gap:14px;flex-wrap:wrap;align-items:flex-start}
-.campi-ricerca .campo{display:flex;flex-direction:column;gap:6px;min-width:190px;flex:1 1 190px}
+/* .campo ha gia' bordo e padding nel simulatore di schedina: qui serve solo
+   una colonna, se no il primo campo si disallinea dagli altri quattro. */
+.campi-ricerca .campo{display:flex;flex-direction:column;gap:6px;min-width:190px;
+  flex:1 1 190px;padding:0;border-top:none}
 .campi-ricerca label{font-size:.82rem;color:var(--tenue);font-weight:600;
   text-transform:uppercase;letter-spacing:.05em}
 .ricerca input[type=date],.ricerca select{font:inherit;padding:9px 11px;
@@ -321,6 +324,48 @@ ul.derivati-uscite .cifra{grid-row:1/3;font-weight:660;
 ul.derivati-uscite .dove{color:var(--testo);line-height:1.4}
 ul.derivati-uscite .quante{color:var(--tenue);font-size:.76rem;line-height:1.4}
 ul.derivati-uscite .mai{color:var(--tenue);font-style:italic}
+
+/* ------------------------------------------------- l'elenco di tutto */
+.elenco-tutto{padding-top:24px;border-top:1px solid var(--bordo);margin-top:30px}
+.elenco-tutto > h2{margin:0 0 6px}
+.elenco-tutto .spiega{margin:0 0 18px;color:var(--tenue);font-size:.88rem;max-width:64ch}
+.elenco-tutto .campi-ricerca .campo{min-width:140px;flex:1 1 140px}
+.elenco-tutto .nota{color:var(--tenue);font-size:.84rem;margin:14px 0 0}
+.elenco-tutto .conti{margin:14px 0 6px;color:var(--tenue);font-size:.86rem;
+  max-width:70ch;line-height:1.5}
+.elenco-tutto select{font:inherit;padding:9px 11px;border:1px solid var(--bordo);
+  border-radius:9px;background:var(--carta);color:var(--testo);width:100%}
+
+table.tutto{width:100%;border-collapse:collapse;margin-top:10px}
+table.tutto th{text-align:left;font-size:.7rem;text-transform:uppercase;
+  letter-spacing:.04em;color:var(--tenue);font-weight:600;padding:0 10px 7px 0;
+  border-bottom:1px solid var(--bordo);white-space:nowrap}
+table.tutto td{text-align:left;padding:7px 10px 7px 0;
+  border-bottom:1px solid var(--bordo);font-size:.84rem;vertical-align:baseline}
+table.tutto td.numeri{font-variant-numeric:tabular-nums;letter-spacing:.03em;
+  font-weight:600;white-space:nowrap}
+table.tutto .pos{color:var(--verde);font-weight:600}
+table.tutto .tiepido{color:var(--tenue)}
+table.tutto .spento{color:var(--tenue);opacity:.75}
+table.tutto .quali{display:block;font-size:.76rem;color:var(--tenue);
+  font-variant-numeric:tabular-nums}
+/* sul telefono la cella diventa una riga in flex: senza questo le due parti
+   dell'esito finiscono in due colonne invece che una sotto l'altra */
+table.tutto .andata{display:flex;flex-direction:column;align-items:flex-end;gap:1px}
+table.tutto tr.esito-uscita td{background:color-mix(in srgb,var(--verde) 6%,transparent)}
+
+.paginatore{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin:16px 0}
+.paginatore button{border:1px solid var(--bordo);background:var(--carta);
+  color:var(--tenue);padding:6px 13px;border-radius:99px;cursor:pointer;
+  font:inherit;font-size:.82rem}
+.paginatore button:hover:not(:disabled){border-color:var(--accento);color:var(--accento)}
+.paginatore button:disabled{opacity:.35;cursor:default}
+.paginatore .dove{color:var(--tenue);font-size:.82rem;
+  font-variant-numeric:tabular-nums;margin:0 6px}
+button.scarica{border:1px solid var(--accento);background:var(--carta);
+  color:var(--accento);padding:9px 20px;border-radius:99px;cursor:pointer;
+  font:inherit;font-size:.86rem;font-weight:600}
+button.scarica:hover{background:var(--accento);color:#fff}
 
 footer{margin-top:34px;padding-top:18px;border-top:1px solid var(--bordo);
   color:var(--tenue);font-size:.8rem}

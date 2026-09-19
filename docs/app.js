@@ -17,6 +17,10 @@ import {
   concorsoVicino, verifica, usciteDi,
 } from './storico.js';
 import { trasformazioni, gruppi, insieme } from './derivati.js';
+import {
+  righe as righeElenco, filtra as filtraElenco, conteggio, pagina, presenti,
+  csv, ESITI,
+} from './elenco.js';
 
 const NOMI_RUOTE = {
   BA: 'Bari', CA: 'Cagliari', FI: 'Firenze', GE: 'Genova', MI: 'Milano',
@@ -734,6 +738,216 @@ function mostraConcorsoPassato(giorno, ruota, previsioni) {
     </div>`;
 }
 
+/* ------------------------------------------------- l'elenco di tutto */
+/* Sedicimila righe l'anno, un milione e quattro in tutto l'archivio: non si
+ * mostrano insieme, si filtrano e si sfogliano. Il conto degli esiti per un
+ * anno intero e' qualche centinaio di millisecondi, quindi si fa una volta
+ * sola quando cambia l'anno e poi si filtra su quello che e' gia' in memoria:
+ * cambiare una tendina deve essere istantaneo. */
+const NOMI_ESITO = {
+  uscita: 'uscita', sospesa: 'sospesa', scaduta: 'scaduta senza esito',
+  aperta: 'ancora in gioco',
+};
+const NOMI_TIPO = {
+  ambata: 'ambata', ambo: 'ambo', terzina: 'terzina', quartina: 'quartina',
+};
+const PER_PAGINA = 100;
+
+// Nella tabella il nome per esteso occupa mezza riga ("Ambo Secco Caotico —
+// Antonio Longo"): qui basta la parte prima del trattino, che e' gia' unica
+// fra i sei metodi.
+const breve = m => (NOMI_METODI[m] ?? m).split(' — ')[0];
+
+let elencoAnno = null, elencoRighe = [], elencoFiltrate = [], elencoPagina = 1;
+
+function costruisciElenco() {
+  document.getElementById('anno-elenco').onchange = cambiaAnnoElenco;
+  for (const id of ['ruota-elenco', 'metodo-elenco', 'sorte-elenco', 'esito-elenco'])
+    document.getElementById(id).onchange = () => { elencoPagina = 1; applicaFiltri(); };
+  document.getElementById('scarica-elenco').onclick = scaricaElenco;
+}
+
+/** Riempie la tendina degli anni dall'indice pubblicato. */
+function preparaElenco() {
+  const scelta = document.getElementById('anno-elenco');
+  const anni = Object.entries(indiceAnni?.anni ?? {})
+    .filter(([, quante]) => quante > 0)
+    .map(([a]) => a)
+    .sort((a, b) => b.localeCompare(a));
+  if (!anni.length) {
+    document.getElementById('stato-elenco').textContent =
+      'L\'indice degli anni non è disponibile.';
+    return;
+  }
+  scelta.innerHTML = '<option value="">scegli un anno…</option>'
+    + anni.map(a => `<option value="${a}">${a}</option>`).join('');
+}
+
+async function cambiaAnnoElenco() {
+  const anno = document.getElementById('anno-elenco').value;
+  const avviso = document.getElementById('stato-elenco');
+  if (!anno) return;
+  avviso.textContent = `sto leggendo il ${anno}…`;
+  svuotaElenco();
+  try {
+    const previsioni = await prendiAnno(anno);
+    // un respiro prima del conto, se no il browser non ridisegna l'avviso
+    await new Promise(r => setTimeout(r, 0));
+    elencoAnno = anno;
+    elencoRighe = righeElenco(storico, previsioni);
+    riempiFiltri();
+    elencoPagina = 1;
+    applicaFiltri();
+  } catch (e) {
+    avviso.textContent = `Non riesco a leggere il ${anno}: ${e.message}`;
+  }
+}
+
+function svuotaElenco() {
+  elencoRighe = []; elencoFiltrate = [];
+  document.getElementById('tabella-elenco').innerHTML = '';
+  document.getElementById('riassunto-elenco').innerHTML = '';
+  document.getElementById('paginatore').innerHTML = '';
+  document.getElementById('scarica-elenco').hidden = true;
+}
+
+/** Le tendine offrono solo le voci che daranno un risultato. */
+function riempiFiltri() {
+  const p = presenti(elencoRighe);
+  const opzioni = (voci, nomi) => '<option value="">tutte</option>'
+    + voci.map(v => `<option value="${v}">${nomi[v] ?? v}</option>`).join('');
+  const tieni = (id, html) => {
+    const s = document.getElementById(id);
+    const prima = s.value;
+    s.innerHTML = html;
+    s.value = [...s.options].some(o => o.value === prima) ? prima : '';
+  };
+  tieni('ruota-elenco', opzioni(p.ruote, NOMI_RUOTE));
+  tieni('metodo-elenco', opzioni(p.metodi, NOMI_METODI));
+  tieni('sorte-elenco', opzioni(p.tipi, NOMI_TIPO));
+  tieni('esito-elenco', '<option value="">tutte</option>'
+    + ESITI.map(e => `<option value="${e}">${NOMI_ESITO[e]}</option>`).join(''));
+}
+
+function applicaFiltri() {
+  elencoFiltrate = filtraElenco(elencoRighe, {
+    ruota: document.getElementById('ruota-elenco').value,
+    metodo: document.getElementById('metodo-elenco').value,
+    tipo: document.getElementById('sorte-elenco').value,
+    esito: document.getElementById('esito-elenco').value,
+  });
+  mostraElenco();
+}
+
+function mostraElenco() {
+  const c = conteggio(elencoFiltrate);
+  const avviso = document.getElementById('stato-elenco');
+  const tabella = document.getElementById('tabella-elenco');
+  const riassunto = document.getElementById('riassunto-elenco');
+
+  if (!elencoFiltrate.length) {
+    avviso.textContent = elencoRighe.length
+      ? 'Nessuna riga con questi filtri.'
+      : `Il ${elencoAnno} non ha previsioni.`;
+    tabella.innerHTML = '';
+    riassunto.innerHTML = '';
+    document.getElementById('paginatore').innerHTML = '';
+    document.getElementById('scarica-elenco').hidden = true;
+    return;
+  }
+
+  avviso.textContent = '';
+  // Le voci a zero non si scrivono: "0 sospese (0,0%)" e' rumore, e quando si
+  // filtra per un solo esito resterebbero tre zeri su quattro.
+  const quota = n => c.totale ? ` (${percento(n / c.totale, 1)})` : '';
+  const voci = [
+    [c.uscita, `${numero(c.uscita)} uscite${quota(c.uscita)}`],
+    [c.sospesa, `${numero(c.sospesa)} sospese perché la giocata si era già chiusa
+       su un'altra ruota${quota(c.sospesa)}`],
+    [c.scaduta, `${numero(c.scaduta)} scadute senza esito${quota(c.scaduta)}`],
+    [c.aperta, `${numero(c.aperta)} ancora in gioco${quota(c.aperta)}`],
+  ].filter(([n]) => n > 0).map(([, testo]) => testo);
+  riassunto.innerHTML = `
+    <p class="conti"><b>${numero(c.totale)}</b> righe nel ${elencoAnno}${
+      elencoFiltrate.length < elencoRighe.length
+        ? ` (su ${numero(elencoRighe.length)} dell'anno)` : ''}${
+      voci.length > 1 ? ': ' + elenco(voci) : ''}.</p>`;
+
+  const P = pagina(elencoFiltrate, elencoPagina, PER_PAGINA);
+  elencoPagina = P.numero;
+  tabella.innerHTML = `
+    <thead><tr>
+      <th>giorno</th><th>metodo</th><th>ruota</th><th>sorte</th>
+      <th>numeri</th><th>com'è andata</th>
+    </tr></thead>
+    <tbody>${P.righe.map(r => `
+      <tr class="esito-${r.esito}">
+        <td>${dataConAnno(r.giorno)}</td>
+        <td data-et="metodo">${breve(r.metodo)}</td>
+        <td data-et="ruota">${NOMI_RUOTE[r.ruota] ?? r.ruota}</td>
+        <td data-et="sorte">${r.tipo}</td>
+        <td data-et="numeri" class="numeri">${r.numeri.join(' · ')}</td>
+        <td data-et="com'è andata"><span class="andata">${descriviEsito(r)}</span></td>
+      </tr>`).join('')}
+    </tbody>`;
+
+  document.getElementById('paginatore').innerHTML = P.pagine > 1 ? `
+    <button type="button" data-va="1" ${P.numero === 1 ? 'disabled' : ''}>inizio</button>
+    <button type="button" data-va="${P.numero - 1}" ${P.numero === 1 ? 'disabled' : ''}>‹ indietro</button>
+    <span class="dove">righe ${numero(P.da)}–${numero(P.a)} di ${numero(c.totale)}
+      · pagina ${P.numero} di ${P.pagine}</span>
+    <button type="button" data-va="${P.numero + 1}" ${P.numero === P.pagine ? 'disabled' : ''}>avanti ›</button>
+    <button type="button" data-va="${P.pagine}" ${P.numero === P.pagine ? 'disabled' : ''}>fine</button>`
+    : `<span class="dove">${numero(c.totale)} righe in tutto</span>`;
+  for (const b of document.querySelectorAll('#paginatore button')) {
+    b.onclick = () => {
+      elencoPagina = Number(b.dataset.va);
+      mostraElenco();
+      document.getElementById('elenco').scrollIntoView({ block: 'start' });
+    };
+  }
+
+  const scarica = document.getElementById('scarica-elenco');
+  scarica.hidden = false;
+  scarica.textContent = `Scarica queste ${numero(c.totale)} righe in Excel`;
+}
+
+function descriviEsito(r) {
+  if (r.esito === 'uscita') {
+    // i numeri usciti si ripetono solo se sono meno di quelli giocati: per un
+    // ambo uscito intero riscriverli sarebbe dire due volte la stessa cosa
+    const parziale = r.usciti.length < r.numeri.length;
+    return `<span class="pos">uscita al ${r.colpo}° colpo</span>${
+      parziale ? `<span class="quali">usciti ${r.usciti.join(' · ')}</span>` : ''}`;
+  }
+  if (r.esito === 'sospesa')
+    return `<span class="tiepido">giocata chiusa al ${r.colpo}° colpo
+      su ${NOMI_RUOTE[r.dove] ?? r.dove}</span>`;
+  if (r.esito === 'aperta')
+    return '<span class="tiepido">ancora in gioco</span>';
+  return `<span class="spento">niente in ${r.colpi} colpi</span>${
+    r.sfiorata.length ? `<span class="quali">un numero solo, ${
+      r.sfiorata.length} volt${r.sfiorata.length === 1 ? 'a' : 'e'}</span>` : ''}`;
+}
+
+function scaricaElenco() {
+  const testo = csv(elencoFiltrate, { nomiRuote: NOMI_RUOTE, nomiMetodi: NOMI_METODI });
+  const pezzi = ['lotto', elencoAnno];
+  for (const [id, nomi] of [['ruota-elenco', NOMI_RUOTE], ['metodo-elenco', NOMI_METODI],
+                            ['sorte-elenco', NOMI_TIPO], ['esito-elenco', NOMI_ESITO]]) {
+    const v = document.getElementById(id).value;
+    if (v) pezzi.push((nomi[v] ?? v).toLowerCase().replaceAll(' ', '-'));
+  }
+  const url = URL.createObjectURL(new Blob([testo], { type: 'text/csv;charset=utf-8' }));
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `${pezzi.join('-')}.csv`;
+  a.click();
+  // il browser tiene in vita il Blob finche' non si revoca: senza questo, ogni
+  // scarico lascia un megabyte in memoria fino a che non si chiude la pagina
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
 /* ------------------------------------------------------------- bilancio */
 function mostraBilancio(b) {
   const segno = v => v >= 0 ? 'pos' : 'neg';
@@ -987,9 +1201,14 @@ async function apriPrevisioni() {
   const avviso = document.getElementById('stato-ricerca');
   avviso.textContent = 'sto caricando lo storico delle estrazioni…';
   try {
-    await prendiStorico();
+    const [, indice] = await Promise.all([
+      prendiStorico(),
+      fetch(`dati/previsioni/indice.json?v=${Date.now()}`).then(r => r.json()),
+    ]);
+    indiceAnni = indice;
     avviso.textContent = '';
     preparaRicerca();
+    preparaElenco();
   } catch (e) {
     avviso.textContent = `Non riesco a caricare lo storico: ${e.message}. `
       + 'La ricerca delle ripetizioni non è disponibile; il resto della pagina sì.';
@@ -1000,6 +1219,7 @@ costruisciBudget();
 costruisciRuote();
 costruisciSchedina();
 costruisciRicerca();
+costruisciElenco();
 
 (async () => {
   try {

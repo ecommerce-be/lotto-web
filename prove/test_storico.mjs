@@ -30,6 +30,7 @@ import {
   f90, complemento, diametrale, vertibile, figura, cadenza, terzinaDi,
   trasformazioni, gruppi, insieme,
 } from '../docs/derivati.js';
+import { righe, filtra, conteggio, pagina, presenti, csv } from '../docs/elenco.js';
 
 const QUI = dirname(fileURLToPath(import.meta.url));
 const DOCS = join(QUI, '..', 'docs');
@@ -240,6 +241,104 @@ check('l\'insieme dei derivati non ripete i numeri di partenza',
 check('ne\' se stesso', new Set(I).size === I.length);
 check('ed e\' ordinato', I.every((n, i) => i === 0 || n > I[i - 1]));
 check('tutti i derivati stanno fra 1 e 90', I.every(n => n >= 1 && n <= 90));
+
+console.log('\nL\'ELENCO, UNA RIGA PER RUOTA');
+// La previsione vale su NA e BA. L'ambata 7 esce su NA al primo colpo, quindi
+// la giocata si chiude li': la riga di BA non e' scaduta, e' SOSPESA, e deve
+// dirlo. E' la distinzione che l'elenco esiste per non perdere.
+const PREV = [
+  { giorno: '2000-01-04', metodo: 'fulmine', ruote: ['NA', 'BA'], colpi: 3,
+    anche_tutte: false, nota: 'una; nota con punto e virgola', avviso: null,
+    sorti: [{ tipo: 'ambata', numeri: [7] }, { tipo: 'ambo', numeri: [55, 62] }] },
+  { giorno: '2000-01-11', metodo: 'lottofacile1', ruote: ['NA'], colpi: 5,
+    anche_tutte: false, nota: null, avviso: null,
+    sorti: [{ tipo: 'ambo', numeri: [30, 31] }] },
+];
+const R = righe(FINTO, PREV);
+check('una riga per previsione, sorte e ruota', R.length === 5, String(R.length));
+const suNA = R.find(x => x.ruota === 'NA' && x.tipo === 'ambata');
+const suBA = R.find(x => x.ruota === 'BA' && x.tipo === 'ambata');
+check('sulla ruota dove esce, la riga dice uscita',
+  suNA.esito === 'uscita' && suNA.colpo === 1 && suNA.usciti.join() === '7',
+  JSON.stringify(suNA));
+check('sull\'altra ruota la riga e\' sospesa, non scaduta',
+  suBA.esito === 'sospesa', suBA.esito);
+check('e dice dove e quando la giocata si e\' chiusa',
+  suBA.dove === 'NA' && suBA.colpo === 1, JSON.stringify(suBA));
+check('cio\' che non esce da nessuna parte resta scaduto',
+  R.filter(x => x.tipo === 'ambo' && x.giorno === '2000-01-04')
+    .every(x => x.esito === 'scaduta'));
+check('se i colpi non sono ancora finiti la riga e\' aperta',
+  R.find(x => x.metodo === 'lottofacile1').esito === 'aperta',
+  R.find(x => x.metodo === 'lottofacile1').esito);
+check('ogni riga porta con se\' i colpi previsti dal metodo',
+  R.every(x => x.colpi > 0));
+check('senza previsioni non ci sono righe', righe(FINTO, []).length === 0);
+
+const C = conteggio(R);
+check('il conteggio per esito somma al totale',
+  C.uscita + C.sospesa + C.scaduta + C.aperta === C.totale && C.totale === 5,
+  JSON.stringify(C));
+
+check('si filtra per ruota', filtra(R, { ruota: 'BA' }).every(x => x.ruota === 'BA'));
+check('per metodo', filtra(R, { metodo: 'fulmine' }).length === 4);
+check('per sorte', filtra(R, { tipo: 'ambata' }).length === 2);
+check('per esito', filtra(R, { esito: 'uscita' }).length === 1);
+check('e i filtri si sommano',
+  filtra(R, { ruota: 'NA', tipo: 'ambata', esito: 'uscita' }).length === 1);
+check('nessun filtro vuol dire tutte le righe', filtra(R, {}).length === R.length);
+check('un filtro che non trova niente da\' zero righe, non tutte',
+  filtra(R, { ruota: 'TO' }).length === 0);
+
+const P = pagina(R, 1, 2);
+check('la pagina taglia il numero di righe giusto', P.righe.length === 2);
+check('e dice quante pagine sono', P.pagine === 3, String(P.pagine));
+check('dice anche da quale riga a quale', P.da === 1 && P.a === 2);
+check('l\'ultima pagina puo\' essere corta', pagina(R, 3, 2).righe.length === 1);
+check('oltre l\'ultima si torna all\'ultima invece di mostrare il vuoto',
+  pagina(R, 99, 2).numero === 3 && pagina(R, 99, 2).righe.length === 1);
+check('sotto la prima si torna alla prima', pagina(R, 0, 2).numero === 1);
+check('senza righe c\'e\' comunque una pagina, vuota',
+  pagina([], 1, 2).pagine === 1 && pagina([], 1, 2).da === 0);
+
+const PR = presenti(R);
+check('le tendine offrono solo le ruote presenti davvero',
+  PR.ruote.join(',') === 'BA,NA', PR.ruote.join(','));
+check('e i metodi presenti davvero', PR.metodi.join(',') === 'fulmine,lottofacile1');
+
+const testo = csv(R, { nomiRuote: { NA: 'Napoli', BA: 'Bari' } });
+const rr = testo.split('\r\n');
+check('il CSV comincia col BOM, se no Excel sbaglia gli accenti',
+  testo.startsWith('﻿'));
+check('ha l\'intestazione e una riga per ogni riga',
+  rr[0].startsWith('﻿giorno;metodo;ruota') && rr.length === R.length + 2,
+  String(rr.length));
+check('separa con punto e virgola, come si aspetta Excel in italiano',
+  rr[0].split(';').length === 11);
+check('i nomi delle ruote sono per esteso', rr[1].includes('Napoli'));
+// Un lettore CSV minimo, che rispetta le virgolette: e' il modo onesto di
+// provare che Excel leggera' undici colonne e non dodici.
+const campi = (riga) => {
+  const fuori = []; let cur = '', dentro = false;
+  for (let i = 0; i < riga.length; i++) {
+    const c = riga[i];
+    if (dentro) {
+      if (c === '"' && riga[i + 1] === '"') { cur += '"'; i++; }
+      else if (c === '"') dentro = false;
+      else cur += c;
+    } else if (c === '"') dentro = true;
+    else if (c === ';') { fuori.push(cur); cur = ''; }
+    else cur += c;
+  }
+  fuori.push(cur);
+  return fuori;
+};
+check('una nota col punto e virgola dentro non spacca la riga',
+  campi(rr[1]).length === 11, `${campi(rr[1]).length} campi: ${rr[1]}`);
+check('e la nota torna intera, virgolette tolte',
+  campi(rr[1])[10] === 'una; nota con punto e virgola', campi(rr[1])[10]);
+check('ogni riga del CSV ha lo stesso numero di colonne dell\'intestazione',
+  rr.slice(0, -1).every(x => campi(x).length === 11));
 
 console.log(`\n${'='.repeat(60)}\nRISULTATO: ${ok} OK, ${fail} FAIL`);
 process.exit(fail ? 1 : 0);

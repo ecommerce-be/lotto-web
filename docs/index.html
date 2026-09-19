@@ -128,6 +128,42 @@
 
       <div id="esito-ricerca"></div>
     </section>
+
+    <section class="elenco-tutto" id="elenco">
+      <h2>L'elenco di tutto</h2>
+      <p class="spiega">Ogni numero che i sei metodi hanno giocato, su ogni
+      ruota, a ogni concorso, con com'è andata. Un anno alla volta — sono
+      sedicimila righe l'anno, e tutte insieme non starebbero in un telefono.</p>
+
+      <div class="campi-ricerca">
+        <div class="campo">
+          <label for="anno-elenco">Anno</label>
+          <select id="anno-elenco"></select>
+        </div>
+        <div class="campo">
+          <label for="ruota-elenco">Ruota</label>
+          <select id="ruota-elenco"></select>
+        </div>
+        <div class="campo">
+          <label for="metodo-elenco">Metodo</label>
+          <select id="metodo-elenco"></select>
+        </div>
+        <div class="campo">
+          <label for="sorte-elenco">Sorte</label>
+          <select id="sorte-elenco"></select>
+        </div>
+        <div class="campo">
+          <label for="esito-elenco">Com'è andata</label>
+          <select id="esito-elenco"></select>
+        </div>
+      </div>
+
+      <p class="nota" id="stato-elenco">scegli un anno per cominciare.</p>
+      <div id="riassunto-elenco"></div>
+      <div class="tabella-scroll"><table class="tutto" id="tabella-elenco"></table></div>
+      <div class="paginatore" id="paginatore"></div>
+      <button class="scarica" id="scarica-elenco" hidden>Scarica in Excel</button>
+    </section>
   </div>
 
   <div id="corso" hidden></div>
