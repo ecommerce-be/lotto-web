@@ -297,10 +297,16 @@ che altrimenti si risponde solo leggendo settanta righe. Una riga per ruota, e
 - **usciti da soli** — numeri giocati che sono usciti sul serio senza
   completare la loro sorte. Al botteghino non valgono niente.
 
-Accanto a ogni numero il colpo in cui è uscito la prima volta. Un numero che ha
-pagato non ricompare fra i soli. Col filtro Ruota su «tutte» c'è una riga per
-ciascuna, ordinate da quella che ha fatto più sorti; scegliendo una ruota resta
-solo quella.
+Sotto ogni numero il colpo in cui è uscito la prima volta — sotto, e in corpo
+leggibile: attaccato al numero e in apice sembrava una macchia, non
+un'informazione. Un numero che ha pagato non ricompare fra i soli. Col filtro
+Ruota su «tutte» c'è una riga per ciascuna, ordinate da quella che ha fatto più
+sorti; scegliendo una ruota resta solo quella.
+
+**Ogni numero è un bottone**: porta alla riga della tabella che lo spiega,
+cambiando pagina se quella riga sta altrove (succede: con un anno intero le
+pagine sono centoventitré), e la riga si accende un paio di secondi per farsi
+trovare dall'occhio.
 
 Il conto di un anno intero è qualche centinaio di millisecondi, quindi si fa una
 volta sola quando cambia l'anno; cambiare una tendina filtra quello che è già in

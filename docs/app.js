@@ -990,7 +990,7 @@ function mostraElenco() {
       <th>numeri</th><th>com'è andata</th>
     </tr></thead>
     <tbody>${P.righe.map((r, i) => `
-      <tr class="esito-${r.esito}">
+      <tr class="esito-${r.esito}" id="riga-${i}">
         <td>${dataConAnno(r.giorno)}</td>
         <td data-et="metodo">${breve(r.metodo)}</td>
         <td data-et="ruota">${NOMI_RUOTE[r.ruota] ?? r.ruota}</td>
@@ -1052,8 +1052,16 @@ function mostraUsciti() {
     return;
   }
 
-  const gettone = (x, classe) => `<span class="gettone ${classe}">${x.numero}<sup>${
-    x.colpo}°</sup></span>`;
+  // Il gettone e' un bottone: si clicca e porta alla riga che lo spiega. Il
+  // colpo sta staccato dal numero e grande abbastanza da leggersi - attaccato
+  // e in corpo minuscolo sembrava una macchia sul numero.
+  const gettone = (x, classe, ruota) => `
+    <button type="button" class="gettone ${classe}" data-ruota="${ruota}"
+            data-numero="${x.numero}" data-gruppo="${classe}"
+            title="vai alla riga di questo numero">
+      <span class="cifra">${x.numero}</span>
+      <span class="al-colpo">${x.colpo}° colpo</span>
+    </button>`;
 
   fuori.innerHTML = `
     <div class="usciti">
@@ -1066,20 +1074,47 @@ function mostraUsciti() {
               <div class="gruppo-usciti">
                 <span class="che">${u.sorti} sort${u.sorti === 1 ? 'e' : 'i'}
                   uscit${u.sorti === 1 ? 'a' : 'e'}</span>
-                ${u.pagati.map(x => gettone(x, 'pagato')).join('')}
+                ${u.pagati.map(x => gettone(x, 'pagato', u.ruota)).join('')}
               </div>` : ''}
             ${u.soli.length ? `
               <div class="gruppo-usciti">
                 <span class="che">usciti da soli</span>
-                ${u.soli.map(x => gettone(x, 'solo')).join('')}
+                ${u.soli.map(x => gettone(x, 'solo', u.ruota)).join('')}
               </div>` : ''}
           </div>
         </div>`).join('')}
-      <p class="nota">In alto a destra di ogni numero c'è il colpo in cui è
-        uscito la prima volta. Quelli in verde hanno completato la loro sorte e
-        avrebbero pagato; gli altri sono usciti davvero, ma da soli, e al
-        botteghino non valgono niente.</p>
+      <p class="nota">Sotto ogni numero c'è il colpo in cui è uscito la prima
+        volta. Quelli in verde hanno completato la loro sorte e avrebbero
+        pagato; gli altri sono usciti davvero, ma da soli, e al botteghino non
+        valgono niente. <b>Tocca un numero</b> per andare alla riga che lo
+        spiega.</p>
     </div>`;
+
+  for (const b of fuori.querySelectorAll('button.gettone'))
+    b.onclick = () => vaiAllaRiga(b.dataset.ruota, Number(b.dataset.numero),
+                                 b.dataset.gruppo);
+}
+
+/** Dal numero alla riga che lo spiega: cambia pagina se serve, ci scorre
+ *  sopra e la illumina il tempo di farsi trovare. */
+function vaiAllaRiga(ruota, num, gruppo) {
+  const cerca = gruppo === 'pagato'
+    ? r => r.ruota === ruota && r.esito === 'uscita' && r.usciti.includes(num)
+    : r => r.ruota === ruota && r.sfiorata.some(a => a.usciti.includes(num));
+  const i = elencoFiltrate.findIndex(cerca);
+  if (i < 0) return;
+
+  const suaPagina = Math.floor(i / PER_PAGINA) + 1;
+  if (suaPagina !== elencoPagina) {
+    elencoPagina = suaPagina;
+    mostraElenco();
+  }
+  const fila = document.getElementById(`riga-${i % PER_PAGINA}`);
+  if (!fila) return;
+  fila.scrollIntoView({ block: 'center', behavior: 'smooth' });
+  for (const x of document.querySelectorAll('tr.illuminata'))
+    x.classList.remove('illuminata');
+  fila.classList.add('illuminata');
 }
 
 function descriviEsito(r) {

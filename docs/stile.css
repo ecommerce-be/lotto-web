@@ -365,13 +365,34 @@ ul.derivati-uscite .mai{color:var(--tenue);font-style:italic}
 .gruppo-usciti{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
 .gruppo-usciti .che{font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;
   color:var(--tenue);min-width:13ch}
-.gettone{display:inline-flex;align-items:baseline;justify-content:center;gap:1px;
-  min-width:34px;padding:3px 8px;border-radius:99px;border:1px solid var(--bordo);
-  font-variant-numeric:tabular-nums;font-weight:650;font-size:.88rem}
-.gettone sup{font-size:.62em;font-weight:500;opacity:.75}
-.gettone.pagato{color:var(--verde);border-color:var(--verde);
+/* Il numero e il colpo su due righe: attaccati, e col colpo in corpo
+   minuscolo, sembrava una macchia sul numero invece di un'informazione. */
+.gettone{display:inline-flex;flex-direction:column;align-items:center;gap:1px;
+  min-width:56px;padding:5px 10px 4px;border-radius:10px;
+  border:1px solid var(--bordo);background:var(--sfondo);color:inherit;
+  font:inherit;cursor:pointer;text-align:center}
+.gettone .cifra{font-variant-numeric:tabular-nums;font-weight:680;
+  font-size:1.05rem;line-height:1.1}
+.gettone .al-colpo{font-size:.68rem;color:var(--tenue);white-space:nowrap;
+  letter-spacing:.01em}
+.gettone:hover{border-color:var(--accento)}
+.gettone:hover .al-colpo{color:var(--accento)}
+.gettone.pagato{border-color:var(--verde);
   background:color-mix(in srgb,var(--verde) 10%,transparent)}
-.gettone.solo{color:var(--tenue);background:var(--sfondo)}
+.gettone.pagato .cifra{color:var(--verde)}
+.gettone.solo .cifra{color:var(--tenue)}
+
+/* La riga a cui si e' arrivati cliccando un numero: si accende e si spegne,
+   il tempo di farsi trovare dall'occhio. */
+@keyframes si-accende{
+  from{background:color-mix(in srgb,var(--accento) 30%,transparent)}
+  to{background:transparent}
+}
+tr.illuminata > td{animation:si-accende 2.4s ease-out}
+@media (prefers-reduced-motion:reduce){
+  tr.illuminata > td{animation:none;
+    background:color-mix(in srgb,var(--accento) 14%,transparent)}
+}
 .usciti .nota{margin:12px 0 0;font-size:.78rem;color:var(--tenue);
   max-width:66ch;line-height:1.5}
 .niente-uscito{margin:10px 0 16px;color:var(--tenue);font-size:.86rem;
