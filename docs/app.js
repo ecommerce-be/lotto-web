@@ -19,7 +19,7 @@ import {
 import { trasformazioni, gruppi, insieme } from './derivati.js';
 import {
   righe as righeElenco, filtra as filtraElenco, conteggio, pagina, presenti,
-  csv, ESITI, giorni as giorniElenco, giornoVicino,
+  csv, ESITI, giorni as giorniElenco, giornoVicino, usciti as usciteRuota,
 } from './elenco.js';
 
 const NOMI_RUOTE = {
@@ -902,6 +902,7 @@ function svuotaElenco() {
   elencoRighe = []; elencoFiltrate = [];
   document.getElementById('tabella-elenco').innerHTML = '';
   document.getElementById('riassunto-elenco').innerHTML = '';
+  document.getElementById('usciti-elenco').innerHTML = '';
   document.getElementById('paginatore').innerHTML = '';
   document.getElementById('scarica-elenco').hidden = true;
 }
@@ -950,6 +951,7 @@ function mostraElenco() {
       : `Il ${elencoAnno} non ha previsioni.`;
     tabella.innerHTML = '';
     riassunto.innerHTML = '';
+    document.getElementById('usciti-elenco').innerHTML = '';
     document.getElementById('paginatore').innerHTML = '';
     document.getElementById('scarica-elenco').hidden = true;
     return;
@@ -976,6 +978,8 @@ function mostraElenco() {
       elencoFiltrate.length < elencoRighe.length
         ? ` (su ${numero(elencoRighe.length)} dell'anno)` : ''}${
       voci.length > 1 ? ': ' + elenco(voci) : ''}.</p>`;
+
+  mostraUsciti();
 
   const P = pagina(elencoFiltrate, elencoPagina, PER_PAGINA);
   elencoPagina = P.numero;
@@ -1031,6 +1035,51 @@ function mostraElenco() {
   const scarica = document.getElementById('scarica-elenco');
   scarica.hidden = false;
   scarica.textContent = `Scarica queste ${numero(c.totale)} righe in Excel`;
+}
+
+/** Ruota per ruota: di tutto quello che i metodi avevano dato, che cosa e'
+ *  uscito. La tabella lo dice gia' riga per riga, ma per rispondere bisogna
+ *  leggerne settanta: qui la risposta sta in tre righe. */
+function mostraUsciti() {
+  const fuori = document.getElementById('usciti-elenco');
+  const per = usciteRuota(elencoFiltrate);
+  if (!per.length) {
+    fuori.innerHTML = elencoFiltrate.length
+      ? `<p class="niente-uscito">Di tutti i numeri che i metodi avevano dato,
+         ${elencoGiorno ? 'in quel concorso' : 'in questo elenco'} non ne è uscito
+         nessuno — nemmeno da solo.</p>`
+      : '';
+    return;
+  }
+
+  const gettone = (x, classe) => `<span class="gettone ${classe}">${x.numero}<sup>${
+    x.colpo}°</sup></span>`;
+
+  fuori.innerHTML = `
+    <div class="usciti">
+      <h3>Che cosa è uscito, ruota per ruota</h3>
+      ${per.map(u => `
+        <div class="riga-ruota">
+          <span class="nome-ruota">${NOMI_RUOTE[u.ruota] ?? u.ruota}</span>
+          <div class="gruppi">
+            ${u.pagati.length ? `
+              <div class="gruppo-usciti">
+                <span class="che">${u.sorti} sort${u.sorti === 1 ? 'e' : 'i'}
+                  uscit${u.sorti === 1 ? 'a' : 'e'}</span>
+                ${u.pagati.map(x => gettone(x, 'pagato')).join('')}
+              </div>` : ''}
+            ${u.soli.length ? `
+              <div class="gruppo-usciti">
+                <span class="che">usciti da soli</span>
+                ${u.soli.map(x => gettone(x, 'solo')).join('')}
+              </div>` : ''}
+          </div>
+        </div>`).join('')}
+      <p class="nota">In alto a destra di ogni numero c'è il colpo in cui è
+        uscito la prima volta. Quelli in verde hanno completato la loro sorte e
+        avrebbero pagato; gli altri sono usciti davvero, ma da soli, e al
+        botteghino non valgono niente.</p>
+    </div>`;
 }
 
 function descriviEsito(r) {

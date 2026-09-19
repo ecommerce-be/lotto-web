@@ -30,8 +30,9 @@ import {
   f90, complemento, diametrale, vertibile, figura, cadenza, terzinaDi,
   trasformazioni, gruppi, insieme,
 } from '../docs/derivati.js';
-import { righe, filtra, conteggio, pagina, presenti, csv, giorni, giornoVicino }
-  from '../docs/elenco.js';
+import {
+  righe, filtra, conteggio, pagina, presenti, csv, giorni, giornoVicino, usciti,
+} from '../docs/elenco.js';
 
 const QUI = dirname(fileURLToPath(import.meta.url));
 const DOCS = join(QUI, '..', 'docs');
@@ -312,6 +313,40 @@ check('e nessuna uscita cade fuori dai colpi della previsione',
 check('le due righe condividono lo stesso elenco, non una copia per ciascuna',
   suNapoli.altrove === suBari.altrove);
 check('senza previsioni non ci sono righe', righe(FINTO, []).length === 0);
+
+// "Su questa ruota, di tutto quello che i metodi avevano dato, che cosa e'
+// uscito?" e' la domanda che la tabella risponde solo leggendone settanta
+// righe. La separazione fra chi ha pagato e chi e' uscito da solo e' il punto:
+// sono usciti tutt'e due, ma uno solo vale qualcosa.
+const U = usciti([...R, ...SFIORO]);
+const uNA = U.find(x => x.ruota === 'NA');
+const uBA = U.find(x => x.ruota === 'BA');
+check('il 7, che ha completato l\'ambata su Napoli, sta fra quelli che hanno pagato',
+  uNA.pagati.some(x => x.numero === 7 && x.colpo === 1),
+  JSON.stringify(uNA.pagati));
+check('l\'ambo 55-62, che non e\' mai uscito, non compare da nessuna parte',
+  U.every(x => ![55, 62].some(n => x.pagati.some(pg => pg.numero === n)
+    || x.soli.some(s => s.numero === n))), JSON.stringify(U));
+check('un numero che ha pagato non ricompare fra quelli usciti da soli',
+  U.every(x => x.soli.every(s => !x.pagati.some(pg => pg.numero === s.numero))),
+  JSON.stringify(uNA));
+check('il 21, uscito da solo su Bari, sta fra i soli',
+  uBA.soli.some(x => x.numero === 21 && x.colpo === 3), JSON.stringify(uBA.soli));
+check('si contano le sorti uscite, non i numeri',
+  uNA.sorti === R.filter(x => x.ruota === 'NA' && x.esito === 'uscita').length,
+  String(uNA.sorti));
+check('i numeri sono in ordine crescente dentro ogni gruppo',
+  U.every(x => x.pagati.every((v2, i) => i === 0 || v2.numero > x.pagati[i - 1].numero)
+    && x.soli.every((v2, i) => i === 0 || v2.numero > x.soli[i - 1].numero)));
+check('il colpo e\' il primo in cui e\' uscito, non l\'ultimo',
+  uNA.soli.every(x => x.colpo >= 1));
+check('le ruote dove non e\' uscito niente non compaiono',
+  U.every(x => x.pagati.length || x.soli.length));
+check('davanti c\'e\' la ruota che ha fatto piu\' sorti',
+  U.every((x, i) => i === 0 || x.pagati.length <= U[i - 1].pagati.length
+    || U[i - 1].pagati.length > 0),
+  U.map(x => `${x.ruota}:${x.pagati.length}`).join(' '));
+check('senza righe non si inventa nessuna ruota', usciti([]).length === 0);
 
 const C = conteggio(R);
 check('il conteggio per esito somma al totale',

@@ -274,6 +274,15 @@ A(punti([
     "stesso concorso e sulla stessa ruota: uno per volta non vale niente.",
     "<b>ancora in gioco</b> \u2014 i colpi non sono ancora finiti: si sapr\u00e0.",
 ]))
+A(P("Sopra la tabella c\u2019\u00e8 <b>\u201cChe cosa \u00e8 uscito, ruota per ruota\u201d</b>, che "
+    "e\u2019 la domanda in chiaro: di tutto quello che i metodi avevano dato su "
+    "quella ruota, che cosa \u00e8 uscito davvero. Una riga per ruota, e due gruppi "
+    "separati: in <b>verde</b> i numeri delle sorti che si sono verificate \u2014 "
+    "quelli che avrebbero pagato \u2014 e in grigio i numeri <i>usciti da soli</i>, "
+    "che sono usciti sul serio ma senza completare la loro sorte, e al "
+    "botteghino non valgono niente. Accanto a ogni numero c\u2019\u00e8 il colpo in cui "
+    "\u00e8 uscito la prima volta. Scegliendo una ruota nel filtro, resta solo "
+    "quella."))
 
 A(P("3. In corso \u2014 tutto quello che \u00e8 ancora in gioco", "h2"))
 A(P("La stessa materia della Schedina, ma senza il filtro del budget: tutte le "

@@ -108,6 +108,57 @@ export function giornoVicino(tutte, giorno) {
   return g.reduce((m, x) => (scarto(x) < scarto(m) ? x : m), g[0]);
 }
 
+/**
+ * Ruota per ruota, quali numeri dei metodi sono poi usciti davvero.
+ *
+ * E' la domanda in chiaro, quella che si fa davanti al botteghino: "su Napoli,
+ * di tutto quello che i metodi avevano dato, che cosa e' uscito?". La tabella
+ * la risponde riga per riga, ma serve leggerne settantotto per rispondere.
+ *
+ * Due elenchi separati, e la separazione e' il punto:
+ *   - `pagati`   i numeri delle sorti che si sono verificate: ambo intero,
+ *                ambata, terno. Sono quelli che al botteghino avrebbero pagato.
+ *   - `soli`     numeri giocati che sono usciti, ma da soli, senza completare
+ *                la loro sorte. Sono usciti sul serio - e non valgono niente.
+ * Un numero che ha pagato non ricompare fra i soli: dove ha pagato, ha pagato.
+ */
+export function usciti(righe) {
+  const per = new Map();
+  const dove = (ruota) => {
+    if (!per.has(ruota))
+      per.set(ruota, { ruota, pagati: new Map(), soli: new Map(), sorti: 0 });
+    return per.get(ruota);
+  };
+
+  for (const r of righe) {
+    const v = dove(r.ruota);
+    if (r.esito === 'uscita') {
+      v.sorti++;
+      for (const n of r.usciti)
+        v.pagati.set(n, Math.min(v.pagati.get(n) ?? 99, r.colpo));
+    }
+    for (const a of r.sfiorata)
+      for (const n of a.usciti)
+        v.soli.set(n, Math.min(v.soli.get(n) ?? 99, a.colpo));
+  }
+
+  const ordina = (m, escludi = null) => [...m.entries()]
+    .filter(([n]) => !escludi?.has(n))
+    .sort((a, b) => a[0] - b[0])
+    .map(([numero, colpo]) => ({ numero, colpo }));
+
+  return [...per.values()]
+    .map(v => ({
+      ruota: v.ruota, sorti: v.sorti,
+      pagati: ordina(v.pagati),
+      soli: ordina(v.soli, v.pagati),
+    }))
+    .filter(v => v.pagati.length || v.soli.length)
+    .sort((a, b) => b.pagati.length - a.pagati.length
+      || b.soli.length - a.soli.length
+      || RUOTE.indexOf(a.ruota) - RUOTE.indexOf(b.ruota));
+}
+
 /** Quante righe per ciascun esito: il riassunto sopra la tabella. */
 export function conteggio(righe) {
   const c = Object.fromEntries(ESITI.map(e => [e, 0]));

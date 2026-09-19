@@ -286,6 +286,22 @@ sotto: quale numero è uscito su quella ruota e a che colpo, e dove sono finiti
 gli altri numeri della sorte nella stessa finestra di colpi. È la domanda che
 viene subito dopo, e finora la pagina la lasciava in sospeso.
 
+#### «Che cosa è uscito, ruota per ruota»
+
+Sopra la tabella, un riquadro risponde alla domanda in chiaro — *su questa
+ruota, di tutto quello che i metodi avevano dato, che cosa è uscito davvero?* —
+che altrimenti si risponde solo leggendo settanta righe. Una riga per ruota, e
+**due gruppi separati**, che è tutto il punto:
+
+- **hanno pagato** (in verde) — i numeri delle sorti che si sono verificate;
+- **usciti da soli** — numeri giocati che sono usciti sul serio senza
+  completare la loro sorte. Al botteghino non valgono niente.
+
+Accanto a ogni numero il colpo in cui è uscito la prima volta. Un numero che ha
+pagato non ricompare fra i soli. Col filtro Ruota su «tutte» c'è una riga per
+ciascuna, ordinate da quella che ha fatto più sorti; scegliendo una ruota resta
+solo quella.
+
 Il conto di un anno intero è qualche centinaio di millisecondi, quindi si fa una
 volta sola quando cambia l'anno; cambiare una tendina filtra quello che è già in
 memoria ed è istantaneo. Gli esiti non si ricalcolano in `elenco.js`: li dà

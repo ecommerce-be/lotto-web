@@ -352,6 +352,35 @@ ul.derivati-uscite .mai{color:var(--tenue);font-style:italic}
 .elenco-tutto .campi-ricerca .campo:nth-child(-n+2) select,
 .elenco-tutto .campi-ricerca .campo:nth-child(-n+2) input{border-color:var(--accento)}
 
+/* Che cosa e' uscito, ruota per ruota: la domanda in chiaro, quella che la
+   tabella risponde solo leggendone settanta righe. */
+.usciti{background:var(--carta);border:1px solid var(--bordo);border-radius:12px;
+  padding:16px 18px;margin:10px 0 16px;box-shadow:var(--ombra)}
+.usciti h3{margin:0 0 12px;font-size:.95rem;font-weight:640}
+.riga-ruota{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;
+  padding:9px 0;border-top:1px solid var(--bordo)}
+.riga-ruota:first-of-type{border-top:none;padding-top:0}
+.nome-ruota{font-weight:640;font-size:.88rem;min-width:9ch}
+.gruppi{display:flex;flex-direction:column;gap:7px;flex:1}
+.gruppo-usciti{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.gruppo-usciti .che{font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--tenue);min-width:13ch}
+.gettone{display:inline-flex;align-items:baseline;justify-content:center;gap:1px;
+  min-width:34px;padding:3px 8px;border-radius:99px;border:1px solid var(--bordo);
+  font-variant-numeric:tabular-nums;font-weight:650;font-size:.88rem}
+.gettone sup{font-size:.62em;font-weight:500;opacity:.75}
+.gettone.pagato{color:var(--verde);border-color:var(--verde);
+  background:color-mix(in srgb,var(--verde) 10%,transparent)}
+.gettone.solo{color:var(--tenue);background:var(--sfondo)}
+.usciti .nota{margin:12px 0 0;font-size:.78rem;color:var(--tenue);
+  max-width:66ch;line-height:1.5}
+.niente-uscito{margin:10px 0 16px;color:var(--tenue);font-size:.86rem;
+  max-width:64ch}
+@media (max-width:640px){
+  .gruppo-usciti .che{min-width:100%;margin-bottom:-2px}
+  .nome-ruota{min-width:100%}
+}
+
 table.tutto{width:100%;border-collapse:collapse;margin-top:10px}
 table.tutto th{text-align:left;font-size:.7rem;text-transform:uppercase;
   letter-spacing:.04em;color:var(--tenue);font-weight:600;padding:0 10px 7px 0;
