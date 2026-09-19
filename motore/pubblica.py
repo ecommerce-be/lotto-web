@@ -16,6 +16,7 @@ rado viene prima, e accanto c'e' scritto quanto di rado capita.
 """
 from __future__ import annotations
 
+import hashlib
 import json
 from collections import Counter
 from datetime import date, datetime, time, timedelta
@@ -27,7 +28,8 @@ from .valutazione import colpi_residui
 
 RADICE = Path(__file__).resolve().parent.parent
 DATI = RADICE / "archivio"
-USCITA = RADICE / "docs" / "dati"
+SITO = RADICE / "docs"
+USCITA = SITO / "dati"
 
 ORA_ESTRAZIONE = time(20, 0)
 NOMI_METODI = {
@@ -38,6 +40,65 @@ NOMI_METODI = {
     "unsoloambosecco": "Un Solo Ambo Secco",
     "ambosecco_caotico": "Ambo Secco Caotico — Antonio Longo",
 }
+
+
+# I moduli JavaScript vengono importati fra loro per nome relativo, e il browser
+# li tiene in cache senza chiedere. I dati invece portano una marca temporale
+# nell'indirizzo e si riscaricano sempre. Il risultato e' la peggiore
+# combinazione possibile: dati nuovi letti da codice vecchio - succede sul serio,
+# e da fuori sembra che la modifica non sia mai stata fatta.
+#
+# Qui si timbra la pagina con un'impronta del codice: l'indirizzo dei file cambia
+# quando cambia il loro contenuto, e il browser e' costretto a riprenderli. La
+# mappa serve per gli import fra moduli, che l'attributo src non copre.
+MODULI = ["app.js", "consiglio.js", "schedina.js", "storico.js", "derivati.js",
+          "elenco.js"]
+
+
+def impronta() -> str:
+    """Otto caratteri che cambiano se e solo se cambia il codice pubblicato."""
+    h = hashlib.sha1()
+    for nome in sorted(MODULI) + ["stile.css"]:
+        h.update((SITO / nome).read_bytes())
+    return h.hexdigest()[:8]
+
+
+def timbra_pagina() -> str:
+    """Riscrive index.html fra i marcatori con l'impronta corrente."""
+    pagina = SITO / "index.html"
+    testo = pagina.read_text(encoding="utf-8")
+    v = impronta()
+
+    mappa = {f"./{n}": f"./{n}?v={v}" for n in MODULI if n != "app.js"}
+    testa = (
+        "<!-- versione:inizio - riscritto da motore/pubblica.py, non a mano -->\n"
+        f'<link rel="stylesheet" href="stile.css?v={v}">\n'
+        '<script type="importmap">'
+        + json.dumps({"imports": mappa}, ensure_ascii=False, separators=(",", ":"))
+        + "</script>\n"
+        "<!-- versione:fine -->"
+    )
+    avvio = ("<!-- avvio:inizio -->\n"
+             f'<script type="module" src="app.js?v={v}"></script>\n'
+             "<!-- avvio:fine -->")
+
+    nuovo = _fra(testo, "versione", testa)
+    nuovo = _fra(nuovo, "avvio", avvio)
+    if nuovo != testo:
+        pagina.write_text(nuovo, encoding="utf-8")
+    return v
+
+
+def _fra(testo: str, nome: str, sostituto: str) -> str:
+    """Sostituisce il blocco fra <!-- nome:inizio --> e <!-- nome:fine -->."""
+    apre, chiude = f"<!-- {nome}:inizio", f"{nome}:fine -->"
+    i = testo.find(apre)
+    j = testo.find(chiude)
+    if i < 0 or j < 0:
+        raise ValueError(
+            f"index.html non ha i marcatori '{nome}': senza, la pagina non puo' "
+            "essere timbrata e i browser continuerebbero a servire codice vecchio.")
+    return testo[:i] + sostituto + testo[j + len(chiude):]
 
 
 def _scrivi(nome: str, contenuto) -> Path:
@@ -236,4 +297,5 @@ def tutto(arch: Archivio, previsioni: list[dict], *, aggiornato_il=None) -> list
     USCITA.mkdir(parents=True, exist_ok=True)
     (USCITA / "storico.txt").write_text(storico(arch), encoding="utf-8")
     scritti.append("storico.txt")
+    scritti.append(f"index.html (versione {timbra_pagina()})")
     return scritti

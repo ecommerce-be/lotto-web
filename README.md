@@ -403,6 +403,35 @@ stagione, senza doversi inventare conti sull'ora legale — e alle 6:00 UTC del
 mattino dopo, come rete di sicurezza se la fonte era giù o se GitHub aveva
 saltato l'esecuzione (le schedule sono *best effort* e possono slittare).
 
+### Il timbro sulla pagina, e perché c'è
+
+I moduli JavaScript si importano fra loro per nome relativo, e il browser li
+tiene in cache senza chiedere permesso. I dati invece portano una marca
+temporale nell'indirizzo e si riscaricano sempre. È la peggiore combinazione
+possibile — **dati nuovi letti da codice vecchio** — ed è successa davvero: una
+funzione nuova non compariva sullo schermo di chi usa il sito, mentre i dati
+accanto erano freschi. Da fuori sembra che la modifica non sia mai stata fatta.
+
+`pubblica.py` calcola un'impronta di otto caratteri sui file JS e sul CSS e la
+scrive dentro `index.html`, fra marcatori, a ogni pubblicazione:
+
+```html
+<link rel="stylesheet" href="stile.css?v=e6d27307">
+<script type="importmap">{"imports":{"./consiglio.js":"./consiglio.js?v=e6d27307", …}}</script>
+…
+<script type="module" src="app.js?v=e6d27307"></script>
+```
+
+L'attributo `src` copre solo il modulo d'avvio; la **import map** copre gli
+import fra moduli, che altrimenti resterebbero senza timbro. Cambiare una riga
+di JavaScript cambia l'impronta, e il browser è costretto a riprendere tutto.
+
+Il pezzo di `index.html` fra i marcatori è **generato**: non si modifica a mano.
+E c'è una prova che vale più di tutte le altre di questa sezione: se si aggiunge
+un modulo, lo si importa da qualche parte e ci si dimentica di elencarlo in
+`pubblica.MODULI`, `test_pipeline.py` diventa rosso — perché quel modulo
+resterebbe in cache per sempre senza che nessuno se ne accorga.
+
 ### Quando il rebase va in conflitto su `docs/dati/`
 
 Succede, ed è normale: l'Action riscrive i file generati ogni sera, e se nel

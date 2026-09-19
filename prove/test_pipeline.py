@@ -216,6 +216,59 @@ check("le quote pubblicate sono quelle che usa il motore",
       quote_sito["moltiplicatori"]["ambo"] == economia.MOLTIPLICATORI["ambo"]
       and quote_sito["ritenuta"] == economia.RITENUTA)
 
+# ------------------------------------------------- il timbro sulla pagina
+# I moduli JS si importano per nome relativo e il browser li tiene in cache; i
+# dati invece portano una marca temporale e si riscaricano sempre. Senza timbro
+# si finisce a leggere dati nuovi con codice vecchio - e' successo sul serio, e
+# da fuori sembra che la modifica non sia mai stata fatta.
+import re                                                      # noqa: E402
+
+pagina = (RADICE / "docs" / "index.html").read_text(encoding="utf-8")
+v = pubblica.impronta()
+check("l'impronta e' otto caratteri esadecimali",
+      re.fullmatch(r"[0-9a-f]{8}", v) is not None, v)
+check("il foglio di stile e' timbrato", f'href="stile.css?v={v}"' in pagina)
+check("il modulo d'avvio e' timbrato", f'src="app.js?v={v}"' in pagina)
+
+mappa = json.loads(re.search(r'<script type="importmap">(.*?)</script>',
+                             pagina, re.S).group(1))["imports"]
+check("la mappa timbra tutti i moduli tranne quello d'avvio",
+      set(mappa) == {f"./{m}" for m in pubblica.MODULI if m != "app.js"},
+      str(sorted(mappa)))
+check("e li timbra con l'impronta corrente",
+      all(dest.endswith(f"?v={v}") for dest in mappa.values()))
+
+# La prova che conta: un modulo nuovo, importato ma dimenticato in MODULI,
+# resterebbe in cache per sempre senza che nessuno se ne accorga.
+importati = set()
+for f in (RADICE / "docs").glob("*.js"):
+    importati.update(re.findall(r"from\s+'\./([\w.-]+\.js)'", f.read_text(encoding="utf-8")))
+check("ogni modulo importato da qualcuno e' nell'elenco da timbrare",
+      importati <= set(pubblica.MODULI),
+      f"manca: {sorted(importati - set(pubblica.MODULI))}")
+check("e non si timbrano moduli che non esistono",
+      all((RADICE / "docs" / m).is_file() for m in pubblica.MODULI))
+
+prima = pagina
+pubblica.timbra_pagina()
+check("timbrare due volte non cambia la pagina",
+      (RADICE / "docs" / "index.html").read_text(encoding="utf-8") == prima)
+
+with tempfile.TemporaryDirectory() as tmp:
+    finta = Path(tmp) / "app.js"
+    finta.write_text("// niente\n", encoding="utf-8")
+    originale = pubblica.SITO
+    try:
+        pubblica.SITO = Path(tmp)
+        for nome in pubblica.MODULI[1:] + ["stile.css"]:
+            (Path(tmp) / nome).write_text("// niente\n", encoding="utf-8")
+        uno = pubblica.impronta()
+        finta.write_text("// cambiato\n", encoding="utf-8")
+        due = pubblica.impronta()
+    finally:
+        pubblica.SITO = originale
+    check("cambiare un file cambia l'impronta", uno != due, f"{uno} {due}")
+
 # ---------------------------------------------------------- i dieci colpi
 # Il pavimento vale sulle previsioni nuove, ma in archivio ce ne sono migliaia
 # rilevate quando valevano i colpi dei fascicoli: senza allinearle il sito
