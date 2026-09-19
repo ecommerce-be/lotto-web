@@ -403,6 +403,30 @@ stagione, senza doversi inventare conti sull'ora legale — e alle 6:00 UTC del
 mattino dopo, come rete di sicurezza se la fonte era giù o se GitHub aveva
 saltato l'esecuzione (le schedule sono *best effort* e possono slittare).
 
+### Quando il rebase va in conflitto su `docs/dati/`
+
+Succede, ed è normale: l'Action riscrive i file generati ogni sera, e se nel
+frattempo li hai riscritti anche tu in locale git trova due versioni diverse
+dello stesso file rigenerato.
+
+**Non si risolvono a mano.** Sono output, non sorgenti: si rigenerano dal motore
+e si va avanti.
+
+```powershell
+# in mezzo a un "git pull --rebase" finito in conflitto su docs/dati/...
+python -m motore.aggiorna --senza-rete
+git add -A
+git rebase --continue
+```
+
+Il primo comando riscrive tutti i file di `docs/dati/` dall'archivio corrente —
+marcatori di conflitto compresi, che spariscono perché il file viene riscritto
+da capo — e lascia il sito coerente con il motore che hai in quel momento.
+Funziona anche se il conflitto tocca più file di quelli che ti aspettavi.
+
+Se invece a confliggere è `archivio/estrazioni.csv` o `archivio/previsioni.jsonl`,
+**fermati e guarda**: quelli non sono output, sono i dati.
+
 Se non è cambiato niente non committa e non costa nulla. Se la fonte non
 risponde esce con codice 1 e il sito resta con i dati di ieri, invece di
 restare senza dati.
