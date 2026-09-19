@@ -759,7 +759,7 @@ const PER_PAGINA = 100;
 const breve = m => (NOMI_METODI[m] ?? m).split(' — ')[0];
 
 let elencoAnno = null, elencoRighe = [], elencoFiltrate = [], elencoPagina = 1;
-let elencoGiorno = '', spostata = null;
+let elencoGiorno = '', spostata = null, paginaCorrente = [];
 
 const FILTRI = ['ruota-elenco', 'metodo-elenco', 'sorte-elenco', 'esito-elenco'];
 
@@ -979,21 +979,38 @@ function mostraElenco() {
 
   const P = pagina(elencoFiltrate, elencoPagina, PER_PAGINA);
   elencoPagina = P.numero;
+  paginaCorrente = P.righe;
   tabella.innerHTML = `
     <thead><tr>
       <th>giorno</th><th>metodo</th><th>ruota</th><th>sorte</th>
       <th>numeri</th><th>com'è andata</th>
     </tr></thead>
-    <tbody>${P.righe.map(r => `
+    <tbody>${P.righe.map((r, i) => `
       <tr class="esito-${r.esito}">
         <td>${dataConAnno(r.giorno)}</td>
         <td data-et="metodo">${breve(r.metodo)}</td>
         <td data-et="ruota">${NOMI_RUOTE[r.ruota] ?? r.ruota}</td>
         <td data-et="sorte">${r.tipo}</td>
         <td data-et="numeri" class="numeri">${r.numeri.join(' · ')}</td>
-        <td data-et="com'è andata"><span class="andata">${descriviEsito(r)}</span></td>
-      </tr>`).join('')}
+        <td data-et="com'è andata"><span class="andata">${
+          descriviEsito({ ...r, indice: i })}</span></td>
+      </tr>
+      <tr class="dettaglio-riga" id="dett-${i}" hidden><td colspan="6"></td></tr>`).join('')}
     </tbody>`;
+
+  // "un numero solo, 2 volte" e' una risposta a meta': la domanda dopo e'
+  // sempre "quale numero, e dov'e' finito l'altro". Si apre sotto la riga.
+  for (const b of tabella.querySelectorAll('button.sfiorata')) {
+    b.onclick = () => {
+      const i = Number(b.dataset.riga);
+      const fila = document.getElementById(`dett-${i}`);
+      const aperto = !fila.hidden;
+      if (!aperto && !fila.firstElementChild.innerHTML)
+        fila.firstElementChild.innerHTML = dettaglioSfiorata(paginaCorrente[i]);
+      fila.hidden = aperto;
+      b.setAttribute('aria-expanded', String(!aperto));
+    };
+  }
 
   document.getElementById('paginatore').innerHTML = P.pagine > 1 ? `
     <button type="button" data-va="1" ${P.numero === 1 ? 'disabled' : ''}>inizio</button>
@@ -1030,8 +1047,63 @@ function descriviEsito(r) {
   if (r.esito === 'aperta')
     return '<span class="tiepido">ancora in gioco</span>';
   return `<span class="spento">niente in ${r.colpi} colpi</span>${
-    r.sfiorata.length ? `<span class="quali">un numero solo, ${
-      r.sfiorata.length} volt${r.sfiorata.length === 1 ? 'a' : 'e'}</span>` : ''}`;
+    r.sfiorata.length ? `<button type="button" class="quali sfiorata"
+      data-riga="${r.indice}" aria-expanded="false">un numero solo, ${
+      r.sfiorata.length} volt${r.sfiorata.length === 1 ? 'a' : 'e'}</button>` : ''}`;
+}
+
+/** Il dettaglio di una riga sfiorata: quale numero e' uscito su questa ruota e
+ *  quando, e dove sono finiti gli altri numeri della sorte nello stesso giro di
+ *  colpi. E' la domanda che viene subito dopo "un numero solo": quale? */
+function dettaglioSfiorata(r) {
+  const mio = new Map();
+  for (const a of r.sfiorata)
+    for (const n of a.usciti) {
+      if (!mio.has(n)) mio.set(n, []);
+      mio.get(n).push(a);
+    }
+
+  const altrove = r.altrove.filter(a => a.ruota !== r.ruota);
+  const perNumero = new Map();
+  for (const a of altrove)
+    for (const n of a.usciti) {
+      if (!perNumero.has(n)) perNumero.set(n, new Map());
+      const m = perNumero.get(n);
+      if (!m.has(a.ruota)) m.set(a.ruota, []);
+      m.get(a.ruota).push(a);
+    }
+
+  const dove = n => {
+    const m = perNumero.get(n);
+    if (!m) return '<span class="niente">su nessun\'altra ruota</span>';
+    return [...m.entries()]
+      .sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]))
+      .map(([ruota, quali]) => `<span class="posto">${NOMI_RUOTE[ruota] ?? ruota}
+        <em>${quali.map(q => `${q.colpo}°`).join(', ')}</em></span>`).join('');
+  };
+
+  const mancanti = r.numeri.filter(n => !mio.has(n));
+  return `
+    <div class="sfiorata-dentro">
+      ${[...mio.entries()].sort((a, b) => a[0] - b[0]).map(([n, quando]) => `
+        <div class="voce-numero">
+          <span class="cifra">${n}</span>
+          <span class="qui">uscito su ${NOMI_RUOTE[r.ruota] ?? r.ruota} al
+            ${elenco(quando.map(q => `${q.colpo}° colpo`))}</span>
+          <span class="fuori">${dove(n)}</span>
+        </div>`).join('')}
+      ${mancanti.map(n => `
+        <div class="voce-numero assente">
+          <span class="cifra">${n}</span>
+          <span class="qui">mai su ${NOMI_RUOTE[r.ruota] ?? r.ruota} nei
+            ${r.colpi} colpi</span>
+          <span class="fuori">${dove(n)}</span>
+        </div>`).join('')}
+      <p class="nota">Perché la sorte paghi, i ${r.numeri.length === 1 ? 'suoi numeri'
+        : 'due numeri'} devono uscire <b>insieme, nello stesso concorso e sulla
+        stessa ruota</b>. Un numero per volta non vale niente — ed è la cosa che
+        al Lotto fa più rabbia.</p>
+    </div>`;
 }
 
 function scaricaElenco() {

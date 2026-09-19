@@ -1,521 +1,521 @@
 # Previsioni dei sei metodi sui concorsi del 1985.
 # giorno|metodo|ruote|colpi|anche_tutte|sorti|nota|avviso
-19850105|ambosecco_caotico|PA,VE,MI|2|1|ambo:19-59;ambo:69-87|A=21 su PA/VE, B=69 su MI|
-19850105|ambosecco_caotico|TO,VE,MI|2|1|ambo:30-54;ambo:30-84|A=60 su TO/VE, B=30 su MI|
-19850105|lottofacile5|CA|9|0|ambata:48;ambo:38-48;ambo:48-83;quartina:8-38-48-68;quartina:23-48-53-83|rilevamento 19-64|
-19850105|lottofacile1|BA,NA|6|0|ambata:70;ambo:39-70;ambo:33-70;terzina:33-39-70|pos 2-5 somma 51|
-19850105|lottofacile1|CA,MI|6|0|ambata:60;ambo:60-64;ambo:46-60;terzina:46-60-64|pos 3-5 somma 26|
-19850105|lottofacile1|FI,TO|6|0|ambata:30;ambo:30-57;ambo:30-75;terzina:30-57-75|pos 2-5 somma 33|
+19850105|ambosecco_caotico|PA,VE,MI|10|1|ambo:19-59;ambo:69-87|A=21 su PA/VE, B=69 su MI|
+19850105|ambosecco_caotico|TO,VE,MI|10|1|ambo:30-54;ambo:30-84|A=60 su TO/VE, B=30 su MI|
+19850105|lottofacile5|CA|10|0|ambata:48;ambo:38-48;ambo:48-83;quartina:8-38-48-68;quartina:23-48-53-83|rilevamento 19-64|
+19850105|lottofacile1|BA,NA|10|0|ambata:70;ambo:39-70;ambo:33-70;terzina:33-39-70|pos 2-5 somma 51|
+19850105|lottofacile1|CA,MI|10|0|ambata:60;ambo:60-64;ambo:46-60;terzina:46-60-64|pos 3-5 somma 26|
+19850105|lottofacile1|FI,TO|10|0|ambata:30;ambo:30-57;ambo:30-75;terzina:30-57-75|pos 2-5 somma 33|
 19850105|fulmine|MI,NA|12|0|ambata:86;ambo:76-86;ambo:6-86;ambo:16-86;quartina:6-16-76-86|cadenza, coppie ((76, 16), (86, 6))|
-19850105|lottofacile1|NA,RM|6|0|ambata:36;ambo:36-79;ambo:36-77;terzina:36-77-79|pos 1-2 somma 11|
-19850105|lottofacile1|PA,RM|6|0|ambata:20;ambo:20-23;ambo:20-32;terzina:20-23-32|pos 4-5 somma 67|
-19850105|lottofacile1|TO,VE|6|0|ambata:82;ambo:50-82;ambo:5-82;terzina:5-50-82|pos 1-4 somma 40|
-19850112|ambosecco_caotico|CA,TO,MI,NA|2|1|ambo:35-61;ambo:61-86|A=39 su CA/TO, B=51 su MI/NA|
-19850112|ambosecco_caotico|CA,NA,GE|2|1|ambo:74-77;ambo:77-81|A=83 su CA/NA, B=7 su GE|
-19850112|ambosecco_caotico|CA,TO,MI|2|1|ambo:59-64;ambo:64-83|A=66 su CA/TO, B=24 su MI|
-19850112|ambosecco_caotico|MI,NA,CA,TO|2|1|ambo:29-46;ambo:39-84|A=51 su MI/NA, B=39 su CA/TO|
-19850112|ambosecco_caotico|MI,TO,CA|2|1|ambo:22-26;ambo:36-87|A=24 su MI/TO, B=66 su CA|
-19850112|ambosecco_caotico|PA,RM,TO,FI|2|1|ambo:3-16;ambo:13-88|A=17 su PA/RM/TO, B=73 su FI|
-19850112|ambosecco_caotico|RM,VE,GE|2|1|ambo:19-55;ambo:29-83|A=61 su RM/VE, B=29 su GE|
-19850112|lottofacile1|BA,PA|6|0|ambata:46;ambo:5-46;ambo:46-50;terzina:5-46-50|pos 1-2 somma 85|
-19850112|lottofacile1|BA,VE|6|0|ambata:38;ambo:38-66;ambo:38-69;terzina:38-66-69|pos 4-5 somma 24|
-19850112|lottofacile1|CA,GE|6|0|ambata:14;ambo:14-18;ambo:14-81;terzina:14-18-81|pos 2-3 somma 72|
-19850112|lottofacile1|GE,MI|6|0|ambata:10;ambo:10-16;ambo:10-61;terzina:10-16-61|pos 1-5 somma 74|
-19850112|lottofacile1|MI,NA|6|0|ambata:12;ambo:12-13;ambo:12-31;terzina:12-13-31|pos 2-5 somma 77|
-19850119|ambosecco_caotico|GE,RM,VE|2|1|ambo:1-79;ambo:89-89|A=1 su GE/RM, B=89 su VE|
-19850119|lottofacile5|CA|9|0|ambata:27;ambata:72;ambo:21-27;ambo:27-66;ambo:21-72;ambo:66-72;quartina:21-27-51-81;quartina:6-27-36-66;quartina:21-51-72-81;quartina:6-36-66-72|rilevamento 42-87|
-19850119|lottofacile5|MI|9|0|ambata:78;ambo:73-78;ambo:28-78;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 14-59|
-19850119|lottofacile5|TO|9|0|ambata:90;ambo:27-90;ambo:72-90;quartina:27-57-87-90;quartina:12-42-72-90|rilevamento 18-63|
-19850119|lottofacile1|BA,CA|6|0|ambata:18;ambo:18-39;ambo:18-33;terzina:18-33-39|pos 2-3 somma 51|
-19850119|lottofacile1|BA,VE|6|0|ambata:88;ambo:73-88;ambo:37-88;terzina:37-73-88|pos 2-4 somma 17|
-19850119|lottofacile1|FI,MI|6|0|ambata:28;ambo:17-28;ambo:28-71;terzina:17-28-71|pos 2-3 somma 73|
+19850105|lottofacile1|NA,RM|10|0|ambata:36;ambo:36-79;ambo:36-77;terzina:36-77-79|pos 1-2 somma 11|
+19850105|lottofacile1|PA,RM|10|0|ambata:20;ambo:20-23;ambo:20-32;terzina:20-23-32|pos 4-5 somma 67|
+19850105|lottofacile1|TO,VE|10|0|ambata:82;ambo:50-82;ambo:5-82;terzina:5-50-82|pos 1-4 somma 40|
+19850112|ambosecco_caotico|CA,TO,MI,NA|10|1|ambo:35-61;ambo:61-86|A=39 su CA/TO, B=51 su MI/NA|
+19850112|ambosecco_caotico|CA,NA,GE|10|1|ambo:74-77;ambo:77-81|A=83 su CA/NA, B=7 su GE|
+19850112|ambosecco_caotico|CA,TO,MI|10|1|ambo:59-64;ambo:64-83|A=66 su CA/TO, B=24 su MI|
+19850112|ambosecco_caotico|MI,NA,CA,TO|10|1|ambo:29-46;ambo:39-84|A=51 su MI/NA, B=39 su CA/TO|
+19850112|ambosecco_caotico|MI,TO,CA|10|1|ambo:22-26;ambo:36-87|A=24 su MI/TO, B=66 su CA|
+19850112|ambosecco_caotico|PA,RM,TO,FI|10|1|ambo:3-16;ambo:13-88|A=17 su PA/RM/TO, B=73 su FI|
+19850112|ambosecco_caotico|RM,VE,GE|10|1|ambo:19-55;ambo:29-83|A=61 su RM/VE, B=29 su GE|
+19850112|lottofacile1|BA,PA|10|0|ambata:46;ambo:5-46;ambo:46-50;terzina:5-46-50|pos 1-2 somma 85|
+19850112|lottofacile1|BA,VE|10|0|ambata:38;ambo:38-66;ambo:38-69;terzina:38-66-69|pos 4-5 somma 24|
+19850112|lottofacile1|CA,GE|10|0|ambata:14;ambo:14-18;ambo:14-81;terzina:14-18-81|pos 2-3 somma 72|
+19850112|lottofacile1|GE,MI|10|0|ambata:10;ambo:10-16;ambo:10-61;terzina:10-16-61|pos 1-5 somma 74|
+19850112|lottofacile1|MI,NA|10|0|ambata:12;ambo:12-13;ambo:12-31;terzina:12-13-31|pos 2-5 somma 77|
+19850119|ambosecco_caotico|GE,RM,VE|10|1|ambo:1-79;ambo:89-89|A=1 su GE/RM, B=89 su VE|
+19850119|lottofacile5|CA|10|0|ambata:27;ambata:72;ambo:21-27;ambo:27-66;ambo:21-72;ambo:66-72;quartina:21-27-51-81;quartina:6-27-36-66;quartina:21-51-72-81;quartina:6-36-66-72|rilevamento 42-87|
+19850119|lottofacile5|MI|10|0|ambata:78;ambo:73-78;ambo:28-78;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 14-59|
+19850119|lottofacile5|TO|10|0|ambata:90;ambo:27-90;ambo:72-90;quartina:27-57-87-90;quartina:12-42-72-90|rilevamento 18-63|
+19850119|lottofacile1|BA,CA|10|0|ambata:18;ambo:18-39;ambo:18-33;terzina:18-33-39|pos 2-3 somma 51|
+19850119|lottofacile1|BA,VE|10|0|ambata:88;ambo:73-88;ambo:37-88;terzina:37-73-88|pos 2-4 somma 17|
+19850119|lottofacile1|FI,MI|10|0|ambata:28;ambo:17-28;ambo:28-71;terzina:17-28-71|pos 2-3 somma 73|
 19850119|lottofacile4|GE,RM|14|1|ambata:77;ambo:32-77;ambo:17-77;ambo:47-77;terzina:17-32-47|pos 1-5 orizzontale|
-19850126|ambosecco_caotico|BA,RM,VE|2|1|ambo:55-76;ambo:55-81|A=85 su BA/RM, B=5 su VE|
-19850126|ambosecco_caotico|CA,GE,NA,VE,TO|2|1|ambo:8-56;ambo:18-83|A=62 su CA/GE/NA/VE, B=28 su TO|
-19850126|ambosecco_caotico|GE,RM,MI,NA|2|1|ambo:66-76;ambo:76-82|A=74 su GE/RM, B=16 su MI/NA|
-19850126|ambosecco_caotico|MI,NA,GE,RM|2|1|ambo:14-15;ambo:24-88|A=16 su MI/NA, B=74 su GE/RM|
-19850126|lottofacile1|CA,GE|6|0|ambata:26;ambo:26-60;ambo:6-26;terzina:6-26-60|pos 1-2 somma 30|
-19850126|lottofacile1|CA,MI|6|0|ambata:28;ambo:28-60;ambo:6-28;terzina:6-28-60|pos 1-2 somma 30|
-19850126|lottofacile1|FI,MI|6|0|ambata:40;ambo:40-63;ambo:36-40;terzina:36-40-63|pos 3-5 somma 27|
-19850126|lottofacile1|GE,MI|6|0|ambata:28;ambo:28-60;ambo:6-28;terzina:6-28-60|pos 1-2 somma 30|
-19850126|lottofacile1|MI,TO|6|0|ambata:16;ambo:16-54;ambo:16-45;terzina:16-45-54|pos 2-3 somma 36|
-19850126|lottofacile1|NA,RM|6|0|ambata:90;ambo:70-90;ambo:7-90;terzina:7-70-90|pos 3-5 somma 20|
-19850126|lottofacile1|RM,VE|6|0|ambata:10;ambo:10-23;ambo:10-32;terzina:10-23-32|pos 1-4 somma 67|
-19850126|lottofacile1|RM,VE|6|0|ambata:86;ambo:61-86;ambo:16-86;terzina:16-61-86|pos 2-3 somma 29|
-19850202|ambosecco_caotico|FI,PA,TO|2|1|ambo:3-57;ambo:67-89|A=3 su FI/PA, B=87 su TO|
-19850202|lottofacile5|BA|9|0|ambata:51;ambo:51-64;ambo:19-51;quartina:4-34-51-64;quartina:19-49-51-79|rilevamento 5-50|
-19850202|lottofacile5|GE|9|0|ambata:78;ambata:33;ambo:43-78;ambo:78-88;ambo:33-43;ambo:33-88;quartina:13-43-73-78;quartina:28-58-78-88;quartina:13-33-43-73;quartina:28-33-58-88|rilevamento 26-71|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19850202|lottofacile1|CA,MI|6|0|ambata:78;ambo:13-78;ambo:31-78;terzina:13-31-78|pos 2-5 somma 77|
+19850126|ambosecco_caotico|BA,RM,VE|10|1|ambo:55-76;ambo:55-81|A=85 su BA/RM, B=5 su VE|
+19850126|ambosecco_caotico|CA,GE,NA,VE,TO|10|1|ambo:8-56;ambo:18-83|A=62 su CA/GE/NA/VE, B=28 su TO|
+19850126|ambosecco_caotico|GE,RM,MI,NA|10|1|ambo:66-76;ambo:76-82|A=74 su GE/RM, B=16 su MI/NA|
+19850126|ambosecco_caotico|MI,NA,GE,RM|10|1|ambo:14-15;ambo:24-88|A=16 su MI/NA, B=74 su GE/RM|
+19850126|lottofacile1|CA,GE|10|0|ambata:26;ambo:26-60;ambo:6-26;terzina:6-26-60|pos 1-2 somma 30|
+19850126|lottofacile1|CA,MI|10|0|ambata:28;ambo:28-60;ambo:6-28;terzina:6-28-60|pos 1-2 somma 30|
+19850126|lottofacile1|FI,MI|10|0|ambata:40;ambo:40-63;ambo:36-40;terzina:36-40-63|pos 3-5 somma 27|
+19850126|lottofacile1|GE,MI|10|0|ambata:28;ambo:28-60;ambo:6-28;terzina:6-28-60|pos 1-2 somma 30|
+19850126|lottofacile1|MI,TO|10|0|ambata:16;ambo:16-54;ambo:16-45;terzina:16-45-54|pos 2-3 somma 36|
+19850126|lottofacile1|NA,RM|10|0|ambata:90;ambo:70-90;ambo:7-90;terzina:7-70-90|pos 3-5 somma 20|
+19850126|lottofacile1|RM,VE|10|0|ambata:10;ambo:10-23;ambo:10-32;terzina:10-23-32|pos 1-4 somma 67|
+19850126|lottofacile1|RM,VE|10|0|ambata:86;ambo:61-86;ambo:16-86;terzina:16-61-86|pos 2-3 somma 29|
+19850202|ambosecco_caotico|FI,PA,TO|10|1|ambo:3-57;ambo:67-89|A=3 su FI/PA, B=87 su TO|
+19850202|lottofacile5|BA|10|0|ambata:51;ambo:51-64;ambo:19-51;quartina:4-34-51-64;quartina:19-49-51-79|rilevamento 5-50|
+19850202|lottofacile5|GE|10|0|ambata:78;ambata:33;ambo:43-78;ambo:78-88;ambo:33-43;ambo:33-88;quartina:13-43-73-78;quartina:28-58-78-88;quartina:13-33-43-73;quartina:28-33-58-88|rilevamento 26-71|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19850202|lottofacile1|CA,MI|10|0|ambata:78;ambo:13-78;ambo:31-78;terzina:13-31-78|pos 2-5 somma 77|
 19850202|lottofacile4|FI,PA|14|1|ambata:69;ambo:24-69;ambo:9-69;ambo:39-69;terzina:9-24-39|pos 1-4 orizzontale/diagonale|
-19850202|lottofacile1|MI,NA|6|0|ambata:44;ambo:44-63;ambo:36-44;terzina:36-44-63|pos 2-3 somma 27|
-19850202|lottofacile1|MI,TO|6|0|ambata:60;ambo:60-63;ambo:36-60;terzina:36-60-63|pos 2-3 somma 27|
-19850202|lottofacile1|NA,TO|6|0|ambata:60;ambo:60-63;ambo:36-60;terzina:36-60-63|pos 2-3 somma 27|
-19850209|ambosecco_caotico|FI,TO,RM|2|1|ambo:19-55;ambo:29-83|A=61 su FI/TO, B=29 su RM|
-19850209|ambosecco_caotico|GE,MI,VE|2|1|ambo:43-62;ambo:62-85|A=48 su GE/MI, B=42 su VE|
-19850209|ambosecco_caotico|NA,RM,MI|2|1|ambo:42-73;ambo:73-85|A=47 su NA/RM, B=43 su MI|
-19850209|lottofacile5|FI|9|0|ambata:51;ambata:6;ambo:49-51;ambo:4-51;ambo:6-49;ambo:4-6;quartina:19-49-51-79;quartina:4-34-51-64;quartina:6-19-49-79;quartina:4-6-34-64|rilevamento 20-65|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19850209|lottofacile5|RM|9|0|ambata:51;ambo:51-85;ambo:40-51;quartina:25-51-55-85;quartina:10-40-51-70|rilevamento 2-47|
-19850209|lottofacile1|BA,FI|6|0|ambata:40;ambo:9-40;ambo:40-90;terzina:9-40-90|pos 1-4 somma 81|
-19850209|lottofacile1|FI,VE|6|0|ambata:56;ambo:5-56;ambo:50-56;terzina:5-50-56|pos 1-3 somma 85|
+19850202|lottofacile1|MI,NA|10|0|ambata:44;ambo:44-63;ambo:36-44;terzina:36-44-63|pos 2-3 somma 27|
+19850202|lottofacile1|MI,TO|10|0|ambata:60;ambo:60-63;ambo:36-60;terzina:36-60-63|pos 2-3 somma 27|
+19850202|lottofacile1|NA,TO|10|0|ambata:60;ambo:60-63;ambo:36-60;terzina:36-60-63|pos 2-3 somma 27|
+19850209|ambosecco_caotico|FI,TO,RM|10|1|ambo:19-55;ambo:29-83|A=61 su FI/TO, B=29 su RM|
+19850209|ambosecco_caotico|GE,MI,VE|10|1|ambo:43-62;ambo:62-85|A=48 su GE/MI, B=42 su VE|
+19850209|ambosecco_caotico|NA,RM,MI|10|1|ambo:42-73;ambo:73-85|A=47 su NA/RM, B=43 su MI|
+19850209|lottofacile5|FI|10|0|ambata:51;ambata:6;ambo:49-51;ambo:4-51;ambo:6-49;ambo:4-6;quartina:19-49-51-79;quartina:4-34-51-64;quartina:6-19-49-79;quartina:4-6-34-64|rilevamento 20-65|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19850209|lottofacile5|RM|10|0|ambata:51;ambo:51-85;ambo:40-51;quartina:25-51-55-85;quartina:10-40-51-70|rilevamento 2-47|
+19850209|lottofacile1|BA,FI|10|0|ambata:40;ambo:9-40;ambo:40-90;terzina:9-40-90|pos 1-4 somma 81|
+19850209|lottofacile1|FI,VE|10|0|ambata:56;ambo:5-56;ambo:50-56;terzina:5-50-56|pos 1-3 somma 85|
 19850209|lottofacile4|GE,MI|14|1|ambata:27;ambo:27-72;ambo:27-57;ambo:27-87;terzina:57-72-87|pos 3-5 verticale|
-19850209|lottofacile1|GE,VE|6|0|ambata:56;ambo:56-65;ambo:56-56|pos 1-2 somma 25|
-19850209|lottofacile1|PA,VE|6|0|ambata:24;ambo:1-24;ambo:10-24;terzina:1-10-24|pos 3-4 somma 89|
-19850209|lottofacile1|RM,TO|6|0|ambata:26;ambo:26-70;ambo:7-26;terzina:7-26-70|pos 1-3 somma 20|
-19850209|lottofacile1|TO,VE|6|0|ambata:64;ambo:62-64;ambo:26-64;terzina:26-62-64|pos 4-5 somma 28|
-19850216|ambosecco_caotico|FI,MI,RM|2|1|ambo:15-23;ambo:25-87|A=25 su FI/MI, B=65 su RM|
-19850216|ambosecco_caotico|GE,TO,CA|2|1|ambo:41-84;ambo:84-85|A=46 su GE/TO, B=44 su CA|
-19850216|ambosecco_caotico|MI,TO,FI|2|1|ambo:7-13;ambo:23-89|A=7 su MI/TO, B=83 su FI|
-19850216|lottofacile1|CA,VE|6|0|ambata:80;ambo:26-80;ambo:62-80;terzina:26-62-80|pos 4-5 somma 64|
+19850209|lottofacile1|GE,VE|10|0|ambata:56;ambo:56-65;ambo:56-56|pos 1-2 somma 25|
+19850209|lottofacile1|PA,VE|10|0|ambata:24;ambo:1-24;ambo:10-24;terzina:1-10-24|pos 3-4 somma 89|
+19850209|lottofacile1|RM,TO|10|0|ambata:26;ambo:26-70;ambo:7-26;terzina:7-26-70|pos 1-3 somma 20|
+19850209|lottofacile1|TO,VE|10|0|ambata:64;ambo:62-64;ambo:26-64;terzina:26-62-64|pos 4-5 somma 28|
+19850216|ambosecco_caotico|FI,MI,RM|10|1|ambo:15-23;ambo:25-87|A=25 su FI/MI, B=65 su RM|
+19850216|ambosecco_caotico|GE,TO,CA|10|1|ambo:41-84;ambo:84-85|A=46 su GE/TO, B=44 su CA|
+19850216|ambosecco_caotico|MI,TO,FI|10|1|ambo:7-13;ambo:23-89|A=7 su MI/TO, B=83 su FI|
+19850216|lottofacile1|CA,VE|10|0|ambata:80;ambo:26-80;ambo:62-80;terzina:26-62-80|pos 4-5 somma 64|
 19850216|lottofacile4|MI,PA|14|1|ambata:19;ambo:19-64;ambo:19-49;ambo:19-79;terzina:49-64-79|pos 2-4 verticale|
-19850216|lottofacile1|MI,PA|6|0|ambata:12;ambo:12-29;ambo:12-22;terzina:12-22-29|pos 2-4 somma 61|
-19850216|lottofacile1|RM,VE|6|0|ambata:58;ambo:58-82;ambo:28-58;terzina:28-58-82|pos 1-5 somma 8|
-19850223|lottofacile1|BA,CA|6|0|ambata:38;ambo:38-76;ambo:38-67;terzina:38-67-76|pos 3-5 somma 14|
-19850223|lottofacile1|BA,GE|6|0|ambata:84;ambo:21-84;ambo:12-84;terzina:12-21-84|pos 2-3 somma 69|
-19850223|lottofacile1|BA,NA|6|0|ambata:50;ambo:47-50;ambo:50-74;terzina:47-50-74|pos 2-4 somma 43|
-19850223|lottofacile1|CA,MI|6|0|ambata:26;ambo:25-26;ambo:26-52;terzina:25-26-52|pos 4-5 somma 65|
-19850223|lottofacile1|FI,NA|6|0|ambata:50;ambo:50-82;ambo:28-50;terzina:28-50-82|pos 2-5 somma 8|
-19850223|lottofacile1|GE,VE|6|0|ambata:48;ambo:48-64;ambo:46-48;terzina:46-48-64|pos 2-5 somma 26|
-19850223|lottofacile1|MI,VE|6|0|ambata:48;ambo:48-62;ambo:26-48;terzina:26-48-62|pos 2-4 somma 28|
-19850302|ambosecco_caotico|BA,FI,CA|2|1|ambo:52-52;ambo:52-84|A=58 su BA/FI, B=32 su CA|
-19850302|ambosecco_caotico|BA,PA,VE|2|1|ambo:7-13;ambo:23-89|A=7 su BA/PA, B=83 su VE|
-19850302|ambosecco_caotico|FI,GE,VE|2|1|ambo:42-61;ambo:42-83|A=68 su FI/GE, B=22 su VE|
-19850302|ambosecco_caotico|RM,TO,VE|2|1|ambo:3-57;ambo:67-89|A=3 su RM/TO, B=87 su VE|
-19850302|lottofacile5|FI|9|0|ambata:15;ambo:15-82;ambo:15-37;quartina:15-22-52-82;quartina:7-15-37-67|rilevamento 23-68|
-19850302|lottofacile1|CA,RM|6|0|ambata:66;ambo:54-66;ambo:45-66;terzina:45-54-66|pos 1-5 somma 36|
+19850216|lottofacile1|MI,PA|10|0|ambata:12;ambo:12-29;ambo:12-22;terzina:12-22-29|pos 2-4 somma 61|
+19850216|lottofacile1|RM,VE|10|0|ambata:58;ambo:58-82;ambo:28-58;terzina:28-58-82|pos 1-5 somma 8|
+19850223|lottofacile1|BA,CA|10|0|ambata:38;ambo:38-76;ambo:38-67;terzina:38-67-76|pos 3-5 somma 14|
+19850223|lottofacile1|BA,GE|10|0|ambata:84;ambo:21-84;ambo:12-84;terzina:12-21-84|pos 2-3 somma 69|
+19850223|lottofacile1|BA,NA|10|0|ambata:50;ambo:47-50;ambo:50-74;terzina:47-50-74|pos 2-4 somma 43|
+19850223|lottofacile1|CA,MI|10|0|ambata:26;ambo:25-26;ambo:26-52;terzina:25-26-52|pos 4-5 somma 65|
+19850223|lottofacile1|FI,NA|10|0|ambata:50;ambo:50-82;ambo:28-50;terzina:28-50-82|pos 2-5 somma 8|
+19850223|lottofacile1|GE,VE|10|0|ambata:48;ambo:48-64;ambo:46-48;terzina:46-48-64|pos 2-5 somma 26|
+19850223|lottofacile1|MI,VE|10|0|ambata:48;ambo:48-62;ambo:26-48;terzina:26-48-62|pos 2-4 somma 28|
+19850302|ambosecco_caotico|BA,FI,CA|10|1|ambo:52-52;ambo:52-84|A=58 su BA/FI, B=32 su CA|
+19850302|ambosecco_caotico|BA,PA,VE|10|1|ambo:7-13;ambo:23-89|A=7 su BA/PA, B=83 su VE|
+19850302|ambosecco_caotico|FI,GE,VE|10|1|ambo:42-61;ambo:42-83|A=68 su FI/GE, B=22 su VE|
+19850302|ambosecco_caotico|RM,TO,VE|10|1|ambo:3-57;ambo:67-89|A=3 su RM/TO, B=87 su VE|
+19850302|lottofacile5|FI|10|0|ambata:15;ambo:15-82;ambo:15-37;quartina:15-22-52-82;quartina:7-15-37-67|rilevamento 23-68|
+19850302|lottofacile1|CA,RM|10|0|ambata:66;ambo:54-66;ambo:45-66;terzina:45-54-66|pos 1-5 somma 36|
 19850302|lottofacile4|CA,VE|14|1|ambata:27;ambo:27-72;ambo:27-57;ambo:27-87;terzina:57-72-87|pos 1-4 verticale|
-19850302|lottofacile1|FI,GE|6|0|ambata:82;ambo:3-82;ambo:30-82;terzina:3-30-82|pos 4-5 somma 87|
-19850302|lottofacile1|GE,NA|6|0|ambata:86;ambo:41-86;ambo:14-86;terzina:14-41-86|pos 3-4 somma 49|
-19850302|lottofacile1|MI,PA|6|0|ambata:14;ambo:14-57;ambo:14-75;terzina:14-57-75|pos 1-2 somma 33|
+19850302|lottofacile1|FI,GE|10|0|ambata:82;ambo:3-82;ambo:30-82;terzina:3-30-82|pos 4-5 somma 87|
+19850302|lottofacile1|GE,NA|10|0|ambata:86;ambo:41-86;ambo:14-86;terzina:14-41-86|pos 3-4 somma 49|
+19850302|lottofacile1|MI,PA|10|0|ambata:14;ambo:14-57;ambo:14-75;terzina:14-57-75|pos 1-2 somma 33|
 19850302|lottofacile4|RM,TO|14|1|ambata:41;ambo:41-86;ambo:41-71;ambo:11-41;terzina:11-71-86|pos 1-4 verticale|
-19850302|lottofacile1|RM,TO|6|0|ambata:6;ambo:6-46;ambo:6-64;terzina:6-46-64|pos 1-4 somma 44|
-19850309|ambosecco_caotico|BA,CA,TO|2|1|ambo:59-64;ambo:64-83|A=66 su BA/CA, B=24 su TO|
-19850309|ambosecco_caotico|CA,GE,PA|2|1|ambo:40-45;ambo:40-85|A=50 su CA/GE, B=40 su PA|
-19850309|ambosecco_caotico|MI,TO,VE|2|1|ambo:65-87;ambo:82-87|A=73 su MI/TO, B=17 su VE|
-19850309|ambosecco_caotico|NA,PA,RM,MI|2|1|ambo:2-8;ambo:12-89|A=8 su NA/PA/RM, B=82 su MI|
-19850309|lottofacile5|BA|9|0|ambata:54;ambata:9;ambo:54-60;ambo:15-54;ambo:9-60;ambo:9-15;quartina:30-54-60-90;quartina:15-45-54-75;quartina:9-30-60-90;quartina:9-15-45-75|rilevamento 21-66|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19850309|lottofacile1|CA,GE|6|0|ambata:72;ambo:67-72;ambo:72-76;terzina:67-72-76|pos 1-2 somma 23|
+19850302|lottofacile1|RM,TO|10|0|ambata:6;ambo:6-46;ambo:6-64;terzina:6-46-64|pos 1-4 somma 44|
+19850309|ambosecco_caotico|BA,CA,TO|10|1|ambo:59-64;ambo:64-83|A=66 su BA/CA, B=24 su TO|
+19850309|ambosecco_caotico|CA,GE,PA|10|1|ambo:40-45;ambo:40-85|A=50 su CA/GE, B=40 su PA|
+19850309|ambosecco_caotico|MI,TO,VE|10|1|ambo:65-87;ambo:82-87|A=73 su MI/TO, B=17 su VE|
+19850309|ambosecco_caotico|NA,PA,RM,MI|10|1|ambo:2-8;ambo:12-89|A=8 su NA/PA/RM, B=82 su MI|
+19850309|lottofacile5|BA|10|0|ambata:54;ambata:9;ambo:54-60;ambo:15-54;ambo:9-60;ambo:9-15;quartina:30-54-60-90;quartina:15-45-54-75;quartina:9-30-60-90;quartina:9-15-45-75|rilevamento 21-66|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19850309|lottofacile1|CA,GE|10|0|ambata:72;ambo:67-72;ambo:72-76;terzina:67-72-76|pos 1-2 somma 23|
 19850309|lottofacile4|CA,RM|14|1|ambata:63;ambo:18-63;ambo:3-63;ambo:33-63;terzina:3-18-33|pos 1-3 diagonale|
-19850309|lottofacile1|CA,RM|6|0|ambata:90;ambo:18-90;ambo:81-90;terzina:18-81-90|pos 1-3 somma 72|
+19850309|lottofacile1|CA,RM|10|0|ambata:90;ambo:18-90;ambo:81-90;terzina:18-81-90|pos 1-3 somma 72|
 19850309|fulmine|CA,VE|12|0|ambata:66;ambo:56-66;ambo:6-66;ambo:16-66;quartina:6-16-56-66|cadenza, coppie ((56, 16), (66, 6))|
-19850309|lottofacile1|FI,GE|6|0|ambata:72;ambo:24-72;ambo:42-72;terzina:24-42-72|pos 1-5 somma 66|
-19850309|lottofacile1|GE,PA|6|0|ambata:58;ambo:53-58;ambo:35-58;terzina:35-53-58|pos 2-4 somma 37|
-19850309|lottofacile1|GE,TO|6|0|ambata:54;ambo:54-80;ambo:8-54;terzina:8-54-80|pos 3-5 somma 10|
-19850309|lottofacile1|NA,RM|6|0|ambata:90;ambo:76-90;ambo:67-90;terzina:67-76-90|pos 1-2 somma 14|
+19850309|lottofacile1|FI,GE|10|0|ambata:72;ambo:24-72;ambo:42-72;terzina:24-42-72|pos 1-5 somma 66|
+19850309|lottofacile1|GE,PA|10|0|ambata:58;ambo:53-58;ambo:35-58;terzina:35-53-58|pos 2-4 somma 37|
+19850309|lottofacile1|GE,TO|10|0|ambata:54;ambo:54-80;ambo:8-54;terzina:8-54-80|pos 3-5 somma 10|
+19850309|lottofacile1|NA,RM|10|0|ambata:90;ambo:76-90;ambo:67-90;terzina:67-76-90|pos 1-2 somma 14|
 19850309|lottofacile4|PA,VE|14|1|ambata:51;ambo:6-51;ambo:51-81;ambo:21-51;terzina:6-21-81|pos 4-5 orizzontale|
-19850316|ambosecco_caotico|BA,PA,GE,TO|2|1|ambo:49-85;ambo:84-85|A=55 su BA/PA, B=35 su GE/TO|
-19850316|ambosecco_caotico|CA,FI,MI|2|1|ambo:31-62;ambo:31-83|A=69 su CA/FI, B=21 su MI|
-19850316|ambosecco_caotico|CA,MI,FI|2|1|ambo:19-59;ambo:69-87|A=21 su CA/MI, B=69 su FI|
-19850316|ambosecco_caotico|FI,VE,GE|2|1|ambo:65-87;ambo:82-87|A=73 su FI/VE, B=17 su GE|
-19850316|ambosecco_caotico|GE,TO,BA,PA|2|1|ambo:5-32;ambo:15-86|A=35 su GE/TO, B=55 su BA/PA|
-19850316|ambosecco_caotico|GE,NA,TO,RM|2|1|ambo:43-62;ambo:62-85|A=48 su GE/NA/TO, B=42 su RM|
-19850316|lottofacile5|FI|9|0|ambata:33;ambo:33-73;ambo:28-33;quartina:13-33-43-73;quartina:28-33-58-88|rilevamento 41-86|
+19850316|ambosecco_caotico|BA,PA,GE,TO|10|1|ambo:49-85;ambo:84-85|A=55 su BA/PA, B=35 su GE/TO|
+19850316|ambosecco_caotico|CA,FI,MI|10|1|ambo:31-62;ambo:31-83|A=69 su CA/FI, B=21 su MI|
+19850316|ambosecco_caotico|CA,MI,FI|10|1|ambo:19-59;ambo:69-87|A=21 su CA/MI, B=69 su FI|
+19850316|ambosecco_caotico|FI,VE,GE|10|1|ambo:65-87;ambo:82-87|A=73 su FI/VE, B=17 su GE|
+19850316|ambosecco_caotico|GE,TO,BA,PA|10|1|ambo:5-32;ambo:15-86|A=35 su GE/TO, B=55 su BA/PA|
+19850316|ambosecco_caotico|GE,NA,TO,RM|10|1|ambo:43-62;ambo:62-85|A=48 su GE/NA/TO, B=42 su RM|
+19850316|lottofacile5|FI|10|0|ambata:33;ambo:33-73;ambo:28-33;quartina:13-33-43-73;quartina:28-33-58-88|rilevamento 41-86|
 19850316|lottofacile4|BA,GE|14|1|ambata:37;ambo:37-82;ambo:37-67;ambo:7-37;terzina:7-67-82|pos 1-4 orizzontale|
-19850316|lottofacile1|BA,VE|6|0|ambata:54;ambo:54-80;ambo:8-54;terzina:8-54-80|pos 1-2 somma 10|
-19850316|lottofacile1|FI,GE|6|0|ambata:34;ambo:34-38;ambo:34-83;terzina:34-38-83|pos 2-3 somma 52|
-19850316|lottofacile1|FI,GE|6|0|ambata:34;ambo:25-34;ambo:34-52;terzina:25-34-52|pos 2-4 somma 65|
+19850316|lottofacile1|BA,VE|10|0|ambata:54;ambo:54-80;ambo:8-54;terzina:8-54-80|pos 1-2 somma 10|
+19850316|lottofacile1|FI,GE|10|0|ambata:34;ambo:34-38;ambo:34-83;terzina:34-38-83|pos 2-3 somma 52|
+19850316|lottofacile1|FI,GE|10|0|ambata:34;ambo:25-34;ambo:34-52;terzina:25-34-52|pos 2-4 somma 65|
 19850316|lottofacile4|GE,TO|14|1|ambata:51;ambo:6-51;ambo:51-81;ambo:21-51;terzina:6-21-81|pos 1-5 verticale|
-19850316|lottofacile1|MI,TO|6|0|ambata:88;ambo:82-88;ambo:28-88;terzina:28-82-88|pos 2-4 somma 8|
-19850323|ambosecco_caotico|BA,TO,FI|2|1|ambo:14-15;ambo:24-88|A=16 su BA/TO, B=74 su FI|
-19850323|lottofacile5|TO|9|0|ambata:36;ambo:36-84;ambo:36-39;quartina:24-36-54-84;quartina:9-36-39-69|rilevamento 15-60|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19850323|lottofacile1|BA,FI|6|0|ambata:34;ambo:8-34;ambo:34-80;terzina:8-34-80|pos 1-3 somma 82|
-19850323|lottofacile1|BA,PA|6|0|ambata:22;ambo:22-26;ambo:22-62;terzina:22-26-62|pos 2-4 somma 64|
-19850323|lottofacile1|GE,MI|6|0|ambata:44;ambo:18-44;ambo:44-81;terzina:18-44-81|pos 1-3 somma 72|
+19850316|lottofacile1|MI,TO|10|0|ambata:88;ambo:82-88;ambo:28-88;terzina:28-82-88|pos 2-4 somma 8|
+19850323|ambosecco_caotico|BA,TO,FI|10|1|ambo:14-15;ambo:24-88|A=16 su BA/TO, B=74 su FI|
+19850323|lottofacile5|TO|10|0|ambata:36;ambo:36-84;ambo:36-39;quartina:24-36-54-84;quartina:9-36-39-69|rilevamento 15-60|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19850323|lottofacile1|BA,FI|10|0|ambata:34;ambo:8-34;ambo:34-80;terzina:8-34-80|pos 1-3 somma 82|
+19850323|lottofacile1|BA,PA|10|0|ambata:22;ambo:22-26;ambo:22-62;terzina:22-26-62|pos 2-4 somma 64|
+19850323|lottofacile1|GE,MI|10|0|ambata:44;ambo:18-44;ambo:44-81;terzina:18-44-81|pos 1-3 somma 72|
 19850323|lottofacile4|MI,TO|14|1|ambata:73;ambo:28-73;ambo:13-73;ambo:43-73;terzina:13-28-43|pos 1-2 orizzontale|
-19850323|lottofacile1|MI,VE|6|0|ambata:48;ambo:48-66;ambo:48-69;terzina:48-66-69|pos 3-5 somma 24|
-19850323|lottofacile1|PA,RM|6|0|ambata:84;ambo:8-84;ambo:80-84;terzina:8-80-84|pos 4-5 somma 82|
-19850323|lottofacile1|PA,VE|6|0|ambata:12;ambo:12-84;ambo:12-48;terzina:12-48-84|pos 1-5 somma 6|
+19850323|lottofacile1|MI,VE|10|0|ambata:48;ambo:48-66;ambo:48-69;terzina:48-66-69|pos 3-5 somma 24|
+19850323|lottofacile1|PA,RM|10|0|ambata:84;ambo:8-84;ambo:80-84;terzina:8-80-84|pos 4-5 somma 82|
+19850323|lottofacile1|PA,VE|10|0|ambata:12;ambo:12-84;ambo:12-48;terzina:12-48-84|pos 1-5 somma 6|
 19850323|lottofacile4|TO,VE|14|1|ambata:19;ambo:19-64;ambo:19-49;ambo:19-79;terzina:49-64-79|pos 2-5 diagonale|
-19850330|ambosecco_caotico|BA,FI,NA,GE|2|1|ambo:33-83;ambo:83-86|A=37 su BA/FI/NA, B=53 su GE|
-19850330|ambosecco_caotico|CA,VE,NA|2|1|ambo:30-54;ambo:30-84|A=60 su CA/VE, B=30 su NA|
-19850330|ambosecco_caotico|FI,NA,VE|2|1|ambo:66-75;ambo:66-81|A=84 su FI/NA, B=6 su VE|
-19850330|ambosecco_caotico|FI,GE,BA,NA|2|1|ambo:7-48;ambo:17-84|A=53 su FI/GE, B=37 su BA/NA|
-19850330|lottofacile1|BA,RM|6|0|ambata:88;ambo:32-88;ambo:23-88;terzina:23-32-88|pos 1-5 somma 58|
-19850330|lottofacile1|CA,NA|6|0|ambata:42;ambo:42-75;ambo:42-57;terzina:42-57-75|pos 3-4 somma 15|
-19850330|lottofacile1|CA,NA|6|0|ambata:42;ambo:39-42;ambo:33-42;terzina:33-39-42|pos 3-5 somma 51|
-19850330|lottofacile1|FI,GE|6|0|ambata:82;ambo:35-82;ambo:53-82;terzina:35-53-82|pos 1-2 somma 55|
-19850330|lottofacile1|GE,VE|6|0|ambata:30;ambo:12-30;ambo:21-30;terzina:12-21-30|pos 2-5 somma 78|
-19850330|lottofacile1|MI,NA|6|0|ambata:74;ambo:23-74;ambo:32-74;terzina:23-32-74|pos 2-5 somma 67|
-19850330|lottofacile1|MI,PA|6|0|ambata:42;ambo:16-42;ambo:42-61;terzina:16-42-61|pos 1-3 somma 74|
-19850330|lottofacile1|NA,RM|6|0|ambata:20;ambo:20-66;ambo:20-69;terzina:20-66-69|pos 4-5 somma 24|
-19850330|lottofacile1|NA,VE|6|0|ambata:12;ambo:12-66;ambo:12-69;terzina:12-66-69|pos 4-5 somma 24|
-19850330|lottofacile1|RM,VE|6|0|ambata:12;ambo:12-66;ambo:12-69;terzina:12-66-69|pos 4-5 somma 24|
-19850406|ambosecco_caotico|FI,GE,TO,CA|2|1|ambo:41-53;ambo:41-84|A=59 su FI/GE/TO, B=31 su CA|
-19850406|ambosecco_caotico|MI,PA,TO,VE|2|1|ambo:9-64;ambo:19-82|A=71 su MI/PA, B=19 su TO/VE|
-19850406|ambosecco_caotico|PA,VE,GE|2|1|ambo:13-36;ambo:46-88|A=14 su PA/VE, B=76 su GE|
-19850406|ambosecco_caotico|TO,VE,MI,PA|2|1|ambo:17-81;ambo:81-88|A=19 su TO/VE, B=71 su MI/PA|
-19850406|lottofacile1|BA,PA|6|0|ambata:52;ambo:39-52;ambo:33-52;terzina:33-39-52|pos 2-5 somma 51|
-19850406|lottofacile1|CA,FI|6|0|ambata:8;ambo:8-18;ambo:8-81;terzina:8-18-81|pos 3-4 somma 72|
+19850330|ambosecco_caotico|BA,FI,NA,GE|10|1|ambo:33-83;ambo:83-86|A=37 su BA/FI/NA, B=53 su GE|
+19850330|ambosecco_caotico|CA,VE,NA|10|1|ambo:30-54;ambo:30-84|A=60 su CA/VE, B=30 su NA|
+19850330|ambosecco_caotico|FI,NA,VE|10|1|ambo:66-75;ambo:66-81|A=84 su FI/NA, B=6 su VE|
+19850330|ambosecco_caotico|FI,GE,BA,NA|10|1|ambo:7-48;ambo:17-84|A=53 su FI/GE, B=37 su BA/NA|
+19850330|lottofacile1|BA,RM|10|0|ambata:88;ambo:32-88;ambo:23-88;terzina:23-32-88|pos 1-5 somma 58|
+19850330|lottofacile1|CA,NA|10|0|ambata:42;ambo:42-75;ambo:42-57;terzina:42-57-75|pos 3-4 somma 15|
+19850330|lottofacile1|CA,NA|10|0|ambata:42;ambo:39-42;ambo:33-42;terzina:33-39-42|pos 3-5 somma 51|
+19850330|lottofacile1|FI,GE|10|0|ambata:82;ambo:35-82;ambo:53-82;terzina:35-53-82|pos 1-2 somma 55|
+19850330|lottofacile1|GE,VE|10|0|ambata:30;ambo:12-30;ambo:21-30;terzina:12-21-30|pos 2-5 somma 78|
+19850330|lottofacile1|MI,NA|10|0|ambata:74;ambo:23-74;ambo:32-74;terzina:23-32-74|pos 2-5 somma 67|
+19850330|lottofacile1|MI,PA|10|0|ambata:42;ambo:16-42;ambo:42-61;terzina:16-42-61|pos 1-3 somma 74|
+19850330|lottofacile1|NA,RM|10|0|ambata:20;ambo:20-66;ambo:20-69;terzina:20-66-69|pos 4-5 somma 24|
+19850330|lottofacile1|NA,VE|10|0|ambata:12;ambo:12-66;ambo:12-69;terzina:12-66-69|pos 4-5 somma 24|
+19850330|lottofacile1|RM,VE|10|0|ambata:12;ambo:12-66;ambo:12-69;terzina:12-66-69|pos 4-5 somma 24|
+19850406|ambosecco_caotico|FI,GE,TO,CA|10|1|ambo:41-53;ambo:41-84|A=59 su FI/GE/TO, B=31 su CA|
+19850406|ambosecco_caotico|MI,PA,TO,VE|10|1|ambo:9-64;ambo:19-82|A=71 su MI/PA, B=19 su TO/VE|
+19850406|ambosecco_caotico|PA,VE,GE|10|1|ambo:13-36;ambo:46-88|A=14 su PA/VE, B=76 su GE|
+19850406|ambosecco_caotico|TO,VE,MI,PA|10|1|ambo:17-81;ambo:81-88|A=19 su TO/VE, B=71 su MI/PA|
+19850406|lottofacile1|BA,PA|10|0|ambata:52;ambo:39-52;ambo:33-52;terzina:33-39-52|pos 2-5 somma 51|
+19850406|lottofacile1|CA,FI|10|0|ambata:8;ambo:8-18;ambo:8-81;terzina:8-18-81|pos 3-4 somma 72|
 19850406|lottofacile4|CA,MI|14|1|ambata:39;ambo:39-84;ambo:39-69;ambo:9-39;terzina:9-69-84|pos 1-3 orizzontale|
-19850406|lottofacile1|CA,NA|6|0|ambata:32;ambo:18-32;ambo:32-81;terzina:18-32-81|pos 3-4 somma 72|
-19850406|lottofacile1|FI,NA|6|0|ambata:32;ambo:18-32;ambo:32-81;terzina:18-32-81|pos 3-4 somma 72|
-19850406|lottofacile1|GE,NA|6|0|ambata:18;ambo:18-43;ambo:18-34;terzina:18-34-43|pos 1-2 somma 47|
+19850406|lottofacile1|CA,NA|10|0|ambata:32;ambo:18-32;ambo:32-81;terzina:18-32-81|pos 3-4 somma 72|
+19850406|lottofacile1|FI,NA|10|0|ambata:32;ambo:18-32;ambo:32-81;terzina:18-32-81|pos 3-4 somma 72|
+19850406|lottofacile1|GE,NA|10|0|ambata:18;ambo:18-43;ambo:18-34;terzina:18-34-43|pos 1-2 somma 47|
 19850406|fulmine|GE,RM|12|0|ambata:76;ambo:16-76;ambo:6-76;ambo:66-76;quartina:6-16-66-76|cadenza, coppie ((16, 66), (76, 6))|
-19850406|lottofacile1|PA,VE|6|0|ambata:38;ambo:5-38;ambo:38-50;terzina:5-38-50|pos 2-4 somma 85|
-19850413|ambosecco_caotico|BA,PA,NA|2|1|ambo:30-54;ambo:30-84|A=60 su BA/PA, B=30 su NA|
-19850413|ambosecco_caotico|GE,PA,FI|2|1|ambo:42-73;ambo:73-85|A=47 su GE/PA, B=43 su FI|
-19850413|ambosecco_caotico|RM,TO,FI|2|1|ambo:37-39;ambo:49-85|A=41 su RM/TO, B=49 su FI|
-19850413|lottofacile5|RM|9|0|ambata:33;ambata:78;ambo:33-73;ambo:28-33;ambo:73-78;ambo:28-78;quartina:13-33-43-73;quartina:28-33-58-88;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 41-86|
-19850413|lottofacile1|BA,TO|6|0|ambata:18;ambo:18-74;ambo:18-47;terzina:18-47-74|pos 2-4 somma 16|
-19850413|lottofacile1|FI,NA|6|0|ambata:34;ambo:34-88;ambo:34-89;terzina:34-88-89|pos 1-5 somma 2|
-19850413|lottofacile1|GE,TO|6|0|ambata:18;ambo:18-63;ambo:18-36;terzina:18-36-63|pos 2-3 somma 27|
-19850413|lottofacile1|MI,PA|6|0|ambata:8;ambo:8-8;ambo:8-80|pos 3-4 somma 82|
-19850413|lottofacile1|NA,VE|6|0|ambata:54;ambo:46-54;ambo:54-64;terzina:46-54-64|pos 4-5 somma 44|
-19850420|ambosecco_caotico|CA,RM,FI|2|1|ambo:3-57;ambo:67-89|A=3 su CA/RM, B=87 su FI|
-19850420|ambosecco_caotico|NA,PA,GE|2|1|ambo:42-73;ambo:73-85|A=47 su NA/PA, B=43 su GE|
-19850420|ambosecco_caotico|PA,TO,FI|2|1|ambo:6-24;ambo:34-89|A=6 su PA/TO, B=84 su FI|
-19850420|lottofacile1|CA,TO|6|0|ambata:8;ambo:8-67;ambo:8-76;terzina:8-67-76|pos 1-2 somma 23|
-19850420|lottofacile1|CA,TO|6|0|ambata:8;ambo:8-80;ambo:8-8|pos 1-4 somma 10|
+19850406|lottofacile1|PA,VE|10|0|ambata:38;ambo:5-38;ambo:38-50;terzina:5-38-50|pos 2-4 somma 85|
+19850413|ambosecco_caotico|BA,PA,NA|10|1|ambo:30-54;ambo:30-84|A=60 su BA/PA, B=30 su NA|
+19850413|ambosecco_caotico|GE,PA,FI|10|1|ambo:42-73;ambo:73-85|A=47 su GE/PA, B=43 su FI|
+19850413|ambosecco_caotico|RM,TO,FI|10|1|ambo:37-39;ambo:49-85|A=41 su RM/TO, B=49 su FI|
+19850413|lottofacile5|RM|10|0|ambata:33;ambata:78;ambo:33-73;ambo:28-33;ambo:73-78;ambo:28-78;quartina:13-33-43-73;quartina:28-33-58-88;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 41-86|
+19850413|lottofacile1|BA,TO|10|0|ambata:18;ambo:18-74;ambo:18-47;terzina:18-47-74|pos 2-4 somma 16|
+19850413|lottofacile1|FI,NA|10|0|ambata:34;ambo:34-88;ambo:34-89;terzina:34-88-89|pos 1-5 somma 2|
+19850413|lottofacile1|GE,TO|10|0|ambata:18;ambo:18-63;ambo:18-36;terzina:18-36-63|pos 2-3 somma 27|
+19850413|lottofacile1|MI,PA|10|0|ambata:8;ambo:8-8;ambo:8-80|pos 3-4 somma 82|
+19850413|lottofacile1|NA,VE|10|0|ambata:54;ambo:46-54;ambo:54-64;terzina:46-54-64|pos 4-5 somma 44|
+19850420|ambosecco_caotico|CA,RM,FI|10|1|ambo:3-57;ambo:67-89|A=3 su CA/RM, B=87 su FI|
+19850420|ambosecco_caotico|NA,PA,GE|10|1|ambo:42-73;ambo:73-85|A=47 su NA/PA, B=43 su GE|
+19850420|ambosecco_caotico|PA,TO,FI|10|1|ambo:6-24;ambo:34-89|A=6 su PA/TO, B=84 su FI|
+19850420|lottofacile1|CA,TO|10|0|ambata:8;ambo:8-67;ambo:8-76;terzina:8-67-76|pos 1-2 somma 23|
+19850420|lottofacile1|CA,TO|10|0|ambata:8;ambo:8-80;ambo:8-8|pos 1-4 somma 10|
 19850420|fulmine|GE,PA|12|0|ambata:56;ambo:20-56;ambo:29-56;ambo:47-56;quartina:20-29-47-56|figura, coppie ((20, 56), (29, 47))|
-19850420|lottofacile1|PA,VE|6|0|ambata:56;ambo:25-56;ambo:52-56;terzina:25-52-56|pos 2-3 somma 65|
-19850427|ambosecco_caotico|CA,GE,MI|2|1|ambo:43-69;ambo:43-82|A=77 su CA/GE, B=13 su MI|
-19850427|ambosecco_caotico|GE,VE,MI|2|1|ambo:10-69;ambo:79-88|A=11 su GE/VE, B=79 su MI|
-19850427|lottofacile1|CA,GE|6|0|ambata:22;ambo:2-22;ambo:20-22;terzina:2-20-22|pos 2-5 somma 88|
-19850427|lottofacile1|FI,VE|6|0|ambata:22;ambo:22-22;ambo:22-29|pos 2-4 somma 68|
-19850427|lottofacile1|GE,PA|6|0|ambata:44;ambo:44-50;ambo:5-44;terzina:5-44-50|pos 4-5 somma 40|
-19850427|lottofacile1|GE,TO|6|0|ambata:6;ambo:6-81;ambo:6-18;terzina:6-18-81|pos 2-3 somma 9|
-19850504|ambosecco_caotico|BA,PA,VE|2|1|ambo:16-31;ambo:26-86|A=34 su BA/PA, B=56 su VE|
-19850504|ambosecco_caotico|CA,MI,NA,RM|2|1|ambo:31-62;ambo:31-83|A=69 su CA/MI/NA, B=21 su RM|
-19850504|ambosecco_caotico|GE,NA,RM,MI|2|1|ambo:65-87;ambo:82-87|A=73 su GE/NA/RM, B=17 su MI|
-19850504|lottofacile5|GE|9|0|ambata:27;ambata:72;ambo:21-27;ambo:27-66;ambo:21-72;ambo:66-72;quartina:21-27-51-81;quartina:6-27-36-66;quartina:21-51-72-81;quartina:6-36-66-72|rilevamento 42-87|
-19850504|lottofacile5|NA|9|0|ambata:75;ambata:30;ambo:47-75;ambo:2-75;ambo:30-47;ambo:2-30;quartina:17-47-75-77;quartina:2-32-62-75;quartina:17-30-47-77;quartina:2-30-32-62|rilevamento 28-73|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19850504|lottofacile5|TO|9|0|ambata:9;ambata:54;ambo:9-75;ambo:9-30;ambo:54-75;ambo:30-54;quartina:9-15-45-75;quartina:9-30-60-90;quartina:15-45-54-75;quartina:30-54-60-90|rilevamento 6-51|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19850420|lottofacile1|PA,VE|10|0|ambata:56;ambo:25-56;ambo:52-56;terzina:25-52-56|pos 2-3 somma 65|
+19850427|ambosecco_caotico|CA,GE,MI|10|1|ambo:43-69;ambo:43-82|A=77 su CA/GE, B=13 su MI|
+19850427|ambosecco_caotico|GE,VE,MI|10|1|ambo:10-69;ambo:79-88|A=11 su GE/VE, B=79 su MI|
+19850427|lottofacile1|CA,GE|10|0|ambata:22;ambo:2-22;ambo:20-22;terzina:2-20-22|pos 2-5 somma 88|
+19850427|lottofacile1|FI,VE|10|0|ambata:22;ambo:22-22;ambo:22-29|pos 2-4 somma 68|
+19850427|lottofacile1|GE,PA|10|0|ambata:44;ambo:44-50;ambo:5-44;terzina:5-44-50|pos 4-5 somma 40|
+19850427|lottofacile1|GE,TO|10|0|ambata:6;ambo:6-81;ambo:6-18;terzina:6-18-81|pos 2-3 somma 9|
+19850504|ambosecco_caotico|BA,PA,VE|10|1|ambo:16-31;ambo:26-86|A=34 su BA/PA, B=56 su VE|
+19850504|ambosecco_caotico|CA,MI,NA,RM|10|1|ambo:31-62;ambo:31-83|A=69 su CA/MI/NA, B=21 su RM|
+19850504|ambosecco_caotico|GE,NA,RM,MI|10|1|ambo:65-87;ambo:82-87|A=73 su GE/NA/RM, B=17 su MI|
+19850504|lottofacile5|GE|10|0|ambata:27;ambata:72;ambo:21-27;ambo:27-66;ambo:21-72;ambo:66-72;quartina:21-27-51-81;quartina:6-27-36-66;quartina:21-51-72-81;quartina:6-36-66-72|rilevamento 42-87|
+19850504|lottofacile5|NA|10|0|ambata:75;ambata:30;ambo:47-75;ambo:2-75;ambo:30-47;ambo:2-30;quartina:17-47-75-77;quartina:2-32-62-75;quartina:17-30-47-77;quartina:2-30-32-62|rilevamento 28-73|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19850504|lottofacile5|TO|10|0|ambata:9;ambata:54;ambo:9-75;ambo:9-30;ambo:54-75;ambo:30-54;quartina:9-15-45-75;quartina:9-30-60-90;quartina:15-45-54-75;quartina:30-54-60-90|rilevamento 6-51|potenza ridotta: ambata uscita negli ultimi 6 concorsi
 19850504|fulmine|GE,TO|12|0|ambata:87;ambo:42-87;ambo:6-87;ambo:51-87;quartina:6-42-51-87|figura, coppie ((87, 6), (42, 51))|
-19850511|ambosecco_caotico|BA,MI,VE,FI|2|1|ambo:6-24;ambo:34-89|A=6 su BA/MI/VE, B=84 su FI|
-19850511|ambosecco_caotico|RM,VE,NA|2|1|ambo:3-16;ambo:13-88|A=17 su RM/VE, B=73 su NA|
-19850511|lottofacile5|TO|9|0|ambata:15;ambata:60;ambo:7-15;ambo:15-52;ambo:7-60;ambo:52-60;quartina:7-15-37-67;quartina:15-22-52-82;quartina:7-37-60-67;quartina:22-52-60-82|rilevamento 8-53|
-19850511|lottofacile1|FI,MI|6|0|ambata:44;ambo:17-44;ambo:44-71;terzina:17-44-71|pos 2-5 somma 73|
-19850511|lottofacile1|FI,PA|6|0|ambata:24;ambo:24-36;ambo:24-63;terzina:24-36-63|pos 3-4 somma 54|
+19850511|ambosecco_caotico|BA,MI,VE,FI|10|1|ambo:6-24;ambo:34-89|A=6 su BA/MI/VE, B=84 su FI|
+19850511|ambosecco_caotico|RM,VE,NA|10|1|ambo:3-16;ambo:13-88|A=17 su RM/VE, B=73 su NA|
+19850511|lottofacile5|TO|10|0|ambata:15;ambata:60;ambo:7-15;ambo:15-52;ambo:7-60;ambo:52-60;quartina:7-15-37-67;quartina:15-22-52-82;quartina:7-37-60-67;quartina:22-52-60-82|rilevamento 8-53|
+19850511|lottofacile1|FI,MI|10|0|ambata:44;ambo:17-44;ambo:44-71;terzina:17-44-71|pos 2-5 somma 73|
+19850511|lottofacile1|FI,PA|10|0|ambata:24;ambo:24-36;ambo:24-63;terzina:24-36-63|pos 3-4 somma 54|
 19850511|lottofacile4|GE,RM|14|1|ambata:67;ambo:22-67;ambo:7-67;ambo:37-67;terzina:7-22-37|pos 4-5 diagonale|
-19850511|lottofacile1|GE,RM|6|0|ambata:48;ambo:48-49;ambo:44-48;terzina:44-48-49|pos 2-4 somma 41|
-19850511|lottofacile1|GE,RM|6|0|ambata:34;ambo:17-34;ambo:34-71;terzina:17-34-71|pos 4-5 somma 73|
+19850511|lottofacile1|GE,RM|10|0|ambata:48;ambo:48-49;ambo:44-48;terzina:44-48-49|pos 2-4 somma 41|
+19850511|lottofacile1|GE,RM|10|0|ambata:34;ambo:17-34;ambo:34-71;terzina:17-34-71|pos 4-5 somma 73|
 19850511|lottofacile4|GE,VE|14|1|ambata:67;ambo:22-67;ambo:7-67;ambo:37-67;terzina:7-22-37|pos 4-5 diagonale|
-19850511|lottofacile1|GE,VE|6|0|ambata:34;ambo:17-34;ambo:34-71;terzina:17-34-71|pos 4-5 somma 73|
-19850511|lottofacile1|RM,VE|6|0|ambata:34;ambo:17-34;ambo:34-71;terzina:17-34-71|pos 4-5 somma 73|
-19850511|lottofacile1|TO,VE|6|0|ambata:24;ambo:22-24;ambo:24-29;terzina:22-24-29|pos 3-5 somma 68|
-19850518|ambosecco_caotico|CA,VE,MI,RM|2|1|ambo:16-31;ambo:26-86|A=34 su CA/VE, B=56 su MI/RM|
-19850518|ambosecco_caotico|GE,MI,PA,RM|2|1|ambo:5-32;ambo:15-86|A=35 su GE/MI, B=55 su PA/RM|
-19850518|ambosecco_caotico|MI,RM,CA,VE|2|1|ambo:50-74;ambo:74-84|A=56 su MI/RM, B=34 su CA/VE|
-19850518|ambosecco_caotico|PA,RM,GE,MI|2|1|ambo:49-85;ambo:84-85|A=55 su PA/RM, B=35 su GE/MI|
-19850518|lottofacile1|BA,GE|6|0|ambata:10;ambo:10-36;ambo:10-63;terzina:10-36-63|pos 1-5 somma 54|
+19850511|lottofacile1|GE,VE|10|0|ambata:34;ambo:17-34;ambo:34-71;terzina:17-34-71|pos 4-5 somma 73|
+19850511|lottofacile1|RM,VE|10|0|ambata:34;ambo:17-34;ambo:34-71;terzina:17-34-71|pos 4-5 somma 73|
+19850511|lottofacile1|TO,VE|10|0|ambata:24;ambo:22-24;ambo:24-29;terzina:22-24-29|pos 3-5 somma 68|
+19850518|ambosecco_caotico|CA,VE,MI,RM|10|1|ambo:16-31;ambo:26-86|A=34 su CA/VE, B=56 su MI/RM|
+19850518|ambosecco_caotico|GE,MI,PA,RM|10|1|ambo:5-32;ambo:15-86|A=35 su GE/MI, B=55 su PA/RM|
+19850518|ambosecco_caotico|MI,RM,CA,VE|10|1|ambo:50-74;ambo:74-84|A=56 su MI/RM, B=34 su CA/VE|
+19850518|ambosecco_caotico|PA,RM,GE,MI|10|1|ambo:49-85;ambo:84-85|A=55 su PA/RM, B=35 su GE/MI|
+19850518|lottofacile1|BA,GE|10|0|ambata:10;ambo:10-36;ambo:10-63;terzina:10-36-63|pos 1-5 somma 54|
 19850518|lottofacile4|BA,NA|14|1|ambata:71;ambo:26-71;ambo:11-71;ambo:41-71;terzina:11-26-41|pos 3-5 diagonale|
 19850518|lottofacile4|RM,TO|14|1|ambata:63;ambo:18-63;ambo:3-63;ambo:33-63;terzina:3-18-33|pos 2-3 diagonale|
-19850518|lottofacile1|RM,TO|6|0|ambata:4;ambo:4-18;ambo:4-81;terzina:4-18-81|pos 2-3 somma 72|
-19850518|lottofacile1|RM,TO|6|0|ambata:4;ambo:4-87;ambo:4-78;terzina:4-78-87|pos 2-5 somma 3|
-19850525|ambosecco_caotico|GE,RM,PA|2|1|ambo:6-24;ambo:34-89|A=6 su GE/RM, B=84 su PA|
-19850525|ambosecco_caotico|MI,VE,NA,PA|2|1|ambo:74-77;ambo:77-81|A=83 su MI/VE, B=7 su NA/PA|
-19850525|ambosecco_caotico|NA,PA,MI,VE|2|1|ambo:7-13;ambo:23-89|A=7 su NA/PA, B=83 su MI/VE|
-19850525|lottofacile1|BA,MI|6|0|ambata:38;ambo:33-38;ambo:38-39;terzina:33-38-39|pos 2-4 somma 57|
-19850525|lottofacile1|NA,TO|6|0|ambata:78;ambo:55-78;ambo:59-78;terzina:55-59-78|pos 2-3 somma 35|
-19850525|lottofacile1|TO,VE|6|0|ambata:48;ambo:28-48;ambo:48-82;terzina:28-48-82|pos 4-5 somma 62|
-19850601|ambosecco_caotico|BA,VE,CA|2|1|ambo:10-69;ambo:79-88|A=11 su BA/VE, B=79 su CA|
-19850601|ambosecco_caotico|BA,PA,FI|2|1|ambo:43-62;ambo:62-85|A=48 su BA/PA, B=42 su FI|
-19850601|ambosecco_caotico|BA,TO,GE|2|1|ambo:53-60;ambo:53-83|A=67 su BA/TO, B=23 su GE|
-19850601|ambosecco_caotico|FI,MI,PA,CA|2|1|ambo:13-36;ambo:46-88|A=14 su FI/MI/PA, B=76 su CA|
-19850601|lottofacile1|CA,VE|6|0|ambata:22;ambo:4-22;ambo:22-40;terzina:4-22-40|pos 2-5 somma 86|
-19850601|lottofacile1|CA,VE|6|0|ambata:54;ambo:54-78;ambo:54-87;terzina:54-78-87|pos 4-5 somma 12|
-19850601|lottofacile1|FI,RM|6|0|ambata:76;ambo:20-76;ambo:2-76;terzina:2-20-76|pos 2-3 somma 70|
-19850601|lottofacile1|GE,PA|6|0|ambata:54;ambo:4-54;ambo:40-54;terzina:4-40-54|pos 1-4 somma 86|
-19850601|lottofacile1|GE,RM|6|0|ambata:66;ambo:66-83;ambo:38-66;terzina:38-66-83|pos 4-5 somma 7|
-19850601|lottofacile1|MI,NA|6|0|ambata:56;ambo:5-56;ambo:50-56;terzina:5-50-56|pos 2-4 somma 85|
-19850601|lottofacile1|NA,RM|6|0|ambata:60;ambo:60-73;ambo:37-60;terzina:37-60-73|pos 1-3 somma 17|
-19850601|lottofacile1|TO,VE|6|0|ambata:22;ambo:22-52;ambo:22-25;terzina:22-25-52|pos 2-4 somma 38|
-19850608|ambosecco_caotico|BA,VE,NA|2|1|ambo:10-69;ambo:79-88|A=11 su BA/VE, B=79 su NA|
-19850608|ambosecco_caotico|BA,NA,VE|2|1|ambo:21-71;ambo:21-82|A=79 su BA/NA, B=11 su VE|
-19850608|ambosecco_caotico|BA,GE,TO,MI|2|1|ambo:29-46;ambo:39-84|A=51 su BA/GE/TO, B=39 su MI|
-19850608|ambosecco_caotico|MI,PA,BA|2|1|ambo:26-71;ambo:71-87|A=29 su MI/PA, B=61 su BA|
-19850608|ambosecco_caotico|NA,VE,TO|2|1|ambo:30-54;ambo:30-84|A=60 su NA/VE, B=30 su TO|
-19850608|lottofacile1|BA,TO|6|0|ambata:12;ambo:9-12;ambo:12-90;terzina:9-12-90|pos 2-3 somma 81|
-19850608|lottofacile1|BA,TO|6|0|ambata:12;ambo:12-81;ambo:12-18;terzina:12-18-81|pos 2-4 somma 9|
-19850608|lottofacile1|CA,GE|6|0|ambata:16;ambo:16-46;ambo:16-64;terzina:16-46-64|pos 2-5 somma 44|
-19850608|lottofacile1|CA,NA|6|0|ambata:40;ambo:40-61;ambo:16-40;terzina:16-40-61|pos 1-2 somma 29|
-19850608|lottofacile1|FI,TO|6|0|ambata:60;ambo:39-60;ambo:33-60;terzina:33-39-60|pos 3-5 somma 51|
-19850608|lottofacile1|GE,RM|6|0|ambata:78;ambo:44-78;ambo:49-78;terzina:44-49-78|pos 1-2 somma 46|
-19850608|lottofacile1|PA,TO|6|0|ambata:6;ambo:6-21;ambo:6-12;terzina:6-12-21|pos 4-5 somma 69|
-19850615|ambosecco_caotico|CA,TO,GE|2|1|ambo:33-83;ambo:83-86|A=37 su CA/TO, B=53 su GE|
-19850615|lottofacile5|TO|9|0|ambata:63;ambo:12-63;ambo:57-63;quartina:12-42-63-72;quartina:27-57-63-87|rilevamento 9-54|
-19850615|lottofacile1|BA,CA|6|0|ambata:4;ambo:4-6;ambo:4-60;terzina:4-6-60|pos 2-4 somma 84|
-19850615|lottofacile1|BA,NA|6|0|ambata:48;ambo:48-72;ambo:27-48;terzina:27-48-72|pos 2-3 somma 18|
-19850615|lottofacile1|BA,NA|6|0|ambata:78;ambo:22-78;ambo:29-78;terzina:22-29-78|pos 3-4 somma 68|
-19850615|lottofacile1|BA,RM|6|0|ambata:90;ambo:72-90;ambo:27-90;terzina:27-72-90|pos 2-3 somma 18|
-19850615|lottofacile1|FI,GE|6|0|ambata:58;ambo:22-58;ambo:29-58;terzina:22-29-58|pos 4-5 somma 68|
-19850615|lottofacile1|FI,NA|6|0|ambata:74;ambo:13-74;ambo:31-74;terzina:13-31-74|pos 1-5 somma 77|
-19850615|lottofacile1|FI,PA|6|0|ambata:66;ambo:22-66;ambo:29-66;terzina:22-29-66|pos 4-5 somma 68|
-19850615|lottofacile1|GE,PA|6|0|ambata:66;ambo:22-66;ambo:29-66;terzina:22-29-66|pos 4-5 somma 68|
-19850615|lottofacile1|MI,NA|6|0|ambata:78;ambo:11-78;ambo:19-78;terzina:11-19-78|pos 3-5 somma 79|
-19850615|lottofacile1|NA,RM|6|0|ambata:90;ambo:72-90;ambo:27-90;terzina:27-72-90|pos 2-3 somma 18|
-19850622|ambosecco_caotico|BA,FI,PA,RM|2|1|ambo:33-83;ambo:83-86|A=37 su BA/FI/PA, B=53 su RM|
-19850622|lottofacile5|BA|9|0|ambata:57;ambo:56-57;ambo:11-57;quartina:26-56-57-86;quartina:11-41-57-71|rilevamento 37-82|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19850622|lottofacile5|CA|9|0|ambata:75;ambo:32-75;ambo:75-77;quartina:2-32-62-75;quartina:17-47-75-77|rilevamento 43-88|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19850622|lottofacile5|RM|9|0|ambata:84;ambo:80-84;ambo:35-84;quartina:20-50-80-84;quartina:5-35-65-84|rilevamento 31-76|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19850622|lottofacile1|BA,RM|6|0|ambata:20;ambo:20-27;ambo:20-72;terzina:20-27-72|pos 4-5 somma 63|
+19850518|lottofacile1|RM,TO|10|0|ambata:4;ambo:4-18;ambo:4-81;terzina:4-18-81|pos 2-3 somma 72|
+19850518|lottofacile1|RM,TO|10|0|ambata:4;ambo:4-87;ambo:4-78;terzina:4-78-87|pos 2-5 somma 3|
+19850525|ambosecco_caotico|GE,RM,PA|10|1|ambo:6-24;ambo:34-89|A=6 su GE/RM, B=84 su PA|
+19850525|ambosecco_caotico|MI,VE,NA,PA|10|1|ambo:74-77;ambo:77-81|A=83 su MI/VE, B=7 su NA/PA|
+19850525|ambosecco_caotico|NA,PA,MI,VE|10|1|ambo:7-13;ambo:23-89|A=7 su NA/PA, B=83 su MI/VE|
+19850525|lottofacile1|BA,MI|10|0|ambata:38;ambo:33-38;ambo:38-39;terzina:33-38-39|pos 2-4 somma 57|
+19850525|lottofacile1|NA,TO|10|0|ambata:78;ambo:55-78;ambo:59-78;terzina:55-59-78|pos 2-3 somma 35|
+19850525|lottofacile1|TO,VE|10|0|ambata:48;ambo:28-48;ambo:48-82;terzina:28-48-82|pos 4-5 somma 62|
+19850601|ambosecco_caotico|BA,VE,CA|10|1|ambo:10-69;ambo:79-88|A=11 su BA/VE, B=79 su CA|
+19850601|ambosecco_caotico|BA,PA,FI|10|1|ambo:43-62;ambo:62-85|A=48 su BA/PA, B=42 su FI|
+19850601|ambosecco_caotico|BA,TO,GE|10|1|ambo:53-60;ambo:53-83|A=67 su BA/TO, B=23 su GE|
+19850601|ambosecco_caotico|FI,MI,PA,CA|10|1|ambo:13-36;ambo:46-88|A=14 su FI/MI/PA, B=76 su CA|
+19850601|lottofacile1|CA,VE|10|0|ambata:22;ambo:4-22;ambo:22-40;terzina:4-22-40|pos 2-5 somma 86|
+19850601|lottofacile1|CA,VE|10|0|ambata:54;ambo:54-78;ambo:54-87;terzina:54-78-87|pos 4-5 somma 12|
+19850601|lottofacile1|FI,RM|10|0|ambata:76;ambo:20-76;ambo:2-76;terzina:2-20-76|pos 2-3 somma 70|
+19850601|lottofacile1|GE,PA|10|0|ambata:54;ambo:4-54;ambo:40-54;terzina:4-40-54|pos 1-4 somma 86|
+19850601|lottofacile1|GE,RM|10|0|ambata:66;ambo:66-83;ambo:38-66;terzina:38-66-83|pos 4-5 somma 7|
+19850601|lottofacile1|MI,NA|10|0|ambata:56;ambo:5-56;ambo:50-56;terzina:5-50-56|pos 2-4 somma 85|
+19850601|lottofacile1|NA,RM|10|0|ambata:60;ambo:60-73;ambo:37-60;terzina:37-60-73|pos 1-3 somma 17|
+19850601|lottofacile1|TO,VE|10|0|ambata:22;ambo:22-52;ambo:22-25;terzina:22-25-52|pos 2-4 somma 38|
+19850608|ambosecco_caotico|BA,VE,NA|10|1|ambo:10-69;ambo:79-88|A=11 su BA/VE, B=79 su NA|
+19850608|ambosecco_caotico|BA,NA,VE|10|1|ambo:21-71;ambo:21-82|A=79 su BA/NA, B=11 su VE|
+19850608|ambosecco_caotico|BA,GE,TO,MI|10|1|ambo:29-46;ambo:39-84|A=51 su BA/GE/TO, B=39 su MI|
+19850608|ambosecco_caotico|MI,PA,BA|10|1|ambo:26-71;ambo:71-87|A=29 su MI/PA, B=61 su BA|
+19850608|ambosecco_caotico|NA,VE,TO|10|1|ambo:30-54;ambo:30-84|A=60 su NA/VE, B=30 su TO|
+19850608|lottofacile1|BA,TO|10|0|ambata:12;ambo:9-12;ambo:12-90;terzina:9-12-90|pos 2-3 somma 81|
+19850608|lottofacile1|BA,TO|10|0|ambata:12;ambo:12-81;ambo:12-18;terzina:12-18-81|pos 2-4 somma 9|
+19850608|lottofacile1|CA,GE|10|0|ambata:16;ambo:16-46;ambo:16-64;terzina:16-46-64|pos 2-5 somma 44|
+19850608|lottofacile1|CA,NA|10|0|ambata:40;ambo:40-61;ambo:16-40;terzina:16-40-61|pos 1-2 somma 29|
+19850608|lottofacile1|FI,TO|10|0|ambata:60;ambo:39-60;ambo:33-60;terzina:33-39-60|pos 3-5 somma 51|
+19850608|lottofacile1|GE,RM|10|0|ambata:78;ambo:44-78;ambo:49-78;terzina:44-49-78|pos 1-2 somma 46|
+19850608|lottofacile1|PA,TO|10|0|ambata:6;ambo:6-21;ambo:6-12;terzina:6-12-21|pos 4-5 somma 69|
+19850615|ambosecco_caotico|CA,TO,GE|10|1|ambo:33-83;ambo:83-86|A=37 su CA/TO, B=53 su GE|
+19850615|lottofacile5|TO|10|0|ambata:63;ambo:12-63;ambo:57-63;quartina:12-42-63-72;quartina:27-57-63-87|rilevamento 9-54|
+19850615|lottofacile1|BA,CA|10|0|ambata:4;ambo:4-6;ambo:4-60;terzina:4-6-60|pos 2-4 somma 84|
+19850615|lottofacile1|BA,NA|10|0|ambata:48;ambo:48-72;ambo:27-48;terzina:27-48-72|pos 2-3 somma 18|
+19850615|lottofacile1|BA,NA|10|0|ambata:78;ambo:22-78;ambo:29-78;terzina:22-29-78|pos 3-4 somma 68|
+19850615|lottofacile1|BA,RM|10|0|ambata:90;ambo:72-90;ambo:27-90;terzina:27-72-90|pos 2-3 somma 18|
+19850615|lottofacile1|FI,GE|10|0|ambata:58;ambo:22-58;ambo:29-58;terzina:22-29-58|pos 4-5 somma 68|
+19850615|lottofacile1|FI,NA|10|0|ambata:74;ambo:13-74;ambo:31-74;terzina:13-31-74|pos 1-5 somma 77|
+19850615|lottofacile1|FI,PA|10|0|ambata:66;ambo:22-66;ambo:29-66;terzina:22-29-66|pos 4-5 somma 68|
+19850615|lottofacile1|GE,PA|10|0|ambata:66;ambo:22-66;ambo:29-66;terzina:22-29-66|pos 4-5 somma 68|
+19850615|lottofacile1|MI,NA|10|0|ambata:78;ambo:11-78;ambo:19-78;terzina:11-19-78|pos 3-5 somma 79|
+19850615|lottofacile1|NA,RM|10|0|ambata:90;ambo:72-90;ambo:27-90;terzina:27-72-90|pos 2-3 somma 18|
+19850622|ambosecco_caotico|BA,FI,PA,RM|10|1|ambo:33-83;ambo:83-86|A=37 su BA/FI/PA, B=53 su RM|
+19850622|lottofacile5|BA|10|0|ambata:57;ambo:56-57;ambo:11-57;quartina:26-56-57-86;quartina:11-41-57-71|rilevamento 37-82|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19850622|lottofacile5|CA|10|0|ambata:75;ambo:32-75;ambo:75-77;quartina:2-32-62-75;quartina:17-47-75-77|rilevamento 43-88|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19850622|lottofacile5|RM|10|0|ambata:84;ambo:80-84;ambo:35-84;quartina:20-50-80-84;quartina:5-35-65-84|rilevamento 31-76|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19850622|lottofacile1|BA,RM|10|0|ambata:20;ambo:20-27;ambo:20-72;terzina:20-27-72|pos 4-5 somma 63|
 19850622|fulmine|CA,GE|12|0|ambata:73;ambo:43-73;ambo:33-73;ambo:3-73;quartina:3-33-43-73|cadenza, coppie ((73, 3), (43, 33))|
-19850622|lottofacile1|CA,NA|6|0|ambata:32;ambo:32-76;ambo:32-67;terzina:32-67-76|pos 1-2 somma 14|
-19850622|lottofacile1|FI,RM|6|0|ambata:12;ambo:12-29;ambo:12-22;terzina:12-22-29|pos 1-4 somma 61|
-19850622|lottofacile1|GE,RM|6|0|ambata:12;ambo:8-12;ambo:12-80;terzina:8-12-80|pos 1-3 somma 82|
-19850629|ambosecco_caotico|FI,RM,NA|2|1|ambo:30-54;ambo:30-84|A=60 su FI/RM, B=30 su NA|
-19850629|ambosecco_caotico|MI,PA,CA|2|1|ambo:5-32;ambo:15-86|A=35 su MI/PA, B=55 su CA|
-19850629|lottofacile1|BA,MI|6|0|ambata:76;ambo:17-76;ambo:71-76;terzina:17-71-76|pos 2-3 somma 73|
-19850629|lottofacile1|CA,MI|6|0|ambata:70;ambo:54-70;ambo:45-70;terzina:45-54-70|pos 3-4 somma 36|
-19850629|lottofacile1|CA,PA|6|0|ambata:50;ambo:50-69;ambo:50-66;terzina:50-66-69|pos 2-5 somma 21|
-19850629|lottofacile1|CA,TO|6|0|ambata:28;ambo:28-54;ambo:28-45;terzina:28-45-54|pos 3-4 somma 36|
-19850629|lottofacile1|CA,VE|6|0|ambata:60;ambo:52-60;ambo:25-60;terzina:25-52-60|pos 1-2 somma 38|
-19850629|lottofacile1|CA,VE|6|0|ambata:60;ambo:60-69;ambo:60-66;terzina:60-66-69|pos 1-4 somma 21|
-19850629|lottofacile1|FI,GE|6|0|ambata:50;ambo:14-50;ambo:41-50;terzina:14-41-50|pos 1-3 somma 76|
-19850629|lottofacile1|FI,RM|6|0|ambata:30;ambo:30-35;ambo:30-53;terzina:30-35-53|pos 2-5 somma 55|
-19850629|lottofacile1|GE,MI|6|0|ambata:70;ambo:37-70;ambo:70-73;terzina:37-70-73|pos 3-5 somma 53|
-19850629|lottofacile1|GE,VE|6|0|ambata:60;ambo:60-63;ambo:36-60;terzina:36-60-63|pos 1-5 somma 27|
-19850629|lottofacile1|MI,TO|6|0|ambata:28;ambo:28-54;ambo:28-45;terzina:28-45-54|pos 3-4 somma 36|
-19850706|ambosecco_caotico|BA,VE,MI|2|1|ambo:30-54;ambo:30-84|A=60 su BA/VE, B=30 su MI|
-19850706|ambosecco_caotico|FI,NA,GE|2|1|ambo:21-37;ambo:47-87|A=23 su FI/NA, B=67 su GE|
-19850706|ambosecco_caotico|FI,NA,CA|2|1|ambo:20-63;ambo:20-83|A=70 su FI/NA, B=20 su CA|
-19850706|ambosecco_caotico|NA,RM,PA|2|1|ambo:35-61;ambo:61-86|A=39 su NA/RM, B=51 su PA|
-19850706|lottofacile1|BA,CA|6|0|ambata:24;ambo:24-26;ambo:24-62;terzina:24-26-62|pos 3-4 somma 64|
+19850622|lottofacile1|CA,NA|10|0|ambata:32;ambo:32-76;ambo:32-67;terzina:32-67-76|pos 1-2 somma 14|
+19850622|lottofacile1|FI,RM|10|0|ambata:12;ambo:12-29;ambo:12-22;terzina:12-22-29|pos 1-4 somma 61|
+19850622|lottofacile1|GE,RM|10|0|ambata:12;ambo:8-12;ambo:12-80;terzina:8-12-80|pos 1-3 somma 82|
+19850629|ambosecco_caotico|FI,RM,NA|10|1|ambo:30-54;ambo:30-84|A=60 su FI/RM, B=30 su NA|
+19850629|ambosecco_caotico|MI,PA,CA|10|1|ambo:5-32;ambo:15-86|A=35 su MI/PA, B=55 su CA|
+19850629|lottofacile1|BA,MI|10|0|ambata:76;ambo:17-76;ambo:71-76;terzina:17-71-76|pos 2-3 somma 73|
+19850629|lottofacile1|CA,MI|10|0|ambata:70;ambo:54-70;ambo:45-70;terzina:45-54-70|pos 3-4 somma 36|
+19850629|lottofacile1|CA,PA|10|0|ambata:50;ambo:50-69;ambo:50-66;terzina:50-66-69|pos 2-5 somma 21|
+19850629|lottofacile1|CA,TO|10|0|ambata:28;ambo:28-54;ambo:28-45;terzina:28-45-54|pos 3-4 somma 36|
+19850629|lottofacile1|CA,VE|10|0|ambata:60;ambo:52-60;ambo:25-60;terzina:25-52-60|pos 1-2 somma 38|
+19850629|lottofacile1|CA,VE|10|0|ambata:60;ambo:60-69;ambo:60-66;terzina:60-66-69|pos 1-4 somma 21|
+19850629|lottofacile1|FI,GE|10|0|ambata:50;ambo:14-50;ambo:41-50;terzina:14-41-50|pos 1-3 somma 76|
+19850629|lottofacile1|FI,RM|10|0|ambata:30;ambo:30-35;ambo:30-53;terzina:30-35-53|pos 2-5 somma 55|
+19850629|lottofacile1|GE,MI|10|0|ambata:70;ambo:37-70;ambo:70-73;terzina:37-70-73|pos 3-5 somma 53|
+19850629|lottofacile1|GE,VE|10|0|ambata:60;ambo:60-63;ambo:36-60;terzina:36-60-63|pos 1-5 somma 27|
+19850629|lottofacile1|MI,TO|10|0|ambata:28;ambo:28-54;ambo:28-45;terzina:28-45-54|pos 3-4 somma 36|
+19850706|ambosecco_caotico|BA,VE,MI|10|1|ambo:30-54;ambo:30-84|A=60 su BA/VE, B=30 su MI|
+19850706|ambosecco_caotico|FI,NA,GE|10|1|ambo:21-37;ambo:47-87|A=23 su FI/NA, B=67 su GE|
+19850706|ambosecco_caotico|FI,NA,CA|10|1|ambo:20-63;ambo:20-83|A=70 su FI/NA, B=20 su CA|
+19850706|ambosecco_caotico|NA,RM,PA|10|1|ambo:35-61;ambo:61-86|A=39 su NA/RM, B=51 su PA|
+19850706|lottofacile1|BA,CA|10|0|ambata:24;ambo:24-26;ambo:24-62;terzina:24-26-62|pos 3-4 somma 64|
 19850706|lottofacile4|CA,MI|14|1|ambata:1;ambo:1-46;ambo:1-31;ambo:1-61;terzina:31-46-61|pos 3-5 diagonale|
-19850706|lottofacile1|CA,MI|6|0|ambata:14;ambo:14-56;ambo:14-65;terzina:14-56-65|pos 3-5 somma 34|
+19850706|lottofacile1|CA,MI|10|0|ambata:14;ambo:14-56;ambo:14-65;terzina:14-56-65|pos 3-5 somma 34|
 19850706|fulmine|CA,MI|12|0|ambata:82;ambo:12-82;ambo:22-82;ambo:72-82;quartina:12-22-72-82|cadenza, coppie ((12, 82), (22, 72))|
-19850706|lottofacile1|CA,VE|6|0|ambata:82;ambo:17-82;ambo:71-82;terzina:17-71-82|pos 1-2 somma 73|
-19850706|lottofacile1|CA,VE|6|0|ambata:64;ambo:58-64;ambo:64-85;terzina:58-64-85|pos 2-3 somma 32|
+19850706|lottofacile1|CA,VE|10|0|ambata:82;ambo:17-82;ambo:71-82;terzina:17-71-82|pos 1-2 somma 73|
+19850706|lottofacile1|CA,VE|10|0|ambata:64;ambo:58-64;ambo:64-85;terzina:58-64-85|pos 2-3 somma 32|
 19850706|fulmine|FI,VE|12|0|ambata:90;ambo:40-90;ambo:70-90;ambo:60-90;quartina:40-60-70-90|cadenza, coppie ((40, 90), (70, 60))|
-19850706|lottofacile1|GE,RM|6|0|ambata:48;ambo:48-61;ambo:16-48;terzina:16-48-61|pos 1-4 somma 29|
-19850706|lottofacile1|GE,TO|6|0|ambata:66;ambo:58-66;ambo:66-85;terzina:58-66-85|pos 1-2 somma 32|
+19850706|lottofacile1|GE,RM|10|0|ambata:48;ambo:48-61;ambo:16-48;terzina:16-48-61|pos 1-4 somma 29|
+19850706|lottofacile1|GE,TO|10|0|ambata:66;ambo:58-66;ambo:66-85;terzina:58-66-85|pos 1-2 somma 32|
 19850706|lottofacile4|NA,VE|14|1|ambata:47;ambo:2-47;ambo:47-77;ambo:17-47;terzina:2-17-77|pos 3-4 orizzontale|
-19850706|lottofacile1|TO,VE|6|0|ambata:64;ambo:64-88;ambo:64-89;terzina:64-88-89|pos 2-4 somma 2|
-19850713|ambosecco_caotico|CA,MI,RM,GE,PA|2|1|ambo:26-71;ambo:71-87|A=29 su CA/MI/RM, B=61 su GE/PA|
-19850713|ambosecco_caotico|FI,PA,MI|2|1|ambo:65-67;ambo:65-82|A=75 su FI/PA, B=15 su MI|
-19850713|ambosecco_caotico|GE,PA,CA,MI,RM|2|1|ambo:19-55;ambo:29-83|A=61 su GE/PA, B=29 su CA/MI/RM|
-19850713|ambosecco_caotico|MI,RM,PA|2|1|ambo:3-16;ambo:13-88|A=17 su MI/RM, B=73 su PA|
-19850713|lottofacile5|PA|9|0|ambata:90;ambata:45;ambo:51-90;ambo:6-90;ambo:45-51;ambo:6-45;quartina:21-51-81-90;quartina:6-36-66-90;quartina:21-45-51-81;quartina:6-36-45-66|rilevamento 30-75|
-19850713|lottofacile5|TO|9|0|ambata:57;ambo:57-89;ambo:44-57;quartina:29-57-59-89;quartina:14-44-57-74|rilevamento 4-49|
-19850713|lottofacile1|CA,GE|6|0|ambata:52;ambo:43-52;ambo:34-52;terzina:34-43-52|pos 3-5 somma 47|
-19850713|lottofacile1|FI,VE|6|0|ambata:2;ambo:2-24;ambo:2-42;terzina:2-24-42|pos 1-4 somma 66|
-19850713|lottofacile1|GE,RM|6|0|ambata:24;ambo:4-24;ambo:24-40;terzina:4-24-40|pos 1-2 somma 86|
-19850720|ambosecco_caotico|FI,MI,RM|2|1|ambo:28-38;ambo:38-85|A=42 su FI/MI, B=48 su RM|
-19850720|ambosecco_caotico|MI,RM,PA|2|1|ambo:29-38;ambo:48-86|A=32 su MI/RM, B=58 su PA|
-19850720|ambosecco_caotico|NA,VE,MI|2|1|ambo:26-71;ambo:71-87|A=29 su NA/VE, B=61 su MI|
-19850720|ambosecco_caotico|RM,VE,PA|2|1|ambo:29-46;ambo:39-84|A=51 su RM/VE, B=39 su PA|
-19850720|lottofacile1|BA,VE|6|0|ambata:30;ambo:30-46;ambo:30-64;terzina:30-46-64|pos 2-5 somma 44|
-19850720|lottofacile1|FI,MI|6|0|ambata:84;ambo:77-84;ambo:79-84;terzina:77-79-84|pos 2-3 somma 13|
+19850706|lottofacile1|TO,VE|10|0|ambata:64;ambo:64-88;ambo:64-89;terzina:64-88-89|pos 2-4 somma 2|
+19850713|ambosecco_caotico|CA,MI,RM,GE,PA|10|1|ambo:26-71;ambo:71-87|A=29 su CA/MI/RM, B=61 su GE/PA|
+19850713|ambosecco_caotico|FI,PA,MI|10|1|ambo:65-67;ambo:65-82|A=75 su FI/PA, B=15 su MI|
+19850713|ambosecco_caotico|GE,PA,CA,MI,RM|10|1|ambo:19-55;ambo:29-83|A=61 su GE/PA, B=29 su CA/MI/RM|
+19850713|ambosecco_caotico|MI,RM,PA|10|1|ambo:3-16;ambo:13-88|A=17 su MI/RM, B=73 su PA|
+19850713|lottofacile5|PA|10|0|ambata:90;ambata:45;ambo:51-90;ambo:6-90;ambo:45-51;ambo:6-45;quartina:21-51-81-90;quartina:6-36-66-90;quartina:21-45-51-81;quartina:6-36-45-66|rilevamento 30-75|
+19850713|lottofacile5|TO|10|0|ambata:57;ambo:57-89;ambo:44-57;quartina:29-57-59-89;quartina:14-44-57-74|rilevamento 4-49|
+19850713|lottofacile1|CA,GE|10|0|ambata:52;ambo:43-52;ambo:34-52;terzina:34-43-52|pos 3-5 somma 47|
+19850713|lottofacile1|FI,VE|10|0|ambata:2;ambo:2-24;ambo:2-42;terzina:2-24-42|pos 1-4 somma 66|
+19850713|lottofacile1|GE,RM|10|0|ambata:24;ambo:4-24;ambo:24-40;terzina:4-24-40|pos 1-2 somma 86|
+19850720|ambosecco_caotico|FI,MI,RM|10|1|ambo:28-38;ambo:38-85|A=42 su FI/MI, B=48 su RM|
+19850720|ambosecco_caotico|MI,RM,PA|10|1|ambo:29-38;ambo:48-86|A=32 su MI/RM, B=58 su PA|
+19850720|ambosecco_caotico|NA,VE,MI|10|1|ambo:26-71;ambo:71-87|A=29 su NA/VE, B=61 su MI|
+19850720|ambosecco_caotico|RM,VE,PA|10|1|ambo:29-46;ambo:39-84|A=51 su RM/VE, B=39 su PA|
+19850720|lottofacile1|BA,VE|10|0|ambata:30;ambo:30-46;ambo:30-64;terzina:30-46-64|pos 2-5 somma 44|
+19850720|lottofacile1|FI,MI|10|0|ambata:84;ambo:77-84;ambo:79-84;terzina:77-79-84|pos 2-3 somma 13|
 19850720|lottofacile4|MI,NA|14|1|ambata:45;ambo:45-90;ambo:45-75;ambo:15-45;terzina:15-75-90|pos 1-2 orizzontale|
-19850720|lottofacile1|MI,PA|6|0|ambata:78;ambo:78-87;ambo:78-78|pos 3-4 somma 3|
+19850720|lottofacile1|MI,PA|10|0|ambata:78;ambo:78-87;ambo:78-78|pos 3-4 somma 3|
 19850720|fulmine|MI,TO|12|0|ambata:42;ambo:32-42;ambo:2-42;ambo:12-42;quartina:2-12-32-42|cadenza, coppie ((42, 2), (32, 12))|
-19850727|ambosecco_caotico|BA,FI,CA|2|1|ambo:25-82;ambo:82-87|A=28 su BA/FI, B=62 su CA|
-19850727|ambosecco_caotico|BA,GE,PA|2|1|ambo:11-58;ambo:68-88|A=12 su BA/GE, B=78 su PA|
-19850727|ambosecco_caotico|GE,NA,MI,VE|2|1|ambo:36-50;ambo:50-86|A=40 su GE/NA, B=50 su MI/VE|
-19850727|ambosecco_caotico|MI,VE,GE,NA|2|1|ambo:40-45;ambo:40-85|A=50 su MI/VE, B=40 su GE/NA|
-19850727|ambosecco_caotico|PA,RM,MI|2|1|ambo:65-67;ambo:65-82|A=75 su PA/RM, B=15 su MI|
-19850727|lottofacile5|FI|9|0|ambata:33;ambo:13-33;ambo:33-58;quartina:13-33-43-73;quartina:28-33-58-88|rilevamento 11-56|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19850727|lottofacile5|NA|9|0|ambata:21;ambata:66;ambo:21-89;ambo:21-44;ambo:66-89;ambo:44-66;quartina:21-29-59-89;quartina:14-21-44-74;quartina:29-59-66-89;quartina:14-44-66-74|rilevamento 40-85|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19850727|lottofacile5|TO|9|0|ambata:84;ambata:39;ambo:80-84;ambo:35-84;ambo:39-80;ambo:35-39;quartina:20-50-80-84;quartina:5-35-65-84;quartina:20-39-50-80;quartina:5-35-39-65|rilevamento 31-76|
-19850727|lottofacile1|BA,GE|6|0|ambata:58;ambo:58-66;ambo:58-69;terzina:58-66-69|pos 1-5 somma 24|
+19850727|ambosecco_caotico|BA,FI,CA|10|1|ambo:25-82;ambo:82-87|A=28 su BA/FI, B=62 su CA|
+19850727|ambosecco_caotico|BA,GE,PA|10|1|ambo:11-58;ambo:68-88|A=12 su BA/GE, B=78 su PA|
+19850727|ambosecco_caotico|GE,NA,MI,VE|10|1|ambo:36-50;ambo:50-86|A=40 su GE/NA, B=50 su MI/VE|
+19850727|ambosecco_caotico|MI,VE,GE,NA|10|1|ambo:40-45;ambo:40-85|A=50 su MI/VE, B=40 su GE/NA|
+19850727|ambosecco_caotico|PA,RM,MI|10|1|ambo:65-67;ambo:65-82|A=75 su PA/RM, B=15 su MI|
+19850727|lottofacile5|FI|10|0|ambata:33;ambo:13-33;ambo:33-58;quartina:13-33-43-73;quartina:28-33-58-88|rilevamento 11-56|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19850727|lottofacile5|NA|10|0|ambata:21;ambata:66;ambo:21-89;ambo:21-44;ambo:66-89;ambo:44-66;quartina:21-29-59-89;quartina:14-21-44-74;quartina:29-59-66-89;quartina:14-44-66-74|rilevamento 40-85|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19850727|lottofacile5|TO|10|0|ambata:84;ambata:39;ambo:80-84;ambo:35-84;ambo:39-80;ambo:35-39;quartina:20-50-80-84;quartina:5-35-65-84;quartina:20-39-50-80;quartina:5-35-39-65|rilevamento 31-76|
+19850727|lottofacile1|BA,GE|10|0|ambata:58;ambo:58-66;ambo:58-69;terzina:58-66-69|pos 1-5 somma 24|
 19850727|lottofacile4|BA,NA|14|1|ambata:27;ambo:27-72;ambo:27-57;ambo:27-87;terzina:57-72-87|pos 1-3 verticale|
-19850727|lottofacile1|BA,NA|6|0|ambata:46;ambo:46-72;ambo:27-46;terzina:27-46-72|pos 1-3 somma 18|
-19850727|lottofacile1|BA,PA|6|0|ambata:60;ambo:60-64;ambo:46-60;terzina:46-60-64|pos 3-5 somma 26|
-19850727|lottofacile1|FI,MI|6|0|ambata:34;ambo:23-34;ambo:32-34;terzina:23-32-34|pos 2-5 somma 67|
-19850727|lottofacile1|FI,PA|6|0|ambata:6;ambo:6-11;ambo:6-19;terzina:6-11-19|pos 1-2 somma 79|
+19850727|lottofacile1|BA,NA|10|0|ambata:46;ambo:46-72;ambo:27-46;terzina:27-46-72|pos 1-3 somma 18|
+19850727|lottofacile1|BA,PA|10|0|ambata:60;ambo:60-64;ambo:46-60;terzina:46-60-64|pos 3-5 somma 26|
+19850727|lottofacile1|FI,MI|10|0|ambata:34;ambo:23-34;ambo:32-34;terzina:23-32-34|pos 2-5 somma 67|
+19850727|lottofacile1|FI,PA|10|0|ambata:6;ambo:6-11;ambo:6-19;terzina:6-11-19|pos 1-2 somma 79|
 19850727|fulmine|GE,PA|12|0|ambata:84;ambo:12-84;ambo:3-84;ambo:75-84;quartina:3-12-75-84|figura, coppie ((12, 75), (84, 3))|
-19850803|ambosecco_caotico|BA,GE,VE,MI|2|1|ambo:65-87;ambo:82-87|A=73 su BA/GE/VE, B=17 su MI|
-19850803|ambosecco_caotico|NA,PA,TO|2|1|ambo:11-80;ambo:11-81|A=89 su NA/PA, B=1 su TO|
-19850803|lottofacile5|VE|9|0|ambata:90;ambata:45;ambo:42-90;ambo:87-90;ambo:42-45;ambo:45-87;quartina:12-42-72-90;quartina:27-57-87-90;quartina:12-42-45-72;quartina:27-45-57-87|rilevamento 3-48|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19850803|lottofacile1|BA,NA|6|0|ambata:62;ambo:49-62;ambo:44-62;terzina:44-49-62|pos 1-4 somma 41|
-19850803|lottofacile1|BA,RM|6|0|ambata:88;ambo:32-88;ambo:23-88;terzina:23-32-88|pos 1-2 somma 58|
-19850803|lottofacile1|BA,VE|6|0|ambata:6;ambo:6-49;ambo:6-44;terzina:6-44-49|pos 1-4 somma 41|
+19850803|ambosecco_caotico|BA,GE,VE,MI|10|1|ambo:65-87;ambo:82-87|A=73 su BA/GE/VE, B=17 su MI|
+19850803|ambosecco_caotico|NA,PA,TO|10|1|ambo:11-80;ambo:11-81|A=89 su NA/PA, B=1 su TO|
+19850803|lottofacile5|VE|10|0|ambata:90;ambata:45;ambo:42-90;ambo:87-90;ambo:42-45;ambo:45-87;quartina:12-42-72-90;quartina:27-57-87-90;quartina:12-42-45-72;quartina:27-45-57-87|rilevamento 3-48|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19850803|lottofacile1|BA,NA|10|0|ambata:62;ambo:49-62;ambo:44-62;terzina:44-49-62|pos 1-4 somma 41|
+19850803|lottofacile1|BA,RM|10|0|ambata:88;ambo:32-88;ambo:23-88;terzina:23-32-88|pos 1-2 somma 58|
+19850803|lottofacile1|BA,VE|10|0|ambata:6;ambo:6-49;ambo:6-44;terzina:6-44-49|pos 1-4 somma 41|
 19850803|fulmine|CA,NA|12|0|ambata:86;ambo:77-86;ambo:32-86;ambo:23-86;quartina:23-32-77-86|figura, coppie ((86, 23), (77, 32))|
 19850803|lottofacile4|CA,RM|14|1|ambata:85;ambo:40-85;ambo:25-85;ambo:55-85;terzina:25-40-55|pos 1-2 orizzontale|
-19850803|lottofacile1|FI,MI|6|0|ambata:44;ambo:44-51;ambo:15-44;terzina:15-44-51|pos 1-2 somma 39|
-19850803|lottofacile1|FI,RM|6|0|ambata:88;ambo:46-88;ambo:64-88;terzina:46-64-88|pos 1-5 somma 44|
-19850803|lottofacile1|GE,MI|6|0|ambata:44;ambo:13-44;ambo:31-44;terzina:13-31-44|pos 1-3 somma 77|
-19850803|lottofacile1|NA,VE|6|0|ambata:6;ambo:6-49;ambo:6-44;terzina:6-44-49|pos 1-4 somma 41|
-19850803|lottofacile1|NA,VE|6|0|ambata:56;ambo:56-59;ambo:55-56;terzina:55-56-59|pos 2-5 somma 31|
-19850803|lottofacile1|PA,TO|6|0|ambata:2;ambo:2-61;ambo:2-16;terzina:2-16-61|pos 4-5 somma 29|
-19850810|ambosecco_caotico|FI,MI,TO|2|1|ambo:32-70;ambo:32-82|A=78 su FI/MI, B=12 su TO|
-19850810|lottofacile5|BA|9|0|ambata:84;ambo:80-84;ambo:35-84;quartina:20-50-80-84;quartina:5-35-65-84|rilevamento 31-76|
-19850810|lottofacile5|MI|9|0|ambata:90;ambo:12-90;ambo:57-90;quartina:12-42-72-90;quartina:27-57-87-90|rilevamento 33-78|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19850810|lottofacile5|NA|9|0|ambata:42;ambo:42-79;ambo:34-42;quartina:19-42-49-79;quartina:4-34-42-64|rilevamento 44-89|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19850810|lottofacile1|CA,VE|6|0|ambata:16;ambo:16-51;ambo:15-16;terzina:15-16-51|pos 1-4 somma 39|
-19850810|lottofacile1|FI,NA|6|0|ambata:88;ambo:47-88;ambo:74-88;terzina:47-74-88|pos 1-3 somma 43|
-19850810|lottofacile1|PA,VE|6|0|ambata:16;ambo:16-50;ambo:5-16;terzina:5-16-50|pos 1-2 somma 40|
-19850817|ambosecco_caotico|BA,NA,VE|2|1|ambo:31-62;ambo:31-83|A=69 su BA/NA, B=21 su VE|
-19850817|ambosecco_caotico|GE,RM,BA|2|1|ambo:16-31;ambo:26-86|A=34 su GE/RM, B=56 su BA|
-19850817|ambosecco_caotico|NA,VE,BA|2|1|ambo:19-59;ambo:69-87|A=21 su NA/VE, B=69 su BA|
-19850817|lottofacile5|NA|9|0|ambata:90;ambo:51-90;ambo:6-90;quartina:21-51-81-90;quartina:6-36-66-90|rilevamento 30-75|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19850817|lottofacile5|PA|9|0|ambata:72;ambata:27;ambo:36-72;ambo:72-81;ambo:27-36;ambo:27-81;quartina:6-36-66-72;quartina:21-51-72-81;quartina:6-27-36-66;quartina:21-27-51-81|rilevamento 27-72|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19850817|lottofacile1|BA,GE|6|0|ambata:2;ambo:2-55;ambo:2-59;terzina:2-55-59|pos 2-4 somma 35|
-19850817|lottofacile1|BA,NA|6|0|ambata:60;ambo:39-60;ambo:33-60;terzina:33-39-60|pos 1-4 somma 51|
-19850817|lottofacile1|FI,TO|6|0|ambata:28;ambo:18-28;ambo:28-81;terzina:18-28-81|pos 3-4 somma 72|
-19850817|lottofacile1|MI,TO|6|0|ambata:60;ambo:60-60;ambo:6-60|pos 1-2 somma 30|
-19850817|lottofacile1|NA,PA|6|0|ambata:54;ambo:54-81;ambo:18-54;terzina:18-54-81|pos 1-2 somma 9|
-19850824|ambosecco_caotico|FI,VE,CA|2|1|ambo:2-68;ambo:78-89|A=2 su FI/VE, B=88 su CA|
-19850824|ambosecco_caotico|GE,RM,TO|2|1|ambo:73-88;ambo:81-88|A=82 su GE/RM, B=8 su TO|
-19850824|lottofacile5|BA|9|0|ambata:33;ambata:78;ambo:13-33;ambo:33-58;ambo:13-78;ambo:58-78;quartina:13-33-43-73;quartina:28-33-58-88;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 11-56|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19850824|lottofacile1|FI,VE|6|0|ambata:84;ambo:46-84;ambo:64-84;terzina:46-64-84|pos 2-5 somma 44|
+19850803|lottofacile1|FI,MI|10|0|ambata:44;ambo:44-51;ambo:15-44;terzina:15-44-51|pos 1-2 somma 39|
+19850803|lottofacile1|FI,RM|10|0|ambata:88;ambo:46-88;ambo:64-88;terzina:46-64-88|pos 1-5 somma 44|
+19850803|lottofacile1|GE,MI|10|0|ambata:44;ambo:13-44;ambo:31-44;terzina:13-31-44|pos 1-3 somma 77|
+19850803|lottofacile1|NA,VE|10|0|ambata:6;ambo:6-49;ambo:6-44;terzina:6-44-49|pos 1-4 somma 41|
+19850803|lottofacile1|NA,VE|10|0|ambata:56;ambo:56-59;ambo:55-56;terzina:55-56-59|pos 2-5 somma 31|
+19850803|lottofacile1|PA,TO|10|0|ambata:2;ambo:2-61;ambo:2-16;terzina:2-16-61|pos 4-5 somma 29|
+19850810|ambosecco_caotico|FI,MI,TO|10|1|ambo:32-70;ambo:32-82|A=78 su FI/MI, B=12 su TO|
+19850810|lottofacile5|BA|10|0|ambata:84;ambo:80-84;ambo:35-84;quartina:20-50-80-84;quartina:5-35-65-84|rilevamento 31-76|
+19850810|lottofacile5|MI|10|0|ambata:90;ambo:12-90;ambo:57-90;quartina:12-42-72-90;quartina:27-57-87-90|rilevamento 33-78|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19850810|lottofacile5|NA|10|0|ambata:42;ambo:42-79;ambo:34-42;quartina:19-42-49-79;quartina:4-34-42-64|rilevamento 44-89|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19850810|lottofacile1|CA,VE|10|0|ambata:16;ambo:16-51;ambo:15-16;terzina:15-16-51|pos 1-4 somma 39|
+19850810|lottofacile1|FI,NA|10|0|ambata:88;ambo:47-88;ambo:74-88;terzina:47-74-88|pos 1-3 somma 43|
+19850810|lottofacile1|PA,VE|10|0|ambata:16;ambo:16-50;ambo:5-16;terzina:5-16-50|pos 1-2 somma 40|
+19850817|ambosecco_caotico|BA,NA,VE|10|1|ambo:31-62;ambo:31-83|A=69 su BA/NA, B=21 su VE|
+19850817|ambosecco_caotico|GE,RM,BA|10|1|ambo:16-31;ambo:26-86|A=34 su GE/RM, B=56 su BA|
+19850817|ambosecco_caotico|NA,VE,BA|10|1|ambo:19-59;ambo:69-87|A=21 su NA/VE, B=69 su BA|
+19850817|lottofacile5|NA|10|0|ambata:90;ambo:51-90;ambo:6-90;quartina:21-51-81-90;quartina:6-36-66-90|rilevamento 30-75|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19850817|lottofacile5|PA|10|0|ambata:72;ambata:27;ambo:36-72;ambo:72-81;ambo:27-36;ambo:27-81;quartina:6-36-66-72;quartina:21-51-72-81;quartina:6-27-36-66;quartina:21-27-51-81|rilevamento 27-72|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19850817|lottofacile1|BA,GE|10|0|ambata:2;ambo:2-55;ambo:2-59;terzina:2-55-59|pos 2-4 somma 35|
+19850817|lottofacile1|BA,NA|10|0|ambata:60;ambo:39-60;ambo:33-60;terzina:33-39-60|pos 1-4 somma 51|
+19850817|lottofacile1|FI,TO|10|0|ambata:28;ambo:18-28;ambo:28-81;terzina:18-28-81|pos 3-4 somma 72|
+19850817|lottofacile1|MI,TO|10|0|ambata:60;ambo:60-60;ambo:6-60|pos 1-2 somma 30|
+19850817|lottofacile1|NA,PA|10|0|ambata:54;ambo:54-81;ambo:18-54;terzina:18-54-81|pos 1-2 somma 9|
+19850824|ambosecco_caotico|FI,VE,CA|10|1|ambo:2-68;ambo:78-89|A=2 su FI/VE, B=88 su CA|
+19850824|ambosecco_caotico|GE,RM,TO|10|1|ambo:73-88;ambo:81-88|A=82 su GE/RM, B=8 su TO|
+19850824|lottofacile5|BA|10|0|ambata:33;ambata:78;ambo:13-33;ambo:33-58;ambo:13-78;ambo:58-78;quartina:13-33-43-73;quartina:28-33-58-88;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 11-56|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19850824|lottofacile1|FI,VE|10|0|ambata:84;ambo:46-84;ambo:64-84;terzina:46-64-84|pos 2-5 somma 44|
 19850824|lottofacile4|GE,NA|14|1|ambata:61;ambo:16-61;ambo:1-61;ambo:31-61;terzina:1-16-31|pos 1-3 verticale|
 19850824|fulmine|NA,PA|12|0|ambata:55;ambo:28-55;ambo:37-55;ambo:10-55;quartina:10-28-37-55|figura, coppie ((28, 37), (55, 10))|
-19850831|ambosecco_caotico|BA,RM,FI|2|1|ambo:27-30;ambo:37-86|A=33 su BA/RM, B=57 su FI|
-19850831|ambosecco_caotico|CA,RM,VE|2|1|ambo:10-72;ambo:10-82|A=80 su CA/RM, B=10 su VE|
-19850831|ambosecco_caotico|FI,MI,CA|2|1|ambo:4-46;ambo:56-89|A=4 su FI/MI, B=86 su CA|
-19850831|ambosecco_caotico|GE,TO,NA|2|1|ambo:19-55;ambo:29-83|A=61 su GE/TO, B=29 su NA|
-19850831|lottofacile1|BA,FI|6|0|ambata:8;ambo:8-29;ambo:8-22;terzina:8-22-29|pos 2-5 somma 61|
+19850831|ambosecco_caotico|BA,RM,FI|10|1|ambo:27-30;ambo:37-86|A=33 su BA/RM, B=57 su FI|
+19850831|ambosecco_caotico|CA,RM,VE|10|1|ambo:10-72;ambo:10-82|A=80 su CA/RM, B=10 su VE|
+19850831|ambosecco_caotico|FI,MI,CA|10|1|ambo:4-46;ambo:56-89|A=4 su FI/MI, B=86 su CA|
+19850831|ambosecco_caotico|GE,TO,NA|10|1|ambo:19-55;ambo:29-83|A=61 su GE/TO, B=29 su NA|
+19850831|lottofacile1|BA,FI|10|0|ambata:8;ambo:8-29;ambo:8-22;terzina:8-22-29|pos 2-5 somma 61|
 19850831|lottofacile4|BA,NA|14|1|ambata:85;ambo:40-85;ambo:25-85;ambo:55-85;terzina:25-40-55|pos 2-3 verticale|
-19850831|lottofacile1|CA,FI|6|0|ambata:8;ambo:8-79;ambo:8-77;terzina:8-77-79|pos 2-3 somma 11|
-19850831|lottofacile1|CA,GE|6|0|ambata:64;ambo:64-87;ambo:64-78;terzina:64-78-87|pos 3-5 somma 3|
+19850831|lottofacile1|CA,FI|10|0|ambata:8;ambo:8-79;ambo:8-77;terzina:8-77-79|pos 2-3 somma 11|
+19850831|lottofacile1|CA,GE|10|0|ambata:64;ambo:64-87;ambo:64-78;terzina:64-78-87|pos 3-5 somma 3|
 19850831|lottofacile4|MI,NA|14|1|ambata:87;ambo:42-87;ambo:27-87;ambo:57-87;terzina:27-42-57|pos 1-4 diagonale|
-19850831|lottofacile1|NA,PA|6|0|ambata:82;ambo:49-82;ambo:44-82;terzina:44-49-82|pos 2-4 somma 41|
-19850831|lottofacile1|TO,VE|6|0|ambata:20;ambo:12-20;ambo:20-21;terzina:12-20-21|pos 1-5 somma 78|
-19850907|ambosecco_caotico|FI,VE,BA|2|1|ambo:18-70;ambo:70-88|A=20 su FI/VE, B=70 su BA|
-19850907|ambosecco_caotico|MI,NA,BA|2|1|ambo:65-67;ambo:65-82|A=75 su MI/NA, B=15 su BA|
-19850907|lottofacile1|BA,CA|6|0|ambata:64;ambo:64-77;ambo:64-79;terzina:64-77-79|pos 3-5 somma 13|
+19850831|lottofacile1|NA,PA|10|0|ambata:82;ambo:49-82;ambo:44-82;terzina:44-49-82|pos 2-4 somma 41|
+19850831|lottofacile1|TO,VE|10|0|ambata:20;ambo:12-20;ambo:20-21;terzina:12-20-21|pos 1-5 somma 78|
+19850907|ambosecco_caotico|FI,VE,BA|10|1|ambo:18-70;ambo:70-88|A=20 su FI/VE, B=70 su BA|
+19850907|ambosecco_caotico|MI,NA,BA|10|1|ambo:65-67;ambo:65-82|A=75 su MI/NA, B=15 su BA|
+19850907|lottofacile1|BA,CA|10|0|ambata:64;ambo:64-77;ambo:64-79;terzina:64-77-79|pos 3-5 somma 13|
 19850907|fulmine|BA,FI|12|0|ambata:83;ambo:33-83;ambo:53-83;ambo:3-83;quartina:3-33-53-83|cadenza, coppie ((83, 3), (33, 53))|
-19850907|lottofacile1|BA,PA|6|0|ambata:84;ambo:64-84;ambo:46-84;terzina:46-64-84|pos 1-3 somma 26|
-19850907|lottofacile1|BA,PA|6|0|ambata:38;ambo:38-42;ambo:24-38;terzina:24-38-42|pos 2-3 somma 48|
-19850907|lottofacile1|FI,NA|6|0|ambata:84;ambo:66-84;ambo:69-84;terzina:66-69-84|pos 2-3 somma 24|
+19850907|lottofacile1|BA,PA|10|0|ambata:84;ambo:64-84;ambo:46-84;terzina:46-64-84|pos 1-3 somma 26|
+19850907|lottofacile1|BA,PA|10|0|ambata:38;ambo:38-42;ambo:24-38;terzina:24-38-42|pos 2-3 somma 48|
+19850907|lottofacile1|FI,NA|10|0|ambata:84;ambo:66-84;ambo:69-84;terzina:66-69-84|pos 2-3 somma 24|
 19850907|lottofacile4|MI,NA|14|1|ambata:87;ambo:42-87;ambo:27-87;ambo:57-87;terzina:27-42-57|pos 2-3 orizzontale|
-19850907|lottofacile1|MI,VE|6|0|ambata:40;ambo:40-84;ambo:40-48;terzina:40-48-84|pos 1-5 somma 6|
-19850907|lottofacile1|NA,PA|6|0|ambata:84;ambo:14-84;ambo:41-84;terzina:14-41-84|pos 1-4 somma 76|
-19850907|lottofacile1|PA,VE|6|0|ambata:8;ambo:8-55;ambo:8-59;terzina:8-55-59|pos 2-5 somma 35|
-19850914|ambosecco_caotico|FI,RM,MI|2|1|ambo:26-71;ambo:71-87|A=29 su FI/RM, B=61 su MI|
-19850914|ambosecco_caotico|FI,TO,VE|2|1|ambo:59-64;ambo:64-83|A=66 su FI/TO, B=24 su VE|
-19850914|ambosecco_caotico|MI,TO,VE|2|1|ambo:74-77;ambo:77-81|A=83 su MI/TO, B=7 su VE|
-19850914|lottofacile5|BA|9|0|ambata:6;ambata:51;ambo:6-64;ambo:6-19;ambo:51-64;ambo:19-51;quartina:4-6-34-64;quartina:6-19-49-79;quartina:4-34-51-64;quartina:19-49-51-79|rilevamento 5-50|
-19850914|lottofacile1|BA,TO|6|0|ambata:66;ambo:35-66;ambo:53-66;terzina:35-53-66|pos 1-4 somma 55|
-19850914|lottofacile1|FI,GE|6|0|ambata:60;ambo:60-77;ambo:60-79;terzina:60-77-79|pos 4-5 somma 13|
-19850914|lottofacile1|FI,MI|6|0|ambata:36;ambo:36-38;ambo:36-83;terzina:36-38-83|pos 1-3 somma 52|
-19850914|lottofacile1|FI,NA|6|0|ambata:76;ambo:24-76;ambo:42-76;terzina:24-42-76|pos 1-5 somma 66|
-19850914|lottofacile1|GE,VE|6|0|ambata:16;ambo:16-18;ambo:16-81;terzina:16-18-81|pos 2-5 somma 72|
-19850914|lottofacile1|TO,VE|6|0|ambata:14;ambo:14-64;ambo:14-46;terzina:14-46-64|pos 1-5 somma 26|
-19850921|ambosecco_caotico|CA,FI,TO|2|1|ambo:4-24;ambo:14-87|A=26 su CA/FI, B=64 su TO|
-19850921|ambosecco_caotico|GE,MI,PA|2|1|ambo:20-63;ambo:20-83|A=70 su GE/MI, B=20 su PA|
-19850921|ambosecco_caotico|GE,RM,VE|2|1|ambo:7-48;ambo:17-84|A=53 su GE/RM, B=37 su VE|
-19850921|lottofacile1|CA,VE|6|0|ambata:74;ambo:19-74;ambo:11-74;terzina:11-19-74|pos 1-4 somma 71|
-19850921|lottofacile1|FI,PA|6|0|ambata:74;ambo:74-78;ambo:74-87;terzina:74-78-87|pos 1-4 somma 12|
-19850921|lottofacile1|FI,RM|6|0|ambata:16;ambo:15-16;ambo:16-51;terzina:15-16-51|pos 3-4 somma 75|
-19850921|lottofacile1|MI,VE|6|0|ambata:80;ambo:16-80;ambo:61-80;terzina:16-61-80|pos 3-4 somma 74|
-19850921|lottofacile1|NA,PA|6|0|ambata:40;ambo:22-40;ambo:29-40;terzina:22-29-40|pos 4-5 somma 68|
-19850928|ambosecco_caotico|BA,CA,GE,PA|2|1|ambo:55-76;ambo:55-81|A=85 su BA/CA, B=5 su GE/PA|
-19850928|ambosecco_caotico|GE,PA,BA,CA|2|1|ambo:5-35;ambo:45-89|A=5 su GE/PA, B=85 su BA/CA|
-19850928|ambosecco_caotico|MI,TO,VE|2|1|ambo:13-36;ambo:46-88|A=14 su MI/TO, B=76 su VE|
-19850928|lottofacile5|GE|9|0|ambata:6;ambata:51;ambo:6-64;ambo:6-19;ambo:51-64;ambo:19-51;quartina:4-6-34-64;quartina:6-19-49-79;quartina:4-34-51-64;quartina:19-49-51-79|rilevamento 5-50|
-19850928|lottofacile1|MI,RM|6|0|ambata:82;ambo:46-82;ambo:64-82;terzina:46-64-82|pos 1-4 somma 44|
-19850928|lottofacile1|NA,RM|6|0|ambata:82;ambo:82-86;ambo:68-82;terzina:68-82-86|pos 1-2 somma 4|
-19850928|lottofacile1|RM,TO|6|0|ambata:28;ambo:9-28;ambo:28-90;terzina:9-28-90|pos 3-5 somma 81|
-19851005|ambosecco_caotico|BA,FI,PA,RM|2|1|ambo:37-39;ambo:49-85|A=41 su BA/FI/PA, B=49 su RM|
-19851005|ambosecco_caotico|GE,RM,MI|2|1|ambo:12-47;ambo:57-88|A=13 su GE/RM, B=77 su MI|
-19851005|lottofacile1|FI,GE|6|0|ambata:24;ambo:24-76;ambo:24-67;terzina:24-67-76|pos 3-4 somma 14|
+19850907|lottofacile1|MI,VE|10|0|ambata:40;ambo:40-84;ambo:40-48;terzina:40-48-84|pos 1-5 somma 6|
+19850907|lottofacile1|NA,PA|10|0|ambata:84;ambo:14-84;ambo:41-84;terzina:14-41-84|pos 1-4 somma 76|
+19850907|lottofacile1|PA,VE|10|0|ambata:8;ambo:8-55;ambo:8-59;terzina:8-55-59|pos 2-5 somma 35|
+19850914|ambosecco_caotico|FI,RM,MI|10|1|ambo:26-71;ambo:71-87|A=29 su FI/RM, B=61 su MI|
+19850914|ambosecco_caotico|FI,TO,VE|10|1|ambo:59-64;ambo:64-83|A=66 su FI/TO, B=24 su VE|
+19850914|ambosecco_caotico|MI,TO,VE|10|1|ambo:74-77;ambo:77-81|A=83 su MI/TO, B=7 su VE|
+19850914|lottofacile5|BA|10|0|ambata:6;ambata:51;ambo:6-64;ambo:6-19;ambo:51-64;ambo:19-51;quartina:4-6-34-64;quartina:6-19-49-79;quartina:4-34-51-64;quartina:19-49-51-79|rilevamento 5-50|
+19850914|lottofacile1|BA,TO|10|0|ambata:66;ambo:35-66;ambo:53-66;terzina:35-53-66|pos 1-4 somma 55|
+19850914|lottofacile1|FI,GE|10|0|ambata:60;ambo:60-77;ambo:60-79;terzina:60-77-79|pos 4-5 somma 13|
+19850914|lottofacile1|FI,MI|10|0|ambata:36;ambo:36-38;ambo:36-83;terzina:36-38-83|pos 1-3 somma 52|
+19850914|lottofacile1|FI,NA|10|0|ambata:76;ambo:24-76;ambo:42-76;terzina:24-42-76|pos 1-5 somma 66|
+19850914|lottofacile1|GE,VE|10|0|ambata:16;ambo:16-18;ambo:16-81;terzina:16-18-81|pos 2-5 somma 72|
+19850914|lottofacile1|TO,VE|10|0|ambata:14;ambo:14-64;ambo:14-46;terzina:14-46-64|pos 1-5 somma 26|
+19850921|ambosecco_caotico|CA,FI,TO|10|1|ambo:4-24;ambo:14-87|A=26 su CA/FI, B=64 su TO|
+19850921|ambosecco_caotico|GE,MI,PA|10|1|ambo:20-63;ambo:20-83|A=70 su GE/MI, B=20 su PA|
+19850921|ambosecco_caotico|GE,RM,VE|10|1|ambo:7-48;ambo:17-84|A=53 su GE/RM, B=37 su VE|
+19850921|lottofacile1|CA,VE|10|0|ambata:74;ambo:19-74;ambo:11-74;terzina:11-19-74|pos 1-4 somma 71|
+19850921|lottofacile1|FI,PA|10|0|ambata:74;ambo:74-78;ambo:74-87;terzina:74-78-87|pos 1-4 somma 12|
+19850921|lottofacile1|FI,RM|10|0|ambata:16;ambo:15-16;ambo:16-51;terzina:15-16-51|pos 3-4 somma 75|
+19850921|lottofacile1|MI,VE|10|0|ambata:80;ambo:16-80;ambo:61-80;terzina:16-61-80|pos 3-4 somma 74|
+19850921|lottofacile1|NA,PA|10|0|ambata:40;ambo:22-40;ambo:29-40;terzina:22-29-40|pos 4-5 somma 68|
+19850928|ambosecco_caotico|BA,CA,GE,PA|10|1|ambo:55-76;ambo:55-81|A=85 su BA/CA, B=5 su GE/PA|
+19850928|ambosecco_caotico|GE,PA,BA,CA|10|1|ambo:5-35;ambo:45-89|A=5 su GE/PA, B=85 su BA/CA|
+19850928|ambosecco_caotico|MI,TO,VE|10|1|ambo:13-36;ambo:46-88|A=14 su MI/TO, B=76 su VE|
+19850928|lottofacile5|GE|10|0|ambata:6;ambata:51;ambo:6-64;ambo:6-19;ambo:51-64;ambo:19-51;quartina:4-6-34-64;quartina:6-19-49-79;quartina:4-34-51-64;quartina:19-49-51-79|rilevamento 5-50|
+19850928|lottofacile1|MI,RM|10|0|ambata:82;ambo:46-82;ambo:64-82;terzina:46-64-82|pos 1-4 somma 44|
+19850928|lottofacile1|NA,RM|10|0|ambata:82;ambo:82-86;ambo:68-82;terzina:68-82-86|pos 1-2 somma 4|
+19850928|lottofacile1|RM,TO|10|0|ambata:28;ambo:9-28;ambo:28-90;terzina:9-28-90|pos 3-5 somma 81|
+19851005|ambosecco_caotico|BA,FI,PA,RM|10|1|ambo:37-39;ambo:49-85|A=41 su BA/FI/PA, B=49 su RM|
+19851005|ambosecco_caotico|GE,RM,MI|10|1|ambo:12-47;ambo:57-88|A=13 su GE/RM, B=77 su MI|
+19851005|lottofacile1|FI,GE|10|0|ambata:24;ambo:24-76;ambo:24-67;terzina:24-67-76|pos 3-4 somma 14|
 19851005|lottofacile4|FI,NA|14|1|ambata:75;ambo:30-75;ambo:15-75;ambo:45-75;terzina:15-30-45|pos 1-2 verticale|
-19851005|lottofacile1|GE,PA|6|0|ambata:58;ambo:58-65;ambo:56-58;terzina:56-58-65|pos 2-3 somma 25|
-19851005|lottofacile1|MI,TO|6|0|ambata:22;ambo:6-22;ambo:22-60;terzina:6-22-60|pos 4-5 somma 84|
-19851005|lottofacile1|NA,RM|6|0|ambata:86;ambo:12-86;ambo:21-86;terzina:12-21-86|pos 1-3 somma 78|
-19851005|lottofacile1|PA,TO|6|0|ambata:74;ambo:25-74;ambo:52-74;terzina:25-52-74|pos 3-5 somma 65|
-19851012|ambosecco_caotico|CA,PA,FI|2|1|ambo:14-15;ambo:24-88|A=16 su CA/PA, B=74 su FI|
-19851012|ambosecco_caotico|CA,FI,VE|2|1|ambo:32-70;ambo:32-82|A=78 su CA/FI, B=12 su VE|
-19851012|ambosecco_caotico|FI,PA,CA|2|1|ambo:66-76;ambo:76-82|A=74 su FI/PA, B=16 su CA|
-19851012|lottofacile5|TO|9|0|ambata:72;ambata:27;ambo:36-72;ambo:72-81;ambo:27-36;ambo:27-81;quartina:6-36-66-72;quartina:21-51-72-81;quartina:6-27-36-66;quartina:21-27-51-81|rilevamento 27-72|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19851012|lottofacile1|BA,GE|6|0|ambata:46;ambo:46-52;ambo:25-46;terzina:25-46-52|pos 3-5 somma 38|
-19851012|lottofacile1|BA,RM|6|0|ambata:24;ambo:18-24;ambo:24-81;terzina:18-24-81|pos 1-2 somma 72|
-19851012|lottofacile1|BA,RM|6|0|ambata:24;ambo:24-60;ambo:6-24;terzina:6-24-60|pos 1-4 somma 30|
+19851005|lottofacile1|GE,PA|10|0|ambata:58;ambo:58-65;ambo:56-58;terzina:56-58-65|pos 2-3 somma 25|
+19851005|lottofacile1|MI,TO|10|0|ambata:22;ambo:6-22;ambo:22-60;terzina:6-22-60|pos 4-5 somma 84|
+19851005|lottofacile1|NA,RM|10|0|ambata:86;ambo:12-86;ambo:21-86;terzina:12-21-86|pos 1-3 somma 78|
+19851005|lottofacile1|PA,TO|10|0|ambata:74;ambo:25-74;ambo:52-74;terzina:25-52-74|pos 3-5 somma 65|
+19851012|ambosecco_caotico|CA,PA,FI|10|1|ambo:14-15;ambo:24-88|A=16 su CA/PA, B=74 su FI|
+19851012|ambosecco_caotico|CA,FI,VE|10|1|ambo:32-70;ambo:32-82|A=78 su CA/FI, B=12 su VE|
+19851012|ambosecco_caotico|FI,PA,CA|10|1|ambo:66-76;ambo:76-82|A=74 su FI/PA, B=16 su CA|
+19851012|lottofacile5|TO|10|0|ambata:72;ambata:27;ambo:36-72;ambo:72-81;ambo:27-36;ambo:27-81;quartina:6-36-66-72;quartina:21-51-72-81;quartina:6-27-36-66;quartina:21-27-51-81|rilevamento 27-72|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19851012|lottofacile1|BA,GE|10|0|ambata:46;ambo:46-52;ambo:25-46;terzina:25-46-52|pos 3-5 somma 38|
+19851012|lottofacile1|BA,RM|10|0|ambata:24;ambo:18-24;ambo:24-81;terzina:18-24-81|pos 1-2 somma 72|
+19851012|lottofacile1|BA,RM|10|0|ambata:24;ambo:24-60;ambo:6-24;terzina:6-24-60|pos 1-4 somma 30|
 19851012|lottofacile4|BA,VE|14|1|ambata:87;ambo:42-87;ambo:27-87;ambo:57-87;terzina:27-42-57|pos 1-2 orizzontale|
-19851012|lottofacile1|CA,FI|6|0|ambata:66;ambo:66-83;ambo:38-66;terzina:38-66-83|pos 2-3 somma 7|
-19851012|lottofacile1|CA,VE|6|0|ambata:18;ambo:15-18;ambo:18-51;terzina:15-18-51|pos 3-4 somma 75|
-19851012|lottofacile1|MI,TO|6|0|ambata:54;ambo:54-81;ambo:18-54;terzina:18-54-81|pos 1-4 somma 9|
-19851012|lottofacile1|RM,VE|6|0|ambata:24;ambo:12-24;ambo:21-24;terzina:12-21-24|pos 2-4 somma 78|
-19851019|ambosecco_caotico|BA,FI,TO|2|1|ambo:3-57;ambo:67-89|A=3 su BA/FI, B=87 su TO|
-19851019|ambosecco_caotico|BA,CA,PA,FI|2|1|ambo:59-64;ambo:64-83|A=66 su BA/CA/PA, B=24 su FI|
-19851019|lottofacile5|VE|9|0|ambata:51;ambata:6;ambo:49-51;ambo:4-51;ambo:6-49;ambo:4-6;quartina:19-49-51-79;quartina:4-34-51-64;quartina:6-19-49-79;quartina:4-6-34-64|rilevamento 20-65|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19851019|lottofacile1|CA,GE|6|0|ambata:48;ambo:33-48;ambo:39-48;terzina:33-39-48|pos 4-5 somma 57|
-19851019|lottofacile1|GE,NA|6|0|ambata:58;ambo:28-58;ambo:58-82;terzina:28-58-82|pos 2-3 somma 62|
-19851019|lottofacile1|MI,TO|6|0|ambata:40;ambo:11-40;ambo:19-40;terzina:11-19-40|pos 1-3 somma 79|
-19851026|ambosecco_caotico|FI,VE,BA|2|1|ambo:8-56;ambo:18-83|A=62 su FI/VE, B=28 su BA|
-19851026|lottofacile1|BA,CA|6|0|ambata:72;ambo:31-72;ambo:13-72;terzina:13-31-72|pos 1-2 somma 59|
-19851026|lottofacile1|BA,RM|6|0|ambata:64;ambo:55-64;ambo:59-64;terzina:55-59-64|pos 1-3 somma 35|
-19851026|lottofacile1|BA,VE|6|0|ambata:2;ambo:2-72;ambo:2-27;terzina:2-27-72|pos 1-4 somma 18|
-19851026|lottofacile1|GE,TO|6|0|ambata:30;ambo:30-81;ambo:18-30;terzina:18-30-81|pos 1-2 somma 9|
-19851026|lottofacile1|MI,VE|6|0|ambata:2;ambo:2-51;ambo:2-15;terzina:2-15-51|pos 1-3 somma 39|
-19851026|lottofacile1|MI,VE|6|0|ambata:2;ambo:2-62;ambo:2-26;terzina:2-26-62|pos 1-5 somma 28|
-19851026|lottofacile1|MI,VE|6|0|ambata:76;ambo:35-76;ambo:53-76;terzina:35-53-76|pos 3-4 somma 55|
-19851026|lottofacile1|MI,VE|6|0|ambata:34;ambo:34-46;ambo:34-64;terzina:34-46-64|pos 4-5 somma 44|
-19851026|lottofacile1|NA,TO|6|0|ambata:84;ambo:84-89;ambo:84-88;terzina:84-88-89|pos 3-4 somma 1|
-19851026|lottofacile1|PA,VE|6|0|ambata:2;ambo:2-26;ambo:2-62;terzina:2-26-62|pos 1-2 somma 64|
-19851102|ambosecco_caotico|FI,TO,CA|2|1|ambo:43-62;ambo:62-85|A=48 su FI/TO, B=42 su CA|
-19851102|ambosecco_caotico|FI,NA,VE|2|1|ambo:31-62;ambo:31-83|A=69 su FI/NA, B=21 su VE|
-19851102|ambosecco_caotico|GE,TO,RM|2|1|ambo:36-50;ambo:50-86|A=40 su GE/TO, B=50 su RM|
-19851102|ambosecco_caotico|MI,PA,CA|2|1|ambo:28-49;ambo:59-86|A=31 su MI/PA, B=59 su CA|
-19851102|lottofacile5|PA|9|0|ambata:84;ambata:39;ambo:80-84;ambo:35-84;ambo:39-80;ambo:35-39;quartina:20-50-80-84;quartina:5-35-65-84;quartina:20-39-50-80;quartina:5-35-39-65|rilevamento 31-76|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19851102|lottofacile5|TO|9|0|ambata:90;ambata:45;ambo:42-90;ambo:87-90;ambo:42-45;ambo:45-87;quartina:12-42-72-90;quartina:27-57-87-90;quartina:12-42-45-72;quartina:27-45-57-87|rilevamento 3-48|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19851102|lottofacile1|BA,NA|6|0|ambata:50;ambo:41-50;ambo:14-50;terzina:14-41-50|pos 1-4 somma 49|
-19851102|lottofacile1|GE,MI|6|0|ambata:76;ambo:21-76;ambo:12-76;terzina:12-21-76|pos 1-4 somma 69|
-19851102|lottofacile1|PA,TO|6|0|ambata:80;ambo:47-80;ambo:74-80;terzina:47-74-80|pos 2-5 somma 43|
-19851102|lottofacile1|TO,VE|6|0|ambata:46;ambo:15-46;ambo:46-51;terzina:15-46-51|pos 2-3 somma 75|
-19851109|ambosecco_caotico|BA,FI,GE|2|1|ambo:4-24;ambo:14-87|A=26 su BA/FI, B=64 su GE|
-19851109|ambosecco_caotico|BA,RM,MI|2|1|ambo:54-68;ambo:54-82|A=76 su BA/RM, B=14 su MI|
-19851109|ambosecco_caotico|FI,MI,RM|2|1|ambo:28-38;ambo:38-85|A=42 su FI/MI, B=48 su RM|
-19851109|lottofacile5|PA|9|0|ambata:90;ambo:12-90;ambo:57-90;quartina:12-42-72-90;quartina:27-57-87-90|rilevamento 33-78|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19851012|lottofacile1|CA,FI|10|0|ambata:66;ambo:66-83;ambo:38-66;terzina:38-66-83|pos 2-3 somma 7|
+19851012|lottofacile1|CA,VE|10|0|ambata:18;ambo:15-18;ambo:18-51;terzina:15-18-51|pos 3-4 somma 75|
+19851012|lottofacile1|MI,TO|10|0|ambata:54;ambo:54-81;ambo:18-54;terzina:18-54-81|pos 1-4 somma 9|
+19851012|lottofacile1|RM,VE|10|0|ambata:24;ambo:12-24;ambo:21-24;terzina:12-21-24|pos 2-4 somma 78|
+19851019|ambosecco_caotico|BA,FI,TO|10|1|ambo:3-57;ambo:67-89|A=3 su BA/FI, B=87 su TO|
+19851019|ambosecco_caotico|BA,CA,PA,FI|10|1|ambo:59-64;ambo:64-83|A=66 su BA/CA/PA, B=24 su FI|
+19851019|lottofacile5|VE|10|0|ambata:51;ambata:6;ambo:49-51;ambo:4-51;ambo:6-49;ambo:4-6;quartina:19-49-51-79;quartina:4-34-51-64;quartina:6-19-49-79;quartina:4-6-34-64|rilevamento 20-65|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19851019|lottofacile1|CA,GE|10|0|ambata:48;ambo:33-48;ambo:39-48;terzina:33-39-48|pos 4-5 somma 57|
+19851019|lottofacile1|GE,NA|10|0|ambata:58;ambo:28-58;ambo:58-82;terzina:28-58-82|pos 2-3 somma 62|
+19851019|lottofacile1|MI,TO|10|0|ambata:40;ambo:11-40;ambo:19-40;terzina:11-19-40|pos 1-3 somma 79|
+19851026|ambosecco_caotico|FI,VE,BA|10|1|ambo:8-56;ambo:18-83|A=62 su FI/VE, B=28 su BA|
+19851026|lottofacile1|BA,CA|10|0|ambata:72;ambo:31-72;ambo:13-72;terzina:13-31-72|pos 1-2 somma 59|
+19851026|lottofacile1|BA,RM|10|0|ambata:64;ambo:55-64;ambo:59-64;terzina:55-59-64|pos 1-3 somma 35|
+19851026|lottofacile1|BA,VE|10|0|ambata:2;ambo:2-72;ambo:2-27;terzina:2-27-72|pos 1-4 somma 18|
+19851026|lottofacile1|GE,TO|10|0|ambata:30;ambo:30-81;ambo:18-30;terzina:18-30-81|pos 1-2 somma 9|
+19851026|lottofacile1|MI,VE|10|0|ambata:2;ambo:2-51;ambo:2-15;terzina:2-15-51|pos 1-3 somma 39|
+19851026|lottofacile1|MI,VE|10|0|ambata:2;ambo:2-62;ambo:2-26;terzina:2-26-62|pos 1-5 somma 28|
+19851026|lottofacile1|MI,VE|10|0|ambata:76;ambo:35-76;ambo:53-76;terzina:35-53-76|pos 3-4 somma 55|
+19851026|lottofacile1|MI,VE|10|0|ambata:34;ambo:34-46;ambo:34-64;terzina:34-46-64|pos 4-5 somma 44|
+19851026|lottofacile1|NA,TO|10|0|ambata:84;ambo:84-89;ambo:84-88;terzina:84-88-89|pos 3-4 somma 1|
+19851026|lottofacile1|PA,VE|10|0|ambata:2;ambo:2-26;ambo:2-62;terzina:2-26-62|pos 1-2 somma 64|
+19851102|ambosecco_caotico|FI,TO,CA|10|1|ambo:43-62;ambo:62-85|A=48 su FI/TO, B=42 su CA|
+19851102|ambosecco_caotico|FI,NA,VE|10|1|ambo:31-62;ambo:31-83|A=69 su FI/NA, B=21 su VE|
+19851102|ambosecco_caotico|GE,TO,RM|10|1|ambo:36-50;ambo:50-86|A=40 su GE/TO, B=50 su RM|
+19851102|ambosecco_caotico|MI,PA,CA|10|1|ambo:28-49;ambo:59-86|A=31 su MI/PA, B=59 su CA|
+19851102|lottofacile5|PA|10|0|ambata:84;ambata:39;ambo:80-84;ambo:35-84;ambo:39-80;ambo:35-39;quartina:20-50-80-84;quartina:5-35-65-84;quartina:20-39-50-80;quartina:5-35-39-65|rilevamento 31-76|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19851102|lottofacile5|TO|10|0|ambata:90;ambata:45;ambo:42-90;ambo:87-90;ambo:42-45;ambo:45-87;quartina:12-42-72-90;quartina:27-57-87-90;quartina:12-42-45-72;quartina:27-45-57-87|rilevamento 3-48|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19851102|lottofacile1|BA,NA|10|0|ambata:50;ambo:41-50;ambo:14-50;terzina:14-41-50|pos 1-4 somma 49|
+19851102|lottofacile1|GE,MI|10|0|ambata:76;ambo:21-76;ambo:12-76;terzina:12-21-76|pos 1-4 somma 69|
+19851102|lottofacile1|PA,TO|10|0|ambata:80;ambo:47-80;ambo:74-80;terzina:47-74-80|pos 2-5 somma 43|
+19851102|lottofacile1|TO,VE|10|0|ambata:46;ambo:15-46;ambo:46-51;terzina:15-46-51|pos 2-3 somma 75|
+19851109|ambosecco_caotico|BA,FI,GE|10|1|ambo:4-24;ambo:14-87|A=26 su BA/FI, B=64 su GE|
+19851109|ambosecco_caotico|BA,RM,MI|10|1|ambo:54-68;ambo:54-82|A=76 su BA/RM, B=14 su MI|
+19851109|ambosecco_caotico|FI,MI,RM|10|1|ambo:28-38;ambo:38-85|A=42 su FI/MI, B=48 su RM|
+19851109|lottofacile5|PA|10|0|ambata:90;ambo:12-90;ambo:57-90;quartina:12-42-72-90;quartina:27-57-87-90|rilevamento 33-78|potenza ridotta: ambata uscita negli ultimi 6 concorsi
 19851109|fulmine|BA,FI|12|0|ambata:76;ambo:26-76;ambo:66-76;ambo:16-76;quartina:16-26-66-76|cadenza, coppie ((26, 66), (76, 16))|
-19851109|lottofacile1|BA,TO|6|0|ambata:40;ambo:2-40;ambo:20-40;terzina:2-20-40|pos 2-3 somma 88|
-19851109|lottofacile1|NA,PA|6|0|ambata:22;ambo:22-50;ambo:5-22;terzina:5-22-50|pos 1-2 somma 40|
+19851109|lottofacile1|BA,TO|10|0|ambata:40;ambo:2-40;ambo:20-40;terzina:2-20-40|pos 2-3 somma 88|
+19851109|lottofacile1|NA,PA|10|0|ambata:22;ambo:22-50;ambo:5-22;terzina:5-22-50|pos 1-2 somma 40|
 19851109|lottofacile4|RM,VE|14|1|ambata:21;ambo:21-66;ambo:21-51;ambo:21-81;terzina:51-66-81|pos 2-4 verticale|
-19851109|lottofacile1|RM,VE|6|0|ambata:36;ambo:36-51;ambo:15-36;terzina:15-36-51|pos 2-4 somma 39|
-19851116|ambosecco_caotico|GE,NA,PA|2|1|ambo:5-35;ambo:45-89|A=5 su GE/NA, B=85 su PA|
-19851116|ambosecco_caotico|MI,NA,RM|2|1|ambo:28-38;ambo:38-85|A=42 su MI/NA, B=48 su RM|
-19851116|lottofacile1|CA,VE|6|0|ambata:14;ambo:14-55;ambo:14-59;terzina:14-55-59|pos 2-5 somma 35|
-19851116|lottofacile1|GE,PA|6|0|ambata:50;ambo:50-80;ambo:8-50;terzina:8-50-80|pos 1-5 somma 10|
-19851116|lottofacile1|GE,RM|6|0|ambata:82;ambo:58-82;ambo:82-85;terzina:58-82-85|pos 4-5 somma 32|
-19851116|lottofacile1|GE,TO|6|0|ambata:70;ambo:27-70;ambo:70-72;terzina:27-70-72|pos 1-3 somma 63|
-19851116|lottofacile1|RM,TO|6|0|ambata:4;ambo:4-60;ambo:4-6;terzina:4-6-60|pos 2-3 somma 30|
-19851123|ambosecco_caotico|FI,GE,RM|2|1|ambo:31-62;ambo:31-83|A=69 su FI/GE, B=21 su RM|
-19851123|ambosecco_caotico|FI,MI,GE|2|1|ambo:35-61;ambo:61-86|A=39 su FI/MI, B=51 su GE|
-19851123|lottofacile1|CA,NA|6|0|ambata:70;ambo:70-77;ambo:70-79;terzina:70-77-79|pos 1-5 somma 13|
-19851123|lottofacile1|GE,PA|6|0|ambata:34;ambo:34-60;ambo:6-34;terzina:6-34-60|pos 4-5 somma 30|
+19851109|lottofacile1|RM,VE|10|0|ambata:36;ambo:36-51;ambo:15-36;terzina:15-36-51|pos 2-4 somma 39|
+19851116|ambosecco_caotico|GE,NA,PA|10|1|ambo:5-35;ambo:45-89|A=5 su GE/NA, B=85 su PA|
+19851116|ambosecco_caotico|MI,NA,RM|10|1|ambo:28-38;ambo:38-85|A=42 su MI/NA, B=48 su RM|
+19851116|lottofacile1|CA,VE|10|0|ambata:14;ambo:14-55;ambo:14-59;terzina:14-55-59|pos 2-5 somma 35|
+19851116|lottofacile1|GE,PA|10|0|ambata:50;ambo:50-80;ambo:8-50;terzina:8-50-80|pos 1-5 somma 10|
+19851116|lottofacile1|GE,RM|10|0|ambata:82;ambo:58-82;ambo:82-85;terzina:58-82-85|pos 4-5 somma 32|
+19851116|lottofacile1|GE,TO|10|0|ambata:70;ambo:27-70;ambo:70-72;terzina:27-70-72|pos 1-3 somma 63|
+19851116|lottofacile1|RM,TO|10|0|ambata:4;ambo:4-60;ambo:4-6;terzina:4-6-60|pos 2-3 somma 30|
+19851123|ambosecco_caotico|FI,GE,RM|10|1|ambo:31-62;ambo:31-83|A=69 su FI/GE, B=21 su RM|
+19851123|ambosecco_caotico|FI,MI,GE|10|1|ambo:35-61;ambo:61-86|A=39 su FI/MI, B=51 su GE|
+19851123|lottofacile1|CA,NA|10|0|ambata:70;ambo:70-77;ambo:70-79;terzina:70-77-79|pos 1-5 somma 13|
+19851123|lottofacile1|GE,PA|10|0|ambata:34;ambo:34-60;ambo:6-34;terzina:6-34-60|pos 4-5 somma 30|
 19851123|fulmine|GE,VE|12|0|ambata:85;ambo:75-85;ambo:25-85;ambo:35-85;quartina:25-35-75-85|cadenza, coppie ((75, 35), (85, 25))|
-19851123|lottofacile1|MI,NA|6|0|ambata:72;ambo:31-72;ambo:13-72;terzina:13-31-72|pos 2-5 somma 59|
-19851123|lottofacile1|RM,TO|6|0|ambata:14;ambo:14-27;ambo:14-72;terzina:14-27-72|pos 1-5 somma 63|
-19851130|ambosecco_caotico|BA,NA,CA|2|1|ambo:4-24;ambo:14-87|A=26 su BA/NA, B=64 su CA|
-19851130|ambosecco_caotico|GE,TO,FI|2|1|ambo:42-73;ambo:73-85|A=47 su GE/TO, B=43 su FI|
-19851130|ambosecco_caotico|MI,NA,BA|2|1|ambo:50-74;ambo:74-84|A=56 su MI/NA, B=34 su BA|
-19851130|lottofacile5|NA|9|0|ambata:30;ambata:75;ambo:30-62;ambo:17-30;ambo:62-75;ambo:17-75;quartina:2-30-32-62;quartina:17-30-47-77;quartina:2-32-62-75;quartina:17-47-75-77|rilevamento 13-58|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19851130|lottofacile5|TO|9|0|ambata:51;ambo:51-85;ambo:40-51;quartina:25-51-55-85;quartina:10-40-51-70|rilevamento 2-47|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19851130|lottofacile1|BA,MI|6|0|ambata:88;ambo:34-88;ambo:43-88;terzina:34-43-88|pos 1-4 somma 56|
-19851130|lottofacile1|BA,TO|6|0|ambata:4;ambo:4-13;ambo:4-31;terzina:4-13-31|pos 2-4 somma 77|
+19851123|lottofacile1|MI,NA|10|0|ambata:72;ambo:31-72;ambo:13-72;terzina:13-31-72|pos 2-5 somma 59|
+19851123|lottofacile1|RM,TO|10|0|ambata:14;ambo:14-27;ambo:14-72;terzina:14-27-72|pos 1-5 somma 63|
+19851130|ambosecco_caotico|BA,NA,CA|10|1|ambo:4-24;ambo:14-87|A=26 su BA/NA, B=64 su CA|
+19851130|ambosecco_caotico|GE,TO,FI|10|1|ambo:42-73;ambo:73-85|A=47 su GE/TO, B=43 su FI|
+19851130|ambosecco_caotico|MI,NA,BA|10|1|ambo:50-74;ambo:74-84|A=56 su MI/NA, B=34 su BA|
+19851130|lottofacile5|NA|10|0|ambata:30;ambata:75;ambo:30-62;ambo:17-30;ambo:62-75;ambo:17-75;quartina:2-30-32-62;quartina:17-30-47-77;quartina:2-32-62-75;quartina:17-47-75-77|rilevamento 13-58|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19851130|lottofacile5|TO|10|0|ambata:51;ambo:51-85;ambo:40-51;quartina:25-51-55-85;quartina:10-40-51-70|rilevamento 2-47|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19851130|lottofacile1|BA,MI|10|0|ambata:88;ambo:34-88;ambo:43-88;terzina:34-43-88|pos 1-4 somma 56|
+19851130|lottofacile1|BA,TO|10|0|ambata:4;ambo:4-13;ambo:4-31;terzina:4-13-31|pos 2-4 somma 77|
 19851130|lottofacile4|CA,GE|14|1|ambata:75;ambo:30-75;ambo:15-75;ambo:45-75;terzina:15-30-45|pos 2-4 orizzontale|
-19851130|lottofacile1|CA,MI|6|0|ambata:88;ambo:23-88;ambo:32-88;terzina:23-32-88|pos 1-2 somma 67|
-19851130|lottofacile1|FI,VE|6|0|ambata:48;ambo:15-48;ambo:48-51;terzina:15-48-51|pos 1-3 somma 75|
-19851130|lottofacile1|GE,PA|6|0|ambata:46;ambo:46-75;ambo:46-57;terzina:46-57-75|pos 2-5 somma 15|
+19851130|lottofacile1|CA,MI|10|0|ambata:88;ambo:23-88;ambo:32-88;terzina:23-32-88|pos 1-2 somma 67|
+19851130|lottofacile1|FI,VE|10|0|ambata:48;ambo:15-48;ambo:48-51;terzina:15-48-51|pos 1-3 somma 75|
+19851130|lottofacile1|GE,PA|10|0|ambata:46;ambo:46-75;ambo:46-57;terzina:46-57-75|pos 2-5 somma 15|
 19851130|lottofacile4|NA,RM|14|1|ambata:29;ambo:29-74;ambo:29-59;ambo:29-89;terzina:59-74-89|pos 1-2 orizzontale|
-19851207|ambosecco_caotico|CA,NA,MI|2|1|ambo:31-62;ambo:31-83|A=69 su CA/NA, B=21 su MI|
-19851207|ambosecco_caotico|CA,MI,PA,FI|2|1|ambo:59-64;ambo:64-83|A=66 su CA/MI/PA, B=24 su FI|
-19851207|ambosecco_caotico|GE,VE,FI|2|1|ambo:29-38;ambo:48-86|A=32 su GE/VE, B=58 su FI|
-19851207|lottofacile5|GE|9|0|ambata:78;ambo:73-78;ambo:28-78;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 14-59|
-19851207|lottofacile5|MI|9|0|ambata:54;ambata:9;ambo:54-60;ambo:15-54;ambo:9-60;ambo:9-15;quartina:30-54-60-90;quartina:15-45-54-75;quartina:9-30-60-90;quartina:9-15-45-75|rilevamento 21-66|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19851207|lottofacile5|RM|9|0|ambata:6;ambata:51;ambo:6-64;ambo:6-19;ambo:51-64;ambo:19-51;quartina:4-6-34-64;quartina:6-19-49-79;quartina:4-34-51-64;quartina:19-49-51-79|rilevamento 5-50|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19851207|lottofacile1|BA,CA|6|0|ambata:6;ambo:6-21;ambo:6-12;terzina:6-12-21|pos 4-5 somma 69|
-19851207|lottofacile1|BA,FI|6|0|ambata:72;ambo:72-86;ambo:68-72;terzina:68-72-86|pos 1-3 somma 4|
-19851207|lottofacile1|CA,NA|6|0|ambata:48;ambo:18-48;ambo:48-81;terzina:18-48-81|pos 3-4 somma 72|
-19851207|lottofacile1|CA,RM|6|0|ambata:10;ambo:10-26;ambo:10-62;terzina:10-26-62|pos 2-3 somma 64|
-19851207|lottofacile1|FI,VE|6|0|ambata:64;ambo:21-64;ambo:12-64;terzina:12-21-64|pos 2-5 somma 69|
-19851207|lottofacile1|GE,TO|6|0|ambata:86;ambo:75-86;ambo:57-86;terzina:57-75-86|pos 1-4 somma 15|
-19851214|ambosecco_caotico|BA,MI,GE|2|1|ambo:43-69;ambo:43-82|A=77 su BA/MI, B=13 su GE|
-19851214|ambosecco_caotico|GE,MI,TO|2|1|ambo:20-63;ambo:20-83|A=70 su GE/MI, B=20 su TO|
-19851214|lottofacile1|BA,CA|6|0|ambata:32;ambo:32-46;ambo:32-64;terzina:32-46-64|pos 1-5 somma 44|
-19851214|lottofacile1|BA,FI|6|0|ambata:24;ambo:24-44;ambo:24-49;terzina:24-44-49|pos 4-5 somma 46|
+19851207|ambosecco_caotico|CA,NA,MI|10|1|ambo:31-62;ambo:31-83|A=69 su CA/NA, B=21 su MI|
+19851207|ambosecco_caotico|CA,MI,PA,FI|10|1|ambo:59-64;ambo:64-83|A=66 su CA/MI/PA, B=24 su FI|
+19851207|ambosecco_caotico|GE,VE,FI|10|1|ambo:29-38;ambo:48-86|A=32 su GE/VE, B=58 su FI|
+19851207|lottofacile5|GE|10|0|ambata:78;ambo:73-78;ambo:28-78;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 14-59|
+19851207|lottofacile5|MI|10|0|ambata:54;ambata:9;ambo:54-60;ambo:15-54;ambo:9-60;ambo:9-15;quartina:30-54-60-90;quartina:15-45-54-75;quartina:9-30-60-90;quartina:9-15-45-75|rilevamento 21-66|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19851207|lottofacile5|RM|10|0|ambata:6;ambata:51;ambo:6-64;ambo:6-19;ambo:51-64;ambo:19-51;quartina:4-6-34-64;quartina:6-19-49-79;quartina:4-34-51-64;quartina:19-49-51-79|rilevamento 5-50|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19851207|lottofacile1|BA,CA|10|0|ambata:6;ambo:6-21;ambo:6-12;terzina:6-12-21|pos 4-5 somma 69|
+19851207|lottofacile1|BA,FI|10|0|ambata:72;ambo:72-86;ambo:68-72;terzina:68-72-86|pos 1-3 somma 4|
+19851207|lottofacile1|CA,NA|10|0|ambata:48;ambo:18-48;ambo:48-81;terzina:18-48-81|pos 3-4 somma 72|
+19851207|lottofacile1|CA,RM|10|0|ambata:10;ambo:10-26;ambo:10-62;terzina:10-26-62|pos 2-3 somma 64|
+19851207|lottofacile1|FI,VE|10|0|ambata:64;ambo:21-64;ambo:12-64;terzina:12-21-64|pos 2-5 somma 69|
+19851207|lottofacile1|GE,TO|10|0|ambata:86;ambo:75-86;ambo:57-86;terzina:57-75-86|pos 1-4 somma 15|
+19851214|ambosecco_caotico|BA,MI,GE|10|1|ambo:43-69;ambo:43-82|A=77 su BA/MI, B=13 su GE|
+19851214|ambosecco_caotico|GE,MI,TO|10|1|ambo:20-63;ambo:20-83|A=70 su GE/MI, B=20 su TO|
+19851214|lottofacile1|BA,CA|10|0|ambata:32;ambo:32-46;ambo:32-64;terzina:32-46-64|pos 1-5 somma 44|
+19851214|lottofacile1|BA,FI|10|0|ambata:24;ambo:24-44;ambo:24-49;terzina:24-44-49|pos 4-5 somma 46|
 19851214|lottofacile4|BA,GE|14|1|ambata:35;ambo:35-80;ambo:35-65;ambo:5-35;terzina:5-65-80|pos 1-5 orizzontale|
 19851214|lottofacile4|CA,GE|14|1|ambata:5;ambo:5-50;ambo:5-35;ambo:5-65;terzina:35-50-65|pos 4-5 verticale|
-19851214|lottofacile1|FI,GE|6|0|ambata:50;ambo:18-50;ambo:50-81;terzina:18-50-81|pos 2-3 somma 72|
-19851214|lottofacile1|FI,PA|6|0|ambata:88;ambo:5-88;ambo:50-88;terzina:5-50-88|pos 1-2 somma 85|
-19851214|lottofacile1|FI,TO|6|0|ambata:84;ambo:71-84;ambo:17-84;terzina:17-71-84|pos 1-3 somma 19|
-19851214|lottofacile1|NA,PA|6|0|ambata:4;ambo:4-74;ambo:4-47;terzina:4-47-74|pos 3-4 somma 16|
-19851214|lottofacile1|NA,TO|6|0|ambata:44;ambo:44-74;ambo:44-47;terzina:44-47-74|pos 3-4 somma 16|
-19851214|lottofacile1|PA,TO|6|0|ambata:44;ambo:44-74;ambo:44-47;terzina:44-47-74|pos 3-4 somma 16|
-19851221|ambosecco_caotico|FI,GE,MI|2|1|ambo:30-54;ambo:30-84|A=60 su FI/GE, B=30 su MI|
-19851221|ambosecco_caotico|GE,MI,CA|2|1|ambo:53-60;ambo:53-83|A=67 su GE/MI, B=23 su CA|
-19851221|lottofacile5|CA|9|0|ambata:30;ambata:75;ambo:30-32;ambo:30-77;ambo:32-75;ambo:75-77;quartina:2-30-32-62;quartina:17-30-47-77;quartina:2-32-62-75;quartina:17-47-75-77|rilevamento 43-88|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19851221|lottofacile5|MI|9|0|ambata:66;ambata:21;ambo:35-66;ambo:66-80;ambo:21-35;ambo:21-80;quartina:5-35-65-66;quartina:20-50-66-80;quartina:5-21-35-65;quartina:20-21-50-80|rilevamento 22-67|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19851221|lottofacile5|TO|9|0|ambata:66;ambo:66-89;ambo:44-66;quartina:29-59-66-89;quartina:14-44-66-74|rilevamento 40-85|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19851221|lottofacile1|CA,VE|6|0|ambata:40;ambo:40-47;ambo:40-74;terzina:40-47-74|pos 1-5 somma 43|
-19851221|lottofacile1|MI,RM|6|0|ambata:70;ambo:38-70;ambo:70-83;terzina:38-70-83|pos 4-5 somma 52|
+19851214|lottofacile1|FI,GE|10|0|ambata:50;ambo:18-50;ambo:50-81;terzina:18-50-81|pos 2-3 somma 72|
+19851214|lottofacile1|FI,PA|10|0|ambata:88;ambo:5-88;ambo:50-88;terzina:5-50-88|pos 1-2 somma 85|
+19851214|lottofacile1|FI,TO|10|0|ambata:84;ambo:71-84;ambo:17-84;terzina:17-71-84|pos 1-3 somma 19|
+19851214|lottofacile1|NA,PA|10|0|ambata:4;ambo:4-74;ambo:4-47;terzina:4-47-74|pos 3-4 somma 16|
+19851214|lottofacile1|NA,TO|10|0|ambata:44;ambo:44-74;ambo:44-47;terzina:44-47-74|pos 3-4 somma 16|
+19851214|lottofacile1|PA,TO|10|0|ambata:44;ambo:44-74;ambo:44-47;terzina:44-47-74|pos 3-4 somma 16|
+19851221|ambosecco_caotico|FI,GE,MI|10|1|ambo:30-54;ambo:30-84|A=60 su FI/GE, B=30 su MI|
+19851221|ambosecco_caotico|GE,MI,CA|10|1|ambo:53-60;ambo:53-83|A=67 su GE/MI, B=23 su CA|
+19851221|lottofacile5|CA|10|0|ambata:30;ambata:75;ambo:30-32;ambo:30-77;ambo:32-75;ambo:75-77;quartina:2-30-32-62;quartina:17-30-47-77;quartina:2-32-62-75;quartina:17-47-75-77|rilevamento 43-88|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19851221|lottofacile5|MI|10|0|ambata:66;ambata:21;ambo:35-66;ambo:66-80;ambo:21-35;ambo:21-80;quartina:5-35-65-66;quartina:20-50-66-80;quartina:5-21-35-65;quartina:20-21-50-80|rilevamento 22-67|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19851221|lottofacile5|TO|10|0|ambata:66;ambo:66-89;ambo:44-66;quartina:29-59-66-89;quartina:14-44-66-74|rilevamento 40-85|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19851221|lottofacile1|CA,VE|10|0|ambata:40;ambo:40-47;ambo:40-74;terzina:40-47-74|pos 1-5 somma 43|
+19851221|lottofacile1|MI,RM|10|0|ambata:70;ambo:38-70;ambo:70-83;terzina:38-70-83|pos 4-5 somma 52|
 19851221|fulmine|MI,TO|12|0|ambata:85;ambo:67-85;ambo:22-85;ambo:40-85;quartina:22-40-67-85|figura, coppie ((67, 40), (22, 85))|
-19851221|lottofacile1|RM,TO|6|0|ambata:62;ambo:62-74;ambo:47-62;terzina:47-62-74|pos 3-4 somma 16|
-19851228|ambosecco_caotico|GE,MI,NA|2|1|ambo:14-25;ambo:35-88|A=15 su GE/MI, B=75 su NA|
-19851228|ambosecco_caotico|MI,NA,PA|2|1|ambo:5-35;ambo:45-89|A=5 su MI/NA, B=85 su PA|
-19851228|lottofacile5|TO|9|0|ambata:72;ambata:27;ambo:36-72;ambo:72-81;ambo:27-36;ambo:27-81;quartina:6-36-66-72;quartina:21-51-72-81;quartina:6-27-36-66;quartina:21-27-51-81|rilevamento 27-72|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19851228|lottofacile5|VE|9|0|ambata:33;ambata:78;ambo:33-73;ambo:28-33;ambo:73-78;ambo:28-78;quartina:13-33-43-73;quartina:28-33-58-88;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 41-86|potenza ridotta: ambata uscita negli ultimi 6 concorsi
-19851228|lottofacile1|BA,RM|6|0|ambata:62;ambo:16-62;ambo:61-62;terzina:16-61-62|pos 1-4 somma 74|
-19851228|lottofacile1|GE,PA|6|0|ambata:18;ambo:18-86;ambo:18-68;terzina:18-68-86|pos 1-5 somma 4|
-19851228|lottofacile1|PA,TO|6|0|ambata:52;ambo:52-82;ambo:28-52;terzina:28-52-82|pos 3-5 somma 8|
+19851221|lottofacile1|RM,TO|10|0|ambata:62;ambo:62-74;ambo:47-62;terzina:47-62-74|pos 3-4 somma 16|
+19851228|ambosecco_caotico|GE,MI,NA|10|1|ambo:14-25;ambo:35-88|A=15 su GE/MI, B=75 su NA|
+19851228|ambosecco_caotico|MI,NA,PA|10|1|ambo:5-35;ambo:45-89|A=5 su MI/NA, B=85 su PA|
+19851228|lottofacile5|TO|10|0|ambata:72;ambata:27;ambo:36-72;ambo:72-81;ambo:27-36;ambo:27-81;quartina:6-36-66-72;quartina:21-51-72-81;quartina:6-27-36-66;quartina:21-27-51-81|rilevamento 27-72|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19851228|lottofacile5|VE|10|0|ambata:33;ambata:78;ambo:33-73;ambo:28-33;ambo:73-78;ambo:28-78;quartina:13-33-43-73;quartina:28-33-58-88;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 41-86|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+19851228|lottofacile1|BA,RM|10|0|ambata:62;ambo:16-62;ambo:61-62;terzina:16-61-62|pos 1-4 somma 74|
+19851228|lottofacile1|GE,PA|10|0|ambata:18;ambo:18-86;ambo:18-68;terzina:18-68-86|pos 1-5 somma 4|
+19851228|lottofacile1|PA,TO|10|0|ambata:52;ambo:52-82;ambo:28-52;terzina:28-52-82|pos 3-5 somma 8|

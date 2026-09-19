@@ -267,7 +267,11 @@ A(punti([
     "in avanti non si gioca e non si spende, nemmeno sulle altre ruote. Dire "
     "\u201cscaduta\u201d sarebbe falso, e la riga dice dove e quando si \u00e8 chiusa.",
     "<b>scaduta</b> \u2014 i colpi sono finiti e non \u00e8 uscita da nessuna parte. "
-    "Se qualche numero era uscito da solo, la riga lo segnala.",
+    "Se qualche numero era uscito da solo, la riga lo segnala \u2014 \u201cun numero "
+    "solo, 2 volte\u201d. <b>Quella scritta si tocca</b>: sotto si apre quale numero "
+    "era, a che colpo, e su quali altre ruote era uscito nello stesso giro di "
+    "colpi. Perch\u00e9 la sorte paghi i numeri devono uscire <b>insieme</b>, nello "
+    "stesso concorso e sulla stessa ruota: uno per volta non vale niente.",
     "<b>ancora in gioco</b> \u2014 i colpi non sono ancora finiti: si sapr\u00e0.",
 ]))
 
@@ -293,6 +297,17 @@ A(P("\u00c8 la pagina scomoda, ed \u00e8 quella che rende questo sito diverso "
     "un euro per ogni sorte, per ogni ruota, per ogni colpo, e la sorte si "
     "sospende quando si verifica. Le vincite sono al netto della ritenuta "
     "dell\u20198%."))
+A(riquadro([
+    "<b>Dieci colpi costano.</b> Il sito segue ogni previsione per almeno dieci "
+    "colpi, anche dove il fascicolo ne vuole due. Misurato sugli stessi 33.815 "
+    "rilevamenti di vent\u2019anni, questo fa vincere molto pi\u00f9 spesso \u2014 l\u2019Ambo "
+    "Secco Caotico passa da 323 sorti vinte a 1.487 \u2014 ma costa pi\u00f9 di quanto "
+    "rende: la spesa si moltiplica per 1,65 e l\u2019incasso per 1,56, e il ritorno "
+    "scende dal 63,3% al 60,1%.",
+    "Non \u00e8 un difetto dei dieci colpi: \u00e8 come funziona il gioco. Il ritorno per "
+    "euro dipende dalla sorte che si gioca, non da quanto a lungo la si insegue. "
+    "Inseguirla pi\u00f9 a lungo fa vincere pi\u00f9 spesso e perdere di pi\u00f9.",
+]))
 A(P("Dove c\u2019\u00e8 scritto <i>campione troppo piccolo per essere "
     "indicativo</i>, quel saldo non vuol dire niente: le previsioni sono troppo "
     "poche e un solo terno ne ribalta il segno. \u00c8 il caso, per esempio, di "
@@ -315,27 +330,29 @@ A(tabella(
     [
         ["<b>Lotto Facile</b><br/>Il Metodo Vincente",
          "Due ambi su due ruote, nella stessa posizione, con la stessa somma",
-         "Ambata, due ambi, un terno", "5–6", "1.062"],
+         "Ambata, due ambi, un terno", "10", "1.062"],
         ["<b>Lotto Facile 4</b><br/>Ciclo-Pondometria",
          "Due ambi della stessa terzina simmetrica, nella stessa posizione su due ruote",
-         "Ambata, tre ambi, una terzina", "9–14", "155"],
+         "Ambata, tre ambi, una terzina", "14", "155"],
         ["<b>Lotto Facile 5</b><br/>Rita Calone",
          "Un ambo diametrale su una ruota sola",
-         "Due ambate, quattro ambi, quattro quartine", "9", "227"],
+         "Due ambate, quattro ambi, quattro quartine", "10", "227"],
         ["<b>Fulmine</b><br/>Osvaldo Manara",
          "Quattro numeri della stessa figura o cadenza, come due ambi su due ruote",
          "Ambata, tre ambi, una quartina", "12", "89"],
         ["<b>Un Solo Ambo Secco</b>",
          "Sei numeri su due ruote, a distanza 30 e tutti della stessa tripla figurale",
-         "Un solo ambo secco", "4", "4"],
+         "Un solo ambo secco", "10", "4"],
         ["<b>Ambo Secco Caotico</b><br/>Antonio Longo",
          "Un numero ripetuto su due ruote, più il suo complemento a 90 su una terza",
-         "Uno o due ambi secchi", "2", "642"],
+         "Uno o due ambi secchi", "10", "642"],
     ],
     [3.5 * cm, 5.2 * cm, 4.1 * cm, 1.5 * cm, 2.1 * cm]))
 
 A(Spacer(1, 10))
-A(P("I colpi indicati sono quelli che prescrive ciascun fascicolo. I rilevamenti "
+A(P("I colpi sono quelli che il sito gioca davvero: <b>mai meno di dieci</b>, anche "
+    "dove il fascicolo ne prescrive di meno (l\u2019Ambo Secco Caotico ne vuole due, "
+    "Lotto Facile sei); dove ne chiede di pi\u00f9, si tiene il suo. I rilevamenti "
     "all’anno sono misurati sui dati veri dell’ultimo anno, non stimati.",
     "piede"))
 

@@ -216,6 +216,52 @@ check("le quote pubblicate sono quelle che usa il motore",
       quote_sito["moltiplicatori"]["ambo"] == economia.MOLTIPLICATORI["ambo"]
       and quote_sito["ritenuta"] == economia.RITENUTA)
 
+# ---------------------------------------------------------- i dieci colpi
+# Il pavimento vale sulle previsioni nuove, ma in archivio ce ne sono migliaia
+# rilevate quando valevano i colpi dei fascicoli: senza allinearle il sito
+# mostrerebbe due regole diverse a seconda di quando una previsione e' nata.
+from motore.rilevamento import COLPI_MINIMI                     # noqa: E402
+from motore.valutazione import allinea_colpi                    # noqa: E402
+
+nuove = rileva(arch, arch.date[-40])
+check("nessuna previsione nuova nasce sotto i dieci colpi",
+      all(p["colpi"] >= COLPI_MINIMI for p in nuove),
+      str(sorted({p["colpi"] for p in nuove})))
+check("i metodi che il fascicolo manda oltre i dieci colpi non vengono accorciati",
+      all(p["colpi"] >= 12 for p in rileva(arch, arch.date[-40])
+          if p["metodo"] in ("fulmine", "lottofacile4")))
+
+vecchie = [{
+    "chiave": "x", "metodo": "ambosecco_caotico", "giorno": arch.date[-30].isoformat(),
+    "ruote": ["NA", "BA"], "colpi": 2, "anche_tutte": False, "nota": None,
+    "avviso": None,
+    "sorti": [
+        {"tipo": "ambo", "numeri": [7, 23], "stato": "scaduta",
+         "colpi_valutati": 2, "esiti": []},
+        {"tipo": "ambo", "numeri": [8, 24], "stato": "vinta",
+         "colpi_valutati": 1, "esiti": [{"giorno": "2026-01-01", "ruota": "NA",
+                                         "colpo": 1, "usciti": [8, 24],
+                                         "a_tutte": False}]},
+    ],
+}, {
+    "chiave": "y", "metodo": "lottofacile4", "giorno": arch.date[-30].isoformat(),
+    "ruote": ["MI"], "colpi": 14, "anche_tutte": False, "nota": None, "avviso": None,
+    "sorti": [{"tipo": "ambo", "numeri": [1, 2], "stato": "scaduta",
+               "colpi_valutati": 14, "esiti": []}],
+}]
+allungate, riaperte = allinea_colpi(vecchie, COLPI_MINIMI)
+check("le previsioni sotto il pavimento vengono allungate",
+      allungate == 1 and vecchie[0]["colpi"] == COLPI_MINIMI, str(allungate))
+check("quelle gia' sopra restano come sono", vecchie[1]["colpi"] == 14)
+check("una sorte scaduta con colpi da giocare torna aperta",
+      vecchie[0]["sorti"][0]["stato"] == "aperta" and riaperte == 1)
+check("una sorte vinta resta vinta: si era sospesa",
+      vecchie[0]["sorti"][1]["stato"] == "vinta")
+check("i colpi gia' valutati non si perdono",
+      vecchie[0]["sorti"][0]["colpi_valutati"] == 2)
+check("rilanciarlo non cambia piu' niente: e' idempotente",
+      allinea_colpi(vecchie, COLPI_MINIMI) == (0, 0))
+
 # --------------------------------------------------------------- riferimento
 # La pagina rifa' in JavaScript il controllo delle uscite (docs/storico.js), e
 # due implementazioni della stessa regola divergono sempre, prima o poi. Qui si

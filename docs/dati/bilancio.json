@@ -1,24 +1,24 @@
 {
  "per_metodo": [
   {
-   "aperte": 8,
+   "aperte": 37,
    "campione_scarso": false,
-   "incassato": 5060.0,
-   "incassato_a_tutte": 10580.0,
+   "incassato": 23690.0,
+   "incassato_a_tutte": 46460.0,
    "metodo": "ambosecco_caotico",
    "nome_metodo": "Ambo Secco Caotico — Antonio Longo",
    "per_anno": 638,
    "previsioni": 669,
-   "quota_vincente": 0.0165,
+   "quota_vincente": 0.0784,
    "rilevamenti": 669,
-   "ritorno": 0.5697,
-   "saldo": -3822.0,
-   "scadute": 1308,
+   "ritorno": 0.5556,
+   "saldo": -18952.0,
+   "scadute": 1199,
    "sorti": 1338,
-   "speso": 8882.0,
+   "speso": 42642.0,
    "una_ogni_concorsi": 0.3,
-   "vincite": 22,
-   "vinte": 22
+   "vincite": 103,
+   "vinte": 102
   },
   {
    "aperte": 14,
@@ -41,24 +41,24 @@
    "vinte": 113
   },
   {
-   "aperte": 140,
+   "aperte": 216,
    "campione_scarso": false,
-   "incassato": 26319.72,
+   "incassato": 44164.08,
    "incassato_a_tutte": 0.0,
    "metodo": "lottofacile1",
    "nome_metodo": "Lotto Facile — Il Metodo Vincente",
    "per_anno": 1066,
    "previsioni": 1117,
-   "quota_vincente": 0.1506,
+   "quota_vincente": 0.2318,
    "rilevamenti": 1117,
-   "ritorno": 0.5397,
-   "saldo": -22448.28,
-   "scadute": 3655,
+   "ritorno": 0.5761,
+   "saldo": -32497.92,
+   "scadute": 3247,
    "sorti": 4443,
-   "speso": 48768.0,
+   "speso": 76662.0,
    "una_ogni_concorsi": 0.2,
-   "vincite": 654,
-   "vinte": 648
+   "vincite": 999,
+   "vinte": 980
   },
   {
    "aperte": 42,
@@ -81,24 +81,24 @@
    "vinte": 202
   },
   {
-   "aperte": 58,
+   "aperte": 78,
    "campione_scarso": true,
-   "incassato": 9432.02,
+   "incassato": 9744.68,
    "incassato_a_tutte": 0.0,
    "metodo": "lottofacile5",
    "nome_metodo": "Lotto Facile 5 — Rita Calone",
    "per_anno": 227,
    "previsioni": 238,
-   "quota_vincente": 0.1382,
+   "quota_vincente": 0.1476,
    "rilevamenti": 238,
-   "ritorno": 0.6114,
-   "saldo": -5994.98,
-   "scadute": 1553,
+   "ritorno": 0.5746,
+   "saldo": -7215.32,
+   "scadute": 1519,
    "sorti": 1860,
-   "speso": 15427.0,
+   "speso": 16960.0,
    "una_ogni_concorsi": 0.9,
-   "vincite": 249,
-   "vinte": 249
+   "vincite": 263,
+   "vinte": 263
   },
   {
    "aperte": 0,
@@ -111,29 +111,31 @@
    "previsioni": 4,
    "quota_vincente": 0.25,
    "rilevamenti": 4,
-   "ritorno": 8.2143,
-   "saldo": 202.0,
+   "ritorno": 3.5938,
+   "saldo": 166.0,
    "scadute": 3,
    "sorti": 4,
-   "speso": 28.0,
+   "speso": 64.0,
    "una_ogni_concorsi": 54.5,
    "vincite": 1,
    "vinte": 1
   }
  ],
  "riferimento": {
-  "periodo": "2005-2026",
-  "rilevamenti": 23853,
+  "colpi_minimi": 10,
+  "periodo": "2006-2026",
+  "rilevamenti": 33815,
+  "ritorno_con_colpi_dei_fascicoli": 0.633,
   "ritorno_massimo": 0.74,
-  "ritorno_medio": 0.677,
-  "ritorno_minimo": 0.62,
+  "ritorno_medio": 0.601,
+  "ritorno_minimo": 0.52,
   "soglia_campione": 300
  },
  "totale": {
-  "incassato": 62971.1,
+  "incassato": 99758.12,
   "previsioni": 2283,
-  "ritorno": 0.6203,
-  "saldo": -38543.9,
-  "speso": 101515.0
+  "ritorno": 0.6056,
+  "saldo": -64979.88,
+  "speso": 164738.0
  }
 }

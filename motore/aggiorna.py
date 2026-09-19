@@ -28,7 +28,8 @@ if __package__ in (None, ""):                      # lanciato come file, non com
 from motore import fonte, pubblica, stato, storia              # noqa: E402
 from motore.archivio import Archivio, ArchivioNonTrovato       # noqa: E402
 from motore.rilevamento import rileva                          # noqa: E402
-from motore.valutazione import valuta                          # noqa: E402
+from motore.rilevamento import COLPI_MINIMI                    # noqa: E402
+from motore.valutazione import allinea_colpi, valuta           # noqa: E402
 
 RADICE = Path(__file__).resolve().parent.parent
 ESTRAZIONI = RADICE / "archivio" / "estrazioni.csv"
@@ -117,6 +118,11 @@ def main(argv=None) -> int:
         previsioni, n = stato.unisci(previsioni, rileva(arch, giorno))
         aggiunte += n
     print(f"previsioni nuove    {aggiunte}  (in archivio {len(previsioni)})")
+
+    allungate, riaperte = allinea_colpi(previsioni, COLPI_MINIMI)
+    if allungate:
+        print(f"colpi allineati     {allungate} previsioni portate a {COLPI_MINIMI} "
+              f"colpi, {riaperte} sorti riaperte")
 
     rap = valuta(previsioni, arch)
     print(f"valutazione         esaminate {rap.sorti_esaminate}, "

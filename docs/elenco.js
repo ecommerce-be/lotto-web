@@ -61,9 +61,15 @@ export function righe(storico, previsioni, { oltreColpi = 0 } = {}) {
           giorno: p.giorno, metodo: p.metodo, ruota, tipo: s.tipo,
           numeri: s.numeri, colpi: p.colpi, anche_tutte: p.anche_tutte,
           nota: p.nota, esito, colpo, usciti, dove,
-          // le uscite sulle ruote fuori gioco, per questa ruota soltanto:
-          // servono a spiegare una riga "scaduta" che scaduta sembra strana
+          // I numeri usciti da soli su QUESTA ruota: un ambo di cui esce un
+          // numero non paga, ma spiega una riga "scaduta" che scaduta sembra
+          // strana.
           sfiorata: s.altrove.filter(a => a.ruota === ruota),
+          // E quelli usciti sulle ALTRE ruote, nella stessa finestra di colpi:
+          // e' la domanda naturale davanti a un numero sfiorato - "e allora
+          // dov'e' finito?". Si tiene un riferimento allo stesso array per
+          // tutte le righe della sorte, non una copia: sono sedicimila righe.
+          altrove: s.altrove,
         });
       }
     }

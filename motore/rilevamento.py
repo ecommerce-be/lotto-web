@@ -23,6 +23,20 @@ from .archivio import RUOTE, Archivio
 
 FINESTRA_RITARDI = 200      # concorsi guardati indietro per calcolare i ritardi
 
+# I colpi dei fascicoli vanno da 2 (Ambo Secco Caotico) a 14 (Lotto Facile 4).
+# Qui c'e' un pavimento: nessuna previsione si segue per meno di dieci colpi.
+#
+# E' una DEROGA DICHIARATA, non una correzione: i fascicoli dicono altro, e
+# `lotto.py` continua a riportare quello che dicono. Il pavimento si applica in
+# un punto solo, qui, cosi' e' sempre chiaro dove finisce il fascicolo e dove
+# comincia la casa.
+#
+# Costa. Il ritorno per euro NON cambia - dipende solo dalla sorte - mentre la
+# spesa cresce in proporzione ai colpi: l'Ambo Secco Caotico, da 2 a 10 colpi,
+# costa cinque volte tanto. Cresce anche la probabilita' che una previsione
+# prima o poi esca, nella stessa proporzione. Il Bilancio mostra tutt'e due.
+COLPI_MINIMI = 10
+
 
 def chiave(metodo: str, giorno: date, ruote, sorti) -> str:
     """Identita' di una previsione: gli stessi ingredienti danno la stessa chiave."""
@@ -110,7 +124,7 @@ def rileva(arch: Archivio, giorno: date) -> list[dict]:
             "metodo": g.metodo,
             "giorno": giorno.isoformat(),
             "ruote": list(g.ruote),
-            "colpi": g.colpi,
+            "colpi": max(g.colpi, COLPI_MINIMI),
             "anche_tutte": bool(g.tutte),
             "nota": nota.strip() or None,
             "avviso": avviso,

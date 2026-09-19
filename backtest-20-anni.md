@@ -88,6 +88,15 @@ il test su un secondo archivio di provenienza diversa.** Finché non lo si fa, r
 
 ## Il dato che conta davvero: il bilancio
 
+> **Aggiornamento.** Le cifre di questa sezione sono calcolate con i colpi dei
+> fascicoli e senza l'Ambo Secco Caotico, che è stato ricostruito dopo. L'app
+> oggi applica un pavimento di dieci colpi e include quel metodo: sugli stessi
+> 33.815 rilevamenti il ritorno complessivo è **60,1%** contro il 63,3% dei
+> colpi dei fascicoli — più vincite, spesa più che proporzionale. Il riferimento
+> vivo sta in `archivio/backtest.json`. Il resto di questo documento — la
+> validazione dell'archivio, l'autocorrelazione, i controlli placebo, i test di
+> regressione sui fascicoli — non dipende dai colpi e resta valido.
+
 Quote ufficiali (moltiplicatore della posta su ruota singola): ambata 11,232 · ambo 250 · terno 4.500 ·
 quaterna 120.000. Ritenuta erariale 8%. Regola: 1 € per sorte, per ruota, per colpo, sospendendo la sorte
 sulla ruota dove si è vinto, come prescrivono i fascicoli stessi.

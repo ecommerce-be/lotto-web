@@ -274,6 +274,43 @@ check('se i colpi non sono ancora finiti la riga e\' aperta',
   R.find(x => x.metodo === 'lottofacile1').esito);
 check('ogni riga porta con se\' i colpi previsti dal metodo',
   R.every(x => x.colpi > 0));
+
+// "un numero solo, 2 volte" e' una risposta a meta': la riga deve portarsi
+// dietro sia il numero uscito su QUESTA ruota sia dove e' finito sulle altre,
+// se no il dettaglio cliccabile non ha niente da mostrare.
+// L'ambo 7-21 non esce mai intero: il 7 spunta da solo su Napoli al primo e al
+// terzo colpo, il 21 da solo su Bari al terzo. E' il caso esatto, ed e' anche
+// il testo che si legge a schermo: "un numero solo, 2 volte".
+const SFIORO = righe(FINTO, [{
+  giorno: '2000-01-04', metodo: 'finto', ruote: ['NA', 'BA'], colpi: 3,
+  anche_tutte: false, nota: null, avviso: null,
+  sorti: [{ tipo: 'ambo', numeri: [7, 21] }],
+}]);
+const suNapoli = SFIORO.find(x => x.ruota === 'NA');
+const suBari = SFIORO.find(x => x.ruota === 'BA');
+check('due righe, una per ruota, tutt\'e due scadute',
+  SFIORO.length === 2 && SFIORO.every(x => x.esito === 'scaduta'),
+  JSON.stringify(SFIORO.map(x => [x.ruota, x.esito])));
+check('la riga di Napoli dice che il 7 e\' uscito da solo, due volte',
+  suNapoli.sfiorata.length === 2
+  && suNapoli.sfiorata.every(a => a.usciti.join() === '7')
+  && suNapoli.sfiorata.map(a => a.colpo).join() === '1,3',
+  JSON.stringify(suNapoli.sfiorata));
+check('e quella di Bari dice il 21, al terzo',
+  suBari.sfiorata.length === 1 && suBari.sfiorata[0].usciti.join() === '21'
+  && suBari.sfiorata[0].colpo === 3, JSON.stringify(suBari.sfiorata));
+check('ogni riga si porta dietro anche l\'altra ruota, per il dettaglio',
+  suNapoli.altrove.some(a => a.ruota === 'BA' && a.usciti.join() === '21')
+  && suBari.altrove.some(a => a.ruota === 'NA' && a.usciti.join() === '7'),
+  JSON.stringify(suNapoli.altrove));
+check('cio\' che e\' sfiorato su questa ruota sta dentro a quello di tutte',
+  SFIORO.every(x => x.sfiorata.every(a => x.altrove.includes(a))));
+check('i numeri sfiorati appartengono alla sorte',
+  SFIORO.every(x => x.sfiorata.every(a => a.usciti.every(n => x.numeri.includes(n)))));
+check('e nessuna uscita cade fuori dai colpi della previsione',
+  SFIORO.every(x => x.altrove.every(a => a.colpo >= 1 && a.colpo <= x.colpi)));
+check('le due righe condividono lo stesso elenco, non una copia per ciascuna',
+  suNapoli.altrove === suBari.altrove);
 check('senza previsioni non ci sono righe', righe(FINTO, []).length === 0);
 
 const C = conteggio(R);

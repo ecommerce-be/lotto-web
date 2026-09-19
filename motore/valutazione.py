@@ -84,6 +84,35 @@ def valuta(previsioni: list[dict], arch: Archivio) -> RapportoValutazione:
     return rap
 
 
+def allinea_colpi(previsioni: list[dict], minimo: int) -> tuple[int, int]:
+    """Porta i colpi gia' salvati al pavimento di casa, e riapre il riaperibile.
+
+    Serve perche' il pavimento (`rilevamento.COLPI_MINIMI`) vale sulle previsioni
+    nuove, ma in archivio ce ne sono migliaia rilevate quando valevano i colpi
+    dei fascicoli: senza questo passaggio il sito mostrerebbe due regole diverse
+    a seconda di quando una previsione e' stata rilevata.
+
+    Una sorte "scaduta" con pochi colpi consumati torna **aperta**: i colpi che
+    le restano non sono mai stati giocati, e valutarli e' esattamente il punto.
+    Una sorte "vinta" resta vinta - si era sospesa, come prescrivono i fascicoli.
+
+    E' idempotente: alla seconda esecuzione non cambia niente, il che permette
+    di lasciarlo dentro all'aggiornamento serale invece di ricordarsi di
+    lanciarlo a mano.
+    """
+    allungate = riaperte = 0
+    for p in previsioni:
+        if p["colpi"] >= minimo:
+            continue
+        p["colpi"] = minimo
+        allungate += 1
+        for s in p["sorti"]:
+            if s["stato"] == "scaduta" and s["colpi_valutati"] < minimo:
+                s["stato"] = "aperta"
+                riaperte += 1
+    return allungate, riaperte
+
+
 def colpi_residui(p: dict, s: dict, arch: Archivio) -> int:
     """Quante estrazioni restano prima che questa sorte scada."""
     if s["stato"] != "aperta":

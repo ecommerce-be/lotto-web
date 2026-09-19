@@ -1,6 +1,6 @@
 [
  {
-  "previsione": "20241018|ambosecco_caotico|BA,GE,NA,PA|2|1|ambo:53-60;ambo:53-83|A=67 su BA/GE/NA, B=23 su PA|",
+  "previsione": "20241018|ambosecco_caotico|BA,GE,NA,PA|10|1|ambo:53-60;ambo:53-83|A=67 su BA/GE/NA, B=23 su PA|",
   "sorti": [
    {
     "esiti": [],
@@ -23,7 +23,7 @@
   ]
  },
  {
-  "previsione": "20241018|ambosecco_caotico|MI,PA,GE|2|1|ambo:7-13;ambo:23-89|A=7 su MI/PA, B=83 su GE|",
+  "previsione": "20241018|ambosecco_caotico|MI,PA,GE|10|1|ambo:7-13;ambo:23-89|A=7 su MI/PA, B=83 su GE|",
   "sorti": [
    {
     "esiti": [],
@@ -46,7 +46,7 @@
   ]
  },
  {
-  "previsione": "20241018|lottofacile5|GE|9|0|ambata:66;ambata:21;ambo:35-66;ambo:66-80;ambo:21-35;ambo:21-80;quartina:5-35-65-66;quartina:20-50-66-80;quartina:5-21-35-65;quartina:20-21-50-80|rilevamento 22-67|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
+  "previsione": "20241018|lottofacile5|GE|10|0|ambata:66;ambata:21;ambo:35-66;ambo:66-80;ambo:21-35;ambo:21-80;quartina:5-35-65-66;quartina:20-50-66-80;quartina:5-21-35-65;quartina:20-21-50-80|rilevamento 22-67|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
   "sorti": [
    {
     "esiti": [],
@@ -147,7 +147,7 @@
   ]
  },
  {
-  "previsione": "20241018|lottofacile1|BA,RM|6|0|ambata:52;ambo:52-87;ambo:52-78;terzina:52-78-87|pos 2-5 somma 3|",
+  "previsione": "20241018|lottofacile1|BA,RM|10|0|ambata:52;ambo:52-87;ambo:52-78;terzina:52-78-87|pos 2-5 somma 3|",
   "sorti": [
    {
     "esiti": [
@@ -198,7 +198,7 @@
   ]
  },
  {
-  "previsione": "20241018|lottofacile1|BA,RM|6|0|ambata:66;ambo:40-66;ambo:4-66;terzina:4-40-66|pos 3-4 somma 50|",
+  "previsione": "20241018|lottofacile1|BA,RM|10|0|ambata:66;ambo:40-66;ambo:4-66;terzina:4-40-66|pos 3-4 somma 50|",
   "sorti": [
    {
     "esiti": [
@@ -249,7 +249,7 @@
   ]
  },
  {
-  "previsione": "20241018|lottofacile1|CA,GE|6|0|ambata:36;ambo:5-36;ambo:36-50;terzina:5-36-50|pos 3-5 somma 85|",
+  "previsione": "20241018|lottofacile1|CA,GE|10|0|ambata:36;ambo:5-36;ambo:36-50;terzina:5-36-50|pos 3-5 somma 85|",
   "sorti": [
    {
     "esiti": [
@@ -270,12 +270,23 @@
     "tipo": "ambata"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 7,
+      "giorno": "2024-10-31",
+      "ruota": "GE",
+      "usciti": [
+       5,
+       36
+      ]
+     }
+    ],
     "numeri": [
      5,
      36
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambo"
    },
    {
@@ -288,26 +299,47 @@
     "tipo": "ambo"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 7,
+      "giorno": "2024-10-31",
+      "ruota": "GE",
+      "usciti": [
+       5,
+       36
+      ]
+     }
+    ],
     "numeri": [
      5,
      36,
      50
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "terzina"
    }
   ]
  },
  {
-  "previsione": "20241018|lottofacile1|FI,GE|6|0|ambata:36;ambo:6-36;ambo:36-60;terzina:6-36-60|pos 3-4 somma 84|",
+  "previsione": "20241018|lottofacile1|FI,GE|10|0|ambata:36;ambo:6-36;ambo:36-60;terzina:6-36-60|pos 3-4 somma 84|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 7,
+      "giorno": "2024-10-31",
+      "ruota": "GE",
+      "usciti": [
+       36
+      ]
+     }
+    ],
     "numeri": [
      36
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambata"
    },
    {
@@ -430,7 +462,7 @@
   ]
  },
  {
-  "previsione": "20241018|lottofacile1|FI,NA|6|0|ambata:84;ambo:26-84;ambo:62-84;terzina:26-62-84|pos 4-5 somma 64|",
+  "previsione": "20241018|lottofacile1|FI,NA|10|0|ambata:84;ambo:26-84;ambo:62-84;terzina:26-62-84|pos 4-5 somma 64|",
   "sorti": [
    {
     "esiti": [
@@ -553,7 +585,7 @@
   ]
  },
  {
-  "previsione": "20241019|ambosecco_caotico|BA,VE,MI,PA|2|1|ambo:59-64;ambo:64-83|A=66 su BA/VE, B=24 su MI/PA|",
+  "previsione": "20241019|ambosecco_caotico|BA,VE,MI,PA|10|1|ambo:59-64;ambo:64-83|A=66 su BA/VE, B=24 su MI/PA|",
   "sorti": [
    {
     "esiti": [],
@@ -576,10 +608,21 @@
   ]
  },
  {
-  "previsione": "20241019|ambosecco_caotico|GE,RM,CA|2|1|ambo:1-79;ambo:89-89|A=1 su GE/RM, B=89 su CA|",
+  "previsione": "20241019|ambosecco_caotico|GE,RM,CA|10|1|ambo:1-79;ambo:89-89|A=1 su GE/RM, B=89 su CA|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": true,
+      "colpo": 9,
+      "giorno": "2024-11-05",
+      "ruota": "BA",
+      "usciti": [
+       1,
+       79
+      ]
+     }
+    ],
     "numeri": [
      1,
      79
@@ -599,7 +642,7 @@
   ]
  },
  {
-  "previsione": "20241019|ambosecco_caotico|MI,PA,BA,VE|2|1|ambo:22-26;ambo:36-87|A=24 su MI/PA, B=66 su BA/VE|",
+  "previsione": "20241019|ambosecco_caotico|MI,PA,BA,VE|10|1|ambo:22-26;ambo:36-87|A=24 su MI/PA, B=66 su BA/VE|",
   "sorti": [
    {
     "esiti": [],
@@ -622,7 +665,7 @@
   ]
  },
  {
-  "previsione": "20241019|lottofacile1|BA,GE|6|0|ambata:2;ambo:2-72;ambo:2-27;terzina:2-27-72|pos 4-5 somma 18|",
+  "previsione": "20241019|lottofacile1|BA,GE|10|0|ambata:2;ambo:2-72;ambo:2-27;terzina:2-27-72|pos 4-5 somma 18|",
   "sorti": [
    {
     "esiti": [],
@@ -663,7 +706,7 @@
   ]
  },
  {
-  "previsione": "20241019|lottofacile1|BA,NA|6|0|ambata:10;ambo:10-36;ambo:10-63;terzina:10-36-63|pos 1-3 somma 54|",
+  "previsione": "20241019|lottofacile1|BA,NA|10|0|ambata:10;ambo:10-36;ambo:10-63;terzina:10-36-63|pos 1-3 somma 54|",
   "sorti": [
    {
     "esiti": [
@@ -736,14 +779,24 @@
   ]
  },
  {
-  "previsione": "20241019|lottofacile1|BA,VE|6|0|ambata:30;ambo:30-54;ambo:30-45;terzina:30-45-54|pos 3-4 somma 36|",
+  "previsione": "20241019|lottofacile1|BA,VE|10|0|ambata:30;ambo:30-54;ambo:30-45;terzina:30-45-54|pos 3-4 somma 36|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 8,
+      "giorno": "2024-11-04",
+      "ruota": "VE",
+      "usciti": [
+       30
+      ]
+     }
+    ],
     "numeri": [
      30
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambata"
    },
    {
@@ -756,22 +809,44 @@
     "tipo": "ambo"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 8,
+      "giorno": "2024-11-04",
+      "ruota": "VE",
+      "usciti": [
+       30,
+       45
+      ]
+     }
+    ],
     "numeri": [
      30,
      45
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambo"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 8,
+      "giorno": "2024-11-04",
+      "ruota": "VE",
+      "usciti": [
+       30,
+       45
+      ]
+     }
+    ],
     "numeri": [
      30,
      45,
      54
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "terzina"
    }
   ]
@@ -1107,7 +1182,7 @@
   ]
  },
  {
-  "previsione": "20241019|unsoloambosecco|PA,VE|4|1|ambo:78-84|S=84 su|18, 24, 30, 54, 60, 66",
+  "previsione": "20241019|unsoloambosecco|PA,VE|10|1|ambo:78-84|S=84 su|18, 24, 30, 54, 60, 66",
   "sorti": [
    {
     "esiti": [],
@@ -1121,7 +1196,7 @@
   ]
  },
  {
-  "previsione": "20241019|lottofacile1|TO,VE|6|0|ambata:60;ambo:60-84;ambo:48-60;terzina:48-60-84|pos 1-4 somma 6|",
+  "previsione": "20241019|lottofacile1|TO,VE|10|0|ambata:60;ambo:60-84;ambo:48-60;terzina:48-60-84|pos 1-4 somma 6|",
   "sorti": [
    {
     "esiti": [],
@@ -1162,7 +1237,7 @@
   ]
  },
  {
-  "previsione": "20241022|ambosecco_caotico|BA,TO,GE|2|1|ambo:2-8;ambo:12-89|A=8 su BA/TO, B=82 su GE|",
+  "previsione": "20241022|ambosecco_caotico|BA,TO,GE|10|1|ambo:2-8;ambo:12-89|A=8 su BA/TO, B=82 su GE|",
   "sorti": [
    {
     "esiti": [],
@@ -1185,7 +1260,7 @@
   ]
  },
  {
-  "previsione": "20241022|ambosecco_caotico|FI,PA,TO|2|1|ambo:33-83;ambo:83-86|A=37 su FI/PA, B=53 su TO|",
+  "previsione": "20241022|ambosecco_caotico|FI,PA,TO|10|1|ambo:33-83;ambo:83-86|A=37 su FI/PA, B=53 su TO|",
   "sorti": [
    {
     "esiti": [],
@@ -1197,7 +1272,18 @@
     "tipo": "ambo"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": true,
+      "colpo": 7,
+      "giorno": "2024-11-04",
+      "ruota": "GE",
+      "usciti": [
+       83,
+       86
+      ]
+     }
+    ],
     "numeri": [
      83,
      86
@@ -1208,7 +1294,7 @@
   ]
  },
  {
-  "previsione": "20241022|ambosecco_caotico|FI,RM,VE|2|1|ambo:15-23;ambo:25-87|A=25 su FI/RM, B=65 su VE|",
+  "previsione": "20241022|ambosecco_caotico|FI,RM,VE|10|1|ambo:15-23;ambo:25-87|A=25 su FI/RM, B=65 su VE|",
   "sorti": [
    {
     "esiti": [],
@@ -1231,7 +1317,7 @@
   ]
  },
  {
-  "previsione": "20241022|ambosecco_caotico|FI,TO,NA|2|1|ambo:66-75;ambo:66-81|A=84 su FI/TO, B=6 su NA|",
+  "previsione": "20241022|ambosecco_caotico|FI,TO,NA|10|1|ambo:66-75;ambo:66-81|A=84 su FI/TO, B=6 su NA|",
   "sorti": [
    {
     "esiti": [
@@ -1265,7 +1351,7 @@
   ]
  },
  {
-  "previsione": "20241022|lottofacile5|TO|9|0|ambata:15;ambata:60;ambo:7-15;ambo:15-52;ambo:7-60;ambo:52-60;quartina:7-15-37-67;quartina:15-22-52-82;quartina:7-37-60-67;quartina:22-52-60-82|rilevamento 8-53|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
+  "previsione": "20241022|lottofacile5|TO|10|0|ambata:15;ambata:60;ambo:7-15;ambo:15-52;ambo:7-60;ambo:52-60;quartina:7-15-37-67;quartina:15-22-52-82;quartina:7-37-60-67;quartina:22-52-60-82|rilevamento 8-53|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
   "sorti": [
    {
     "esiti": [
@@ -1591,7 +1677,7 @@
   ]
  },
  {
-  "previsione": "20241022|lottofacile1|FI,GE|6|0|ambata:74;ambo:37-74;ambo:73-74;terzina:37-73-74|pos 4-5 somma 53|",
+  "previsione": "20241022|lottofacile1|FI,GE|10|0|ambata:74;ambo:37-74;ambo:73-74;terzina:37-73-74|pos 4-5 somma 53|",
   "sorti": [
    {
     "esiti": [
@@ -1642,14 +1728,24 @@
   ]
  },
  {
-  "previsione": "20241022|lottofacile1|GE,NA|6|0|ambata:18;ambo:18-74;ambo:18-47;terzina:18-47-74|pos 1-4 somma 16|",
+  "previsione": "20241022|lottofacile1|GE,NA|10|0|ambata:18;ambo:18-74;ambo:18-47;terzina:18-47-74|pos 1-4 somma 16|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 9,
+      "giorno": "2024-11-07",
+      "ruota": "GE",
+      "usciti": [
+       18
+      ]
+     }
+    ],
     "numeri": [
      18
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambata"
    },
    {
@@ -1683,14 +1779,24 @@
   ]
  },
  {
-  "previsione": "20241022|lottofacile1|GE,VE|6|0|ambata:28;ambo:5-28;ambo:28-50;terzina:5-28-50|pos 1-5 somma 85|",
+  "previsione": "20241022|lottofacile1|GE,VE|10|0|ambata:28;ambo:5-28;ambo:28-50;terzina:5-28-50|pos 1-5 somma 85|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 7,
+      "giorno": "2024-11-04",
+      "ruota": "VE",
+      "usciti": [
+       28
+      ]
+     }
+    ],
     "numeri": [
      28
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambata"
    },
    {
@@ -1724,7 +1830,7 @@
   ]
  },
  {
-  "previsione": "20241022|lottofacile1|MI,VE|6|0|ambata:22;ambo:22-59;ambo:22-55;terzina:22-55-59|pos 2-3 somma 31|",
+  "previsione": "20241022|lottofacile1|MI,VE|10|0|ambata:22;ambo:22-59;ambo:22-55;terzina:22-55-59|pos 2-3 somma 31|",
   "sorti": [
    {
     "esiti": [
@@ -1775,7 +1881,7 @@
   ]
  },
  {
-  "previsione": "20241022|lottofacile1|RM,VE|6|0|ambata:28;ambo:22-28;ambo:28-29;terzina:22-28-29|pos 1-4 somma 68|",
+  "previsione": "20241022|lottofacile1|RM,VE|10|0|ambata:28;ambo:22-28;ambo:28-29;terzina:22-28-29|pos 1-4 somma 68|",
   "sorti": [
    {
     "esiti": [
@@ -1826,7 +1932,7 @@
   ]
  },
  {
-  "previsione": "20241024|ambosecco_caotico|BA,GE,PA|2|1|ambo:2-8;ambo:12-89|A=8 su BA/GE, B=82 su PA|",
+  "previsione": "20241024|ambosecco_caotico|BA,GE,PA|10|1|ambo:2-8;ambo:12-89|A=8 su BA/GE, B=82 su PA|",
   "sorti": [
    {
     "esiti": [],
@@ -1849,15 +1955,26 @@
   ]
  },
  {
-  "previsione": "20241024|ambosecco_caotico|BA,FI,NA,RM|2|1|ambo:1-79;ambo:89-89|A=1 su BA/FI/NA, B=89 su RM|",
+  "previsione": "20241024|ambosecco_caotico|BA,FI,NA,RM|10|1|ambo:1-79;ambo:89-89|A=1 su BA/FI/NA, B=89 su RM|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 7,
+      "giorno": "2024-11-05",
+      "ruota": "BA",
+      "usciti": [
+       1,
+       79
+      ]
+     }
+    ],
     "numeri": [
      1,
      79
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambo"
    },
    {
@@ -1872,7 +1989,7 @@
   ]
  },
  {
-  "previsione": "20241024|ambosecco_caotico|PA,VE,TO|2|1|ambo:65-87;ambo:82-87|A=73 su PA/VE, B=17 su TO|",
+  "previsione": "20241024|ambosecco_caotico|PA,VE,TO|10|1|ambo:65-87;ambo:82-87|A=73 su PA/VE, B=17 su TO|",
   "sorti": [
    {
     "esiti": [],
@@ -1895,7 +2012,7 @@
   ]
  },
  {
-  "previsione": "20241024|lottofacile5|TO|9|0|ambata:90;ambo:42-90;ambo:87-90;quartina:12-42-72-90;quartina:27-57-87-90|rilevamento 3-48|",
+  "previsione": "20241024|lottofacile5|TO|10|0|ambata:90;ambo:42-90;ambo:87-90;quartina:12-42-72-90;quartina:27-57-87-90|rilevamento 3-48|",
   "sorti": [
    {
     "esiti": [],
@@ -1948,7 +2065,7 @@
   ]
  },
  {
-  "previsione": "20241024|lottofacile1|BA,GE|6|0|ambata:16;ambo:16-55;ambo:16-59;terzina:16-55-59|pos 1-2 somma 35|",
+  "previsione": "20241024|lottofacile1|BA,GE|10|0|ambata:16;ambo:16-55;ambo:16-59;terzina:16-55-59|pos 1-2 somma 35|",
   "sorti": [
    {
     "esiti": [
@@ -2008,7 +2125,7 @@
   ]
  },
  {
-  "previsione": "20241024|lottofacile1|BA,GE|6|0|ambata:22;ambo:22-81;ambo:18-22;terzina:18-22-81|pos 3-4 somma 9|",
+  "previsione": "20241024|lottofacile1|BA,GE|10|0|ambata:22;ambo:22-81;ambo:18-22;terzina:18-22-81|pos 3-4 somma 9|",
   "sorti": [
    {
     "esiti": [],
@@ -2049,7 +2166,7 @@
   ]
  },
  {
-  "previsione": "20241024|lottofacile1|BA,GE|6|0|ambata:22;ambo:19-22;ambo:11-22;terzina:11-19-22|pos 3-5 somma 71|",
+  "previsione": "20241024|lottofacile1|BA,GE|10|0|ambata:22;ambo:19-22;ambo:11-22;terzina:11-19-22|pos 3-5 somma 71|",
   "sorti": [
    {
     "esiti": [],
@@ -2090,7 +2207,7 @@
   ]
  },
  {
-  "previsione": "20241024|lottofacile1|CA,MI|6|0|ambata:50;ambo:46-50;ambo:50-64;terzina:46-50-64|pos 1-4 somma 44|",
+  "previsione": "20241024|lottofacile1|CA,MI|10|0|ambata:50;ambo:46-50;ambo:50-64;terzina:46-50-64|pos 1-4 somma 44|",
   "sorti": [
    {
     "esiti": [],
@@ -2131,7 +2248,7 @@
   ]
  },
  {
-  "previsione": "20241024|lottofacile1|FI,PA|6|0|ambata:44;ambo:44-63;ambo:36-44;terzina:36-44-63|pos 1-3 somma 27|",
+  "previsione": "20241024|lottofacile1|FI,PA|10|0|ambata:44;ambo:44-63;ambo:36-44;terzina:36-44-63|pos 1-3 somma 27|",
   "sorti": [
    {
     "esiti": [
@@ -2182,7 +2299,7 @@
   ]
  },
  {
-  "previsione": "20241024|lottofacile1|MI,PA|6|0|ambata:56;ambo:56-77;ambo:56-79;terzina:56-77-79|pos 4-5 somma 13|",
+  "previsione": "20241024|lottofacile1|MI,PA|10|0|ambata:56;ambo:56-77;ambo:56-79;terzina:56-77-79|pos 4-5 somma 13|",
   "sorti": [
    {
     "esiti": [
@@ -2233,7 +2350,7 @@
   ]
  },
  {
-  "previsione": "20241024|lottofacile1|MI,RM|6|0|ambata:8;ambo:8-80;ambo:8-8|pos 2-3 somma 10|",
+  "previsione": "20241024|lottofacile1|MI,RM|10|0|ambata:8;ambo:8-80;ambo:8-8|pos 2-3 somma 10|",
   "sorti": [
    {
     "esiti": [
@@ -2274,7 +2391,7 @@
   ]
  },
  {
-  "previsione": "20241024|lottofacile1|NA,PA|6|0|ambata:74;ambo:25-74;ambo:52-74;terzina:25-52-74|pos 2-4 somma 65|",
+  "previsione": "20241024|lottofacile1|NA,PA|10|0|ambata:74;ambo:25-74;ambo:52-74;terzina:25-52-74|pos 2-4 somma 65|",
   "sorti": [
    {
     "esiti": [
@@ -2325,7 +2442,7 @@
   ]
  },
  {
-  "previsione": "20241024|lottofacile1|NA,PA|6|0|ambata:74;ambo:68-74;ambo:74-86;terzina:68-74-86|pos 2-5 somma 22|",
+  "previsione": "20241024|lottofacile1|NA,PA|10|0|ambata:74;ambo:68-74;ambo:74-86;terzina:68-74-86|pos 2-5 somma 22|",
   "sorti": [
    {
     "esiti": [
@@ -2528,7 +2645,7 @@
   ]
  },
  {
-  "previsione": "20241024|lottofacile1|NA,RM|6|0|ambata:8;ambo:8-25;ambo:8-52;terzina:8-25-52|pos 2-4 somma 65|",
+  "previsione": "20241024|lottofacile1|NA,RM|10|0|ambata:8;ambo:8-25;ambo:8-52;terzina:8-25-52|pos 2-4 somma 65|",
   "sorti": [
    {
     "esiti": [],
@@ -2630,7 +2747,7 @@
   ]
  },
  {
-  "previsione": "20241024|lottofacile1|PA,RM|6|0|ambata:8;ambo:8-25;ambo:8-52;terzina:8-25-52|pos 2-4 somma 65|",
+  "previsione": "20241024|lottofacile1|PA,RM|10|0|ambata:8;ambo:8-25;ambo:8-52;terzina:8-25-52|pos 2-4 somma 65|",
   "sorti": [
    {
     "esiti": [],
@@ -2847,7 +2964,7 @@
   ]
  },
  {
-  "previsione": "20241024|lottofacile1|RM,TO|6|0|ambata:6;ambo:6-39;ambo:6-33;terzina:6-33-39|pos 1-5 somma 51|",
+  "previsione": "20241024|lottofacile1|RM,TO|10|0|ambata:6;ambo:6-39;ambo:6-33;terzina:6-33-39|pos 1-5 somma 51|",
   "sorti": [
    {
     "esiti": [
@@ -2920,7 +3037,7 @@
   ]
  },
  {
-  "previsione": "20241025|ambosecco_caotico|BA,FI,GE,RM,NA|2|1|ambo:3-57;ambo:67-89|A=3 su BA/FI/GE/RM, B=87 su NA|",
+  "previsione": "20241025|ambosecco_caotico|BA,FI,GE,RM,NA|10|1|ambo:3-57;ambo:67-89|A=3 su BA/FI/GE/RM, B=87 su NA|",
   "sorti": [
    {
     "esiti": [],
@@ -2932,18 +3049,29 @@
     "tipo": "ambo"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 10,
+      "giorno": "2024-11-12",
+      "ruota": "RM",
+      "usciti": [
+       67,
+       89
+      ]
+     }
+    ],
     "numeri": [
      67,
      89
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambo"
    }
   ]
  },
  {
-  "previsione": "20241025|ambosecco_caotico|GE,PA,FI|2|1|ambo:27-60;ambo:60-87|A=30 su GE/PA, B=60 su FI|",
+  "previsione": "20241025|ambosecco_caotico|GE,PA,FI|10|1|ambo:27-60;ambo:60-87|A=30 su GE/PA, B=60 su FI|",
   "sorti": [
    {
     "esiti": [],
@@ -2966,7 +3094,7 @@
   ]
  },
  {
-  "previsione": "20241025|ambosecco_caotico|NA,TO,VE|2|1|ambo:27-30;ambo:37-86|A=33 su NA/TO, B=57 su VE|",
+  "previsione": "20241025|ambosecco_caotico|NA,TO,VE|10|1|ambo:27-30;ambo:37-86|A=33 su NA/TO, B=57 su VE|",
   "sorti": [
    {
     "esiti": [],
@@ -3000,7 +3128,7 @@
   ]
  },
  {
-  "previsione": "20241025|lottofacile5|MI|9|0|ambata:36;ambata:81;ambo:36-54;ambo:9-36;ambo:54-81;ambo:9-81;quartina:24-36-54-84;quartina:9-36-39-69;quartina:24-54-81-84;quartina:9-39-69-81|rilevamento 45-90|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
+  "previsione": "20241025|lottofacile5|MI|10|0|ambata:36;ambata:81;ambo:36-54;ambo:9-36;ambo:54-81;ambo:9-81;quartina:24-36-54-84;quartina:9-36-39-69;quartina:24-54-81-84;quartina:9-39-69-81|rilevamento 45-90|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
   "sorti": [
    {
     "esiti": [
@@ -3132,7 +3260,7 @@
   ]
  },
  {
-  "previsione": "20241025|lottofacile5|TO|9|0|ambata:51;ambata:6;ambo:25-51;ambo:51-70;ambo:6-25;ambo:6-70;quartina:25-51-55-85;quartina:10-40-51-70;quartina:6-25-55-85;quartina:6-10-40-70|rilevamento 17-62|",
+  "previsione": "20241025|lottofacile5|TO|10|0|ambata:51;ambata:6;ambo:25-51;ambo:51-70;ambo:6-25;ambo:6-70;quartina:25-51-55-85;quartina:10-40-51-70;quartina:6-25-55-85;quartina:6-10-40-70|rilevamento 17-62|",
   "sorti": [
    {
     "esiti": [],
@@ -3350,23 +3478,44 @@
   ]
  },
  {
-  "previsione": "20241025|lottofacile1|BA,TO|6|0|ambata:66;ambo:59-66;ambo:55-66;terzina:55-59-66|pos 2-3 somma 31|",
+  "previsione": "20241025|lottofacile1|BA,TO|10|0|ambata:66;ambo:59-66;ambo:55-66;terzina:55-59-66|pos 2-3 somma 31|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 7,
+      "giorno": "2024-11-07",
+      "ruota": "BA",
+      "usciti": [
+       66
+      ]
+     }
+    ],
     "numeri": [
      66
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambata"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 10,
+      "giorno": "2024-11-12",
+      "ruota": "BA",
+      "usciti": [
+       59,
+       66
+      ]
+     }
+    ],
     "numeri": [
      59,
      66
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambo"
    },
    {
@@ -3379,19 +3528,30 @@
     "tipo": "ambo"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 10,
+      "giorno": "2024-11-12",
+      "ruota": "BA",
+      "usciti": [
+       59,
+       66
+      ]
+     }
+    ],
     "numeri": [
      55,
      59,
      66
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "terzina"
    }
   ]
  },
  {
-  "previsione": "20241025|lottofacile1|CA,GE|6|0|ambata:14;ambo:14-53;ambo:14-35;terzina:14-35-53|pos 1-5 somma 37|",
+  "previsione": "20241025|lottofacile1|CA,GE|10|0|ambata:14;ambo:14-53;ambo:14-35;terzina:14-35-53|pos 1-5 somma 37|",
   "sorti": [
    {
     "esiti": [
@@ -3464,7 +3624,7 @@
   ]
  },
  {
-  "previsione": "20241025|lottofacile1|CA,RM|6|0|ambata:20;ambo:20-53;ambo:20-35;terzina:20-35-53|pos 1-5 somma 37|",
+  "previsione": "20241025|lottofacile1|CA,RM|10|0|ambata:20;ambo:20-53;ambo:20-35;terzina:20-35-53|pos 1-5 somma 37|",
   "sorti": [
    {
     "esiti": [],
@@ -3505,7 +3665,7 @@
   ]
  },
  {
-  "previsione": "20241025|lottofacile1|FI,NA|6|0|ambata:42;ambo:27-42;ambo:42-72;terzina:27-42-72|pos 1-3 somma 63|",
+  "previsione": "20241025|lottofacile1|FI,NA|10|0|ambata:42;ambo:27-42;ambo:42-72;terzina:27-42-72|pos 1-3 somma 63|",
   "sorti": [
    {
     "esiti": [
@@ -3578,7 +3738,7 @@
   ]
  },
  {
-  "previsione": "20241025|lottofacile1|GE,RM|6|0|ambata:20;ambo:20-53;ambo:20-35;terzina:20-35-53|pos 1-5 somma 37|",
+  "previsione": "20241025|lottofacile1|GE,RM|10|0|ambata:20;ambo:20-53;ambo:20-35;terzina:20-35-53|pos 1-5 somma 37|",
   "sorti": [
    {
     "esiti": [],
@@ -3619,7 +3779,7 @@
   ]
  },
  {
-  "previsione": "20241025|lottofacile1|PA,RM|6|0|ambata:6;ambo:6-15;ambo:6-51;terzina:6-15-51|pos 2-5 somma 75|",
+  "previsione": "20241025|lottofacile1|PA,RM|10|0|ambata:6;ambo:6-15;ambo:6-51;terzina:6-15-51|pos 2-5 somma 75|",
   "sorti": [
    {
     "esiti": [
@@ -3811,7 +3971,7 @@
   ]
  },
  {
-  "previsione": "20241026|lottofacile1|BA,RM|6|0|ambata:38;ambo:1-38;ambo:10-38;terzina:1-10-38|pos 1-2 somma 89|",
+  "previsione": "20241026|lottofacile1|BA,RM|10|0|ambata:38;ambo:1-38;ambo:10-38;terzina:1-10-38|pos 1-2 somma 89|",
   "sorti": [
    {
     "esiti": [],
@@ -3923,7 +4083,7 @@
   ]
  },
  {
-  "previsione": "20241026|lottofacile1|MI,PA|6|0|ambata:70;ambo:58-70;ambo:70-85;terzina:58-70-85|pos 1-4 somma 32|",
+  "previsione": "20241026|lottofacile1|MI,PA|10|0|ambata:70;ambo:58-70;ambo:70-85;terzina:58-70-85|pos 1-4 somma 32|",
   "sorti": [
    {
     "esiti": [
@@ -3974,7 +4134,7 @@
   ]
  },
  {
-  "previsione": "20241026|lottofacile1|NA,PA|6|0|ambata:70;ambo:60-70;ambo:6-70;terzina:6-60-70|pos 1-5 somma 30|",
+  "previsione": "20241026|lottofacile1|NA,PA|10|0|ambata:70;ambo:60-70;ambo:6-70;terzina:6-60-70|pos 1-5 somma 30|",
   "sorti": [
    {
     "esiti": [
@@ -4025,7 +4185,7 @@
   ]
  },
  {
-  "previsione": "20241029|ambosecco_caotico|BA,FI,CA|2|1|ambo:53-60;ambo:53-83|A=67 su BA/FI, B=23 su CA|",
+  "previsione": "20241029|ambosecco_caotico|BA,FI,CA|10|1|ambo:53-60;ambo:53-83|A=67 su BA/FI, B=23 su CA|",
   "sorti": [
    {
     "esiti": [],
@@ -4048,7 +4208,7 @@
   ]
  },
  {
-  "previsione": "20241029|ambosecco_caotico|NA,TO,CA|2|1|ambo:28-38;ambo:38-85|A=42 su NA/TO, B=48 su CA|",
+  "previsione": "20241029|ambosecco_caotico|NA,TO,CA|10|1|ambo:28-38;ambo:38-85|A=42 su NA/TO, B=48 su CA|",
   "sorti": [
    {
     "esiti": [],
@@ -4071,7 +4231,7 @@
   ]
  },
  {
-  "previsione": "20241029|lottofacile5|BA|9|0|ambata:51;ambata:6;ambo:25-51;ambo:51-70;ambo:6-25;ambo:6-70;quartina:25-51-55-85;quartina:10-40-51-70;quartina:6-25-55-85;quartina:6-10-40-70|rilevamento 17-62|",
+  "previsione": "20241029|lottofacile5|BA|10|0|ambata:51;ambata:6;ambo:25-51;ambo:51-70;ambo:6-25;ambo:6-70;quartina:25-51-55-85;quartina:10-40-51-70;quartina:6-25-55-85;quartina:6-10-40-70|rilevamento 17-62|",
   "sorti": [
    {
     "esiti": [],
@@ -4172,7 +4332,7 @@
   ]
  },
  {
-  "previsione": "20241029|lottofacile5|VE|9|0|ambata:42;ambo:1-42;ambo:42-46;quartina:1-31-42-61;quartina:16-42-46-76|rilevamento 32-77|",
+  "previsione": "20241029|lottofacile5|VE|10|0|ambata:42;ambo:1-42;ambo:42-46;quartina:1-31-42-61;quartina:16-42-46-76|rilevamento 32-77|",
   "sorti": [
    {
     "esiti": [],
@@ -4225,7 +4385,7 @@
   ]
  },
  {
-  "previsione": "20241029|lottofacile1|BA,MI|6|0|ambata:48;ambo:28-48;ambo:48-82;terzina:28-48-82|pos 2-5 somma 62|",
+  "previsione": "20241029|lottofacile1|BA,MI|10|0|ambata:48;ambo:28-48;ambo:48-82;terzina:28-48-82|pos 2-5 somma 62|",
   "sorti": [
    {
     "esiti": [],
@@ -4266,7 +4426,7 @@
   ]
  },
  {
-  "previsione": "20241029|lottofacile1|MI,VE|6|0|ambata:40;ambo:40-65;ambo:40-56;terzina:40-56-65|pos 2-4 somma 25|",
+  "previsione": "20241029|lottofacile1|MI,VE|10|0|ambata:40;ambo:40-65;ambo:40-56;terzina:40-56-65|pos 2-4 somma 25|",
   "sorti": [
    {
     "esiti": [
@@ -4328,7 +4488,7 @@
   ]
  },
  {
-  "previsione": "20241029|lottofacile1|NA,RM|6|0|ambata:6;ambo:6-43;ambo:6-34;terzina:6-34-43|pos 1-5 somma 47|",
+  "previsione": "20241029|lottofacile1|NA,RM|10|0|ambata:6;ambo:6-43;ambo:6-34;terzina:6-34-43|pos 1-5 somma 47|",
   "sorti": [
    {
     "esiti": [
@@ -4379,7 +4539,7 @@
   ]
  },
  {
-  "previsione": "20241029|lottofacile1|NA,TO|6|0|ambata:84;ambo:56-84;ambo:65-84;terzina:56-65-84|pos 1-3 somma 34|",
+  "previsione": "20241029|lottofacile1|NA,TO|10|0|ambata:84;ambo:56-84;ambo:65-84;terzina:56-65-84|pos 1-3 somma 34|",
   "sorti": [
    {
     "esiti": [],
@@ -4420,7 +4580,7 @@
   ]
  },
  {
-  "previsione": "20241029|lottofacile1|NA,VE|6|0|ambata:40;ambo:38-40;ambo:40-83;terzina:38-40-83|pos 2-3 somma 52|",
+  "previsione": "20241029|lottofacile1|NA,VE|10|0|ambata:40;ambo:38-40;ambo:40-83;terzina:38-40-83|pos 2-3 somma 52|",
   "sorti": [
    {
     "esiti": [
@@ -4471,7 +4631,7 @@
   ]
  },
  {
-  "previsione": "20241031|ambosecco_caotico|BA,GE,RM|2|1|ambo:14-15;ambo:24-88|A=16 su BA/GE, B=74 su RM|",
+  "previsione": "20241031|ambosecco_caotico|BA,GE,RM|10|1|ambo:14-15;ambo:24-88|A=16 su BA/GE, B=74 su RM|",
   "sorti": [
    {
     "esiti": [],
@@ -4483,7 +4643,28 @@
     "tipo": "ambo"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": true,
+      "colpo": 7,
+      "giorno": "2024-11-12",
+      "ruota": "PA",
+      "usciti": [
+       24,
+       88
+      ]
+     },
+     {
+      "a_tutte": true,
+      "colpo": 10,
+      "giorno": "2024-11-16",
+      "ruota": "FI",
+      "usciti": [
+       24,
+       88
+      ]
+     }
+    ],
     "numeri": [
      24,
      88
@@ -4494,7 +4675,7 @@
   ]
  },
  {
-  "previsione": "20241031|ambosecco_caotico|BA,FI,CA|2|1|ambo:3-57;ambo:67-89|A=3 su BA/FI, B=87 su CA|",
+  "previsione": "20241031|ambosecco_caotico|BA,FI,CA|10|1|ambo:3-57;ambo:67-89|A=3 su BA/FI, B=87 su CA|",
   "sorti": [
    {
     "esiti": [],
@@ -4506,7 +4687,18 @@
     "tipo": "ambo"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": true,
+      "colpo": 7,
+      "giorno": "2024-11-12",
+      "ruota": "RM",
+      "usciti": [
+       67,
+       89
+      ]
+     }
+    ],
     "numeri": [
      67,
      89
@@ -4517,7 +4709,7 @@
   ]
  },
  {
-  "previsione": "20241031|ambosecco_caotico|BA,NA,MI|2|1|ambo:29-38;ambo:48-86|A=32 su BA/NA, B=58 su MI|",
+  "previsione": "20241031|ambosecco_caotico|BA,NA,MI|10|1|ambo:29-38;ambo:48-86|A=32 su BA/NA, B=58 su MI|",
   "sorti": [
    {
     "esiti": [],
@@ -4529,7 +4721,18 @@
     "tipo": "ambo"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": true,
+      "colpo": 10,
+      "giorno": "2024-11-16",
+      "ruota": "PA",
+      "usciti": [
+       48,
+       86
+      ]
+     }
+    ],
     "numeri": [
      48,
      86
@@ -4540,10 +4743,21 @@
   ]
  },
  {
-  "previsione": "20241031|ambosecco_caotico|NA,VE,MI|2|1|ambo:1-79;ambo:89-89|A=1 su NA/VE, B=89 su MI|",
+  "previsione": "20241031|ambosecco_caotico|NA,VE,MI|10|1|ambo:1-79;ambo:89-89|A=1 su NA/VE, B=89 su MI|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": true,
+      "colpo": 3,
+      "giorno": "2024-11-05",
+      "ruota": "BA",
+      "usciti": [
+       1,
+       79
+      ]
+     }
+    ],
     "numeri": [
      1,
      79
@@ -4563,7 +4777,7 @@
   ]
  },
  {
-  "previsione": "20241031|lottofacile1|BA,TO|6|0|ambata:30;ambo:30-55;ambo:30-59;terzina:30-55-59|pos 1-4 somma 35|",
+  "previsione": "20241031|lottofacile1|BA,TO|10|0|ambata:30;ambo:30-55;ambo:30-59;terzina:30-55-59|pos 1-4 somma 35|",
   "sorti": [
    {
     "esiti": [
@@ -4614,7 +4828,7 @@
   ]
  },
  {
-  "previsione": "20241031|lottofacile1|BA,VE|6|0|ambata:50;ambo:50-64;ambo:46-50;terzina:46-50-64|pos 1-5 somma 26|",
+  "previsione": "20241031|lottofacile1|BA,VE|10|0|ambata:50;ambo:50-64;ambo:46-50;terzina:46-50-64|pos 1-5 somma 26|",
   "sorti": [
    {
     "esiti": [],
@@ -4655,7 +4869,7 @@
   ]
  },
  {
-  "previsione": "20241031|lottofacile1|FI,RM|6|0|ambata:62;ambo:15-62;ambo:51-62;terzina:15-51-62|pos 3-5 somma 75|",
+  "previsione": "20241031|lottofacile1|FI,RM|10|0|ambata:62;ambo:15-62;ambo:51-62;terzina:15-51-62|pos 3-5 somma 75|",
   "sorti": [
    {
     "esiti": [
@@ -4706,7 +4920,7 @@
   ]
  },
  {
-  "previsione": "20241031|lottofacile1|GE,MI|6|0|ambata:82;ambo:5-82;ambo:50-82;terzina:5-50-82|pos 2-3 somma 85|",
+  "previsione": "20241031|lottofacile1|GE,MI|10|0|ambata:82;ambo:5-82;ambo:50-82;terzina:5-50-82|pos 2-3 somma 85|",
   "sorti": [
    {
     "esiti": [],
@@ -4886,7 +5100,7 @@
   ]
  },
  {
-  "previsione": "20241031|lottofacile1|NA,TO|6|0|ambata:60;ambo:60-85;ambo:58-60;terzina:58-60-85|pos 2-4 somma 5|",
+  "previsione": "20241031|lottofacile1|NA,TO|10|0|ambata:60;ambo:60-85;ambo:58-60;terzina:58-60-85|pos 2-4 somma 5|",
   "sorti": [
    {
     "esiti": [],
@@ -4927,7 +5141,7 @@
   ]
  },
  {
-  "previsione": "20241031|lottofacile1|PA,TO|6|0|ambata:14;ambo:14-63;ambo:14-36;terzina:14-36-63|pos 3-4 somma 27|",
+  "previsione": "20241031|lottofacile1|PA,TO|10|0|ambata:14;ambo:14-63;ambo:14-36;terzina:14-36-63|pos 3-4 somma 27|",
   "sorti": [
    {
     "esiti": [
@@ -5000,7 +5214,7 @@
   ]
  },
  {
-  "previsione": "20241102|ambosecco_caotico|CA,RM,NA|2|1|ambo:4-24;ambo:14-87|A=26 su CA/RM, B=64 su NA|",
+  "previsione": "20241102|ambosecco_caotico|CA,RM,NA|10|1|ambo:4-24;ambo:14-87|A=26 su CA/RM, B=64 su NA|",
   "sorti": [
    {
     "esiti": [],
@@ -5023,7 +5237,7 @@
   ]
  },
  {
-  "previsione": "20241102|ambosecco_caotico|NA,RM,TO|2|1|ambo:28-38;ambo:38-85|A=42 su NA/RM, B=48 su TO|",
+  "previsione": "20241102|ambosecco_caotico|NA,RM,TO|10|1|ambo:28-38;ambo:38-85|A=42 su NA/RM, B=48 su TO|",
   "sorti": [
    {
     "esiti": [],
@@ -5046,7 +5260,7 @@
   ]
  },
  {
-  "previsione": "20241102|lottofacile5|RM|9|0|ambata:78;ambata:33;ambo:43-78;ambo:78-88;ambo:33-43;ambo:33-88;quartina:13-43-73-78;quartina:28-58-78-88;quartina:13-33-43-73;quartina:28-33-58-88|rilevamento 26-71|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
+  "previsione": "20241102|lottofacile5|RM|10|0|ambata:78;ambata:33;ambo:43-78;ambo:78-88;ambo:33-43;ambo:33-88;quartina:13-43-73-78;quartina:28-58-78-88;quartina:13-33-43-73;quartina:28-33-58-88|rilevamento 26-71|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
   "sorti": [
    {
     "esiti": [],
@@ -5179,7 +5393,7 @@
   ]
  },
  {
-  "previsione": "20241102|lottofacile1|BA,VE|6|0|ambata:58;ambo:58-84;ambo:48-58;terzina:48-58-84|pos 1-4 somma 6|",
+  "previsione": "20241102|lottofacile1|BA,VE|10|0|ambata:58;ambo:58-84;ambo:48-58;terzina:48-58-84|pos 1-4 somma 6|",
   "sorti": [
    {
     "esiti": [
@@ -5230,7 +5444,7 @@
   ]
  },
  {
-  "previsione": "20241102|lottofacile1|CA,RM|6|0|ambata:84;ambo:67-84;ambo:76-84;terzina:67-76-84|pos 1-2 somma 23|",
+  "previsione": "20241102|lottofacile1|CA,RM|10|0|ambata:84;ambo:67-84;ambo:76-84;terzina:67-76-84|pos 1-2 somma 23|",
   "sorti": [
    {
     "esiti": [],
@@ -5271,7 +5485,7 @@
   ]
  },
  {
-  "previsione": "20241102|lottofacile1|CA,VE|6|0|ambata:36;ambo:36-50;ambo:5-36;terzina:5-36-50|pos 2-4 somma 40|",
+  "previsione": "20241102|lottofacile1|CA,VE|10|0|ambata:36;ambo:36-50;ambo:5-36;terzina:5-36-50|pos 2-4 somma 40|",
   "sorti": [
    {
     "esiti": [
@@ -5322,7 +5536,7 @@
   ]
  },
  {
-  "previsione": "20241102|lottofacile1|PA,VE|6|0|ambata:44;ambo:44-44;ambo:44-49|pos 4-5 somma 46|",
+  "previsione": "20241102|lottofacile1|PA,VE|10|0|ambata:44;ambo:44-44;ambo:44-49|pos 4-5 somma 46|",
   "sorti": [
    {
     "esiti": [
@@ -5363,7 +5577,7 @@
   ]
  },
  {
-  "previsione": "20241104|ambosecco_caotico|BA,NA,RM|2|1|ambo:51-63;ambo:63-84|A=57 su BA/NA, B=33 su RM|",
+  "previsione": "20241104|ambosecco_caotico|BA,NA,RM|10|1|ambo:51-63;ambo:63-84|A=57 su BA/NA, B=33 su RM|",
   "sorti": [
    {
     "esiti": [
@@ -5397,7 +5611,7 @@
   ]
  },
  {
-  "previsione": "20241104|ambosecco_caotico|BA,PA,CA,GE,RM|2|1|ambo:66-75;ambo:66-81|A=84 su BA/PA, B=6 su CA/GE/RM|",
+  "previsione": "20241104|ambosecco_caotico|BA,PA,CA,GE,RM|10|1|ambo:66-75;ambo:66-81|A=84 su BA/PA, B=6 su CA/GE/RM|",
   "sorti": [
    {
     "esiti": [],
@@ -5420,7 +5634,7 @@
   ]
  },
  {
-  "previsione": "20241104|ambosecco_caotico|CA,GE,RM,BA,PA|2|1|ambo:6-24;ambo:34-89|A=6 su CA/GE/RM, B=84 su BA/PA|",
+  "previsione": "20241104|ambosecco_caotico|CA,GE,RM,BA,PA|10|1|ambo:6-24;ambo:34-89|A=6 su CA/GE/RM, B=84 su BA/PA|",
   "sorti": [
    {
     "esiti": [],
@@ -5443,7 +5657,7 @@
   ]
  },
  {
-  "previsione": "20241104|ambosecco_caotico|FI,PA,VE|2|1|ambo:8-56;ambo:18-83|A=62 su FI/PA, B=28 su VE|",
+  "previsione": "20241104|ambosecco_caotico|FI,PA,VE|10|1|ambo:8-56;ambo:18-83|A=62 su FI/PA, B=28 su VE|",
   "sorti": [
    {
     "esiti": [],
@@ -5455,18 +5669,29 @@
     "tipo": "ambo"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 6,
+      "giorno": "2024-11-14",
+      "ruota": "VE",
+      "usciti": [
+       18,
+       83
+      ]
+     }
+    ],
     "numeri": [
      18,
      83
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambo"
    }
   ]
  },
  {
-  "previsione": "20241104|ambosecco_caotico|RM,VE,MI|2|1|ambo:9-64;ambo:19-82|A=71 su RM/VE, B=19 su MI|",
+  "previsione": "20241104|ambosecco_caotico|RM,VE,MI|10|1|ambo:9-64;ambo:19-82|A=71 su RM/VE, B=19 su MI|",
   "sorti": [
    {
     "esiti": [],
@@ -5478,7 +5703,18 @@
     "tipo": "ambo"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": true,
+      "colpo": 4,
+      "giorno": "2024-11-09",
+      "ruota": "NA",
+      "usciti": [
+       19,
+       82
+      ]
+     }
+    ],
     "numeri": [
      19,
      82
@@ -5489,7 +5725,7 @@
   ]
  },
  {
-  "previsione": "20241104|lottofacile1|BA,MI|6|0|ambata:22;ambo:22-26;ambo:22-62;terzina:22-26-62|pos 2-5 somma 64|",
+  "previsione": "20241104|lottofacile1|BA,MI|10|0|ambata:22;ambo:22-26;ambo:22-62;terzina:22-26-62|pos 2-5 somma 64|",
   "sorti": [
    {
     "esiti": [],
@@ -5530,7 +5766,7 @@
   ]
  },
  {
-  "previsione": "20241104|lottofacile1|BA,VE|6|0|ambata:90;ambo:17-90;ambo:71-90;terzina:17-71-90|pos 1-2 somma 73|",
+  "previsione": "20241104|lottofacile1|BA,VE|10|0|ambata:90;ambo:17-90;ambo:71-90;terzina:17-71-90|pos 1-2 somma 73|",
   "sorti": [
    {
     "esiti": [
@@ -5551,12 +5787,23 @@
     "tipo": "ambata"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 8,
+      "giorno": "2024-11-16",
+      "ruota": "BA",
+      "usciti": [
+       17,
+       90
+      ]
+     }
+    ],
     "numeri": [
      17,
      90
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambo"
    },
    {
@@ -5569,19 +5816,30 @@
     "tipo": "ambo"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 8,
+      "giorno": "2024-11-16",
+      "ruota": "BA",
+      "usciti": [
+       17,
+       90
+      ]
+     }
+    ],
     "numeri": [
      17,
      71,
      90
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "terzina"
    }
   ]
  },
  {
-  "previsione": "20241104|lottofacile1|FI,MI|6|0|ambata:38;ambo:38-63;ambo:36-38;terzina:36-38-63|pos 3-5 somma 27|",
+  "previsione": "20241104|lottofacile1|FI,MI|10|0|ambata:38;ambo:38-63;ambo:36-38;terzina:36-38-63|pos 3-5 somma 27|",
   "sorti": [
    {
     "esiti": [],
@@ -5622,7 +5880,7 @@
   ]
  },
  {
-  "previsione": "20241104|lottofacile1|FI,NA|6|0|ambata:18;ambo:18-49;ambo:18-44;terzina:18-44-49|pos 1-3 somma 41|",
+  "previsione": "20241104|lottofacile1|FI,NA|10|0|ambata:18;ambo:18-49;ambo:18-44;terzina:18-44-49|pos 1-3 somma 41|",
   "sorti": [
    {
     "esiti": [],
@@ -5663,14 +5921,24 @@
   ]
  },
  {
-  "previsione": "20241104|lottofacile1|GE,TO|6|0|ambata:62;ambo:11-62;ambo:19-62;terzina:11-19-62|pos 3-5 somma 79|",
+  "previsione": "20241104|lottofacile1|GE,TO|10|0|ambata:62;ambo:11-62;ambo:19-62;terzina:11-19-62|pos 3-5 somma 79|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 8,
+      "giorno": "2024-11-16",
+      "ruota": "GE",
+      "usciti": [
+       62
+      ]
+     }
+    ],
     "numeri": [
      62
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambata"
    },
    {
@@ -5704,7 +5972,7 @@
   ]
  },
  {
-  "previsione": "20241105|ambosecco_caotico|BA,CA,TO,PA|2|1|ambo:21-71;ambo:21-82|A=79 su BA/CA/TO, B=11 su PA|",
+  "previsione": "20241105|ambosecco_caotico|BA,CA,TO,PA|10|1|ambo:21-71;ambo:21-82|A=79 su BA/CA/TO, B=11 su PA|",
   "sorti": [
    {
     "esiti": [],
@@ -5727,7 +5995,7 @@
   ]
  },
  {
-  "previsione": "20241105|ambosecco_caotico|CA,TO,BA|2|1|ambo:5-32;ambo:15-86|A=35 su CA/TO, B=55 su BA|",
+  "previsione": "20241105|ambosecco_caotico|CA,TO,BA|10|1|ambo:5-32;ambo:15-86|A=35 su CA/TO, B=55 su BA|",
   "sorti": [
    {
     "esiti": [],
@@ -5750,7 +6018,7 @@
   ]
  },
  {
-  "previsione": "20241105|ambosecco_caotico|CA,PA,VE,TO|2|1|ambo:27-30;ambo:37-86|A=33 su CA/PA/VE, B=57 su TO|",
+  "previsione": "20241105|ambosecco_caotico|CA,PA,VE,TO|10|1|ambo:27-30;ambo:37-86|A=33 su CA/PA/VE, B=57 su TO|",
   "sorti": [
    {
     "esiti": [],
@@ -5773,7 +6041,7 @@
   ]
  },
  {
-  "previsione": "20241105|ambosecco_caotico|GE,NA,VE|2|1|ambo:54-68;ambo:54-82|A=76 su GE/NA, B=14 su VE|",
+  "previsione": "20241105|ambosecco_caotico|GE,NA,VE|10|1|ambo:54-68;ambo:54-82|A=76 su GE/NA, B=14 su VE|",
   "sorti": [
    {
     "esiti": [],
@@ -5796,7 +6064,7 @@
   ]
  },
  {
-  "previsione": "20241105|lottofacile5|CA|9|0|ambata:90;ambo:12-90;ambo:57-90;quartina:12-42-72-90;quartina:27-57-87-90|rilevamento 33-78|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
+  "previsione": "20241105|lottofacile5|CA|10|0|ambata:90;ambo:12-90;ambo:57-90;quartina:12-42-72-90;quartina:27-57-87-90|rilevamento 33-78|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
   "sorti": [
    {
     "esiti": [
@@ -5870,7 +6138,7 @@
   ]
  },
  {
-  "previsione": "20241105|lottofacile5|FI|9|0|ambata:9;ambata:54;ambo:9-75;ambo:9-30;ambo:54-75;ambo:30-54;quartina:9-15-45-75;quartina:9-30-60-90;quartina:15-45-54-75;quartina:30-54-60-90|rilevamento 6-51|",
+  "previsione": "20241105|lottofacile5|FI|10|0|ambata:9;ambata:54;ambo:9-75;ambo:9-30;ambo:54-75;ambo:30-54;quartina:9-15-45-75;quartina:9-30-60-90;quartina:15-45-54-75;quartina:30-54-60-90|rilevamento 6-51|",
   "sorti": [
    {
     "esiti": [
@@ -5991,7 +6259,7 @@
   ]
  },
  {
-  "previsione": "20241105|lottofacile1|BA,FI|6|0|ambata:28;ambo:10-28;ambo:1-28;terzina:1-10-28|pos 4-5 somma 80|",
+  "previsione": "20241105|lottofacile1|BA,FI|10|0|ambata:28;ambo:10-28;ambo:1-28;terzina:1-10-28|pos 4-5 somma 80|",
   "sorti": [
    {
     "esiti": [
@@ -6042,7 +6310,7 @@
   ]
  },
  {
-  "previsione": "20241105|lottofacile1|CA,VE|6|0|ambata:28;ambo:28-69;ambo:28-66;terzina:28-66-69|pos 3-5 somma 21|",
+  "previsione": "20241105|lottofacile1|CA,VE|10|0|ambata:28;ambo:28-69;ambo:28-66;terzina:28-66-69|pos 3-5 somma 21|",
   "sorti": [
    {
     "esiti": [
@@ -6153,14 +6421,24 @@
   ]
  },
  {
-  "previsione": "20241105|lottofacile1|MI,PA|6|0|ambata:66;ambo:46-66;ambo:64-66;terzina:46-64-66|pos 3-5 somma 44|",
+  "previsione": "20241105|lottofacile1|MI,PA|10|0|ambata:66;ambo:46-66;ambo:64-66;terzina:46-64-66|pos 3-5 somma 44|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 9,
+      "giorno": "2024-11-21",
+      "ruota": "PA",
+      "usciti": [
+       66
+      ]
+     }
+    ],
     "numeri": [
      66
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambata"
    },
    {
@@ -6194,7 +6472,7 @@
   ]
  },
  {
-  "previsione": "20241107|ambosecco_caotico|FI,PA,TO,VE|2|1|ambo:29-38;ambo:48-86|A=32 su FI/PA, B=58 su TO/VE|",
+  "previsione": "20241107|ambosecco_caotico|FI,PA,TO,VE|10|1|ambo:29-38;ambo:48-86|A=32 su FI/PA, B=58 su TO/VE|",
   "sorti": [
    {
     "esiti": [],
@@ -6206,18 +6484,29 @@
     "tipo": "ambo"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 6,
+      "giorno": "2024-11-16",
+      "ruota": "PA",
+      "usciti": [
+       48,
+       86
+      ]
+     }
+    ],
     "numeri": [
      48,
      86
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambo"
    }
   ]
  },
  {
-  "previsione": "20241107|ambosecco_caotico|NA,RM,TO,CA|2|1|ambo:43-69;ambo:43-82|A=77 su NA/RM/TO, B=13 su CA|",
+  "previsione": "20241107|ambosecco_caotico|NA,RM,TO,CA|10|1|ambo:43-69;ambo:43-82|A=77 su NA/RM/TO, B=13 su CA|",
   "sorti": [
    {
     "esiti": [],
@@ -6240,7 +6529,7 @@
   ]
  },
  {
-  "previsione": "20241107|ambosecco_caotico|PA,TO,BA|2|1|ambo:6-40;ambo:16-85|A=44 su PA/TO, B=46 su BA|",
+  "previsione": "20241107|ambosecco_caotico|PA,TO,BA|10|1|ambo:6-40;ambo:16-85|A=44 su PA/TO, B=46 su BA|",
   "sorti": [
    {
     "esiti": [],
@@ -6263,7 +6552,7 @@
   ]
  },
  {
-  "previsione": "20241107|ambosecco_caotico|TO,VE,FI,PA|2|1|ambo:52-52;ambo:52-84|A=58 su TO/VE, B=32 su FI/PA|",
+  "previsione": "20241107|ambosecco_caotico|TO,VE,FI,PA|10|1|ambo:52-52;ambo:52-84|A=58 su TO/VE, B=32 su FI/PA|",
   "sorti": [
    {
     "esiti": [],
@@ -6286,7 +6575,7 @@
   ]
  },
  {
-  "previsione": "20241107|lottofacile5|MI|9|0|ambata:51;ambo:49-51;ambo:4-51;quartina:19-49-51-79;quartina:4-34-51-64|rilevamento 20-65|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
+  "previsione": "20241107|lottofacile5|MI|10|0|ambata:51;ambo:49-51;ambo:4-51;quartina:19-49-51-79;quartina:4-34-51-64|rilevamento 20-65|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
   "sorti": [
    {
     "esiti": [
@@ -6371,7 +6660,7 @@
   ]
  },
  {
-  "previsione": "20241107|lottofacile5|RM|9|0|ambata:18;ambata:63;ambo:12-18;ambo:18-57;ambo:12-63;ambo:57-63;quartina:12-18-42-72;quartina:18-27-57-87;quartina:12-42-63-72;quartina:27-57-63-87|rilevamento 9-54|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
+  "previsione": "20241107|lottofacile5|RM|10|0|ambata:18;ambata:63;ambo:12-18;ambo:18-57;ambo:12-63;ambo:57-63;quartina:12-18-42-72;quartina:18-27-57-87;quartina:12-42-63-72;quartina:27-57-63-87|rilevamento 9-54|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
   "sorti": [
    {
     "esiti": [],
@@ -6426,14 +6715,25 @@
     "tipo": "ambo"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 10,
+      "giorno": "2024-11-23",
+      "ruota": "RM",
+      "usciti": [
+       12,
+       72
+      ]
+     }
+    ],
     "numeri": [
      12,
      18,
      42,
      72
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "quartina"
    },
    {
@@ -6448,14 +6748,25 @@
     "tipo": "quartina"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 10,
+      "giorno": "2024-11-23",
+      "ruota": "RM",
+      "usciti": [
+       12,
+       72
+      ]
+     }
+    ],
     "numeri": [
      12,
      42,
      63,
      72
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "quartina"
    },
    {
@@ -6472,14 +6783,24 @@
   ]
  },
  {
-  "previsione": "20241107|lottofacile1|CA,GE|6|0|ambata:36;ambo:12-36;ambo:21-36;terzina:12-21-36|pos 3-4 somma 78|",
+  "previsione": "20241107|lottofacile1|CA,GE|10|0|ambata:36;ambo:12-36;ambo:21-36;terzina:12-21-36|pos 3-4 somma 78|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 10,
+      "giorno": "2024-11-23",
+      "ruota": "GE",
+      "usciti": [
+       36
+      ]
+     }
+    ],
     "numeri": [
      36
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambata"
    },
    {
@@ -6513,7 +6834,7 @@
   ]
  },
  {
-  "previsione": "20241107|lottofacile1|CA,PA|6|0|ambata:64;ambo:64-74;ambo:47-64;terzina:47-64-74|pos 4-5 somma 16|",
+  "previsione": "20241107|lottofacile1|CA,PA|10|0|ambata:64;ambo:64-74;ambo:47-64;terzina:47-64-74|pos 4-5 somma 16|",
   "sorti": [
    {
     "esiti": [],
@@ -6554,7 +6875,7 @@
   ]
  },
  {
-  "previsione": "20241107|lottofacile1|FI,MI|6|0|ambata:36;ambo:7-36;ambo:36-70;terzina:7-36-70|pos 2-3 somma 83|",
+  "previsione": "20241107|lottofacile1|FI,MI|10|0|ambata:36;ambo:7-36;ambo:36-70;terzina:7-36-70|pos 2-3 somma 83|",
   "sorti": [
    {
     "esiti": [
@@ -6683,7 +7004,7 @@
   ]
  },
  {
-  "previsione": "20241107|lottofacile1|GE,VE|6|0|ambata:26;ambo:26-71;ambo:17-26;terzina:17-26-71|pos 1-5 somma 19|",
+  "previsione": "20241107|lottofacile1|GE,VE|10|0|ambata:26;ambo:26-71;ambo:17-26;terzina:17-26-71|pos 1-5 somma 19|",
   "sorti": [
    {
     "esiti": [
@@ -6795,7 +7116,7 @@
   ]
  },
  {
-  "previsione": "20241107|lottofacile1|NA,PA|6|0|ambata:48;ambo:48-82;ambo:28-48;terzina:28-48-82|pos 1-5 somma 8|",
+  "previsione": "20241107|lottofacile1|NA,PA|10|0|ambata:48;ambo:48-82;ambo:28-48;terzina:28-48-82|pos 1-5 somma 8|",
   "sorti": [
    {
     "esiti": [
@@ -6846,7 +7167,7 @@
   ]
  },
  {
-  "previsione": "20241107|lottofacile1|NA,TO|6|0|ambata:18;ambo:18-82;ambo:18-28;terzina:18-28-82|pos 1-5 somma 8|",
+  "previsione": "20241107|lottofacile1|NA,TO|10|0|ambata:18;ambo:18-82;ambo:18-28;terzina:18-28-82|pos 1-5 somma 8|",
   "sorti": [
    {
     "esiti": [],
@@ -6996,7 +7317,7 @@
   ]
  },
  {
-  "previsione": "20241107|lottofacile1|PA,TO|6|0|ambata:18;ambo:18-82;ambo:18-28;terzina:18-28-82|pos 1-5 somma 8|",
+  "previsione": "20241107|lottofacile1|PA,TO|10|0|ambata:18;ambo:18-82;ambo:18-28;terzina:18-28-82|pos 1-5 somma 8|",
   "sorti": [
    {
     "esiti": [
@@ -7047,7 +7368,7 @@
   ]
  },
  {
-  "previsione": "20241108|ambosecco_caotico|BA,TO,MI|2|1|ambo:44-51;ambo:51-85|A=49 su BA/TO, B=41 su MI|",
+  "previsione": "20241108|ambosecco_caotico|BA,TO,MI|10|1|ambo:44-51;ambo:51-85|A=49 su BA/TO, B=41 su MI|",
   "sorti": [
    {
     "esiti": [],
@@ -7070,7 +7391,7 @@
   ]
  },
  {
-  "previsione": "20241108|ambosecco_caotico|CA,VE,RM|2|1|ambo:53-60;ambo:53-83|A=67 su CA/VE, B=23 su RM|",
+  "previsione": "20241108|ambosecco_caotico|CA,VE,RM|10|1|ambo:53-60;ambo:53-83|A=67 su CA/VE, B=23 su RM|",
   "sorti": [
    {
     "esiti": [],
@@ -7093,7 +7414,7 @@
   ]
  },
  {
-  "previsione": "20241108|ambosecco_caotico|GE,MI,BA|2|1|ambo:14-15;ambo:24-88|A=16 su GE/MI, B=74 su BA|",
+  "previsione": "20241108|ambosecco_caotico|GE,MI,BA|10|1|ambo:14-15;ambo:24-88|A=16 su GE/MI, B=74 su BA|",
   "sorti": [
    {
     "esiti": [],
@@ -7115,6 +7436,16 @@
        24,
        88
       ]
+     },
+     {
+      "a_tutte": true,
+      "colpo": 5,
+      "giorno": "2024-11-16",
+      "ruota": "FI",
+      "usciti": [
+       24,
+       88
+      ]
      }
     ],
     "numeri": [
@@ -7127,7 +7458,7 @@
   ]
  },
  {
-  "previsione": "20241108|lottofacile5|CA|9|0|ambata:66;ambo:35-66;ambo:66-80;quartina:5-35-65-66;quartina:20-50-66-80|rilevamento 22-67|",
+  "previsione": "20241108|lottofacile5|CA|10|0|ambata:66;ambo:35-66;ambo:66-80;quartina:5-35-65-66;quartina:20-50-66-80|rilevamento 22-67|",
   "sorti": [
    {
     "esiti": [
@@ -7201,7 +7532,7 @@
   ]
  },
  {
-  "previsione": "20241108|lottofacile1|BA,RM|6|0|ambata:20;ambo:20-38;ambo:20-83;terzina:20-38-83|pos 1-3 somma 52|",
+  "previsione": "20241108|lottofacile1|BA,RM|10|0|ambata:20;ambo:20-38;ambo:20-83;terzina:20-38-83|pos 1-3 somma 52|",
   "sorti": [
    {
     "esiti": [
@@ -7252,7 +7583,7 @@
   ]
  },
  {
-  "previsione": "20241108|lottofacile1|BA,RM|6|0|ambata:4;ambo:4-65;ambo:4-56;terzina:4-56-65|pos 2-5 somma 25|",
+  "previsione": "20241108|lottofacile1|BA,RM|10|0|ambata:4;ambo:4-65;ambo:4-56;terzina:4-56-65|pos 2-5 somma 25|",
   "sorti": [
    {
     "esiti": [],
@@ -7293,7 +7624,7 @@
   ]
  },
  {
-  "previsione": "20241108|lottofacile1|BA,VE|6|0|ambata:12;ambo:12-17;ambo:12-71;terzina:12-17-71|pos 1-5 somma 73|",
+  "previsione": "20241108|lottofacile1|BA,VE|10|0|ambata:12;ambo:12-17;ambo:12-71;terzina:12-17-71|pos 1-5 somma 73|",
   "sorti": [
    {
     "esiti": [
@@ -7344,7 +7675,7 @@
   ]
  },
  {
-  "previsione": "20241108|lottofacile1|CA,NA|6|0|ambata:18;ambo:18-73;ambo:18-37;terzina:18-37-73|pos 3-4 somma 17|",
+  "previsione": "20241108|lottofacile1|CA,NA|10|0|ambata:18;ambo:18-73;ambo:18-37;terzina:18-37-73|pos 3-4 somma 17|",
   "sorti": [
    {
     "esiti": [
@@ -7395,7 +7726,7 @@
   ]
  },
  {
-  "previsione": "20241108|lottofacile1|FI,NA|6|0|ambata:42;ambo:16-42;ambo:42-61;terzina:16-42-61|pos 2-4 somma 74|",
+  "previsione": "20241108|lottofacile1|FI,NA|10|0|ambata:42;ambo:16-42;ambo:42-61;terzina:16-42-61|pos 2-4 somma 74|",
   "sorti": [
    {
     "esiti": [],
@@ -7436,7 +7767,7 @@
   ]
  },
  {
-  "previsione": "20241108|lottofacile1|FI,PA|6|0|ambata:62;ambo:47-62;ambo:62-74;terzina:47-62-74|pos 3-4 somma 43|",
+  "previsione": "20241108|lottofacile1|FI,PA|10|0|ambata:62;ambo:47-62;ambo:62-74;terzina:47-62-74|pos 3-4 somma 43|",
   "sorti": [
    {
     "esiti": [
@@ -7487,7 +7818,7 @@
   ]
  },
  {
-  "previsione": "20241108|lottofacile1|GE,RM|6|0|ambata:26;ambo:9-26;ambo:26-90;terzina:9-26-90|pos 4-5 somma 81|",
+  "previsione": "20241108|lottofacile1|GE,RM|10|0|ambata:26;ambo:9-26;ambo:26-90;terzina:9-26-90|pos 4-5 somma 81|",
   "sorti": [
    {
     "esiti": [
@@ -7538,7 +7869,7 @@
   ]
  },
  {
-  "previsione": "20241108|lottofacile1|RM,TO|6|0|ambata:84;ambo:46-84;ambo:64-84;terzina:46-64-84|pos 2-3 somma 44|",
+  "previsione": "20241108|lottofacile1|RM,TO|10|0|ambata:84;ambo:46-84;ambo:64-84;terzina:46-64-84|pos 2-3 somma 44|",
   "sorti": [
    {
     "esiti": [
@@ -7589,7 +7920,7 @@
   ]
  },
  {
-  "previsione": "20241109|ambosecco_caotico|FI,VE,NA|2|1|ambo:37-39;ambo:49-85|A=41 su FI/VE, B=49 su NA|",
+  "previsione": "20241109|ambosecco_caotico|FI,VE,NA|10|1|ambo:37-39;ambo:49-85|A=41 su FI/VE, B=49 su NA|",
   "sorti": [
    {
     "esiti": [],
@@ -7612,7 +7943,7 @@
   ]
  },
  {
-  "previsione": "20241109|ambosecco_caotico|MI,PA,BA|2|1|ambo:8-56;ambo:18-83|A=62 su MI/PA, B=28 su BA|",
+  "previsione": "20241109|ambosecco_caotico|MI,PA,BA|10|1|ambo:8-56;ambo:18-83|A=62 su MI/PA, B=28 su BA|",
   "sorti": [
    {
     "esiti": [],
@@ -7646,7 +7977,7 @@
   ]
  },
  {
-  "previsione": "20241109|ambosecco_caotico|MI,PA,NA|2|1|ambo:19-55;ambo:29-83|A=61 su MI/PA, B=29 su NA|",
+  "previsione": "20241109|ambosecco_caotico|MI,PA,NA|10|1|ambo:19-55;ambo:29-83|A=61 su MI/PA, B=29 su NA|",
   "sorti": [
    {
     "esiti": [],
@@ -7669,7 +8000,7 @@
   ]
  },
  {
-  "previsione": "20241109|lottofacile1|GE,VE|6|0|ambata:70;ambo:14-70;ambo:41-70;terzina:14-41-70|pos 1-2 somma 76|",
+  "previsione": "20241109|lottofacile1|GE,VE|10|0|ambata:70;ambo:14-70;ambo:41-70;terzina:14-41-70|pos 1-2 somma 76|",
   "sorti": [
    {
     "esiti": [],
@@ -7710,7 +8041,7 @@
   ]
  },
  {
-  "previsione": "20241109|lottofacile1|MI,TO|6|0|ambata:36;ambo:36-79;ambo:36-77;terzina:36-77-79|pos 1-4 somma 11|",
+  "previsione": "20241109|lottofacile1|MI,TO|10|0|ambata:36;ambo:36-79;ambo:36-77;terzina:36-77-79|pos 1-4 somma 11|",
   "sorti": [
    {
     "esiti": [
@@ -7833,7 +8164,7 @@
   ]
  },
  {
-  "previsione": "20241112|ambosecco_caotico|BA,GE,PA|2|1|ambo:59-64;ambo:64-83|A=66 su BA/GE, B=24 su PA|",
+  "previsione": "20241112|ambosecco_caotico|BA,GE,PA|10|1|ambo:59-64;ambo:64-83|A=66 su BA/GE, B=24 su PA|",
   "sorti": [
    {
     "esiti": [],
@@ -7856,7 +8187,7 @@
   ]
  },
  {
-  "previsione": "20241112|ambosecco_caotico|CA,PA,NA,TO|2|1|ambo:37-39;ambo:49-85|A=41 su CA/PA, B=49 su NA/TO|",
+  "previsione": "20241112|ambosecco_caotico|CA,PA,NA,TO|10|1|ambo:37-39;ambo:49-85|A=41 su CA/PA, B=49 su NA/TO|",
   "sorti": [
    {
     "esiti": [],
@@ -7879,7 +8210,7 @@
   ]
  },
  {
-  "previsione": "20241112|ambosecco_caotico|NA,TO,CA,PA|2|1|ambo:44-51;ambo:51-85|A=49 su NA/TO, B=41 su CA/PA|",
+  "previsione": "20241112|ambosecco_caotico|NA,TO,CA,PA|10|1|ambo:44-51;ambo:51-85|A=49 su NA/TO, B=41 su CA/PA|",
   "sorti": [
    {
     "esiti": [],
@@ -7902,7 +8233,7 @@
   ]
  },
  {
-  "previsione": "20241112|lottofacile5|TO|9|0|ambata:15;ambo:7-15;ambo:15-52;quartina:7-15-37-67;quartina:15-22-52-82|rilevamento 8-53|",
+  "previsione": "20241112|lottofacile5|TO|10|0|ambata:15;ambo:7-15;ambo:15-52;quartina:7-15-37-67;quartina:15-22-52-82|rilevamento 8-53|",
   "sorti": [
    {
     "esiti": [
@@ -7965,7 +8296,7 @@
   ]
  },
  {
-  "previsione": "20241112|lottofacile1|BA,RM|6|0|ambata:52;ambo:52-87;ambo:52-78;terzina:52-78-87|pos 2-3 somma 3|",
+  "previsione": "20241112|lottofacile1|BA,RM|10|0|ambata:52;ambo:52-87;ambo:52-78;terzina:52-78-87|pos 2-3 somma 3|",
   "sorti": [
    {
     "esiti": [
@@ -8016,7 +8347,7 @@
   ]
  },
  {
-  "previsione": "20241112|lottofacile1|CA,PA|6|0|ambata:48;ambo:19-48;ambo:11-48;terzina:11-19-48|pos 2-4 somma 71|",
+  "previsione": "20241112|lottofacile1|CA,PA|10|0|ambata:48;ambo:19-48;ambo:11-48;terzina:11-19-48|pos 2-4 somma 71|",
   "sorti": [
    {
     "esiti": [
@@ -8067,14 +8398,24 @@
   ]
  },
  {
-  "previsione": "20241112|lottofacile1|RM,TO|6|0|ambata:16;ambo:16-36;ambo:16-63;terzina:16-36-63|pos 1-2 somma 54|",
+  "previsione": "20241112|lottofacile1|RM,TO|10|0|ambata:16;ambo:16-36;ambo:16-63;terzina:16-36-63|pos 1-2 somma 54|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 9,
+      "giorno": "2024-11-28",
+      "ruota": "RM",
+      "usciti": [
+       16
+      ]
+     }
+    ],
     "numeri": [
      16
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambata"
    },
    {
@@ -8119,7 +8460,7 @@
   ]
  },
  {
-  "previsione": "20241114|ambosecco_caotico|GE,TO,NA,RM|2|1|ambo:1-79;ambo:89-89|A=1 su GE/TO, B=89 su NA/RM|",
+  "previsione": "20241114|ambosecco_caotico|GE,TO,NA,RM|10|1|ambo:1-79;ambo:89-89|A=1 su GE/TO, B=89 su NA/RM|",
   "sorti": [
    {
     "esiti": [],
@@ -8142,7 +8483,7 @@
   ]
  },
  {
-  "previsione": "20241114|ambosecco_caotico|NA,RM,GE,TO|2|1|ambo:11-80;ambo:11-81|A=89 su NA/RM, B=1 su GE/TO|",
+  "previsione": "20241114|ambosecco_caotico|NA,RM,GE,TO|10|1|ambo:11-80;ambo:11-81|A=89 su NA/RM, B=1 su GE/TO|",
   "sorti": [
    {
     "esiti": [],
@@ -8165,7 +8506,7 @@
   ]
  },
  {
-  "previsione": "20241114|ambosecco_caotico|NA,TO,BA|2|1|ambo:14-25;ambo:35-88|A=15 su NA/TO, B=75 su BA|",
+  "previsione": "20241114|ambosecco_caotico|NA,TO,BA|10|1|ambo:14-25;ambo:35-88|A=15 su NA/TO, B=75 su BA|",
   "sorti": [
    {
     "esiti": [],
@@ -8188,7 +8529,7 @@
   ]
  },
  {
-  "previsione": "20241114|lottofacile5|GE|9|0|ambata:90;ambata:45;ambo:12-90;ambo:57-90;ambo:12-45;ambo:45-57;quartina:12-42-72-90;quartina:27-57-87-90;quartina:12-42-45-72;quartina:27-45-57-87|rilevamento 33-78|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
+  "previsione": "20241114|lottofacile5|GE|10|0|ambata:90;ambata:45;ambo:12-90;ambo:57-90;ambo:12-45;ambo:45-57;quartina:12-42-72-90;quartina:27-57-87-90;quartina:12-42-45-72;quartina:27-45-57-87|rilevamento 33-78|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
   "sorti": [
    {
     "esiti": [
@@ -8299,7 +8640,7 @@
   ]
  },
  {
-  "previsione": "20241114|lottofacile1|BA,TO|6|0|ambata:46;ambo:4-46;ambo:40-46;terzina:4-40-46|pos 1-5 somma 86|",
+  "previsione": "20241114|lottofacile1|BA,TO|10|0|ambata:46;ambo:4-46;ambo:40-46;terzina:4-40-46|pos 1-5 somma 86|",
   "sorti": [
    {
     "esiti": [
@@ -8489,14 +8830,24 @@
   ]
  },
  {
-  "previsione": "20241114|lottofacile1|CA,RM|6|0|ambata:90;ambo:50-90;ambo:5-90;terzina:5-50-90|pos 2-4 somma 40|",
+  "previsione": "20241114|lottofacile1|CA,RM|10|0|ambata:90;ambo:50-90;ambo:5-90;terzina:5-50-90|pos 2-4 somma 40|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 9,
+      "giorno": "2024-11-29",
+      "ruota": "CA",
+      "usciti": [
+       90
+      ]
+     }
+    ],
     "numeri": [
      90
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambata"
    },
    {
@@ -8518,13 +8869,24 @@
     "tipo": "ambo"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 10,
+      "giorno": "2024-11-30",
+      "ruota": "RM",
+      "usciti": [
+       5,
+       50
+      ]
+     }
+    ],
     "numeri": [
      5,
      50,
      90
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "terzina"
    }
   ]
@@ -8652,7 +9014,7 @@
   ]
  },
  {
-  "previsione": "20241114|lottofacile1|FI,PA|6|0|ambata:74;ambo:35-74;ambo:53-74;terzina:35-53-74|pos 2-5 somma 55|",
+  "previsione": "20241114|lottofacile1|FI,PA|10|0|ambata:74;ambo:35-74;ambo:53-74;terzina:35-53-74|pos 2-5 somma 55|",
   "sorti": [
    {
     "esiti": [],
@@ -8809,7 +9171,7 @@
   ]
  },
  {
-  "previsione": "20241114|lottofacile1|TO,VE|6|0|ambata:46;ambo:46-53;ambo:35-46;terzina:35-46-53|pos 3-4 somma 37|",
+  "previsione": "20241114|lottofacile1|TO,VE|10|0|ambata:46;ambo:46-53;ambo:35-46;terzina:35-46-53|pos 3-4 somma 37|",
   "sorti": [
    {
     "esiti": [
@@ -8882,7 +9244,7 @@
   ]
  },
  {
-  "previsione": "20241115|ambosecco_caotico|PA,RM,BA|2|1|ambo:12-47;ambo:57-88|A=13 su PA/RM, B=77 su BA|",
+  "previsione": "20241115|ambosecco_caotico|PA,RM,BA|10|1|ambo:12-47;ambo:57-88|A=13 su PA/RM, B=77 su BA|",
   "sorti": [
    {
     "esiti": [
@@ -8916,7 +9278,7 @@
   ]
  },
  {
-  "previsione": "20241115|lottofacile5|PA|9|0|ambata:18;ambo:12-18;ambo:18-57;quartina:12-18-42-72;quartina:18-27-57-87|rilevamento 9-54|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
+  "previsione": "20241115|lottofacile5|PA|10|0|ambata:18;ambo:12-18;ambo:18-57;quartina:12-18-42-72;quartina:18-27-57-87|rilevamento 9-54|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
   "sorti": [
    {
     "esiti": [],
@@ -8969,7 +9331,7 @@
   ]
  },
  {
-  "previsione": "20241115|lottofacile5|TO|9|0|ambata:42;ambata:87;ambo:42-79;ambo:34-42;ambo:79-87;ambo:34-87;quartina:19-42-49-79;quartina:4-34-42-64;quartina:19-49-79-87;quartina:4-34-64-87|rilevamento 44-89|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
+  "previsione": "20241115|lottofacile5|TO|10|0|ambata:42;ambata:87;ambo:42-79;ambo:34-42;ambo:79-87;ambo:34-87;quartina:19-42-49-79;quartina:4-34-42-64;quartina:19-49-79-87;quartina:4-34-64-87|rilevamento 44-89|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
   "sorti": [
    {
     "esiti": [
@@ -9080,7 +9442,7 @@
   ]
  },
  {
-  "previsione": "20241115|lottofacile1|FI,GE|6|0|ambata:46;ambo:46-53;ambo:35-46;terzina:35-46-53|pos 3-5 somma 37|",
+  "previsione": "20241115|lottofacile1|FI,GE|10|0|ambata:46;ambo:46-53;ambo:35-46;terzina:35-46-53|pos 3-5 somma 37|",
   "sorti": [
    {
     "esiti": [],
@@ -9121,7 +9483,7 @@
   ]
  },
  {
-  "previsione": "20241115|lottofacile1|MI,NA|6|0|ambata:80;ambo:65-80;ambo:56-80;terzina:56-65-80|pos 2-3 somma 25|",
+  "previsione": "20241115|lottofacile1|MI,NA|10|0|ambata:80;ambo:65-80;ambo:56-80;terzina:56-65-80|pos 2-3 somma 25|",
   "sorti": [
    {
     "esiti": [],
@@ -9162,7 +9524,7 @@
   ]
  },
  {
-  "previsione": "20241116|ambosecco_caotico|MI,RM,PA|2|1|ambo:13-36;ambo:46-88|A=14 su MI/RM, B=76 su PA|",
+  "previsione": "20241116|ambosecco_caotico|MI,RM,PA|10|1|ambo:13-36;ambo:46-88|A=14 su MI/RM, B=76 su PA|",
   "sorti": [
    {
     "esiti": [],
@@ -9185,7 +9547,7 @@
   ]
  },
  {
-  "previsione": "20241116|ambosecco_caotico|RM,TO,CA|2|1|ambo:26-71;ambo:71-87|A=29 su RM/TO, B=61 su CA|",
+  "previsione": "20241116|ambosecco_caotico|RM,TO,CA|10|1|ambo:26-71;ambo:71-87|A=29 su RM/TO, B=61 su CA|",
   "sorti": [
    {
     "esiti": [],
@@ -9208,7 +9570,7 @@
   ]
  },
  {
-  "previsione": "20241116|lottofacile5|BA|9|0|ambata:75;ambo:47-75;ambo:2-75;quartina:17-47-75-77;quartina:2-32-62-75|rilevamento 28-73|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
+  "previsione": "20241116|lottofacile5|BA|10|0|ambata:75;ambo:47-75;ambo:2-75;quartina:17-47-75-77;quartina:2-32-62-75|rilevamento 28-73|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
   "sorti": [
    {
     "esiti": [],
@@ -9261,7 +9623,7 @@
   ]
  },
  {
-  "previsione": "20241116|lottofacile5|TO|9|0|ambata:15;ambo:15-82;ambo:15-37;quartina:15-22-52-82;quartina:7-15-37-67|rilevamento 23-68|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
+  "previsione": "20241116|lottofacile5|TO|10|0|ambata:15;ambo:15-82;ambo:15-37;quartina:15-22-52-82;quartina:7-15-37-67|rilevamento 23-68|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
   "sorti": [
    {
     "esiti": [
@@ -9300,14 +9662,25 @@
     "tipo": "ambo"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 10,
+      "giorno": "2024-12-05",
+      "ruota": "TO",
+      "usciti": [
+       15,
+       22
+      ]
+     }
+    ],
     "numeri": [
      15,
      22,
      52,
      82
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "quartina"
    },
    {
@@ -9324,7 +9697,7 @@
   ]
  },
  {
-  "previsione": "20241116|lottofacile1|FI,RM|6|0|ambata:60;ambo:60-76;ambo:60-67;terzina:60-67-76|pos 2-5 somma 14|",
+  "previsione": "20241116|lottofacile1|FI,RM|10|0|ambata:60;ambo:60-76;ambo:60-67;terzina:60-67-76|pos 2-5 somma 14|",
   "sorti": [
    {
     "esiti": [
@@ -9375,7 +9748,7 @@
   ]
  },
  {
-  "previsione": "20241116|lottofacile1|GE,NA|6|0|ambata:20;ambo:2-20;ambo:20-20|pos 1-5 somma 88|",
+  "previsione": "20241116|lottofacile1|GE,NA|10|0|ambata:20;ambo:2-20;ambo:20-20|pos 1-5 somma 88|",
   "sorti": [
    {
     "esiti": [
@@ -9416,7 +9789,7 @@
   ]
  },
  {
-  "previsione": "20241116|lottofacile1|GE,VE|6|0|ambata:86;ambo:80-86;ambo:8-86;terzina:8-80-86|pos 1-2 somma 10|",
+  "previsione": "20241116|lottofacile1|GE,VE|10|0|ambata:86;ambo:80-86;ambo:8-86;terzina:8-80-86|pos 1-2 somma 10|",
   "sorti": [
    {
     "esiti": [
@@ -9478,7 +9851,7 @@
   ]
  },
  {
-  "previsione": "20241116|lottofacile1|PA,TO|6|0|ambata:46;ambo:46-87;ambo:46-78;terzina:46-78-87|pos 2-4 somma 3|",
+  "previsione": "20241116|lottofacile1|PA,TO|10|0|ambata:46;ambo:46-87;ambo:46-78;terzina:46-78-87|pos 2-4 somma 3|",
   "sorti": [
    {
     "esiti": [
@@ -9529,7 +9902,7 @@
   ]
  },
  {
-  "previsione": "20241116|lottofacile1|TO,VE|6|0|ambata:86;ambo:83-86;ambo:38-86;terzina:38-83-86|pos 1-3 somma 7|",
+  "previsione": "20241116|lottofacile1|TO,VE|10|0|ambata:86;ambo:83-86;ambo:38-86;terzina:38-83-86|pos 1-3 somma 7|",
   "sorti": [
    {
     "esiti": [],
@@ -9570,7 +9943,7 @@
   ]
  },
  {
-  "previsione": "20241119|ambosecco_caotico|BA,MI,RM,NA,TO|2|1|ambo:44-51;ambo:51-85|A=49 su BA/MI/RM, B=41 su NA/TO|",
+  "previsione": "20241119|ambosecco_caotico|BA,MI,RM,NA,TO|10|1|ambo:44-51;ambo:51-85|A=49 su BA/MI/RM, B=41 su NA/TO|",
   "sorti": [
    {
     "esiti": [],
@@ -9593,7 +9966,7 @@
   ]
  },
  {
-  "previsione": "20241119|ambosecco_caotico|NA,TO,BA,MI,RM|2|1|ambo:37-39;ambo:49-85|A=41 su NA/TO, B=49 su BA/MI/RM|",
+  "previsione": "20241119|ambosecco_caotico|NA,TO,BA,MI,RM|10|1|ambo:37-39;ambo:49-85|A=41 su NA/TO, B=49 su BA/MI/RM|",
   "sorti": [
    {
     "esiti": [],
@@ -9616,7 +9989,7 @@
   ]
  },
  {
-  "previsione": "20241119|ambosecco_caotico|PA,TO,VE|2|1|ambo:14-25;ambo:35-88|A=15 su PA/TO, B=75 su VE|",
+  "previsione": "20241119|ambosecco_caotico|PA,TO,VE|10|1|ambo:14-25;ambo:35-88|A=15 su PA/TO, B=75 su VE|",
   "sorti": [
    {
     "esiti": [],
@@ -9639,7 +10012,7 @@
   ]
  },
  {
-  "previsione": "20241119|ambosecco_caotico|PA,VE,TO|2|1|ambo:65-67;ambo:65-82|A=75 su PA/VE, B=15 su TO|",
+  "previsione": "20241119|ambosecco_caotico|PA,VE,TO|10|1|ambo:65-67;ambo:65-82|A=75 su PA/VE, B=15 su TO|",
   "sorti": [
    {
     "esiti": [],
@@ -9651,7 +10024,18 @@
     "tipo": "ambo"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": true,
+      "colpo": 6,
+      "giorno": "2024-11-29",
+      "ruota": "FI",
+      "usciti": [
+       65,
+       82
+      ]
+     }
+    ],
     "numeri": [
      65,
      82
@@ -9662,7 +10046,7 @@
   ]
  },
  {
-  "previsione": "20241119|lottofacile1|BA,NA|6|0|ambata:82;ambo:19-82;ambo:11-82;terzina:11-19-82|pos 1-2 somma 71|",
+  "previsione": "20241119|lottofacile1|BA,NA|10|0|ambata:82;ambo:19-82;ambo:11-82;terzina:11-19-82|pos 1-2 somma 71|",
   "sorti": [
    {
     "esiti": [
@@ -9713,14 +10097,24 @@
   ]
  },
  {
-  "previsione": "20241119|lottofacile1|CA,TO|6|0|ambata:6;ambo:6-46;ambo:6-64;terzina:6-46-64|pos 3-4 somma 44|",
+  "previsione": "20241119|lottofacile1|CA,TO|10|0|ambata:6;ambo:6-46;ambo:6-64;terzina:6-46-64|pos 3-4 somma 44|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 8,
+      "giorno": "2024-12-03",
+      "ruota": "TO",
+      "usciti": [
+       6
+      ]
+     }
+    ],
     "numeri": [
      6
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambata"
    },
    {
@@ -9754,7 +10148,7 @@
   ]
  },
  {
-  "previsione": "20241119|lottofacile1|FI,GE|6|0|ambata:84;ambo:19-84;ambo:11-84;terzina:11-19-84|pos 2-3 somma 71|",
+  "previsione": "20241119|lottofacile1|FI,GE|10|0|ambata:84;ambo:19-84;ambo:11-84;terzina:11-19-84|pos 2-3 somma 71|",
   "sorti": [
    {
     "esiti": [
@@ -9805,7 +10199,7 @@
   ]
  },
  {
-  "previsione": "20241119|lottofacile1|FI,GE|6|0|ambata:84;ambo:68-84;ambo:84-86;terzina:68-84-86|pos 2-5 somma 22|",
+  "previsione": "20241119|lottofacile1|FI,GE|10|0|ambata:84;ambo:68-84;ambo:84-86;terzina:68-84-86|pos 2-5 somma 22|",
   "sorti": [
    {
     "esiti": [
@@ -9856,7 +10250,7 @@
   ]
  },
  {
-  "previsione": "20241119|lottofacile1|GE,MI|6|0|ambata:86;ambo:43-86;ambo:34-86;terzina:34-43-86|pos 4-5 somma 47|",
+  "previsione": "20241119|lottofacile1|GE,MI|10|0|ambata:86;ambo:43-86;ambo:34-86;terzina:34-43-86|pos 4-5 somma 47|",
   "sorti": [
    {
     "esiti": [
@@ -9929,7 +10323,7 @@
   ]
  },
  {
-  "previsione": "20241119|lottofacile1|GE,PA|6|0|ambata:80;ambo:20-80;ambo:2-80;terzina:2-20-80|pos 1-3 somma 70|",
+  "previsione": "20241119|lottofacile1|GE,PA|10|0|ambata:80;ambo:20-80;ambo:2-80;terzina:2-20-80|pos 1-3 somma 70|",
   "sorti": [
    {
     "esiti": [
@@ -9980,7 +10374,7 @@
   ]
  },
  {
-  "previsione": "20241121|ambosecco_caotico|BA,GE,FI|2|1|ambo:6-24;ambo:34-89|A=6 su BA/GE, B=84 su FI|",
+  "previsione": "20241121|ambosecco_caotico|BA,GE,FI|10|1|ambo:6-24;ambo:34-89|A=6 su BA/GE, B=84 su FI|",
   "sorti": [
    {
     "esiti": [],
@@ -10003,10 +10397,21 @@
   ]
  },
  {
-  "previsione": "20241121|ambosecco_caotico|BA,FI,VE|2|1|ambo:27-60;ambo:60-87|A=30 su BA/FI, B=60 su VE|",
+  "previsione": "20241121|ambosecco_caotico|BA,FI,VE|10|1|ambo:27-60;ambo:60-87|A=30 su BA/FI, B=60 su VE|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": true,
+      "colpo": 9,
+      "giorno": "2024-12-06",
+      "ruota": "TO",
+      "usciti": [
+       27,
+       60
+      ]
+     }
+    ],
     "numeri": [
      27,
      60
@@ -10026,10 +10431,21 @@
   ]
  },
  {
-  "previsione": "20241121|ambosecco_caotico|RM,TO,BA|2|1|ambo:34-72;ambo:72-86|A=38 su RM/TO, B=52 su BA|",
+  "previsione": "20241121|ambosecco_caotico|RM,TO,BA|10|1|ambo:34-72;ambo:72-86|A=38 su RM/TO, B=52 su BA|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": true,
+      "colpo": 9,
+      "giorno": "2024-12-06",
+      "ruota": "CA",
+      "usciti": [
+       34,
+       72
+      ]
+     }
+    ],
     "numeri": [
      34,
      72
@@ -10049,7 +10465,7 @@
   ]
  },
  {
-  "previsione": "20241121|lottofacile5|VE|9|0|ambata:39;ambo:39-80;ambo:35-39;quartina:20-39-50-80;quartina:5-35-39-65|rilevamento 31-76|",
+  "previsione": "20241121|lottofacile5|VE|10|0|ambata:39;ambo:39-80;ambo:35-39;quartina:20-39-50-80;quartina:5-35-39-65|rilevamento 31-76|",
   "sorti": [
    {
     "esiti": [
@@ -10186,7 +10602,7 @@
   ]
  },
  {
-  "previsione": "20241121|lottofacile1|CA,VE|6|0|ambata:62;ambo:26-62;ambo:62-62|pos 1-3 somma 64|",
+  "previsione": "20241121|lottofacile1|CA,VE|10|0|ambata:62;ambo:26-62;ambo:62-62|pos 1-3 somma 64|",
   "sorti": [
    {
     "esiti": [],
@@ -10217,7 +10633,7 @@
   ]
  },
  {
-  "previsione": "20241122|ambosecco_caotico|BA,FI,RM,NA,VE|2|1|ambo:49-85;ambo:84-85|A=55 su BA/FI/RM, B=35 su NA/VE|",
+  "previsione": "20241122|ambosecco_caotico|BA,FI,RM,NA,VE|10|1|ambo:49-85;ambo:84-85|A=55 su BA/FI/RM, B=35 su NA/VE|",
   "sorti": [
    {
     "esiti": [],
@@ -10240,7 +10656,7 @@
   ]
  },
  {
-  "previsione": "20241122|ambosecco_caotico|MI,PA,RM,NA|2|1|ambo:15-23;ambo:25-87|A=25 su MI/PA/RM, B=65 su NA|",
+  "previsione": "20241122|ambosecco_caotico|MI,PA,RM,NA|10|1|ambo:15-23;ambo:25-87|A=25 su MI/PA/RM, B=65 su NA|",
   "sorti": [
    {
     "esiti": [],
@@ -10263,7 +10679,7 @@
   ]
  },
  {
-  "previsione": "20241122|ambosecco_caotico|NA,VE,BA,FI,RM|2|1|ambo:5-32;ambo:15-86|A=35 su NA/VE, B=55 su BA/FI/RM|",
+  "previsione": "20241122|ambosecco_caotico|NA,VE,BA,FI,RM|10|1|ambo:5-32;ambo:15-86|A=35 su NA/VE, B=55 su BA/FI/RM|",
   "sorti": [
    {
     "esiti": [],
@@ -10286,7 +10702,7 @@
   ]
  },
  {
-  "previsione": "20241122|lottofacile5|RM|9|0|ambata:21;ambata:66;ambo:21-29;ambo:21-74;ambo:29-66;ambo:66-74;quartina:21-29-59-89;quartina:14-21-44-74;quartina:29-59-66-89;quartina:14-44-66-74|rilevamento 10-55|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
+  "previsione": "20241122|lottofacile5|RM|10|0|ambata:21;ambata:66;ambo:21-29;ambo:21-74;ambo:29-66;ambo:66-74;quartina:21-29-59-89;quartina:14-21-44-74;quartina:29-59-66-89;quartina:14-44-66-74|rilevamento 10-55|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
   "sorti": [
    {
     "esiti": [],
@@ -10470,14 +10886,24 @@
   ]
  },
  {
-  "previsione": "20241122|lottofacile1|BA,VE|6|0|ambata:78;ambo:46-78;ambo:64-78;terzina:46-64-78|pos 1-4 somma 44|",
+  "previsione": "20241122|lottofacile1|BA,VE|10|0|ambata:78;ambo:46-78;ambo:64-78;terzina:46-64-78|pos 1-4 somma 44|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 9,
+      "giorno": "2024-12-07",
+      "ruota": "VE",
+      "usciti": [
+       78
+      ]
+     }
+    ],
     "numeri": [
      78
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambata"
    },
    {
@@ -10511,7 +10937,7 @@
   ]
  },
  {
-  "previsione": "20241122|lottofacile1|FI,MI|6|0|ambata:50;ambo:50-76;ambo:50-67;terzina:50-67-76|pos 1-2 somma 14|",
+  "previsione": "20241122|lottofacile1|FI,MI|10|0|ambata:50;ambo:50-76;ambo:50-67;terzina:50-67-76|pos 1-2 somma 14|",
   "sorti": [
    {
     "esiti": [
@@ -10562,14 +10988,24 @@
   ]
  },
  {
-  "previsione": "20241122|lottofacile1|GE,NA|6|0|ambata:2;ambo:2-75;ambo:2-57;terzina:2-57-75|pos 4-5 somma 15|",
+  "previsione": "20241122|lottofacile1|GE,NA|10|0|ambata:2;ambo:2-75;ambo:2-57;terzina:2-57-75|pos 4-5 somma 15|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 7,
+      "giorno": "2024-12-05",
+      "ruota": "NA",
+      "usciti": [
+       2
+      ]
+     }
+    ],
     "numeri": [
      2
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambata"
    },
    {
@@ -10603,14 +11039,24 @@
   ]
  },
  {
-  "previsione": "20241122|lottofacile1|GE,TO|6|0|ambata:60;ambo:60-76;ambo:60-67;terzina:60-67-76|pos 2-4 somma 14|",
+  "previsione": "20241122|lottofacile1|GE,TO|10|0|ambata:60;ambo:60-76;ambo:60-67;terzina:60-67-76|pos 2-4 somma 14|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 8,
+      "giorno": "2024-12-06",
+      "ruota": "TO",
+      "usciti": [
+       60
+      ]
+     }
+    ],
     "numeri": [
      60
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambata"
    },
    {
@@ -10756,7 +11202,7 @@
   ]
  },
  {
-  "previsione": "20241123|ambosecco_caotico|CA,NA,BA|2|1|ambo:51-63;ambo:63-84|A=57 su CA/NA, B=33 su BA|",
+  "previsione": "20241123|ambosecco_caotico|CA,NA,BA|10|1|ambo:51-63;ambo:63-84|A=57 su CA/NA, B=33 su BA|",
   "sorti": [
    {
     "esiti": [],
@@ -10779,7 +11225,7 @@
   ]
  },
  {
-  "previsione": "20241123|ambosecco_caotico|CA,RM,FI,PA|2|1|ambo:41-53;ambo:41-84|A=59 su CA/RM, B=31 su FI/PA|",
+  "previsione": "20241123|ambosecco_caotico|CA,RM,FI,PA|10|1|ambo:41-53;ambo:41-84|A=59 su CA/RM, B=31 su FI/PA|",
   "sorti": [
    {
     "esiti": [],
@@ -10802,19 +11248,41 @@
   ]
  },
  {
-  "previsione": "20241123|ambosecco_caotico|FI,PA,CA,RM|2|1|ambo:28-49;ambo:59-86|A=31 su FI/PA, B=59 su CA/RM|",
+  "previsione": "20241123|ambosecco_caotico|FI,PA,CA,RM|10|1|ambo:28-49;ambo:59-86|A=31 su FI/PA, B=59 su CA/RM|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 8,
+      "giorno": "2024-12-07",
+      "ruota": "FI",
+      "usciti": [
+       28,
+       49
+      ]
+     }
+    ],
     "numeri": [
      28,
      49
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambo"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": true,
+      "colpo": 6,
+      "giorno": "2024-12-05",
+      "ruota": "NA",
+      "usciti": [
+       59,
+       86
+      ]
+     }
+    ],
     "numeri": [
      59,
      86
@@ -10825,10 +11293,21 @@
   ]
  },
  {
-  "previsione": "20241123|ambosecco_caotico|GE,NA,TO,CA|2|1|ambo:21-37;ambo:47-87|A=23 su GE/NA/TO, B=67 su CA|",
+  "previsione": "20241123|ambosecco_caotico|GE,NA,TO,CA|10|1|ambo:21-37;ambo:47-87|A=23 su GE/NA/TO, B=67 su CA|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": true,
+      "colpo": 8,
+      "giorno": "2024-12-07",
+      "ruota": "BA",
+      "usciti": [
+       21,
+       37
+      ]
+     }
+    ],
     "numeri": [
      21,
      37
@@ -10848,7 +11327,7 @@
   ]
  },
  {
-  "previsione": "20241123|lottofacile5|GE|9|0|ambata:9;ambo:9-45;ambo:9-90;quartina:9-15-45-75;quartina:9-30-60-90|rilevamento 36-81|",
+  "previsione": "20241123|lottofacile5|GE|10|0|ambata:9;ambo:9-45;ambo:9-90;quartina:9-15-45-75;quartina:9-30-60-90|rilevamento 36-81|",
   "sorti": [
    {
     "esiti": [],
@@ -10901,7 +11380,7 @@
   ]
  },
  {
-  "previsione": "20241123|lottofacile5|PA|9|0|ambata:84;ambata:39;ambo:80-84;ambo:35-84;ambo:39-80;ambo:35-39;quartina:20-50-80-84;quartina:5-35-65-84;quartina:20-39-50-80;quartina:5-35-39-65|rilevamento 31-76|",
+  "previsione": "20241123|lottofacile5|PA|10|0|ambata:84;ambata:39;ambo:80-84;ambo:35-84;ambo:39-80;ambo:35-39;quartina:20-50-80-84;quartina:5-35-65-84;quartina:20-39-50-80;quartina:5-35-39-65|rilevamento 31-76|",
   "sorti": [
    {
     "esiti": [
@@ -11009,20 +11488,31 @@
     "tipo": "quartina"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 10,
+      "giorno": "2024-12-12",
+      "ruota": "PA",
+      "usciti": [
+       39,
+       65
+      ]
+     }
+    ],
     "numeri": [
      5,
      35,
      39,
      65
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "quartina"
    }
   ]
  },
  {
-  "previsione": "20241123|lottofacile1|PA,VE|6|0|ambata:24;ambo:24-36;ambo:24-63;terzina:24-36-63|pos 2-3 somma 54|",
+  "previsione": "20241123|lottofacile1|PA,VE|10|0|ambata:24;ambo:24-36;ambo:24-63;terzina:24-36-63|pos 2-3 somma 54|",
   "sorti": [
    {
     "esiti": [
@@ -11073,7 +11563,7 @@
   ]
  },
  {
-  "previsione": "20241126|ambosecco_caotico|FI,TO,PA|2|1|ambo:25-82;ambo:82-87|A=28 su FI/TO, B=62 su PA|",
+  "previsione": "20241126|ambosecco_caotico|FI,TO,PA|10|1|ambo:25-82;ambo:82-87|A=28 su FI/TO, B=62 su PA|",
   "sorti": [
    {
     "esiti": [],
@@ -11096,7 +11586,7 @@
   ]
  },
  {
-  "previsione": "20241126|ambosecco_caotico|NA,PA,CA|2|1|ambo:1-79;ambo:89-89|A=1 su NA/PA, B=89 su CA|",
+  "previsione": "20241126|ambosecco_caotico|NA,PA,CA|10|1|ambo:1-79;ambo:89-89|A=1 su NA/PA, B=89 su CA|",
   "sorti": [
    {
     "esiti": [],
@@ -11119,7 +11609,7 @@
   ]
  },
  {
-  "previsione": "20241126|ambosecco_caotico|PA,TO,FI|2|1|ambo:8-56;ambo:18-83|A=62 su PA/TO, B=28 su FI|",
+  "previsione": "20241126|ambosecco_caotico|PA,TO,FI|10|1|ambo:8-56;ambo:18-83|A=62 su PA/TO, B=28 su FI|",
   "sorti": [
    {
     "esiti": [],
@@ -11142,7 +11632,7 @@
   ]
  },
  {
-  "previsione": "20241126|lottofacile5|GE|9|0|ambata:15;ambata:60;ambo:7-15;ambo:15-52;ambo:7-60;ambo:52-60;quartina:7-15-37-67;quartina:15-22-52-82;quartina:7-37-60-67;quartina:22-52-60-82|rilevamento 8-53|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
+  "previsione": "20241126|lottofacile5|GE|10|0|ambata:15;ambata:60;ambo:7-15;ambo:15-52;ambo:7-60;ambo:52-60;quartina:7-15-37-67;quartina:15-22-52-82;quartina:7-37-60-67;quartina:22-52-60-82|rilevamento 8-53|potenza ridotta: ambata uscita negli ultimi 6 concorsi",
   "sorti": [
    {
     "esiti": [],
@@ -11243,7 +11733,7 @@
   ]
  },
  {
-  "previsione": "20241126|lottofacile1|BA,CA|6|0|ambata:60;ambo:50-60;ambo:5-60;terzina:5-50-60|pos 2-3 somma 40|",
+  "previsione": "20241126|lottofacile1|BA,CA|10|0|ambata:60;ambo:50-60;ambo:5-60;terzina:5-50-60|pos 2-3 somma 40|",
   "sorti": [
    {
     "esiti": [],
@@ -11284,7 +11774,7 @@
   ]
  },
  {
-  "previsione": "20241126|lottofacile1|BA,NA|6|0|ambata:2;ambo:2-39;ambo:2-33;terzina:2-33-39|pos 1-2 somma 51|",
+  "previsione": "20241126|lottofacile1|BA,NA|10|0|ambata:2;ambo:2-39;ambo:2-33;terzina:2-33-39|pos 1-2 somma 51|",
   "sorti": [
    {
     "esiti": [
@@ -11335,7 +11825,7 @@
   ]
  },
  {
-  "previsione": "20241126|lottofacile1|CA,RM|6|0|ambata:66;ambo:10-66;ambo:1-66;terzina:1-10-66|pos 1-4 somma 80|",
+  "previsione": "20241126|lottofacile1|CA,RM|10|0|ambata:66;ambo:10-66;ambo:1-66;terzina:1-10-66|pos 1-4 somma 80|",
   "sorti": [
    {
     "esiti": [
@@ -11408,7 +11898,7 @@
   ]
  },
  {
-  "previsione": "20241126|lottofacile1|FI,RM|6|0|ambata:54;ambo:54-61;ambo:16-54;terzina:16-54-61|pos 3-4 somma 29|",
+  "previsione": "20241126|lottofacile1|FI,RM|10|0|ambata:54;ambo:54-61;ambo:16-54;terzina:16-54-61|pos 3-4 somma 29|",
   "sorti": [
    {
     "esiti": [
@@ -11481,7 +11971,7 @@
   ]
  },
  {
-  "previsione": "20241128|ambosecco_caotico|BA,PA,GE,VE|2|1|ambo:18-47;ambo:28-84|A=52 su BA/PA, B=38 su GE/VE|",
+  "previsione": "20241128|ambosecco_caotico|BA,PA,GE,VE|10|1|ambo:18-47;ambo:28-84|A=52 su BA/PA, B=38 su GE/VE|",
   "sorti": [
    {
     "esiti": [],
@@ -11504,7 +11994,7 @@
   ]
  },
  {
-  "previsione": "20241128|ambosecco_caotico|BA,CA,NA|2|1|ambo:74-77;ambo:77-81|A=83 su BA/CA, B=7 su NA|",
+  "previsione": "20241128|ambosecco_caotico|BA,CA,NA|10|1|ambo:74-77;ambo:77-81|A=83 su BA/CA, B=7 su NA|",
   "sorti": [
    {
     "esiti": [],
@@ -11527,7 +12017,7 @@
   ]
  },
  {
-  "previsione": "20241128|ambosecco_caotico|FI,MI,VE|2|1|ambo:5-35;ambo:45-89|A=5 su FI/MI, B=85 su VE|",
+  "previsione": "20241128|ambosecco_caotico|FI,MI,VE|10|1|ambo:5-35;ambo:45-89|A=5 su FI/MI, B=85 su VE|",
   "sorti": [
    {
     "esiti": [],
@@ -11539,21 +12029,43 @@
     "tipo": "ambo"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 9,
+      "giorno": "2024-12-13",
+      "ruota": "VE",
+      "usciti": [
+       45,
+       89
+      ]
+     }
+    ],
     "numeri": [
      45,
      89
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambo"
    }
   ]
  },
  {
-  "previsione": "20241128|ambosecco_caotico|GE,VE,BA,PA|2|1|ambo:34-72;ambo:72-86|A=38 su GE/VE, B=52 su BA/PA|",
+  "previsione": "20241128|ambosecco_caotico|GE,VE,BA,PA|10|1|ambo:34-72;ambo:72-86|A=38 su GE/VE, B=52 su BA/PA|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": true,
+      "colpo": 5,
+      "giorno": "2024-12-06",
+      "ruota": "CA",
+      "usciti": [
+       34,
+       72
+      ]
+     }
+    ],
     "numeri": [
      34,
      72
@@ -11573,7 +12085,7 @@
   ]
  },
  {
-  "previsione": "20241128|lottofacile5|PA|9|0|ambata:90;ambata:45;ambo:51-90;ambo:6-90;ambo:45-51;ambo:6-45;quartina:21-51-81-90;quartina:6-36-66-90;quartina:21-45-51-81;quartina:6-36-45-66|rilevamento 30-75|",
+  "previsione": "20241128|lottofacile5|PA|10|0|ambata:90;ambata:45;ambo:51-90;ambo:6-90;ambo:45-51;ambo:6-45;quartina:21-51-81-90;quartina:6-36-66-90;quartina:21-45-51-81;quartina:6-36-45-66|rilevamento 30-75|",
   "sorti": [
    {
     "esiti": [
@@ -11684,7 +12196,7 @@
   ]
  },
  {
-  "previsione": "20241128|lottofacile1|BA,CA|6|0|ambata:28;ambo:28-50;ambo:5-28;terzina:5-28-50|pos 2-5 somma 40|",
+  "previsione": "20241128|lottofacile1|BA,CA|10|0|ambata:28;ambo:28-50;ambo:5-28;terzina:5-28-50|pos 2-5 somma 40|",
   "sorti": [
    {
     "esiti": [],
@@ -11725,7 +12237,7 @@
   ]
  },
  {
-  "previsione": "20241128|lottofacile1|BA,GE|6|0|ambata:58;ambo:18-58;ambo:58-81;terzina:18-58-81|pos 2-4 somma 72|",
+  "previsione": "20241128|lottofacile1|BA,GE|10|0|ambata:58;ambo:18-58;ambo:58-81;terzina:18-58-81|pos 2-4 somma 72|",
   "sorti": [
    {
     "esiti": [
@@ -11776,7 +12288,7 @@
   ]
  },
  {
-  "previsione": "20241128|lottofacile1|CA,VE|6|0|ambata:46;ambo:46-65;ambo:46-56;terzina:46-56-65|pos 4-5 somma 25|",
+  "previsione": "20241128|lottofacile1|CA,VE|10|0|ambata:46;ambo:46-65;ambo:46-56;terzina:46-56-65|pos 4-5 somma 25|",
   "sorti": [
    {
     "esiti": [],
@@ -11817,7 +12329,7 @@
   ]
  },
  {
-  "previsione": "20241128|lottofacile1|MI,NA|6|0|ambata:60;ambo:60-72;ambo:27-60;terzina:27-60-72|pos 3-4 somma 18|",
+  "previsione": "20241128|lottofacile1|MI,NA|10|0|ambata:60;ambo:60-72;ambo:27-60;terzina:27-60-72|pos 3-4 somma 18|",
   "sorti": [
    {
     "esiti": [
@@ -11868,7 +12380,7 @@
   ]
  },
  {
-  "previsione": "20241128|lottofacile1|MI,VE|6|0|ambata:64;ambo:18-64;ambo:64-81;terzina:18-64-81|pos 2-3 somma 72|",
+  "previsione": "20241128|lottofacile1|MI,VE|10|0|ambata:64;ambo:18-64;ambo:64-81;terzina:18-64-81|pos 2-3 somma 72|",
   "sorti": [
    {
     "esiti": [
@@ -11919,7 +12431,7 @@
   ]
  },
  {
-  "previsione": "20241128|lottofacile1|MI,VE|6|0|ambata:80;ambo:72-80;ambo:27-80;terzina:27-72-80|pos 3-4 somma 18|",
+  "previsione": "20241128|lottofacile1|MI,VE|10|0|ambata:80;ambo:72-80;ambo:27-80;terzina:27-72-80|pos 3-4 somma 18|",
   "sorti": [
    {
     "esiti": [],
@@ -11960,7 +12472,7 @@
   ]
  },
  {
-  "previsione": "20241128|lottofacile1|NA,PA|6|0|ambata:60;ambo:53-60;ambo:35-60;terzina:35-53-60|pos 2-3 somma 37|",
+  "previsione": "20241128|lottofacile1|NA,PA|10|0|ambata:60;ambo:53-60;ambo:35-60;terzina:35-53-60|pos 2-3 somma 37|",
   "sorti": [
    {
     "esiti": [
@@ -12011,7 +12523,7 @@
   ]
  },
  {
-  "previsione": "20241128|lottofacile1|NA,TO|6|0|ambata:20;ambo:20-53;ambo:20-35;terzina:20-35-53|pos 2-3 somma 37|",
+  "previsione": "20241128|lottofacile1|NA,TO|10|0|ambata:20;ambo:20-53;ambo:20-35;terzina:20-35-53|pos 2-3 somma 37|",
   "sorti": [
    {
     "esiti": [],
@@ -12052,7 +12564,7 @@
   ]
  },
  {
-  "previsione": "20241128|lottofacile1|NA,VE|6|0|ambata:80;ambo:72-80;ambo:27-80;terzina:27-72-80|pos 3-4 somma 18|",
+  "previsione": "20241128|lottofacile1|NA,VE|10|0|ambata:80;ambo:72-80;ambo:27-80;terzina:27-72-80|pos 3-4 somma 18|",
   "sorti": [
    {
     "esiti": [],
@@ -12093,7 +12605,7 @@
   ]
  },
  {
-  "previsione": "20241128|lottofacile1|PA,TO|6|0|ambata:20;ambo:20-53;ambo:20-35;terzina:20-35-53|pos 2-3 somma 37|",
+  "previsione": "20241128|lottofacile1|PA,TO|10|0|ambata:20;ambo:20-53;ambo:20-35;terzina:20-35-53|pos 2-3 somma 37|",
   "sorti": [
    {
     "esiti": [],
@@ -12134,7 +12646,7 @@
   ]
  },
  {
-  "previsione": "20241129|ambosecco_caotico|BA,CA,GE|2|1|ambo:11-58;ambo:68-88|A=12 su BA/CA, B=78 su GE|",
+  "previsione": "20241129|ambosecco_caotico|BA,CA,GE|10|1|ambo:11-58;ambo:68-88|A=12 su BA/CA, B=78 su GE|",
   "sorti": [
    {
     "esiti": [],
@@ -12157,15 +12669,26 @@
   ]
  },
  {
-  "previsione": "20241129|ambosecco_caotico|CA,NA,RM,TO|2|1|ambo:28-38;ambo:38-85|A=42 su CA/NA, B=48 su RM/TO|",
+  "previsione": "20241129|ambosecco_caotico|CA,NA,RM,TO|10|1|ambo:28-38;ambo:38-85|A=42 su CA/NA, B=48 su RM/TO|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 8,
+      "giorno": "2024-12-13",
+      "ruota": "RM",
+      "usciti": [
+       28,
+       38
+      ]
+     }
+    ],
     "numeri": [
      28,
      38
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambo"
    },
    {
@@ -12180,7 +12703,7 @@
   ]
  },
  {
-  "previsione": "20241129|ambosecco_caotico|FI,PA,MI,TO|2|1|ambo:2-68;ambo:78-89|A=2 su FI/PA, B=88 su MI/TO|",
+  "previsione": "20241129|ambosecco_caotico|FI,PA,MI,TO|10|1|ambo:2-68;ambo:78-89|A=2 su FI/PA, B=88 su MI/TO|",
   "sorti": [
    {
     "esiti": [],
@@ -12203,7 +12726,7 @@
   ]
  },
  {
-  "previsione": "20241129|ambosecco_caotico|MI,TO,FI,PA|2|1|ambo:22-79;ambo:22-81|A=88 su MI/TO, B=2 su FI/PA|",
+  "previsione": "20241129|ambosecco_caotico|MI,TO,FI,PA|10|1|ambo:22-79;ambo:22-81|A=88 su MI/TO, B=2 su FI/PA|",
   "sorti": [
    {
     "esiti": [],
@@ -12215,7 +12738,18 @@
     "tipo": "ambo"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": true,
+      "colpo": 10,
+      "giorno": "2024-12-17",
+      "ruota": "GE",
+      "usciti": [
+       22,
+       81
+      ]
+     }
+    ],
     "numeri": [
      22,
      81
@@ -12226,7 +12760,7 @@
   ]
  },
  {
-  "previsione": "20241129|ambosecco_caotico|RM,TO,CA,NA|2|1|ambo:43-62;ambo:62-85|A=48 su RM/TO, B=42 su CA/NA|",
+  "previsione": "20241129|ambosecco_caotico|RM,TO,CA,NA|10|1|ambo:43-62;ambo:62-85|A=48 su RM/TO, B=42 su CA/NA|",
   "sorti": [
    {
     "esiti": [],
@@ -12249,14 +12783,24 @@
   ]
  },
  {
-  "previsione": "20241129|lottofacile5|GE|9|0|ambata:30;ambata:75;ambo:30-62;ambo:17-30;ambo:62-75;ambo:17-75;quartina:2-30-32-62;quartina:17-30-47-77;quartina:2-32-62-75;quartina:17-47-75-77|rilevamento 13-58|",
+  "previsione": "20241129|lottofacile5|GE|10|0|ambata:30;ambata:75;ambo:30-62;ambo:17-30;ambo:62-75;ambo:17-75;quartina:2-30-32-62;quartina:17-30-47-77;quartina:2-32-62-75;quartina:17-47-75-77|rilevamento 13-58|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 10,
+      "giorno": "2024-12-17",
+      "ruota": "GE",
+      "usciti": [
+       30
+      ]
+     }
+    ],
     "numeri": [
      30
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambata"
    },
    {
@@ -12411,7 +12955,7 @@
   ]
  },
  {
-  "previsione": "20241129|lottofacile1|CA,PA|6|0|ambata:4;ambo:4-36;ambo:4-63;terzina:4-36-63|pos 2-3 somma 54|",
+  "previsione": "20241129|lottofacile1|CA,PA|10|0|ambata:4;ambo:4-36;ambo:4-63;terzina:4-36-63|pos 2-3 somma 54|",
   "sorti": [
    {
     "esiti": [],
@@ -12624,7 +13168,7 @@
   ]
  },
  {
-  "previsione": "20241129|lottofacile1|GE,NA|6|0|ambata:10;ambo:10-43;ambo:10-34;terzina:10-34-43|pos 1-2 somma 47|",
+  "previsione": "20241129|lottofacile1|GE,NA|10|0|ambata:10;ambo:10-43;ambo:10-34;terzina:10-34-43|pos 1-2 somma 47|",
   "sorti": [
    {
     "esiti": [],
@@ -12665,7 +13209,7 @@
   ]
  },
  {
-  "previsione": "20241130|lottofacile5|RM|9|0|ambata:6;ambo:6-64;ambo:6-19;quartina:4-6-34-64;quartina:6-19-49-79|rilevamento 5-50|",
+  "previsione": "20241130|lottofacile5|RM|10|0|ambata:6;ambo:6-64;ambo:6-19;quartina:4-6-34-64;quartina:6-19-49-79|rilevamento 5-50|",
   "sorti": [
    {
     "esiti": [],
@@ -12718,7 +13262,7 @@
   ]
  },
  {
-  "previsione": "20241130|lottofacile1|GE,RM|6|0|ambata:46;ambo:46-62;ambo:26-46;terzina:26-46-62|pos 3-4 somma 28|",
+  "previsione": "20241130|lottofacile1|GE,RM|10|0|ambata:46;ambo:46-62;ambo:26-46;terzina:26-46-62|pos 3-4 somma 28|",
   "sorti": [
    {
     "esiti": [
@@ -12769,14 +13313,24 @@
   ]
  },
  {
-  "previsione": "20241130|lottofacile1|GE,TO|6|0|ambata:30;ambo:30-66;ambo:30-69;terzina:30-66-69|pos 4-5 somma 24|",
+  "previsione": "20241130|lottofacile1|GE,TO|10|0|ambata:30;ambo:30-66;ambo:30-69;terzina:30-66-69|pos 4-5 somma 24|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 9,
+      "giorno": "2024-12-17",
+      "ruota": "GE",
+      "usciti": [
+       30
+      ]
+     }
+    ],
     "numeri": [
      30
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambata"
    },
    {
@@ -12997,7 +13551,7 @@
   ]
  },
  {
-  "previsione": "20241203|ambosecco_caotico|BA,VE,FI,NA|2|1|ambo:34-72;ambo:72-86|A=38 su BA/VE, B=52 su FI/NA|",
+  "previsione": "20241203|ambosecco_caotico|BA,VE,FI,NA|10|1|ambo:34-72;ambo:72-86|A=38 su BA/VE, B=52 su FI/NA|",
   "sorti": [
    {
     "esiti": [
@@ -13031,7 +13585,7 @@
   ]
  },
  {
-  "previsione": "20241203|ambosecco_caotico|BA,FI,NA|2|1|ambo:58-75;ambo:75-83|A=65 su BA/FI, B=25 su NA|",
+  "previsione": "20241203|ambosecco_caotico|BA,FI,NA|10|1|ambo:58-75;ambo:75-83|A=65 su BA/FI, B=25 su NA|",
   "sorti": [
    {
     "esiti": [],
@@ -13054,7 +13608,7 @@
   ]
  },
  {
-  "previsione": "20241203|ambosecco_caotico|CA,GE,NA|2|1|ambo:37-39;ambo:49-85|A=41 su CA/GE, B=49 su NA|",
+  "previsione": "20241203|ambosecco_caotico|CA,GE,NA|10|1|ambo:37-39;ambo:49-85|A=41 su CA/GE, B=49 su NA|",
   "sorti": [
    {
     "esiti": [],
@@ -13066,7 +13620,28 @@
     "tipo": "ambo"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": true,
+      "colpo": 7,
+      "giorno": "2024-12-14",
+      "ruota": "MI",
+      "usciti": [
+       49,
+       85
+      ]
+     },
+     {
+      "a_tutte": true,
+      "colpo": 10,
+      "giorno": "2024-12-20",
+      "ruota": "MI",
+      "usciti": [
+       49,
+       85
+      ]
+     }
+    ],
     "numeri": [
      49,
      85
@@ -13077,7 +13652,7 @@
   ]
  },
  {
-  "previsione": "20241203|ambosecco_caotico|FI,NA,BA,VE|2|1|ambo:18-47;ambo:28-84|A=52 su FI/NA, B=38 su BA/VE|",
+  "previsione": "20241203|ambosecco_caotico|FI,NA,BA,VE|10|1|ambo:18-47;ambo:28-84|A=52 su FI/NA, B=38 su BA/VE|",
   "sorti": [
    {
     "esiti": [],
@@ -13100,7 +13675,7 @@
   ]
  },
  {
-  "previsione": "20241203|ambosecco_caotico|FI,NA,GE|2|1|ambo:40-45;ambo:40-85|A=50 su FI/NA, B=40 su GE|",
+  "previsione": "20241203|ambosecco_caotico|FI,NA,GE|10|1|ambo:40-45;ambo:40-85|A=50 su FI/NA, B=40 su GE|",
   "sorti": [
    {
     "esiti": [],
@@ -13123,7 +13698,7 @@
   ]
  },
  {
-  "previsione": "20241203|lottofacile1|BA,FI|6|0|ambata:56;ambo:56-57;ambo:56-75;terzina:56-57-75|pos 3-5 somma 33|",
+  "previsione": "20241203|lottofacile1|BA,FI|10|0|ambata:56;ambo:56-57;ambo:56-75;terzina:56-57-75|pos 3-5 somma 33|",
   "sorti": [
    {
     "esiti": [
@@ -13268,7 +13843,7 @@
   ]
  },
  {
-  "previsione": "20241203|lottofacile1|CA,MI|6|0|ambata:34;ambo:34-48;ambo:34-84;terzina:34-48-84|pos 1-3 somma 42|",
+  "previsione": "20241203|lottofacile1|CA,MI|10|0|ambata:34;ambo:34-48;ambo:34-84;terzina:34-48-84|pos 1-3 somma 42|",
   "sorti": [
    {
     "esiti": [
@@ -13319,7 +13894,7 @@
   ]
  },
  {
-  "previsione": "20241203|lottofacile1|CA,MI|6|0|ambata:56;ambo:23-56;ambo:32-56;terzina:23-32-56|pos 2-5 somma 67|",
+  "previsione": "20241203|lottofacile1|CA,MI|10|0|ambata:56;ambo:23-56;ambo:32-56;terzina:23-32-56|pos 2-5 somma 67|",
   "sorti": [
    {
     "esiti": [
@@ -13370,7 +13945,7 @@
   ]
  },
  {
-  "previsione": "20241203|lottofacile1|CA,RM|6|0|ambata:46;ambo:46-51;ambo:15-46;terzina:15-46-51|pos 2-3 somma 39|",
+  "previsione": "20241203|lottofacile1|CA,RM|10|0|ambata:46;ambo:46-51;ambo:15-46;terzina:15-46-51|pos 2-3 somma 39|",
   "sorti": [
    {
     "esiti": [
@@ -13421,14 +13996,24 @@
   ]
  },
  {
-  "previsione": "20241203|lottofacile1|FI,MI|6|0|ambata:50;ambo:14-50;ambo:41-50;terzina:14-41-50|pos 3-4 somma 76|",
+  "previsione": "20241203|lottofacile1|FI,MI|10|0|ambata:50;ambo:14-50;ambo:41-50;terzina:14-41-50|pos 3-4 somma 76|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 7,
+      "giorno": "2024-12-14",
+      "ruota": "FI",
+      "usciti": [
+       50
+      ]
+     }
+    ],
     "numeri": [
      50
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambata"
    },
    {
@@ -13579,7 +14164,7 @@
   ]
  },
  {
-  "previsione": "20241203|lottofacile1|NA,PA|6|0|ambata:12;ambo:12-16;ambo:12-61;terzina:12-16-61|pos 1-3 somma 74|",
+  "previsione": "20241203|lottofacile1|NA,PA|10|0|ambata:12;ambo:12-16;ambo:12-61;terzina:12-16-61|pos 1-3 somma 74|",
   "sorti": [
    {
     "esiti": [
@@ -13630,7 +14215,7 @@
   ]
  },
  {
-  "previsione": "20241203|lottofacile1|NA,TO|6|0|ambata:12;ambo:12-70;ambo:7-12;terzina:7-12-70|pos 2-4 somma 20|",
+  "previsione": "20241203|lottofacile1|NA,TO|10|0|ambata:12;ambo:12-70;ambo:7-12;terzina:7-12-70|pos 2-4 somma 20|",
   "sorti": [
    {
     "esiti": [
@@ -13703,7 +14288,7 @@
   ]
  },
  {
-  "previsione": "20241205|ambosecco_caotico|BA,RM,PA|2|1|ambo:73-88;ambo:81-88|A=82 su BA/RM, B=8 su PA|",
+  "previsione": "20241205|ambosecco_caotico|BA,RM,PA|10|1|ambo:73-88;ambo:81-88|A=82 su BA/RM, B=8 su PA|",
   "sorti": [
    {
     "esiti": [],
@@ -13726,10 +14311,21 @@
   ]
  },
  {
-  "previsione": "20241205|ambosecco_caotico|FI,GE,NA,TO|2|1|ambo:28-38;ambo:38-85|A=42 su FI/GE, B=48 su NA/TO|",
+  "previsione": "20241205|ambosecco_caotico|FI,GE,NA,TO|10|1|ambo:28-38;ambo:38-85|A=42 su FI/GE, B=48 su NA/TO|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": true,
+      "colpo": 5,
+      "giorno": "2024-12-13",
+      "ruota": "RM",
+      "usciti": [
+       28,
+       38
+      ]
+     }
+    ],
     "numeri": [
      28,
      38
@@ -13749,7 +14345,7 @@
   ]
  },
  {
-  "previsione": "20241205|ambosecco_caotico|FI,VE,PA|2|1|ambo:19-55;ambo:29-83|A=61 su FI/VE, B=29 su PA|",
+  "previsione": "20241205|ambosecco_caotico|FI,VE,PA|10|1|ambo:19-55;ambo:29-83|A=61 su FI/VE, B=29 su PA|",
   "sorti": [
    {
     "esiti": [],
@@ -13772,7 +14368,7 @@
   ]
  },
  {
-  "previsione": "20241205|ambosecco_caotico|NA,TO,FI,GE|2|1|ambo:43-62;ambo:62-85|A=48 su NA/TO, B=42 su FI/GE|",
+  "previsione": "20241205|ambosecco_caotico|NA,TO,FI,GE|10|1|ambo:43-62;ambo:62-85|A=48 su NA/TO, B=42 su FI/GE|",
   "sorti": [
    {
     "esiti": [],
@@ -13795,7 +14391,7 @@
   ]
  },
  {
-  "previsione": "20241205|lottofacile1|CA,FI|6|0|ambata:76;ambo:36-76;ambo:63-76;terzina:36-63-76|pos 1-5 somma 54|",
+  "previsione": "20241205|lottofacile1|CA,FI|10|0|ambata:76;ambo:36-76;ambo:63-76;terzina:36-63-76|pos 1-5 somma 54|",
   "sorti": [
    {
     "esiti": [],
@@ -13836,14 +14432,24 @@
   ]
  },
  {
-  "previsione": "20241205|lottofacile1|CA,FI|6|0|ambata:84;ambo:21-84;ambo:12-84;terzina:12-21-84|pos 2-4 somma 69|",
+  "previsione": "20241205|lottofacile1|CA,FI|10|0|ambata:84;ambo:21-84;ambo:12-84;terzina:12-21-84|pos 2-4 somma 69|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 7,
+      "giorno": "2024-12-17",
+      "ruota": "CA",
+      "usciti": [
+       84
+      ]
+     }
+    ],
     "numeri": [
      84
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambata"
    },
    {
@@ -13877,7 +14483,7 @@
   ]
  },
  {
-  "previsione": "20241205|lottofacile1|FI,NA|6|0|ambata:4;ambo:2-4;ambo:4-20;terzina:2-4-20|pos 4-5 somma 88|",
+  "previsione": "20241205|lottofacile1|FI,NA|10|0|ambata:4;ambo:2-4;ambo:4-20;terzina:2-4-20|pos 4-5 somma 88|",
   "sorti": [
    {
     "esiti": [
@@ -13928,7 +14534,7 @@
   ]
  },
  {
-  "previsione": "20241205|lottofacile1|FI,RM|6|0|ambata:8;ambo:8-55;ambo:8-59;terzina:8-55-59|pos 1-2 somma 35|",
+  "previsione": "20241205|lottofacile1|FI,RM|10|0|ambata:8;ambo:8-55;ambo:8-59;terzina:8-55-59|pos 1-2 somma 35|",
   "sorti": [
    {
     "esiti": [
@@ -13979,14 +14585,24 @@
   ]
  },
  {
-  "previsione": "20241205|lottofacile1|FI,VE|6|0|ambata:38;ambo:38-55;ambo:38-59;terzina:38-55-59|pos 1-2 somma 35|",
+  "previsione": "20241205|lottofacile1|FI,VE|10|0|ambata:38;ambo:38-55;ambo:38-59;terzina:38-55-59|pos 1-2 somma 35|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 7,
+      "giorno": "2024-12-17",
+      "ruota": "FI",
+      "usciti": [
+       38
+      ]
+     }
+    ],
     "numeri": [
      38
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambata"
    },
    {
@@ -14031,7 +14647,7 @@
   ]
  },
  {
-  "previsione": "20241205|lottofacile1|GE,PA|6|0|ambata:16;ambo:16-23;ambo:16-32;terzina:16-23-32|pos 2-4 somma 67|",
+  "previsione": "20241205|lottofacile1|GE,PA|10|0|ambata:16;ambo:16-23;ambo:16-32;terzina:16-23-32|pos 2-4 somma 67|",
   "sorti": [
    {
     "esiti": [
@@ -14082,7 +14698,7 @@
   ]
  },
  {
-  "previsione": "20241205|lottofacile1|RM,VE|6|0|ambata:38;ambo:38-55;ambo:38-59;terzina:38-55-59|pos 1-2 somma 35|",
+  "previsione": "20241205|lottofacile1|RM,VE|10|0|ambata:38;ambo:38-55;ambo:38-59;terzina:38-55-59|pos 1-2 somma 35|",
   "sorti": [
    {
     "esiti": [
@@ -14144,7 +14760,7 @@
   ]
  },
  {
-  "previsione": "20241206|ambosecco_caotico|BA,GE,PA|2|1|ambo:14-15;ambo:24-88|A=16 su BA/GE, B=74 su PA|",
+  "previsione": "20241206|ambosecco_caotico|BA,GE,PA|10|1|ambo:14-15;ambo:24-88|A=16 su BA/GE, B=74 su PA|",
   "sorti": [
    {
     "esiti": [],
@@ -14167,7 +14783,7 @@
   ]
  },
  {
-  "previsione": "20241206|ambosecco_caotico|BA,TO,MI|2|1|ambo:65-87;ambo:82-87|A=73 su BA/TO, B=17 su MI|",
+  "previsione": "20241206|ambosecco_caotico|BA,TO,MI|10|1|ambo:65-87;ambo:82-87|A=73 su BA/TO, B=17 su MI|",
   "sorti": [
    {
     "esiti": [],
@@ -14190,7 +14806,7 @@
   ]
  },
  {
-  "previsione": "20241206|ambosecco_caotico|CA,MI,FI|2|1|ambo:21-37;ambo:47-87|A=23 su CA/MI, B=67 su FI|",
+  "previsione": "20241206|ambosecco_caotico|CA,MI,FI|10|1|ambo:21-37;ambo:47-87|A=23 su CA/MI, B=67 su FI|",
   "sorti": [
    {
     "esiti": [
@@ -14203,13 +14819,23 @@
        21,
        37
       ]
+     },
+     {
+      "a_tutte": false,
+      "colpo": 7,
+      "giorno": "2024-12-19",
+      "ruota": "FI",
+      "usciti": [
+       21,
+       37
+      ]
      }
     ],
     "numeri": [
      21,
      37
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambo"
    },
    {
@@ -14224,7 +14850,7 @@
   ]
  },
  {
-  "previsione": "20241206|ambosecco_caotico|FI,VE,RM|2|1|ambo:51-63;ambo:63-84|A=57 su FI/VE, B=33 su RM|",
+  "previsione": "20241206|ambosecco_caotico|FI,VE,RM|10|1|ambo:51-63;ambo:63-84|A=57 su FI/VE, B=33 su RM|",
   "sorti": [
    {
     "esiti": [],
@@ -14247,7 +14873,7 @@
   ]
  },
  {
-  "previsione": "20241206|ambosecco_caotico|GE,VE,MI|2|1|ambo:22-26;ambo:36-87|A=24 su GE/VE, B=66 su MI|",
+  "previsione": "20241206|ambosecco_caotico|GE,VE,MI|10|1|ambo:22-26;ambo:36-87|A=24 su GE/VE, B=66 su MI|",
   "sorti": [
    {
     "esiti": [],
@@ -14259,18 +14885,29 @@
     "tipo": "ambo"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 7,
+      "giorno": "2024-12-19",
+      "ruota": "GE",
+      "usciti": [
+       36,
+       87
+      ]
+     }
+    ],
     "numeri": [
      36,
      87
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "ambo"
    }
   ]
  },
  {
-  "previsione": "20241206|ambosecco_caotico|RM,VE,FI|2|1|ambo:27-30;ambo:37-86|A=33 su RM/VE, B=57 su FI|",
+  "previsione": "20241206|ambosecco_caotico|RM,VE,FI|10|1|ambo:27-30;ambo:37-86|A=33 su RM/VE, B=57 su FI|",
   "sorti": [
    {
     "esiti": [],
@@ -14304,10 +14941,21 @@
   ]
  },
  {
-  "previsione": "20241206|ambosecco_caotico|RM,TO,GE|2|1|ambo:55-76;ambo:55-81|A=85 su RM/TO, B=5 su GE|",
+  "previsione": "20241206|ambosecco_caotico|RM,TO,GE|10|1|ambo:55-76;ambo:55-81|A=85 su RM/TO, B=5 su GE|",
   "sorti": [
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": true,
+      "colpo": 3,
+      "giorno": "2024-12-12",
+      "ruota": "VE",
+      "usciti": [
+       55,
+       76
+      ]
+     }
+    ],
     "numeri": [
      55,
      76
@@ -14316,7 +14964,18 @@
     "tipo": "ambo"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": true,
+      "colpo": 3,
+      "giorno": "2024-12-12",
+      "ruota": "VE",
+      "usciti": [
+       55,
+       81
+      ]
+     }
+    ],
     "numeri": [
      55,
      81
@@ -14327,7 +14986,7 @@
   ]
  },
  {
-  "previsione": "20241206|lottofacile5|FI|9|0|ambata:21;ambo:21-35;ambo:21-80;quartina:5-21-35-65;quartina:20-21-50-80|rilevamento 22-67|",
+  "previsione": "20241206|lottofacile5|FI|10|0|ambata:21;ambo:21-35;ambo:21-80;quartina:5-21-35-65;quartina:20-21-50-80|rilevamento 22-67|",
   "sorti": [
    {
     "esiti": [
@@ -14390,7 +15049,7 @@
   ]
  },
  {
-  "previsione": "20241206|lottofacile1|BA,GE|6|0|ambata:34;ambo:23-34;ambo:32-34;terzina:23-32-34|pos 2-4 somma 67|",
+  "previsione": "20241206|lottofacile1|BA,GE|10|0|ambata:34;ambo:23-34;ambo:32-34;terzina:23-32-34|pos 2-4 somma 67|",
   "sorti": [
    {
     "esiti": [],
@@ -14431,7 +15090,7 @@
   ]
  },
  {
-  "previsione": "20241206|lottofacile1|BA,PA|6|0|ambata:82;ambo:65-82;ambo:56-82;terzina:56-65-82|pos 1-3 somma 25|",
+  "previsione": "20241206|lottofacile1|BA,PA|10|0|ambata:82;ambo:65-82;ambo:56-82;terzina:56-65-82|pos 1-3 somma 25|",
   "sorti": [
    {
     "esiti": [],
@@ -14472,7 +15131,7 @@
   ]
  },
  {
-  "previsione": "20241206|lottofacile1|BA,PA|6|0|ambata:30;ambo:30-61;ambo:16-30;terzina:16-30-61|pos 2-5 somma 29|",
+  "previsione": "20241206|lottofacile1|BA,PA|10|0|ambata:30;ambo:30-61;ambo:16-30;terzina:16-30-61|pos 2-5 somma 29|",
   "sorti": [
    {
     "esiti": [],
@@ -14501,19 +15160,30 @@
     "tipo": "ambo"
    },
    {
-    "esiti": [],
+    "esiti": [
+     {
+      "a_tutte": false,
+      "colpo": 10,
+      "giorno": "2024-12-24",
+      "ruota": "BA",
+      "usciti": [
+       16,
+       61
+      ]
+     }
+    ],
     "numeri": [
      16,
      30,
      61
     ],
-    "stato": "scaduta",
+    "stato": "vinta",
     "tipo": "terzina"
    }
   ]
  },
  {
-  "previsione": "20241206|lottofacile1|BA,RM|6|0|ambata:32;ambo:32-65;ambo:32-56;terzina:32-56-65|pos 1-3 somma 25|",
+  "previsione": "20241206|lottofacile1|BA,RM|10|0|ambata:32;ambo:32-65;ambo:32-56;terzina:32-56-65|pos 1-3 somma 25|",
   "sorti": [
    {
     "esiti": [
@@ -14689,7 +15359,7 @@
   ]
  },
  {
-  "previsione": "20241206|lottofacile1|CA,RM|6|0|ambata:32;ambo:32-86;ambo:32-68;terzina:32-68-86|pos 1-2 somma 4|",
+  "previsione": "20241206|lottofacile1|CA,RM|10|0|ambata:32;ambo:32-86;ambo:32-68;terzina:32-68-86|pos 1-2 somma 4|",
   "sorti": [
    {
     "esiti": [],
@@ -14730,7 +15400,7 @@
   ]
  },
  {
-  "previsione": "20241206|lottofacile1|CA,VE|6|0|ambata:26;ambo:26-74;ambo:26-47;terzina:26-47-74|pos 2-3 somma 16|",
+  "previsione": "20241206|lottofacile1|CA,VE|10|0|ambata:26;ambo:26-74;ambo:26-47;terzina:26-47-74|pos 2-3 somma 16|",
   "sorti": [
    {
     "esiti": [
@@ -14781,7 +15451,7 @@
   ]
  },
  {
-  "previsione": "20241206|lottofacile1|GE,MI|6|0|ambata:34;ambo:34-35;ambo:34-53;terzina:34-35-53|pos 2-5 somma 55|",
+  "previsione": "20241206|lottofacile1|GE,MI|10|0|ambata:34;ambo:34-35;ambo:34-53;terzina:34-35-53|pos 2-5 somma 55|",
   "sorti": [
    {
     "esiti": [],
@@ -14934,7 +15604,7 @@
   ]
  },
  {
-  "previsione": "20241206|lottofacile1|PA,RM|6|0|ambata:32;ambo:32-65;ambo:32-56;terzina:32-56-65|pos 1-3 somma 25|",
+  "previsione": "20241206|lottofacile1|PA,RM|10|0|ambata:32;ambo:32-65;ambo:32-56;terzina:32-56-65|pos 1-3 somma 25|",
   "sorti": [
    {
     "esiti": [],

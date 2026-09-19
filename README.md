@@ -14,11 +14,33 @@ e continua a funzionare anche a computer spento.
 ## La cosa da sapere prima di tutto il resto
 
 Nessuno di questi metodi prevede l'estrazione. Il backtest su vent'anni di
-archivio reale — 23.853 rilevamenti — dice che ogni euro giocato ne restituisce
-in media **meno di settanta centesimi**, con i singoli metodi fra il 62% e il
-74%. Non è un difetto di questo o quel metodo: è il margine del banco, ed è lo
-stesso qualunque numero si giochi. I metodi scelgono *quali* numeri giocare, non
+archivio reale — 33.815 rilevamenti — dice che ogni euro giocato ne restituisce
+in media **sessanta centesimi**, con i singoli metodi fra il 52% e il 74%. Non è
+un difetto di questo o quel metodo: è il margine del banco, ed è lo stesso
+qualunque numero si giochi. I metodi scelgono *quali* numeri giocare, non
 *quanto paga* il gioco.
+
+### I dieci colpi, e quanto costano
+
+I fascicoli prescrivono colpi diversi — 2 per l'Ambo Secco Caotico, 6 per Lotto
+Facile, 14 per Lotto Facile 4. Qui c'è un **pavimento: nessuna previsione si
+segue per meno di dieci colpi** (`rilevamento.COLPI_MINIMI`). È una deroga
+dichiarata, applicata in un punto solo, e `motore/lotto.py` continua a riportare
+quello che dice il fascicolo.
+
+Misurata sugli stessi 33.815 rilevamenti, la deroga costa:
+
+| | colpi dei fascicoli | pavimento a 10 |
+|---|---:|---:|
+| speso | 1.505.667 € | 2.477.766 € |
+| incassato | 953.425 € | 1.490.059 € |
+| **ritorno** | **63,3%** | **60,1%** |
+| sorti vinte (Ambo Secco Caotico) | 323 | 1.487 |
+
+Le vincite aumentano parecchio — l'Ambo Secco Caotico ne fa quasi cinque volte
+tante — ma costano più di quanto rendono. **Allungare i colpi fa vincere più
+spesso e perdere di più**, ed è quello che ci si deve aspettare: il ritorno per
+euro dipende dalla sorte, non da quanto a lungo la si insegue.
 
 Questa app esiste per rendere quel fatto visibile invece di nasconderlo. La
 scheda **Bilancio** mostra speso, incassato e saldo reali; la scheda
@@ -258,6 +280,11 @@ colpi prima. Chiamarla «scaduta» sarebbe falso e «uscita» pure: si chiama
 | `sospesa` | la giocata si è chiusa su un'altra ruota prima che qui uscisse. |
 | `scaduta` | i colpi sono finiti e non è uscita da nessuna parte. |
 | `aperta` | i colpi non sono ancora finiti. |
+
+Una riga scaduta che dice **«un numero solo, 2 volte»** è cliccabile, e si apre
+sotto: quale numero è uscito su quella ruota e a che colpo, e dove sono finiti
+gli altri numeri della sorte nella stessa finestra di colpi. È la domanda che
+viene subito dopo, e finora la pagina la lasciava in sospeso.
 
 Il conto di un anno intero è qualche centinaio di millisecondi, quindi si fa una
 volta sola quando cambia l'anno; cambiare una tendina filtra quello che è già in

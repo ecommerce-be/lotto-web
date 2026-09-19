@@ -1,15 +1,25 @@
 {
   "_commento": [
-    "Risultato del backtest su vent'anni di archivio reale (2005-2026), calcolato",
+    "Risultato del backtest su vent'anni di archivio reale (2006-2026), calcolato",
     "una volta sola e non ricalcolato a ogni aggiornamento: e' un riferimento",
     "storico, non un dato vivo. Serve a dare la misura giusta al bilancio corrente,",
     "che su pochi mesi e' troppo corto per significare qualcosa.",
-    "Il dettaglio completo, controlli placebo compresi, sta in backtest-20-anni.md."
+    "Rifatto con il pavimento dei dieci colpi (rilevamento.COLPI_MINIMI). Sugli",
+    "STESSI 33.815 rilevamenti, passare dai colpi dei fascicoli ai dieci colpi",
+    "moltiplica la spesa per 1,65 e l'incasso per 1,56: le vincite aumentano",
+    "parecchio - l'Ambo Secco Caotico da 323 sorti vinte a 1.487 - ma costano piu'",
+    "di quanto rendono, e il ritorno per euro scende da 0,633 a 0,601. Allungare i",
+    "colpi fa vincere piu' spesso e perdere di piu': il ritorno per euro dipende",
+    "dalla sorte, non da quanto a lungo la si insegue.",
+    "Il dettaglio completo, controlli placebo compresi, sta in backtest-20-anni.md;",
+    "quelle pagine analizzano l'archivio e i rilevamenti, che i colpi non toccano."
   ],
-  "periodo": "2005-2026",
-  "rilevamenti": 23853,
-  "ritorno_minimo": 0.62,
+  "periodo": "2006-2026",
+  "rilevamenti": 33815,
+  "ritorno_minimo": 0.52,
   "ritorno_massimo": 0.74,
-  "ritorno_medio": 0.677,
-  "soglia_campione": 300
+  "ritorno_medio": 0.601,
+  "soglia_campione": 300,
+  "colpi_minimi": 10,
+  "ritorno_con_colpi_dei_fascicoli": 0.633
 }

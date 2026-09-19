@@ -365,6 +365,38 @@ table.tutto .tiepido{color:var(--tenue)}
 table.tutto .spento{color:var(--tenue);opacity:.75}
 table.tutto .quali{display:block;font-size:.76rem;color:var(--tenue);
   font-variant-numeric:tabular-nums}
+button.quali.sfiorata{border:none;background:none;padding:0;margin:0;
+  font:inherit;font-size:.76rem;color:var(--accento);cursor:pointer;
+  text-decoration:underline;text-underline-offset:3px;
+  text-decoration-style:dotted;text-align:right}
+button.quali.sfiorata::after{content:' ▸';text-decoration:none;
+  display:inline-block;font-size:.7em}
+button.quali.sfiorata[aria-expanded="true"]::after{content:' ▾'}
+button.quali.sfiorata:hover{color:var(--testo)}
+
+tr.dettaglio-riga > td{padding:0;border-bottom:1px solid var(--bordo)}
+.sfiorata-dentro{background:var(--carta);border-left:3px solid var(--accento);
+  padding:12px 16px;margin:2px 0 8px}
+.voce-numero{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;
+  padding:6px 0;font-size:.84rem}
+.voce-numero + .voce-numero{border-top:1px dashed var(--bordo)}
+.voce-numero .cifra{font-weight:660;font-variant-numeric:tabular-nums;
+  font-size:1.1rem;min-width:2.4ch}
+.voce-numero .qui{color:var(--testo)}
+.voce-numero.assente .qui{color:var(--tenue)}
+.voce-numero .fuori{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap;
+  justify-content:flex-end}
+.voce-numero .posto{font-size:.78rem;color:var(--tenue);border:1px solid var(--bordo);
+  border-radius:99px;padding:2px 9px;white-space:nowrap}
+.voce-numero .posto em{font-style:normal;color:var(--accento);font-weight:600}
+.voce-numero .niente{font-size:.78rem;color:var(--tenue);font-style:italic}
+.sfiorata-dentro .nota{margin:10px 0 0;font-size:.78rem;color:var(--tenue);
+  max-width:64ch;line-height:1.5}
+@media (max-width:640px){
+  tr.dettaglio-riga{border:none!important;padding:0!important;margin:0 0 10px!important}
+  tr.dettaglio-riga > td{display:block;padding:0}
+  .voce-numero .fuori{margin-left:0;flex-basis:100%;justify-content:flex-start}
+}
 /* sul telefono la cella diventa una riga in flex: senza questo le due parti
    dell'esito finiscono in due colonne invece che una sotto l'altra */
 table.tutto .andata{display:flex;flex-direction:column;align-items:flex-end;gap:1px}
