@@ -1579,3 +1579,17 @@
 20260919|lottofacile1|NA,TO|10|0|ambata:58;ambo:7-58;ambo:58-70;terzina:7-58-70|pos 1-5 somma 83|
 20260919|lottofacile4|PA,RM|14|1|ambata:53;ambo:8-53;ambo:53-83;ambo:23-53;terzina:8-23-83|pos 1-3 orizzontale|
 20260919|fulmine|PA,RM|12|0|ambata:86;ambo:26-86;ambo:6-86;ambo:66-86;quartina:6-26-66-86|cadenza, coppie ((86, 6), (26, 66))|
+20260922|ambosecco_caotico|CA,TO,FI|10|1|ambo:55-76;ambo:55-81|A=85 su CA/TO, B=5 su FI|
+20260922|ambosecco_caotico|FI,NA,PA,TO|10|1|ambo:42-73;ambo:73-85|A=47 su FI/NA, B=43 su PA/TO|
+20260922|ambosecco_caotico|GE,PA,RM,BA|10|1|ambo:9-80;ambo:80-89|A=10 su GE/PA/RM, B=80 su BA|
+20260922|ambosecco_caotico|PA,TO,FI,NA|10|1|ambo:17-39;ambo:27-85|A=43 su PA/TO, B=47 su FI/NA|
+20260922|lottofacile1|CA,FI|10|0|ambata:4;ambo:4-38;ambo:4-83;terzina:4-38-83|pos 1-4 somma 52|
+20260922|lottofacile1|CA,NA|10|0|ambata:14;ambo:14-87;ambo:14-78;terzina:14-78-87|pos 3-4 somma 3|
+20260922|fulmine|FI,MI|12|0|ambata:35;ambo:25-35;ambo:5-35;ambo:15-35;quartina:5-15-25-35|cadenza, coppie ((25, 15), (5, 35))|
+20260922|fulmine|FI,TO|12|0|ambata:85;ambo:25-85;ambo:5-85;ambo:65-85;quartina:5-25-65-85|cadenza, coppie ((25, 65), (5, 85))|
+20260922|lottofacile4|GE,NA|14|1|ambata:69;ambo:24-69;ambo:9-69;ambo:39-69;terzina:9-24-39|pos 1-4 diagonale|
+20260922|lottofacile4|NA,PA|14|1|ambata:9;ambo:9-54;ambo:9-39;ambo:9-69;terzina:39-54-69|pos 1-4 diagonale|
+20260922|lottofacile1|NA,PA|10|0|ambata:52;ambo:3-52;ambo:30-52;terzina:3-30-52|pos 1-2 somma 87|
+20260922|lottofacile1|NA,PA|10|0|ambata:52;ambo:52-54;ambo:45-52;terzina:45-52-54|pos 1-4 somma 36|
+20260922|lottofacile4|RM,TO|14|1|ambata:49;ambo:4-49;ambo:49-79;ambo:19-49;terzina:4-19-79|pos 2-4 diagonale|
+20260922|lottofacile1|TO,VE|10|0|ambata:36;ambo:29-36;ambo:22-36;terzina:22-29-36|pos 2-4 somma 61|
