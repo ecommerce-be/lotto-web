@@ -1593,3 +1593,9 @@
 20260922|lottofacile1|NA,PA|10|0|ambata:52;ambo:52-54;ambo:45-52;terzina:45-52-54|pos 1-4 somma 36|
 20260922|lottofacile4|RM,TO|14|1|ambata:49;ambo:4-49;ambo:49-79;ambo:19-49;terzina:4-19-79|pos 2-4 diagonale|
 20260922|lottofacile1|TO,VE|10|0|ambata:36;ambo:29-36;ambo:22-36;terzina:22-29-36|pos 2-4 somma 61|
+20260924|ambosecco_caotico|CA,RM,PA|10|1|ambo:20-63;ambo:20-83|A=70 su CA/RM, B=20 su PA|
+20260924|lottofacile5|VE|10|0|ambata:9;ambata:54;ambo:9-75;ambo:9-30;ambo:54-75;ambo:30-54;quartina:9-15-45-75;quartina:9-30-60-90;quartina:15-45-54-75;quartina:30-54-60-90|rilevamento 6-51|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20260924|lottofacile1|BA,FI|10|0|ambata:30;ambo:30-54;ambo:30-45;terzina:30-45-54|pos 2-4 somma 36|
+20260924|lottofacile1|BA,GE|10|0|ambata:62;ambo:41-62;ambo:14-62;terzina:14-41-62|pos 1-3 somma 49|
+20260924|lottofacile1|MI,VE|10|0|ambata:84;ambo:42-84;ambo:24-84;terzina:24-42-84|pos 3-5 somma 48|
+20260924|lottofacile1|PA,VE|10|0|ambata:12;ambo:12-75;ambo:12-57;terzina:12-57-75|pos 1-2 somma 15|
