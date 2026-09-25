@@ -1599,3 +1599,6 @@
 20260924|lottofacile1|BA,GE|10|0|ambata:62;ambo:41-62;ambo:14-62;terzina:14-41-62|pos 1-3 somma 49|
 20260924|lottofacile1|MI,VE|10|0|ambata:84;ambo:42-84;ambo:24-84;terzina:24-42-84|pos 3-5 somma 48|
 20260924|lottofacile1|PA,VE|10|0|ambata:12;ambo:12-75;ambo:12-57;terzina:12-57-75|pos 1-2 somma 15|
+20260925|ambosecco_caotico|FI,PA,BA|10|1|ambo:14-25;ambo:35-88|A=15 su FI/PA, B=75 su BA|
+20260925|lottofacile4|CA,NA|14|1|ambata:87;ambo:42-87;ambo:27-87;ambo:57-87;terzina:27-42-57|pos 1-3 orizzontale|
+20260925|lottofacile1|FI,MI|10|0|ambata:24;ambo:24-36;ambo:24-63;terzina:24-36-63|pos 3-5 somma 54|
