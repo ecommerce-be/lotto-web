@@ -4602,114 +4602,6 @@
  {
   "anche_tutte": false,
   "avviso": null,
-  "chiave": "57784bfd92e1",
-  "colpi": 10,
-  "colpi_residui": 10,
-  "giorno": "2026-09-24",
-  "metodo": "lottofacile1",
-  "nome_metodo": "Lotto Facile — Il Metodo Vincente",
-  "nota": "pos 2-4 somma 36",
-  "per_anno": 1063,
-  "ruote": [
-   "BA",
-   "FI"
-  ],
-  "sorti": [
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     30
-    ],
-    "tipo": "ambata"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     30,
-     54
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     30,
-     45
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     30,
-     45,
-     54
-    ],
-    "tipo": "terzina"
-   }
-  ]
- },
- {
-  "anche_tutte": false,
-  "avviso": null,
-  "chiave": "832e8ebf6fdb",
-  "colpi": 10,
-  "colpi_residui": 10,
-  "giorno": "2026-09-24",
-  "metodo": "lottofacile1",
-  "nome_metodo": "Lotto Facile — Il Metodo Vincente",
-  "nota": "pos 1-3 somma 49",
-  "per_anno": 1063,
-  "ruote": [
-   "BA",
-   "GE"
-  ],
-  "sorti": [
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     62
-    ],
-    "tipo": "ambata"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     41,
-     62
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     14,
-     62
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     14,
-     41,
-     62
-    ],
-    "tipo": "terzina"
-   }
-  ]
- },
- {
-  "anche_tutte": false,
-  "avviso": null,
   "chiave": "0eee92ba9792",
   "colpi": 10,
   "colpi_residui": 10,
@@ -4764,6 +4656,60 @@
  {
   "anche_tutte": false,
   "avviso": null,
+  "chiave": "57784bfd92e1",
+  "colpi": 10,
+  "colpi_residui": 10,
+  "giorno": "2026-09-24",
+  "metodo": "lottofacile1",
+  "nome_metodo": "Lotto Facile — Il Metodo Vincente",
+  "nota": "pos 2-4 somma 36",
+  "per_anno": 1063,
+  "ruote": [
+   "BA",
+   "FI"
+  ],
+  "sorti": [
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     30
+    ],
+    "tipo": "ambata"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     30,
+     54
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     30,
+     45
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     30,
+     45,
+     54
+    ],
+    "tipo": "terzina"
+   }
+  ]
+ },
+ {
+  "anche_tutte": false,
+  "avviso": null,
   "chiave": "6a293eec0cd1",
   "colpi": 10,
   "colpi_residui": 10,
@@ -4810,6 +4756,60 @@
      12,
      57,
      75
+    ],
+    "tipo": "terzina"
+   }
+  ]
+ },
+ {
+  "anche_tutte": false,
+  "avviso": null,
+  "chiave": "832e8ebf6fdb",
+  "colpi": 10,
+  "colpi_residui": 10,
+  "giorno": "2026-09-24",
+  "metodo": "lottofacile1",
+  "nome_metodo": "Lotto Facile — Il Metodo Vincente",
+  "nota": "pos 1-3 somma 49",
+  "per_anno": 1063,
+  "ruote": [
+   "BA",
+   "GE"
+  ],
+  "sorti": [
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     62
+    ],
+    "tipo": "ambata"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     41,
+     62
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     14,
+     62
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     14,
+     41,
+     62
     ],
     "tipo": "terzina"
    }
