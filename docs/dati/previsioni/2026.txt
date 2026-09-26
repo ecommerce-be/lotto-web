@@ -1602,3 +1602,14 @@
 20260925|ambosecco_caotico|FI,PA,BA|10|1|ambo:14-25;ambo:35-88|A=15 su FI/PA, B=75 su BA|
 20260925|lottofacile4|CA,NA|14|1|ambata:87;ambo:42-87;ambo:27-87;ambo:57-87;terzina:27-42-57|pos 1-3 orizzontale|
 20260925|lottofacile1|FI,MI|10|0|ambata:24;ambo:24-36;ambo:24-63;terzina:24-36-63|pos 3-5 somma 54|
+20260926|ambosecco_caotico|CA,FI,MI|10|1|ambo:9-64;ambo:19-82|A=71 su CA/FI, B=19 su MI|
+20260926|ambosecco_caotico|CA,VE,PA|10|1|ambo:65-67;ambo:65-82|A=75 su CA/VE, B=15 su PA|
+20260926|ambosecco_caotico|FI,MI,CA|10|1|ambo:17-81;ambo:81-88|A=19 su FI/MI, B=71 su CA|
+20260926|lottofacile5|CA|10|0|ambata:6;ambata:51;ambo:6-85;ambo:6-40;ambo:51-85;ambo:40-51;quartina:6-25-55-85;quartina:6-10-40-70;quartina:25-51-55-85;quartina:10-40-51-70|rilevamento 2-47|
+20260926|lottofacile5|PA|10|0|ambata:36;ambata:81;ambo:36-84;ambo:36-39;ambo:81-84;ambo:39-81;quartina:24-36-54-84;quartina:9-36-39-69;quartina:24-54-81-84;quartina:9-39-69-81|rilevamento 15-60|
+20260926|lottofacile1|BA,RM|10|0|ambata:44;ambo:23-44;ambo:32-44;terzina:23-32-44|pos 2-5 somma 67|
+20260926|lottofacile1|FI,RM|10|0|ambata:56;ambo:56-62;ambo:26-56;terzina:26-56-62|pos 1-5 somma 28|
+20260926|lottofacile1|GE,TO|10|0|ambata:66;ambo:46-66;ambo:64-66;terzina:46-64-66|pos 2-3 somma 44|
+20260926|lottofacile1|NA,PA|10|0|ambata:46;ambo:46-52;ambo:25-46;terzina:25-46-52|pos 3-5 somma 38|
+20260926|lottofacile1|NA,VE|10|0|ambata:78;ambo:30-78;ambo:3-78;terzina:3-30-78|pos 1-2 somma 60|
+20260926|lottofacile1|PA,RM|10|0|ambata:56;ambo:56-70;ambo:7-56;terzina:7-56-70|pos 1-4 somma 20|
