@@ -1613,3 +1613,5 @@
 20260926|lottofacile1|NA,PA|10|0|ambata:46;ambo:46-52;ambo:25-46;terzina:25-46-52|pos 3-5 somma 38|
 20260926|lottofacile1|NA,VE|10|0|ambata:78;ambo:30-78;ambo:3-78;terzina:3-30-78|pos 1-2 somma 60|
 20260926|lottofacile1|PA,RM|10|0|ambata:56;ambo:56-70;ambo:7-56;terzina:7-56-70|pos 1-4 somma 20|
+20260929|ambosecco_caotico|GE,PA,TO,MI|10|1|ambo:2-8;ambo:12-89|A=8 su GE/PA/TO, B=82 su MI|
+20260929|ambosecco_caotico|RM,VE,NA|10|1|ambo:55-76;ambo:55-81|A=85 su RM/VE, B=5 su NA|
