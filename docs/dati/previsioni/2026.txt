@@ -1615,3 +1615,12 @@
 20260926|lottofacile1|PA,RM|10|0|ambata:56;ambo:56-70;ambo:7-56;terzina:7-56-70|pos 1-4 somma 20|
 20260929|ambosecco_caotico|GE,PA,TO,MI|10|1|ambo:2-8;ambo:12-89|A=8 su GE/PA/TO, B=82 su MI|
 20260929|ambosecco_caotico|RM,VE,NA|10|1|ambo:55-76;ambo:55-81|A=85 su RM/VE, B=5 su NA|
+20261001|ambosecco_caotico|CA,GE,TO|10|1|ambo:65-87;ambo:82-87|A=73 su CA/GE, B=17 su TO|
+20261001|ambosecco_caotico|CA,VE,NA|10|1|ambo:15-23;ambo:25-87|A=25 su CA/VE, B=65 su NA|
+20261001|lottofacile1|BA,CA|10|0|ambata:56;ambo:4-56;ambo:40-56;terzina:4-40-56|pos 2-4 somma 86|
+20261001|lottofacile1|BA,FI|10|0|ambata:78;ambo:66-78;ambo:69-78;terzina:66-69-78|pos 3-4 somma 24|
+20261001|fulmine|BA,PA|12|0|ambata:58;ambo:18-58;ambo:8-58;ambo:48-58;quartina:8-18-48-58|cadenza, coppie ((18, 48), (8, 58))|
+20261001|lottofacile4|CA,FI|14|1|ambata:7;ambo:7-52;ambo:7-37;ambo:7-67;terzina:37-52-67|pos 2-4 orizzontale|
+20261001|lottofacile1|PA,RM|10|0|ambata:18;ambo:18-81;ambo:18-18|pos 2-3 somma 9|
+20261001|lottofacile1|PA,RM|10|0|ambata:18;ambo:18-71;ambo:17-18;terzina:17-18-71|pos 2-5 somma 19|
+20261001|fulmine|RM,TO|12|0|ambata:87;ambo:37-87;ambo:67-87;ambo:17-87;quartina:17-37-67-87|cadenza, coppie ((87, 17), (37, 67))|
