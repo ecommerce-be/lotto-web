@@ -1624,3 +1624,12 @@
 20261001|lottofacile1|PA,RM|10|0|ambata:18;ambo:18-81;ambo:18-18|pos 2-3 somma 9|
 20261001|lottofacile1|PA,RM|10|0|ambata:18;ambo:18-71;ambo:17-18;terzina:17-18-71|pos 2-5 somma 19|
 20261001|fulmine|RM,TO|12|0|ambata:87;ambo:37-87;ambo:67-87;ambo:17-87;quartina:17-37-67-87|cadenza, coppie ((87, 17), (37, 67))|
+20261002|ambosecco_caotico|CA,PA,FI|10|1|ambo:42-73;ambo:73-85|A=47 su CA/PA, B=43 su FI|
+20261002|ambosecco_caotico|MI,VE,FI|10|1|ambo:41-84;ambo:84-85|A=46 su MI/VE, B=44 su FI|
+20261002|ambosecco_caotico|PA,VE,FI|10|1|ambo:29-38;ambo:48-86|A=32 su PA/VE, B=58 su FI|
+20261002|lottofacile5|CA|10|0|ambata:57;ambo:57-59;ambo:14-57;quartina:29-57-59-89;quartina:14-44-57-74|rilevamento 34-79|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20261002|lottofacile1|BA,FI|10|0|ambata:6;ambo:6-74;ambo:6-47;terzina:6-47-74|pos 1-2 somma 16|
+20261002|lottofacile1|CA,VE|10|0|ambata:38;ambo:20-38;ambo:2-38;terzina:2-20-38|pos 4-5 somma 70|
+20261002|lottofacile1|GE,MI|10|0|ambata:28;ambo:28-75;ambo:28-57;terzina:28-57-75|pos 1-5 somma 15|
+20261002|fulmine|MI,NA|12|0|ambata:59;ambo:41-59;ambo:23-59;ambo:5-59;quartina:5-23-41-59|figura, coppie ((59, 5), (41, 23))|
+20261002|lottofacile1|PA,TO|10|0|ambata:66;ambo:66-85;ambo:58-66;terzina:58-66-85|pos 2-5 somma 5|
