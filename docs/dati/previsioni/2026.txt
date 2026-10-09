@@ -1651,3 +1651,13 @@
 20261006|lottofacile1|GE,MI|10|0|ambata:70;ambo:16-70;ambo:61-70;terzina:16-61-70|pos 2-3 somma 74|
 20261006|lottofacile1|NA,RM|10|0|ambata:26;ambo:26-70;ambo:7-26;terzina:7-26-70|pos 2-4 somma 20|
 20261006|lottofacile1|RM,VE|10|0|ambata:46;ambo:46-85;ambo:46-58;terzina:46-58-85|pos 3-5 somma 5|
+20261008|ambosecco_caotico|BA,MI,VE,RM|10|1|ambo:19-55;ambo:29-83|A=61 su BA/MI/VE, B=29 su RM|
+20261008|ambosecco_caotico|GE,RM,CA|10|1|ambo:44-51;ambo:51-85|A=49 su GE/RM, B=41 su CA|
+20261008|ambosecco_caotico|MI,RM,GE|10|1|ambo:36-50;ambo:50-86|A=40 su MI/RM, B=50 su GE|
+20261008|lottofacile5|CA|10|0|ambata:33;ambata:78;ambo:33-73;ambo:28-33;ambo:73-78;ambo:28-78;quartina:13-33-43-73;quartina:28-33-58-88;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 41-86|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20261008|lottofacile5|PA|10|0|ambata:78;ambata:33;ambo:43-78;ambo:78-88;ambo:33-43;ambo:33-88;quartina:13-43-73-78;quartina:28-58-78-88;quartina:13-33-43-73;quartina:28-33-58-88|rilevamento 26-71|
+20261008|lottofacile1|MI,VE|10|0|ambata:32;ambo:10-32;ambo:1-32;terzina:1-10-32|pos 2-4 somma 80|
+20261008|lottofacile1|NA,PA|10|0|ambata:12;ambo:12-13;ambo:12-31;terzina:12-13-31|pos 3-4 somma 77|
+20261008|lottofacile4|NA,VE|14|1|ambata:69;ambo:24-69;ambo:9-69;ambo:39-69;terzina:9-24-39|pos 1-2 diagonale|
+20261008|lottofacile1|NA,VE|10|0|ambata:70;ambo:70-84;ambo:48-70;terzina:48-70-84|pos 1-2 somma 6|
+20261008|lottofacile1|NA,VE|10|0|ambata:32;ambo:32-57;ambo:32-75;terzina:32-57-75|pos 2-3 somma 33|
