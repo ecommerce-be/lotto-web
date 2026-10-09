@@ -4304,6 +4304,60 @@
  {
   "anche_tutte": false,
   "avviso": null,
+  "chiave": "920533db7e33",
+  "colpi": 10,
+  "colpi_residui": 10,
+  "giorno": "2026-10-08",
+  "metodo": "lottofacile1",
+  "nome_metodo": "Lotto Facile — Il Metodo Vincente",
+  "nota": "pos 2-3 somma 33",
+  "per_anno": 1054,
+  "ruote": [
+   "NA",
+   "VE"
+  ],
+  "sorti": [
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     32
+    ],
+    "tipo": "ambata"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     32,
+     57
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     32,
+     75
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     32,
+     57,
+     75
+    ],
+    "tipo": "terzina"
+   }
+  ]
+ },
+ {
+  "anche_tutte": false,
+  "avviso": null,
   "chiave": "ad8f825424e8",
   "colpi": 10,
   "colpi_residui": 10,
@@ -4404,60 +4458,6 @@
      48,
      70,
      84
-    ],
-    "tipo": "terzina"
-   }
-  ]
- },
- {
-  "anche_tutte": false,
-  "avviso": null,
-  "chiave": "920533db7e33",
-  "colpi": 10,
-  "colpi_residui": 10,
-  "giorno": "2026-10-08",
-  "metodo": "lottofacile1",
-  "nome_metodo": "Lotto Facile — Il Metodo Vincente",
-  "nota": "pos 2-3 somma 33",
-  "per_anno": 1054,
-  "ruote": [
-   "NA",
-   "VE"
-  ],
-  "sorti": [
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     32
-    ],
-    "tipo": "ambata"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     32,
-     57
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     32,
-     75
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     32,
-     57,
-     75
     ],
     "tipo": "terzina"
    }
