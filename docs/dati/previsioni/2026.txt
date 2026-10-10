@@ -1670,3 +1670,14 @@
 20261009|lottofacile1|GE,TO|10|0|ambata:44;ambo:44-77;ambo:44-79;terzina:44-77-79|pos 1-3 somma 13|
 20261009|lottofacile1|NA,TO|10|0|ambata:72;ambo:49-72;ambo:44-72;terzina:44-49-72|pos 3-5 somma 41|
 20261009|lottofacile1|RM,VE|10|0|ambata:48;ambo:20-48;ambo:2-48;terzina:2-20-48|pos 2-3 somma 70|
+20261010|ambosecco_caotico|BA,GE,NA|10|1|ambo:14-15;ambo:24-88|A=16 su BA/GE, B=74 su NA|
+20261010|ambosecco_caotico|GE,TO,RM|10|1|ambo:28-49;ambo:59-86|A=31 su GE/TO, B=59 su RM|
+20261010|ambosecco_caotico|RM,TO,GE|10|1|ambo:41-53;ambo:41-84|A=59 su RM/TO, B=31 su GE|
+20261010|lottofacile5|CA|10|0|ambata:54;ambo:54-60;ambo:15-54;quartina:30-54-60-90;quartina:15-45-54-75|rilevamento 21-66|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20261010|lottofacile5|FI|10|0|ambata:60;ambata:15;ambo:60-82;ambo:37-60;ambo:15-82;ambo:15-37;quartina:22-52-60-82;quartina:7-37-60-67;quartina:15-22-52-82;quartina:7-15-37-67|rilevamento 23-68|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20261010|lottofacile5|FI|10|0|ambata:90;ambata:45;ambo:51-90;ambo:6-90;ambo:45-51;ambo:6-45;quartina:21-51-81-90;quartina:6-36-66-90;quartina:21-45-51-81;quartina:6-36-45-66|rilevamento 30-75|
+20261010|lottofacile1|BA,MI|10|0|ambata:40;ambo:40-53;ambo:35-40;terzina:35-40-53|pos 1-4 somma 37|
+20261010|lottofacile1|BA,RM|10|0|ambata:10;ambo:10-19;ambo:10-11;terzina:10-11-19|pos 1-5 somma 71|
+20261010|lottofacile1|BA,RM|10|0|ambata:64;ambo:64-89;ambo:64-88;terzina:64-88-89|pos 2-3 somma 1|
+20261010|lottofacile1|CA,TO|10|0|ambata:22;ambo:5-22;ambo:22-50;terzina:5-22-50|pos 3-4 somma 85|
+20261010|lottofacile1|GE,PA|10|0|ambata:30;ambo:30-85;ambo:30-58;terzina:30-58-85|pos 2-4 somma 5|
