@@ -1681,3 +1681,14 @@
 20261010|lottofacile1|BA,RM|10|0|ambata:64;ambo:64-89;ambo:64-88;terzina:64-88-89|pos 2-3 somma 1|
 20261010|lottofacile1|CA,TO|10|0|ambata:22;ambo:5-22;ambo:22-50;terzina:5-22-50|pos 3-4 somma 85|
 20261010|lottofacile1|GE,PA|10|0|ambata:30;ambo:30-85;ambo:30-58;terzina:30-58-85|pos 2-4 somma 5|
+20261013|ambosecco_caotico|CA,NA,BA|10|1|ambo:21-37;ambo:47-87|A=23 su CA/NA, B=67 su BA|
+20261013|ambosecco_caotico|CA,FI,PA,GE|10|1|ambo:54-68;ambo:54-82|A=76 su CA/FI/PA, B=14 su GE|
+20261013|ambosecco_caotico|FI,PA,TO,VE|10|1|ambo:44-51;ambo:51-85|A=49 su FI/PA, B=41 su TO/VE|
+20261013|ambosecco_caotico|PA,TO,MI|10|1|ambo:33-78;ambo:33-81|A=87 su PA/TO, B=3 su MI|
+20261013|ambosecco_caotico|RM,VE,PA|10|1|ambo:6-24;ambo:34-89|A=6 su RM/VE, B=84 su PA|
+20261013|ambosecco_caotico|TO,VE,FI,PA|10|1|ambo:37-39;ambo:49-85|A=41 su TO/VE, B=49 su FI/PA|
+20261013|lottofacile5|MI|10|0|ambata:84;ambata:39;ambo:20-84;ambo:65-84;ambo:20-39;ambo:39-65;quartina:20-50-80-84;quartina:5-35-65-84;quartina:20-39-50-80;quartina:5-35-39-65|rilevamento 1-46|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20261013|lottofacile1|BA,RM|10|0|ambata:72;ambo:72-82;ambo:28-72;terzina:28-72-82|pos 3-4 somma 8|
+20261013|lottofacile1|CA,FI|10|0|ambata:72;ambo:23-72;ambo:32-72;terzina:23-32-72|pos 3-4 somma 67|
+20261013|lottofacile1|FI,NA|10|0|ambata:60;ambo:50-60;ambo:5-60;terzina:5-50-60|pos 3-5 somma 40|
+20261013|lottofacile1|RM,TO|10|0|ambata:82;ambo:52-82;ambo:25-82;terzina:25-52-82|pos 1-5 somma 38|
