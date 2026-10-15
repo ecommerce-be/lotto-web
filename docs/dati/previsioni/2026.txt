@@ -1692,3 +1692,11 @@
 20261013|lottofacile1|CA,FI|10|0|ambata:72;ambo:23-72;ambo:32-72;terzina:23-32-72|pos 3-4 somma 67|
 20261013|lottofacile1|FI,NA|10|0|ambata:60;ambo:50-60;ambo:5-60;terzina:5-50-60|pos 3-5 somma 40|
 20261013|lottofacile1|RM,TO|10|0|ambata:82;ambo:52-82;ambo:25-82;terzina:25-52-82|pos 1-5 somma 38|
+20261015|ambosecco_caotico|FI,MI,NA,RM|10|1|ambo:73-88;ambo:81-88|A=82 su FI/MI, B=8 su NA/RM|
+20261015|ambosecco_caotico|NA,RM,FI,MI|10|1|ambo:2-8;ambo:12-89|A=8 su NA/RM, B=82 su FI/MI|
+20261015|lottofacile5|RM|10|0|ambata:3;ambo:3-23;ambo:3-68;quartina:3-23-53-83;quartina:3-8-38-68|rilevamento 16-61|
+20261015|lottofacile5|VE|10|0|ambata:51;ambata:6;ambo:25-51;ambo:51-70;ambo:6-25;ambo:6-70;quartina:25-51-55-85;quartina:10-40-51-70;quartina:6-25-55-85;quartina:6-10-40-70|rilevamento 17-62|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20261015|lottofacile1|CA,GE|10|0|ambata:20;ambo:20-33;ambo:20-39;terzina:20-33-39|pos 2-3 somma 57|
+20261015|lottofacile1|CA,NA|10|0|ambata:8;ambo:8-58;ambo:8-85;terzina:8-58-85|pos 3-4 somma 32|
+20261015|lottofacile1|FI,VE|10|0|ambata:34;ambo:34-72;ambo:27-34;terzina:27-34-72|pos 3-4 somma 18|
+20261015|lottofacile1|MI,TO|10|0|ambata:22;ambo:22-78;ambo:22-87;terzina:22-78-87|pos 4-5 somma 12|
