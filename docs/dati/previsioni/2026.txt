@@ -1700,3 +1700,16 @@
 20261015|lottofacile1|CA,NA|10|0|ambata:8;ambo:8-58;ambo:8-85;terzina:8-58-85|pos 3-4 somma 32|
 20261015|lottofacile1|FI,VE|10|0|ambata:34;ambo:34-72;ambo:27-34;terzina:27-34-72|pos 3-4 somma 18|
 20261015|lottofacile1|MI,TO|10|0|ambata:22;ambo:22-78;ambo:22-87;terzina:22-78-87|pos 4-5 somma 12|
+20261016|ambosecco_caotico|GE,NA,TO|10|1|ambo:2-68;ambo:78-89|A=2 su GE/NA, B=88 su TO|
+20261016|ambosecco_caotico|NA,TO,PA|10|1|ambo:41-84;ambo:84-85|A=46 su NA/TO, B=44 su PA|
+20261016|lottofacile5|CA|10|0|ambata:33;ambata:78;ambo:33-73;ambo:28-33;ambo:73-78;ambo:28-78;quartina:13-33-43-73;quartina:28-33-58-88;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 41-86|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20261016|lottofacile5|MI|10|0|ambata:90;ambo:42-90;ambo:87-90;quartina:12-42-72-90;quartina:27-57-87-90|rilevamento 3-48|
+20261016|lottofacile5|NA|10|0|ambata:33;ambata:78;ambo:33-73;ambo:28-33;ambo:73-78;ambo:28-78;quartina:13-33-43-73;quartina:28-33-58-88;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 14-59|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20261016|lottofacile5|TO|10|0|ambata:39;ambo:20-39;ambo:39-65;quartina:20-39-50-80;quartina:5-35-39-65|rilevamento 1-46|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20261016|lottofacile1|BA,CA|10|0|ambata:82;ambo:53-82;ambo:35-82;terzina:35-53-82|pos 1-4 somma 37|
+20261016|lottofacile1|BA,MI|10|0|ambata:64;ambo:33-64;ambo:39-64;terzina:33-39-64|pos 3-4 somma 57|
+20261016|fulmine|CA,NA|12|0|ambata:86;ambo:41-86;ambo:59-86;ambo:14-86;quartina:14-41-59-86|figura, coppie ((41, 59), (86, 14))|
+20261016|lottofacile4|CA,TO|14|1|ambata:35;ambo:35-80;ambo:35-65;ambo:5-35;terzina:5-65-80|pos 3-5 orizzontale|
+20261016|unsoloambosecco|FI,TO|10|1|ambo:20-40|S=20 su|1, 19, 22, 28, 82, 88
+20261016|lottofacile1|RM,TO|10|0|ambata:2;ambo:2-46;ambo:2-64;terzina:2-46-64|pos 2-5 somma 44|
+20261016|lottofacile4|RM,VE|14|1|ambata:61;ambo:16-61;ambo:1-61;ambo:31-61;terzina:1-16-31|pos 3-4 diagonale|
