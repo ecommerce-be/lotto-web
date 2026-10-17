@@ -1713,3 +1713,17 @@
 20261016|unsoloambosecco|FI,TO|10|1|ambo:20-40|S=20 su|1, 19, 22, 28, 82, 88
 20261016|lottofacile1|RM,TO|10|0|ambata:2;ambo:2-46;ambo:2-64;terzina:2-46-64|pos 2-5 somma 44|
 20261016|lottofacile4|RM,VE|14|1|ambata:61;ambo:16-61;ambo:1-61;ambo:31-61;terzina:1-16-31|pos 3-4 diagonale|
+20261017|ambosecco_caotico|BA,RM,VE|10|1|ambo:32-70;ambo:32-82|A=78 su BA/RM, B=12 su VE|
+20261017|ambosecco_caotico|FI,TO,VE,BA|10|1|ambo:29-46;ambo:39-84|A=51 su FI/TO/VE, B=39 su BA|
+20261017|ambosecco_caotico|GE,RM,PA|10|1|ambo:5-35;ambo:45-89|A=5 su GE/RM, B=85 su PA|
+20261017|lottofacile1|CA,PA|10|0|ambata:38;ambo:38-60;ambo:6-38;terzina:6-38-60|pos 1-4 somma 30|
+20261017|lottofacile1|CA,RM|10|0|ambata:10;ambo:10-11;ambo:10-19;terzina:10-11-19|pos 1-2 somma 79|
+20261017|lottofacile1|FI,MI|10|0|ambata:8;ambo:8-20;ambo:2-8;terzina:2-8-20|pos 2-3 somma 70|
+20261017|lottofacile1|FI,PA|10|0|ambata:64;ambo:20-64;ambo:2-64;terzina:2-20-64|pos 2-3 somma 70|
+20261017|lottofacile1|GE,PA|10|0|ambata:22;ambo:22-84;ambo:22-48;terzina:22-48-84|pos 4-5 somma 6|
+20261017|lottofacile1|GE,TO|10|0|ambata:58;ambo:26-58;ambo:58-62;terzina:26-58-62|pos 1-4 somma 64|
+20261017|lottofacile1|GE,TO|10|0|ambata:72;ambo:19-72;ambo:11-72;terzina:11-19-72|pos 3-4 somma 71|
+20261017|lottofacile1|MI,PA|10|0|ambata:64;ambo:20-64;ambo:2-64;terzina:2-20-64|pos 2-3 somma 70|
+20261017|lottofacile4|MI,TO|14|1|ambata:35;ambo:35-80;ambo:35-65;ambo:5-35;terzina:5-65-80|pos 1-3 verticale|
+20261017|lottofacile1|MI,TO|10|0|ambata:58;ambo:25-58;ambo:52-58;terzina:25-52-58|pos 1-3 somma 65|
+20261017|lottofacile1|PA,TO|10|0|ambata:42;ambo:42-63;ambo:36-42;terzina:36-42-63|pos 2-5 somma 27|
