@@ -2977,63 +2977,26 @@
  {
   "anche_tutte": true,
   "avviso": null,
-  "chiave": "6bed7119a467",
+  "chiave": "4e61647dc34f",
   "colpi": 10,
   "colpi_residui": 10,
   "giorno": "2026-10-23",
   "metodo": "ambosecco_caotico",
   "nome_metodo": "Ambo Secco Caotico — Antonio Longo",
-  "nota": "A=44 su BA/PA, B=46 su RM",
+  "nota": "A=84 su RM/VE, B=6 su FI",
   "per_anno": 628,
   "ruote": [
-   "BA",
-   "PA",
-   "RM"
-  ],
-  "sorti": [
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     6,
-     40
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     16,
-     85
-    ],
-    "tipo": "ambo"
-   }
-  ]
- },
- {
-  "anche_tutte": true,
-  "avviso": null,
-  "chiave": "fb99fdc78ac1",
-  "colpi": 10,
-  "colpi_residui": 10,
-  "giorno": "2026-10-23",
-  "metodo": "ambosecco_caotico",
-  "nome_metodo": "Ambo Secco Caotico — Antonio Longo",
-  "nota": "A=83 su MI/RM, B=7 su TO",
-  "per_anno": 628,
-  "ruote": [
-   "MI",
    "RM",
-   "TO"
+   "VE",
+   "FI"
   ],
   "sorti": [
    {
     "colpi_giocati": 0,
     "colpi_residui": 10,
     "numeri": [
-     74,
-     77
+     66,
+     75
     ],
     "tipo": "ambo"
    },
@@ -3041,7 +3004,7 @@
     "colpi_giocati": 0,
     "colpi_residui": 10,
     "numeri": [
-     77,
+     66,
      81
     ],
     "tipo": "ambo"
@@ -3088,6 +3051,43 @@
  {
   "anche_tutte": true,
   "avviso": null,
+  "chiave": "6bed7119a467",
+  "colpi": 10,
+  "colpi_residui": 10,
+  "giorno": "2026-10-23",
+  "metodo": "ambosecco_caotico",
+  "nome_metodo": "Ambo Secco Caotico — Antonio Longo",
+  "nota": "A=44 su BA/PA, B=46 su RM",
+  "per_anno": 628,
+  "ruote": [
+   "BA",
+   "PA",
+   "RM"
+  ],
+  "sorti": [
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     6,
+     40
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     16,
+     85
+    ],
+    "tipo": "ambo"
+   }
+  ]
+ },
+ {
+  "anche_tutte": true,
+  "avviso": null,
   "chiave": "ee7603a74742",
   "colpi": 10,
   "colpi_residui": 10,
@@ -3125,26 +3125,26 @@
  {
   "anche_tutte": true,
   "avviso": null,
-  "chiave": "4e61647dc34f",
+  "chiave": "fb99fdc78ac1",
   "colpi": 10,
   "colpi_residui": 10,
   "giorno": "2026-10-23",
   "metodo": "ambosecco_caotico",
   "nome_metodo": "Ambo Secco Caotico — Antonio Longo",
-  "nota": "A=84 su RM/VE, B=6 su FI",
+  "nota": "A=83 su MI/RM, B=7 su TO",
   "per_anno": 628,
   "ruote": [
+   "MI",
    "RM",
-   "VE",
-   "FI"
+   "TO"
   ],
   "sorti": [
    {
     "colpi_giocati": 0,
     "colpi_residui": 10,
     "numeri": [
-     66,
-     75
+     74,
+     77
     ],
     "tipo": "ambo"
    },
@@ -3152,7 +3152,7 @@
     "colpi_giocati": 0,
     "colpi_residui": 10,
     "numeri": [
-     66,
+     77,
      81
     ],
     "tipo": "ambo"
@@ -5634,24 +5634,24 @@
  {
   "anche_tutte": false,
   "avviso": null,
-  "chiave": "ce3aa8903eba",
+  "chiave": "1196474ac8d8",
   "colpi": 10,
   "colpi_residui": 10,
   "giorno": "2026-10-23",
   "metodo": "lottofacile1",
   "nome_metodo": "Lotto Facile — Il Metodo Vincente",
-  "nota": "pos 3-4 somma 5",
+  "nota": "pos 3-5 somma 36",
   "per_anno": 1057,
   "ruote": [
-   "BA",
-   "CA"
+   "GE",
+   "PA"
   ],
   "sorti": [
    {
     "colpi_giocati": 0,
     "colpi_residui": 10,
     "numeri": [
-     8
+     40
     ],
     "tipo": "ambata"
    },
@@ -5659,8 +5659,8 @@
     "colpi_giocati": 0,
     "colpi_residui": 10,
     "numeri": [
-     8,
-     85
+     40,
+     54
     ],
     "tipo": "ambo"
    },
@@ -5668,8 +5668,8 @@
     "colpi_giocati": 0,
     "colpi_residui": 10,
     "numeri": [
-     8,
-     58
+     40,
+     45
     ],
     "tipo": "ambo"
    },
@@ -5677,9 +5677,9 @@
     "colpi_giocati": 0,
     "colpi_residui": 10,
     "numeri": [
-     8,
-     58,
-     85
+     40,
+     45,
+     54
     ],
     "tipo": "terzina"
    }
@@ -5742,60 +5742,6 @@
  {
   "anche_tutte": false,
   "avviso": null,
-  "chiave": "e81ea82cce0f",
-  "colpi": 10,
-  "colpi_residui": 10,
-  "giorno": "2026-10-23",
-  "metodo": "lottofacile1",
-  "nome_metodo": "Lotto Facile — Il Metodo Vincente",
-  "nota": "pos 1-3 somma 18",
-  "per_anno": 1057,
-  "ruote": [
-   "FI",
-   "GE"
-  ],
-  "sorti": [
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     80
-    ],
-    "tipo": "ambata"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     72,
-     80
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     27,
-     80
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     27,
-     72,
-     80
-    ],
-    "tipo": "terzina"
-   }
-  ]
- },
- {
-  "anche_tutte": false,
-  "avviso": null,
   "chiave": "c491ebea9768",
   "colpi": 10,
   "colpi_residui": 10,
@@ -5850,24 +5796,24 @@
  {
   "anche_tutte": false,
   "avviso": null,
-  "chiave": "1196474ac8d8",
+  "chiave": "ce3aa8903eba",
   "colpi": 10,
   "colpi_residui": 10,
   "giorno": "2026-10-23",
   "metodo": "lottofacile1",
   "nome_metodo": "Lotto Facile — Il Metodo Vincente",
-  "nota": "pos 3-5 somma 36",
+  "nota": "pos 3-4 somma 5",
   "per_anno": 1057,
   "ruote": [
-   "GE",
-   "PA"
+   "BA",
+   "CA"
   ],
   "sorti": [
    {
     "colpi_giocati": 0,
     "colpi_residui": 10,
     "numeri": [
-     40
+     8
     ],
     "tipo": "ambata"
    },
@@ -5875,8 +5821,8 @@
     "colpi_giocati": 0,
     "colpi_residui": 10,
     "numeri": [
-     40,
-     54
+     8,
+     85
     ],
     "tipo": "ambo"
    },
@@ -5884,8 +5830,8 @@
     "colpi_giocati": 0,
     "colpi_residui": 10,
     "numeri": [
-     40,
-     45
+     8,
+     58
     ],
     "tipo": "ambo"
    },
@@ -5893,9 +5839,63 @@
     "colpi_giocati": 0,
     "colpi_residui": 10,
     "numeri": [
-     40,
-     45,
-     54
+     8,
+     58,
+     85
+    ],
+    "tipo": "terzina"
+   }
+  ]
+ },
+ {
+  "anche_tutte": false,
+  "avviso": null,
+  "chiave": "e81ea82cce0f",
+  "colpi": 10,
+  "colpi_residui": 10,
+  "giorno": "2026-10-23",
+  "metodo": "lottofacile1",
+  "nome_metodo": "Lotto Facile — Il Metodo Vincente",
+  "nota": "pos 1-3 somma 18",
+  "per_anno": 1057,
+  "ruote": [
+   "FI",
+   "GE"
+  ],
+  "sorti": [
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     80
+    ],
+    "tipo": "ambata"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     72,
+     80
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     27,
+     80
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     27,
+     72,
+     80
     ],
     "tipo": "terzina"
    }
