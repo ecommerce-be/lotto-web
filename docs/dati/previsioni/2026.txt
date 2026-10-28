@@ -1768,3 +1768,11 @@
 20261024|lottofacile1|CA,PA|10|0|ambata:34;ambo:33-34;ambo:34-39;terzina:33-34-39|pos 1-2 somma 57|
 20261024|lottofacile1|NA,PA|10|0|ambata:34;ambo:34-44;ambo:34-49;terzina:34-44-49|pos 1-4 somma 46|
 20261024|lottofacile1|NA,RM|10|0|ambata:66;ambo:57-66;ambo:66-75;terzina:57-66-75|pos 4-5 somma 33|
+20261027|ambosecco_caotico|BA,MI,CA|10|1|ambo:51-63;ambo:63-84|A=57 su BA/MI, B=33 su CA|
+20261027|ambosecco_caotico|MI,NA,RM|10|1|ambo:35-61;ambo:61-86|A=39 su MI/NA, B=51 su RM|
+20261027|ambosecco_caotico|MI,PA,VE,CA|10|1|ambo:3-57;ambo:67-89|A=3 su MI/PA/VE, B=87 su CA|
+20261027|ambosecco_caotico|PA,TO,RM|10|1|ambo:4-24;ambo:14-87|A=26 su PA/TO, B=64 su RM|
+20261027|lottofacile5|PA|10|0|ambata:9;ambo:9-60;ambo:9-15;quartina:9-30-60-90;quartina:9-15-45-75|rilevamento 21-66|
+20261027|lottofacile1|BA,NA|10|0|ambata:90;ambo:6-90;ambo:60-90;terzina:6-60-90|pos 4-5 somma 84|
+20261027|fulmine|MI,PA|12|0|ambata:57;ambo:39-57;ambo:21-57;ambo:3-57;quartina:3-21-39-57|figura, coppie ((57, 3), (39, 21))|
+20261027|lottofacile4|PA,VE|14|1|ambata:23;ambo:23-68;ambo:23-53;ambo:23-83;terzina:53-68-83|pos 4-5 diagonale|
