@@ -1785,3 +1785,11 @@
 20261029|lottofacile1|FI,MI|10|0|ambata:4;ambo:4-69;ambo:4-66;terzina:4-66-69|pos 2-3 somma 21|
 20261029|lottofacile1|FI,TO|10|0|ambata:20;ambo:20-56;ambo:20-65;terzina:20-56-65|pos 3-4 somma 34|
 20261029|lottofacile1|MI,RM|10|0|ambata:44;ambo:44-68;ambo:44-86;terzina:44-68-86|pos 3-4 somma 22|
+20261030|ambosecco_caotico|BA,RM,MI|10|1|ambo:52-52;ambo:52-84|A=58 su BA/RM, B=32 su MI|
+20261030|ambosecco_caotico|FI,TO,RM,VE|10|1|ambo:31-62;ambo:31-83|A=69 su FI/TO, B=21 su RM/VE|
+20261030|ambosecco_caotico|FI,RM,VE,TO|10|1|ambo:19-59;ambo:69-87|A=21 su FI/RM/VE, B=69 su TO|
+20261030|ambosecco_caotico|GE,NA,RM,VE,BA|10|1|ambo:20-63;ambo:20-83|A=70 su GE/NA/RM/VE, B=20 su BA|
+20261030|lottofacile1|BA,NA|10|0|ambata:44;ambo:43-44;ambo:34-44;terzina:34-43-44|pos 3-4 somma 47|
+20261030|fulmine|CA,PA|12|0|ambata:84;ambo:64-84;ambo:54-84;ambo:74-84;quartina:54-64-74-84|cadenza, coppie ((64, 74), (54, 84))|
+20261030|lottofacile1|CA,TO|10|0|ambata:8;ambo:8-62;ambo:8-26;terzina:8-26-62|pos 1-4 somma 28|
+20261030|lottofacile1|CA,TO|10|0|ambata:72;ambo:72-75;ambo:57-72;terzina:57-72-75|pos 3-4 somma 15|
