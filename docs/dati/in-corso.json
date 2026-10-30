@@ -2792,43 +2792,6 @@
  {
   "anche_tutte": true,
   "avviso": null,
-  "chiave": "8472482eb47b",
-  "colpi": 10,
-  "colpi_residui": 10,
-  "giorno": "2026-10-29",
-  "metodo": "ambosecco_caotico",
-  "nome_metodo": "Ambo Secco Caotico — Antonio Longo",
-  "nota": "A=30 su GE/MI, B=60 su VE",
-  "per_anno": 628,
-  "ruote": [
-   "GE",
-   "MI",
-   "VE"
-  ],
-  "sorti": [
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     27,
-     60
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     60,
-     87
-    ],
-    "tipo": "ambo"
-   }
-  ]
- },
- {
-  "anche_tutte": true,
-  "avviso": null,
   "chiave": "4793148616ac",
   "colpi": 10,
   "colpi_residui": 10,
@@ -2858,6 +2821,43 @@
     "numeri": [
      83,
      86
+    ],
+    "tipo": "ambo"
+   }
+  ]
+ },
+ {
+  "anche_tutte": true,
+  "avviso": null,
+  "chiave": "8472482eb47b",
+  "colpi": 10,
+  "colpi_residui": 10,
+  "giorno": "2026-10-29",
+  "metodo": "ambosecco_caotico",
+  "nome_metodo": "Ambo Secco Caotico — Antonio Longo",
+  "nota": "A=30 su GE/MI, B=60 su VE",
+  "per_anno": 628,
+  "ruote": [
+   "GE",
+   "MI",
+   "VE"
+  ],
+  "sorti": [
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     27,
+     60
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     60,
+     87
     ],
     "tipo": "ambo"
    }
@@ -5045,6 +5045,60 @@
  {
   "anche_tutte": false,
   "avviso": null,
+  "chiave": "14450627e266",
+  "colpi": 10,
+  "colpi_residui": 10,
+  "giorno": "2026-10-29",
+  "metodo": "lottofacile1",
+  "nome_metodo": "Lotto Facile — Il Metodo Vincente",
+  "nota": "pos 3-4 somma 22",
+  "per_anno": 1054,
+  "ruote": [
+   "MI",
+   "RM"
+  ],
+  "sorti": [
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     44
+    ],
+    "tipo": "ambata"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     44,
+     68
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     44,
+     86
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     44,
+     68,
+     86
+    ],
+    "tipo": "terzina"
+   }
+  ]
+ },
+ {
+  "anche_tutte": false,
+  "avviso": null,
   "chiave": "47d974e2539d",
   "colpi": 10,
   "colpi_residui": 10,
@@ -5091,114 +5145,6 @@
      11,
      19,
      32
-    ],
-    "tipo": "terzina"
-   }
-  ]
- },
- {
-  "anche_tutte": false,
-  "avviso": null,
-  "chiave": "fe318a29f45b",
-  "colpi": 10,
-  "colpi_residui": 10,
-  "giorno": "2026-10-29",
-  "metodo": "lottofacile1",
-  "nome_metodo": "Lotto Facile — Il Metodo Vincente",
-  "nota": "pos 2-5 somma 89",
-  "per_anno": 1054,
-  "ruote": [
-   "CA",
-   "GE"
-  ],
-  "sorti": [
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     28
-    ],
-    "tipo": "ambata"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     1,
-     28
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     10,
-     28
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     1,
-     10,
-     28
-    ],
-    "tipo": "terzina"
-   }
-  ]
- },
- {
-  "anche_tutte": false,
-  "avviso": null,
-  "chiave": "c198ea0adda0",
-  "colpi": 10,
-  "colpi_residui": 10,
-  "giorno": "2026-10-29",
-  "metodo": "lottofacile1",
-  "nome_metodo": "Lotto Facile — Il Metodo Vincente",
-  "nota": "pos 1-2 somma 11",
-  "per_anno": 1054,
-  "ruote": [
-   "FI",
-   "MI"
-  ],
-  "sorti": [
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     18
-    ],
-    "tipo": "ambata"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     18,
-     79
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     18,
-     77
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     18,
-     77,
-     79
     ],
     "tipo": "terzina"
    }
@@ -5261,6 +5207,60 @@
  {
   "anche_tutte": false,
   "avviso": null,
+  "chiave": "c198ea0adda0",
+  "colpi": 10,
+  "colpi_residui": 10,
+  "giorno": "2026-10-29",
+  "metodo": "lottofacile1",
+  "nome_metodo": "Lotto Facile — Il Metodo Vincente",
+  "nota": "pos 1-2 somma 11",
+  "per_anno": 1054,
+  "ruote": [
+   "FI",
+   "MI"
+  ],
+  "sorti": [
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     18
+    ],
+    "tipo": "ambata"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     18,
+     79
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     18,
+     77
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     18,
+     77,
+     79
+    ],
+    "tipo": "terzina"
+   }
+  ]
+ },
+ {
+  "anche_tutte": false,
+  "avviso": null,
   "chiave": "f5cf2145771a",
   "colpi": 10,
   "colpi_residui": 10,
@@ -5315,24 +5315,24 @@
  {
   "anche_tutte": false,
   "avviso": null,
-  "chiave": "14450627e266",
+  "chiave": "fe318a29f45b",
   "colpi": 10,
   "colpi_residui": 10,
   "giorno": "2026-10-29",
   "metodo": "lottofacile1",
   "nome_metodo": "Lotto Facile — Il Metodo Vincente",
-  "nota": "pos 3-4 somma 22",
+  "nota": "pos 2-5 somma 89",
   "per_anno": 1054,
   "ruote": [
-   "MI",
-   "RM"
+   "CA",
+   "GE"
   ],
   "sorti": [
    {
     "colpi_giocati": 0,
     "colpi_residui": 10,
     "numeri": [
-     44
+     28
     ],
     "tipo": "ambata"
    },
@@ -5340,8 +5340,8 @@
     "colpi_giocati": 0,
     "colpi_residui": 10,
     "numeri": [
-     44,
-     68
+     1,
+     28
     ],
     "tipo": "ambo"
    },
@@ -5349,8 +5349,8 @@
     "colpi_giocati": 0,
     "colpi_residui": 10,
     "numeri": [
-     44,
-     86
+     10,
+     28
     ],
     "tipo": "ambo"
    },
@@ -5358,9 +5358,9 @@
     "colpi_giocati": 0,
     "colpi_residui": 10,
     "numeri": [
-     44,
-     68,
-     86
+     1,
+     10,
+     28
     ],
     "tipo": "terzina"
    }
