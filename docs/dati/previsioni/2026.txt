@@ -1793,3 +1793,16 @@
 20261030|fulmine|CA,PA|12|0|ambata:84;ambo:64-84;ambo:54-84;ambo:74-84;quartina:54-64-74-84|cadenza, coppie ((64, 74), (54, 84))|
 20261030|lottofacile1|CA,TO|10|0|ambata:8;ambo:8-62;ambo:8-26;terzina:8-26-62|pos 1-4 somma 28|
 20261030|lottofacile1|CA,TO|10|0|ambata:72;ambo:72-75;ambo:57-72;terzina:57-72-75|pos 3-4 somma 15|
+20261031|ambosecco_caotico|BA,TO,GE|10|1|ambo:66-76;ambo:76-82|A=74 su BA/TO, B=16 su GE|
+20261031|ambosecco_caotico|CA,PA,TO,NA|10|1|ambo:18-70;ambo:70-88|A=20 su CA/PA/TO, B=70 su NA|
+20261031|ambosecco_caotico|NA,PA,FI|10|1|ambo:3-16;ambo:13-88|A=17 su NA/PA, B=73 su FI|
+20261031|lottofacile5|BA|10|0|ambata:36;ambata:81;ambo:36-84;ambo:36-39;ambo:81-84;ambo:39-81;quartina:24-36-54-84;quartina:9-36-39-69;quartina:24-54-81-84;quartina:9-39-69-81|rilevamento 15-60|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20261031|lottofacile1|BA,FI|10|0|ambata:36;ambo:36-64;ambo:36-46;terzina:36-46-64|pos 1-3 somma 26|
+20261031|lottofacile4|BA,MI|14|1|ambata:53;ambo:8-53;ambo:53-83;ambo:23-53;terzina:8-23-83|pos 3-4 diagonale|
+20261031|lottofacile1|BA,MI|10|0|ambata:12;ambo:12-88;ambo:12-89;terzina:12-88-89|pos 3-4 somma 2|
+20261031|lottofacile1|BA,PA|10|0|ambata:34;ambo:19-34;ambo:11-34;terzina:11-19-34|pos 2-3 somma 71|
+20261031|lottofacile1|BA,PA|10|0|ambata:18;ambo:18-88;ambo:18-89;terzina:18-88-89|pos 3-4 somma 2|
+20261031|lottofacile1|GE,PA|10|0|ambata:34;ambo:34-35;ambo:34-53;terzina:34-35-53|pos 2-4 somma 55|
+20261031|lottofacile1|MI,PA|10|0|ambata:18;ambo:18-88;ambo:18-89;terzina:18-88-89|pos 3-4 somma 2|
+20261031|lottofacile1|NA,PA|10|0|ambata:82;ambo:11-82;ambo:19-82;terzina:11-19-82|pos 1-4 somma 79|
+20261031|lottofacile1|NA,TO|10|0|ambata:40;ambo:3-40;ambo:30-40;terzina:3-30-40|pos 2-4 somma 87|
