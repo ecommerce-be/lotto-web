@@ -1806,3 +1806,10 @@
 20261031|lottofacile1|MI,PA|10|0|ambata:18;ambo:18-88;ambo:18-89;terzina:18-88-89|pos 3-4 somma 2|
 20261031|lottofacile1|NA,PA|10|0|ambata:82;ambo:11-82;ambo:19-82;terzina:11-19-82|pos 1-4 somma 79|
 20261031|lottofacile1|NA,TO|10|0|ambata:40;ambo:3-40;ambo:30-40;terzina:3-30-40|pos 2-4 somma 87|
+20261103|ambosecco_caotico|CA,FI,RM,MI|10|1|ambo:36-50;ambo:50-86|A=40 su CA/FI/RM, B=50 su MI|
+20261103|ambosecco_caotico|FI,VE,CA|10|1|ambo:27-30;ambo:37-86|A=33 su FI/VE, B=57 su CA|
+20261103|ambosecco_caotico|GE,RM,PA|10|1|ambo:25-82;ambo:82-87|A=28 su GE/RM, B=62 su PA|
+20261103|lottofacile5|TO|10|0|ambata:42;ambata:87;ambo:42-79;ambo:34-42;ambo:79-87;ambo:34-87;quartina:19-42-49-79;quartina:4-34-42-64;quartina:19-49-79-87;quartina:4-34-64-87|rilevamento 44-89|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20261103|lottofacile5|VE|10|0|ambata:90;ambata:45;ambo:12-90;ambo:57-90;ambo:12-45;ambo:45-57;quartina:12-42-72-90;quartina:27-57-87-90;quartina:12-42-45-72;quartina:27-45-57-87|rilevamento 33-78|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20261103|lottofacile1|BA,NA|10|0|ambata:84;ambo:24-84;ambo:42-84;terzina:24-42-84|pos 3-4 somma 66|
+20261103|lottofacile1|GE,VE|10|0|ambata:74;ambo:74-84;ambo:48-74;terzina:48-74-84|pos 4-5 somma 6|
