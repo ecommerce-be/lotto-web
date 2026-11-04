@@ -1173,119 +1173,6 @@
  {
   "anche_tutte": false,
   "avviso": "potenza ridotta: ambata uscita negli ultimi 6 concorsi",
-  "chiave": "cdfb53d7fb2f",
-  "colpi": 10,
-  "colpi_residui": 10,
-  "giorno": "2026-11-03",
-  "metodo": "lottofacile5",
-  "nome_metodo": "Lotto Facile 5 — Rita Calone",
-  "nota": "rilevamento 44-89",
-  "per_anno": 226,
-  "ruote": [
-   "TO"
-  ],
-  "sorti": [
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     42
-    ],
-    "tipo": "ambata"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     87
-    ],
-    "tipo": "ambata"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     42,
-     79
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     34,
-     42
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     79,
-     87
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     34,
-     87
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     19,
-     42,
-     49,
-     79
-    ],
-    "tipo": "quartina"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     4,
-     34,
-     42,
-     64
-    ],
-    "tipo": "quartina"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     19,
-     49,
-     79,
-     87
-    ],
-    "tipo": "quartina"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     4,
-     34,
-     64,
-     87
-    ],
-    "tipo": "quartina"
-   }
-  ]
- },
- {
-  "anche_tutte": false,
-  "avviso": "potenza ridotta: ambata uscita negli ultimi 6 concorsi",
   "chiave": "3be44fb5eb88",
   "colpi": 10,
   "colpi_residui": 10,
@@ -1390,6 +1277,119 @@
      27,
      45,
      57,
+     87
+    ],
+    "tipo": "quartina"
+   }
+  ]
+ },
+ {
+  "anche_tutte": false,
+  "avviso": "potenza ridotta: ambata uscita negli ultimi 6 concorsi",
+  "chiave": "cdfb53d7fb2f",
+  "colpi": 10,
+  "colpi_residui": 10,
+  "giorno": "2026-11-03",
+  "metodo": "lottofacile5",
+  "nome_metodo": "Lotto Facile 5 — Rita Calone",
+  "nota": "rilevamento 44-89",
+  "per_anno": 226,
+  "ruote": [
+   "TO"
+  ],
+  "sorti": [
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     42
+    ],
+    "tipo": "ambata"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     87
+    ],
+    "tipo": "ambata"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     42,
+     79
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     34,
+     42
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     79,
+     87
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     34,
+     87
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     19,
+     42,
+     49,
+     79
+    ],
+    "tipo": "quartina"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     4,
+     34,
+     42,
+     64
+    ],
+    "tipo": "quartina"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     19,
+     49,
+     79,
+     87
+    ],
+    "tipo": "quartina"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     4,
+     34,
+     64,
      87
     ],
     "tipo": "quartina"
@@ -2463,44 +2463,6 @@
  {
   "anche_tutte": true,
   "avviso": null,
-  "chiave": "82021cc101e5",
-  "colpi": 10,
-  "colpi_residui": 10,
-  "giorno": "2026-11-03",
-  "metodo": "ambosecco_caotico",
-  "nome_metodo": "Ambo Secco Caotico — Antonio Longo",
-  "nota": "A=40 su CA/FI/RM, B=50 su MI",
-  "per_anno": 629,
-  "ruote": [
-   "CA",
-   "FI",
-   "RM",
-   "MI"
-  ],
-  "sorti": [
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     36,
-     50
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     50,
-     86
-    ],
-    "tipo": "ambo"
-   }
-  ]
- },
- {
-  "anche_tutte": true,
-  "avviso": null,
   "chiave": "2001f7d82b08",
   "colpi": 10,
   "colpi_residui": 10,
@@ -2567,6 +2529,44 @@
     "numeri": [
      82,
      87
+    ],
+    "tipo": "ambo"
+   }
+  ]
+ },
+ {
+  "anche_tutte": true,
+  "avviso": null,
+  "chiave": "82021cc101e5",
+  "colpi": 10,
+  "colpi_residui": 10,
+  "giorno": "2026-11-03",
+  "metodo": "ambosecco_caotico",
+  "nome_metodo": "Ambo Secco Caotico — Antonio Longo",
+  "nota": "A=40 su CA/FI/RM, B=50 su MI",
+  "per_anno": 629,
+  "ruote": [
+   "CA",
+   "FI",
+   "RM",
+   "MI"
+  ],
+  "sorti": [
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     36,
+     50
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     50,
+     86
     ],
     "tipo": "ambo"
    }
@@ -5062,60 +5062,6 @@
  {
   "anche_tutte": false,
   "avviso": null,
-  "chiave": "a49f938c7fb5",
-  "colpi": 10,
-  "colpi_residui": 10,
-  "giorno": "2026-11-03",
-  "metodo": "lottofacile1",
-  "nome_metodo": "Lotto Facile — Il Metodo Vincente",
-  "nota": "pos 3-4 somma 66",
-  "per_anno": 1052,
-  "ruote": [
-   "BA",
-   "NA"
-  ],
-  "sorti": [
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     84
-    ],
-    "tipo": "ambata"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     24,
-     84
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     42,
-     84
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     24,
-     42,
-     84
-    ],
-    "tipo": "terzina"
-   }
-  ]
- },
- {
-  "anche_tutte": false,
-  "avviso": null,
   "chiave": "0c7ced980c19",
   "colpi": 10,
   "colpi_residui": 10,
@@ -5161,6 +5107,60 @@
     "numeri": [
      48,
      74,
+     84
+    ],
+    "tipo": "terzina"
+   }
+  ]
+ },
+ {
+  "anche_tutte": false,
+  "avviso": null,
+  "chiave": "a49f938c7fb5",
+  "colpi": 10,
+  "colpi_residui": 10,
+  "giorno": "2026-11-03",
+  "metodo": "lottofacile1",
+  "nome_metodo": "Lotto Facile — Il Metodo Vincente",
+  "nota": "pos 3-4 somma 66",
+  "per_anno": 1052,
+  "ruote": [
+   "BA",
+   "NA"
+  ],
+  "sorti": [
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     84
+    ],
+    "tipo": "ambata"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     24,
+     84
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     42,
+     84
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     24,
+     42,
      84
     ],
     "tipo": "terzina"
