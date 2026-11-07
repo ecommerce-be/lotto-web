@@ -1835,3 +1835,14 @@
 20261106|lottofacile4|FI,MI|14|1|ambata:63;ambo:18-63;ambo:3-63;ambo:33-63;terzina:3-18-33|pos 1-5 orizzontale|
 20261106|lottofacile1|MI,NA|10|0|ambata:76;ambo:67-76;ambo:76-76|pos 3-5 somma 23|
 20261106|lottofacile1|RM,VE|10|0|ambata:68;ambo:57-68;ambo:68-75;terzina:57-68-75|pos 2-4 somma 33|
+20261107|ambosecco_caotico|BA,PA,VE|10|1|ambo:2-8;ambo:12-89|A=8 su BA/PA, B=82 su VE|
+20261107|ambosecco_caotico|CA,FI,PA|10|1|ambo:44-77;ambo:44-81|A=86 su CA/FI, B=4 su PA|
+20261107|ambosecco_caotico|FI,GE,MI,RM|10|1|ambo:15-23;ambo:25-87|A=25 su FI/GE, B=65 su MI/RM|
+20261107|ambosecco_caotico|GE,RM,TO,BA|10|1|ambo:4-24;ambo:14-87|A=26 su GE/RM/TO, B=64 su BA|
+20261107|ambosecco_caotico|MI,RM,FI,GE|10|1|ambo:58-75;ambo:75-83|A=65 su MI/RM, B=25 su FI/GE|
+20261107|lottofacile5|VE|10|0|ambata:12;ambata:57;ambo:12-56;ambo:11-12;ambo:56-57;ambo:11-57;quartina:12-26-56-86;quartina:11-12-41-71;quartina:26-56-57-86;quartina:11-41-57-71|rilevamento 37-82|
+20261107|lottofacile1|BA,CA|10|0|ambata:68;ambo:14-68;ambo:41-68;terzina:14-41-68|pos 1-5 somma 76|
+20261107|lottofacile4|FI,RM|14|1|ambata:39;ambo:39-84;ambo:39-69;ambo:9-39;terzina:9-69-84|pos 3-5 verticale|
+20261107|lottofacile1|FI,RM|10|0|ambata:80;ambo:69-80;ambo:66-80;terzina:66-69-80|pos 3-5 somma 21|
+20261107|lottofacile1|GE,TO|10|0|ambata:4;ambo:4-78;ambo:4-87;terzina:4-78-87|pos 1-4 somma 12|
+20261107|lottofacile1|PA,RM|10|0|ambata:40;ambo:40-89;ambo:40-88;terzina:40-88-89|pos 4-5 somma 1|
