@@ -1846,3 +1846,13 @@
 20261107|lottofacile1|FI,RM|10|0|ambata:80;ambo:69-80;ambo:66-80;terzina:66-69-80|pos 3-5 somma 21|
 20261107|lottofacile1|GE,TO|10|0|ambata:4;ambo:4-78;ambo:4-87;terzina:4-78-87|pos 1-4 somma 12|
 20261107|lottofacile1|PA,RM|10|0|ambata:40;ambo:40-89;ambo:40-88;terzina:40-88-89|pos 4-5 somma 1|
+20261110|ambosecco_caotico|CA,NA,VE,MI,RM|10|1|ambo:43-69;ambo:43-82|A=77 su CA/NA/VE, B=13 su MI/RM|
+20261110|ambosecco_caotico|GE,MI,CA|10|1|ambo:4-24;ambo:14-87|A=26 su GE/MI, B=64 su CA|
+20261110|ambosecco_caotico|MI,RM,CA,NA,VE|10|1|ambo:12-47;ambo:57-88|A=13 su MI/RM, B=77 su CA/NA/VE|
+20261110|ambosecco_caotico|MI,NA,PA|10|1|ambo:17-39;ambo:27-85|A=43 su MI/NA, B=47 su PA|
+20261110|lottofacile5|CA|10|0|ambata:3;ambo:3-38;ambo:3-83;quartina:3-8-38-68;quartina:3-23-53-83|rilevamento 19-64|
+20261110|lottofacile1|BA,RM|10|0|ambata:60;ambo:47-60;ambo:60-74;terzina:47-60-74|pos 3-4 somma 43|
+20261110|lottofacile1|FI,RM|10|0|ambata:54;ambo:54-78;ambo:54-87;terzina:54-78-87|pos 2-3 somma 12|
+20261110|lottofacile1|MI,PA|10|0|ambata:4;ambo:4-51;ambo:4-15;terzina:4-15-51|pos 2-4 somma 39|
+20261110|lottofacile1|MI,TO|10|0|ambata:46;ambo:43-46;ambo:34-46;terzina:34-43-46|pos 1-5 somma 47|
+20261110|lottofacile1|RM,TO|10|0|ambata:4;ambo:4-5;ambo:4-50;terzina:4-5-50|pos 2-4 somma 85|
