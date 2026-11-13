@@ -1856,3 +1856,10 @@
 20261110|lottofacile1|MI,PA|10|0|ambata:4;ambo:4-51;ambo:4-15;terzina:4-15-51|pos 2-4 somma 39|
 20261110|lottofacile1|MI,TO|10|0|ambata:46;ambo:43-46;ambo:34-46;terzina:34-43-46|pos 1-5 somma 47|
 20261110|lottofacile1|RM,TO|10|0|ambata:4;ambo:4-5;ambo:4-50;terzina:4-5-50|pos 2-4 somma 85|
+20261112|ambosecco_caotico|CA,GE,PA,BA|10|1|ambo:10-69;ambo:79-88|A=11 su CA/GE/PA, B=79 su BA|
+20261112|ambosecco_caotico|FI,NA,PA,TO|10|1|ambo:8-56;ambo:18-83|A=62 su FI/NA/PA, B=28 su TO|
+20261112|lottofacile5|MI|10|0|ambata:54;ambo:54-60;ambo:15-54;quartina:30-54-60-90;quartina:15-45-54-75|rilevamento 21-66|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20261112|fulmine|BA,NA|12|0|ambata:73;ambo:13-73;ambo:3-73;ambo:63-73;quartina:3-13-63-73|cadenza, coppie ((73, 3), (13, 63))|
+20261112|lottofacile1|CA,TO|10|0|ambata:2;ambo:2-46;ambo:2-64;terzina:2-46-64|pos 2-3 somma 44|
+20261112|lottofacile1|FI,NA|10|0|ambata:34;ambo:34-55;ambo:34-59;terzina:34-55-59|pos 1-5 somma 35|
+20261112|lottofacile1|FI,TO|10|0|ambata:86;ambo:21-86;ambo:12-86;terzina:12-21-86|pos 3-5 somma 69|
