@@ -2571,44 +2571,6 @@
  {
   "anche_tutte": true,
   "avviso": null,
-  "chiave": "fc5951354141",
-  "colpi": 10,
-  "colpi_residui": 10,
-  "giorno": "2026-11-12",
-  "metodo": "ambosecco_caotico",
-  "nome_metodo": "Ambo Secco Caotico — Antonio Longo",
-  "nota": "A=11 su CA/GE/PA, B=79 su BA",
-  "per_anno": 632,
-  "ruote": [
-   "CA",
-   "GE",
-   "PA",
-   "BA"
-  ],
-  "sorti": [
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     10,
-     69
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     79,
-     88
-    ],
-    "tipo": "ambo"
-   }
-  ]
- },
- {
-  "anche_tutte": true,
-  "avviso": null,
   "chiave": "e80eb43ca7c9",
   "colpi": 10,
   "colpi_residui": 10,
@@ -2639,6 +2601,44 @@
     "numeri": [
      18,
      83
+    ],
+    "tipo": "ambo"
+   }
+  ]
+ },
+ {
+  "anche_tutte": true,
+  "avviso": null,
+  "chiave": "fc5951354141",
+  "colpi": 10,
+  "colpi_residui": 10,
+  "giorno": "2026-11-12",
+  "metodo": "ambosecco_caotico",
+  "nome_metodo": "Ambo Secco Caotico — Antonio Longo",
+  "nota": "A=11 su CA/GE/PA, B=79 su BA",
+  "per_anno": 632,
+  "ruote": [
+   "CA",
+   "GE",
+   "PA",
+   "BA"
+  ],
+  "sorti": [
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     10,
+     69
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     79,
+     88
     ],
     "tipo": "ambo"
    }
