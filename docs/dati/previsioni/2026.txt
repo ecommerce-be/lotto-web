@@ -1883,3 +1883,12 @@
 20261113|lottofacile1|PA,VE|10|0|ambata:42;ambo:19-42;ambo:11-42;terzina:11-19-42|pos 2-4 somma 71|
 20261113|lottofacile1|RM,VE|10|0|ambata:82;ambo:10-82;ambo:1-82;terzina:1-10-82|pos 1-5 somma 80|
 20261113|fulmine|TO,VE|12|0|ambata:84;ambo:21-84;ambo:39-84;ambo:66-84;quartina:21-39-66-84|figura, coppie ((21, 84), (39, 66))|
+20261114|ambosecco_caotico|CA,PA,TO|10|1|ambo:9-64;ambo:19-82|A=71 su CA/PA, B=19 su TO|
+20261114|ambosecco_caotico|FI,TO,NA|10|1|ambo:19-59;ambo:69-87|A=21 su FI/TO, B=69 su NA|
+20261114|ambosecco_caotico|FI,VE,GE|10|1|ambo:15-23;ambo:25-87|A=25 su FI/VE, B=65 su GE|
+20261114|lottofacile5|VE|10|0|ambata:21;ambata:66;ambo:21-89;ambo:21-44;ambo:66-89;ambo:44-66;quartina:21-29-59-89;quartina:14-21-44-74;quartina:29-59-66-89;quartina:14-44-66-74|rilevamento 40-85|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20261114|fulmine|BA,TO|12|0|ambata:57;ambo:30-57;ambo:48-57;ambo:21-57;quartina:21-30-48-57|figura, coppie ((30, 48), (57, 21))|
+20261114|lottofacile1|CA,MI|10|0|ambata:26;ambo:26-67;ambo:26-76;terzina:26-67-76|pos 1-3 somma 23|
+20261114|lottofacile1|FI,PA|10|0|ambata:52;ambo:29-52;ambo:22-52;terzina:22-29-52|pos 1-5 somma 61|
+20261114|lottofacile1|FI,RM|10|0|ambata:72;ambo:3-72;ambo:30-72;terzina:3-30-72|pos 4-5 somma 87|
+20261114|lottofacile1|MI,RM|10|0|ambata:18;ambo:18-75;ambo:18-57;terzina:18-57-75|pos 3-5 somma 15|
