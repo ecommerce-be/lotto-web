@@ -1863,3 +1863,23 @@
 20261112|lottofacile1|CA,TO|10|0|ambata:2;ambo:2-46;ambo:2-64;terzina:2-46-64|pos 2-3 somma 44|
 20261112|lottofacile1|FI,NA|10|0|ambata:34;ambo:34-55;ambo:34-59;terzina:34-55-59|pos 1-5 somma 35|
 20261112|lottofacile1|FI,TO|10|0|ambata:86;ambo:21-86;ambo:12-86;terzina:12-21-86|pos 3-5 somma 69|
+20261113|ambosecco_caotico|CA,PA,FI|10|1|ambo:7-48;ambo:17-84|A=53 su CA/PA, B=37 su FI|
+20261113|ambosecco_caotico|FI,PA,RM|10|1|ambo:30-54;ambo:30-84|A=60 su FI/PA, B=30 su RM|
+20261113|ambosecco_caotico|GE,NA,RM|10|1|ambo:29-38;ambo:48-86|A=32 su GE/NA, B=58 su RM|
+20261113|ambosecco_caotico|NA,RM,GE|10|1|ambo:52-52;ambo:52-84|A=58 su NA/RM, B=32 su GE|
+20261113|lottofacile1|BA,GE|10|0|ambata:58;ambo:2-58;ambo:20-58;terzina:2-20-58|pos 1-2 somma 88|
+20261113|lottofacile4|BA,NA|14|1|ambata:47;ambo:2-47;ambo:47-77;ambo:17-47;terzina:2-17-77|pos 3-5 verticale|
+20261113|lottofacile1|BA,NA|10|0|ambata:64;ambo:22-64;ambo:29-64;terzina:22-29-64|pos 3-5 somma 68|
+20261113|lottofacile1|CA,FI|10|0|ambata:8;ambo:8-12;ambo:8-21;terzina:8-12-21|pos 2-3 somma 78|
+20261113|lottofacile4|FI,RM|14|1|ambata:41;ambo:41-86;ambo:41-71;ambo:11-41;terzina:11-71-86|pos 3-4 verticale|
+20261113|lottofacile1|FI,RM|10|0|ambata:28;ambo:1-28;ambo:10-28;terzina:1-10-28|pos 3-4 somma 89|
+20261113|lottofacile1|GE,NA|10|0|ambata:30;ambo:30-43;ambo:30-34;terzina:30-34-43|pos 2-3 somma 47|
+20261113|lottofacile1|MI,PA|10|0|ambata:30;ambo:10-30;ambo:1-30;terzina:1-10-30|pos 1-5 somma 80|
+20261113|lottofacile1|MI,RM|10|0|ambata:44;ambo:10-44;ambo:1-44;terzina:1-10-44|pos 1-5 somma 80|
+20261113|lottofacile1|MI,VE|10|0|ambata:82;ambo:10-82;ambo:1-82;terzina:1-10-82|pos 1-5 somma 80|
+20261113|lottofacile1|PA,RM|10|0|ambata:44;ambo:10-44;ambo:1-44;terzina:1-10-44|pos 1-5 somma 80|
+20261113|lottofacile1|PA,RM|10|0|ambata:30;ambo:17-30;ambo:30-71;terzina:17-30-71|pos 2-5 somma 73|
+20261113|lottofacile1|PA,VE|10|0|ambata:82;ambo:10-82;ambo:1-82;terzina:1-10-82|pos 1-5 somma 80|
+20261113|lottofacile1|PA,VE|10|0|ambata:42;ambo:19-42;ambo:11-42;terzina:11-19-42|pos 2-4 somma 71|
+20261113|lottofacile1|RM,VE|10|0|ambata:82;ambo:10-82;ambo:1-82;terzina:1-10-82|pos 1-5 somma 80|
+20261113|fulmine|TO,VE|12|0|ambata:84;ambo:21-84;ambo:39-84;ambo:66-84;quartina:21-39-66-84|figura, coppie ((21, 84), (39, 66))|
