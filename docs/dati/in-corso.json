@@ -2773,43 +2773,6 @@
  {
   "anche_tutte": true,
   "avviso": null,
-  "chiave": "c52d9fed4e34",
-  "colpi": 10,
-  "colpi_residui": 10,
-  "giorno": "2026-11-14",
-  "metodo": "ambosecco_caotico",
-  "nome_metodo": "Ambo Secco Caotico — Antonio Longo",
-  "nota": "A=21 su FI/TO, B=69 su NA",
-  "per_anno": 632,
-  "ruote": [
-   "FI",
-   "TO",
-   "NA"
-  ],
-  "sorti": [
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     19,
-     59
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     69,
-     87
-    ],
-    "tipo": "ambo"
-   }
-  ]
- },
- {
-  "anche_tutte": true,
-  "avviso": null,
   "chiave": "8abec4654bd4",
   "colpi": 10,
   "colpi_residui": 10,
@@ -2838,6 +2801,43 @@
     "colpi_residui": 10,
     "numeri": [
      25,
+     87
+    ],
+    "tipo": "ambo"
+   }
+  ]
+ },
+ {
+  "anche_tutte": true,
+  "avviso": null,
+  "chiave": "c52d9fed4e34",
+  "colpi": 10,
+  "colpi_residui": 10,
+  "giorno": "2026-11-14",
+  "metodo": "ambosecco_caotico",
+  "nome_metodo": "Ambo Secco Caotico — Antonio Longo",
+  "nota": "A=21 su FI/TO, B=69 su NA",
+  "per_anno": 632,
+  "ruote": [
+   "FI",
+   "TO",
+   "NA"
+  ],
+  "sorti": [
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     19,
+     59
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     69,
      87
     ],
     "tipo": "ambo"
@@ -5437,60 +5437,6 @@
  {
   "anche_tutte": false,
   "avviso": null,
-  "chiave": "e854ac8c112a",
-  "colpi": 10,
-  "colpi_residui": 10,
-  "giorno": "2026-11-14",
-  "metodo": "lottofacile1",
-  "nome_metodo": "Lotto Facile — Il Metodo Vincente",
-  "nota": "pos 1-5 somma 61",
-  "per_anno": 1057,
-  "ruote": [
-   "FI",
-   "PA"
-  ],
-  "sorti": [
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     52
-    ],
-    "tipo": "ambata"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     29,
-     52
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     22,
-     52
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 10,
-    "numeri": [
-     22,
-     29,
-     52
-    ],
-    "tipo": "terzina"
-   }
-  ]
- },
- {
-  "anche_tutte": false,
-  "avviso": null,
   "chiave": "8e9fb9f224a9",
   "colpi": 10,
   "colpi_residui": 10,
@@ -5591,6 +5537,60 @@
      18,
      57,
      75
+    ],
+    "tipo": "terzina"
+   }
+  ]
+ },
+ {
+  "anche_tutte": false,
+  "avviso": null,
+  "chiave": "e854ac8c112a",
+  "colpi": 10,
+  "colpi_residui": 10,
+  "giorno": "2026-11-14",
+  "metodo": "lottofacile1",
+  "nome_metodo": "Lotto Facile — Il Metodo Vincente",
+  "nota": "pos 1-5 somma 61",
+  "per_anno": 1057,
+  "ruote": [
+   "FI",
+   "PA"
+  ],
+  "sorti": [
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     52
+    ],
+    "tipo": "ambata"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     29,
+     52
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     22,
+     52
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 10,
+    "numeri": [
+     22,
+     29,
+     52
     ],
     "tipo": "terzina"
    }
