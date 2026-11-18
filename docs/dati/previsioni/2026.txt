@@ -1892,3 +1892,9 @@
 20261114|lottofacile1|FI,PA|10|0|ambata:52;ambo:29-52;ambo:22-52;terzina:22-29-52|pos 1-5 somma 61|
 20261114|lottofacile1|FI,RM|10|0|ambata:72;ambo:3-72;ambo:30-72;terzina:3-30-72|pos 4-5 somma 87|
 20261114|lottofacile1|MI,RM|10|0|ambata:18;ambo:18-75;ambo:18-57;terzina:18-57-75|pos 3-5 somma 15|
+20261117|lottofacile5|PA|10|0|ambata:21;ambata:66;ambo:21-89;ambo:21-44;ambo:66-89;ambo:44-66;quartina:21-29-59-89;quartina:14-21-44-74;quartina:29-59-66-89;quartina:14-44-66-74|rilevamento 40-85|
+20261117|lottofacile5|TO|10|0|ambata:9;ambo:9-60;ambo:9-15;quartina:9-30-60-90;quartina:9-15-45-75|rilevamento 21-66|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20261117|lottofacile5|VE|10|0|ambata:33;ambata:78;ambo:33-73;ambo:28-33;ambo:73-78;ambo:28-78;quartina:13-33-43-73;quartina:28-33-58-88;quartina:13-43-73-78;quartina:28-58-78-88|rilevamento 41-86|
+20261117|lottofacile1|CA,PA|10|0|ambata:80;ambo:51-80;ambo:15-80;terzina:15-51-80|pos 3-5 somma 39|
+20261117|lottofacile1|GE,NA|10|0|ambata:56;ambo:52-56;ambo:25-56;terzina:25-52-56|pos 1-4 somma 38|
+20261117|lottofacile1|MI,RM|10|0|ambata:62;ambo:20-62;ambo:2-62;terzina:2-20-62|pos 3-5 somma 70|
