@@ -1898,3 +1898,17 @@
 20261117|lottofacile1|CA,PA|10|0|ambata:80;ambo:51-80;ambo:15-80;terzina:15-51-80|pos 3-5 somma 39|
 20261117|lottofacile1|GE,NA|10|0|ambata:56;ambo:52-56;ambo:25-56;terzina:25-52-56|pos 1-4 somma 38|
 20261117|lottofacile1|MI,RM|10|0|ambata:62;ambo:20-62;ambo:2-62;terzina:2-20-62|pos 3-5 somma 70|
+20261119|ambosecco_caotico|BA,NA,PA|10|1|ambo:30-54;ambo:30-84|A=60 su BA/NA, B=30 su PA|
+20261119|ambosecco_caotico|GE,TO,NA|10|1|ambo:58-75;ambo:75-83|A=65 su GE/TO, B=25 su NA|
+20261119|ambosecco_caotico|NA,RM,PA|10|1|ambo:41-53;ambo:41-84|A=59 su NA/RM, B=31 su PA|
+20261119|ambosecco_caotico|NA,RM,CA|10|1|ambo:29-46;ambo:39-84|A=51 su NA/RM, B=39 su CA|
+20261119|ambosecco_caotico|NA,VE,FI|10|1|ambo:31-62;ambo:31-83|A=69 su NA/VE, B=21 su FI|
+20261119|ambosecco_caotico|PA,TO,RM|10|1|ambo:18-47;ambo:28-84|A=52 su PA/TO, B=38 su RM|
+20261119|lottofacile5|TO|10|0|ambata:21;ambata:66;ambo:5-21;ambo:21-50;ambo:5-66;ambo:50-66;quartina:5-21-35-65;quartina:20-21-50-80;quartina:5-35-65-66;quartina:20-50-66-80|rilevamento 7-52|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20261119|lottofacile1|CA,NA|10|0|ambata:50;ambo:50-86;ambo:50-68;terzina:50-68-86|pos 1-4 somma 4|
+20261119|fulmine|FI,TO|12|0|ambata:79;ambo:70-79;ambo:7-79;ambo:16-79;quartina:7-16-70-79|figura, coppie ((70, 16), (79, 7))|
+20261119|lottofacile1|GE,TO|10|0|ambata:40;ambo:9-40;ambo:40-90;terzina:9-40-90|pos 3-4 somma 81|
+20261119|lottofacile1|GE,VE|10|0|ambata:72;ambo:12-72;ambo:21-72;terzina:12-21-72|pos 1-5 somma 78|
+20261119|lottofacile1|MI,TO|10|0|ambata:40;ambo:10-40;ambo:1-40;terzina:1-10-40|pos 3-5 somma 80|
+20261119|lottofacile1|NA,VE|10|0|ambata:84;ambo:51-84;ambo:15-84;terzina:15-51-84|pos 4-5 somma 39|
+20261119|lottofacile1|PA,RM|10|0|ambata:18;ambo:18-43;ambo:18-34;terzina:18-34-43|pos 2-3 somma 47|
