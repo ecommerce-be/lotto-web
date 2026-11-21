@@ -1912,3 +1912,16 @@
 20261119|lottofacile1|MI,TO|10|0|ambata:40;ambo:10-40;ambo:1-40;terzina:1-10-40|pos 3-5 somma 80|
 20261119|lottofacile1|NA,VE|10|0|ambata:84;ambo:51-84;ambo:15-84;terzina:15-51-84|pos 4-5 somma 39|
 20261119|lottofacile1|PA,RM|10|0|ambata:18;ambo:18-43;ambo:18-34;terzina:18-34-43|pos 2-3 somma 47|
+20261120|ambosecco_caotico|BA,VE,RM|10|1|ambo:17-81;ambo:81-88|A=19 su BA/VE, B=71 su RM|
+20261120|ambosecco_caotico|FI,TO,PA|10|1|ambo:59-64;ambo:64-83|A=66 su FI/TO, B=24 su PA|
+20261120|ambosecco_caotico|GE,MI,CA|10|1|ambo:53-60;ambo:53-83|A=67 su GE/MI, B=23 su CA|
+20261120|fulmine|BA,PA|12|0|ambata:37;ambo:19-37;ambo:28-37;ambo:10-37;quartina:10-19-28-37|figura, coppie ((37, 10), (19, 28))|
+20261120|lottofacile1|CA,FI|10|0|ambata:12;ambo:12-18;ambo:12-81;terzina:12-18-81|pos 3-4 somma 72|
+20261120|lottofacile1|CA,GE|10|0|ambata:18;ambo:18-59;ambo:18-55;terzina:18-55-59|pos 1-3 somma 31|
+20261120|lottofacile1|CA,MI|10|0|ambata:44;ambo:44-73;ambo:37-44;terzina:37-44-73|pos 4-5 somma 17|
+20261120|lottofacile1|CA,NA|10|0|ambata:26;ambo:9-26;ambo:26-90;terzina:9-26-90|pos 3-5 somma 81|
+20261120|lottofacile4|FI,PA|14|1|ambata:19;ambo:19-64;ambo:19-49;ambo:19-79;terzina:49-64-79|pos 3-4 orizzontale|
+20261120|lottofacile1|FI,VE|10|0|ambata:20;ambo:16-20;ambo:20-61;terzina:16-20-61|pos 2-3 somma 74|
+20261120|lottofacile1|MI,NA|10|0|ambata:8;ambo:8-28;ambo:8-82;terzina:8-28-82|pos 2-3 somma 62|
+20261120|lottofacile4|MI,PA|14|1|ambata:89;ambo:44-89;ambo:29-89;ambo:59-89;terzina:29-44-59|pos 3-5 diagonale|
+20261120|unsoloambosecco|MI,PA|10|1|ambo:11-22|S=11 su|1, 10, 40, 40, 61, 61
