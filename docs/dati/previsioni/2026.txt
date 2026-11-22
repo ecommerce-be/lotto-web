@@ -1925,3 +1925,11 @@
 20261120|lottofacile1|MI,NA|10|0|ambata:8;ambo:8-28;ambo:8-82;terzina:8-28-82|pos 2-3 somma 62|
 20261120|lottofacile4|MI,PA|14|1|ambata:89;ambo:44-89;ambo:29-89;ambo:59-89;terzina:29-44-59|pos 3-5 diagonale|
 20261120|unsoloambosecco|MI,PA|10|1|ambo:11-22|S=11 su|1, 10, 40, 40, 61, 61
+20261121|ambosecco_caotico|FI,NA,TO,VE|10|1|ambo:21-71;ambo:21-82|A=79 su FI/NA, B=11 su TO/VE|
+20261121|ambosecco_caotico|TO,VE,FI,NA|10|1|ambo:10-69;ambo:79-88|A=11 su TO/VE, B=79 su FI/NA|
+20261121|lottofacile5|BA|10|0|ambata:9;ambata:54;ambo:9-45;ambo:9-90;ambo:45-54;ambo:54-90;quartina:9-15-45-75;quartina:9-30-60-90;quartina:15-45-54-75;quartina:30-54-60-90|rilevamento 36-81|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20261121|lottofacile1|BA,GE|10|0|ambata:74;ambo:12-74;ambo:21-74;terzina:12-21-74|pos 3-4 somma 78|
+20261121|lottofacile1|FI,PA|10|0|ambata:88;ambo:41-88;ambo:14-88;terzina:14-41-88|pos 1-4 somma 49|
+20261121|lottofacile1|FI,PA|10|0|ambata:10;ambo:10-13;ambo:10-31;terzina:10-13-31|pos 4-5 somma 77|
+20261121|lottofacile1|MI,TO|10|0|ambata:78;ambo:59-78;ambo:55-78;terzina:55-59-78|pos 1-4 somma 31|
+20261121|lottofacile1|RM,VE|10|0|ambata:90;ambo:12-90;ambo:21-90;terzina:12-21-90|pos 2-4 somma 78|
