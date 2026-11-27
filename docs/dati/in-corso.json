@@ -659,69 +659,6 @@
  {
   "anche_tutte": true,
   "avviso": null,
-  "chiave": "b7c97ad4540d",
-  "colpi": 14,
-  "colpi_residui": 14,
-  "giorno": "2026-11-26",
-  "metodo": "lottofacile4",
-  "nome_metodo": "Lotto Facile 4 — Ciclo-Pondometria",
-  "nota": "pos 2-3 diagonale",
-  "per_anno": 152,
-  "ruote": [
-   "CA",
-   "VE"
-  ],
-  "sorti": [
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 14,
-    "numeri": [
-     71
-    ],
-    "tipo": "ambata"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 14,
-    "numeri": [
-     26,
-     71
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 14,
-    "numeri": [
-     11,
-     71
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 14,
-    "numeri": [
-     41,
-     71
-    ],
-    "tipo": "ambo"
-   },
-   {
-    "colpi_giocati": 0,
-    "colpi_residui": 14,
-    "numeri": [
-     11,
-     26,
-     41
-    ],
-    "tipo": "terzina"
-   }
-  ]
- },
- {
-  "anche_tutte": true,
-  "avviso": null,
   "chiave": "696e3a27a542",
   "colpi": 14,
   "colpi_residui": 14,
@@ -777,6 +714,69 @@
      5,
      20,
      35
+    ],
+    "tipo": "terzina"
+   }
+  ]
+ },
+ {
+  "anche_tutte": true,
+  "avviso": null,
+  "chiave": "b7c97ad4540d",
+  "colpi": 14,
+  "colpi_residui": 14,
+  "giorno": "2026-11-26",
+  "metodo": "lottofacile4",
+  "nome_metodo": "Lotto Facile 4 — Ciclo-Pondometria",
+  "nota": "pos 2-3 diagonale",
+  "per_anno": 152,
+  "ruote": [
+   "CA",
+   "VE"
+  ],
+  "sorti": [
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 14,
+    "numeri": [
+     71
+    ],
+    "tipo": "ambata"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 14,
+    "numeri": [
+     26,
+     71
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 14,
+    "numeri": [
+     11,
+     71
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 14,
+    "numeri": [
+     41,
+     71
+    ],
+    "tipo": "ambo"
+   },
+   {
+    "colpi_giocati": 0,
+    "colpi_residui": 14,
+    "numeri": [
+     11,
+     26,
+     41
     ],
     "tipo": "terzina"
    }
