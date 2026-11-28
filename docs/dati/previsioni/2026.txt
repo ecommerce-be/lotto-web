@@ -1951,3 +1951,14 @@
 20261126|lottofacile1|GE,TO|10|0|ambata:66;ambo:66-67;ambo:66-76;terzina:66-67-76|pos 3-4 somma 23|
 20261126|lottofacile4|PA,TO|14|1|ambata:65;ambo:20-65;ambo:5-65;ambo:35-65;terzina:5-20-35|pos 1-4 orizzontale|
 20261126|lottofacile1|RM,VE|10|0|ambata:2;ambo:2-18;ambo:2-81;terzina:2-18-81|pos 3-4 somma 72|
+20261127|ambosecco_caotico|BA,CA,MI|10|1|ambo:74-77;ambo:77-81|A=83 su BA/CA, B=7 su MI|
+20261127|ambosecco_caotico|GE,MI,PA|10|1|ambo:65-67;ambo:65-82|A=75 su GE/MI, B=15 su PA|
+20261127|lottofacile5|CA|10|0|ambata:18;ambata:63;ambo:12-18;ambo:18-57;ambo:12-63;ambo:57-63;quartina:12-18-42-72;quartina:18-27-57-87;quartina:12-42-63-72;quartina:27-57-63-87|rilevamento 9-54|potenza ridotta: ambata uscita negli ultimi 6 concorsi
+20261127|lottofacile4|CA,FI|14|1|ambata:83;ambo:38-83;ambo:23-83;ambo:53-83;terzina:23-38-53|pos 2-5 verticale|
+20261127|lottofacile1|CA,NA|10|0|ambata:36;ambo:36-69;ambo:36-66;terzina:36-66-69|pos 1-4 somma 21|
+20261127|lottofacile1|FI,RM|10|0|ambata:8;ambo:8-81;ambo:8-18;terzina:8-18-81|pos 4-5 somma 9|
+20261127|lottofacile1|FI,VE|10|0|ambata:44;ambo:20-44;ambo:2-44;terzina:2-20-44|pos 2-4 somma 70|
+20261127|lottofacile1|GE,TO|10|0|ambata:88;ambo:21-88;ambo:12-88;terzina:12-21-88|pos 2-4 somma 69|
+20261127|lottofacile1|MI,TO|10|0|ambata:40;ambo:39-40;ambo:33-40;terzina:33-39-40|pos 3-5 somma 51|
+20261127|fulmine|MI,VE|12|0|ambata:75;ambo:66-75;ambo:39-75;ambo:48-75;quartina:39-48-66-75|figura, coppie ((75, 39), (66, 48))|
+20261127|lottofacile1|PA,RM|10|0|ambata:74;ambo:49-74;ambo:44-74;terzina:44-49-74|pos 1-4 somma 41|
